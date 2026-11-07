@@ -1,0 +1,195 @@
+infra.version: '1'
+task_name: _motor_imagery_stream
+data:
+  study:
+    name: Chain
+    steps:
+      source:
+        name: Dreyer2026Proteus
+        version: ''
+        query: null
+      split:
+        name: SklearnSplit
+        split_by: subject
+        valid_split_ratio: 0.2
+        test_split_ratio: 0.2
+        valid_random_state: 33
+        test_random_state: 33
+        stratify_by: null
+  neuro:
+    name: EegExtractor
+    event_types: Eeg
+    aggregation: single
+    allow_missing: false
+    frequency: 120.0
+    offset: 0.0
+    baseline: null
+    picks:
+    - eeg
+    apply_proj: false
+    filter:
+    - 0.1
+    - 75.0
+    on_filter_too_long: raise
+    apply_hilbert: false
+    notch_filter:
+    - 50.0
+    - 60.0
+    drop_bads: false
+    infra.version: '1'
+    scaler: null
+    store_dtype: float32
+    scale_factor: 1000000.0
+    clamp: null
+    fill_non_finite: null
+    bipolar_ref: null
+    channel_order: unique
+  target:
+    name: LabelEncoder
+    event_types: Stimulus
+    aggregation: trigger
+    allow_missing: false
+    frequency: 0.0
+    event_field: code
+    treat_missing_as_separate_class: false
+    return_one_hot: true
+    predefined_mapping: null
+  channel_positions:
+    name: ChannelPositions
+    event_types: MneRaw
+    aggregation: single
+    allow_missing: false
+    frequency: 0.0
+    neuro: null
+    n_spatial_dims: 3
+    layout_or_montage_name: null
+    include_ref_eeg: false
+    normalize: true
+    factor: 1.0
+    infra.version: '0'
+  trigger_event_type: Stimulus
+  start: 1.0
+  duration: 4.0
+  stride: null
+  stride_drop_incomplete: true
+  drop_incomplete: false
+  min_finite_target_fraction: null
+  sampler: null
+  batch_size: 64
+  val_batch_size: null
+  test_batch_size: 1
+  train_shuffle: true
+  val_shuffle: false
+  test_shuffle: false
+  num_workers: 10
+  drop_last: false
+  pin_memory: true
+  persistent_workers: true
+  prefetch_factor: null
+  seed: 33
+  stream_by:
+  - subject
+  - session
+  summary_columns:
+  - code
+target_scaler: null
+compute_class_weights: true
+brain_model_config:
+  name: EEGNet
+  kwargs: {}
+  from_pretrained_name: null
+brain_model_output_size: 3
+pretrained_weights_fname: null
+downstream_model_wrapper: null
+trainer_config:
+  n_epochs: 1
+  enable_progress_bar: true
+  log_every_n_steps: 20
+  fast_dev_run: false
+  gradient_clip_val: 1.0
+  limit_train_batches: 1
+  limit_val_batches: 1
+  num_sanity_val_steps: 0
+  accumulate_grad_batches: 1
+  strategy: auto
+  precision: 32-true
+  accelerator: auto
+  devices: 1
+  num_nodes: 1
+  patience: 5
+  monitor: val/bal_acc_stream_mean
+  mode: max
+max_neuro_hours_per_epoch: null
+loss:
+  name: CrossEntropyLoss
+  kwargs.label_smoothing: 0.1
+lightning_optimizer_config:
+  name: LightningOptimizer
+  optimizer:
+    name: AdamW
+    lr: 0.0001
+    kwargs.weight_decay: 0.05
+  scheduler:
+    name: OneCycleLR
+    kwargs:
+      max_lr: 0.0001
+      pct_start: 0.1
+      anneal_strategy: cos
+  interval: step
+augmentation: null
+eval_only: false
+metrics:
+- name: Accuracy
+  log_name: acc
+  kwargs:
+    task: multiclass
+    num_classes: 3
+- name: F1Score
+  log_name: f1_score_micro
+  kwargs:
+    task: multiclass
+    average: micro
+    num_classes: 3
+- name: F1Score
+  log_name: f1_score_macro
+  kwargs:
+    task: multiclass
+    average: macro
+    num_classes: 3
+- name: Accuracy
+  log_name: bal_acc
+  kwargs:
+    task: multiclass
+    num_classes: 3
+    average: macro
+- name: AUROC
+  log_name: auroc
+  kwargs:
+    task: multiclass
+    num_classes: 3
+- name: AveragePrecision
+  log_name: auprc
+  kwargs:
+    task: multiclass
+    num_classes: 3
+    average: macro
+- name: ConfusionMatrix
+  log_name: confusion_matrix
+  kwargs:
+    task: multiclass
+    num_classes: 3
+- name: GroupedMetric
+  log_name: bal_acc_stream_mean
+  metric_name: Accuracy
+  kwargs:
+    task: multiclass
+    num_classes: 3
+    average: macro
+  reduction: mean
+validate_before_training: true
+test_full_metrics: []
+test_full_retrieval_metrics: []
+save_test_predictions: false
+seed: 33
+delete_checkpoints_on_exit: true
+dummy: {}

@@ -1,0 +1,45 @@
+submitit INFO (2026-11-02 18:55:25,374) - Starting with JobEnvironment(job_id=39149, hostname=Egors-MacBook-Pro.local, local_rank=0(1), node=0(1), global_rank=0(1))
+submitit INFO (2026-11-02 18:55:25,374) - Loading pickle: /var/folders/0g/cbzx8x4551vc_x1pjm9yp9140000gn/T/neuralbench/save/neuralbench.main.Experiment.run,1/logs/egormaksimov/39149/39149_submitted.pkl
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃      Validate metric      ┃       DataLoader 0        ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│          val/acc          │          0.28125          │
+│         val/auprc         │    0.34591957926750183    │
+│         val/auroc         │    0.44315242767333984    │
+│        val/bal_acc        │    0.2770562767982483     │
+│  val/bal_acc_stream_mean  │    0.2770562767982483     │
+│    val/f1_score_macro     │    0.23796887695789337    │
+│    val/f1_score_micro     │          0.28125          │
+│         val/loss          │    1.3009111881256104     │
+└───────────────────────────┴───────────────────────────┘
+Validation ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1/1 0:00:02 • 0:00:00 0.00it/s 
+Epoch 0/0  ━━━━━━━━━━━━━━━━━━ 1/1 0:00:02 • 0:00:00 0.00it/s train/loss_step:   
+                                                             1.062 val/loss:    
+                                                             1.149 val/acc:     
+                                                             0.250              
+                                                             val/f1_score_micro:
+                                                             0.250              
+                                                             val/f1_score_macro:
+                                                             0.205 val/bal_acc: 
+                                                             0.245 val/auroc:   
+                                                             0.459 val/auprc:   
+                                                             0.344              
+                                                             val/bal_acc_stream…
+                                                             0.245              
+                                                             train/loss_epoch:  
+                                                             1.062              
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃        Test metric        ┃       DataLoader 0        ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│         test/acc          │    0.33112582564353943    │
+│        test/auprc         │    0.31975439190864563    │
+│        test/auroc         │    0.4697672426700592     │
+│       test/bal_acc        │     0.330635130405426     │
+│ test/bal_acc_stream_mean  │    0.33107995986938477    │
+│    test/f1_score_macro    │    0.3144901394844055     │
+│    test/f1_score_micro    │    0.33112582564353943    │
+│         test/loss         │    1.1064022779464722     │
+└───────────────────────────┴───────────────────────────┘
+Testing ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 755/755 0:00:10 • 0:00:00 78.01it/s 
+submitit INFO (2026-11-02 19:00:23,199) - Job completed successfully
+submitit INFO (2026-11-02 19:00:23,199) - Exiting after successful completion

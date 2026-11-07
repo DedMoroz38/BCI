@@ -1,0 +1,9 @@
+40 jobs
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   5 tasks      | elapsed:  3.5min
+[Parallel(n_jobs=4)]: Done  10 tasks      | elapsed:  5.3min
+[Parallel(n_jobs=4)]: Done  17 tasks      | elapsed:  7.5min
+[Parallel(n_jobs=4)]: Done  24 tasks      | elapsed:  9.2min
+[Parallel(n_jobs=4)]: Done  33 tasks      | elapsed: 11.7min
+[Parallel(n_jobs=4)]: Done  38 out of  40 | elapsed: 12.7min remaining:   40.2s
+[Parallel(n_jobs=4)]: Done  40 out of  40 | elapsed: 13.9min finished
