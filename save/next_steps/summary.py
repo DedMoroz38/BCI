@@ -14,7 +14,7 @@ def paired(df, key, base, value="session_mean"):
         wide = d.pivot_table(index=["seed", "fold"], columns=key, values=value)
         wide = wide.dropna(subset=[base])
         for c in wide.columns:
-            w = wide[[base, c]].dropna()
+            w = wide[[base]].dropna() if c == base else wide[[base, c]].dropna()
             if w.empty:
                 continue
             diff = (w[c] - w[base])
