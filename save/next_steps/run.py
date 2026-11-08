@@ -29,6 +29,7 @@ CONFIGS = {  # name: (augment, n_trees, stretch)
     "lag100_stretch": ("lag", 100, 10),
     "lag3_100": ("lag3", 100, None),
     "randlag100": ("randlag", 100, None),
+    "lag3_100_stretch": ("lag3", 100, 10),  # added 2026-11-08: the combination of the two winners
 }
 LATER = "later sessions"
 

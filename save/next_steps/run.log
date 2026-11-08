@@ -40,3 +40,13 @@ Detailed tracebacks of the workers should have been printed to stderr in the exe
 /Users/egormaksimov/Documents/PROGRAMMING/BCI/.venv/lib/python3.12/site-packages/joblib/externals/loky/process_executor.py:787: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
   warnings.warn(
 [Parallel(n_jobs=4)]: Done  79 out of  79 | elapsed: 39.7min finished
+38 jobs
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   5 tasks      | elapsed:  6.1min
+/Users/egormaksimov/Documents/PROGRAMMING/BCI/.venv/lib/python3.12/site-packages/joblib/externals/loky/process_executor.py:787: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+[Parallel(n_jobs=4)]: Done  10 tasks      | elapsed:  9.3min
+[Parallel(n_jobs=4)]: Done  17 tasks      | elapsed: 15.6min
+[Parallel(n_jobs=4)]: Done  24 tasks      | elapsed: 18.8min
+[Parallel(n_jobs=4)]: Done  35 out of  38 | elapsed: 27.6min remaining:  2.4min
+[Parallel(n_jobs=4)]: Done  38 out of  38 | elapsed: 30.2min finished

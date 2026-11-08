@@ -1,1 +1,38 @@
-(eval):1: no such file or directory: ../../BCI/.venv/bin/python
+steps 1-2 (vs lag100; LOSO 'better' = subjects, later = seeds)
+protocol           config  n_runs   mean    diff     se better
+    LOSO           lag100      32 0.5498  0.0000 0.0000    0/8
+    LOSO   lag100_stretch      32 0.5564  0.0067 0.0039    5/8
+    LOSO         lag3_100      32 0.5476 -0.0021 0.0033    4/8
+    LOSO lag3_100_stretch      32 0.5560  0.0062 0.0050    5/8
+    LOSO       randlag100      32 0.5456 -0.0041 0.0052    5/8
+   later           lag100       6 0.6797  0.0000 0.0000    0/6
+   later   lag100_stretch       6 0.6756 -0.0040 0.0085    2/6
+   later         lag3_100       6 0.7088  0.0291 0.0030    6/6
+   later lag3_100_stretch       6 0.7072  0.0275 0.0045    6/6
+   later       randlag100       6 0.6812  0.0015 0.0165    3/6
+
+step 3 TTA on lag100, seed 0 (selection)
+protocol      config  n_runs   mean    diff     se better
+    LOSO        none       8 0.5484  0.0000 0.0000    0/8
+    LOSO q0.3_lam0.1       8 0.4772 -0.0712 0.0302    1/8
+    LOSO q0.3_lam1.0       8 0.4914 -0.0571 0.0329    2/8
+    LOSO q0.6_lam0.1       8 0.4788 -0.0696 0.0309    2/8
+    LOSO q0.6_lam1.0       8 0.4741 -0.0743 0.0264    1/8
+   later        none       1 0.7035  0.0000    NaN    0/1
+   later q0.3_lam0.1       1 0.5155 -0.1881    NaN    0/1
+   later q0.3_lam1.0       1 0.4824 -0.2212    NaN    0/1
+   later q0.6_lam0.1       1 0.4720 -0.2315    NaN    0/1
+   later q0.6_lam1.0       1 0.4873 -0.2162    NaN    0/1
+
+step 3 TTA on lag100, seeds 1-3 LOSO + later 0-5
+protocol      config  n_runs   mean    diff     se better
+    LOSO        none      24 0.5502  0.0000 0.0000    0/8
+    LOSO q0.3_lam0.1      24 0.4787 -0.0715 0.0291    2/8
+    LOSO q0.3_lam1.0      24 0.4890 -0.0612 0.0278    2/8
+    LOSO q0.6_lam0.1      24 0.4758 -0.0744 0.0291    2/8
+    LOSO q0.6_lam1.0      24 0.4797 -0.0705 0.0281    1/8
+   later        none       6 0.6797  0.0000 0.0000    0/6
+   later q0.3_lam0.1       6 0.4878 -0.1919 0.0171    0/6
+   later q0.3_lam1.0       6 0.4634 -0.2163 0.0084    0/6
+   later q0.6_lam0.1       6 0.4693 -0.2104 0.0178    0/6
+   later q0.6_lam1.0       6 0.5098 -0.1699 0.0233    0/6
