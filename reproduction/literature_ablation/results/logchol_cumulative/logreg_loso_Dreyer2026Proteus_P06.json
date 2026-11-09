@@ -1,0 +1,28 @@
+{
+  "variant": "logchol_cumulative",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P06",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P06"
+  ],
+  "train_windows": 1713,
+  "eval_windows": 187,
+  "fit_seconds": 4.281993916956708,
+  "total_seconds": 4.8935074170003645,
+  "session_mean_delta_vs_control": -0.016214371053080767,
+  "reference_update": "C_i=chol(R_i); average strict lower(C_i) and log(diag(C_i)), prior mass=5; M=Cbar*Cbar.T",
+  "cell_mean": 0.4952060931899641,
+  "session_mean": 0.49624509301928654,
+  "pooled": 0.49624509301928654,
+  "accuracy": 0.49732620320855614
+}

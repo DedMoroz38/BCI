@@ -1,0 +1,22 @@
+{
+  "completed_folds": [
+    "later_last",
+    "loso_P01",
+    "loso_P02",
+    "loso_P03",
+    "loso_P04",
+    "loso_P05",
+    "loso_P06",
+    "loso_P07",
+    "loso_P08",
+    "loso_P09",
+    "loso_P10"
+  ],
+  "planned_folds": 11,
+  "configs_per_prior": 123,
+  "priors": [
+    "lag4",
+    "lag4_swad"
+  ],
+  "full_oof": true
+}

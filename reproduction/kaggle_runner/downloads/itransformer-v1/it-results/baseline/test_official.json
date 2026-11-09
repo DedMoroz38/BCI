@@ -1,0 +1,32 @@
+{
+  "model": "baseline",
+  "tag": "test_official",
+  "source_sha256": "e952ae120bb69f8a1881f8419e10dd1150834768911526b6bbe77b7df4475136",
+  "fingerprint": "d88d6281c1750d1c14ef07716f0f2d12aa2051473a690df70099607ebb3dd40b",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P04",
+    "Dreyer2026Proteus/P09"
+  ],
+  "training_windows": 1521,
+  "eval_windows": 755,
+  "predictions_sha256": "88c5c094c9ed1803d17bf48638a0298d97ce902e8373391c87e38e5906e2ad22",
+  "cell_mean": 0.46636444042763564,
+  "session_mean": 0.46451944509148047,
+  "pooled": 0.46444633677818387,
+  "accuracy": 0.4649006622516556,
+  "log_loss": 1.3739257673419294,
+  "brier": 0.741749059686603,
+  "seconds": 21.826163294000025,
+  "exact_original_single_model": true,
+  "historical_prediction_match": true,
+  "checkpoint_sha256": "9796f591f9b987c59ffe810031896f6f3f909c3f4c158c751eda679335730982",
+  "warnings": []
+}

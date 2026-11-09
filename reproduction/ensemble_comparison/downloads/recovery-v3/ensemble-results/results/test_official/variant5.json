@@ -1,0 +1,13 @@
+{
+  "variant": "all but deep",
+  "tag": "test_official",
+  "manifest_sha256": "7260835c56d59d74a11bf4188ceb7dbf0bef81153a2a0a3caa77b0773aed40c4",
+  "prediction_sha256": "bb8ad0033c9f7042e2e24058206f45a3877e6f307d46f1b584b9fd72ffefe0d7",
+  "eval_seconds": 75.08586666500014,
+  "cell_mean": 0.5256557247250031,
+  "session_mean": 0.5245214163651829,
+  "pooled": 0.5243991840377382,
+  "accuracy": 0.5245033112582781,
+  "log_loss": 1.02268950746263,
+  "brier": 0.6157964814972671
+}

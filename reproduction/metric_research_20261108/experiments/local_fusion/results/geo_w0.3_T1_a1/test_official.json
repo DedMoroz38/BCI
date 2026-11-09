@@ -1,0 +1,17 @@
+{
+  "prediction_sha256": "6f949660b9f82973474b585a4018ea4c72d082eb84b288e9c08a0a62d99d72ae",
+  "tag": "test_official",
+  "config": {
+    "name": "geo_w0.3_T1_a1",
+    "weight": 0.3,
+    "temp": 1,
+    "alpha": 1,
+    "pool": "geometric"
+  },
+  "cell_mean": 0.4923783949758991,
+  "session_mean": 0.491454764580343,
+  "pooled": 0.4915388337501989,
+  "accuracy": 0.4913907284768212,
+  "log_loss": 1.0413785503573059,
+  "brier": 0.6215125730475172
+}

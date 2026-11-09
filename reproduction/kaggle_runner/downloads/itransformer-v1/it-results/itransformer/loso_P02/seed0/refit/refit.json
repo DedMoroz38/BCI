@@ -1,0 +1,19 @@
+{
+  "seed": 0,
+  "epochs": 1,
+  "history": [
+    {
+      "epoch": 1,
+      "optimization_weighted_ce": 1.2370409965515137,
+      "ce": 0.9932679533958435,
+      "weighted_ce": 0.9936084747314453,
+      "session_ba": 0.4966522126548991,
+      "accuracy": 0.4967855055523086
+    }
+  ],
+  "seconds": 0.2091067029999749,
+  "artifacts": {
+    "final.pt": "ea2e77f172a6464e461253a6cc02be994c2f0abc519767cc3c20853c6b89c5e6",
+    "train_history.csv": "0e6e5e460a567676e6cee2dbe88ddca43381eb4354993e6f01ed938041ea1716"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "prediction_sha256": "e57725f1b44e4ef1bbff6b1dbfbf48fd1e96655ffd234c97e1d50220c7b770fd",
+  "tag": "loso_P04",
+  "cell_mean": 0.5431526284348865,
+  "session_mean": 0.5424436052796268,
+  "pooled": 0.5424972004479284,
+  "accuracy": 0.5424028268551236,
+  "log_loss": 0.9887742144843253,
+  "brier": 0.594838530229146
+}

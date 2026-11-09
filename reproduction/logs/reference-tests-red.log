@@ -1,0 +1,139 @@
+FFFFFFFFFFFFF                                                            [100%]
+=================================== FAILURES ===================================
+_______________ test_arithmetic_uses_covariances_not_logarithms ________________
+
+    def test_arithmetic_uses_covariances_not_logarithms():
+>       assert ReferenceSession is not None, 'Reference-update implementation is missing'
+E       AssertionError: Reference-update implementation is missing
+E       assert None is not None
+
+reproduction/reference_ablation/test_references.py:17: AssertionError
+___________ test_recursive_scalar_is_geometric_mean_with_prior_mass ____________
+
+    def test_recursive_scalar_is_geometric_mean_with_prior_mass():
+>       assert ReferenceSession is not None, 'Reference-update implementation is missing'
+E       AssertionError: Reference-update implementation is missing
+E       assert None is not None
+
+reproduction/reference_ablation/test_references.py:26: AssertionError
+______________ test_noncommuting_geodesic_uses_covariance_domain _______________
+
+    def test_noncommuting_geodesic_uses_covariance_domain():
+>       assert ReferenceSession is not None, 'Reference-update implementation is missing'
+E       AssertionError: Reference-update implementation is missing
+E       assert None is not None
+
+reproduction/reference_ablation/test_references.py:34: AssertionError
+____________ test_ema_normalizes_decaying_prior_and_window_weights _____________
+
+    def test_ema_normalizes_decaying_prior_and_window_weights():
+>       assert ReferenceSession is not None, 'Reference-update implementation is missing'
+E       AssertionError: Reference-update implementation is missing
+E       assert None is not None
+
+reproduction/reference_ablation/test_references.py:46: AssertionError
+___________ test_ema_forgets_an_old_outlier_faster_than_a_recent_one ___________
+
+    def test_ema_forgets_an_old_outlier_faster_than_a_recent_one():
+>       assert ReferenceSession is not None, 'Reference-update implementation is missing'
+E       AssertionError: Reference-update implementation is missing
+E       assert None is not None
+
+reproduction/reference_ablation/test_references.py:56: AssertionError
+_ test_reference_stays_spd_and_zero_prior_gives_current_window[euclid_cumulative] _
+
+variant = 'euclid_cumulative'
+
+    @pytest.mark.parametrize('variant', ['euclid_cumulative', 'riemann_recursive', 'logeuclid_ema'])
+    def test_reference_stays_spd_and_zero_prior_gives_current_window(variant):
+>       assert ReferenceSession is not None, 'Reference-update implementation is missing'
+E       AssertionError: Reference-update implementation is missing
+E       assert None is not None
+
+reproduction/reference_ablation/test_references.py:67: AssertionError
+_ test_reference_stays_spd_and_zero_prior_gives_current_window[riemann_recursive] _
+
+variant = 'riemann_recursive'
+
+    @pytest.mark.parametrize('variant', ['euclid_cumulative', 'riemann_recursive', 'logeuclid_ema'])
+    def test_reference_stays_spd_and_zero_prior_gives_current_window(variant):
+>       assert ReferenceSession is not None, 'Reference-update implementation is missing'
+E       AssertionError: Reference-update implementation is missing
+E       assert None is not None
+
+reproduction/reference_ablation/test_references.py:67: AssertionError
+_ test_reference_stays_spd_and_zero_prior_gives_current_window[logeuclid_ema] __
+
+variant = 'logeuclid_ema'
+
+    @pytest.mark.parametrize('variant', ['euclid_cumulative', 'riemann_recursive', 'logeuclid_ema'])
+    def test_reference_stays_spd_and_zero_prior_gives_current_window(variant):
+>       assert ReferenceSession is not None, 'Reference-update implementation is missing'
+E       AssertionError: Reference-update implementation is missing
+E       assert None is not None
+
+reproduction/reference_ablation/test_references.py:67: AssertionError
+________ test_control_adapter_equals_original_training_and_predictions _________
+
+    def test_control_adapter_equals_original_training_and_predictions():
+>       assert ReferenceSession is not None, 'Reference-update implementation is missing'
+E       AssertionError: Reference-update implementation is missing
+E       assert None is not None
+
+reproduction/reference_ablation/test_references.py:88: AssertionError
+_ test_causal_features_session_reset_and_stream_prediction_parity[euclid_cumulative] _
+
+variant = 'euclid_cumulative'
+
+    @pytest.mark.parametrize('variant', ['euclid_cumulative', 'riemann_recursive', 'logeuclid_ema'])
+    def test_causal_features_session_reset_and_stream_prediction_parity(variant):
+>       assert ReferenceSession is not None, 'Reference-update implementation is missing'
+E       AssertionError: Reference-update implementation is missing
+E       assert None is not None
+
+reproduction/reference_ablation/test_references.py:109: AssertionError
+_ test_causal_features_session_reset_and_stream_prediction_parity[riemann_recursive] _
+
+variant = 'riemann_recursive'
+
+    @pytest.mark.parametrize('variant', ['euclid_cumulative', 'riemann_recursive', 'logeuclid_ema'])
+    def test_causal_features_session_reset_and_stream_prediction_parity(variant):
+>       assert ReferenceSession is not None, 'Reference-update implementation is missing'
+E       AssertionError: Reference-update implementation is missing
+E       assert None is not None
+
+reproduction/reference_ablation/test_references.py:109: AssertionError
+_ test_causal_features_session_reset_and_stream_prediction_parity[logeuclid_ema] _
+
+variant = 'logeuclid_ema'
+
+    @pytest.mark.parametrize('variant', ['euclid_cumulative', 'riemann_recursive', 'logeuclid_ema'])
+    def test_causal_features_session_reset_and_stream_prediction_parity(variant):
+>       assert ReferenceSession is not None, 'Reference-update implementation is missing'
+E       AssertionError: Reference-update implementation is missing
+E       assert None is not None
+
+reproduction/reference_ablation/test_references.py:109: AssertionError
+____________________ test_invalid_configuration_is_rejected ____________________
+
+    def test_invalid_configuration_is_rejected():
+>       assert ReferenceSession is not None, 'Reference-update implementation is missing'
+E       AssertionError: Reference-update implementation is missing
+E       assert None is not None
+
+reproduction/reference_ablation/test_references.py:126: AssertionError
+=========================== short test summary info ============================
+FAILED reproduction/reference_ablation/test_references.py::test_arithmetic_uses_covariances_not_logarithms
+FAILED reproduction/reference_ablation/test_references.py::test_recursive_scalar_is_geometric_mean_with_prior_mass
+FAILED reproduction/reference_ablation/test_references.py::test_noncommuting_geodesic_uses_covariance_domain
+FAILED reproduction/reference_ablation/test_references.py::test_ema_normalizes_decaying_prior_and_window_weights
+FAILED reproduction/reference_ablation/test_references.py::test_ema_forgets_an_old_outlier_faster_than_a_recent_one
+FAILED reproduction/reference_ablation/test_references.py::test_reference_stays_spd_and_zero_prior_gives_current_window[euclid_cumulative]
+FAILED reproduction/reference_ablation/test_references.py::test_reference_stays_spd_and_zero_prior_gives_current_window[riemann_recursive]
+FAILED reproduction/reference_ablation/test_references.py::test_reference_stays_spd_and_zero_prior_gives_current_window[logeuclid_ema]
+FAILED reproduction/reference_ablation/test_references.py::test_control_adapter_equals_original_training_and_predictions
+FAILED reproduction/reference_ablation/test_references.py::test_causal_features_session_reset_and_stream_prediction_parity[euclid_cumulative]
+FAILED reproduction/reference_ablation/test_references.py::test_causal_features_session_reset_and_stream_prediction_parity[riemann_recursive]
+FAILED reproduction/reference_ablation/test_references.py::test_causal_features_session_reset_and_stream_prediction_parity[logeuclid_ema]
+FAILED reproduction/reference_ablation/test_references.py::test_invalid_configuration_is_rejected
+13 failed in 0.14s

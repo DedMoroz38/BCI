@@ -1,0 +1,23 @@
+{
+  "runtime_sha256": "11fb56ec512b3333292a4b3c1671ccc7b2846622d95c6b8d814daeba849e51b1",
+  "outer_fingerprint": "ecc4f4ba725502c765184d7d2c4f3b8fe51983e64e637a5a8db5d796e4cad9d7",
+  "split": {
+    "train_subjects": [
+      "Dreyer2026Proteus/P01",
+      "Dreyer2026Proteus/P02",
+      "Dreyer2026Proteus/P03",
+      "Dreyer2026Proteus/P07",
+      "Dreyer2026Proteus/P10"
+    ],
+    "validation_subjects": [
+      "Dreyer2026Proteus/P06",
+      "Dreyer2026Proteus/P08"
+    ],
+    "outer_evaluation_subjects": [
+      "Dreyer2026Proteus/P05"
+    ],
+    "inner_train_windows": 1334,
+    "inner_val_windows": 376,
+    "known_person_outer_overlap": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "model": "baseline",
+  "tag": "loso_P08",
+  "source_sha256": "e952ae120bb69f8a1881f8419e10dd1150834768911526b6bbe77b7df4475136",
+  "fingerprint": "f7f0a88d810fdf5281dcc1537a88d1d025f5688c3f81d4094793cb87777220c4",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P08"
+  ],
+  "training_windows": 1711,
+  "eval_windows": 189,
+  "predictions_sha256": "0bcbd55787fde3091bdbdff60ddfa97d83d104cdb3520621d9183ca4b440954f",
+  "cell_mean": 0.7008736559139785,
+  "session_mean": 0.70102619901007,
+  "pooled": 0.70102619901007,
+  "accuracy": 0.6984126984126984,
+  "log_loss": 0.8970264476693551,
+  "brier": 0.472877940686986,
+  "seconds": 21.047955898000055,
+  "exact_original_single_model": true,
+  "historical_prediction_match": true,
+  "checkpoint_sha256": "cffba91040246891c613b0a2313c3ca289cf280873c6e8fba7537a27c817fd25",
+  "warnings": []
+}

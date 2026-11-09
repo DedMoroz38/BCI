@@ -1,0 +1,18 @@
+{
+  "id": "den1shh/proteus-itransformer-vs-lag4",
+  "title": "PROTEUS iTransformer vs Lag4",
+  "code_file": "itransformer_lag4.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "den1shh/proteus-lag4-classifier-inputs",
+    "den1shh/proteus-lag4-classifier-source"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

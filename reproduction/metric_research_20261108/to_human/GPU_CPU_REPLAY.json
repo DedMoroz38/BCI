@@ -1,0 +1,284 @@
+{
+  "models": 55,
+  "labels_exact": true,
+  "probability_tolerance": 0.0001,
+  "max_probability_delta": 1.2516975402832031e-06,
+  "seconds": 15.238709207973443,
+  "rows": [
+    {
+      "path": "later_last/shallow16_class/seed0/prediction.npz",
+      "max_probability_delta": 3.2782554626464844e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "later_last/shallow16_class/seed1/prediction.npz",
+      "max_probability_delta": 3.5762786865234375e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "later_last/shallow16_subject/seed0/prediction.npz",
+      "max_probability_delta": 6.556510925292969e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "later_last/shallow16_subject/seed1/prediction.npz",
+      "max_probability_delta": 2.980232238769531e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "later_last/shallow40_class/seed0/prediction.npz",
+      "max_probability_delta": 7.152557373046875e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P01/shallow16_class/seed0/prediction.npz",
+      "max_probability_delta": 4.76837158203125e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P01/shallow16_class/seed1/prediction.npz",
+      "max_probability_delta": 2.980232238769531e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P01/shallow16_subject/seed0/prediction.npz",
+      "max_probability_delta": 4.172325134277344e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P01/shallow16_subject/seed1/prediction.npz",
+      "max_probability_delta": 3.5762786865234375e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P01/shallow40_class/seed0/prediction.npz",
+      "max_probability_delta": 5.960464477539062e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P02/shallow16_class/seed0/prediction.npz",
+      "max_probability_delta": 2.5331974029541016e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P02/shallow16_class/seed1/prediction.npz",
+      "max_probability_delta": 5.960464477539062e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P02/shallow16_subject/seed0/prediction.npz",
+      "max_probability_delta": 2.384185791015625e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P02/shallow16_subject/seed1/prediction.npz",
+      "max_probability_delta": 6.556510925292969e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P02/shallow40_class/seed0/prediction.npz",
+      "max_probability_delta": 4.76837158203125e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P03/shallow16_class/seed0/prediction.npz",
+      "max_probability_delta": 7.152557373046875e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P03/shallow16_class/seed1/prediction.npz",
+      "max_probability_delta": 6.556510925292969e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P03/shallow16_subject/seed0/prediction.npz",
+      "max_probability_delta": 4.76837158203125e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P03/shallow16_subject/seed1/prediction.npz",
+      "max_probability_delta": 5.960464477539062e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P03/shallow40_class/seed0/prediction.npz",
+      "max_probability_delta": 5.066394805908203e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P04/shallow16_class/seed0/prediction.npz",
+      "max_probability_delta": 5.364418029785156e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P04/shallow16_class/seed1/prediction.npz",
+      "max_probability_delta": 7.152557373046875e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P04/shallow16_subject/seed0/prediction.npz",
+      "max_probability_delta": 3.5762786865234375e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P04/shallow16_subject/seed1/prediction.npz",
+      "max_probability_delta": 7.152557373046875e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P04/shallow40_class/seed0/prediction.npz",
+      "max_probability_delta": 9.5367431640625e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P05/shallow16_class/seed0/prediction.npz",
+      "max_probability_delta": 6.556510925292969e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P05/shallow16_class/seed1/prediction.npz",
+      "max_probability_delta": 3.5762786865234375e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P05/shallow16_subject/seed0/prediction.npz",
+      "max_probability_delta": 4.470348358154297e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P05/shallow16_subject/seed1/prediction.npz",
+      "max_probability_delta": 4.172325134277344e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P05/shallow40_class/seed0/prediction.npz",
+      "max_probability_delta": 4.76837158203125e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P06/shallow16_class/seed0/prediction.npz",
+      "max_probability_delta": 4.76837158203125e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P06/shallow16_class/seed1/prediction.npz",
+      "max_probability_delta": 4.76837158203125e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P06/shallow16_subject/seed0/prediction.npz",
+      "max_probability_delta": 4.76837158203125e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P06/shallow16_subject/seed1/prediction.npz",
+      "max_probability_delta": 6.556510925292969e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P06/shallow40_class/seed0/prediction.npz",
+      "max_probability_delta": 7.450580596923828e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P07/shallow16_class/seed0/prediction.npz",
+      "max_probability_delta": 3.2782554626464844e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P07/shallow16_class/seed1/prediction.npz",
+      "max_probability_delta": 5.364418029785156e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P07/shallow16_subject/seed0/prediction.npz",
+      "max_probability_delta": 2.980232238769531e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P07/shallow16_subject/seed1/prediction.npz",
+      "max_probability_delta": 8.940696716308594e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P07/shallow40_class/seed0/prediction.npz",
+      "max_probability_delta": 1.2516975402832031e-06,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P08/shallow16_class/seed0/prediction.npz",
+      "max_probability_delta": 3.8743019104003906e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P08/shallow16_class/seed1/prediction.npz",
+      "max_probability_delta": 7.748603820800781e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P08/shallow16_subject/seed0/prediction.npz",
+      "max_probability_delta": 2.384185791015625e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P08/shallow16_subject/seed1/prediction.npz",
+      "max_probability_delta": 7.748603820800781e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P08/shallow40_class/seed0/prediction.npz",
+      "max_probability_delta": 4.76837158203125e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P09/shallow16_class/seed0/prediction.npz",
+      "max_probability_delta": 2.682209014892578e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P09/shallow16_class/seed1/prediction.npz",
+      "max_probability_delta": 4.172325134277344e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P09/shallow16_subject/seed0/prediction.npz",
+      "max_probability_delta": 2.980232238769531e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P09/shallow16_subject/seed1/prediction.npz",
+      "max_probability_delta": 2.980232238769531e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P09/shallow40_class/seed0/prediction.npz",
+      "max_probability_delta": 8.344650268554688e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P10/shallow16_class/seed0/prediction.npz",
+      "max_probability_delta": 7.748603820800781e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P10/shallow16_class/seed1/prediction.npz",
+      "max_probability_delta": 8.046627044677734e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P10/shallow16_subject/seed0/prediction.npz",
+      "max_probability_delta": 9.5367431640625e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P10/shallow16_subject/seed1/prediction.npz",
+      "max_probability_delta": 8.344650268554688e-07,
+      "labels_exact": true
+    },
+    {
+      "path": "loso_P10/shallow40_class/seed0/prediction.npz",
+      "max_probability_delta": 8.940696716308594e-07,
+      "labels_exact": true
+    }
+  ]
+}

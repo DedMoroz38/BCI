@@ -1,0 +1,8 @@
+{
+  "probe": "Original scaler applied to mathematically zero cross-half tangent features",
+  "cross_block_count": 400,
+  "nonzero_cross_block_variances": 400,
+  "max_cross_block_variance": 4.532122529045814e-27,
+  "max_scaled_cross_block_feature": 22.017594189288346,
+  "other_variance_median": 0.010569354135831537
+}

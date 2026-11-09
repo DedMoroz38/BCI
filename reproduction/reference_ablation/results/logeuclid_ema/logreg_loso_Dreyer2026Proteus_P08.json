@@ -1,0 +1,28 @@
+{
+  "variant": "logeuclid_ema",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P08",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P08"
+  ],
+  "train_windows": 1711,
+  "eval_windows": 189,
+  "fit_seconds": 3.3354294580058195,
+  "total_seconds": 3.7638773749931715,
+  "session_mean_delta_vs_control": -0.054008789895886644,
+  "reference_update": "S_t=.95*S_{t-1}+log(R_t), n_t=.95*n_{t-1}+1, L_t=S_t/n_t; S0=5*L0,n0=5",
+  "cell_mean": 0.5769489247311828,
+  "session_mean": 0.5785570276497696,
+  "pooled": 0.5785570276497696,
+  "accuracy": 0.5767195767195767
+}

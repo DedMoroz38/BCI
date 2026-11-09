@@ -1,0 +1,19 @@
+Validated exact source/data/environment and frozen experiment manifest
+START hsic_rbf/forest12_loso_Dreyer2026Proteus_P01 train=1710 eval=190
+DONE hsic_rbf/forest12_loso_Dreyer2026Proteus_P01: 0.442294974, delta=-0.088624339 (30.3s)
+START hsic_rbf/forest12_loso_Dreyer2026Proteus_P02 train=1711 eval=189
+DONE hsic_rbf/forest12_loso_Dreyer2026Proteus_P02: 0.575732847, delta=-0.031404677 (25.6s)
+START hsic_rbf/forest12_loso_Dreyer2026Proteus_P03 train=1711 eval=189
+DONE hsic_rbf/forest12_loso_Dreyer2026Proteus_P03: 0.419482847, delta=-0.003877581 (24.7s)
+START hsic_rbf/forest12_loso_Dreyer2026Proteus_P05 train=1710 eval=190
+DONE hsic_rbf/forest12_loso_Dreyer2026Proteus_P05: 0.325562169, delta=+0.015459656 (24.7s)
+START hsic_rbf/forest12_loso_Dreyer2026Proteus_P06 train=1713 eval=187
+DONE hsic_rbf/forest12_loso_Dreyer2026Proteus_P06: 0.519115890, delta=+0.037719747 (24.8s)
+START hsic_rbf/forest12_loso_Dreyer2026Proteus_P07 train=1711 eval=189
+DONE hsic_rbf/forest12_loso_Dreyer2026Proteus_P07: 0.576911589, delta=-0.072916667 (24.7s)
+START hsic_rbf/forest12_loso_Dreyer2026Proteus_P08 train=1711 eval=189
+DONE hsic_rbf/forest12_loso_Dreyer2026Proteus_P08: 0.646849398, delta=-0.042416048 (24.8s)
+START hsic_rbf/forest12_loso_Dreyer2026Proteus_P10 train=1323 eval=577
+DONE hsic_rbf/forest12_loso_Dreyer2026Proteus_P10: 0.381426594, delta=-0.012841911 (28.2s)
+START hsic_rbf/forest12_later_last train=1701 eval=199
+DONE hsic_rbf/forest12_later_last: 0.638248153, delta=+0.024347957 (25.1s)

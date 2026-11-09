@@ -1,0 +1,43 @@
+correlation: equal sigma=0.02, repeat=0 done
+correlation: equal sigma=0.02, repeat=1 done
+correlation: equal sigma=0.02, repeat=2 done
+correlation: equal sigma=0.02, repeat=3 done
+correlation: equal sigma=0.02, repeat=4 done
+correlation: gaussian sigma=0.02, repeat=0 done
+correlation: gaussian sigma=0.02, repeat=1 done
+correlation: gaussian sigma=0.02, repeat=2 done
+correlation: gaussian sigma=0.02, repeat=3 done
+correlation: gaussian sigma=0.02, repeat=4 done
+correlation: gaussian sigma=0.15, repeat=0 done
+correlation: gaussian sigma=0.15, repeat=1 done
+correlation: gaussian sigma=0.15, repeat=2 done
+correlation: gaussian sigma=0.15, repeat=3 done
+correlation: gaussian sigma=0.15, repeat=4 done
+variance: m=4 done
+variance: m=8 done
+variance: m=12 done
+equivalence: sigma=0.02, repeat=0 done
+equivalence: sigma=0.02, repeat=1 done
+equivalence: sigma=0.02, repeat=2 done
+equivalence: sigma=0.15, repeat=0 done
+equivalence: sigma=0.15, repeat=1 done
+equivalence: sigma=0.15, repeat=2 done
+power: repeat=0 done
+power: repeat=1 done
+power: repeat=2 done
+power: repeat=3 done
+power: repeat=4 done
+power: repeat=5 done
+power: repeat=6 done
+power: repeat=7 done
+power: repeat=8 done
+power: repeat=9 done
+                  mean       std
+method     m                    
+forest     4   0.78140  0.021919
+           8   0.76815  0.011986
+           12  0.73530  0.017315
+full       16  0.70255  0.016659
+structured 4   0.80520  0.013012
+           8   0.77290  0.014884
+           12  0.73535  0.015944

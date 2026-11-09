@@ -1,0 +1,13 @@
+{
+  "variant": "forest",
+  "tag": "loso_P06",
+  "manifest_sha256": "ab3ab25c19fa33bc61d81ac3b3fc1bdb51b2508ae4150aaa5bb751f896029792",
+  "prediction_sha256": "69955110166e50ff458673d67a714123a4e7e6ab0d26ef8f040033a4e55a1668",
+  "eval_seconds": 10.00974217599969,
+  "cell_mean": 0.5040882616487454,
+  "session_mean": 0.502389486260454,
+  "pooled": 0.502389486260454,
+  "accuracy": 0.5026737967914439,
+  "log_loss": 1.0085391086452675,
+  "brier": 0.611826711295294
+}

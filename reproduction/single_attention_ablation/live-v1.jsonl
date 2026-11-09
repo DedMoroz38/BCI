@@ -1,0 +1,1343 @@
+{"stream_name": "stderr", "time": 8.077986623, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.078049235, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.078055975, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.078060676, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 8.681899685, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.681940032, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.68194638, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.68195083, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 17.171277859, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 50.063462246, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.063491159, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.063503831, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063507482, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063510858, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063514246, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063517795, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063520884, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063524702, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063761856, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063779464, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063785342, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.06379048, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063795571, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063801137, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 50.25275294, "data": "Verified sources and data. SINGLE models,NO forest,full end-to-end gradients.\n"}
+{"stream_name": "stderr", "time": 50.253945003, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.25398058, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.253987137, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.253991213, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.253995079, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.25399883, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254002633, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254006371, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254010123, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254019728, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254022803, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254025397, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254027957, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254030579, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254033098, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254035642, "data": "\n"}
+{"stream_name": "stderr", "time": 50.254037955, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.254040627, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.254043189, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254045715, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254049073, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254051662, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254054132, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254056553, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254062397, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254065015, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254067561, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254070195, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254072734, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.25407527, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254077767, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 68.855344096, "data": ".................                                                                [100%]\n"}
+{"stream_name": "stdout", "time": 68.855448845, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 68.855761375, "data": "../../../../../tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 68.85578633, "data": "  /tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 68.855792963, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 68.855796597, "data": "\n"}
+{"stream_name": "stdout", "time": 68.855998164, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+{"stream_name": "stdout", "time": 68.856012869, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+{"stream_name": "stdout", "time": 68.856017419, "data": "    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+{"stream_name": "stdout", "time": 68.85602156, "data": "\n"}
+{"stream_name": "stdout", "time": 68.856810256, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856832559, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.85683719, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856840991, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856844677, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.85684845, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856852183, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+{"stream_name": "stdout", "time": 68.856856271, "data": "    parse = parser.parseString(pattern)\n"}
+{"stream_name": "stdout", "time": 68.85687047, "data": "\n"}
+{"stream_name": "stdout", "time": 68.857633475, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857653758, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857658535, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857662443, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857666172, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857669922, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857673687, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+{"stream_name": "stdout", "time": 68.857677684, "data": "    parser.resetCache()\n"}
+{"stream_name": "stdout", "time": 68.857681195, "data": "\n"}
+{"stream_name": "stdout", "time": 68.857874893, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+{"stream_name": "stdout", "time": 68.857882627, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+{"stream_name": "stdout", "time": 68.857886742, "data": "    ParserElement.enablePackrat()\n"}
+{"stream_name": "stdout", "time": 68.857890313, "data": "\n"}
+{"stream_name": "stdout", "time": 68.85789394, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 68.85812876, "data": "9 passed, 15 warnings in 16.91s\n"}
+{"stream_name": "stdout", "time": 69.055828006, "data": ".                                                                [100%]\n"}
+{"stream_name": "stdout", "time": 69.055890032, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 69.055896401, "data": "../../../../../tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 69.055900314, "data": "  /tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 69.055905722, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 69.055909395, "data": "\n"}
+{"stream_name": "stdout", "time": 69.055913093, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+{"stream_name": "stdout", "time": 69.055917056, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+{"stream_name": "stdout", "time": 69.055920758, "data": "    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+{"stream_name": "stdout", "time": 69.055924457, "data": "\n"}
+{"stream_name": "stdout", "time": 69.055927566, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055931169, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055944201, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055966086, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055979273, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055983517, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055987467, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+{"stream_name": "stdout", "time": 69.05599116, "data": "    parse = parser.parseString(pattern)\n"}
+{"stream_name": "stdout", "time": 69.055994978, "data": "\n"}
+{"stream_name": "stdout", "time": 69.05599857, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056002089, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056005323, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056008442, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056011629, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056016274, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056019676, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+{"stream_name": "stdout", "time": 69.056023497, "data": "    parser.resetCache()\n"}
+{"stream_name": "stdout", "time": 69.056027066, "data": "\n"}
+{"stream_name": "stdout", "time": 69.056030295, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+{"stream_name": "stdout", "time": 69.056033619, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+{"stream_name": "stdout", "time": 69.056037289, "data": "    ParserElement.enablePackrat()\n"}
+{"stream_name": "stdout", "time": 69.056040501, "data": "\n"}
+{"stream_name": "stdout", "time": 69.056043696, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 69.056047166, "data": "9 passed, 15 warnings in 16.91s\n"}
+{"stream_name": "stderr", "time": 74.869211725, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 74.869247473, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 75.072078772, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 75.072103904, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 75.072136298, "data": "\n"}
+{"stream_name": "stderr", "time": 75.072141019, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 75.072157745, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 78.480509845, "data": "START FOLD loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 78.682898026, "data": "START FOLD loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 100.828087613, "data": "DONE SINGLE baseline loso_P01 session 0.546875 cell 0.5470430107526881 seconds 22.28167965\n"}
+{"stream_name": "stdout", "time": 101.031771999, "data": "DONE SINGLE baseline loso_P01 session 0.546875 cell 0.5470430107526881 seconds 22.28167965\n"}
+{"stream_name": "stdout", "time": 112.872222164, "data": "E2E EPOCH attention_gram 1 loss 0.171166 seconds 4.67\n"}
+{"stream_name": "stdout", "time": 113.07948789, "data": "E2E EPOCH attention_gram 1 loss 0.171166 seconds 4.67\n"}
+{"stream_name": "stdout", "time": 149.77786631, "data": "E2E EPOCH attention_gram 10 loss 0.099831 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 149.985425904, "data": "E2E EPOCH attention_gram 10 loss 0.099831 seconds 4.14\n"}
+{"stream_name": "stderr", "time": 8.077986623, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.078049235, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.078055975, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.078060676, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 8.681899685, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.681940032, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.68194638, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.68195083, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 17.171277859, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 50.063462246, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.063491159, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.063503831, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063507482, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063510858, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063514246, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063517795, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063520884, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063524702, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063761856, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063779464, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063785342, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.06379048, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063795571, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063801137, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 50.25275294, "data": "Verified sources and data. SINGLE models,NO forest,full end-to-end gradients.\n"}
+{"stream_name": "stderr", "time": 50.253945003, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.25398058, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.253987137, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.253991213, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.253995079, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.25399883, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254002633, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254006371, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254010123, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254019728, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254022803, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254025397, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254027957, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254030579, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254033098, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254035642, "data": "\n"}
+{"stream_name": "stderr", "time": 50.254037955, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.254040627, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.254043189, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254045715, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254049073, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254051662, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254054132, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254056553, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254062397, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254065015, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254067561, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254070195, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254072734, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.25407527, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254077767, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 68.855344096, "data": ".................                                                                [100%]\n"}
+{"stream_name": "stdout", "time": 68.855448845, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 68.855761375, "data": "../../../../../tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 68.85578633, "data": "  /tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 68.855792963, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 68.855796597, "data": "\n"}
+{"stream_name": "stdout", "time": 68.855998164, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+{"stream_name": "stdout", "time": 68.856012869, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+{"stream_name": "stdout", "time": 68.856017419, "data": "    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+{"stream_name": "stdout", "time": 68.85602156, "data": "\n"}
+{"stream_name": "stdout", "time": 68.856810256, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856832559, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.85683719, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856840991, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856844677, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.85684845, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856852183, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+{"stream_name": "stdout", "time": 68.856856271, "data": "    parse = parser.parseString(pattern)\n"}
+{"stream_name": "stdout", "time": 68.85687047, "data": "\n"}
+{"stream_name": "stdout", "time": 68.857633475, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857653758, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857658535, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857662443, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857666172, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857669922, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857673687, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+{"stream_name": "stdout", "time": 68.857677684, "data": "    parser.resetCache()\n"}
+{"stream_name": "stdout", "time": 68.857681195, "data": "\n"}
+{"stream_name": "stdout", "time": 68.857874893, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+{"stream_name": "stdout", "time": 68.857882627, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+{"stream_name": "stdout", "time": 68.857886742, "data": "    ParserElement.enablePackrat()\n"}
+{"stream_name": "stdout", "time": 68.857890313, "data": "\n"}
+{"stream_name": "stdout", "time": 68.85789394, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 68.85812876, "data": "9 passed, 15 warnings in 16.91s\n"}
+{"stream_name": "stdout", "time": 69.055828006, "data": ".                                                                [100%]\n"}
+{"stream_name": "stdout", "time": 69.055890032, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 69.055896401, "data": "../../../../../tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 69.055900314, "data": "  /tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 69.055905722, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 69.055909395, "data": "\n"}
+{"stream_name": "stdout", "time": 69.055913093, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+{"stream_name": "stdout", "time": 69.055917056, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+{"stream_name": "stdout", "time": 69.055920758, "data": "    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+{"stream_name": "stdout", "time": 69.055924457, "data": "\n"}
+{"stream_name": "stdout", "time": 69.055927566, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055931169, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055944201, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055966086, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055979273, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055983517, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055987467, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+{"stream_name": "stdout", "time": 69.05599116, "data": "    parse = parser.parseString(pattern)\n"}
+{"stream_name": "stdout", "time": 69.055994978, "data": "\n"}
+{"stream_name": "stdout", "time": 69.05599857, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056002089, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056005323, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056008442, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056011629, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056016274, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056019676, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+{"stream_name": "stdout", "time": 69.056023497, "data": "    parser.resetCache()\n"}
+{"stream_name": "stdout", "time": 69.056027066, "data": "\n"}
+{"stream_name": "stdout", "time": 69.056030295, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+{"stream_name": "stdout", "time": 69.056033619, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+{"stream_name": "stdout", "time": 69.056037289, "data": "    ParserElement.enablePackrat()\n"}
+{"stream_name": "stdout", "time": 69.056040501, "data": "\n"}
+{"stream_name": "stdout", "time": 69.056043696, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 69.056047166, "data": "9 passed, 15 warnings in 16.91s\n"}
+{"stream_name": "stderr", "time": 74.869211725, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 74.869247473, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 75.072078772, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 75.072103904, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 75.072136298, "data": "\n"}
+{"stream_name": "stderr", "time": 75.072141019, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 75.072157745, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 78.480509845, "data": "START FOLD loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 78.682898026, "data": "START FOLD loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 100.828087613, "data": "DONE SINGLE baseline loso_P01 session 0.546875 cell 0.5470430107526881 seconds 22.28167965\n"}
+{"stream_name": "stdout", "time": 101.031771999, "data": "DONE SINGLE baseline loso_P01 session 0.546875 cell 0.5470430107526881 seconds 22.28167965\n"}
+{"stream_name": "stdout", "time": 112.872222164, "data": "E2E EPOCH attention_gram 1 loss 0.171166 seconds 4.67\n"}
+{"stream_name": "stdout", "time": 113.07948789, "data": "E2E EPOCH attention_gram 1 loss 0.171166 seconds 4.67\n"}
+{"stream_name": "stdout", "time": 149.77786631, "data": "E2E EPOCH attention_gram 10 loss 0.099831 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 149.985425904, "data": "E2E EPOCH attention_gram 10 loss 0.099831 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 191.087631314, "data": "E2E EPOCH attention_gram 20 loss 0.069479 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 191.294158704, "data": "E2E EPOCH attention_gram 20 loss 0.069479 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 232.77211021, "data": "E2E EPOCH attention_gram 30 loss 0.055331 seconds 4.26\n"}
+{"stream_name": "stdout", "time": 232.976985045, "data": "E2E EPOCH attention_gram 30 loss 0.055331 seconds 4.26\n"}
+{"stream_name": "stderr", "time": 8.077986623, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.078049235, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.078055975, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.078060676, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 8.681899685, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.681940032, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.68194638, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.68195083, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 17.171277859, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 50.063462246, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.063491159, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.063503831, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063507482, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063510858, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063514246, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063517795, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063520884, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063524702, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063761856, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063779464, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063785342, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.06379048, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063795571, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063801137, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 50.25275294, "data": "Verified sources and data. SINGLE models,NO forest,full end-to-end gradients.\n"}
+{"stream_name": "stderr", "time": 50.253945003, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.25398058, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.253987137, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.253991213, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.253995079, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.25399883, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254002633, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254006371, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254010123, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254019728, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254022803, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254025397, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254027957, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254030579, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254033098, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254035642, "data": "\n"}
+{"stream_name": "stderr", "time": 50.254037955, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.254040627, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.254043189, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254045715, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254049073, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254051662, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254054132, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254056553, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254062397, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254065015, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254067561, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254070195, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254072734, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.25407527, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254077767, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 68.855344096, "data": ".................                                                                [100%]\n"}
+{"stream_name": "stdout", "time": 68.855448845, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 68.855761375, "data": "../../../../../tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 68.85578633, "data": "  /tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 68.855792963, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 68.855796597, "data": "\n"}
+{"stream_name": "stdout", "time": 68.855998164, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+{"stream_name": "stdout", "time": 68.856012869, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+{"stream_name": "stdout", "time": 68.856017419, "data": "    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+{"stream_name": "stdout", "time": 68.85602156, "data": "\n"}
+{"stream_name": "stdout", "time": 68.856810256, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856832559, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.85683719, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856840991, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856844677, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.85684845, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856852183, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+{"stream_name": "stdout", "time": 68.856856271, "data": "    parse = parser.parseString(pattern)\n"}
+{"stream_name": "stdout", "time": 68.85687047, "data": "\n"}
+{"stream_name": "stdout", "time": 68.857633475, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857653758, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857658535, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857662443, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857666172, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857669922, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857673687, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+{"stream_name": "stdout", "time": 68.857677684, "data": "    parser.resetCache()\n"}
+{"stream_name": "stdout", "time": 68.857681195, "data": "\n"}
+{"stream_name": "stdout", "time": 68.857874893, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+{"stream_name": "stdout", "time": 68.857882627, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+{"stream_name": "stdout", "time": 68.857886742, "data": "    ParserElement.enablePackrat()\n"}
+{"stream_name": "stdout", "time": 68.857890313, "data": "\n"}
+{"stream_name": "stdout", "time": 68.85789394, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 68.85812876, "data": "9 passed, 15 warnings in 16.91s\n"}
+{"stream_name": "stdout", "time": 69.055828006, "data": ".                                                                [100%]\n"}
+{"stream_name": "stdout", "time": 69.055890032, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 69.055896401, "data": "../../../../../tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 69.055900314, "data": "  /tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 69.055905722, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 69.055909395, "data": "\n"}
+{"stream_name": "stdout", "time": 69.055913093, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+{"stream_name": "stdout", "time": 69.055917056, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+{"stream_name": "stdout", "time": 69.055920758, "data": "    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+{"stream_name": "stdout", "time": 69.055924457, "data": "\n"}
+{"stream_name": "stdout", "time": 69.055927566, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055931169, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055944201, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055966086, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055979273, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055983517, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055987467, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+{"stream_name": "stdout", "time": 69.05599116, "data": "    parse = parser.parseString(pattern)\n"}
+{"stream_name": "stdout", "time": 69.055994978, "data": "\n"}
+{"stream_name": "stdout", "time": 69.05599857, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056002089, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056005323, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056008442, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056011629, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056016274, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056019676, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+{"stream_name": "stdout", "time": 69.056023497, "data": "    parser.resetCache()\n"}
+{"stream_name": "stdout", "time": 69.056027066, "data": "\n"}
+{"stream_name": "stdout", "time": 69.056030295, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+{"stream_name": "stdout", "time": 69.056033619, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+{"stream_name": "stdout", "time": 69.056037289, "data": "    ParserElement.enablePackrat()\n"}
+{"stream_name": "stdout", "time": 69.056040501, "data": "\n"}
+{"stream_name": "stdout", "time": 69.056043696, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 69.056047166, "data": "9 passed, 15 warnings in 16.91s\n"}
+{"stream_name": "stderr", "time": 74.869211725, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 74.869247473, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 75.072078772, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 75.072103904, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 75.072136298, "data": "\n"}
+{"stream_name": "stderr", "time": 75.072141019, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 75.072157745, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 78.480509845, "data": "START FOLD loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 78.682898026, "data": "START FOLD loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 100.828087613, "data": "DONE SINGLE baseline loso_P01 session 0.546875 cell 0.5470430107526881 seconds 22.28167965\n"}
+{"stream_name": "stdout", "time": 101.031771999, "data": "DONE SINGLE baseline loso_P01 session 0.546875 cell 0.5470430107526881 seconds 22.28167965\n"}
+{"stream_name": "stdout", "time": 112.872222164, "data": "E2E EPOCH attention_gram 1 loss 0.171166 seconds 4.67\n"}
+{"stream_name": "stdout", "time": 113.07948789, "data": "E2E EPOCH attention_gram 1 loss 0.171166 seconds 4.67\n"}
+{"stream_name": "stdout", "time": 149.77786631, "data": "E2E EPOCH attention_gram 10 loss 0.099831 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 149.985425904, "data": "E2E EPOCH attention_gram 10 loss 0.099831 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 191.087631314, "data": "E2E EPOCH attention_gram 20 loss 0.069479 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 191.294158704, "data": "E2E EPOCH attention_gram 20 loss 0.069479 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 232.77211021, "data": "E2E EPOCH attention_gram 30 loss 0.055331 seconds 4.26\n"}
+{"stream_name": "stdout", "time": 232.976985045, "data": "E2E EPOCH attention_gram 30 loss 0.055331 seconds 4.26\n"}
+{"stream_name": "stdout", "time": 274.330156206, "data": "E2E EPOCH attention_gram 40 loss 0.047111 seconds 4.16\n"}
+{"stream_name": "stdout", "time": 274.534775896, "data": "E2E EPOCH attention_gram 40 loss 0.047111 seconds 4.16\n"}
+{"stream_name": "stdout", "time": 315.483138726, "data": "E2E EPOCH attention_gram 50 loss 0.041693 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 315.687669352, "data": "E2E EPOCH attention_gram 50 loss 0.041693 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 356.657682901, "data": "E2E EPOCH attention_gram 60 loss 0.037801 seconds 4.08\n"}
+{"stream_name": "stdout", "time": 356.862515069, "data": "E2E EPOCH attention_gram 60 loss 0.037801 seconds 4.08\n"}
+{"stream_name": "stderr", "time": 8.077986623, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.078049235, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.078055975, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.078060676, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 8.681899685, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.681940032, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.68194638, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.68195083, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 17.171277859, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 50.063462246, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.063491159, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.063503831, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063507482, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063510858, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063514246, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063517795, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063520884, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063524702, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063761856, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063779464, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063785342, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.06379048, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063795571, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063801137, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 50.25275294, "data": "Verified sources and data. SINGLE models,NO forest,full end-to-end gradients.\n"}
+{"stream_name": "stderr", "time": 50.253945003, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.25398058, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.253987137, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.253991213, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.253995079, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.25399883, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254002633, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254006371, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254010123, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254019728, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254022803, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254025397, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254027957, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254030579, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254033098, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254035642, "data": "\n"}
+{"stream_name": "stderr", "time": 50.254037955, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.254040627, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.254043189, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254045715, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254049073, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254051662, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254054132, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254056553, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254062397, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254065015, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254067561, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254070195, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254072734, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.25407527, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254077767, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 68.855344096, "data": ".................                                                                [100%]\n"}
+{"stream_name": "stdout", "time": 68.855448845, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 68.855761375, "data": "../../../../../tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 68.85578633, "data": "  /tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 68.855792963, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 68.855796597, "data": "\n"}
+{"stream_name": "stdout", "time": 68.855998164, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+{"stream_name": "stdout", "time": 68.856012869, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+{"stream_name": "stdout", "time": 68.856017419, "data": "    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+{"stream_name": "stdout", "time": 68.85602156, "data": "\n"}
+{"stream_name": "stdout", "time": 68.856810256, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856832559, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.85683719, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856840991, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856844677, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.85684845, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856852183, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+{"stream_name": "stdout", "time": 68.856856271, "data": "    parse = parser.parseString(pattern)\n"}
+{"stream_name": "stdout", "time": 68.85687047, "data": "\n"}
+{"stream_name": "stdout", "time": 68.857633475, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857653758, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857658535, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857662443, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857666172, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857669922, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857673687, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+{"stream_name": "stdout", "time": 68.857677684, "data": "    parser.resetCache()\n"}
+{"stream_name": "stdout", "time": 68.857681195, "data": "\n"}
+{"stream_name": "stdout", "time": 68.857874893, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+{"stream_name": "stdout", "time": 68.857882627, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+{"stream_name": "stdout", "time": 68.857886742, "data": "    ParserElement.enablePackrat()\n"}
+{"stream_name": "stdout", "time": 68.857890313, "data": "\n"}
+{"stream_name": "stdout", "time": 68.85789394, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 68.85812876, "data": "9 passed, 15 warnings in 16.91s\n"}
+{"stream_name": "stdout", "time": 69.055828006, "data": ".                                                                [100%]\n"}
+{"stream_name": "stdout", "time": 69.055890032, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 69.055896401, "data": "../../../../../tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 69.055900314, "data": "  /tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 69.055905722, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 69.055909395, "data": "\n"}
+{"stream_name": "stdout", "time": 69.055913093, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+{"stream_name": "stdout", "time": 69.055917056, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+{"stream_name": "stdout", "time": 69.055920758, "data": "    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+{"stream_name": "stdout", "time": 69.055924457, "data": "\n"}
+{"stream_name": "stdout", "time": 69.055927566, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055931169, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055944201, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055966086, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055979273, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055983517, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055987467, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+{"stream_name": "stdout", "time": 69.05599116, "data": "    parse = parser.parseString(pattern)\n"}
+{"stream_name": "stdout", "time": 69.055994978, "data": "\n"}
+{"stream_name": "stdout", "time": 69.05599857, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056002089, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056005323, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056008442, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056011629, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056016274, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056019676, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+{"stream_name": "stdout", "time": 69.056023497, "data": "    parser.resetCache()\n"}
+{"stream_name": "stdout", "time": 69.056027066, "data": "\n"}
+{"stream_name": "stdout", "time": 69.056030295, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+{"stream_name": "stdout", "time": 69.056033619, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+{"stream_name": "stdout", "time": 69.056037289, "data": "    ParserElement.enablePackrat()\n"}
+{"stream_name": "stdout", "time": 69.056040501, "data": "\n"}
+{"stream_name": "stdout", "time": 69.056043696, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 69.056047166, "data": "9 passed, 15 warnings in 16.91s\n"}
+{"stream_name": "stderr", "time": 74.869211725, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 74.869247473, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 75.072078772, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 75.072103904, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 75.072136298, "data": "\n"}
+{"stream_name": "stderr", "time": 75.072141019, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 75.072157745, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 78.480509845, "data": "START FOLD loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 78.682898026, "data": "START FOLD loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 100.828087613, "data": "DONE SINGLE baseline loso_P01 session 0.546875 cell 0.5470430107526881 seconds 22.28167965\n"}
+{"stream_name": "stdout", "time": 101.031771999, "data": "DONE SINGLE baseline loso_P01 session 0.546875 cell 0.5470430107526881 seconds 22.28167965\n"}
+{"stream_name": "stdout", "time": 112.872222164, "data": "E2E EPOCH attention_gram 1 loss 0.171166 seconds 4.67\n"}
+{"stream_name": "stdout", "time": 113.07948789, "data": "E2E EPOCH attention_gram 1 loss 0.171166 seconds 4.67\n"}
+{"stream_name": "stdout", "time": 149.77786631, "data": "E2E EPOCH attention_gram 10 loss 0.099831 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 149.985425904, "data": "E2E EPOCH attention_gram 10 loss 0.099831 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 191.087631314, "data": "E2E EPOCH attention_gram 20 loss 0.069479 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 191.294158704, "data": "E2E EPOCH attention_gram 20 loss 0.069479 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 232.77211021, "data": "E2E EPOCH attention_gram 30 loss 0.055331 seconds 4.26\n"}
+{"stream_name": "stdout", "time": 232.976985045, "data": "E2E EPOCH attention_gram 30 loss 0.055331 seconds 4.26\n"}
+{"stream_name": "stdout", "time": 274.330156206, "data": "E2E EPOCH attention_gram 40 loss 0.047111 seconds 4.16\n"}
+{"stream_name": "stdout", "time": 274.534775896, "data": "E2E EPOCH attention_gram 40 loss 0.047111 seconds 4.16\n"}
+{"stream_name": "stdout", "time": 315.483138726, "data": "E2E EPOCH attention_gram 50 loss 0.041693 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 315.687669352, "data": "E2E EPOCH attention_gram 50 loss 0.041693 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 356.657682901, "data": "E2E EPOCH attention_gram 60 loss 0.037801 seconds 4.08\n"}
+{"stream_name": "stdout", "time": 356.862515069, "data": "E2E EPOCH attention_gram 60 loss 0.037801 seconds 4.08\n"}
+{"stream_name": "stdout", "time": 398.010342956, "data": "E2E EPOCH attention_gram 70 loss 0.034801 seconds 4.13\n"}
+{"stream_name": "stdout", "time": 398.21502176, "data": "E2E EPOCH attention_gram 70 loss 0.034801 seconds 4.13\n"}
+{"stream_name": "stdout", "time": 439.031517758, "data": "E2E EPOCH attention_gram 80 loss 0.032369 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 439.236346816, "data": "E2E EPOCH attention_gram 80 loss 0.032369 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 443.936289571, "data": "DONE SINGLE attention_gram loso_P01 session 0.4946263227513228 cell 0.4954637096774194 seconds 341.48847455599997\n"}
+{"stream_name": "stdout", "time": 444.138762047, "data": "DONE SINGLE attention_gram loso_P01 session 0.4946263227513228 cell 0.4954637096774194 seconds 341.48847455599997\n"}
+{"stream_name": "stdout", "time": 455.3992301, "data": "E2E EPOCH attention_exp 1 loss 0.774745 seconds 4.24\n"}
+{"stream_name": "stdout", "time": 455.602344486, "data": "E2E EPOCH attention_exp 1 loss 0.774745 seconds 4.24\n"}
+{"stream_name": "stdout", "time": 492.959495118, "data": "E2E EPOCH attention_exp 10 loss 0.557167 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 493.164375711, "data": "E2E EPOCH attention_exp 10 loss 0.557167 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 534.478462001, "data": "E2E EPOCH attention_exp 20 loss 0.375909 seconds 4.19\n"}
+{"stream_name": "stdout", "time": 534.683424648, "data": "E2E EPOCH attention_exp 20 loss 0.375909 seconds 4.19\n"}
+{"stream_name": "stderr", "time": 8.077986623, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.078049235, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.078055975, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.078060676, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 8.681899685, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.681940032, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.68194638, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.68195083, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 17.171277859, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 50.063462246, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.063491159, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.063503831, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063507482, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063510858, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063514246, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063517795, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063520884, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063524702, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063761856, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063779464, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063785342, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.06379048, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063795571, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063801137, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 50.25275294, "data": "Verified sources and data. SINGLE models,NO forest,full end-to-end gradients.\n"}
+{"stream_name": "stderr", "time": 50.253945003, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.25398058, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.253987137, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.253991213, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.253995079, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.25399883, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254002633, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254006371, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254010123, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254019728, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254022803, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254025397, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254027957, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254030579, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254033098, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254035642, "data": "\n"}
+{"stream_name": "stderr", "time": 50.254037955, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.254040627, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.254043189, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254045715, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254049073, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254051662, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254054132, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254056553, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254062397, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254065015, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254067561, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254070195, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254072734, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.25407527, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254077767, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 68.855344096, "data": ".................                                                                [100%]\n"}
+{"stream_name": "stdout", "time": 68.855448845, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 68.855761375, "data": "../../../../../tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 68.85578633, "data": "  /tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 68.855792963, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 68.855796597, "data": "\n"}
+{"stream_name": "stdout", "time": 68.855998164, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+{"stream_name": "stdout", "time": 68.856012869, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+{"stream_name": "stdout", "time": 68.856017419, "data": "    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+{"stream_name": "stdout", "time": 68.85602156, "data": "\n"}
+{"stream_name": "stdout", "time": 68.856810256, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856832559, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.85683719, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856840991, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856844677, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.85684845, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856852183, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+{"stream_name": "stdout", "time": 68.856856271, "data": "    parse = parser.parseString(pattern)\n"}
+{"stream_name": "stdout", "time": 68.85687047, "data": "\n"}
+{"stream_name": "stdout", "time": 68.857633475, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857653758, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857658535, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857662443, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857666172, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857669922, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857673687, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+{"stream_name": "stdout", "time": 68.857677684, "data": "    parser.resetCache()\n"}
+{"stream_name": "stdout", "time": 68.857681195, "data": "\n"}
+{"stream_name": "stdout", "time": 68.857874893, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+{"stream_name": "stdout", "time": 68.857882627, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+{"stream_name": "stdout", "time": 68.857886742, "data": "    ParserElement.enablePackrat()\n"}
+{"stream_name": "stdout", "time": 68.857890313, "data": "\n"}
+{"stream_name": "stdout", "time": 68.85789394, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 68.85812876, "data": "9 passed, 15 warnings in 16.91s\n"}
+{"stream_name": "stdout", "time": 69.055828006, "data": ".                                                                [100%]\n"}
+{"stream_name": "stdout", "time": 69.055890032, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 69.055896401, "data": "../../../../../tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 69.055900314, "data": "  /tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 69.055905722, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 69.055909395, "data": "\n"}
+{"stream_name": "stdout", "time": 69.055913093, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+{"stream_name": "stdout", "time": 69.055917056, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+{"stream_name": "stdout", "time": 69.055920758, "data": "    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+{"stream_name": "stdout", "time": 69.055924457, "data": "\n"}
+{"stream_name": "stdout", "time": 69.055927566, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055931169, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055944201, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055966086, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055979273, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055983517, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055987467, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+{"stream_name": "stdout", "time": 69.05599116, "data": "    parse = parser.parseString(pattern)\n"}
+{"stream_name": "stdout", "time": 69.055994978, "data": "\n"}
+{"stream_name": "stdout", "time": 69.05599857, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056002089, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056005323, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056008442, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056011629, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056016274, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056019676, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+{"stream_name": "stdout", "time": 69.056023497, "data": "    parser.resetCache()\n"}
+{"stream_name": "stdout", "time": 69.056027066, "data": "\n"}
+{"stream_name": "stdout", "time": 69.056030295, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+{"stream_name": "stdout", "time": 69.056033619, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+{"stream_name": "stdout", "time": 69.056037289, "data": "    ParserElement.enablePackrat()\n"}
+{"stream_name": "stdout", "time": 69.056040501, "data": "\n"}
+{"stream_name": "stdout", "time": 69.056043696, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 69.056047166, "data": "9 passed, 15 warnings in 16.91s\n"}
+{"stream_name": "stderr", "time": 74.869211725, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 74.869247473, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 75.072078772, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 75.072103904, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 75.072136298, "data": "\n"}
+{"stream_name": "stderr", "time": 75.072141019, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 75.072157745, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 78.480509845, "data": "START FOLD loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 78.682898026, "data": "START FOLD loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 100.828087613, "data": "DONE SINGLE baseline loso_P01 session 0.546875 cell 0.5470430107526881 seconds 22.28167965\n"}
+{"stream_name": "stdout", "time": 101.031771999, "data": "DONE SINGLE baseline loso_P01 session 0.546875 cell 0.5470430107526881 seconds 22.28167965\n"}
+{"stream_name": "stdout", "time": 112.872222164, "data": "E2E EPOCH attention_gram 1 loss 0.171166 seconds 4.67\n"}
+{"stream_name": "stdout", "time": 113.07948789, "data": "E2E EPOCH attention_gram 1 loss 0.171166 seconds 4.67\n"}
+{"stream_name": "stdout", "time": 149.77786631, "data": "E2E EPOCH attention_gram 10 loss 0.099831 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 149.985425904, "data": "E2E EPOCH attention_gram 10 loss 0.099831 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 191.087631314, "data": "E2E EPOCH attention_gram 20 loss 0.069479 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 191.294158704, "data": "E2E EPOCH attention_gram 20 loss 0.069479 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 232.77211021, "data": "E2E EPOCH attention_gram 30 loss 0.055331 seconds 4.26\n"}
+{"stream_name": "stdout", "time": 232.976985045, "data": "E2E EPOCH attention_gram 30 loss 0.055331 seconds 4.26\n"}
+{"stream_name": "stdout", "time": 274.330156206, "data": "E2E EPOCH attention_gram 40 loss 0.047111 seconds 4.16\n"}
+{"stream_name": "stdout", "time": 274.534775896, "data": "E2E EPOCH attention_gram 40 loss 0.047111 seconds 4.16\n"}
+{"stream_name": "stdout", "time": 315.483138726, "data": "E2E EPOCH attention_gram 50 loss 0.041693 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 315.687669352, "data": "E2E EPOCH attention_gram 50 loss 0.041693 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 356.657682901, "data": "E2E EPOCH attention_gram 60 loss 0.037801 seconds 4.08\n"}
+{"stream_name": "stdout", "time": 356.862515069, "data": "E2E EPOCH attention_gram 60 loss 0.037801 seconds 4.08\n"}
+{"stream_name": "stdout", "time": 398.010342956, "data": "E2E EPOCH attention_gram 70 loss 0.034801 seconds 4.13\n"}
+{"stream_name": "stdout", "time": 398.21502176, "data": "E2E EPOCH attention_gram 70 loss 0.034801 seconds 4.13\n"}
+{"stream_name": "stdout", "time": 439.031517758, "data": "E2E EPOCH attention_gram 80 loss 0.032369 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 439.236346816, "data": "E2E EPOCH attention_gram 80 loss 0.032369 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 443.936289571, "data": "DONE SINGLE attention_gram loso_P01 session 0.4946263227513228 cell 0.4954637096774194 seconds 341.48847455599997\n"}
+{"stream_name": "stdout", "time": 444.138762047, "data": "DONE SINGLE attention_gram loso_P01 session 0.4946263227513228 cell 0.4954637096774194 seconds 341.48847455599997\n"}
+{"stream_name": "stdout", "time": 455.3992301, "data": "E2E EPOCH attention_exp 1 loss 0.774745 seconds 4.24\n"}
+{"stream_name": "stdout", "time": 455.602344486, "data": "E2E EPOCH attention_exp 1 loss 0.774745 seconds 4.24\n"}
+{"stream_name": "stdout", "time": 492.959495118, "data": "E2E EPOCH attention_exp 10 loss 0.557167 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 493.164375711, "data": "E2E EPOCH attention_exp 10 loss 0.557167 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 534.478462001, "data": "E2E EPOCH attention_exp 20 loss 0.375909 seconds 4.19\n"}
+{"stream_name": "stdout", "time": 534.683424648, "data": "E2E EPOCH attention_exp 20 loss 0.375909 seconds 4.19\n"}
+{"stream_name": "stdout", "time": 576.506166167, "data": "E2E EPOCH attention_exp 30 loss 0.264281 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 576.710852526, "data": "E2E EPOCH attention_exp 30 loss 0.264281 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 618.178040423, "data": "E2E EPOCH attention_exp 40 loss 0.200634 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 618.382852849, "data": "E2E EPOCH attention_exp 40 loss 0.200634 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 659.73418963, "data": "E2E EPOCH attention_exp 50 loss 0.166547 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 659.939099487, "data": "E2E EPOCH attention_exp 50 loss 0.166547 seconds 4.14\n"}
+{"stream_name": "stderr", "time": 8.077986623, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.078049235, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.078055975, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.078060676, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 8.681899685, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.681940032, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.68194638, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.68195083, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 17.171277859, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 50.063462246, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.063491159, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.063503831, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063507482, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063510858, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063514246, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063517795, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063520884, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063524702, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063761856, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063779464, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063785342, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.06379048, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063795571, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063801137, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 50.25275294, "data": "Verified sources and data. SINGLE models,NO forest,full end-to-end gradients.\n"}
+{"stream_name": "stderr", "time": 50.253945003, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.25398058, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.253987137, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.253991213, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.253995079, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.25399883, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254002633, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254006371, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254010123, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254019728, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254022803, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254025397, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254027957, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254030579, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254033098, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254035642, "data": "\n"}
+{"stream_name": "stderr", "time": 50.254037955, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.254040627, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.254043189, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254045715, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254049073, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254051662, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254054132, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254056553, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254062397, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254065015, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254067561, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254070195, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254072734, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.25407527, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254077767, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 68.855344096, "data": ".................                                                                [100%]\n"}
+{"stream_name": "stdout", "time": 68.855448845, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 68.855761375, "data": "../../../../../tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 68.85578633, "data": "  /tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 68.855792963, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 68.855796597, "data": "\n"}
+{"stream_name": "stdout", "time": 68.855998164, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+{"stream_name": "stdout", "time": 68.856012869, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+{"stream_name": "stdout", "time": 68.856017419, "data": "    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+{"stream_name": "stdout", "time": 68.85602156, "data": "\n"}
+{"stream_name": "stdout", "time": 68.856810256, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856832559, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.85683719, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856840991, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856844677, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.85684845, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856852183, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+{"stream_name": "stdout", "time": 68.856856271, "data": "    parse = parser.parseString(pattern)\n"}
+{"stream_name": "stdout", "time": 68.85687047, "data": "\n"}
+{"stream_name": "stdout", "time": 68.857633475, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857653758, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857658535, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857662443, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857666172, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857669922, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857673687, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+{"stream_name": "stdout", "time": 68.857677684, "data": "    parser.resetCache()\n"}
+{"stream_name": "stdout", "time": 68.857681195, "data": "\n"}
+{"stream_name": "stdout", "time": 68.857874893, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+{"stream_name": "stdout", "time": 68.857882627, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+{"stream_name": "stdout", "time": 68.857886742, "data": "    ParserElement.enablePackrat()\n"}
+{"stream_name": "stdout", "time": 68.857890313, "data": "\n"}
+{"stream_name": "stdout", "time": 68.85789394, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 68.85812876, "data": "9 passed, 15 warnings in 16.91s\n"}
+{"stream_name": "stdout", "time": 69.055828006, "data": ".                                                                [100%]\n"}
+{"stream_name": "stdout", "time": 69.055890032, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 69.055896401, "data": "../../../../../tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 69.055900314, "data": "  /tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 69.055905722, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 69.055909395, "data": "\n"}
+{"stream_name": "stdout", "time": 69.055913093, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+{"stream_name": "stdout", "time": 69.055917056, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+{"stream_name": "stdout", "time": 69.055920758, "data": "    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+{"stream_name": "stdout", "time": 69.055924457, "data": "\n"}
+{"stream_name": "stdout", "time": 69.055927566, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055931169, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055944201, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055966086, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055979273, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055983517, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055987467, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+{"stream_name": "stdout", "time": 69.05599116, "data": "    parse = parser.parseString(pattern)\n"}
+{"stream_name": "stdout", "time": 69.055994978, "data": "\n"}
+{"stream_name": "stdout", "time": 69.05599857, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056002089, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056005323, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056008442, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056011629, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056016274, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056019676, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+{"stream_name": "stdout", "time": 69.056023497, "data": "    parser.resetCache()\n"}
+{"stream_name": "stdout", "time": 69.056027066, "data": "\n"}
+{"stream_name": "stdout", "time": 69.056030295, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+{"stream_name": "stdout", "time": 69.056033619, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+{"stream_name": "stdout", "time": 69.056037289, "data": "    ParserElement.enablePackrat()\n"}
+{"stream_name": "stdout", "time": 69.056040501, "data": "\n"}
+{"stream_name": "stdout", "time": 69.056043696, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 69.056047166, "data": "9 passed, 15 warnings in 16.91s\n"}
+{"stream_name": "stderr", "time": 74.869211725, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 74.869247473, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 75.072078772, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 75.072103904, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 75.072136298, "data": "\n"}
+{"stream_name": "stderr", "time": 75.072141019, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 75.072157745, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 78.480509845, "data": "START FOLD loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 78.682898026, "data": "START FOLD loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 100.828087613, "data": "DONE SINGLE baseline loso_P01 session 0.546875 cell 0.5470430107526881 seconds 22.28167965\n"}
+{"stream_name": "stdout", "time": 101.031771999, "data": "DONE SINGLE baseline loso_P01 session 0.546875 cell 0.5470430107526881 seconds 22.28167965\n"}
+{"stream_name": "stdout", "time": 112.872222164, "data": "E2E EPOCH attention_gram 1 loss 0.171166 seconds 4.67\n"}
+{"stream_name": "stdout", "time": 113.07948789, "data": "E2E EPOCH attention_gram 1 loss 0.171166 seconds 4.67\n"}
+{"stream_name": "stdout", "time": 149.77786631, "data": "E2E EPOCH attention_gram 10 loss 0.099831 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 149.985425904, "data": "E2E EPOCH attention_gram 10 loss 0.099831 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 191.087631314, "data": "E2E EPOCH attention_gram 20 loss 0.069479 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 191.294158704, "data": "E2E EPOCH attention_gram 20 loss 0.069479 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 232.77211021, "data": "E2E EPOCH attention_gram 30 loss 0.055331 seconds 4.26\n"}
+{"stream_name": "stdout", "time": 232.976985045, "data": "E2E EPOCH attention_gram 30 loss 0.055331 seconds 4.26\n"}
+{"stream_name": "stdout", "time": 274.330156206, "data": "E2E EPOCH attention_gram 40 loss 0.047111 seconds 4.16\n"}
+{"stream_name": "stdout", "time": 274.534775896, "data": "E2E EPOCH attention_gram 40 loss 0.047111 seconds 4.16\n"}
+{"stream_name": "stdout", "time": 315.483138726, "data": "E2E EPOCH attention_gram 50 loss 0.041693 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 315.687669352, "data": "E2E EPOCH attention_gram 50 loss 0.041693 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 356.657682901, "data": "E2E EPOCH attention_gram 60 loss 0.037801 seconds 4.08\n"}
+{"stream_name": "stdout", "time": 356.862515069, "data": "E2E EPOCH attention_gram 60 loss 0.037801 seconds 4.08\n"}
+{"stream_name": "stdout", "time": 398.010342956, "data": "E2E EPOCH attention_gram 70 loss 0.034801 seconds 4.13\n"}
+{"stream_name": "stdout", "time": 398.21502176, "data": "E2E EPOCH attention_gram 70 loss 0.034801 seconds 4.13\n"}
+{"stream_name": "stdout", "time": 439.031517758, "data": "E2E EPOCH attention_gram 80 loss 0.032369 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 439.236346816, "data": "E2E EPOCH attention_gram 80 loss 0.032369 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 443.936289571, "data": "DONE SINGLE attention_gram loso_P01 session 0.4946263227513228 cell 0.4954637096774194 seconds 341.48847455599997\n"}
+{"stream_name": "stdout", "time": 444.138762047, "data": "DONE SINGLE attention_gram loso_P01 session 0.4946263227513228 cell 0.4954637096774194 seconds 341.48847455599997\n"}
+{"stream_name": "stdout", "time": 455.3992301, "data": "E2E EPOCH attention_exp 1 loss 0.774745 seconds 4.24\n"}
+{"stream_name": "stdout", "time": 455.602344486, "data": "E2E EPOCH attention_exp 1 loss 0.774745 seconds 4.24\n"}
+{"stream_name": "stdout", "time": 492.959495118, "data": "E2E EPOCH attention_exp 10 loss 0.557167 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 493.164375711, "data": "E2E EPOCH attention_exp 10 loss 0.557167 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 534.478462001, "data": "E2E EPOCH attention_exp 20 loss 0.375909 seconds 4.19\n"}
+{"stream_name": "stdout", "time": 534.683424648, "data": "E2E EPOCH attention_exp 20 loss 0.375909 seconds 4.19\n"}
+{"stream_name": "stdout", "time": 576.506166167, "data": "E2E EPOCH attention_exp 30 loss 0.264281 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 576.710852526, "data": "E2E EPOCH attention_exp 30 loss 0.264281 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 618.178040423, "data": "E2E EPOCH attention_exp 40 loss 0.200634 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 618.382852849, "data": "E2E EPOCH attention_exp 40 loss 0.200634 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 659.73418963, "data": "E2E EPOCH attention_exp 50 loss 0.166547 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 659.939099487, "data": "E2E EPOCH attention_exp 50 loss 0.166547 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 701.045258363, "data": "E2E EPOCH attention_exp 60 loss 0.147198 seconds 4.1\n"}
+{"stream_name": "stdout", "time": 701.252564499, "data": "E2E EPOCH attention_exp 60 loss 0.147198 seconds 4.1\n"}
+{"stream_name": "stdout", "time": 742.530258096, "data": "E2E EPOCH attention_exp 70 loss 0.13304 seconds 4.15\n"}
+{"stream_name": "stdout", "time": 742.735419419, "data": "E2E EPOCH attention_exp 70 loss 0.13304 seconds 4.15\n"}
+{"stream_name": "stdout", "time": 783.987244265, "data": "E2E EPOCH attention_exp 80 loss 0.120791 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 784.192091149, "data": "E2E EPOCH attention_exp 80 loss 0.120791 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 789.028656155, "data": "DONE SINGLE attention_exp loso_P01 session 0.3473875661375661 cell 0.34711021505376344 seconds 345.057133709\n"}
+{"stream_name": "stdout", "time": 789.047020625, "data": "START FOLD loso_P02 1711 189\n"}
+{"stream_name": "stdout", "time": 789.231051357, "data": "DONE SINGLE attention_exp loso_P01 session 0.3473875661375661 cell 0.34711021505376344 seconds 345.057133709\n"}
+{"stream_name": "stdout", "time": 789.231088634, "data": "START FOLD loso_P02 1711 189\n"}
+{"stream_name": "stdout", "time": 810.983624026, "data": "DONE SINGLE baseline loso_P02 session 0.607308201058201 cell 0.6085573476702508 seconds 21.920602012000018\n"}
+{"stream_name": "stdout", "time": 811.186126702, "data": "DONE SINGLE baseline loso_P02 session 0.607308201058201 cell 0.6085573476702508 seconds 21.920602012000018\n"}
+{"stream_name": "stdout", "time": 821.054778923, "data": "E2E EPOCH attention_gram 1 loss 0.173628 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 821.264206083, "data": "E2E EPOCH attention_gram 1 loss 0.173628 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 857.719644439, "data": "E2E EPOCH attention_gram 10 loss 0.100304 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 857.924851323, "data": "E2E EPOCH attention_gram 10 loss 0.100304 seconds 4.12\n"}
+{"stream_name": "stderr", "time": 8.077986623, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.078049235, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.078055975, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.078060676, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 8.681899685, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.681940032, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.68194638, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.68195083, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 17.171277859, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 50.063462246, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.063491159, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.063503831, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063507482, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063510858, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063514246, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063517795, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063520884, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063524702, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063761856, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063779464, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063785342, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.06379048, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063795571, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063801137, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 50.25275294, "data": "Verified sources and data. SINGLE models,NO forest,full end-to-end gradients.\n"}
+{"stream_name": "stderr", "time": 50.253945003, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.25398058, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.253987137, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.253991213, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.253995079, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.25399883, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254002633, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254006371, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254010123, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254019728, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254022803, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254025397, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254027957, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254030579, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254033098, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254035642, "data": "\n"}
+{"stream_name": "stderr", "time": 50.254037955, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.254040627, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.254043189, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254045715, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254049073, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254051662, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254054132, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254056553, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254062397, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254065015, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254067561, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254070195, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254072734, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.25407527, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254077767, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 68.855344096, "data": ".................                                                                [100%]\n"}
+{"stream_name": "stdout", "time": 68.855448845, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 68.855761375, "data": "../../../../../tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 68.85578633, "data": "  /tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 68.855792963, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 68.855796597, "data": "\n"}
+{"stream_name": "stdout", "time": 68.855998164, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+{"stream_name": "stdout", "time": 68.856012869, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+{"stream_name": "stdout", "time": 68.856017419, "data": "    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+{"stream_name": "stdout", "time": 68.85602156, "data": "\n"}
+{"stream_name": "stdout", "time": 68.856810256, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856832559, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.85683719, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856840991, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856844677, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.85684845, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856852183, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+{"stream_name": "stdout", "time": 68.856856271, "data": "    parse = parser.parseString(pattern)\n"}
+{"stream_name": "stdout", "time": 68.85687047, "data": "\n"}
+{"stream_name": "stdout", "time": 68.857633475, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857653758, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857658535, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857662443, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857666172, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857669922, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857673687, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+{"stream_name": "stdout", "time": 68.857677684, "data": "    parser.resetCache()\n"}
+{"stream_name": "stdout", "time": 68.857681195, "data": "\n"}
+{"stream_name": "stdout", "time": 68.857874893, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+{"stream_name": "stdout", "time": 68.857882627, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+{"stream_name": "stdout", "time": 68.857886742, "data": "    ParserElement.enablePackrat()\n"}
+{"stream_name": "stdout", "time": 68.857890313, "data": "\n"}
+{"stream_name": "stdout", "time": 68.85789394, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 68.85812876, "data": "9 passed, 15 warnings in 16.91s\n"}
+{"stream_name": "stdout", "time": 69.055828006, "data": ".                                                                [100%]\n"}
+{"stream_name": "stdout", "time": 69.055890032, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 69.055896401, "data": "../../../../../tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 69.055900314, "data": "  /tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 69.055905722, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 69.055909395, "data": "\n"}
+{"stream_name": "stdout", "time": 69.055913093, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+{"stream_name": "stdout", "time": 69.055917056, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+{"stream_name": "stdout", "time": 69.055920758, "data": "    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+{"stream_name": "stdout", "time": 69.055924457, "data": "\n"}
+{"stream_name": "stdout", "time": 69.055927566, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055931169, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055944201, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055966086, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055979273, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055983517, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055987467, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+{"stream_name": "stdout", "time": 69.05599116, "data": "    parse = parser.parseString(pattern)\n"}
+{"stream_name": "stdout", "time": 69.055994978, "data": "\n"}
+{"stream_name": "stdout", "time": 69.05599857, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056002089, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056005323, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056008442, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056011629, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056016274, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056019676, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+{"stream_name": "stdout", "time": 69.056023497, "data": "    parser.resetCache()\n"}
+{"stream_name": "stdout", "time": 69.056027066, "data": "\n"}
+{"stream_name": "stdout", "time": 69.056030295, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+{"stream_name": "stdout", "time": 69.056033619, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+{"stream_name": "stdout", "time": 69.056037289, "data": "    ParserElement.enablePackrat()\n"}
+{"stream_name": "stdout", "time": 69.056040501, "data": "\n"}
+{"stream_name": "stdout", "time": 69.056043696, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 69.056047166, "data": "9 passed, 15 warnings in 16.91s\n"}
+{"stream_name": "stderr", "time": 74.869211725, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 74.869247473, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 75.072078772, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 75.072103904, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 75.072136298, "data": "\n"}
+{"stream_name": "stderr", "time": 75.072141019, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 75.072157745, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 78.480509845, "data": "START FOLD loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 78.682898026, "data": "START FOLD loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 100.828087613, "data": "DONE SINGLE baseline loso_P01 session 0.546875 cell 0.5470430107526881 seconds 22.28167965\n"}
+{"stream_name": "stdout", "time": 101.031771999, "data": "DONE SINGLE baseline loso_P01 session 0.546875 cell 0.5470430107526881 seconds 22.28167965\n"}
+{"stream_name": "stdout", "time": 112.872222164, "data": "E2E EPOCH attention_gram 1 loss 0.171166 seconds 4.67\n"}
+{"stream_name": "stdout", "time": 113.07948789, "data": "E2E EPOCH attention_gram 1 loss 0.171166 seconds 4.67\n"}
+{"stream_name": "stdout", "time": 149.77786631, "data": "E2E EPOCH attention_gram 10 loss 0.099831 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 149.985425904, "data": "E2E EPOCH attention_gram 10 loss 0.099831 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 191.087631314, "data": "E2E EPOCH attention_gram 20 loss 0.069479 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 191.294158704, "data": "E2E EPOCH attention_gram 20 loss 0.069479 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 232.77211021, "data": "E2E EPOCH attention_gram 30 loss 0.055331 seconds 4.26\n"}
+{"stream_name": "stdout", "time": 232.976985045, "data": "E2E EPOCH attention_gram 30 loss 0.055331 seconds 4.26\n"}
+{"stream_name": "stdout", "time": 274.330156206, "data": "E2E EPOCH attention_gram 40 loss 0.047111 seconds 4.16\n"}
+{"stream_name": "stdout", "time": 274.534775896, "data": "E2E EPOCH attention_gram 40 loss 0.047111 seconds 4.16\n"}
+{"stream_name": "stdout", "time": 315.483138726, "data": "E2E EPOCH attention_gram 50 loss 0.041693 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 315.687669352, "data": "E2E EPOCH attention_gram 50 loss 0.041693 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 356.657682901, "data": "E2E EPOCH attention_gram 60 loss 0.037801 seconds 4.08\n"}
+{"stream_name": "stdout", "time": 356.862515069, "data": "E2E EPOCH attention_gram 60 loss 0.037801 seconds 4.08\n"}
+{"stream_name": "stdout", "time": 398.010342956, "data": "E2E EPOCH attention_gram 70 loss 0.034801 seconds 4.13\n"}
+{"stream_name": "stdout", "time": 398.21502176, "data": "E2E EPOCH attention_gram 70 loss 0.034801 seconds 4.13\n"}
+{"stream_name": "stdout", "time": 439.031517758, "data": "E2E EPOCH attention_gram 80 loss 0.032369 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 439.236346816, "data": "E2E EPOCH attention_gram 80 loss 0.032369 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 443.936289571, "data": "DONE SINGLE attention_gram loso_P01 session 0.4946263227513228 cell 0.4954637096774194 seconds 341.48847455599997\n"}
+{"stream_name": "stdout", "time": 444.138762047, "data": "DONE SINGLE attention_gram loso_P01 session 0.4946263227513228 cell 0.4954637096774194 seconds 341.48847455599997\n"}
+{"stream_name": "stdout", "time": 455.3992301, "data": "E2E EPOCH attention_exp 1 loss 0.774745 seconds 4.24\n"}
+{"stream_name": "stdout", "time": 455.602344486, "data": "E2E EPOCH attention_exp 1 loss 0.774745 seconds 4.24\n"}
+{"stream_name": "stdout", "time": 492.959495118, "data": "E2E EPOCH attention_exp 10 loss 0.557167 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 493.164375711, "data": "E2E EPOCH attention_exp 10 loss 0.557167 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 534.478462001, "data": "E2E EPOCH attention_exp 20 loss 0.375909 seconds 4.19\n"}
+{"stream_name": "stdout", "time": 534.683424648, "data": "E2E EPOCH attention_exp 20 loss 0.375909 seconds 4.19\n"}
+{"stream_name": "stdout", "time": 576.506166167, "data": "E2E EPOCH attention_exp 30 loss 0.264281 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 576.710852526, "data": "E2E EPOCH attention_exp 30 loss 0.264281 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 618.178040423, "data": "E2E EPOCH attention_exp 40 loss 0.200634 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 618.382852849, "data": "E2E EPOCH attention_exp 40 loss 0.200634 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 659.73418963, "data": "E2E EPOCH attention_exp 50 loss 0.166547 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 659.939099487, "data": "E2E EPOCH attention_exp 50 loss 0.166547 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 701.045258363, "data": "E2E EPOCH attention_exp 60 loss 0.147198 seconds 4.1\n"}
+{"stream_name": "stdout", "time": 701.252564499, "data": "E2E EPOCH attention_exp 60 loss 0.147198 seconds 4.1\n"}
+{"stream_name": "stdout", "time": 742.530258096, "data": "E2E EPOCH attention_exp 70 loss 0.13304 seconds 4.15\n"}
+{"stream_name": "stdout", "time": 742.735419419, "data": "E2E EPOCH attention_exp 70 loss 0.13304 seconds 4.15\n"}
+{"stream_name": "stdout", "time": 783.987244265, "data": "E2E EPOCH attention_exp 80 loss 0.120791 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 784.192091149, "data": "E2E EPOCH attention_exp 80 loss 0.120791 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 789.028656155, "data": "DONE SINGLE attention_exp loso_P01 session 0.3473875661375661 cell 0.34711021505376344 seconds 345.057133709\n"}
+{"stream_name": "stdout", "time": 789.047020625, "data": "START FOLD loso_P02 1711 189\n"}
+{"stream_name": "stdout", "time": 789.231051357, "data": "DONE SINGLE attention_exp loso_P01 session 0.3473875661375661 cell 0.34711021505376344 seconds 345.057133709\n"}
+{"stream_name": "stdout", "time": 789.231088634, "data": "START FOLD loso_P02 1711 189\n"}
+{"stream_name": "stdout", "time": 810.983624026, "data": "DONE SINGLE baseline loso_P02 session 0.607308201058201 cell 0.6085573476702508 seconds 21.920602012000018\n"}
+{"stream_name": "stdout", "time": 811.186126702, "data": "DONE SINGLE baseline loso_P02 session 0.607308201058201 cell 0.6085573476702508 seconds 21.920602012000018\n"}
+{"stream_name": "stdout", "time": 821.054778923, "data": "E2E EPOCH attention_gram 1 loss 0.173628 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 821.264206083, "data": "E2E EPOCH attention_gram 1 loss 0.173628 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 857.719644439, "data": "E2E EPOCH attention_gram 10 loss 0.100304 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 857.924851323, "data": "E2E EPOCH attention_gram 10 loss 0.100304 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 898.550213129, "data": "E2E EPOCH attention_gram 20 loss 0.069156 seconds 4.08\n"}
+{"stream_name": "stdout", "time": 898.755473418, "data": "E2E EPOCH attention_gram 20 loss 0.069156 seconds 4.08\n"}
+{"stream_name": "stdout", "time": 939.262816724, "data": "E2E EPOCH attention_gram 30 loss 0.054738 seconds 4.05\n"}
+{"stream_name": "stdout", "time": 939.467956818, "data": "E2E EPOCH attention_gram 30 loss 0.054738 seconds 4.05\n"}
+{"stream_name": "stderr", "time": 8.077986623, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.078049235, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.078055975, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.078060676, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 8.681899685, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.681940032, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.68194638, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.68195083, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 17.171277859, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 50.063462246, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.063491159, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.063503831, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063507482, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063510858, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063514246, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063517795, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063520884, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063524702, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063761856, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 8.077986623, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.078049235, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.078055975, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.078060676, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 8.681899685, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 8.681940032, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 8.68194638, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 8.68195083, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 17.171277859, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 50.063462246, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.063491159, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.063503831, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063507482, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063510858, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063514246, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063517795, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063520884, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063524702, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063761856, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063779464, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063785342, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.06379048, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063795571, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.063801137, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 50.25275294, "data": "Verified sources and data. SINGLE models,NO forest,full end-to-end gradients.\n"}
+{"stream_name": "stderr", "time": 50.253945003, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.25398058, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.253987137, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.253991213, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.253995079, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.25399883, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254002633, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254006371, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254010123, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254019728, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254022803, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254025397, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254027957, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254030579, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254033098, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254035642, "data": "\n"}
+{"stream_name": "stderr", "time": 50.254037955, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 50.254040627, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 50.254043189, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254045715, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254049073, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254051662, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254054132, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254056553, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254062397, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254065015, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254067561, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254070195, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254072734, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.25407527, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 50.254077767, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 68.855344096, "data": ".................                                                                [100%]\n"}
+{"stream_name": "stdout", "time": 68.855448845, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 68.855761375, "data": "../../../../../tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 68.85578633, "data": "  /tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 68.855792963, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 68.855796597, "data": "\n"}
+{"stream_name": "stdout", "time": 68.855998164, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+{"stream_name": "stdout", "time": 68.856012869, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+{"stream_name": "stdout", "time": 68.856017419, "data": "    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+{"stream_name": "stdout", "time": 68.85602156, "data": "\n"}
+{"stream_name": "stdout", "time": 68.856810256, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856832559, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.85683719, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856840991, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856844677, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.85684845, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 68.856852183, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+{"stream_name": "stdout", "time": 68.856856271, "data": "    parse = parser.parseString(pattern)\n"}
+{"stream_name": "stdout", "time": 68.85687047, "data": "\n"}
+{"stream_name": "stdout", "time": 68.857633475, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857653758, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857658535, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857662443, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857666172, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857669922, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 68.857673687, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+{"stream_name": "stdout", "time": 68.857677684, "data": "    parser.resetCache()\n"}
+{"stream_name": "stdout", "time": 68.857681195, "data": "\n"}
+{"stream_name": "stdout", "time": 68.857874893, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+{"stream_name": "stdout", "time": 68.857882627, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+{"stream_name": "stdout", "time": 68.857886742, "data": "    ParserElement.enablePackrat()\n"}
+{"stream_name": "stdout", "time": 68.857890313, "data": "\n"}
+{"stream_name": "stdout", "time": 68.85789394, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 68.85812876, "data": "9 passed, 15 warnings in 16.91s\n"}
+{"stream_name": "stdout", "time": 69.055828006, "data": ".                                                                [100%]\n"}
+{"stream_name": "stdout", "time": 69.055890032, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 69.055896401, "data": "../../../../../tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 69.055900314, "data": "  /tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 69.055905722, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 69.055909395, "data": "\n"}
+{"stream_name": "stdout", "time": 69.055913093, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+{"stream_name": "stdout", "time": 69.055917056, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+{"stream_name": "stdout", "time": 69.055920758, "data": "    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+{"stream_name": "stdout", "time": 69.055924457, "data": "\n"}
+{"stream_name": "stdout", "time": 69.055927566, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055931169, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055944201, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055966086, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055979273, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055983517, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+{"stream_name": "stdout", "time": 69.055987467, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+{"stream_name": "stdout", "time": 69.05599116, "data": "    parse = parser.parseString(pattern)\n"}
+{"stream_name": "stdout", "time": 69.055994978, "data": "\n"}
+{"stream_name": "stdout", "time": 69.05599857, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056002089, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056005323, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056008442, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056011629, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056016274, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+{"stream_name": "stdout", "time": 69.056019676, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+{"stream_name": "stdout", "time": 69.056023497, "data": "    parser.resetCache()\n"}
+{"stream_name": "stdout", "time": 69.056027066, "data": "\n"}
+{"stream_name": "stdout", "time": 69.056030295, "data": "../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+{"stream_name": "stdout", "time": 69.056033619, "data": "  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+{"stream_name": "stdout", "time": 69.056037289, "data": "    ParserElement.enablePackrat()\n"}
+{"stream_name": "stdout", "time": 69.056040501, "data": "\n"}
+{"stream_name": "stdout", "time": 69.056043696, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 69.056047166, "data": "9 passed, 15 warnings in 16.91s\n"}
+{"stream_name": "stderr", "time": 74.869211725, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 74.869247473, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 75.072078772, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 75.072103904, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 75.072136298, "data": "\n"}
+{"stream_name": "stderr", "time": 75.072141019, "data": "/tmp/single-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 75.072157745, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 78.480509845, "data": "START FOLD loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 78.682898026, "data": "START FOLD loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 100.828087613, "data": "DONE SINGLE baseline loso_P01 session 0.546875 cell 0.5470430107526881 seconds 22.28167965\n"}
+{"stream_name": "stdout", "time": 101.031771999, "data": "DONE SINGLE baseline loso_P01 session 0.546875 cell 0.5470430107526881 seconds 22.28167965\n"}
+{"stream_name": "stdout", "time": 112.872222164, "data": "E2E EPOCH attention_gram 1 loss 0.171166 seconds 4.67\n"}
+{"stream_name": "stdout", "time": 113.07948789, "data": "E2E EPOCH attention_gram 1 loss 0.171166 seconds 4.67\n"}
+{"stream_name": "stdout", "time": 149.77786631, "data": "E2E EPOCH attention_gram 10 loss 0.099831 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 149.985425904, "data": "E2E EPOCH attention_gram 10 loss 0.099831 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 191.087631314, "data": "E2E EPOCH attention_gram 20 loss 0.069479 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 191.294158704, "data": "E2E EPOCH attention_gram 20 loss 0.069479 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 232.77211021, "data": "E2E EPOCH attention_gram 30 loss 0.055331 seconds 4.26\n"}
+{"stream_name": "stdout", "time": 232.976985045, "data": "E2E EPOCH attention_gram 30 loss 0.055331 seconds 4.26\n"}
+{"stream_name": "stdout", "time": 274.330156206, "data": "E2E EPOCH attention_gram 40 loss 0.047111 seconds 4.16\n"}
+{"stream_name": "stdout", "time": 274.534775896, "data": "E2E EPOCH attention_gram 40 loss 0.047111 seconds 4.16\n"}
+{"stream_name": "stdout", "time": 315.483138726, "data": "E2E EPOCH attention_gram 50 loss 0.041693 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 315.687669352, "data": "E2E EPOCH attention_gram 50 loss 0.041693 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 356.657682901, "data": "E2E EPOCH attention_gram 60 loss 0.037801 seconds 4.08\n"}
+{"stream_name": "stdout", "time": 356.862515069, "data": "E2E EPOCH attention_gram 60 loss 0.037801 seconds 4.08\n"}
+{"stream_name": "stdout", "time": 398.010342956, "data": "E2E EPOCH attention_gram 70 loss 0.034801 seconds 4.13\n"}
+{"stream_name": "stdout", "time": 398.21502176, "data": "E2E EPOCH attention_gram 70 loss 0.034801 seconds 4.13\n"}
+{"stream_name": "stdout", "time": 439.031517758, "data": "E2E EPOCH attention_gram 80 loss 0.032369 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 439.236346816, "data": "E2E EPOCH attention_gram 80 loss 0.032369 seconds 4.09\n"}
+{"stream_name": "stdout", "time": 443.936289571, "data": "DONE SINGLE attention_gram loso_P01 session 0.4946263227513228 cell 0.4954637096774194 seconds 341.48847455599997\n"}
+{"stream_name": "stdout", "time": 444.138762047, "data": "DONE SINGLE attention_gram loso_P01 session 0.4946263227513228 cell 0.4954637096774194 seconds 341.48847455599997\n"}
+{"stream_name": "stdout", "time": 455.3992301, "data": "E2E EPOCH attention_exp 1 loss 0.774745 seconds 4.24\n"}
+{"stream_name": "stdout", "time": 455.602344486, "data": "E2E EPOCH attention_exp 1 loss 0.774745 seconds 4.24\n"}
+{"stream_name": "stdout", "time": 492.959495118, "data": "E2E EPOCH attention_exp 10 loss 0.557167 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 493.164375711, "data": "E2E EPOCH attention_exp 10 loss 0.557167 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 534.478462001, "data": "E2E EPOCH attention_exp 20 loss 0.375909 seconds 4.19\n"}
+{"stream_name": "stdout", "time": 534.683424648, "data": "E2E EPOCH attention_exp 20 loss 0.375909 seconds 4.19\n"}
+{"stream_name": "stdout", "time": 576.506166167, "data": "E2E EPOCH attention_exp 30 loss 0.264281 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 576.710852526, "data": "E2E EPOCH attention_exp 30 loss 0.264281 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 618.178040423, "data": "E2E EPOCH attention_exp 40 loss 0.200634 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 618.382852849, "data": "E2E EPOCH attention_exp 40 loss 0.200634 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 659.73418963, "data": "E2E EPOCH attention_exp 50 loss 0.166547 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 659.939099487, "data": "E2E EPOCH attention_exp 50 loss 0.166547 seconds 4.14\n"}
+{"stream_name": "stdout", "time": 701.045258363, "data": "E2E EPOCH attention_exp 60 loss 0.147198 seconds 4.1\n"}
+{"stream_name": "stdout", "time": 701.252564499, "data": "E2E EPOCH attention_exp 60 loss 0.147198 seconds 4.1\n"}
+{"stream_name": "stdout", "time": 742.530258096, "data": "E2E EPOCH attention_exp 70 loss 0.13304 seconds 4.15\n"}
+{"stream_name": "stdout", "time": 742.735419419, "data": "E2E EPOCH attention_exp 70 loss 0.13304 seconds 4.15\n"}
+{"stream_name": "stdout", "time": 783.987244265, "data": "E2E EPOCH attention_exp 80 loss 0.120791 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 784.192091149, "data": "E2E EPOCH attention_exp 80 loss 0.120791 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 789.028656155, "data": "DONE SINGLE attention_exp loso_P01 session 0.3473875661375661 cell 0.34711021505376344 seconds 345.057133709\n"}
+{"stream_name": "stdout", "time": 789.047020625, "data": "START FOLD loso_P02 1711 189\n"}
+{"stream_name": "stdout", "time": 789.231051357, "data": "DONE SINGLE attention_exp loso_P01 session 0.3473875661375661 cell 0.34711021505376344 seconds 345.057133709\n"}
+{"stream_name": "stdout", "time": 789.231088634, "data": "START FOLD loso_P02 1711 189\n"}
+{"stream_name": "stdout", "time": 810.983624026, "data": "DONE SINGLE baseline loso_P02 session 0.607308201058201 cell 0.6085573476702508 seconds 21.920602012000018\n"}
+{"stream_name": "stdout", "time": 811.186126702, "data": "DONE SINGLE baseline loso_P02 session 0.607308201058201 cell 0.6085573476702508 seconds 21.920602012000018\n"}
+{"stream_name": "stdout", "time": 821.054778923, "data": "E2E EPOCH attention_gram 1 loss 0.173628 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 821.264206083, "data": "E2E EPOCH attention_gram 1 loss 0.173628 seconds 4.21\n"}
+{"stream_name": "stdout", "time": 857.719644439, "data": "E2E EPOCH attention_gram 10 loss 0.100304 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 857.924851323, "data": "E2E EPOCH attention_gram 10 loss 0.100304 seconds 4.12\n"}
+{"stream_name": "stdout", "time": 898.550213129, "data": "E2E EPOCH attention_gram 20 loss 0.069156 seconds 4.08\n"}
+{"stream_name": "stdout", "time": 898.755473418, "data": "E2E EPOCH attention_gram 20 loss 0.069156 seconds 4.08\n"}
+{"stream_name": "stdout", "time": 939.262816724, "data": "E2E EPOCH attention_gram 30 loss 0.054738 seconds 4.05\n"}
+{"stream_name": "stdout", "time": 939.467956818, "data": "E2E EPOCH attention_gram 30 loss 0.054738 seconds 4.05\n"}
+{"stream_name": "stdout", "time": 979.791245091, "data": "E2E EPOCH attention_gram 40 loss 0.046518 seconds 4.07\n"}
+{"stream_name": "stdout", "time": 979.996007006, "data": "E2E EPOCH attention_gram 40 loss 0.046518 seconds 4.07\n"}
+{"stream_name": "stdout", "time": 1020.46835005, "data": "E2E EPOCH attention_gram 50 loss 0.041172 seconds 4.1\n"}
+{"stream_name": "stdout", "time": 1020.673818495, "data": "E2E EPOCH attention_gram 50 loss 0.041172 seconds 4.1\n"}
+{"stream_name": "stdout", "time": 1061.134999253, "data": "E2E EPOCH attention_gram 60 loss 0.037354 seconds 4.04\n"}
+{"stream_name": "stdout", "time": 1061.340746736, "data": "E2E EPOCH attention_gram 60 loss 0.037354 seconds 4.04\n"}
+{"stream_name": "stdout", "time": 1101.83164465, "data": "E2E EPOCH attention_gram 70 loss 0.03443 seconds 4.01\n"}
+{"stream_name": "stdout", "time": 1102.036728641, "data": "E2E EPOCH attention_gram 70 loss 0.03443 seconds 4.01\n"}

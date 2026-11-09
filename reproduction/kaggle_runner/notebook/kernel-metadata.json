@@ -1,0 +1,19 @@
+{
+  "id": "den1shh/proteus-lag4-classifier-ablation",
+  "title": "PROTEUS Lag4 Classifier Ablation",
+  "code_file": "classifier_ablation.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": "false",
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "den1shh/proteus-lag4-classifier-inputs",
+    "den1shh/proteus-lag4-classifier-source"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

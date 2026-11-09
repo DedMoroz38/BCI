@@ -1,0 +1,8 @@
+{
+  "minimal_intervention": "Per-electrode Hadamard congruence of same two half covariances, original scaler unchanged",
+  "min_feature_variance": 0.0019395236534138376,
+  "median_feature_variance": 0.004919073170636041,
+  "variance_below_1e-20_count": 0,
+  "max_scaled_feature": 12.717265761841281,
+  "matrix_min_eigenvalue": 0.24627325637383984
+}

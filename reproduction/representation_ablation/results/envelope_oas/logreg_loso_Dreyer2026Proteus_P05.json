@@ -1,0 +1,38 @@
+{
+  "variant": "envelope_oas",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P05",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P05"
+  ],
+  "train_windows": 1710,
+  "eval_windows": 190,
+  "fit_seconds": 2.379496499954257,
+  "total_seconds": 2.655928291962482,
+  "session_mean_delta_vs_control": 0.031249999999999944,
+  "representation_definition": "OAS covariance of abs(hilbert(band_filtered_X)), full 480-sample window",
+  "reference_update": "original cumulative log-Euclidean, prior_weight=5",
+  "cell_mean": 0.3481182795698925,
+  "session_mean": 0.3465608465608465,
+  "pooled": 0.3465608465608465,
+  "accuracy": 0.3473684210526316,
+  "matrix_cache_sha256": {
+    "envelope_oas_band0": "93747821300576afa685013d379ca80b7ce21b00123ff2c13d66db5ea0513718",
+    "envelope_oas_band1": "381b16daa11002e116828f8c940f7331810989e96c5879f6827b7461b6f5a1d8",
+    "envelope_oas_band2": "d75bc9c7eaefad3143cb6c899a0fe2f99d70d576f512fa3ce049aa837fce02f1",
+    "envelope_oas_band3": "ec66423e5a9239d8db30da5211ccb0c495638f779f470888e0a7a37dead5b93e",
+    "envelope_oas_band4": "a1f83020aba11af1a505bbedbe1db3aab16699ef58292062e4c4ca037daffd8e",
+    "envelope_oas_band5": "02dada0d30609760830aa7ec9407a85943ecd5f5962b16f3d8ff59df745a780f"
+  },
+  "tangent_dimension": 861
+}

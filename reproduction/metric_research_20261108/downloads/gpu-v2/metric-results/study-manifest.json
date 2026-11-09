@@ -1,0 +1,67 @@
+{
+  "code": {
+    "src/common.py": "0db1b71b74efe6314d53eb59d2d44219a174082da859665fda8a7cdb7358177d",
+    "src/neural_training.py": "1d10438aaf7ad89462c72a59b5c908039d30441ce152228a38615a064aa0425a",
+    "run_gpu.py": "29a0c34907d9bc34222f4312a7e3ea8fe00d6c1103fb4847747426de2bb416e5",
+    "PROTOCOL.md": "697ef82223f3bb86a12f85418aae9e932bb8a496c6540f5ea0a30e4b4cfc446e"
+  },
+  "configs": {
+    "shallow40_class": {
+      "n_filters": 40,
+      "loss": "class"
+    },
+    "shallow16_class": {
+      "n_filters": 16,
+      "loss": "class"
+    },
+    "shallow16_subject": {
+      "n_filters": 16,
+      "loss": "subject"
+    }
+  },
+  "data": {
+    "train": "8b177bc78dc26f47666f420ecbc0e2decbd865f15909284c225db1b23396bdbf",
+    "val": "80674d38123f5cc2ae51e5c2ce4884b60f3ef37231cdbd030bec07747eec8585",
+    "test": "adafd2515eaf1c0ce689eba6384af74a65c974829ca16dec4ef12c95e5a87c58"
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "torch": "2.11.0+cu130"
+  },
+  "gpu": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "max_epochs": 30,
+  "patience": 6,
+  "seeds_primary": [
+    0
+  ],
+  "seeds_optional": [
+    1
+  ],
+  "inner_split_seed": 33,
+  "cohort": "all10_public",
+  "selection": "inner_cell_weighted_NLL",
+  "author": {
+    "commit": "934f423a73e1ed50d653345d27256ecfe50ab009",
+    "files": {
+      "track2_bci/bci/make_submission.py": "6767335d279638fb86e6fe6cf1bed35403ab60f8996d4eed1b2cdd5a53538f40",
+      "track2_bci/bci/benchmark.py": "55e3929646de0752846312e9c49bf056daadaf68e881006d4693d357dd430c9a",
+      "track2_bci/bci/evaluation.py": "c9cc684944c3bae308a92669906a35df379fee3517bbf33b6c314c9d934b1b48",
+      "track2_bci/bci/riemann.py": "dcefad7d89ef03cda78f64236fd0bae2d7e3bf75d65bd0658de5c1251dfbf73e",
+      "track2_bci/bci/__init__.py": "484cea65ccbbdbe4dc3e3e9683a914465351e27e6f3f4dcfc203c5b14f2f2386",
+      "track2_bci/bci/export.py": "cd3a3d724a8f2cc33e4a343cc7ba483ecf3b3ff0afadbc688a60f1138451c69b",
+      "track2_bci/bci/stream.py": "f61eaf7f53933d01618f7aa899275be644de38a6c2798e2d435360eeae930063",
+      "track2_bci/bci/nemar_retry.py": "67c23f6f6dab76a6bf82ea1709088be47bc24a6e04268073ed046f4fda3f09d7",
+      "track2_bci/bci/ensemble.py": "8a5c7f5505d80c4d235efb24cb44a78e0d1e7160858558a009fc8fbca9a71377",
+      "track2_bci/bci/data.py": "efc1a8a4d8a4032c12cb4aac6da58a9024ea34af3230d266ed59d791f424aa21",
+      "track2_bci/bci/models/gated.py": "3df62869ccf3d0291c91d1bbd0f5eec7a6e29a8021a674a120844e7f8b675e64",
+      "track2_bci/bci/models/__init__.py": "1a045b4486dfede240e456197de82bd0a943bf9d84abe189cf13571021222db4",
+      "track2_bci/bci/models/logreg.py": "ac72a22a9a0006d42ae5c5fb0aa6aab96374ff0b2fef10d1ce9cd16ecbbaa5aa",
+      "track2_bci/bci/models/forest.py": "66f61442917abb9e3078440c1c7e3e69a0e891440316f24a5ddd337f8311b73d"
+    }
+  }
+}

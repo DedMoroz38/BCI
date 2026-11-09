@@ -1,0 +1,18 @@
+{
+  "candidate_jobs": 145,
+  "previous_candidate_jobs": 87,
+  "control_jobs": 29,
+  "officially_rescored_files": 261,
+  "all_scores_match_official_code": true,
+  "metric_atol": 1e-14,
+  "all_original_artifacts_unchanged": true,
+  "all_previous_ablation_artifacts_unchanged": true,
+  "source_checkouts_unchanged": true,
+  "data_hashes_match_control": true,
+  "all_tree_selections_match_control": true,
+  "all_test_window_orders_match_control": true,
+  "combined_paired_loso_rows": 192,
+  "new_paired_loso_rows": 120,
+  "source_commit": "8d577af42619e5911cc5da8743c8a3e9b629014b",
+  "competition_commit": "2b53aec91c111f8b5423b6674f096c48cc1a99af"
+}

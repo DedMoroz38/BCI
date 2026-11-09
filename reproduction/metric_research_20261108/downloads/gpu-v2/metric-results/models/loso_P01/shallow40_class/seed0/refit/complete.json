@@ -1,0 +1,35 @@
+{
+  "settings_hash": "3adccf3d44539d6e678a137014f7c22cebac5876b16c405560dcc49140ff8475",
+  "settings": {
+    "config": {
+      "n_filters": 40,
+      "loss": "class"
+    },
+    "seed": 0,
+    "epochs": 1,
+    "selecting": false,
+    "people": [
+      "Dreyer2026Proteus/P02",
+      "Dreyer2026Proteus/P03",
+      "Dreyer2026Proteus/P04",
+      "Dreyer2026Proteus/P05",
+      "Dreyer2026Proteus/P06",
+      "Dreyer2026Proteus/P07",
+      "Dreyer2026Proteus/P08",
+      "Dreyer2026Proteus/P09",
+      "Dreyer2026Proteus/P10"
+    ],
+    "windows": 2465,
+    "val_people": [],
+    "source_sha": "1d10438aaf7ad89462c72a59b5c908039d30441ce152228a38615a064aa0425a",
+    "lr": 0.001,
+    "decay": 0.01,
+    "batch64": true,
+    "schedule_Tmax": 100
+  },
+  "best_epoch": 1,
+  "stopped_epoch": 1,
+  "seconds": 4.177842754999972,
+  "parameters": 73683,
+  "final_sha256": "09abcc1021dea66c7b3169b3eeb19f00b08bd3a1972029c3e805cc943e48ec63"
+}

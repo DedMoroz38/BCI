@@ -1,0 +1,33 @@
+{
+  "variant": "ridge",
+  "tag": "test_official",
+  "protocol": "test",
+  "fold": "official",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P04",
+    "Dreyer2026Proteus/P09"
+  ],
+  "train_windows": 1521,
+  "eval_windows": 755,
+  "feature_manifest_sha256": "e93d7db757faeb0d62b9816c8409bb6184ea1816fee2245b7885fc0ed04b4a52",
+  "classifier_config_sha256": "12abff9e82c4954355840023e94af27c90981efd953793259bbd59f8eca2e827",
+  "cell_mean": 0.4589277437893956,
+  "session_mean": 0.45778147287765214,
+  "pooled": 0.45754559294546016,
+  "accuracy": 0.45695364238410596,
+  "log_loss": 1.088217926130752,
+  "brier": 0.6597177261501982,
+  "classifier_seconds": 10.182130148001306,
+  "warnings": [],
+  "convergence_warning_count": 0,
+  "backend": "sklearn CPU",
+  "predictions_sha256": "320d657780858ee85ebf0a448d94e43f1dc6f4496df3e107659258d52e21adb4"
+}

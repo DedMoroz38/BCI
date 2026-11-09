@@ -1,0 +1,17 @@
+{
+  "prediction_sha256": "4da7588355eff9309cdcd419977009c3337b05e98a42ee2359adf9e5e6944b33",
+  "tag": "later_last",
+  "config": {
+    "name": "lag4",
+    "weight": 0,
+    "temp": 1,
+    "alpha": 0,
+    "pool": "arithmetic"
+  },
+  "cell_mean": 0.7218487394957983,
+  "session_mean": 0.7237298356701342,
+  "pooled": 0.7237298356701342,
+  "accuracy": 0.7236180904522613,
+  "log_loss": 0.8819899252673471,
+  "brier": 0.5218839439171196
+}

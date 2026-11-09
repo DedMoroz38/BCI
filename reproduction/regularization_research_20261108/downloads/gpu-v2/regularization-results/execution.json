@@ -1,0 +1,4629 @@
+{
+  "seconds": 4946.594323396683,
+  "budget_seconds": 14400.0,
+  "jobs": [
+    {
+      "name": "ls0.02",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.02",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.05",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.1",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls0.2",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.01",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.03",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "noise0.05",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.1",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "global_gain0.2",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.1",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "coordinate_gain0.2",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "drop1",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "drop3",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "drop5",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "mask24",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "mask48",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "shift6",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "shift12",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "flip",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.2",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "sameclass_mix0.4",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.1",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "mixstyle0.3",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "window3",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "window5",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.95",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ema0.99",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.05",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "swad0.1",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_drop3",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_gain20",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "noise03_drop3",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_noise03_drop3",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 0,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 0,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 0,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 0,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 0,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 0,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 0,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 0,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 0,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 0,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 0,
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 1,
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 1,
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 1,
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 1,
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 1,
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 1,
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 1,
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 1,
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 1,
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 1,
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "name": "ls05_window3",
+      "seed": 1,
+      "tag": "later_last",
+      "status": "complete"
+    }
+  ],
+  "planned_jobs": 770,
+  "failed_jobs": [],
+  "budget_pending": []
+}

@@ -1,0 +1,28 @@
+{
+  "variant": "riemann_recursive",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P10",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P10"
+  ],
+  "train_windows": 1323,
+  "eval_windows": 577,
+  "fit_seconds": 3.731657958996948,
+  "total_seconds": 6.022249584028032,
+  "session_mean_delta_vs_control": 0.004745570428155377,
+  "reference_update": "M_t=geodesic_riemann(M_{t-1},R_t,alpha=1/(5+t))",
+  "cell_mean": 0.3928370209472987,
+  "session_mean": 0.39255416388782977,
+  "pooled": 0.39240243593434204,
+  "accuracy": 0.39168110918544197
+}

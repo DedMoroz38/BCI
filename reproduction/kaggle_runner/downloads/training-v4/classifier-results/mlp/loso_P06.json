@@ -1,0 +1,65 @@
+{
+  "variant": "mlp",
+  "tag": "loso_P06",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P06",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P06"
+  ],
+  "train_windows": 1713,
+  "eval_windows": 187,
+  "feature_manifest_sha256": "039a9c7ae8c0c5a024a4b2bfb0d5b8d09028127a1fe6a5e0de28c5a50d390567",
+  "classifier_config_sha256": "12abff9e82c4954355840023e94af27c90981efd953793259bbd59f8eca2e827",
+  "cell_mean": 0.5570340501792115,
+  "session_mean": 0.5561529271206691,
+  "pooled": 0.5561529271206691,
+  "accuracy": 0.5561497326203209,
+  "log_loss": 0.9596597798978103,
+  "brier": 0.5825532403125728,
+  "classifier_seconds": 3.022825284999726,
+  "warnings": [],
+  "convergence_warning_count": 0,
+  "backend": "PyTorch CUDA",
+  "epochs": 300,
+  "optimizer": "Adam lr=.001; fixed epochs, no convergence claim",
+  "loss_history": [
+    {
+      "epoch": 1,
+      "mean_objective": 1.5696169137954712
+    },
+    {
+      "epoch": 50,
+      "mean_objective": 0.14001016318798065
+    },
+    {
+      "epoch": 100,
+      "mean_objective": 0.05853335186839104
+    },
+    {
+      "epoch": 150,
+      "mean_objective": 0.04325784742832184
+    },
+    {
+      "epoch": 200,
+      "mean_objective": 0.03744933381676674
+    },
+    {
+      "epoch": 250,
+      "mean_objective": 0.03413311392068863
+    },
+    {
+      "epoch": 300,
+      "mean_objective": 0.031752195209264755
+    }
+  ],
+  "predictions_sha256": "f0eeb29d4077705443955d724916c87c3c4a45d0f44aeff86f5ceb5528629e66"
+}

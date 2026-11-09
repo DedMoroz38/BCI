@@ -1,0 +1,10 @@
+{
+  "id": "den1shh/proteus-lag4-classifier-source",
+  "title": "PROTEUS Lag4 Classifier Source",
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ],
+  "description": "Private reproducibility bundle: experiment source, original BCI source with its license, and baseline prediction receipts. See the included licenses and protocol."
+}

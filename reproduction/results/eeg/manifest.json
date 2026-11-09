@@ -1,0 +1,111 @@
+{
+  "source_commit": "8d577af42619e5911cc5da8743c8a3e9b629014b",
+  "source_url": "https://github.com/DorinDaniil/Brain-Decoding",
+  "created_utc": "2026-10-28T22:23:43.456888+00:00",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.12 (main, Mar  3 2026, 22:00:28) [Clang 17.0.0 (clang-1700.0.13.5)]",
+  "splits": {
+    "train": {
+      "windows": 1521,
+      "subjects": 6,
+      "subject_ids": [
+        "Dreyer2026Proteus/P01",
+        "Dreyer2026Proteus/P02",
+        "Dreyer2026Proteus/P03",
+        "Dreyer2026Proteus/P06",
+        "Dreyer2026Proteus/P07",
+        "Dreyer2026Proteus/P10"
+      ],
+      "sessions": 8
+    },
+    "val": {
+      "windows": 379,
+      "subjects": 2,
+      "subject_ids": [
+        "Dreyer2026Proteus/P05",
+        "Dreyer2026Proteus/P08"
+      ],
+      "sessions": 2
+    },
+    "test": {
+      "windows": 755,
+      "subjects": 2,
+      "subject_ids": [
+        "Dreyer2026Proteus/P04",
+        "Dreyer2026Proteus/P09"
+      ],
+      "sessions": 4
+    }
+  },
+  "data_sha256": {
+    "train": "8b177bc78dc26f47666f420ecbc0e2decbd865f15909284c225db1b23396bdbf",
+    "val": "80674d38123f5cc2ae51e5c2ce4884b60f3ef37231cdbd030bec07747eec8585",
+    "test": "adafd2515eaf1c0ce689eba6384af74a65c974829ca16dec4ef12c95e5a87c58"
+  },
+  "package_versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "pyriemann": "0.12",
+    "mne": "1.13.2",
+    "neuralbench": "0.4.0",
+    "pandas": "3.1.0",
+    "torch": "2.15.0"
+  },
+  "parameters": {
+    "C": 0.01,
+    "seed": 0,
+    "prior_weight": 5,
+    "n_trees": 50,
+    "forest_channels": [
+      12,
+      20
+    ],
+    "bands": [
+      [
+        4,
+        40
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        13,
+        20
+      ],
+      [
+        20,
+        30
+      ],
+      [
+        30,
+        40
+      ]
+    ]
+  },
+  "test_training": "train only (6 subjects), as upstream notebooks",
+  "reference": {
+    "logreg": {
+      "loso_mean": 0.469,
+      "loso_std": 0.114,
+      "later": 0.547,
+      "test": 0.455
+    },
+    "forest12": {
+      "loso_mean": 0.511,
+      "loso_std": 0.133,
+      "later": 0.614
+    },
+    "forest20": {
+      "loso_mean": 0.531,
+      "loso_std": 0.15,
+      "later": 0.669,
+      "test": 0.529
+    }
+  }
+}

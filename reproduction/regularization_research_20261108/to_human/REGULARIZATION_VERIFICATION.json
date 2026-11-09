@@ -1,0 +1,22 @@
+{
+  "fits": 770,
+  "configs": 35,
+  "seeds": 2,
+  "folds": 11,
+  "failed_jobs": 0,
+  "budget_pending": 0,
+  "source_data_reference_hashes": true,
+  "independent_metric_rescore": true,
+  "prediction_and_logit_hashes": true,
+  "metadata_matches": true,
+  "inner_outer_people_separated": true,
+  "downloaded_best_model_hashes": 22,
+  "learning_histories": 176,
+  "gpu_recorded_cpu_label_differences": 0,
+  "gpu_recorded_gpu_label_differences": 0,
+  "max_recorded_cpu_probability_delta": 1.1920928955078125e-06,
+  "max_logit_softmax_rescore_delta": 1.7881393432617188e-07,
+  "max_float32_nll_rescore_delta": 1.7881393432617188e-07,
+  "max_brier_recomputed_softmax_delta": 1.0987298848519345e-09,
+  "seconds": 4946.594323396683
+}

@@ -1,0 +1,57 @@
+{
+  "leave_one_subject_out": [
+    {
+      "omitted_subject": "loso_P01",
+      "winner": "svm_linear"
+    },
+    {
+      "omitted_subject": "loso_P02",
+      "winner": "svm_linear"
+    },
+    {
+      "omitted_subject": "loso_P03",
+      "winner": "svm_linear"
+    },
+    {
+      "omitted_subject": "loso_P05",
+      "winner": "svm_linear"
+    },
+    {
+      "omitted_subject": "loso_P06",
+      "winner": "svm_linear"
+    },
+    {
+      "omitted_subject": "loso_P07",
+      "winner": "svm_linear"
+    },
+    {
+      "omitted_subject": "loso_P08",
+      "winner": "svm_linear"
+    },
+    {
+      "omitted_subject": "loso_P10",
+      "winner": "svm_linear"
+    }
+  ],
+  "leave_one_subject_out_wins": {
+    "baseline": 0,
+    "elasticnet": 0,
+    "lda_lw": 0,
+    "mlp": 0,
+    "ridge": 0,
+    "svm_linear": 8,
+    "svm_rbf": 0
+  },
+  "paired_bootstrap_winner_fraction": {
+    "baseline": 0.04005,
+    "elasticnet": 0.0,
+    "lda_lw": 0.0843,
+    "mlp": 0.0008,
+    "ridge": 0.0,
+    "svm_linear": 0.69705,
+    "svm_rbf": 0.1778
+  },
+  "bootstrap_samples": 20000,
+  "tie_break": "alphabetical",
+  "interpretation": "Descriptive resampling stability of8 observed people; not independent-cohort evidence or probability of true superiority"
+}

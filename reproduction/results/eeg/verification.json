@@ -1,0 +1,8 @@
+{
+  "verified_prediction_files": 29,
+  "official_metric_code": "2026-competition/benchmark_utils/metrics.py",
+  "competition_commit": "2b53aec91c111f8b5423b6674f096c48cc1a99af",
+  "metric_absolute_tolerance": 1e-14,
+  "all_stored_scores_match_official_code": true,
+  "split_leakage_check": "passed for all LOSO and official test jobs"
+}

@@ -1,0 +1,22 @@
+{
+  "prediction_sha256": "2fb164a1c8d97d4ac4f79dae0acd4e74f66b055819b5b3599e680127d71fe737",
+  "tag": "loso_P06",
+  "train_people": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P04",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P09",
+    "Dreyer2026Proteus/P10"
+  ],
+  "fit_seconds": 146.11492354108486,
+  "cell_mean": 0.6641241039426523,
+  "session_mean": 0.6629970984809694,
+  "pooled": 0.6629970984809694,
+  "accuracy": 0.6631016042780749,
+  "log_loss": 0.8915436481784655,
+  "brier": 0.530672575256694
+}

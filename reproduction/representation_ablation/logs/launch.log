@@ -1,0 +1,17 @@
+START group delay1_oas/forest20
+START group delay1_oas/forest12
+START group envelope_oas/forest12
+START group envelope_oas/forest20
+DONE group envelope_oas/forest12, log=envelope_oas_forest12.log
+START group delay1_oas/logreg
+DONE group delay1_oas/logreg, log=delay1_oas_logreg.log
+START group envelope_oas/logreg
+DONE group envelope_oas/logreg, log=envelope_oas_logreg.log
+START group hsic_rbf/forest20
+DONE group envelope_oas/forest20, log=envelope_oas_forest20.log
+START group hsic_rbf/forest12
+DONE group delay1_oas/forest12, log=delay1_oas_forest12.log
+START group hsic_rbf/logreg
+DONE group hsic_rbf/logreg, log=hsic_rbf_logreg.log
+DONE group hsic_rbf/forest12, log=hsic_rbf_forest12.log
+DONE group hsic_rbf/forest20, log=hsic_rbf_forest20.log

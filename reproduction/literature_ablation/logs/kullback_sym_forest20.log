@@ -1,0 +1,21 @@
+Validated exact source/data/environment and frozen experiment manifest
+START kullback_sym/forest20_loso_Dreyer2026Proteus_P01 train=1710 eval=190
+DONE kullback_sym/forest20_loso_Dreyer2026Proteus_P01: 0.526289683, delta=+0.000082672 (50.5s)
+START kullback_sym/forest20_loso_Dreyer2026Proteus_P02 train=1711 eval=189
+DONE kullback_sym/forest20_loso_Dreyer2026Proteus_P02: 0.623010539, delta=+0.031666027 (51.8s)
+START kullback_sym/forest20_loso_Dreyer2026Proteus_P03 train=1711 eval=189
+DONE kullback_sym/forest20_loso_Dreyer2026Proteus_P03: 0.396481375, delta=+0.011176715 (54.2s)
+START kullback_sym/forest20_loso_Dreyer2026Proteus_P05 train=1710 eval=190
+DONE kullback_sym/forest20_loso_Dreyer2026Proteus_P05: 0.330770503, delta=-0.000330688 (65.2s)
+START kullback_sym/forest20_loso_Dreyer2026Proteus_P06 train=1713 eval=187
+DONE kullback_sym/forest20_loso_Dreyer2026Proteus_P06: 0.513398191, delta=+0.011008705 (69.5s)
+START kullback_sym/forest20_loso_Dreyer2026Proteus_P07 train=1711 eval=189
+DONE kullback_sym/forest20_loso_Dreyer2026Proteus_P07: 0.729372013, delta=-0.005125661 (70.2s)
+START kullback_sym/forest20_loso_Dreyer2026Proteus_P08 train=1711 eval=189
+DONE kullback_sym/forest20_loso_Dreyer2026Proteus_P08: 0.731185463, delta=-0.005459016 (74.4s)
+START kullback_sym/forest20_loso_Dreyer2026Proteus_P10 train=1323 eval=577
+DONE kullback_sym/forest20_loso_Dreyer2026Proteus_P10: 0.449395060, delta=+0.005440243 (79.1s)
+START kullback_sym/forest20_later_last train=1701 eval=199
+DONE kullback_sym/forest20_later_last: 0.653625810, delta=-0.015000754 (76.5s)
+START kullback_sym/forest20_test_official train=1521 eval=755
+DONE kullback_sym/forest20_test_official: 0.514175618, delta=-0.014446258 (99.9s)

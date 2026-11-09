@@ -1,0 +1,31 @@
+START group kullback_sym/forest20
+START group wasserstein_recursive/forest20START group poweuclid_half/forest20
+
+START group harmonic_cumulative/forest20
+DONE group harmonic_cumulative/forest20, log=harmonic_cumulative_forest20.log
+START group logchol_cumulative/forest20
+DONE group poweuclid_half/forest20, log=poweuclid_half_forest20.log
+START group kullback_sym/forest12
+DONE group wasserstein_recursive/forest20, log=wasserstein_recursive_forest20.log
+START group wasserstein_recursive/forest12
+DONE group kullback_sym/forest20, log=kullback_sym_forest20.log
+START group poweuclid_half/forest12
+DONE group kullback_sym/forest12, log=kullback_sym_forest12.log
+START group harmonic_cumulative/forest12
+DONE group logchol_cumulative/forest20, log=logchol_cumulative_forest20.log
+START group logchol_cumulative/forest12
+DONE group poweuclid_half/forest12, log=poweuclid_half_forest12.log
+START group kullback_sym/logreg
+DONE group wasserstein_recursive/forest12, log=wasserstein_recursive_forest12.log
+START group wasserstein_recursive/logreg
+DONE group kullback_sym/logreg, log=kullback_sym_logreg.log
+START group poweuclid_half/logreg
+DONE group wasserstein_recursive/logreg, log=wasserstein_recursive_logreg.log
+START group harmonic_cumulative/logreg
+DONE group poweuclid_half/logreg, log=poweuclid_half_logreg.log
+START group logchol_cumulative/logreg
+DONE group harmonic_cumulative/logreg, log=harmonic_cumulative_logreg.log
+DONE group logchol_cumulative/logreg, log=logchol_cumulative_logreg.log
+DONE group harmonic_cumulative/forest12, log=harmonic_cumulative_forest12.log
+DONE group logchol_cumulative/forest12, log=logchol_cumulative_forest12.log
+All 145 candidate jobs completed or resumed.

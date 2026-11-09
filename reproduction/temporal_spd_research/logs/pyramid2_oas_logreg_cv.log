@@ -1,0 +1,19 @@
+Validated exact source/data/environment and frozen experiment manifest
+START pyramid2_oas/logreg_loso_Dreyer2026Proteus_P01 train=1710 eval=190
+DONE pyramid2_oas/logreg_loso_Dreyer2026Proteus_P01: 0.399388228, delta=-0.042576058 (5.7s)
+START pyramid2_oas/logreg_loso_Dreyer2026Proteus_P02 train=1711 eval=189
+DONE pyramid2_oas/logreg_loso_Dreyer2026Proteus_P02: 0.639475593, delta=+0.079623763 (6.1s)
+START pyramid2_oas/logreg_loso_Dreyer2026Proteus_P03 train=1711 eval=189
+DONE pyramid2_oas/logreg_loso_Dreyer2026Proteus_P03: 0.454519756, delta=+0.109289661 (5.5s)
+START pyramid2_oas/logreg_loso_Dreyer2026Proteus_P05 train=1710 eval=190
+DONE pyramid2_oas/logreg_loso_Dreyer2026Proteus_P05: 0.352513228, delta=+0.037202381 (6.0s)
+START pyramid2_oas/logreg_loso_Dreyer2026Proteus_P06 train=1713 eval=187
+DONE pyramid2_oas/logreg_loso_Dreyer2026Proteus_P06: 0.528503158, delta=+0.016043693 (5.6s)
+START pyramid2_oas/logreg_loso_Dreyer2026Proteus_P07 train=1711 eval=189
+DONE pyramid2_oas/logreg_loso_Dreyer2026Proteus_P07: 0.549112477, delta=-0.011248720 (4.8s)
+START pyramid2_oas/logreg_loso_Dreyer2026Proteus_P08 train=1711 eval=189
+DONE pyramid2_oas/logreg_loso_Dreyer2026Proteus_P08: 0.689692140, delta=+0.057126323 (4.8s)
+START pyramid2_oas/logreg_loso_Dreyer2026Proteus_P10 train=1323 eval=577
+DONE pyramid2_oas/logreg_loso_Dreyer2026Proteus_P10: 0.405306616, delta=+0.017498022 (4.8s)
+START pyramid2_oas/logreg_later_last train=1701 eval=199
+DONE pyramid2_oas/logreg_later_last: 0.612995628, delta=+0.066033469 (4.1s)

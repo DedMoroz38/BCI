@@ -1,0 +1,497 @@
+{
+  "code": {
+    "src/regularizers.py": "0baf6e6f9946a1f1da43a9c379890b6a0a4c2fd584c2974b1b83fc86cc3d4ebf",
+    "src/common.py": "0db1b71b74efe6314d53eb59d2d44219a174082da859665fda8a7cdb7358177d",
+    "src/wave1_training.py": "1d10438aaf7ad89462c72a59b5c908039d30441ce152228a38615a064aa0425a",
+    "src/training.py": "2b858c88ddc42559c7503793ec7eb99cd5d40abe8785d4f26b3a3af8107631ae",
+    "src/configurations.py": "88ee5c468ff73273eac98c2d5ecc0b0dc1765e2827ceebc28b464e4bcab1d29c",
+    "src/metrics.py": "15c266560445c7f508255c450d14348e7a57bf26c1db4b04e14be13c75785bb0",
+    "run_gpu.py": "6e0143e49636b9b25c18ead4c9576caf07327cf57086f11b09ee2d07ffb429a5",
+    "runner_support.py": "6d3e7244d242830a6bd1560429ff6a3e60cebf36a9fb409a1c3b30ea8502127d",
+    "PROTOCOL.md": "b304bab64885a715a0ddc1ea4f0fd31cced9ce2989de771c5944bbbc3b1d8f55"
+  },
+  "configs": [
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {},
+      "average": "none",
+      "name": "control",
+      "stage": 0
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.02,
+      "augment": {},
+      "average": "none",
+      "name": "ls0.02",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.05,
+      "augment": {},
+      "average": "none",
+      "name": "ls0.05",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.1,
+      "augment": {},
+      "average": "none",
+      "name": "ls0.1",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.2,
+      "augment": {},
+      "average": "none",
+      "name": "ls0.2",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "noise": 0.01
+      },
+      "average": "none",
+      "name": "noise0.01",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "noise": 0.03
+      },
+      "average": "none",
+      "name": "noise0.03",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "noise": 0.05
+      },
+      "average": "none",
+      "name": "noise0.05",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "global_gain": 0.1
+      },
+      "average": "none",
+      "name": "global_gain0.1",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "global_gain": 0.2
+      },
+      "average": "none",
+      "name": "global_gain0.2",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "coordinate_gain": 0.1
+      },
+      "average": "none",
+      "name": "coordinate_gain0.1",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "coordinate_gain": 0.2
+      },
+      "average": "none",
+      "name": "coordinate_gain0.2",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "drop": 1
+      },
+      "average": "none",
+      "name": "drop1",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "drop": 3
+      },
+      "average": "none",
+      "name": "drop3",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "drop": 5
+      },
+      "average": "none",
+      "name": "drop5",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "mask": 24
+      },
+      "average": "none",
+      "name": "mask24",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "mask": 48
+      },
+      "average": "none",
+      "name": "mask48",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "shift": 6
+      },
+      "average": "none",
+      "name": "shift6",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "shift": 12
+      },
+      "average": "none",
+      "name": "shift12",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "flip": 0.5
+      },
+      "average": "none",
+      "name": "flip",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "mix": 0.2
+      },
+      "average": "none",
+      "name": "sameclass_mix0.2",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "mix": 0.4
+      },
+      "average": "none",
+      "name": "sameclass_mix0.4",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "style": 0.1
+      },
+      "average": "none",
+      "name": "mixstyle0.1",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "style": 0.3
+      },
+      "average": "none",
+      "name": "mixstyle0.3",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {},
+      "average": "window",
+      "window": 1,
+      "name": "bn_refresh",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {},
+      "average": "window",
+      "window": 3,
+      "name": "window3",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {},
+      "average": "window",
+      "window": 5,
+      "name": "window5",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {},
+      "average": "ema",
+      "decay": 0.95,
+      "name": "ema0.95",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {},
+      "average": "ema",
+      "decay": 0.99,
+      "name": "ema0.99",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {},
+      "average": "swad",
+      "ratio": 0.05,
+      "name": "swad0.05",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {},
+      "average": "swad",
+      "ratio": 0.1,
+      "name": "swad0.1",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.05,
+      "augment": {
+        "noise": 0.03
+      },
+      "average": "none",
+      "name": "ls05_noise03",
+      "stage": 2
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.05,
+      "augment": {
+        "drop": 3
+      },
+      "average": "none",
+      "name": "ls05_drop3",
+      "stage": 2
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.05,
+      "augment": {
+        "global_gain": 0.2
+      },
+      "average": "none",
+      "name": "ls05_gain20",
+      "stage": 2
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "noise": 0.03,
+        "drop": 3
+      },
+      "average": "none",
+      "name": "noise03_drop3",
+      "stage": 2
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.05,
+      "augment": {
+        "noise": 0.03,
+        "drop": 3
+      },
+      "average": "none",
+      "name": "ls05_noise03_drop3",
+      "stage": 2
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.05,
+      "augment": {},
+      "average": "window",
+      "window": 3,
+      "name": "ls05_window3",
+      "stage": 2
+    }
+  ],
+  "data": {
+    "train": "8b177bc78dc26f47666f420ecbc0e2decbd865f15909284c225db1b23396bdbf",
+    "val": "80674d38123f5cc2ae51e5c2ce4884b60f3ef37231cdbd030bec07747eec8585",
+    "test": "adafd2515eaf1c0ce689eba6384af74a65c974829ca16dec4ef12c95e5a87c58"
+  },
+  "references": {
+    "baselines/later_last/lag4.npz": "d391f64cfa382dac3a0b108d9f47ea498854c08bbc29f0ac13139aef260a192f",
+    "baselines/later_last/lag4_balance1.npz": "024af2909c3187f816591a3052a3fed839c412d40db8a1a6d98883c80f9b510d",
+    "control_seed0/later_last.npz": "75f1e168a2e1e105cb48a9195d2565176133a4f0bd5d47f045344b5b8b919034",
+    "control_seed0/later_last.json": "4dfa96ade211dcf4efc7d8c7d732c70ee96a80cf21dcda7393758457ade5165d",
+    "control_seed1/later_last.npz": "34865887ed121d392802246dc935691289971e5e9dbcac8e61c5b806f9b8aa72",
+    "control_seed1/later_last.json": "58760df6ae18b577c3a7a8d9d2b48e85e03bb34780cf2148162b10162d4147ce",
+    "baselines/loso_P01/lag4.npz": "9e4034a5f634e1c274eb0a0a9c348bf52824742d717e7c5fb0813ce43c4ae7b2",
+    "baselines/loso_P01/lag4_balance1.npz": "8ce7d3922ce6f45b07d71304b12991e217c2120630774928e4f665892646708a",
+    "control_seed0/loso_P01.npz": "8d23b62fb42fcf44649b33e9407187c14cf9c0ceb26682022665c95421023df0",
+    "control_seed0/loso_P01.json": "26733118db47ea6d8d313f490ab4b360f822588dcc970556550de87c034d57b2",
+    "control_seed1/loso_P01.npz": "f88ab3b19e4f094f92339f93cea58c2dad964896a05be45f2623539e385e3027",
+    "control_seed1/loso_P01.json": "ab8d4a5343832a06b820b256e77f2f3ed098143905d9a0a999c6357aead870f1",
+    "baselines/loso_P02/lag4.npz": "fbef507ae913dfa7a07ecf8ceccbfbd36752aae933371658051921a91bd9f262",
+    "baselines/loso_P02/lag4_balance1.npz": "6f9bfd193699832ddf5e0957effe0f964f1a9e35237ab85550bb34c732bedcd4",
+    "control_seed0/loso_P02.npz": "9896e74d04e892fd68deb2616b3665ba823639cfbed19f133ce7d7416d63596c",
+    "control_seed0/loso_P02.json": "10e28aaf0bd61ec5b937da5aac37ed6cd0f6fcea7d3d8d25441f9f6b9f801fb4",
+    "control_seed1/loso_P02.npz": "62d0959a50ad8962a81e2a642333d37044500b1ad17dff0c27c8124842c1f168",
+    "control_seed1/loso_P02.json": "b09fac7a374a104108f492205bce3c6944931594cb755b8b13af342d91fc903e",
+    "baselines/loso_P03/lag4.npz": "c7e39d1308f30707712002d66b48a69b59c67dbef58b19452a679ccf9e0db019",
+    "baselines/loso_P03/lag4_balance1.npz": "10e9c1304af1a54bb1aeec544c660a771d243671059fa2e7d25f21d6ed36c568",
+    "control_seed0/loso_P03.npz": "45d29b2669a81debba9c2290a38c233c995aa01139e7cdc638574a5b2855ae5d",
+    "control_seed0/loso_P03.json": "5b87bd773dee82ef8eeb9b52c422692643c7dd2d64af2d77cdc10d800e87a32e",
+    "control_seed1/loso_P03.npz": "8652bf7f22459b29a3f6acc67b02591dba56fae3249a38bc7676421dddc9ec46",
+    "control_seed1/loso_P03.json": "a6d1255641d58b818a4e7aeb28f4c2b746ca0de9ff3912696e4687cf7b469da0",
+    "baselines/loso_P04/lag4.npz": "4d2e48203b91bab2b7524482ab7f31bdec1236bf50cdaa44498faffb30ecbec4",
+    "baselines/loso_P04/lag4_balance1.npz": "e57725f1b44e4ef1bbff6b1dbfbf48fd1e96655ffd234c97e1d50220c7b770fd",
+    "control_seed0/loso_P04.npz": "75ce831043aaf2e7c59c9c3503b27159fb0b661368380d6341ff20c6fc784f30",
+    "control_seed0/loso_P04.json": "144991f941435ad2ce238bcdea2b4e2f26393e9d64da0b5d9a837f714ff9bf3e",
+    "control_seed1/loso_P04.npz": "8c838fa76ee41eee8f536ed7088e92cd3849fbb88184dba636fcdd2033ca8e2e",
+    "control_seed1/loso_P04.json": "38121ecad017b0b672537b1b13e1ff772766de85ca303fc026c6fee18db7e4e3",
+    "baselines/loso_P05/lag4.npz": "d3fce33cdffa832cbb50c266f9168be6450cba2ba4d21f0d6dd0cbc1629cb3d3",
+    "baselines/loso_P05/lag4_balance1.npz": "24d46bd5ba7698833a430a92f34a36b0d7bc0b9ecf8f207ea8740f0758264fa4",
+    "control_seed0/loso_P05.npz": "443cdc0c56561915eaf29b93bf0272cc8c98032ffc52ab1e9804ddaa5ebac9e4",
+    "control_seed0/loso_P05.json": "9dd795973ec9ad20537e35c571d62038abf03043a03f111baeee76a660a086fb",
+    "control_seed1/loso_P05.npz": "a3eca767afc0012c16ea28158224ae968058507c309c137b33b88df6bcae59c9",
+    "control_seed1/loso_P05.json": "9d24499746743c96f372d7b35910e012a3d0bcd5def0b9350ac8929f9b599a82",
+    "baselines/loso_P06/lag4.npz": "2fb164a1c8d97d4ac4f79dae0acd4e74f66b055819b5b3599e680127d71fe737",
+    "baselines/loso_P06/lag4_balance1.npz": "b99c917724dbe288d24e98a769ebab3d4ee1f8a50eee74451b4436166a787ba9",
+    "control_seed0/loso_P06.npz": "65efdba77274bc5220b8a0e03ecf5e2934129c82f5bcea9529dd1eed23094864",
+    "control_seed0/loso_P06.json": "a9d9405c74239311e289d40c1b4b8b1d450b5ad0db2dae1e25988105e76faaa1",
+    "control_seed1/loso_P06.npz": "1da4c0710ccf6686a9351b986273fef64a122eda01e724716c2d13bfad821814",
+    "control_seed1/loso_P06.json": "18886e1c2df2ce2e60b2b5f26428847917963c48acc52ed2e37d62095385c6fd",
+    "baselines/loso_P07/lag4.npz": "aed56387d7b9bff930dc8e1fb740e29e0d6fd686cf05892d03ee9220c2997ddd",
+    "baselines/loso_P07/lag4_balance1.npz": "957e491a4e5dc0a73f20d87843f3c6a05c00cbec3c6b755a8430802b9cebf4c9",
+    "control_seed0/loso_P07.npz": "7be4d4ab0472143be87604ae53f2adebb3c6c8918b71e709195f4ff1b9096382",
+    "control_seed0/loso_P07.json": "981102a355de060a514b79db100b526f652a21a227db410089dc335f6119af4e",
+    "control_seed1/loso_P07.npz": "6dbec7ffeb4cc685cd7586d1db8a8d744d27e0c4a0951a67821fb32cb62f5113",
+    "control_seed1/loso_P07.json": "d959e794b23f9008af6d5d1a026d0f73a59e2aca0f3777e658354ceb6aaf4a64",
+    "baselines/loso_P08/lag4.npz": "4b5fd1691db7b6c4ed8aa8e63392b15cb42073109e25d37dbab43dfad0839bff",
+    "baselines/loso_P08/lag4_balance1.npz": "ae5a8fc1587945c3b13a6b6a9c8a4356a48af6b00902553f728b1e30007660a1",
+    "control_seed0/loso_P08.npz": "89c20302b7b9820abb71afacb0e936068230626d4677e5414a11be3ca9849797",
+    "control_seed0/loso_P08.json": "9be75d70c2490c0c8d7bed436e25074bbeb4311d498186e6bc1464a3beeb5c75",
+    "control_seed1/loso_P08.npz": "27198af0cd4c22e6e99f66f08f5894e6857a31362529c6bfc932fe4368a6c2ff",
+    "control_seed1/loso_P08.json": "1c5c351da2209a373e39e023105f5a424e79487f0e4f9731bd0bebb86f50cf26",
+    "baselines/loso_P09/lag4.npz": "cab3642a5dc79d244ac0123cbf567a50749d7f0ee1dc194a62f23bfdb5567a1c",
+    "baselines/loso_P09/lag4_balance1.npz": "431438b88bed52fde248929b8bfa40a8b5155dde95ef174f1b33d4083e88f03c",
+    "control_seed0/loso_P09.npz": "18e7c74457d023f30d7d17440f273c4d2d43b7d4b85fb4acb224b0e6f8c0eacf",
+    "control_seed0/loso_P09.json": "7240c2b78b597da6762b97a6b6b3841d91c05a8256affee01a6ecaa3f298b6fe",
+    "control_seed1/loso_P09.npz": "85058693c7959456b7f266b67c1ce9115f7d9c6f7b475692402921f065b1e6cf",
+    "control_seed1/loso_P09.json": "f7e2e5cf985deb9bbfb7a1c2dd37b7e01495ff4d3695f4450218e8639962bbb5",
+    "baselines/loso_P10/lag4.npz": "7f1cd06ae2b0ab8196f0536c81661fb5ed06d6b25f520bfca39899f584effb92",
+    "baselines/loso_P10/lag4_balance1.npz": "13da9b56b692e8515a2647925a3d3e33328441841646631887bcfe6ff3115cdd",
+    "control_seed0/loso_P10.npz": "1ae2de9e1c51ea13563520cda90e5b54a24e8438f222d895b8e2acd280766c7c",
+    "control_seed0/loso_P10.json": "122ef40dce064baf532d69d659ff71db4e819d4aaf4fd68d05690eeaaa4fc607",
+    "control_seed1/loso_P10.npz": "a2ea63fe54a6c4423b657b6697f2c7212f9cc35a09af733d7ac38905f642fa95",
+    "control_seed1/loso_P10.json": "1020f05c1054ff9a645b0d816a8d6d0c8f77a412b2684b249733540f03bf8b33"
+  },
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1"
+  },
+  "gpu": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "max_epochs": 30,
+  "patience": 6,
+  "seeds": [
+    0,
+    1
+  ],
+  "criterion": "inner_cell_NLL",
+  "inner_seed": 33
+}

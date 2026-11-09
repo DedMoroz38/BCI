@@ -1,0 +1,58 @@
+{
+  "created_utc": "2026-10-29T10:40:53.404389+00:00",
+  "criterion": "forest20 mean LOSO session-balanced accuracy, numerical eligibility first",
+  "winner": "pyramid2_mixed",
+  "ranking": [
+    {
+      "variant": "pyramid2_oas",
+      "loso_mean": 0.6202955296187914,
+      "eligible": false
+    },
+    {
+      "variant": "pyramid2_mixed",
+      "loso_mean": 0.6103764944945721,
+      "eligible": true
+    },
+    {
+      "variant": "lag4_oas",
+      "loso_mean": 0.5628006572739628,
+      "eligible": true
+    },
+    {
+      "variant": "stationary_oas",
+      "loso_mean": 0.555193363947684,
+      "eligible": true
+    },
+    {
+      "variant": "delay1_oas",
+      "loso_mean": 0.5538706126249328,
+      "eligible": true
+    },
+    {
+      "variant": "path_integral_oas",
+      "loso_mean": 0.5317343272899475,
+      "eligible": true
+    },
+    {
+      "variant": "original_oas",
+      "loso_mean": 0.5314304787328599,
+      "eligible": true
+    },
+    {
+      "variant": "quadrature_oas",
+      "loso_mean": 0.5309055639011779,
+      "eligible": false
+    },
+    {
+      "variant": "signature2_oas",
+      "loso_mean": 0.4994961596511661,
+      "eligible": true
+    }
+  ],
+  "excluded": {
+    "pyramid2_oas": "400 mathematically null tangent coordinates amplified by source scaler; measured variance <=4.53e-27",
+    "quadrature_oas": "Complex structure forces null self-quadrature tangent coordinates; not eligible without numerical handling"
+  },
+  "protocol_sha256": "162d5bf54f54d423057678289c5969c8e4633d942f615e987de3dd7f6194a4c0",
+  "policy": "Frozen before all new test scores; numeric quality gate and fixed mixing preregistered"
+}

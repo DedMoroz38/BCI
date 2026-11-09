@@ -1,0 +1,16 @@
+{
+  "bundle_sha256": "1caa001f5e69f9ddb0cae95f971b1a3e76071a27bcd60d08ee02d158c0f4218e",
+  "source_manifest": {
+    "test_provenance.py": "5da1610a8d7cc9b355f4f83f9a0a7830ec0452162ca2f6ec72f3325d45542f95",
+    "attention.py": "444a3007e49c9b7a14a3b083bfa4d27b2aaffd882e11e2e8e3d3328100e46a22",
+    "run_attention.py": "482f81dca940dd6cd12ea10357cf52b1cc729b69bacb9d106b9da3cc52f84cd6",
+    "test_analysis.py": "c73d7a4ffd7dd487a8679b0aaa09e7e27529bbdf4bc0b6d848c959fff3a3b7b7",
+    "follow_run.py": "d3aed713b554b3224f1c51f8ce2323dbe17ee48d6b1afc6b1454f0cacac0f9f1",
+    "test_attention.py": "1a5a633927456e25cba32a0eb524f4980b664614365edb1cd208177a3841a525",
+    "analyze_attention.py": "8d4d85d14e807e20c0210c409109347ca433349cf198a7f45bbf090b34dd5087",
+    "build_notebook.py": "2c88bdbe5fee0f2ac681997909104347edc1651568e28d8af55d55b5b6f01f78",
+    "test_pipeline.py": "65e902b4aab97efcb70309ece214a4ce2d1167bc76d522fdf49abccc659c63d8",
+    "PROTOCOL.md": "633ed634263de8bb904da9ae67cb54dcc0ac61ede2c1c2fefa866f5bb3e3ecb3"
+  },
+  "notebook_sha256": "f36810f63467f346c4be0662a9a58b9103eb3961b22d05d19b325870511e3117"
+}

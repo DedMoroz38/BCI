@@ -1,0 +1,33 @@
+{
+  "variant": "lda_lw",
+  "tag": "loso_P02",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P02",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P02"
+  ],
+  "train_windows": 1711,
+  "eval_windows": 189,
+  "feature_manifest_sha256": "c8d132d687008416517c47c48d4a728c071a9a69399a6ee98cfb880385fa1e98",
+  "classifier_config_sha256": "12abff9e82c4954355840023e94af27c90981efd953793259bbd59f8eca2e827",
+  "cell_mean": 0.6203293010752688,
+  "session_mean": 0.6186502602833248,
+  "pooled": 0.6186502602833248,
+  "accuracy": 0.6190476190476191,
+  "log_loss": 0.8979307782260016,
+  "brier": 0.533612985349979,
+  "classifier_seconds": 33.44602763000012,
+  "warnings": [],
+  "convergence_warning_count": 0,
+  "backend": "sklearn CPU",
+  "predictions_sha256": "6beec92a1d1221b489fcab3cbb1dc209aa7cb327c199e6bbb02548a192183a7a"
+}

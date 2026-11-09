@@ -1,0 +1,15 @@
+{
+  "variant": "+deep",
+  "tag": "loso_P05",
+  "manifest_sha256": "7260835c56d59d74a11bf4188ceb7dbf0bef81153a2a0a3caa77b0773aed40c4",
+  "prediction_sha256": "cb8d4e72216972c63346e29c2eb41352df5b65f3b56b167a5e5800cc04c0811c",
+  "eval_seconds": 11.817583796000235,
+  "cell_mean": 0.5149529569892473,
+  "session_mean": 0.5144675925925926,
+  "pooled": 0.5144675925925926,
+  "accuracy": 0.5157894736842106,
+  "log_loss": 1.004092583749633,
+  "brier": 0.6041627214600618,
+  "parent_record_sha256": "e320215ef283479ba7fcb43f2c214ddd3b3d53d78731a4d55e1a52df8788b1fb",
+  "parent_manifest_sha256": "ab3ab25c19fa33bc61d81ac3b3fc1bdb51b2508ae4150aaa5bb751f896029792"
+}

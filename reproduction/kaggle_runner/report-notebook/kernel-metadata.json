@@ -1,0 +1,17 @@
+{
+  "id": "den1shh/proteus-lag4-classifier-report",
+  "title": "PROTEUS Lag4 Classifier Report",
+  "code_file": "verified_report.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "machine_shape": "",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [
+    "den1shh/proteus-lag4-classifier-ablation"
+  ]
+}

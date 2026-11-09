@@ -1,0 +1,282 @@
+FFFFFFFFFFFFFFFFFFFFFF                                                   [100%]
+=================================== FAILURES ===================================
+__ test_hand_derived_scalar_reference[harmonic_cumulative-1.173913043478261] ___
+
+variant = 'harmonic_cumulative', want = 1.173913043478261
+
+    @pytest.mark.parametrize('variant,want', [
+        ('harmonic_cumulative', 27/23), ('poweuclid_half', 16/9),
+        ('kullback_sym', np.sqrt(63/23)), ('logchol_cumulative', 9**(1/6)),
+        ('wasserstein_recursive', 16/9)])
+    def test_hand_derived_scalar_reference(variant, want):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:21: AssertionError
+____ test_hand_derived_scalar_reference[poweuclid_half-1.7777777777777777] _____
+
+variant = 'poweuclid_half', want = 1.7777777777777777
+
+    @pytest.mark.parametrize('variant,want', [
+        ('harmonic_cumulative', 27/23), ('poweuclid_half', 16/9),
+        ('kullback_sym', np.sqrt(63/23)), ('logchol_cumulative', 9**(1/6)),
+        ('wasserstein_recursive', 16/9)])
+    def test_hand_derived_scalar_reference(variant, want):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:21: AssertionError
+_____ test_hand_derived_scalar_reference[kullback_sym-1.6550318531021113] ______
+
+variant = 'kullback_sym', want = np.float64(1.6550318531021113)
+
+    @pytest.mark.parametrize('variant,want', [
+        ('harmonic_cumulative', 27/23), ('poweuclid_half', 16/9),
+        ('kullback_sym', np.sqrt(63/23)), ('logchol_cumulative', 9**(1/6)),
+        ('wasserstein_recursive', 16/9)])
+    def test_hand_derived_scalar_reference(variant, want):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:21: AssertionError
+__ test_hand_derived_scalar_reference[logchol_cumulative-1.4422495703074083] ___
+
+variant = 'logchol_cumulative', want = 1.4422495703074083
+
+    @pytest.mark.parametrize('variant,want', [
+        ('harmonic_cumulative', 27/23), ('poweuclid_half', 16/9),
+        ('kullback_sym', np.sqrt(63/23)), ('logchol_cumulative', 9**(1/6)),
+        ('wasserstein_recursive', 16/9)])
+    def test_hand_derived_scalar_reference(variant, want):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:21: AssertionError
+_ test_hand_derived_scalar_reference[wasserstein_recursive-1.7777777777777777] _
+
+variant = 'wasserstein_recursive', want = 1.7777777777777777
+
+    @pytest.mark.parametrize('variant,want', [
+        ('harmonic_cumulative', 27/23), ('poweuclid_half', 16/9),
+        ('kullback_sym', np.sqrt(63/23)), ('logchol_cumulative', 9**(1/6)),
+        ('wasserstein_recursive', 16/9)])
+    def test_hand_derived_scalar_reference(variant, want):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:21: AssertionError
+_ test_weighted_noncommuting_prefix_equals_published_mean[harmonic_cumulative-mean_harmonic] _
+
+variant = 'harmonic_cumulative', library_mean = 'mean_harmonic'
+
+    @pytest.mark.parametrize('variant,library_mean', [
+        ('harmonic_cumulative', 'mean_harmonic'), ('poweuclid_half', 'mean_poweuclid'),
+        ('kullback_sym', 'mean_kullback_sym'), ('logchol_cumulative', 'mean_logchol')])
+    def test_weighted_noncommuting_prefix_equals_published_mean(variant, library_mean):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:31: AssertionError
+_ test_weighted_noncommuting_prefix_equals_published_mean[poweuclid_half-mean_poweuclid] _
+
+variant = 'poweuclid_half', library_mean = 'mean_poweuclid'
+
+    @pytest.mark.parametrize('variant,library_mean', [
+        ('harmonic_cumulative', 'mean_harmonic'), ('poweuclid_half', 'mean_poweuclid'),
+        ('kullback_sym', 'mean_kullback_sym'), ('logchol_cumulative', 'mean_logchol')])
+    def test_weighted_noncommuting_prefix_equals_published_mean(variant, library_mean):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:31: AssertionError
+_ test_weighted_noncommuting_prefix_equals_published_mean[kullback_sym-mean_kullback_sym] _
+
+variant = 'kullback_sym', library_mean = 'mean_kullback_sym'
+
+    @pytest.mark.parametrize('variant,library_mean', [
+        ('harmonic_cumulative', 'mean_harmonic'), ('poweuclid_half', 'mean_poweuclid'),
+        ('kullback_sym', 'mean_kullback_sym'), ('logchol_cumulative', 'mean_logchol')])
+    def test_weighted_noncommuting_prefix_equals_published_mean(variant, library_mean):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:31: AssertionError
+_ test_weighted_noncommuting_prefix_equals_published_mean[logchol_cumulative-mean_logchol] _
+
+variant = 'logchol_cumulative', library_mean = 'mean_logchol'
+
+    @pytest.mark.parametrize('variant,library_mean', [
+        ('harmonic_cumulative', 'mean_harmonic'), ('poweuclid_half', 'mean_poweuclid'),
+        ('kullback_sym', 'mean_kullback_sym'), ('logchol_cumulative', 'mean_logchol')])
+    def test_weighted_noncommuting_prefix_equals_published_mean(variant, library_mean):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:31: AssertionError
+_____ test_log_cholesky_averages_strict_lower_and_log_diagonal_separately ______
+
+    def test_log_cholesky_averages_strict_lower_and_log_diagonal_separately():
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:49: AssertionError
+_______ test_bures_update_matches_independent_optimal_transport_formula ________
+
+    def test_bures_update_matches_independent_optimal_transport_formula():
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:60: AssertionError
+_ test_zero_prior_recovers_current_covariance_and_remains_spd[harmonic_cumulative] _
+
+variant = 'harmonic_cumulative'
+
+    @pytest.mark.parametrize('variant', VARIANTS)
+    def test_zero_prior_recovers_current_covariance_and_remains_spd(variant):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:73: AssertionError
+_ test_zero_prior_recovers_current_covariance_and_remains_spd[poweuclid_half] __
+
+variant = 'poweuclid_half'
+
+    @pytest.mark.parametrize('variant', VARIANTS)
+    def test_zero_prior_recovers_current_covariance_and_remains_spd(variant):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:73: AssertionError
+__ test_zero_prior_recovers_current_covariance_and_remains_spd[kullback_sym] ___
+
+variant = 'kullback_sym'
+
+    @pytest.mark.parametrize('variant', VARIANTS)
+    def test_zero_prior_recovers_current_covariance_and_remains_spd(variant):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:73: AssertionError
+_ test_zero_prior_recovers_current_covariance_and_remains_spd[logchol_cumulative] _
+
+variant = 'logchol_cumulative'
+
+    @pytest.mark.parametrize('variant', VARIANTS)
+    def test_zero_prior_recovers_current_covariance_and_remains_spd(variant):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:73: AssertionError
+_ test_zero_prior_recovers_current_covariance_and_remains_spd[wasserstein_recursive] _
+
+variant = 'wasserstein_recursive'
+
+    @pytest.mark.parametrize('variant', VARIANTS)
+    def test_zero_prior_recovers_current_covariance_and_remains_spd(variant):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:73: AssertionError
+_ test_causal_prefix_session_reset_and_batch_stream_parity[harmonic_cumulative] _
+
+variant = 'harmonic_cumulative'
+
+    @pytest.mark.parametrize('variant', VARIANTS)
+    def test_causal_prefix_session_reset_and_batch_stream_parity(variant):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:94: AssertionError
+___ test_causal_prefix_session_reset_and_batch_stream_parity[poweuclid_half] ___
+
+variant = 'poweuclid_half'
+
+    @pytest.mark.parametrize('variant', VARIANTS)
+    def test_causal_prefix_session_reset_and_batch_stream_parity(variant):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:94: AssertionError
+____ test_causal_prefix_session_reset_and_batch_stream_parity[kullback_sym] ____
+
+variant = 'kullback_sym'
+
+    @pytest.mark.parametrize('variant', VARIANTS)
+    def test_causal_prefix_session_reset_and_batch_stream_parity(variant):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:94: AssertionError
+_ test_causal_prefix_session_reset_and_batch_stream_parity[logchol_cumulative] _
+
+variant = 'logchol_cumulative'
+
+    @pytest.mark.parametrize('variant', VARIANTS)
+    def test_causal_prefix_session_reset_and_batch_stream_parity(variant):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:94: AssertionError
+_ test_causal_prefix_session_reset_and_batch_stream_parity[wasserstein_recursive] _
+
+variant = 'wasserstein_recursive'
+
+    @pytest.mark.parametrize('variant', VARIANTS)
+    def test_causal_prefix_session_reset_and_batch_stream_parity(variant):
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:94: AssertionError
+______ test_control_adapter_preserves_exact_coefficients_and_random_trees ______
+
+    def test_control_adapter_preserves_exact_coefficients_and_random_trees():
+>       assert LiteratureSession is not None, 'Literature reference implementation is missing'
+E       AssertionError: Literature reference implementation is missing
+E       assert None is not None
+
+reproduction/literature_ablation/test_literature_references.py:111: AssertionError
+=========================== short test summary info ============================
+FAILED reproduction/literature_ablation/test_literature_references.py::test_hand_derived_scalar_reference[harmonic_cumulative-1.173913043478261]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_hand_derived_scalar_reference[poweuclid_half-1.7777777777777777]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_hand_derived_scalar_reference[kullback_sym-1.6550318531021113]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_hand_derived_scalar_reference[logchol_cumulative-1.4422495703074083]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_hand_derived_scalar_reference[wasserstein_recursive-1.7777777777777777]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_weighted_noncommuting_prefix_equals_published_mean[harmonic_cumulative-mean_harmonic]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_weighted_noncommuting_prefix_equals_published_mean[poweuclid_half-mean_poweuclid]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_weighted_noncommuting_prefix_equals_published_mean[kullback_sym-mean_kullback_sym]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_weighted_noncommuting_prefix_equals_published_mean[logchol_cumulative-mean_logchol]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_log_cholesky_averages_strict_lower_and_log_diagonal_separately
+FAILED reproduction/literature_ablation/test_literature_references.py::test_bures_update_matches_independent_optimal_transport_formula
+FAILED reproduction/literature_ablation/test_literature_references.py::test_zero_prior_recovers_current_covariance_and_remains_spd[harmonic_cumulative]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_zero_prior_recovers_current_covariance_and_remains_spd[poweuclid_half]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_zero_prior_recovers_current_covariance_and_remains_spd[kullback_sym]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_zero_prior_recovers_current_covariance_and_remains_spd[logchol_cumulative]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_zero_prior_recovers_current_covariance_and_remains_spd[wasserstein_recursive]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_causal_prefix_session_reset_and_batch_stream_parity[harmonic_cumulative]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_causal_prefix_session_reset_and_batch_stream_parity[poweuclid_half]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_causal_prefix_session_reset_and_batch_stream_parity[kullback_sym]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_causal_prefix_session_reset_and_batch_stream_parity[logchol_cumulative]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_causal_prefix_session_reset_and_batch_stream_parity[wasserstein_recursive]
+FAILED reproduction/literature_ablation/test_literature_references.py::test_control_adapter_preserves_exact_coefficients_and_random_trees
+22 failed in 0.19s

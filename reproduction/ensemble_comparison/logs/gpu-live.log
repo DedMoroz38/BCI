@@ -1,0 +1,150 @@
+23.583395679 GPU Tesla T4
+57.306324643 Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.
+65.946425257 5 passed, 1 warning in 6.65s
+66.144241161 5 passed, 1 warning in 6.65s
+90.416143749 CUDA training and saved model replay passed
+90.61859324 CUDA training and saved model replay passed
+105.576652815 START loso_P01 1710 190
+105.69903013 START loso_P02 1711 189
+LOG RETRY ChunkedEncodingError
+23.583395679 GPU Tesla T4
+57.306324643 Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.
+65.946425257 5 passed, 1 warning in 6.65s
+66.144241161 5 passed, 1 warning in 6.65s
+90.416143749 CUDA training and saved model replay passed
+90.61859324 CUDA training and saved model replay passed
+105.576652815 START loso_P01 1710 190
+105.69903013 START loso_P02 1711 189
+LOG RETRY ChunkedEncodingError
+23.583395679 GPU Tesla T4
+57.306324643 Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.
+65.946425257 5 passed, 1 warning in 6.65s
+66.144241161 5 passed, 1 warning in 6.65s
+90.416143749 CUDA training and saved model replay passed
+90.61859324 CUDA training and saved model replay passed
+105.576652815 START loso_P01 1710 190
+105.69903013 START loso_P02 1711 189
+LOG RETRY ChunkedEncodingError
+23.583395679 GPU Tesla T4
+57.306324643 Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.
+65.946425257 5 passed, 1 warning in 6.65s
+66.144241161 5 passed, 1 warning in 6.65s
+90.416143749 CUDA training and saved model replay passed
+90.61859324 CUDA training and saved model replay passed
+105.576652815 START loso_P01 1710 190
+105.69903013 START loso_P02 1711 189
+LOG RETRY ChunkedEncodingError
+23.583395679 GPU Tesla T4
+57.306324643 Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.
+65.946425257 5 passed, 1 warning in 6.65s
+66.144241161 5 passed, 1 warning in 6.65s
+90.416143749 CUDA training and saved model replay passed
+90.61859324 CUDA training and saved model replay passed
+105.576652815 START loso_P01 1710 190
+105.69903013 START loso_P02 1711 189
+LOG RETRY ChunkedEncodingError
+23.583395679 GPU Tesla T4
+57.306324643 Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.
+65.946425257 5 passed, 1 warning in 6.65s
+66.144241161 5 passed, 1 warning in 6.65s
+90.416143749 CUDA training and saved model replay passed
+90.61859324 CUDA training and saved model replay passed
+105.576652815 START loso_P01 1710 190
+105.69903013 START loso_P02 1711 189
+504.602523044 DONE loso_P01 forest cell 0.5262096774193548 session 0.5262070105820106
+504.789270496 DONE loso_P02 forest cell 0.5918570788530466 session 0.5913445127154805
+515.487079001 DONE loso_P02 +balance cell 0.6031586021505376 session 0.6019398574842123
+515.559062992 DONE loso_P01 +balance cell 0.4899193548387097 session 0.48933531746031744
+527.836300703 DONE loso_P01 +bands cell 0.6001344086021506 session 0.5997023809523809
+527.892807618 DONE loso_P02 +bands cell 0.5710237455197134 session 0.5703458354668033
+549.990094861 DONE loso_P01 +routing cell 0.4679099462365591 session 0.46750992063492064
+550.474347388 DONE loso_P02 +routing cell 0.6022737455197132 session 0.6020118620925072
+573.876631165 DONE loso_P02 all but deep cell 0.5608422939068101 session 0.5597851595835467
+573.877402323 DEEP START loso_P02 100 epochs CUDA
+574.027925522 DONE loso_P01 all but deep cell 0.5638440860215054 session 0.5631613756613757
+574.029572846 DEEP START loso_P01 100 epochs CUDA
+LOG RETRY ChunkedEncodingError
+23.583395679 GPU Tesla T4
+57.306324643 Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.
+65.946425257 5 passed, 1 warning in 6.65s
+66.144241161 5 passed, 1 warning in 6.65s
+90.416143749 CUDA training and saved model replay passed
+90.61859324 CUDA training and saved model replay passed
+105.576652815 START loso_P01 1710 190
+105.69903013 START loso_P02 1711 189
+504.602523044 DONE loso_P01 forest cell 0.5262096774193548 session 0.5262070105820106
+504.789270496 DONE loso_P02 forest cell 0.5918570788530466 session 0.5913445127154805
+515.487079001 DONE loso_P02 +balance cell 0.6031586021505376 session 0.6019398574842123
+515.559062992 DONE loso_P01 +balance cell 0.4899193548387097 session 0.48933531746031744
+527.836300703 DONE loso_P01 +bands cell 0.6001344086021506 session 0.5997023809523809
+527.892807618 DONE loso_P02 +bands cell 0.5710237455197134 session 0.5703458354668033
+549.990094861 DONE loso_P01 +routing cell 0.4679099462365591 session 0.46750992063492064
+550.474347388 DONE loso_P02 +routing cell 0.6022737455197132 session 0.6020118620925072
+573.876631165 DONE loso_P02 all but deep cell 0.5608422939068101 session 0.5597851595835467
+573.877402323 DEEP START loso_P02 100 epochs CUDA
+574.027925522 DONE loso_P01 all but deep cell 0.5638440860215054 session 0.5631613756613757
+574.029572846 DEEP START loso_P01 100 epochs CUDA
+LOG RETRY ChunkedEncodingError
+23.583395679 GPU Tesla T4
+57.306324643 Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.
+65.946425257 5 passed, 1 warning in 6.65s
+66.144241161 5 passed, 1 warning in 6.65s
+90.416143749 CUDA training and saved model replay passed
+90.61859324 CUDA training and saved model replay passed
+105.576652815 START loso_P01 1710 190
+105.69903013 START loso_P02 1711 189
+504.602523044 DONE loso_P01 forest cell 0.5262096774193548 session 0.5262070105820106
+504.789270496 DONE loso_P02 forest cell 0.5918570788530466 session 0.5913445127154805
+515.487079001 DONE loso_P02 +balance cell 0.6031586021505376 session 0.6019398574842123
+515.559062992 DONE loso_P01 +balance cell 0.4899193548387097 session 0.48933531746031744
+527.836300703 DONE loso_P01 +bands cell 0.6001344086021506 session 0.5997023809523809
+527.892807618 DONE loso_P02 +bands cell 0.5710237455197134 session 0.5703458354668033
+549.990094861 DONE loso_P01 +routing cell 0.4679099462365591 session 0.46750992063492064
+550.474347388 DONE loso_P02 +routing cell 0.6022737455197132 session 0.6020118620925072
+573.876631165 DONE loso_P02 all but deep cell 0.5608422939068101 session 0.5597851595835467
+573.877402323 DEEP START loso_P02 100 epochs CUDA
+574.027925522 DONE loso_P01 all but deep cell 0.5638440860215054 session 0.5631613756613757
+574.029572846 DEEP START loso_P01 100 epochs CUDA
+LOG RETRY ChunkedEncodingError
+23.583395679 GPU Tesla T4
+57.306324643 Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.
+65.946425257 5 passed, 1 warning in 6.65s
+66.144241161 5 passed, 1 warning in 6.65s
+90.416143749 CUDA training and saved model replay passed
+90.61859324 CUDA training and saved model replay passed
+105.576652815 START loso_P01 1710 190
+105.69903013 START loso_P02 1711 189
+504.602523044 DONE loso_P01 forest cell 0.5262096774193548 session 0.5262070105820106
+504.789270496 DONE loso_P02 forest cell 0.5918570788530466 session 0.5913445127154805
+515.487079001 DONE loso_P02 +balance cell 0.6031586021505376 session 0.6019398574842123
+515.559062992 DONE loso_P01 +balance cell 0.4899193548387097 session 0.48933531746031744
+527.836300703 DONE loso_P01 +bands cell 0.6001344086021506 session 0.5997023809523809
+527.892807618 DONE loso_P02 +bands cell 0.5710237455197134 session 0.5703458354668033
+549.990094861 DONE loso_P01 +routing cell 0.4679099462365591 session 0.46750992063492064
+550.474347388 DONE loso_P02 +routing cell 0.6022737455197132 session 0.6020118620925072
+573.876631165 DONE loso_P02 all but deep cell 0.5608422939068101 session 0.5597851595835467
+573.877402323 DEEP START loso_P02 100 epochs CUDA
+574.027925522 DONE loso_P01 all but deep cell 0.5638440860215054 session 0.5631613756613757
+574.029572846 DEEP START loso_P01 100 epochs CUDA
+LOG RETRY ChunkedEncodingError
+23.583395679 GPU Tesla T4
+57.306324643 Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.
+65.946425257 5 passed, 1 warning in 6.65s
+66.144241161 5 passed, 1 warning in 6.65s
+90.416143749 CUDA training and saved model replay passed
+90.61859324 CUDA training and saved model replay passed
+105.576652815 START loso_P01 1710 190
+105.69903013 START loso_P02 1711 189
+504.602523044 DONE loso_P01 forest cell 0.5262096774193548 session 0.5262070105820106
+504.789270496 DONE loso_P02 forest cell 0.5918570788530466 session 0.5913445127154805
+515.487079001 DONE loso_P02 +balance cell 0.6031586021505376 session 0.6019398574842123
+515.559062992 DONE loso_P01 +balance cell 0.4899193548387097 session 0.48933531746031744
+527.836300703 DONE loso_P01 +bands cell 0.6001344086021506 session 0.5997023809523809
+527.892807618 DONE loso_P02 +bands cell 0.5710237455197134 session 0.5703458354668033
+549.990094861 DONE loso_P01 +routing cell 0.4679099462365591 session 0.46750992063492064
+550.474347388 DONE loso_P02 +routing cell 0.6022737455197132 session 0.6020118620925072
+573.876631165 DONE loso_P02 all but deep cell 0.5608422939068101 session 0.5597851595835467
+573.877402323 DEEP START loso_P02 100 epochs CUDA
+574.027925522 DONE loso_P01 all but deep cell 0.5638440860215054 session 0.5631613756613757
+574.029572846 DEEP START loso_P01 100 epochs CUDA
+LOG RETRY ChunkedEncodingError

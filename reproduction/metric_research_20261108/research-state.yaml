@@ -1,0 +1,29 @@
+objective: maximize_validated_PROTEUS_cell_balanced_accuracy
+date: 2026-11-08
+phase: wave1_complete_local_and_gpu_results_verified
+continuity: user_will_report_kaggle_completion_no_polling
+gpu_budget_minutes: 75
+legacy_baseline_loso_cell: 0.5630423401864453
+legacy_baseline_test_cell: 0.5571636308861698
+tasks:
+  local_fusion: complete_verified_170_scores
+  local_all10_baseline: complete_verified_22_scores
+  kaggle_nested_cnn: version2_complete_all55_fits_verified_and_cpu_replayed
+selection_metric: all10_pooled_oof_cell_balanced_accuracy
+secondary_metric: later_sessions_cell_mean
+submission: not_authorized
+kaggle_url: https://www.kaggle.com/code/den1shh/proteus-metric-wave1
+kaggle_version: 2
+monitoring: disabled_by_user
+legacy_cv_selected_candidate: arith_w0.3_T4_a1
+legacy_candidate_loso_cell: 0.644293
+legacy_candidate_old_public_test_cell: 0.561193
+next_action: report_results_no_new_training_or_monitoring
+repair: smoke_import_order_fixed_11_tests_passed
+repair_push: version2_success_with_explicit_KAGGLE_CLI_BIN
+all10_candidate: shallow16_class_mean2__mix_T4_balance1
+all10_candidate_oof_cell: 0.602279
+all10_baseline_oof_cell: 0.574424
+all10_balanced_baseline_oof_cell: 0.585314
+candidate_scope: exploratory_public_cross_validation_not_sealed_evaluation
+gpu_execution_seconds: 520.1403901576996

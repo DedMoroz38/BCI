@@ -1,0 +1,13 @@
+{
+  "variant": "forest",
+  "tag": "later_last",
+  "manifest_sha256": "7260835c56d59d74a11bf4188ceb7dbf0bef81153a2a0a3caa77b0773aed40c4",
+  "prediction_sha256": "d74703d69f310fc145d1c8ae5fd1f21c48062867b010b43c3cd42521c1859773",
+  "eval_seconds": 10.563273470000013,
+  "cell_mean": 0.6681810224089635,
+  "session_mean": 0.6686265641489522,
+  "pooled": 0.6686265641489522,
+  "accuracy": 0.6683417085427136,
+  "log_loss": 0.9399502958621465,
+  "brier": 0.5601629535159697
+}

@@ -1,0 +1,21 @@
+Validated exact source/data/environment and frozen experiment manifest
+START harmonic_cumulative/logreg_loso_Dreyer2026Proteus_P01 train=1710 eval=190
+DONE harmonic_cumulative/logreg_loso_Dreyer2026Proteus_P01: 0.432043651, delta=-0.009920635 (5.0s)
+START harmonic_cumulative/logreg_loso_Dreyer2026Proteus_P02 train=1711 eval=189
+DONE harmonic_cumulative/logreg_loso_Dreyer2026Proteus_P02: 0.606393476, delta=+0.046541645 (5.0s)
+START harmonic_cumulative/logreg_loso_Dreyer2026Proteus_P03 train=1711 eval=189
+DONE harmonic_cumulative/logreg_loso_Dreyer2026Proteus_P03: 0.335837494, delta=-0.009392601 (5.5s)
+START harmonic_cumulative/logreg_loso_Dreyer2026Proteus_P05 train=1710 eval=190
+DONE harmonic_cumulative/logreg_loso_Dreyer2026Proteus_P05: 0.315228175, delta=-0.000082672 (4.9s)
+START harmonic_cumulative/logreg_loso_Dreyer2026Proteus_P06 train=1713 eval=187
+DONE harmonic_cumulative/logreg_loso_Dreyer2026Proteus_P06: 0.539511862, delta=+0.027052398 (4.9s)
+START harmonic_cumulative/logreg_loso_Dreyer2026Proteus_P07 train=1711 eval=189
+DONE harmonic_cumulative/logreg_loso_Dreyer2026Proteus_P07: 0.509128584, delta=-0.051232612 (5.7s)
+START harmonic_cumulative/logreg_loso_Dreyer2026Proteus_P08 train=1711 eval=189
+DONE harmonic_cumulative/logreg_loso_Dreyer2026Proteus_P08: 0.643486516, delta=+0.010920699 (5.0s)
+START harmonic_cumulative/logreg_loso_Dreyer2026Proteus_P10 train=1323 eval=577
+DONE harmonic_cumulative/logreg_loso_Dreyer2026Proteus_P10: 0.410416935, delta=+0.022608342 (5.0s)
+START harmonic_cumulative/logreg_later_last train=1701 eval=199
+DONE harmonic_cumulative/logreg_later_last: 0.577189809, delta=+0.030227650 (4.8s)
+START harmonic_cumulative/logreg_test_official train=1521 eval=755
+DONE harmonic_cumulative/logreg_test_official: 0.440127381, delta=-0.014699607 (6.1s)

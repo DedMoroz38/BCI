@@ -1,0 +1,38 @@
+{
+  "variant": "stationary_oas",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P07",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P07"
+  ],
+  "train_windows": 1711,
+  "eval_windows": 189,
+  "fit_seconds": 5.868348667048849,
+  "total_seconds": 6.412290750071406,
+  "session_mean_delta_vs_control": 0.07971976873186559,
+  "representation_definition": "OAS of globally centered, zero-padded adjacent shifts across T+1 positions; exactly block Toeplitz",
+  "reference_update": "original cumulative log-Euclidean, prior_weight=5",
+  "cell_mean": 0.640524193548387,
+  "session_mean": 0.6400809651817717,
+  "pooled": 0.6400809651817717,
+  "accuracy": 0.6402116402116402,
+  "matrix_cache_sha256": {
+    "stationary_oas_band0": "525bdade9e4ad6c2b501daf01b5adcaf212ff08cb4af3d0e4c98059ea9e432d6",
+    "stationary_oas_band1": "0efa00f7f8354ff6689799abd750388858fb55a9839ac38ec3beec8d284bc9ea",
+    "stationary_oas_band2": "c9d209d2f730d9fc86f8b38e4de47d43a59ccfcfea2a669d147a8bdc0c800c37",
+    "stationary_oas_band3": "53bb09f57fef46916e38d7b0087b5dbedac65d5910bc79639f14f7fb47272c4b",
+    "stationary_oas_band4": "ff64b454c0b73c870ad8c0a7c0f6705e64941dc82ea7680cc8967da95da9a555",
+    "stationary_oas_band5": "e7cb81f35f20c15a4b63fcb0f65e35efe98d222446de398d3642e2124ed06235"
+  },
+  "tangent_dimension": 3403
+}

@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/DorinDaniil/PhD-Thesis",
+  "commit": "73362fcb6ac9ea8234c609053d5e86ebf6fcc7da",
+  "files": [
+    "README.md",
+    "dissertation/contents.tex",
+    "common/characteristic.tex",
+    "common/concl.tex",
+    "dissertation/part1.tex",
+    "dissertation/part2.tex",
+    "dissertation/part3.tex",
+    "dissertation/part4.tex",
+    "biblio/author.bib",
+    "biblio/external.bib"
+  ]
+}

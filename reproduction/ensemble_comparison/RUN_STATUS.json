@@ -1,0 +1,24 @@
+{
+  "pid": 65040,
+  "status": "cancelled by user; migrating to Kaggle GPU",
+  "log": "logs/run.log",
+  "device": "cpu",
+  "jobs": 2,
+  "started_epoch": 1794085744.466176,
+  "source_commit": "934f423a73e1ed50d653345d27256ecfe50ab009",
+  "forest_lag100": "deferred by user pending training recipe",
+  "evaluations": 16,
+  "expected_evaluations": 80,
+  "complete_folds": 2,
+  "expected_folds": 10,
+  "log_tail": [
+    "DONE loso_P01 +deep cell 0.5640120967741935 session 0.5634920634920635",
+    "DONE loso_P02 +deep cell 0.6781586021505376 session 0.6778647166752005",
+    "DONE loso_P01 all cell 0.5589717741935484 session 0.5581183862433862",
+    "DONE loso_P02 all cell 0.6568100358422939 session 0.656447345963475",
+    "START loso_P03 1711 189",
+    "START loso_P05 1710 190"
+  ],
+  "report": null,
+  "updated_epoch": 1794086851.371975
+}

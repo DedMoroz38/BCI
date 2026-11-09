@@ -1,0 +1,20 @@
+status: complete
+scope: replace_only_R_X_baseline_unchanged
+new_jobs: 203
+control_jobs: 58
+officially_verified_prediction_files: 261
+passing_tests: 101
+primary_papers_reviewed: 9
+selected_before_test: pyramid2_mixed
+selected_loso: 0.6103764944945721
+selected_test: 0.5073980144565318
+pretest_selection_commit: 55feda5
+retrospective_balanced_candidate: lag4_oas
+lag4_loso: 0.5628006572739627
+lag4_test: 0.5554072947007407
+further_test_tuning: none
+new_independent_validation_needed: true
+numerically_ineligible_raw: [pyramid2_oas, quadrature_oas]
+final_report: FINAL_REPORT.md
+final_verification: final_verification.json
+background_jobs: complete

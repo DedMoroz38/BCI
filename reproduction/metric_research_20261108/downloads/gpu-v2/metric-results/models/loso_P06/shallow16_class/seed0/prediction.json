@@ -1,0 +1,42 @@
+{
+  "prediction_sha256": "65efdba77274bc5220b8a0e03ecf5e2934129c82f5bcea9529dd1eed23094864",
+  "tag": "loso_P06",
+  "config": "shallow16_class",
+  "seed": 0,
+  "best_epoch": 2,
+  "parameters": 13731,
+  "study_sha256": "f973e0c62a0a67b4f72dc3484799112766ec3d7405fd502bb3b57bed1739c4e8",
+  "model_sha256": "64c69a6a1edf64faacc404bfe818c7b2c0f1745727fb145b9fc1a60234b6e1df",
+  "alignment_sha256": "0cf0630a69c699b42e0c4521d54f2a160e73d128f9b8693891216b86ca51da27",
+  "logits_sha256": "7b4dbf48b7fd36b050500964776343de3b458988cc01e136ddf6fb433d8d3c6e",
+  "train_people": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P04",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P09",
+    "Dreyer2026Proteus/P10"
+  ],
+  "inner_train_people": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P04",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P09"
+  ],
+  "inner_val_people": [
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "cell_mean": 0.5191644265232975,
+  "session_mean": 0.5192865676736645,
+  "pooled": 0.5192865676736645,
+  "accuracy": 0.5187165775401069,
+  "log_loss": 0.9741728901863098,
+  "brier": 0.5913156272451404
+}

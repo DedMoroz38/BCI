@@ -1,0 +1,15 @@
+{
+  "code": {
+    "all10_baseline.py": "afc51d15929635af760356d50db8593911b867efa147ef66fb5c8d3fce12ada6",
+    "src/common.py": "0db1b71b74efe6314d53eb59d2d44219a174082da859665fda8a7cdb7358177d"
+  },
+  "seconds": 146.24417966697365,
+  "warnings": [],
+  "files": {
+    "lag4_balance1.npz": "24d46bd5ba7698833a430a92f34a36b0d7bc0b9ecf8f207ea8740f0758264fa4",
+    "weights.npz": "e9d3075aa7ed4d4b0066584499635fc9bb60598279b22806bae4c45714c2dbc9",
+    "lag4_balance1.json": "aeb77c43154f034e746dab23cac57339534213d86fe3628cad2c7a8bff5b5adb",
+    "lag4.npz": "d3fce33cdffa832cbb50c266f9168be6450cba2ba4d21f0d6dd0cbc1629cb3d3",
+    "lag4.json": "6d03d422e2059f0c3e2e3400d2ed233e5c28cac70a8647ab9c2ae19d3fbb7e2d"
+  }
+}

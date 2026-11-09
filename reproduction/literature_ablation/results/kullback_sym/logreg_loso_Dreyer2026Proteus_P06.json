@@ -1,0 +1,28 @@
+{
+  "variant": "kullback_sym",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P06",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P06"
+  ],
+  "train_windows": 1713,
+  "eval_windows": 187,
+  "fit_seconds": 5.920951333013363,
+  "total_seconds": 6.667435250012204,
+  "session_mean_delta_vs_control": -0.026711042840075083,
+  "reference_update": "A_t=(5*M0+sum(R_i))/(5+t); M_t=geodesic_riemann(A_t,H_t,.5)",
+  "cell_mean": 0.4848006272401434,
+  "session_mean": 0.4857484212322922,
+  "pooled": 0.4857484212322922,
+  "accuracy": 0.48663101604278075
+}

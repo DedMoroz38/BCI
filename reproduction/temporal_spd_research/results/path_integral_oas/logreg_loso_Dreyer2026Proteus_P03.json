@@ -1,0 +1,38 @@
+{
+  "variant": "path_integral_oas",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P03",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P03"
+  ],
+  "train_windows": 1711,
+  "eval_windows": 189,
+  "fit_seconds": 1.8780300830258057,
+  "total_seconds": 2.097024291055277,
+  "session_mean_delta_vs_control": -0.004872311827956999,
+  "representation_definition": "OAS on exact two-point Gauss-Legendre quadrature nodes of every piecewise-linear interval",
+  "reference_update": "original cumulative log-Euclidean, prior_weight=5",
+  "cell_mean": 0.33848566308243727,
+  "session_mean": 0.3403577828981055,
+  "pooled": 0.3403577828981055,
+  "accuracy": 0.3386243386243386,
+  "matrix_cache_sha256": {
+    "path_integral_oas_band0": "b1d146771d5e81964686cb4513721dae6e4a5a9075478b9e3b8b04531af1f563",
+    "path_integral_oas_band1": "ba7d7e894ddf29637a058f459fb69dcf678414a06d282cfaa4ec372454c5f512",
+    "path_integral_oas_band2": "6faee7756cce35f2dd3fbd4316cac002e649f042ac9dcb46f6f256e506688a8b",
+    "path_integral_oas_band3": "2137b2e3123344d2b66cbadcaf0f9e0b1567e417f7d78c085202ff0d2436ecfe",
+    "path_integral_oas_band4": "58b0d99b6f3d741d5eb65aa9b749dcb2e1d5a5a21a9fc4466f7c0391da2153ec",
+    "path_integral_oas_band5": "8a19ceaf11a436a092ceac92bae96ec723291af163b775b0a1d27bc8637bb4ae"
+  },
+  "tangent_dimension": 861
+}

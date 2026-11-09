@@ -1,0 +1,51 @@
+{
+  "settings_hash": "b4372b7b01998aeeb4f9ade6c3e620b70c23e127b1f8d1752f223767cba14482",
+  "settings": {
+    "config": {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {},
+      "average": "none",
+      "name": "control",
+      "stage": 0
+    },
+    "seed": 0,
+    "epochs": 3,
+    "selecting": false,
+    "people": [
+      "Dreyer2026Proteus/P01",
+      "Dreyer2026Proteus/P02",
+      "Dreyer2026Proteus/P03",
+      "Dreyer2026Proteus/P04",
+      "Dreyer2026Proteus/P06",
+      "Dreyer2026Proteus/P07",
+      "Dreyer2026Proteus/P08",
+      "Dreyer2026Proteus/P09",
+      "Dreyer2026Proteus/P10"
+    ],
+    "windows": 2465,
+    "val_people": [],
+    "fixed_average_epochs": [
+      3
+    ],
+    "source": {
+      "training.py": "2b858c88ddc42559c7503793ec7eb99cd5d40abe8785d4f26b3a3af8107631ae",
+      "regularizers.py": "0baf6e6f9946a1f1da43a9c379890b6a0a4c2fd584c2974b1b83fc86cc3d4ebf"
+    },
+    "lr": 0.001,
+    "decay": 0.01,
+    "batch": 64,
+    "schedule_Tmax": 100,
+    "criterion": "cell_NLL"
+  },
+  "best_epoch": 3,
+  "stopped_epoch": 3,
+  "refit_epochs": 3,
+  "averaging_epochs": [
+    3
+  ],
+  "seconds": 3.004430035999974,
+  "parameters": 13731,
+  "final_sha256": "bece0e899655d9d97f09c025140b01f36a561524b304f5c49f6ca68bbe4cfc26"
+}

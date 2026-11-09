@@ -1,0 +1,28 @@
+{
+  "variant": "wasserstein_recursive",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P10",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P10"
+  ],
+  "train_windows": 1323,
+  "eval_windows": 577,
+  "fit_seconds": 4.313547458034009,
+  "total_seconds": 6.411803750030231,
+  "session_mean_delta_vs_control": 0.0019526987555696373,
+  "reference_update": "M_t=geodesic_wasserstein(M_(t-1),R_t,1/(5+t))",
+  "cell_mean": 0.39030763337345814,
+  "session_mean": 0.389761292215244,
+  "pooled": 0.38945975243338554,
+  "accuracy": 0.3882149046793761
+}

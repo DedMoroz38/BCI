@@ -1,0 +1,38 @@
+{
+  "variant": "lag4_oas",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P07",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P07"
+  ],
+  "train_windows": 1711,
+  "eval_windows": 189,
+  "fit_seconds": 5.312547915964387,
+  "total_seconds": 5.888807791052386,
+  "session_mean_delta_vs_control": 0.11550339221710182,
+  "representation_definition": "OAS of electrode-major [x(t),x(t-4)], 476 aligned samples",
+  "reference_update": "original cumulative log-Euclidean, prior_weight=5",
+  "cell_mean": 0.6755936379928316,
+  "session_mean": 0.6758645886670079,
+  "pooled": 0.6758645886670079,
+  "accuracy": 0.6772486772486772,
+  "matrix_cache_sha256": {
+    "lag4_oas_band0": "247fd3e6c45121dd79290987fe6397c78c23f25e16b91b907cc7527b41890e59",
+    "lag4_oas_band1": "b0871ac52b53b71d3df45b7f6ae3b9849c82191934e2aed48c00c148fef357b5",
+    "lag4_oas_band2": "f68b4f45ca75a52ecb4a46e427c210e2b592cda9b6d0b2dd025f0d701cbc01bd",
+    "lag4_oas_band3": "daa7e2922644dee62fdbe55a8e3efb2354e0c3ea21dbce6c2e0d5014d1799c6e",
+    "lag4_oas_band4": "72f73917ebc91dbb362a64a6abd73c4e7cec72b8fd9022d9dbb701def74b62c1",
+    "lag4_oas_band5": "2f57cd1957e21776d278155432a3e91d8d3a64928ed2194c80d2043b23124342"
+  },
+  "tangent_dimension": 3403
+}

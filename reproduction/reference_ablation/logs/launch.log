@@ -1,0 +1,19 @@
+START group riemann_recursive/forest20START group euclid_cumulative/forest20
+
+START group logeuclid_ema/forest20
+START group riemann_recursive/forest12
+DONE group riemann_recursive/forest12, log=riemann_recursive_forest12.log
+START group euclid_cumulative/forest12
+DONE group euclid_cumulative/forest20, log=euclid_cumulative_forest20.log
+START group logeuclid_ema/forest12
+DONE group logeuclid_ema/forest20, log=logeuclid_ema_forest20.log
+START group riemann_recursive/logreg
+DONE group riemann_recursive/logreg, log=riemann_recursive_logreg.log
+START group euclid_cumulative/logreg
+DONE group riemann_recursive/forest20, log=riemann_recursive_forest20.log
+START group logeuclid_ema/logreg
+DONE group euclid_cumulative/logreg, log=euclid_cumulative_logreg.log
+DONE group logeuclid_ema/logreg, log=logeuclid_ema_logreg.log
+DONE group euclid_cumulative/forest12, log=euclid_cumulative_forest12.log
+DONE group logeuclid_ema/forest12, log=logeuclid_ema_forest12.log
+All 87 candidate jobs completed or resumed.

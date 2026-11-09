@@ -1,0 +1,19 @@
+{
+  "notebook": "den1shh/proteus-regularization-wave2",
+  "version": 1,
+  "push": "success",
+  "runtime": "not_checked",
+  "private": true,
+  "wall_cap_minutes": 240,
+  "configs": 37,
+  "seeds": [
+    0,
+    1
+  ],
+  "folds": 11,
+  "maximum_fits": 814,
+  "local_tests_passed": 39,
+  "monitoring": false,
+  "bundle_sha256": "9f0225f6949c874d71f0f86241a2183c59c7b6e001acf132c19b82c7e0376e22",
+  "notebook_sha256": "da7aab6cb95e4a1ccf33d4ceb06c52155c8d8d1e9428a4588d6746a90b766f81"
+}

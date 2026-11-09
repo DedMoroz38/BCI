@@ -1,0 +1,15 @@
+{
+  "variant": "Lag4",
+  "tag": "later_last",
+  "manifest_sha256": "7260835c56d59d74a11bf4188ceb7dbf0bef81153a2a0a3caa77b0773aed40c4",
+  "cell_mean": 0.7218487394957983,
+  "session_mean": 0.7237298356701342,
+  "pooled": 0.7237298356701342,
+  "accuracy": 0.7236180904522613,
+  "fit_seconds": 182.01535783299983,
+  "total_seconds": 201.654499473,
+  "exact_old_predictions": true,
+  "log_loss": 0.8819899252673471,
+  "brier": 0.5218839439171196,
+  "prediction_sha256": "9e26a92c9c255368a9b301a7eaae7895000e817a0424587e2df9798b29e645a4"
+}

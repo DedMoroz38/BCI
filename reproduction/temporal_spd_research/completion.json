@@ -1,0 +1,20 @@
+{
+  "completed_utc": "2026-10-29T10:51:18.319924+00:00",
+  "new_jobs": 203,
+  "control_jobs": 58,
+  "officially_rescored_files": 261,
+  "passing_tests": 101,
+  "source_and_prior_artifacts_unchanged": true,
+  "preregistered_cv_winner": "pyramid2_mixed",
+  "cv_winner_failed_to_beat_delay1_test": true,
+  "retrospective_balanced_candidate": "lag4_oas",
+  "retrospective_preference_not_blinded_selection": true,
+  "all_new_test_after_selection_commit": "55feda5",
+  "primary_sources_reviewed": 9,
+  "numerical_quality_gate": [
+    "pyramid2_oas",
+    "quadrature_oas"
+  ],
+  "numeric_followup_min_scaler_variance": 0.0015225235545871152,
+  "final_report": "FINAL_REPORT.md"
+}

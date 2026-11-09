@@ -1,0 +1,17 @@
+{
+  "prediction_sha256": "94dd69a58c75923a15fd25ddf3a8f03cb3870887809f4093016a3e40875ea238",
+  "tag": "loso_P06",
+  "config": {
+    "name": "lag4_balance1",
+    "weight": 0,
+    "temp": 1,
+    "alpha": 1,
+    "pool": "arithmetic"
+  },
+  "cell_mean": 0.5469758064516129,
+  "session_mean": 0.5458269329237071,
+  "pooled": 0.5458269329237071,
+  "accuracy": 0.5454545454545454,
+  "log_loss": 0.9577178140130908,
+  "brier": 0.5776588924909422
+}

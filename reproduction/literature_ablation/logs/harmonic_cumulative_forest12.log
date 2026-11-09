@@ -1,0 +1,19 @@
+Validated exact source/data/environment and frozen experiment manifest
+START harmonic_cumulative/forest12_loso_Dreyer2026Proteus_P01 train=1710 eval=190
+DONE harmonic_cumulative/forest12_loso_Dreyer2026Proteus_P01: 0.505373677, delta=-0.025545635 (44.0s)
+START harmonic_cumulative/forest12_loso_Dreyer2026Proteus_P02 train=1711 eval=189
+DONE harmonic_cumulative/forest12_loso_Dreyer2026Proteus_P02: 0.585306793, delta=-0.021830731 (48.2s)
+START harmonic_cumulative/forest12_loso_Dreyer2026Proteus_P03 train=1711 eval=189
+DONE harmonic_cumulative/forest12_loso_Dreyer2026Proteus_P03: 0.455706499, delta=+0.032346070 (47.5s)
+START harmonic_cumulative/forest12_loso_Dreyer2026Proteus_P05 train=1710 eval=190
+DONE harmonic_cumulative/forest12_loso_Dreyer2026Proteus_P05: 0.294229497, delta=-0.015873016 (48.6s)
+START harmonic_cumulative/forest12_loso_Dreyer2026Proteus_P06 train=1713 eval=187
+DONE harmonic_cumulative/forest12_loso_Dreyer2026Proteus_P06: 0.503584229, delta=+0.022188087 (46.3s)
+START harmonic_cumulative/forest12_loso_Dreyer2026Proteus_P07 train=1711 eval=189
+DONE harmonic_cumulative/forest12_loso_Dreyer2026Proteus_P07: 0.656636691, delta=+0.006808436 (34.1s)
+START harmonic_cumulative/forest12_loso_Dreyer2026Proteus_P08 train=1711 eval=189
+DONE harmonic_cumulative/forest12_loso_Dreyer2026Proteus_P08: 0.694391108, delta=+0.005125661 (28.9s)
+START harmonic_cumulative/forest12_loso_Dreyer2026Proteus_P10 train=1323 eval=577
+DONE harmonic_cumulative/forest12_loso_Dreyer2026Proteus_P10: 0.413367820, delta=+0.019099316 (32.2s)
+START harmonic_cumulative/forest12_later_last train=1701 eval=199
+DONE harmonic_cumulative/forest12_later_last: 0.608095884, delta=-0.005804312 (31.9s)

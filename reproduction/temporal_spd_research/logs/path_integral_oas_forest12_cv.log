@@ -1,0 +1,19 @@
+Validated exact source/data/environment and frozen experiment manifest
+START path_integral_oas/forest12_loso_Dreyer2026Proteus_P01 train=1710 eval=190
+DONE path_integral_oas/forest12_loso_Dreyer2026Proteus_P01: 0.504629630, delta=-0.026289683 (24.1s)
+START path_integral_oas/forest12_loso_Dreyer2026Proteus_P02 train=1711 eval=189
+DONE path_integral_oas/forest12_loso_Dreyer2026Proteus_P02: 0.596720857, delta=-0.010416667 (23.7s)
+START path_integral_oas/forest12_loso_Dreyer2026Proteus_P03 train=1711 eval=189
+DONE path_integral_oas/forest12_loso_Dreyer2026Proteus_P03: 0.428566095, delta=+0.005205666 (24.9s)
+START path_integral_oas/forest12_loso_Dreyer2026Proteus_P05 train=1710 eval=190
+DONE path_integral_oas/forest12_loso_Dreyer2026Proteus_P05: 0.283978175, delta=-0.026124339 (24.0s)
+START path_integral_oas/forest12_loso_Dreyer2026Proteus_P06 train=1713 eval=187
+DONE path_integral_oas/forest12_loso_Dreyer2026Proteus_P06: 0.465267110, delta=-0.016129032 (23.9s)
+START path_integral_oas/forest12_loso_Dreyer2026Proteus_P07 train=1711 eval=189
+DONE path_integral_oas/forest12_loso_Dreyer2026Proteus_P07: 0.655036589, delta=+0.005208333 (24.2s)
+START path_integral_oas/forest12_loso_Dreyer2026Proteus_P08 train=1711 eval=189
+DONE path_integral_oas/forest12_loso_Dreyer2026Proteus_P08: 0.689097436, delta=-0.000168011 (23.3s)
+START path_integral_oas/forest12_loso_Dreyer2026Proteus_P10 train=1323 eval=577
+DONE path_integral_oas/forest12_loso_Dreyer2026Proteus_P10: 0.385528551, delta=-0.008739953 (29.0s)
+START path_integral_oas/forest12_later_last train=1701 eval=199
+DONE path_integral_oas/forest12_later_last: 0.608774310, delta=-0.005125886 (23.8s)

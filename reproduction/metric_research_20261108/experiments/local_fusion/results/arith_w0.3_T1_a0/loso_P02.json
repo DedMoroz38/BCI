@@ -1,0 +1,17 @@
+{
+  "prediction_sha256": "d81861fc2e167cdf57abc02fa981dc49ca184924bd0cb6638bba25e71c7e5df5",
+  "tag": "loso_P02",
+  "config": {
+    "name": "arith_w0.3_T1_a0",
+    "weight": 0.3,
+    "temp": 1,
+    "alpha": 0,
+    "pool": "arithmetic"
+  },
+  "cell_mean": 0.6835349462365592,
+  "session_mean": 0.6833237327188941,
+  "pooled": 0.6833237327188941,
+  "accuracy": 0.6825396825396826,
+  "log_loss": 0.7924328065871371,
+  "brier": 0.46480305718146336
+}

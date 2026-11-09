@@ -1,0 +1,16 @@
+
+==================================== ERRORS ====================================
+_ ERROR collecting reproduction/temporal_spd_research/followup_mixed/test_mixed_features.py _
+ImportError while importing test module '/Users/den1shh/Documents/diploma/reproduction/temporal_spd_research/followup_mixed/test_mixed_features.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../../.pyenv/versions/3.12.12/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+reproduction/temporal_spd_research/followup_mixed/test_mixed_features.py:5: in <module>
+    from mixed_features import mix_covariances,fit_model,MatrixCache
+E   ModuleNotFoundError: No module named 'mixed_features'
+=========================== short test summary info ============================
+ERROR reproduction/temporal_spd_research/followup_mixed/test_mixed_features.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.14s

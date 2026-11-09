@@ -1,0 +1,6 @@
+[main 55feda5] research(selection): freeze raw and numerically eligible LOSO rankings before test
+ 2 files changed, 804 insertions(+)
+ create mode 100644 followup_mixed/selection.json
+ create mode 100644 selection.json
+Both selections committed BEFORE all new public tests.
+All 203 new evaluation jobs complete.

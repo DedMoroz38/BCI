@@ -1,0 +1,13 @@
+{
+  "variant": "+bands",
+  "tag": "loso_P02",
+  "manifest_sha256": "c8b8f87bd42f96a88be37fa4751f3731ff028d0f75afb48a3f4054ce85e7e2ef",
+  "prediction_sha256": "e3ff3008cc777bd05f67c8e1bd5f611f2f9fbc4ac7b59ce7afa15feda5e3728b",
+  "eval_seconds": 4.436611499986611,
+  "cell_mean": 0.5710237455197134,
+  "session_mean": 0.5703458354668033,
+  "pooled": 0.5703458354668033,
+  "accuracy": 0.5714285714285714,
+  "log_loss": 0.9594132363210631,
+  "brier": 0.5770970574594065
+}

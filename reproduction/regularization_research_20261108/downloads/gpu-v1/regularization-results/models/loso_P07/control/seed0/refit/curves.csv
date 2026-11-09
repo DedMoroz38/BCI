@@ -1,0 +1,2 @@
+epoch,optimization_ce,train_ce,train_cell_nll,train_cell_ba,val_ce,val_cell_nll,val_cell_ba,raw_val_ce,raw_val_cell_nll,raw_val_cell_ba
+1,1.0915261376513181,0.9467466473579407,0.947076683825145,0.5385759289312256,,,,,,

@@ -1,0 +1,139 @@
+{
+  "seconds": 520.1403901576996,
+  "budget_seconds": 4500.0,
+  "jobs": [
+    {
+      "tag": "loso_P01",
+      "seed": 0,
+      "done": 3,
+      "pending": []
+    },
+    {
+      "tag": "loso_P02",
+      "seed": 0,
+      "done": 3,
+      "pending": []
+    },
+    {
+      "tag": "loso_P03",
+      "seed": 0,
+      "done": 3,
+      "pending": []
+    },
+    {
+      "tag": "loso_P04",
+      "seed": 0,
+      "done": 3,
+      "pending": []
+    },
+    {
+      "tag": "loso_P05",
+      "seed": 0,
+      "done": 3,
+      "pending": []
+    },
+    {
+      "tag": "loso_P06",
+      "seed": 0,
+      "done": 3,
+      "pending": []
+    },
+    {
+      "tag": "loso_P07",
+      "seed": 0,
+      "done": 3,
+      "pending": []
+    },
+    {
+      "tag": "loso_P08",
+      "seed": 0,
+      "done": 3,
+      "pending": []
+    },
+    {
+      "tag": "loso_P09",
+      "seed": 0,
+      "done": 3,
+      "pending": []
+    },
+    {
+      "tag": "loso_P10",
+      "seed": 0,
+      "done": 3,
+      "pending": []
+    },
+    {
+      "tag": "later_last",
+      "seed": 0,
+      "done": 3,
+      "pending": []
+    },
+    {
+      "tag": "loso_P01",
+      "seed": 1,
+      "done": 2,
+      "pending": []
+    },
+    {
+      "tag": "loso_P02",
+      "seed": 1,
+      "done": 2,
+      "pending": []
+    },
+    {
+      "tag": "loso_P03",
+      "seed": 1,
+      "done": 2,
+      "pending": []
+    },
+    {
+      "tag": "loso_P04",
+      "seed": 1,
+      "done": 2,
+      "pending": []
+    },
+    {
+      "tag": "loso_P05",
+      "seed": 1,
+      "done": 2,
+      "pending": []
+    },
+    {
+      "tag": "loso_P06",
+      "seed": 1,
+      "done": 2,
+      "pending": []
+    },
+    {
+      "tag": "loso_P07",
+      "seed": 1,
+      "done": 2,
+      "pending": []
+    },
+    {
+      "tag": "loso_P08",
+      "seed": 1,
+      "done": 2,
+      "pending": []
+    },
+    {
+      "tag": "loso_P09",
+      "seed": 1,
+      "done": 2,
+      "pending": []
+    },
+    {
+      "tag": "loso_P10",
+      "seed": 1,
+      "done": 2,
+      "pending": []
+    },
+    {
+      "tag": "later_last",
+      "seed": 1,
+      "done": 2,
+      "pending": []
+    }
+  ],
+  "budget_pending": []
+}

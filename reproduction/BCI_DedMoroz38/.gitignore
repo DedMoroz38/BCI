@@ -1,0 +1,19 @@
+# environment and downloaded data (re-created by Brain-Decoding/SETUP.txt)
+.venv/
+data/
+cache/
+
+# git dir of the vendored Brain-Decoding clone (upstream: DorinDaniil/Brain-Decoding)
+#   git --git-dir=.brain-decoding.git --work-tree=Brain-Decoding status
+.brain-decoding.git/
+
+# cached covariances of the experiments (hundreds of MB, rebuilt by the scripts)
+save/**/covs/
+*.npy
+
+# Python / Jupyter / OS
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.claude/

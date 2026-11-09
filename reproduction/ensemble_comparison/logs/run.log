@@ -1,0 +1,28 @@
+START loso_P02 1711 189
+START loso_P01 1710 190
+router: impostor ratios [0.78 0.79 0.82 0.85 0.88 0.93 0.95 0.99 1.  ], genuine [0.71 0.8  0.82] -> threshold 0.838
+DONE loso_P02 forest cell 0.5918570788530466 session 0.5913445127154805
+router: impostor ratios [0.78 0.82 0.85 0.87 0.88 0.93 0.95 0.99 1.  ], genuine [0.71 0.8  0.82] -> threshold 0.838
+DONE loso_P01 forest cell 0.5262096774193548 session 0.5262070105820106
+DONE loso_P02 +balance cell 0.6031586021505376 session 0.6019398574842123
+DONE loso_P01 +balance cell 0.4899193548387097 session 0.48933531746031744
+DONE loso_P02 +bands cell 0.5710237455197134 session 0.5703458354668033
+DONE loso_P01 +bands cell 0.6001344086021506 session 0.5997023809523809
+DONE loso_P02 +routing cell 0.6022737455197132 session 0.6020118620925072
+DONE loso_P01 +routing cell 0.4679099462365591 session 0.46750992063492064
+DONE loso_P02 all but deep cell 0.5608422939068101 session 0.5597851595835467
+DEEP START loso_P02 100 epochs CPU
+DONE loso_P01 all but deep cell 0.5638440860215054 session 0.5631613756613757
+DEEP START loso_P01 100 epochs CPU
+deep seed 0: final training loss 0.006
+DEEP FINISHED loso_P01 880.9061447910499
+deep seed 0: final training loss 0.002
+DEEP FINISHED loso_P02 881.6523900830653
+DONE loso_P01 +deep cell 0.5640120967741935 session 0.5634920634920635
+DONE loso_P02 +deep cell 0.6781586021505376 session 0.6778647166752005
+DONE loso_P01 all cell 0.5589717741935484 session 0.5581183862433862
+DONE loso_P02 all cell 0.6568100358422939 session 0.656447345963475
+START loso_P03 1711 189
+START loso_P05 1710 190
+/Users/den1shh/.pyenv/versions/3.12.12/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 5 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

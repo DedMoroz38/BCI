@@ -1,0 +1,390 @@
+[{"stream_name":"stderr","time":8.850061862,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.850128263,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.850134244,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.850137518,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.67221142,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.672249067,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.672255611,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.672260298,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.194399665,"data":"Ready: saved OOF priors, 6 research directions, CPU, 240-minute cap; no classifier training.\n"}
+,{"stream_name":"stdout","time":11.194448555,"data":"# PROTEUS: causal transduction over saved held-out priors\n"}
+,{"stream_name":"stdout","time":11.19445573,"data":"\n"}
+,{"stream_name":"stdout","time":11.194460618,"data":"No classifier training, no new control runs, no reproduction-tolerance gates.\n"}
+,{"stream_name":"stdout","time":11.19446596,"data":"Private Kaggle CPU notebook; 4 workers; 240-minute wall cap. No submission.\n"}
+,{"stream_name":"stdout","time":11.194470824,"data":"\n"}
+,{"stream_name":"stdout","time":11.194475272,"data":"## Inputs and evaluation\n"}
+,{"stream_name":"stdout","time":11.194479754,"data":"\n"}
+,{"stream_name":"stdout","time":11.194484058,"data":"Saved Lag4 probabilities and two SWAD.1 CNN seed logits, from the prior 11\n"}
+,{"stream_name":"stdout","time":11.194488935,"data":"outer folds. Two priors: Lag4; and .7 Lag4 + .3 mean softmax(CNN logits / 4).\n"}
+,{"stream_name":"stdout","time":11.194493685,"data":"No final balance is applied before transduction. Warm-up/fallback uses our\n"}
+,{"stream_name":"stdout","time":11.194498387,"data":"existing causal balance1 with prior10, reset for each person/session.\n"}
+,{"stream_name":"stdout","time":11.194502945,"data":"\n"}
+,{"stream_name":"stdout","time":11.194507471,"data":"Main metric: pooled OOF mean balanced accuracy per person/session/context,\n"}
+,{"stream_name":"stdout","time":11.194511705,"data":"all 10 LOSO people. Mean-person LOSO and later_last are separate diagnostics.\n"}
+,{"stream_name":"stdout","time":11.194516253,"data":"Scores are computed only after emitting predictions. Public CV has already\n"}
+,{"stream_name":"stdout","time":11.194521137,"data":"been reused repeatedly: this is exploratory research, not sealed confirmation.\n"}
+,{"stream_name":"stdout","time":11.19452556,"data":"No configuration is selected or changed in response to intermediate scores.\n"}
+,{"stream_name":"stdout","time":11.194530148,"data":"\n"}
+,{"stream_name":"stdout","time":11.19453453,"data":"## Six research directions\n"}
+,{"stream_name":"stdout","time":11.194538907,"data":"\n"}
+,{"stream_name":"stdout","time":11.194543043,"data":"1. Author's causal Gram-PCA -\u003e soft-LDA -\u003e balanced assignment transducer:\n"}
+,{"stream_name":"stdout","time":11.194548492,"data":"   5 bands, k20, warm20, 5 self-labelling iterations, shrinkage .5, beta1.\n"}
+,{"stream_name":"stdout","time":11.194553218,"data":"2. Relax equal prefix class mass: scaling exponent tau=0,.25,.5,.75,1;\n"}
+,{"stream_name":"stdout","time":11.194573518,"data":"   slower onset, 50/80-window warm-up, .5/1/2 beta, half-strength adaptation.\n"}
+,{"stream_name":"stdout","time":11.194578501,"data":"   Intermediate tau uses KL-relaxed column scaling, not a claim to reproduce\n"}
+,{"stream_name":"stdout","time":11.194583421,"data":"   any particular unbalanced-OT EEG method.\n"}
+,{"stream_name":"stdout","time":11.19458883,"data":"3. Ordinary 41-channel vs Lag4 82-dimensional covariances, and equal-weight\n"}
+,{"stream_name":"stdout","time":11.194594008,"data":"   two-view Gram fusion. Each view is trace-normalized on the current prefix.\n"}
+,{"stream_name":"stdout","time":11.19459903,"data":"4. Stored running-anchor features vs fixed training anchor vs common log-cov\n"}
+,{"stream_name":"stdout","time":11.194603785,"data":"   coordinates; prior5 vs prior20. Fixed and log charts have common coordinates;\n"}
+,{"stream_name":"stdout","time":11.194608833,"data":"   running charts reproduce the author's stored-feature convention.\n"}
+,{"stream_name":"stdout","time":11.194613821,"data":"5. Class-balanced reference: maintain three soft log-covariance sums/masses\n"}
+,{"stream_name":"stdout","time":11.194618371,"data":"   using frozen Lag4 pseudo-probabilities, average the three class means with\n"}
+,{"stream_name":"stdout","time":11.194624604,"data":"   equal weights, shrink to source mean with total prior5. Also test sharpened\n"}
+,{"stream_name":"stdout","time":11.194629303,"data":"   probabilities (p squared). This is a new hypothesis motivated by SPDIM's\n"}
+,{"stream_name":"stdout","time":11.194634115,"data":"   label-shift analysis, not an implementation of SPDIM.\n"}
+,{"stream_name":"stdout","time":11.194638947,"data":"6. Ordinary/Lag4 prediction fusion and stability weighting: mean predictions,\n"}
+,{"stream_name":"stdout","time":11.194643733,"data":"   half strength, or shrink toward fallback by exp(-JS/.05) / exp(-JS/.2).\n"}
+,{"stream_name":"stdout","time":11.194648593,"data":"   Agreement is a reliability heuristic, not a correctness guarantee.\n"}
+,{"stream_name":"stdout","time":11.194653255,"data":"\n"}
+,{"stream_name":"stdout","time":11.194657767,"data":"13 geometries x 8 shared settings, plus 14 targeted robustness settings:\n"}
+,{"stream_name":"stdout","time":11.194662632,"data":"118 transduction configurations. Four two-view/stability combinations and\n"}
+,{"stream_name":"stdout","time":11.194667604,"data":"one existing fallback = 123 configurations per prior, 246 total, 2706\n"}
+,{"stream_name":"stdout","time":11.194672515,"data":"outer-fold evaluations. No classifier fitting is included in that count.\n"}
+,{"stream_name":"stdout","time":11.194677387,"data":"Settings are fixed before the run. Joint settings vary k10/20/30 and LDA\n"}
+,{"stream_name":"stdout","time":11.194682337,"data":"shrinkage .2/.5/.8 only for the two most relevant geometries.\n"}
+,{"stream_name":"stdout","time":11.194687238,"data":"\n"}
+,{"stream_name":"stdout","time":11.194691785,"data":"## Causality and computation\n"}
+,{"stream_name":"stdout","time":11.194696523,"data":"\n"}
+,{"stream_name":"stdout","time":11.194701052,"data":"Source log-covariance means exclude the outer evaluation windows. Caches are\n"}
+,{"stream_name":"stdout","time":11.194706044,"data":"pure single-window filter/OAS/log transforms. Pseudo reference uses only the\n"}
+,{"stream_name":"stdout","time":11.194711247,"data":"current/past window's frozen Lag4 probabilities, never target labels. State\n"}
+,{"stream_name":"stdout","time":11.194715505,"data":"resets at every person/session. Gram matrices may be precomputed as a speed\n"}
+,{"stream_name":"stdout","time":11.194720221,"data":"optimization, but every PCA/normalization/assignment sees only its leading\n"}
+,{"stream_name":"stdout","time":11.19472931,"data":"current prefix. Past emitted predictions are never revised.\n"}
+,{"stream_name":"stdout","time":11.194734217,"data":"\n"}
+,{"stream_name":"stdout","time":11.1947383,"data":"CPU batching shares PCA across independent hyperparameters/priors; every case\n"}
+,{"stream_name":"stdout","time":11.194742845,"data":"has independent pseudo-label iterations. NumPy/SciPy handle small linear\n"}
+,{"stream_name":"stdout","time":11.19478427,"data":"systems; a GPU would mostly sit idle. No GPU hours are requested.\n"}
+,{"stream_name":"stdout","time":11.19478965,"data":"Completed folds are saved and summarized even if another fold errors or\n"}
+,{"stream_name":"stdout","time":11.194794435,"data":"reaches the wall cap. Rankings require all ten LOSO folds. No partial-fold\n"}
+,{"stream_name":"stdout","time":11.194799283,"data":"score is presented as complete. Figures show ranking and person deltas,\n"}
+,{"stream_name":"stdout","time":11.194803948,"data":"not train/validation loss: this experiment has no training epochs.\n"}
+,{"stream_name":"stdout","time":11.194809125,"data":"\n"}
+,{"stream_name":"stdout","time":11.194812791,"data":"## Sources\n"}
+,{"stream_name":"stdout","time":11.194817234,"data":"\n"}
+,{"stream_name":"stdout","time":11.194821558,"data":"- DorinDaniil/Brain-Decoding, commit ca5d3d0045120b426f77437d48c374f57d7cce45:\n"}
+,{"stream_name":"stdout","time":11.194826208,"data":"  https://github.com/DorinDaniil/Brain-Decoding/tree/ca5d3d0045120b426f77437d48c374f57d7cce45/track2_bci/transduction\n"}
+,{"stream_name":"stdout","time":11.194831475,"data":"- SPDIM, ICLR 2025: https://proceedings.iclr.cc/paper_files/paper/2025/hash/fc6cd575b8340be6ee70beaed9ca4015-Abstract-Conference.html\n"}
+,{"stream_name":"stdout","time":11.194836462,"data":"- Chizat et al., unbalanced transport scaling: https://arxiv.org/abs/1607.05816\n"}
+,{"stream_name":"stdout","time":11.194841041,"data":"- Competition streaming contract: https://github.com/neural-interfaces26/2026-competition/blob/main/codabench/pages/scientific_faq_bci.md\n"}
+,{"stream_name":"stdout","time":11.194845808,"data":"\n"}
+,{"stream_name":"stdout","time":11.194850221,"data":"TSMNet/SPD normalization with new neural training remains a separate more\n"}
+,{"stream_name":"stdout","time":11.194855135,"data":"expensive research direction; it is not represented by the pseudo-reference\n"}
+,{"stream_name":"stdout","time":11.194859932,"data":"or the post-hoc transducer here. No claim of running TSMNet is made.\n"}
+,{"stream_name":"stdout","time":11.194864678,"data":"\n"}
+,{"stream_name":"stdout","time":16.250021801,"data":"PREPARE label-free ordinary/Lag4 log-covariances\n"}
+,{"stream_name":"stdout","time":16.445245321,"data":"CACHE band (4, 8) 0 / 2655\n"}
+,{"stream_name":"stdout","time":16.450177815,"data":"CACHE band (8, 13) 0 / 2655CACHE band\n"}
+,{"stream_name":"stdout","time":16.454036626,"data":" (20, 30) 0 / 2655\n"}
+,{"stream_name":"stdout","time":16.457903287,"data":"CACHE band (13, 20) 0 / 2655\n"}
+,{"stream_name":"stdout","time":18.572436599,"data":"CACHE band (4, 8) 480 / 2655\n"}
+,{"stream_name":"stdout","time":18.587741065,"data":"CACHE band (8, 13) 480 / 2655\n"}
+,{"stream_name":"stdout","time":18.617036485,"data":"CACHE band (13, 20) 480 / 2655\n"}
+,{"stream_name":"stdout","time":18.646187515,"data":"CACHE band (20, 30) 480 / 2655\n"}
+,{"stream_name":"stdout","time":20.686664869,"data":"CACHE band (4, 8) 960 / 2655\n"}
+,{"stream_name":"stdout","time":20.750561582,"data":"CACHE band (8, 13) 960 / 2655\n"}
+,{"stream_name":"stdout","time":20.803238315,"data":"CACHE band (13, 20) 960 / 2655\n"}
+,{"stream_name":"stdout","time":20.836754713,"data":"CACHE band (20, 30) 960 / 2655\n"}
+,{"stream_name":"stdout","time":23.014202703,"data":"CACHE band (4, 8) 1440 / 2655\n"}
+,{"stream_name":"stdout","time":23.101637468,"data":"CACHE band (8, 13) 1440 / 2655\n"}
+,{"stream_name":"stdout","time":23.123051631,"data":"CACHE band (13, 20) 1440 / 2655\n"}
+,{"stream_name":"stdout","time":23.170894375,"data":"CACHE band (20, 30) 1440 / 2655\n"}
+,{"stream_name":"stdout","time":25.116527541,"data":"CACHE band (4, 8) 1920 / 2655\n"}
+,{"stream_name":"stdout","time":25.209024802,"data":"CACHE band (8, 13) 1920 / 2655\n"}
+,{"stream_name":"stdout","time":25.256007361,"data":"CACHE band (13, 20) 1920 / 2655\n"}
+,{"stream_name":"stdout","time":25.355563624,"data":"CACHE band (20, 30) 1920 / 2655\n"}
+,{"stream_name":"stdout","time":27.273116264,"data":"CACHE band (4, 8) 2400 / 2655\n"}
+,{"stream_name":"stdout","time":27.388717992,"data":"CACHE band (8, 13) 2400 / 2655\n"}
+,{"stream_name":"stdout","time":27.506996739999998,"data":"CACHE band (13, 20) 2400 / 2655\n"}
+,{"stream_name":"stdout","time":27.627902166,"data":"CACHE band (20, 30) 2400 / 2655\n"}
+,{"stream_name":"stdout","time":28.731717909,"data":"CACHE COMPLETE band (4, 8)\n"}
+,{"stream_name":"stdout","time":28.809753754,"data":"CACHE band (4, 40) 0 / 2655\n"}
+,{"stream_name":"stdout","time":29.162331656,"data":"CACHE COMPLETE band (8, 13)\n"}
+,{"stream_name":"stdout","time":29.762074723,"data":"CACHE COMPLETE band (13, 20)\n"}
+,{"stream_name":"stdout","time":29.763087332,"data":"CACHE COMPLETE band (20, 30)\n"}
+,{"stream_name":"stdout","time":30.167710361,"data":"CACHE band (4, 40) 480 / 2655\n"}
+,{"stream_name":"stdout","time":31.467926286,"data":"CACHE band (4, 40) 960 / 2655\n"}
+,{"stream_name":"stdout","time":32.788987378,"data":"CACHE band (4, 40) 1440 / 2655\n"}
+,{"stream_name":"stdout","time":34.125640805,"data":"CACHE band (4, 40) 1920 / 2655\n"}
+,{"stream_name":"stdout","time":35.420720139,"data":"CACHE band (4, 40) 2400 / 2655\n"}
+,{"stream_name":"stdout","time":36.39851641,"data":"CACHE COMPLETE band (4, 40)\n"}
+,{"stream_name":"stdout","time":45.511750823,"data":"DONE loso_P05 session 1 ordinary_running configs 16 seconds 9.1\n"}
+,{"stream_name":"stdout","time":45.538366279,"data":"DONE loso_P03 session 1 ordinary_running configs 16 seconds 9.1\n"}
+,{"stream_name":"stdout","time":45.588989538999996,"data":"DONE loso_P01 session 1 ordinary_running configs 16 seconds 9.2\n"}
+,{"stream_name":"stdout","time":45.614820052,"data":"DONE loso_P02 session 1 ordinary_running configs 16 seconds 9.2\n"}
+,{"stream_name":"stdout","time":66.066901606,"data":"DONE loso_P02 session 1 lag_running configs 30 seconds 29.6\n"}
+,{"stream_name":"stdout","time":66.243227296,"data":"DONE loso_P05 session 1 lag_running configs 30 seconds 29.8\n"}
+,{"stream_name":"stdout","time":66.389041855,"data":"DONE loso_P03 session 1 lag_running configs 30 seconds 30.0\n"}
+,{"stream_name":"stdout","time":66.427743256,"data":"DONE loso_P01 session 1 lag_running configs 30 seconds 30.0\n"}
+,{"stream_name":"stdout","time":73.650312574,"data":"DONE loso_P02 session 1 ordinary_fixed configs 16 seconds 37.2\n"}
+,{"stream_name":"stdout","time":73.941853491,"data":"DONE loso_P05 session 1 ordinary_fixed configs 16 seconds 37.5\n"}
+,{"stream_name":"stdout","time":74.063269982,"data":"DONE loso_P03 session 1 ordinary_fixed configs 16 seconds 37.6\n"}
+,{"stream_name":"stdout","time":74.165779067,"data":"DONE loso_P01 session 1 ordinary_fixed configs 16 seconds 37.7\n"}
+,{"stream_name":"stdout","time":84.039767097,"data":"DONE loso_P02 session 1 lag_fixed configs 16 seconds 47.6\n"}
+,{"stream_name":"stdout","time":84.398304098,"data":"DONE loso_P05 session 1 lag_fixed configs 16 seconds 48.0\n"}
+,{"stream_name":"stdout","time":84.483199254,"data":"DONE loso_P03 session 1 lag_fixed configs 16 seconds 48.1\n"}
+,{"stream_name":"stdout","time":84.672007877,"data":"DONE loso_P01 session 1 lag_fixed configs 16 seconds 48.2\n"}
+,{"stream_name":"stdout","time":90.441798854,"data":"DONE loso_P02 session 1 ordinary_log configs 16 seconds 54.0\n"}
+,{"stream_name":"stdout","time":90.87761409,"data":"DONE loso_P05 session 1 ordinary_log configs 16 seconds 54.5\n"}
+,{"stream_name":"stdout","time":90.910146247,"data":"DONE loso_P03 session 1 ordinary_log configs 16 seconds 54.5\n"}
+,{"stream_name":"stdout","time":91.182190383,"data":"DONE loso_P01 session 1 ordinary_log configs 16 seconds 54.8\n"}
+,{"stream_name":"stdout","time":96.984617049,"data":"DONE loso_P02 session 1 lag_log configs 16 seconds 60.6\n"}
+,{"stream_name":"stdout","time":97.483732967,"data":"DONE loso_P03 session 1 lag_log configs 16 seconds 61.1\n"}
+,{"stream_name":"stdout","time":97.495558877,"data":"DONE loso_P05 session 1 lag_log configs 16 seconds 61.1\n"}
+,{"stream_name":"stdout","time":97.849129738,"data":"DONE loso_P01 session 1 lag_log configs 16 seconds 61.4\n"}
+,{"stream_name":"stdout","time":105.16735587,"data":"DONE loso_P02 session 1 ordinary_pseudo configs 16 seconds 68.7\n"}
+,{"stream_name":"stdout","time":105.721268386,"data":"DONE loso_P03 session 1 ordinary_pseudo configs 16 seconds 69.3\n"}
+,{"stream_name":"stdout","time":105.791481274,"data":"DONE loso_P05 session 1 ordinary_pseudo configs 16 seconds 69.4\n"}
+,{"stream_name":"stdout","time":106.16403054,"data":"DONE loso_P01 session 1 ordinary_pseudo configs 16 seconds 69.7\n"}
+,{"stream_name":"stdout","time":117.669712059,"data":"DONE loso_P02 session 1 lag_pseudo configs 16 seconds 81.2\n"}
+,{"stream_name":"stdout","time":118.284675652,"data":"DONE loso_P03 session 1 lag_pseudo configs 16 seconds 81.9\n"}
+,{"stream_name":"stdout","time":118.480009825,"data":"DONE loso_P05 session 1 lag_pseudo configs 16 seconds 82.1\n"}
+,{"stream_name":"stdout","time":118.881686841,"data":"DONE loso_P01 session 1 lag_pseudo configs 16 seconds 82.5\n"}
+,{"stream_name":"stdout","time":130.071074602,"data":"DONE loso_P02 session 1 lag_pseudo_sharp configs 16 seconds 93.6\n"}
+,{"stream_name":"stdout","time":130.730332295,"data":"DONE loso_P03 session 1 lag_pseudo_sharp configs 16 seconds 94.3\n"}
+,{"stream_name":"stdout","time":131.079484925,"data":"DONE loso_P05 session 1 lag_pseudo_sharp configs 16 seconds 94.7\n"}
+,{"stream_name":"stdout","time":131.462080362,"data":"DONE loso_P01 session 1 lag_pseudo_sharp configs 16 seconds 95.0\n"}
+,{"stream_name":"stdout","time":138.175163611,"data":"DONE loso_P02 session 1 ordinary_running20 configs 16 seconds 101.8\n"}
+,{"stream_name":"stdout","time":138.850632364,"data":"DONE loso_P03 session 1 ordinary_running20 configs 16 seconds 102.4\n"}
+,{"stream_name":"stdout","time":139.320127482,"data":"DONE loso_P05 session 1 ordinary_running20 configs 16 seconds 102.9\n"}
+,{"stream_name":"stdout","time":139.732141934,"data":"DONE loso_P01 session 1 ordinary_running20 configs 16 seconds 103.3\n"}
+,{"stream_name":"stdout","time":150.426476602,"data":"DONE loso_P02 session 1 lag_running20 configs 16 seconds 114.0\n"}
+,{"stream_name":"stdout","time":151.136869369,"data":"DONE loso_P03 session 1 lag_running20 configs 16 seconds 114.7\n"}
+,{"stream_name":"stdout","time":151.748485887,"data":"DONE loso_P05 session 1 lag_running20 configs 16 seconds 115.3\n"}
+,{"stream_name":"stdout","time":152.225132479,"data":"DONE loso_P01 session 1 lag_running20 configs 16 seconds 115.8\n"}
+,{"stream_name":"stdout","time":172.224685801,"data":"DONE loso_P02 session 1 joint_running configs 30 seconds 135.8\n"}
+,{"stream_name":"stdout","time":173.077541704,"data":"DONE loso_P03 session 1 joint_running configs 30 seconds 136.7\n"}
+,{"stream_name":"stdout","time":173.919569705,"data":"DONE loso_P05 session 1 joint_running configs 30 seconds 137.5\n"}
+,{"stream_name":"stdout","time":174.447275449,"data":"DONE loso_P01 session 1 joint_running configs 30 seconds 138.0\n"}
+,{"stream_name":"stdout","time":183.614086742,"data":"DONE loso_P02 session 1 joint_fixed configs 16 seconds 147.2\n"}
+,{"stream_name":"stdout","time":184.031514407,"data":"FOLD COMPLETE loso_P02 147.6 seconds\n"}
+,{"stream_name":"stdout","time":184.620036227,"data":"DONE loso_P03 session 1 joint_fixed configs 16 seconds 148.2\n"}
+,{"stream_name":"stdout","time":185.089194126,"data":"FOLD COMPLETE loso_P03 148.7 seconds\n"}
+,{"stream_name":"stdout","time":185.620792577,"data":"DONE loso_P05 session 1 joint_fixed configs 16 seconds 149.2\n"}
+,{"stream_name":"stdout","time":186.047120468,"data":"FOLD COMPLETE loso_P05 149.6 seconds\n"}
+,{"stream_name":"stdout","time":186.345174916,"data":"DONE loso_P01 session 1 joint_fixed configs 16 seconds 149.9\n"}
+,{"stream_name":"stdout","time":186.808579638,"data":"FOLD COMPLETE loso_P01 150.4 seconds\n"}
+,{"stream_name":"stdout","time":192.703246931,"data":"DONE loso_P06 session 1 ordinary_running configs 16 seconds 8.7\n"}
+,{"stream_name":"stdout","time":193.721749527,"data":"DONE loso_P07 session 1 ordinary_running configs 16 seconds 8.6\n"}
+,{"stream_name":"stdout","time":194.548172697,"data":"DONE loso_P08 session 1 ordinary_running configs 16 seconds 8.5\n"}
+,{"stream_name":"stdout","time":195.35834337,"data":"DONE loso_P09 session 1 ordinary_running configs 16 seconds 8.5\n"}
+,{"stream_name":"stdout","time":212.43987383,"data":"DONE loso_P06 session 1 lag_running configs 30 seconds 28.4\n"}
+,{"stream_name":"stdout","time":213.898779317,"data":"DONE loso_P07 session 1 lag_running configs 30 seconds 28.8\n"}
+,{"stream_name":"stdout","time":214.649771676,"data":"DONE loso_P08 session 1 lag_running configs 30 seconds 28.6\n"}
+,{"stream_name":"stdout","time":215.457150503,"data":"DONE loso_P09 session 1 lag_running configs 30 seconds 28.6\n"}
+,{"stream_name":"stdout","time":219.724089385,"data":"DONE loso_P06 session 1 ordinary_fixed configs 16 seconds 35.7\n"}
+,{"stream_name":"stdout","time":221.275494829,"data":"DONE loso_P07 session 1 ordinary_fixed configs 16 seconds 36.2\n"}
+,{"stream_name":"stdout","time":222.134501113,"data":"DONE loso_P08 session 1 ordinary_fixed configs 16 seconds 36.1\n"}
+,{"stream_name":"stdout","time":223.073358712,"data":"DONE loso_P09 session 1 ordinary_fixed configs 16 seconds 36.3\n"}
+,{"stream_name":"stdout","time":229.832283474,"data":"DONE loso_P06 session 1 lag_fixed configs 16 seconds 45.8\n"}
+,{"stream_name":"stdout","time":231.594727552,"data":"DONE loso_P07 session 1 lag_fixed configs 16 seconds 46.5\n"}
+,{"stream_name":"stdout","time":232.430447663,"data":"DONE loso_P08 session 1 lag_fixed configs 16 seconds 46.4\n"}
+,{"stream_name":"stdout","time":233.183996916,"data":"DONE loso_P09 session 1 lag_fixed configs 16 seconds 46.4\n"}
+,{"stream_name":"stdout","time":236.722393621,"data":"DONE loso_P06 session 1 ordinary_log configs 16 seconds 52.7\n"}
+,{"stream_name":"stdout","time":238.07288167,"data":"DONE loso_P07 session 1 ordinary_log configs 16 seconds 53.0\n"}
+,{"stream_name":"stdout","time":238.889729104,"data":"DONE loso_P08 session 1 ordinary_log configs 16 seconds 52.8\n"}
+,{"stream_name":"stdout","time":239.485382387,"data":"DONE loso_P09 session 1 ordinary_log configs 16 seconds 52.7\n"}
+,{"stream_name":"stdout","time":243.153666305,"data":"DONE loso_P06 session 1 lag_log configs 16 seconds 59.1\n"}
+,{"stream_name":"stdout","time":244.63686368,"data":"DONE loso_P07 session 1 lag_log configs 16 seconds 59.5\n"}
+,{"stream_name":"stdout","time":245.46765316,"data":"DONE loso_P08 session 1 lag_log configs 16 seconds 59.4\n"}
+,{"stream_name":"stdout","time":246.065332947,"data":"DONE loso_P09 session 1 lag_log configs 16 seconds 59.2\n"}
+,{"stream_name":"stdout","time":251.151135275,"data":"DONE loso_P06 session 1 ordinary_pseudo configs 16 seconds 67.1\n"}
+,{"stream_name":"stdout","time":252.7561858,"data":"DONE loso_P07 session 1 ordinary_pseudo configs 16 seconds 67.7\n"}
+,{"stream_name":"stdout","time":253.688923268,"data":"DONE loso_P08 session 1 ordinary_pseudo configs 16 seconds 67.6\n"}
+,{"stream_name":"stdout","time":254.285303074,"data":"DONE loso_P09 session 1 ordinary_pseudo configs 16 seconds 67.5\n"}
+,{"stream_name":"stdout","time":263.332097687,"data":"DONE loso_P06 session 1 lag_pseudo configs 16 seconds 79.3\n"}
+,{"stream_name":"stdout","time":265.20576054,"data":"DONE loso_P07 session 1 lag_pseudo configs 16 seconds 80.1\n"}
+,{"stream_name":"stdout","time":266.121669012,"data":"DONE loso_P08 session 1 lag_pseudo configs 16 seconds 80.1\n"}
+,{"stream_name":"stdout","time":266.654907924,"data":"DONE loso_P09 session 1 lag_pseudo configs 16 seconds 79.8\n"}
+,{"stream_name":"stdout","time":275.497251046,"data":"DONE loso_P06 session 1 lag_pseudo_sharp configs 16 seconds 91.4\n"}
+,{"stream_name":"stdout","time":277.609802911,"data":"DONE loso_P07 session 1 lag_pseudo_sharp configs 16 seconds 92.5\n"}
+,{"stream_name":"stdout","time":278.562743253,"data":"DONE loso_P08 session 1 lag_pseudo_sharp configs 16 seconds 92.5\n"}
+,{"stream_name":"stdout","time":278.992265536,"data":"DONE loso_P09 session 1 lag_pseudo_sharp configs 16 seconds 92.2\n"}
+,{"stream_name":"stdout","time":283.445888295,"data":"DONE loso_P06 session 1 ordinary_running20 configs 16 seconds 99.4\n"}
+,{"stream_name":"stdout","time":285.749716466,"data":"DONE loso_P07 session 1 ordinary_running20 configs 16 seconds 100.7\n"}
+,{"stream_name":"stdout","time":286.72293414,"data":"DONE loso_P08 session 1 ordinary_running20 configs 16 seconds 100.7\n"}
+,{"stream_name":"stdout","time":287.290602685,"data":"DONE loso_P09 session 1 ordinary_running20 configs 16 seconds 100.5\n"}
+,{"stream_name":"stdout","time":295.419605576,"data":"DONE loso_P06 session 1 lag_running20 configs 16 seconds 111.4\n"}
+,{"stream_name":"stdout","time":298.060193217,"data":"DONE loso_P07 session 1 lag_running20 configs 16 seconds 113.0\n"}
+,{"stream_name":"stdout","time":299.054581538,"data":"DONE loso_P08 session 1 lag_running20 configs 16 seconds 113.0\n"}
+,{"stream_name":"stdout","time":299.549296258,"data":"DONE loso_P09 session 1 lag_running20 configs 16 seconds 112.7\n"}
+,{"stream_name":"stdout","time":316.773921619,"data":"DONE loso_P06 session 1 joint_running configs 30 seconds 132.7\n"}
+,{"stream_name":"stdout","time":319.884109613,"data":"DONE loso_P07 session 1 joint_running configs 30 seconds 134.8\n"}
+,{"stream_name":"stdout","time":320.947605666,"data":"DONE loso_P08 session 1 joint_running configs 30 seconds 134.9\n"}
+,{"stream_name":"stdout","time":321.41691072,"data":"DONE loso_P09 session 1 joint_running configs 30 seconds 134.6\n"}
+,{"stream_name":"stdout","time":327.789442318,"data":"DONE loso_P06 session 1 joint_fixed configs 16 seconds 143.7\n"}
+,{"stream_name":"stdout","time":328.21849434,"data":"FOLD COMPLETE loso_P06 144.2 seconds\n"}
+,{"stream_name":"stdout","time":331.230060681,"data":"DONE loso_P07 session 1 joint_fixed configs 16 seconds 146.1\n"}
+,{"stream_name":"stdout","time":331.671683377,"data":"FOLD COMPLETE loso_P07 146.6 seconds\n"}
+,{"stream_name":"stdout","time":332.405657927,"data":"DONE loso_P08 session 1 joint_fixed configs 16 seconds 146.3\n"}
+,{"stream_name":"stdout","time":332.73748279,"data":"DONE loso_P09 session 1 joint_fixed configs 16 seconds 145.9\n"}
+,{"stream_name":"stdout","time":332.84792244,"data":"FOLD COMPLETE loso_P08 146.8 seconds\n"}
+,{"stream_name":"stdout","time":333.163312067,"data":"FOLD COMPLETE loso_P09 146.3 seconds\n"}
+,{"stream_name":"stdout","time":335.198388039,"data":"DONE loso_P04 session 1 ordinary_running configs 16 seconds 7.0\n"}
+,{"stream_name":"stdout","time":340.403473399,"data":"DONE loso_P10 session 1 ordinary_running configs 16 seconds 8.7\n"}
+,{"stream_name":"stdout","time":341.22930675,"data":"DONE later_last session 1 ordinary_running configs 16 seconds 8.4\n"}
+,{"stream_name":"stdout","time":350.533064916,"data":"DONE loso_P04 session 1 lag_running configs 30 seconds 22.3\n"}
+,{"stream_name":"stdout","time":354.129194272,"data":"DONE later_last session 1 lag_running configs 30 seconds 21.3\n"}
+,{"stream_name":"stdout","time":357.096466167,"data":"DONE loso_P10 session 1 lag_running configs 30 seconds 25.4\n"}
+,{"stream_name":"stdout","time":357.859647488,"data":"DONE loso_P04 session 1 ordinary_fixed configs 16 seconds 29.6\n"}
+,{"stream_name":"stdout","time":361.464043057,"data":"DONE loso_P10 session 1 ordinary_fixed configs 16 seconds 29.8\n"}
+,{"stream_name":"stdout","time":361.578597561,"data":"DONE later_last session 1 ordinary_fixed configs 16 seconds 28.7\n"}
+,{"stream_name":"stdout","time":367.094218068,"data":"DONE loso_P04 session 1 lag_fixed configs 16 seconds 38.9\n"}
+,{"stream_name":"stdout","time":368.916191454,"data":"DONE later_last session 1 lag_fixed configs 16 seconds 36.1\n"}
+,{"stream_name":"stdout","time":371.004507576,"data":"DONE loso_P10 session 1 lag_fixed configs 16 seconds 39.3\n"}
+,{"stream_name":"stdout","time":371.051239165,"data":"DONE loso_P04 session 1 ordinary_log configs 16 seconds 42.8\n"}
+,{"stream_name":"stdout","time":373.832513823,"data":"DONE later_last session 1 ordinary_log configs 16 seconds 41.0\n"}
+,{"stream_name":"stdout","time":377.0891842,"data":"DONE loso_P04 session 1 lag_log configs 16 seconds 48.9\n"}
+,{"stream_name":"stdout","time":377.509446231,"data":"DONE later_last session 1 lag_log configs 16 seconds 44.7\n"}
+,{"stream_name":"stdout","time":377.624031165,"data":"DONE loso_P10 session 1 ordinary_log configs 16 seconds 45.9\n"}
+,{"stream_name":"stdout","time":382.50194543,"data":"DONE loso_P10 session 1 lag_log configs 16 seconds 50.8\n"}
+,{"stream_name":"stdout","time":383.283733936,"data":"DONE later_last session 1 ordinary_pseudo configs 16 seconds 50.4\n"}
+,{"stream_name":"stdout","time":385.151801616,"data":"DONE loso_P04 session 1 ordinary_pseudo configs 16 seconds 56.9\n"}
+,{"stream_name":"stdout","time":390.3530798,"data":"DONE later_last session 1 lag_pseudo configs 16 seconds 57.5\n"}
+,{"stream_name":"stdout","time":390.900150983,"data":"DONE loso_P10 session 1 ordinary_pseudo configs 16 seconds 59.2\n"}
+,{"stream_name":"stdout","time":394.94765749,"data":"DONE loso_P04 session 1 lag_pseudo configs 16 seconds 66.7\n"}
+,{"stream_name":"stdout","time":401.666212115,"data":"DONE later_last session 1 lag_pseudo_sharp configs 16 seconds 68.8\n"}
+,{"stream_name":"stdout","time":402.421259462,"data":"DONE loso_P04 session 1 lag_pseudo_sharp configs 16 seconds 74.2\n"}
+,{"stream_name":"stdout","time":402.837583233,"data":"DONE loso_P10 session 1 lag_pseudo configs 16 seconds 71.2\n"}
+,{"stream_name":"stdout","time":409.600982206,"data":"DONE later_last session 1 ordinary_running20 configs 16 seconds 76.7\n"}
+,{"stream_name":"stdout","time":410.316312651,"data":"DONE loso_P04 session 1 ordinary_running20 configs 16 seconds 82.1\n"}
+,{"stream_name":"stdout","time":410.34809853,"data":"DONE loso_P10 session 1 lag_pseudo_sharp configs 16 seconds 78.7\n"}
+,{"stream_name":"stdout","time":417.773643068,"data":"DONE loso_P10 session 1 ordinary_running20 configs 16 seconds 86.1\n"}
+,{"stream_name":"stdout","time":418.198974353,"data":"DONE loso_P04 session 1 lag_running20 configs 16 seconds 90.0\n"}
+,{"stream_name":"stdout","time":421.73104855,"data":"DONE later_last session 1 lag_running20 configs 16 seconds 88.9\n"}
+,{"stream_name":"stdout","time":426.723133409,"data":"DONE loso_P10 session 1 lag_running20 configs 16 seconds 95.0\n"}
+,{"stream_name":"stdout","time":436.072472609,"data":"DONE loso_P04 session 1 joint_running configs 30 seconds 107.8\n"}
+,{"stream_name":"stdout","time":438.593702679,"data":"DONE later_last session 1 joint_running configs 30 seconds 105.7\n"}
+,{"stream_name":"stdout","time":445.288468353,"data":"DONE later_last session 1 joint_fixed configs 16 seconds 112.4\n"}
+,{"stream_name":"stdout","time":447.005905827,"data":"DONE loso_P10 session 1 joint_running configs 30 seconds 115.3\n"}
+,{"stream_name":"stdout","time":447.323835393,"data":"DONE loso_P04 session 1 joint_fixed configs 16 seconds 119.1\n"}
+,{"stream_name":"stdout","time":450.433934857,"data":"DONE later_last session 2 ordinary_running configs 16 seconds 117.6\n"}
+,{"stream_name":"stdout","time":455.485901124,"data":"DONE loso_P04 session 2 ordinary_running configs 16 seconds 127.3\n"}
+,{"stream_name":"stdout","time":456.599371247,"data":"DONE loso_P10 session 1 joint_fixed configs 16 seconds 124.9\n"}
+,{"stream_name":"stdout","time":461.544300433,"data":"DONE loso_P10 session 2 ordinary_running configs 16 seconds 129.9\n"}
+,{"stream_name":"stdout","time":469.630541729,"data":"DONE later_last session 2 lag_running configs 30 seconds 136.8\n"}
+,{"stream_name":"stdout","time":474.137049577,"data":"DONE loso_P10 session 2 lag_running configs 30 seconds 142.5\n"}
+,{"stream_name":"stdout","time":474.844962468,"data":"DONE loso_P04 session 2 lag_running configs 30 seconds 146.6\n"}
+,{"stream_name":"stdout","time":475.290162949,"data":"DONE later_last session 2 ordinary_fixed configs 16 seconds 142.4\n"}
+,{"stream_name":"stdout","time":481.450904513,"data":"DONE loso_P10 session 2 ordinary_fixed configs 16 seconds 149.8\n"}
+,{"stream_name":"stdout","time":482.064412444,"data":"DONE later_last session 2 lag_fixed configs 16 seconds 149.2\n"}
+,{"stream_name":"stdout","time":482.392067912,"data":"DONE loso_P04 session 2 ordinary_fixed configs 16 seconds 154.2\n"}
+,{"stream_name":"stdout","time":487.902359967,"data":"DONE loso_P10 session 2 lag_fixed configs 16 seconds 156.2\n"}
+,{"stream_name":"stdout","time":488.369492765,"data":"DONE later_last session 2 ordinary_log configs 16 seconds 155.5\n"}
+,{"stream_name":"stdout","time":491.900904148,"data":"DONE loso_P10 session 2 ordinary_log configs 16 seconds 160.2\n"}
+,{"stream_name":"stdout","time":492.513500591,"data":"DONE loso_P04 session 2 lag_fixed configs 16 seconds 164.3\n"}
+,{"stream_name":"stdout","time":493.945067521,"data":"DONE later_last session 2 lag_log configs 16 seconds 161.1\n"}
+,{"stream_name":"stdout","time":498.28109733,"data":"DONE loso_P10 session 2 lag_log configs 16 seconds 166.6\n"}
+,{"stream_name":"stdout","time":499.039895243,"data":"DONE loso_P04 session 2 ordinary_log configs 16 seconds 170.8\n"}
+,{"stream_name":"stdout","time":499.19666329,"data":"DONE later_last session 2 ordinary_pseudo configs 16 seconds 166.3\n"}
+,{"stream_name":"stdout","time":504.725828001,"data":"DONE loso_P10 session 2 ordinary_pseudo configs 16 seconds 173.1\n"}
+,{"stream_name":"stdout","time":505.701842359,"data":"DONE loso_P04 session 2 lag_log configs 16 seconds 177.5\n"}
+,{"stream_name":"stdout","time":507.891080317,"data":"DONE later_last session 2 lag_pseudo configs 16 seconds 175.0\n"}
+,{"stream_name":"stdout","time":513.222520803,"data":"DONE loso_P04 session 2 ordinary_pseudo configs 16 seconds 185.0\n"}
+,{"stream_name":"stdout","time":516.554622444,"data":"DONE loso_P10 session 2 lag_pseudo configs 16 seconds 184.9\n"}
+,{"stream_name":"stdout","time":518.833177049,"data":"DONE later_last session 2 lag_pseudo_sharp configs 16 seconds 186.0\n"}
+,{"stream_name":"stdout","time":520.665937794,"data":"DONE loso_P04 session 2 lag_pseudo configs 16 seconds 192.4\n"}
+,{"stream_name":"stdout","time":528.107362207,"data":"DONE later_last session 2 ordinary_running20 configs 16 seconds 195.3\n"}
+,{"stream_name":"stdout","time":528.441924676,"data":"DONE loso_P04 session 2 lag_pseudo_sharp configs 16 seconds 200.2\n"}
+,{"stream_name":"stdout","time":528.907482983,"data":"DONE loso_P10 session 2 lag_pseudo_sharp configs 16 seconds 197.2\n"}
+,{"stream_name":"stdout","time":534.329589349,"data":"DONE loso_P04 session 2 ordinary_running20 configs 16 seconds 206.1\n"}
+,{"stream_name":"stdout","time":537.156680171,"data":"DONE loso_P10 session 2 ordinary_running20 configs 16 seconds 205.5\n"}
+,{"stream_name":"stdout","time":537.459560478,"data":"DONE later_last session 2 lag_running20 configs 16 seconds 204.6\n"}
+,{"stream_name":"stdout","time":546.530764106,"data":"DONE loso_P04 session 2 lag_running20 configs 16 seconds 218.3\n"}
+,{"stream_name":"stdout","time":546.805356837,"data":"DONE loso_P10 session 2 lag_running20 configs 16 seconds 215.1\n"}
+,{"stream_name":"stdout","time":553.978489623,"data":"DONE later_last session 2 joint_running configs 30 seconds 221.1\n"}
+,{"stream_name":"stdout","time":562.859516633,"data":"DONE loso_P04 session 2 joint_running configs 30 seconds 234.6\n"}
+,{"stream_name":"stdout","time":566.125617655,"data":"DONE later_last session 2 joint_fixed configs 16 seconds 233.3\n"}
+,{"stream_name":"stdout","time":566.129664237,"data":"DONE loso_P10 session 2 joint_running configs 30 seconds 234.5\n"}
+,{"stream_name":"stdout","time":567.01698915,"data":"FOLD COMPLETE later_last 234.2 seconds\n"}
+,{"stream_name":"stdout","time":569.516491019,"data":"DONE loso_P04 session 2 joint_fixed configs 16 seconds 241.3\n"}
+,{"stream_name":"stdout","time":573.095885617,"data":"DONE loso_P10 session 2 joint_fixed configs 16 seconds 241.4\n"}
+,{"stream_name":"stdout","time":574.364087949,"data":"DONE loso_P04 session 3 ordinary_running configs 16 seconds 246.1\n"}
+,{"stream_name":"stdout","time":578.327583112,"data":"DONE loso_P10 session 3 ordinary_running configs 16 seconds 246.6\n"}
+,{"stream_name":"stdout","time":586.322614809,"data":"DONE loso_P04 session 3 lag_running configs 30 seconds 258.1\n"}
+,{"stream_name":"stdout","time":590.753034514,"data":"DONE loso_P04 session 3 ordinary_fixed configs 16 seconds 262.5\n"}
+,{"stream_name":"stdout","time":591.308982801,"data":"DONE loso_P10 session 3 lag_running configs 30 seconds 259.6\n"}
+,{"stream_name":"stdout","time":596.017575327,"data":"DONE loso_P10 session 3 ordinary_fixed configs 16 seconds 264.3\n"}
+,{"stream_name":"stdout","time":596.79104775,"data":"DONE loso_P04 session 3 lag_fixed configs 16 seconds 268.6\n"}
+,{"stream_name":"stdout","time":600.371509675,"data":"DONE loso_P04 session 3 ordinary_log configs 16 seconds 272.1\n"}
+,{"stream_name":"stdout","time":602.605374753,"data":"DONE loso_P10 session 3 lag_fixed configs 16 seconds 270.9\n"}
+,{"stream_name":"stdout","time":604.157210721,"data":"DONE loso_P04 session 3 lag_log configs 16 seconds 275.9\n"}
+,{"stream_name":"stdout","time":606.949063899,"data":"DONE loso_P10 session 3 ordinary_log configs 16 seconds 275.3\n"}
+,{"stream_name":"stdout","time":609.061579999,"data":"DONE loso_P04 session 3 ordinary_pseudo configs 16 seconds 280.8\n"}
+,{"stream_name":"stdout","time":611.048996817,"data":"DONE loso_P10 session 3 lag_log configs 16 seconds 279.4\n"}
+,{"stream_name":"stdout","time":616.255882111,"data":"DONE loso_P10 session 3 ordinary_pseudo configs 16 seconds 284.6\n"}
+,{"stream_name":"stdout","time":616.311510072,"data":"DONE loso_P04 session 3 lag_pseudo configs 16 seconds 288.1\n"}
+,{"stream_name":"stdout","time":623.623681235,"data":"DONE loso_P04 session 3 lag_pseudo_sharp configs 16 seconds 295.4\n"}
+,{"stream_name":"stdout","time":624.019983047,"data":"DONE loso_P10 session 3 lag_pseudo configs 16 seconds 292.3\n"}
+,{"stream_name":"stdout","time":628.233000362,"data":"DONE loso_P04 session 3 ordinary_running20 configs 16 seconds 300.0\n"}
+,{"stream_name":"stdout","time":631.657649562,"data":"DONE loso_P10 session 3 lag_pseudo_sharp configs 16 seconds 300.0\n"}
+,{"stream_name":"stdout","time":635.331579458,"data":"DONE loso_P04 session 3 lag_running20 configs 16 seconds 307.1\n"}
+,{"stream_name":"stdout","time":636.821320763,"data":"DONE loso_P10 session 3 ordinary_running20 configs 16 seconds 305.1\n"}
+,{"stream_name":"stdout","time":644.644582744,"data":"DONE loso_P10 session 3 lag_running20 configs 16 seconds 312.9\n"}
+,{"stream_name":"stdout","time":648.237516556,"data":"DONE loso_P04 session 3 joint_running configs 30 seconds 320.0\n"}
+,{"stream_name":"stdout","time":654.794044562,"data":"DONE loso_P04 session 3 joint_fixed configs 16 seconds 326.6\n"}
+,{"stream_name":"stdout","time":655.544883314,"data":"FOLD COMPLETE loso_P04 327.3 seconds\n"}
+,{"stream_name":"stdout","time":658.370350126,"data":"DONE loso_P10 session 3 joint_running configs 30 seconds 326.7\n"}
+,{"stream_name":"stdout","time":665.319024949,"data":"DONE loso_P10 session 3 joint_fixed configs 16 seconds 333.6\n"}
+,{"stream_name":"stdout","time":666.05558771,"data":"FOLD COMPLETE loso_P10 334.4 seconds\n"}
+,{"stream_name":"stdout","time":666.076037316,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":666.077804114,"data":"  File \"/tmp/proteus-transduction-study/run.py\", line 195, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":666.078864152,"data":"    if __name__ == '__main__': main()\n"}
+,{"stream_name":"stdout","time":666.08031367,"data":"                               ~~~~^^\n"}
+,{"stream_name":"stdout","time":666.081530719,"data":"  File \"/tmp/proteus-transduction-study/run.py\", line 190, in main\n"}
+,{"stream_name":"stdout","time":666.08264471,"data":"    summarize(args.out)\n"}
+,{"stream_name":"stdout","time":666.084142431,"data":"    ~~~~~~~~~^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":666.085467678,"data":"  File \"/tmp/proteus-transduction-study/run.py\", line 118, in summarize\n"}
+,{"stream_name":"stdout","time":666.086478819,"data":"    foldrows = [r for p in paths for r in json.loads(p.with_suffix('.json').read_text())['scores']]\n"}
+,{"stream_name":"stdout","time":666.087511685,"data":"                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stdout","time":666.08875725,"data":"  File \"/usr/lib/python3.13/pathlib/_local.py\", line 546, in read_text\n"}
+,{"stream_name":"stdout","time":666.089798406,"data":"    return PathBase.read_text(self, encoding, errors, newline)\n"}
+,{"stream_name":"stdout","time":666.090928195,"data":"           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":666.092060042,"data":"  File \"/usr/lib/python3.13/pathlib/_abc.py\", line 632, in read_text\n"}
+,{"stream_name":"stdout","time":666.093035047,"data":"    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:\n"}
+,{"stream_name":"stdout","time":666.094459987,"data":"         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":666.095325922,"data":"  File \"/usr/lib/python3.13/pathlib/_local.py\", line 537, in open\n"}
+,{"stream_name":"stdout","time":666.096317269,"data":"    return io.open(self, mode, buffering, encoding, errors, newline)\n"}
+,{"stream_name":"stdout","time":666.097238588,"data":"           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stdout","time":666.098202027,"data":"FileNotFoundError: [Errno 2] No such file or directory: '/kaggle/working/transduction-results/folds/loso_P05.json'\n"}
+,{"stream_name":"stderr","time":666.867692418,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":666.868532868,"data":"  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":666.868552931,"data":"    import sys;import papermill as pm;pm.execute_notebook(\"__notebook__.ipynb\",\"__notebook__.ipynb\",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=15000)\n"}
+,{"stream_name":"stderr","time":666.868560928,"data":"                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":666.86856633,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 131, in execute_notebook\n"}
+,{"stream_name":"stderr","time":666.86857127,"data":"    raise_for_execution_errors(nb, output_path)\n"}
+,{"stream_name":"stderr","time":666.86857575,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":666.868580538,"data":"  File \"/usr/local/lib/python3.13/dist-packages/papermill/execute.py\", line 251, in raise_for_execution_errors\n"}
+,{"stream_name":"stderr","time":666.868585747,"data":"    raise error\n"}
+,{"stream_name":"stderr","time":666.868590468,"data":"papermill.exceptions.PapermillExecutionError: \n"}
+,{"stream_name":"stderr","time":666.868595196,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":666.868600122,"data":"Exception encountered at \"In [2]\":\n"}
+,{"stream_name":"stderr","time":666.868605045,"data":"---------------------------------------------------------------------------\n"}
+,{"stream_name":"stderr","time":666.86860925,"data":"RuntimeError                              Traceback (most recent call last)\n"}
+,{"stream_name":"stderr","time":666.868613813,"data":"/tmp/ipykernel_16/1662972090.py in \u003ccell line: 0\u003e()\n"}
+,{"stream_name":"stderr","time":666.868618335,"data":"      6         print(line,end='',flush=True);log.write(line);log.flush()\n"}
+,{"stream_name":"stderr","time":666.868622657,"data":"      7     code=process.wait()\n"}
+,{"stream_name":"stderr","time":666.86862671,"data":"----\u003e 8 if code:raise RuntimeError(f'Study exited with code {code}; completed fold outputs remain in {out}')\n"}
+,{"stream_name":"stderr","time":666.86863145,"data":"\n"}
+,{"stream_name":"stderr","time":666.868635478,"data":"RuntimeError: Study exited with code 1; completed fold outputs remain in /kaggle/working/transduction-results\n"}
+,{"stream_name":"stderr","time":666.868654832,"data":"\n"}
+,{"stream_name":"stderr","time":670.018884937,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":670.018936444,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":670.247323606,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":670.247367485,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":671.226566326,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":671.378599842,"data":"[NbConvertApp] Writing 275318 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":674.979482766,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":675.702994787,"data":"[NbConvertApp] Writing 549649 bytes to __results__.html\n"}
+]

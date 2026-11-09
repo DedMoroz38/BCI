@@ -1,0 +1,21 @@
+{
+  "settings": {
+    "seed": 2,
+    "max_epochs": 80,
+    "patience": 10,
+    "min_delta": 0.0001,
+    "baseline_sha256": "c5b04cdcc7e20847f4994c307cd9b5629fb84ba4a2848de344fe1e1160c0bd35"
+  },
+  "seed": 2,
+  "best_epoch": 1,
+  "best_validation_weighted_ce": 1.2425864934921265,
+  "stopped_epoch": 11,
+  "seconds": 3.5057043120000344,
+  "parameter_count": 72259,
+  "criterion": "inner-val class-weighted CE;min_delta1e-4;patience10",
+  "artifacts": {
+    "best.pt": "3eabbae2b6788f09f6871cdb2bcdac407fbcc7f879179d3b77546ba905d845e3",
+    "curves.csv": "65426675a8348eddae71fca6b6e1252052cdee4cf01467316efa729e20f3db29",
+    "curves.png": "40a0023aeabf3a77fd2f03adec114c4e8bb0091afe9a78eb9d33cb478d425839"
+  }
+}

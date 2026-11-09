@@ -1,0 +1,24 @@
+status: complete
+question: Does classifier-only replacement improve the submitted Lag4 forest?
+baseline: Riemann-Forest-Lag4
+variants: [baseline, lda_lw, svm_linear, svm_rbf, ridge, elasticnet, mlp]
+selection_metric: loso_session_mean
+scope: 70 jobs; fixed configurations; no test tuning
+next: none; fixed classifier comparison completed and verified
+kaggle_notebook: den1shh/proteus-lag4-classifier-ablation
+kaggle_version: 4
+implementation_commit: 0350b84
+local_tests: 20 passed
+remote_tests: 17 passed on Python3.13.15 and PyTorch2.11.0 CUDA12.8
+stage: all70 jobs completed; independent Kaggle and local rescoring passed
+superseded_run: version3 cancellation accepted for user-provided scriptVersionId363509788
+report_notebook: den1shh/proteus-lag4-classifier-report
+report_notebook_status: COMPLETE
+exact_baseline_jobs: 10
+cv_winner: svm_linear
+cv_baseline_session_ba: 0.5628006572739627
+cv_winner_session_ba: 0.5751856243822775
+public_test_baseline_cell_ba: 0.5571636308861698
+public_test_cv_winner_cell_ba: 0.5044471673773329
+elasticnet_convergence_warnings: 2423
+report: to_human/REPORT.md

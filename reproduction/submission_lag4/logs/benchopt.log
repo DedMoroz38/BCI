@@ -1,0 +1,10 @@
+Benchopt is running!
+Loading objective, datasets and solvers... done.
+Prepared-PROTEUS-Smoke                                                                              
+  |--BCI-decoding[training=False]                                                                   
+sysctl: sysctl fmt -1 1024 1: Operation not permitted
+/Users/den1shh/Documents/diploma/reproduction/.venv/lib/python3.12/site-packages/benchopt/utils/sys_info.py:31: UserWarning: Could not get processor name.
+  warnings.warn("Could not get processor name.")
+No seed was specified. Selected global seed: 0
+[1;34m    |--Riemann-Forest-Lag4:[0m [1;32mdone[0m                                                                    
+[1;32mSaving result in: reproduction/submission_lag4/official_check/outputs/packaging_check.parquet[0m       

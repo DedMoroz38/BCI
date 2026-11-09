@@ -1,0 +1,347 @@
+{
+  "manifest_sha256": "02d82c53dc2014b9f0573397df48bb0220665fbf1194a3cd0da58512bc1babe8",
+  "receipts": {
+    "delay1_oas_band0": {
+      "representation": "delay1_oas",
+      "band_index": 0,
+      "band": [
+        4,
+        40
+      ],
+      "shape": [
+        2655,
+        82,
+        82
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "e4f051e8fb1fe6e01c782d80612a78aaa9ead8972c91bd556b93d0e5e5bbf238",
+      "min_eigenvalue": 0.16705804000398303,
+      "compute_seconds": 17.663207333011087,
+      "completed_utc": "2026-10-29T00:25:17.231368+00:00"
+    },
+    "delay1_oas_band1": {
+      "representation": "delay1_oas",
+      "band_index": 1,
+      "band": [
+        4,
+        8
+      ],
+      "shape": [
+        2655,
+        82,
+        82
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "6a1e61cc5d7a8e3019359141db056902a03a6461ac18621ac253b49c298b61fc",
+      "min_eigenvalue": 0.018378727104235635,
+      "compute_seconds": 16.278494250029325,
+      "completed_utc": "2026-10-29T00:25:15.820315+00:00"
+    },
+    "delay1_oas_band2": {
+      "representation": "delay1_oas",
+      "band_index": 2,
+      "band": [
+        8,
+        13
+      ],
+      "shape": [
+        2655,
+        82,
+        82
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "8071aeb469a8765395bc5f0b2b7074189e6bdfc06d54e821b354b7ab58339cc3",
+      "min_eigenvalue": 0.01714452435524517,
+      "compute_seconds": 16.287524749990553,
+      "completed_utc": "2026-10-29T00:25:44.967092+00:00"
+    },
+    "delay1_oas_band3": {
+      "representation": "delay1_oas",
+      "band_index": 3,
+      "band": [
+        13,
+        20
+      ],
+      "shape": [
+        2655,
+        82,
+        82
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "e7cb23803bcddd43a2d342fd30e4657636c04a8b981e2dc755e304388aed5f7d",
+      "min_eigenvalue": 0.017458062716290752,
+      "compute_seconds": 16.769536749983672,
+      "completed_utc": "2026-10-29T00:25:47.048145+00:00"
+    },
+    "delay1_oas_band4": {
+      "representation": "delay1_oas",
+      "band_index": 4,
+      "band": [
+        20,
+        30
+      ],
+      "shape": [
+        2655,
+        82,
+        82
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "55f415795d820b08331f3dd47ebb0d8cad52c8442d5658c39b11f798730cd06a",
+      "min_eigenvalue": 0.017813504613669835,
+      "compute_seconds": 16.616958166006953,
+      "completed_utc": "2026-10-29T00:26:13.952981+00:00"
+    },
+    "delay1_oas_band5": {
+      "representation": "delay1_oas",
+      "band_index": 5,
+      "band": [
+        30,
+        40
+      ],
+      "shape": [
+        2655,
+        82,
+        82
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "7eeb545c33002bbad438ca9f9cf5ffb04c53aeb2d291ddff857898343c08217e",
+      "min_eigenvalue": 0.010654123770979403,
+      "compute_seconds": 16.42384566599503,
+      "completed_utc": "2026-10-29T00:26:16.184606+00:00"
+    },
+    "hsic_rbf_band0": {
+      "representation": "hsic_rbf",
+      "band_index": 0,
+      "band": [
+        4,
+        40
+      ],
+      "shape": [
+        2655,
+        41,
+        41
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "78491ef790c835868f34ebcfe5fe42b06fcdc9e4261af49a5a47c3773db35c13",
+      "min_eigenvalue": 3.8576208819290775e-05,
+      "compute_seconds": 1293.12255666696,
+      "completed_utc": "2026-10-29T00:41:47.585716+00:00"
+    },
+    "hsic_rbf_band1": {
+      "representation": "hsic_rbf",
+      "band_index": 1,
+      "band": [
+        4,
+        8
+      ],
+      "shape": [
+        2655,
+        41,
+        41
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "015bd599afc58dee1617992b8665f094caa6da1958f1aee410982f39c6b84504",
+      "min_eigenvalue": 6.5863807747815676e-06,
+      "compute_seconds": 1255.2481305000256,
+      "completed_utc": "2026-10-29T00:41:09.461918+00:00"
+    },
+    "hsic_rbf_band2": {
+      "representation": "hsic_rbf",
+      "band_index": 2,
+      "band": [
+        8,
+        13
+      ],
+      "shape": [
+        2655,
+        41,
+        41
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "7a325d272b615ce15e00575b9a5ebe7eaa943fec56d95967ccda3263b61515b0",
+      "min_eigenvalue": 2.486523415013805e-05,
+      "compute_seconds": 1271.972637165978,
+      "completed_utc": "2026-10-29T00:41:26.228507+00:00"
+    },
+    "hsic_rbf_band3": {
+      "representation": "hsic_rbf",
+      "band_index": 3,
+      "band": [
+        13,
+        20
+      ],
+      "shape": [
+        2655,
+        41,
+        41
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "515a8db245f243aa3e321994e881e28f0d83823b3e8e3e03d28b58b6082f807e",
+      "min_eigenvalue": 2.1451415446985877e-05,
+      "compute_seconds": 1281.7060707919882,
+      "completed_utc": "2026-10-29T00:41:36.104632+00:00"
+    },
+    "hsic_rbf_band4": {
+      "representation": "hsic_rbf",
+      "band_index": 4,
+      "band": [
+        20,
+        30
+      ],
+      "shape": [
+        2655,
+        41,
+        41
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "ef8039657cf6c87d5945ed5777532c2a49334ddaf8b28b6ae06db35f5c63b6e7",
+      "min_eigenvalue": 1.262082327762122e-05,
+      "compute_seconds": 1290.9645415840205,
+      "completed_utc": "2026-10-29T00:41:45.473943+00:00"
+    },
+    "hsic_rbf_band5": {
+      "representation": "hsic_rbf",
+      "band_index": 5,
+      "band": [
+        30,
+        40
+      ],
+      "shape": [
+        2655,
+        41,
+        41
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "abb54ddb88e5fa1ca75de2e36849f15007b6b5b3b278abfa54ff770136b047bd",
+      "min_eigenvalue": 1.5622467738431588e-05,
+      "compute_seconds": 1291.786416457966,
+      "completed_utc": "2026-10-29T00:41:45.803509+00:00"
+    },
+    "envelope_oas_band0": {
+      "representation": "envelope_oas",
+      "band_index": 0,
+      "band": [
+        4,
+        40
+      ],
+      "shape": [
+        2655,
+        41,
+        41
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "93747821300576afa685013d379ca80b7ce21b00123ff2c13d66db5ea0513718",
+      "min_eigenvalue": 0.12410007521785092,
+      "compute_seconds": 12.99156941700494,
+      "completed_utc": "2026-10-29T00:26:41.059010+00:00"
+    },
+    "envelope_oas_band1": {
+      "representation": "envelope_oas",
+      "band_index": 1,
+      "band": [
+        4,
+        8
+      ],
+      "shape": [
+        2655,
+        41,
+        41
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "381b16daa11002e116828f8c940f7331810989e96c5879f6827b7461b6f5a1d8",
+      "min_eigenvalue": 0.010813929986320728,
+      "compute_seconds": 12.692019957990851,
+      "completed_utc": "2026-10-29T00:26:43.327194+00:00"
+    },
+    "envelope_oas_band2": {
+      "representation": "envelope_oas",
+      "band_index": 2,
+      "band": [
+        8,
+        13
+      ],
+      "shape": [
+        2655,
+        41,
+        41
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "d75bc9c7eaefad3143cb6c899a0fe2f99d70d576f512fa3ce049aa837fce02f1",
+      "min_eigenvalue": 0.009617558079600774,
+      "compute_seconds": 11.564135916007217,
+      "completed_utc": "2026-10-29T00:27:07.437700+00:00"
+    },
+    "envelope_oas_band3": {
+      "representation": "envelope_oas",
+      "band_index": 3,
+      "band": [
+        13,
+        20
+      ],
+      "shape": [
+        2655,
+        41,
+        41
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "ec66423e5a9239d8db30da5211ccb0c495638f779f470888e0a7a37dead5b93e",
+      "min_eigenvalue": 0.010306153769096996,
+      "compute_seconds": 11.742637542018201,
+      "completed_utc": "2026-10-29T00:27:09.376654+00:00"
+    },
+    "envelope_oas_band4": {
+      "representation": "envelope_oas",
+      "band_index": 4,
+      "band": [
+        20,
+        30
+      ],
+      "shape": [
+        2655,
+        41,
+        41
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "a1f83020aba11af1a505bbedbe1db3aab16699ef58292062e4c4ca037daffd8e",
+      "min_eigenvalue": 0.013159465590554392,
+      "compute_seconds": 11.823806500004139,
+      "completed_utc": "2026-10-29T00:27:33.975867+00:00"
+    },
+    "envelope_oas_band5": {
+      "representation": "envelope_oas",
+      "band_index": 5,
+      "band": [
+        30,
+        40
+      ],
+      "shape": [
+        2655,
+        41,
+        41
+      ],
+      "dtype": "float64",
+      "config_digest": "6b53125861ba5d60a87fdf7933a7bd8be36550f8b95705e1d62c2986796dbf31",
+      "sha256": "02dada0d30609760830aa7ec9407a85943ecd5f5962b16f3d8ff59df745a780f",
+      "min_eigenvalue": 0.006463928899251172,
+      "compute_seconds": 11.83904224995058,
+      "completed_utc": "2026-10-29T00:27:35.693121+00:00"
+    }
+  }
+}

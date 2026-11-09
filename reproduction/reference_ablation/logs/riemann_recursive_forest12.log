@@ -1,0 +1,19 @@
+Validated exact source/data/environment and frozen experiment manifest
+START riemann_recursive/forest12_loso_Dreyer2026Proteus_P01 train=1710 eval=190
+DONE riemann_recursive/forest12_loso_Dreyer2026Proteus_P01: 0.536210317, delta=+0.005291005 (37.3s)
+START riemann_recursive/forest12_loso_Dreyer2026Proteus_P02 train=1711 eval=189
+DONE riemann_recursive/forest12_loso_Dreyer2026Proteus_P02: 0.612599206, delta=+0.005461683 (36.4s)
+START riemann_recursive/forest12_loso_Dreyer2026Proteus_P03 train=1711 eval=189
+DONE riemann_recursive/forest12_loso_Dreyer2026Proteus_P03: 0.450156810, delta=+0.026796382 (38.5s)
+START riemann_recursive/forest12_loso_Dreyer2026Proteus_P05 train=1710 eval=190
+DONE riemann_recursive/forest12_loso_Dreyer2026Proteus_P05: 0.315228175, delta=+0.005125661 (38.6s)
+START riemann_recursive/forest12_loso_Dreyer2026Proteus_P06 train=1713 eval=187
+DONE riemann_recursive/forest12_loso_Dreyer2026Proteus_P06: 0.470472777, delta=-0.010923366 (41.1s)
+START riemann_recursive/forest12_loso_Dreyer2026Proteus_P07 train=1711 eval=189
+DONE riemann_recursive/forest12_loso_Dreyer2026Proteus_P07: 0.639579600, delta=-0.010248656 (43.3s)
+START riemann_recursive/forest12_loso_Dreyer2026Proteus_P08 train=1711 eval=189
+DONE riemann_recursive/forest12_loso_Dreyer2026Proteus_P08: 0.694305769, delta=+0.005040323 (45.1s)
+START riemann_recursive/forest12_loso_Dreyer2026Proteus_P10 train=1323 eval=577
+DONE riemann_recursive/forest12_loso_Dreyer2026Proteus_P10: 0.392441795, delta=-0.001826709 (50.3s)
+START riemann_recursive/forest12_later_last train=1701 eval=199
+DONE riemann_recursive/forest12_later_last: 0.613824815, delta=-0.000075381 (48.0s)

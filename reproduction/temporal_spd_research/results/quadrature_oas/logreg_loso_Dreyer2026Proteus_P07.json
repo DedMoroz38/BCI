@@ -1,0 +1,38 @@
+{
+  "variant": "quadrature_oas",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P07",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P07"
+  ],
+  "train_windows": 1711,
+  "eval_windows": 189,
+  "fit_seconds": 4.236445999937132,
+  "total_seconds": 4.6677128749433905,
+  "session_mean_delta_vs_control": 0.02747375832053245,
+  "representation_definition": "OAS of interleaved real/Hilbert quadratures, projected as (S+J S J^T)/2",
+  "reference_update": "original cumulative log-Euclidean, prior_weight=5",
+  "cell_mean": 0.5882840501792115,
+  "session_mean": 0.5878349547704386,
+  "pooled": 0.5878349547704386,
+  "accuracy": 0.5873015873015873,
+  "matrix_cache_sha256": {
+    "quadrature_oas_band0": "ce9be73b9c0673f7d2e8ef29c00967d11575f9ed88ee86df0a27f3af46e15cf7",
+    "quadrature_oas_band1": "a4d159f687cd69a78645a86e4e2a7167c1dfd2d41b7aafb384d8ed79ce0e7f84",
+    "quadrature_oas_band2": "f38d7fbee249117fd4febf1be0c6498115fcfb5a9685f209d40fa7e227216d17",
+    "quadrature_oas_band3": "beb044b0f22e9afb43f7df62e2c0b5f8289a1bf045c397a9b3ffc97f57dd4573",
+    "quadrature_oas_band4": "646859e289d5294113f8c37b2b23eec7dca5f96f7f053b0d42fae8c46498e565",
+    "quadrature_oas_band5": "5c8b7356435028feda43134bece3baf56f378b7c981793989aa42d4f0b21099f"
+  },
+  "tangent_dimension": 3403
+}

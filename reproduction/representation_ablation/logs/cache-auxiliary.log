@@ -1,0 +1,25 @@
+START cache delay1_oas band 0
+START cache delay1_oas band 1
+DONE cache delay1_oas band 1
+START cache delay1_oas band 2
+DONE cache delay1_oas band 0
+START cache delay1_oas band 3
+DONE cache delay1_oas band 2
+START cache delay1_oas band 4
+DONE cache delay1_oas band 3
+START cache delay1_oas band 5
+DONE cache delay1_oas band 4
+START cache envelope_oas band 0
+DONE cache delay1_oas band 5
+START cache envelope_oas band 1
+DONE cache envelope_oas band 0
+START cache envelope_oas band 2
+DONE cache envelope_oas band 1
+START cache envelope_oas band 3
+DONE cache envelope_oas band 2
+START cache envelope_oas band 4
+DONE cache envelope_oas band 3
+START cache envelope_oas band 5
+DONE cache envelope_oas band 4
+DONE cache envelope_oas band 5
+All 18 exact matrix caches complete.

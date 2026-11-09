@@ -1,0 +1,50 @@
+          variant    model  loso_mean  loso_std  delta_original  delta_delay1  wins_vs_delay1    later     test  eligible
+     original_oas   logreg   0.469444  0.114333        0.000000     -0.041429               0 0.546962 0.454827      True
+     original_oas forest12   0.510785  0.132683        0.000000     -0.018537               2 0.613900      NaN      True
+     original_oas forest20   0.531430  0.149736        0.000000     -0.022440               2 0.668627 0.528622      True
+       delay1_oas   logreg   0.510873  0.122203        0.041429      0.000000               0 0.562415 0.469165      True
+       delay1_oas forest12   0.529321  0.125049        0.018537      0.000000               0 0.648801      NaN      True
+       delay1_oas forest20   0.553871  0.137630        0.022440      0.000000               0 0.693728 0.544350      True
+         lag4_oas   logreg   0.546365  0.111773        0.076921      0.035492               6 0.622720 0.464519      True
+         lag4_oas forest12   0.539681  0.126267        0.028896      0.010360               6 0.723579      NaN      True
+         lag4_oas forest20   0.562801  0.133246        0.031370      0.008930               5 0.723730 0.555407      True
+   stationary_oas   logreg   0.510873  0.122203        0.041429      0.000000               0 0.562415 0.469165      True
+   stationary_oas forest12   0.529321  0.125049        0.018537      0.000000               0 0.648801      NaN      True
+   stationary_oas forest20   0.555193  0.136590        0.023763      0.001323               3 0.693728 0.544350      True
+     pyramid2_oas   logreg   0.502314  0.120433        0.032870     -0.008559               3 0.612996 0.420298     False
+     pyramid2_oas forest12   0.605495  0.099567        0.094710      0.076174               8 0.703980      NaN     False
+     pyramid2_oas forest20   0.620296  0.110197        0.088865      0.066425               7 0.734509 0.481984     False
+   quadrature_oas   logreg   0.493939  0.124866        0.024495     -0.016934               2 0.547716 0.463323     False
+   quadrature_oas forest12   0.507863  0.129812       -0.002922     -0.021458               2 0.643751      NaN     False
+   quadrature_oas forest20   0.530906  0.134456       -0.000525     -0.022965               4 0.723805 0.536431     False
+path_integral_oas   logreg   0.467266  0.112757       -0.002178     -0.043607               0 0.511910 0.448192      True
+path_integral_oas forest12   0.501103  0.138996       -0.009682     -0.028218               1 0.608774      NaN      True
+path_integral_oas forest20   0.531734  0.144407        0.000304     -0.022136               1 0.668627 0.523288      True
+   signature2_oas   logreg   0.418086  0.093527       -0.051358     -0.092788               0 0.406453 0.364812      True
+   signature2_oas forest12   0.485168  0.115713       -0.025617     -0.044153               0 0.563244      NaN      True
+   signature2_oas forest20   0.499496  0.141233       -0.031934     -0.054374               0 0.633876 0.461485      True
+   pyramid2_mixed   logreg   0.502783  0.117557        0.033338     -0.008091               5 0.633198 0.460227      True
+   pyramid2_mixed forest12   0.612483  0.103990        0.101698      0.083162               8 0.719056      NaN      True
+   pyramid2_mixed forest20   0.610376  0.112563        0.078946      0.056506               6 0.774160 0.507398      True
+{
+  "new_jobs": 203,
+  "control_jobs": 58,
+  "officially_rescored_files": 261,
+  "all_scores_match_official_code": true,
+  "first_stage_verification": "verification.json",
+  "followup_verified_files": 29,
+  "selected_variant": "pyramid2_mixed",
+  "selection_frozen_before_all_new_test": true,
+  "all_previous_artifacts_unchanged": true,
+  "all_followup_near_null_coordinates_zero": true,
+  "min_followup_scaler_variance": 0.0015225235545871152,
+  "excluded_raw_variants": {
+    "pyramid2_oas": "400 mathematically null tangent coordinates amplified by source scaler; measured variance <=4.53e-27",
+    "quadrature_oas": "Complex structure forces null self-quadrature tangent coordinates; not eligible without numerical handling"
+  },
+  "same_physical_trees_and_window_order": true,
+  "source_baseline_unchanged": true,
+  "summary_rows": 27,
+  "fold_rows": 261
+}
+/Users/den1shh/Documents/diploma/reproduction/temporal_spd_research/FINAL_REPORT.md

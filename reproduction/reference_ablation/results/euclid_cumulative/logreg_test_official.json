@@ -1,0 +1,28 @@
+{
+  "variant": "euclid_cumulative",
+  "model": "logreg",
+  "protocol": "test",
+  "fold": "official",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P04",
+    "Dreyer2026Proteus/P09"
+  ],
+  "train_windows": 1521,
+  "eval_windows": 755,
+  "fit_seconds": 3.7195477499626577,
+  "total_seconds": 5.851615916006267,
+  "session_mean_delta_vs_control": -0.030812103122140777,
+  "reference_update": "M_t=(5*M0+sum_{i=1}^t R_i)/(5+t)",
+  "cell_mean": 0.425899919663824,
+  "session_mean": 0.4240148855865573,
+  "pooled": 0.4237296643140491,
+  "accuracy": 0.423841059602649
+}

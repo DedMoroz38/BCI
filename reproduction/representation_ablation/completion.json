@@ -1,0 +1,14 @@
+{
+  "completed_utc": "2026-10-29T09:24:52.783169+00:00",
+  "candidate_jobs": 87,
+  "control_jobs": 29,
+  "verified_prediction_files": 116,
+  "paired_loso_rows": 72,
+  "test_suite_passed": 65,
+  "matrix_sets": 18,
+  "positive_definite_matrices": 47790,
+  "final_job_resumed": "delay1_oas/forest20_test_official",
+  "test_log": "logs/final-tests.log",
+  "analysis_log": "logs/analysis.log",
+  "verification": "verification.json"
+}

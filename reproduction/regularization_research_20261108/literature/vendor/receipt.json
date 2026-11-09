@@ -1,0 +1,14 @@
+{
+  "swad.py": {
+    "url": "https://raw.githubusercontent.com/khanrc/swad/main/domainbed/swad.py",
+    "sha256": "26eacdcbe9eca598c01de896b4ffd0059fd47b4e63cd1293c9dd273431c34669"
+  },
+  "swa_utils.py": {
+    "url": "https://raw.githubusercontent.com/khanrc/swad/main/domainbed/lib/swa_utils.py",
+    "sha256": "bcbac5b4be1026aba8fda35560d8527ada8344ce5dbea02492d37f58c555ddb3"
+  },
+  "SWAD_LICENSE": {
+    "url": "https://raw.githubusercontent.com/khanrc/swad/main/LICENSE",
+    "sha256": "c8182e8413fdcacd34a4c913d2053c3248e4237fc5fda2bc4e1eaf4490dfce15"
+  }
+}

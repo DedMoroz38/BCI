@@ -1,0 +1,980 @@
+{"stream_name": "stderr", "time": 10.458970434, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 10.459018542, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 10.459023242, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 10.4590258, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 11.164596589, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 11.164629119, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 11.164634398, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 11.164638065, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 23.583395679, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 57.120436106, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.120465387, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.120472352, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120495016, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120500328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050519, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050984, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120514429, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12052995, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120848266, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120866197, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120871961, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120877077, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120882454, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120887949, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 57.306324643, "data": "Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.\n"}
+{"stream_name": "stderr", "time": 57.307462326, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307510956, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307517806, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307522276, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307526546, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307530163, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307533681, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307537155, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307540675, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307544018, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307547555, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307551107, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307554605, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30755808, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3075616, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307565057, "data": "\n"}
+{"stream_name": "stderr", "time": 57.307568236, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307573572, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307576991, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307582323, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307587328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307591308, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307595616, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307599231, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30760787, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3076112, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307614591, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307619096, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307622702, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307626645, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307630085, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 65.945768912, "data": "........                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 65.945882281, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 65.946221126, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 65.946245211, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 65.946252061, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 65.946256259, "data": "\n"}
+{"stream_name": "stdout", "time": 65.946259994, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 65.946425257, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stdout", "time": 66.144158773, "data": "..                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 66.144205197, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 66.144208942, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 66.144211577, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 66.144216863, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 66.144233468, "data": "\n"}
+{"stream_name": "stdout", "time": 66.144237188, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 66.144241161, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stderr", "time": 73.520272058, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.520315447, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.722734057, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722795379, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.72280094, "data": "\n"}
+{"stream_name": "stderr", "time": 73.722803324, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722805835, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 89.726805144, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 89.93105340299999, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 90.416143749, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 90.61859324, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 96.387854826, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 96.388715132, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.803407695, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.803482989, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.833022071, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.834276867, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 105.576652815, "data": "START loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 105.69903013, "data": "START loso_P02 1711 189\n"}
+{"stream_name": "stderr", "time": 10.458970434, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 10.459018542, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 10.459023242, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 10.4590258, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 11.164596589, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 11.164629119, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 11.164634398, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 11.164638065, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 23.583395679, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 57.120436106, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.120465387, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.120472352, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120495016, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120500328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050519, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050984, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120514429, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12052995, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120848266, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120866197, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120871961, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120877077, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120882454, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120887949, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 57.306324643, "data": "Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.\n"}
+{"stream_name": "stderr", "time": 57.307462326, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307510956, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307517806, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307522276, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307526546, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307530163, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307533681, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307537155, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307540675, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307544018, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307547555, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307551107, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307554605, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30755808, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3075616, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307565057, "data": "\n"}
+{"stream_name": "stderr", "time": 57.307568236, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307573572, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307576991, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307582323, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307587328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307591308, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307595616, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307599231, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30760787, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3076112, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307614591, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307619096, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307622702, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307626645, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307630085, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 65.945768912, "data": "........                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 65.945882281, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 65.946221126, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 65.946245211, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 65.946252061, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 65.946256259, "data": "\n"}
+{"stream_name": "stdout", "time": 65.946259994, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 65.946425257, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stdout", "time": 66.144158773, "data": "..                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 66.144205197, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 66.144208942, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 66.144211577, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 66.144216863, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 66.144233468, "data": "\n"}
+{"stream_name": "stdout", "time": 66.144237188, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 66.144241161, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stderr", "time": 73.520272058, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.520315447, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.722734057, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722795379, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.72280094, "data": "\n"}
+{"stream_name": "stderr", "time": 73.722803324, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722805835, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 89.726805144, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 89.93105340299999, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 90.416143749, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 90.61859324, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 96.387854826, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 96.388715132, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.803407695, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.803482989, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.833022071, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.834276867, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 105.576652815, "data": "START loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 105.69903013, "data": "START loso_P02 1711 189\n"}
+{"stream_name": "stderr", "time": 10.458970434, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 10.459018542, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 10.459023242, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 10.4590258, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 11.164596589, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 11.164629119, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 11.164634398, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 11.164638065, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 23.583395679, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 57.120436106, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.120465387, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.120472352, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120495016, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120500328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050519, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050984, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120514429, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12052995, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120848266, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120866197, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120871961, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120877077, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120882454, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120887949, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 57.306324643, "data": "Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.\n"}
+{"stream_name": "stderr", "time": 57.307462326, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307510956, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307517806, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307522276, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307526546, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307530163, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307533681, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307537155, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307540675, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307544018, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307547555, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307551107, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307554605, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30755808, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3075616, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307565057, "data": "\n"}
+{"stream_name": "stderr", "time": 57.307568236, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307573572, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307576991, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307582323, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307587328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307591308, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307595616, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307599231, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30760787, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3076112, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307614591, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307619096, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307622702, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307626645, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307630085, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 65.945768912, "data": "........                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 65.945882281, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 65.946221126, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 65.946245211, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 65.946252061, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 65.946256259, "data": "\n"}
+{"stream_name": "stdout", "time": 65.946259994, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 65.946425257, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stdout", "time": 66.144158773, "data": "..                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 66.144205197, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 66.144208942, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 66.144211577, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 66.144216863, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 66.144233468, "data": "\n"}
+{"stream_name": "stdout", "time": 66.144237188, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 66.144241161, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stderr", "time": 73.520272058, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.520315447, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.722734057, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722795379, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.72280094, "data": "\n"}
+{"stream_name": "stderr", "time": 73.722803324, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722805835, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 89.726805144, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 89.93105340299999, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 90.416143749, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 90.61859324, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 96.387854826, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 96.388715132, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.803407695, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.803482989, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.833022071, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.834276867, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 105.576652815, "data": "START loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 105.69903013, "data": "START loso_P02 1711 189\n"}
+{"stream_name": "stderr", "time": 10.458970434, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 10.459018542, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 10.459023242, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 10.4590258, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 11.164596589, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 11.164629119, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 11.164634398, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 11.164638065, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 23.583395679, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 57.120436106, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.120465387, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.120472352, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120495016, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120500328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050519, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050984, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120514429, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12052995, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120848266, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120866197, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120871961, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120877077, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120882454, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120887949, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 57.306324643, "data": "Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.\n"}
+{"stream_name": "stderr", "time": 57.307462326, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307510956, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307517806, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307522276, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307526546, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307530163, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307533681, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307537155, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307540675, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307544018, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307547555, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307551107, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307554605, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30755808, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3075616, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307565057, "data": "\n"}
+{"stream_name": "stderr", "time": 57.307568236, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307573572, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307576991, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307582323, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307587328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307591308, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307595616, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307599231, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30760787, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3076112, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307614591, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307619096, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307622702, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307626645, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307630085, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 65.945768912, "data": "........                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 65.945882281, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 65.946221126, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 65.946245211, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 65.946252061, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 65.946256259, "data": "\n"}
+{"stream_name": "stdout", "time": 65.946259994, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 65.946425257, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stdout", "time": 66.144158773, "data": "..                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 66.144205197, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 66.144208942, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 66.144211577, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 66.144216863, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 66.144233468, "data": "\n"}
+{"stream_name": "stdout", "time": 66.144237188, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 66.144241161, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stderr", "time": 73.520272058, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.520315447, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.722734057, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722795379, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.72280094, "data": "\n"}
+{"stream_name": "stderr", "time": 73.722803324, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722805835, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 89.726805144, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 89.93105340299999, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 90.416143749, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 90.61859324, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 96.387854826, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 96.388715132, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.803407695, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.803482989, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.833022071, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.834276867, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 105.576652815, "data": "START loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 105.69903013, "data": "START loso_P02 1711 189\n"}
+{"stream_name": "stderr", "time": 10.458970434, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 10.459018542, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 10.459023242, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 10.4590258, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 11.164596589, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 11.164629119, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 11.164634398, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 11.164638065, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 23.583395679, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 57.120436106, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.120465387, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.120472352, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120495016, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120500328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050519, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050984, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120514429, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12052995, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120848266, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120866197, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120871961, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120877077, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120882454, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120887949, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 57.306324643, "data": "Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.\n"}
+{"stream_name": "stderr", "time": 57.307462326, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307510956, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307517806, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307522276, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307526546, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307530163, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307533681, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307537155, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307540675, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307544018, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307547555, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307551107, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307554605, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30755808, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3075616, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307565057, "data": "\n"}
+{"stream_name": "stderr", "time": 57.307568236, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307573572, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307576991, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307582323, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307587328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307591308, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307595616, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307599231, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30760787, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3076112, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307614591, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307619096, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307622702, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307626645, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307630085, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 65.945768912, "data": "........                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 65.945882281, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 65.946221126, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 65.946245211, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 65.946252061, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 65.946256259, "data": "\n"}
+{"stream_name": "stdout", "time": 65.946259994, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 65.946425257, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stdout", "time": 66.144158773, "data": "..                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 66.144205197, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 66.144208942, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 66.144211577, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 66.144216863, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 66.144233468, "data": "\n"}
+{"stream_name": "stdout", "time": 66.144237188, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 66.144241161, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stderr", "time": 73.520272058, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.520315447, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.722734057, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722795379, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.72280094, "data": "\n"}
+{"stream_name": "stderr", "time": 73.722803324, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722805835, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 89.726805144, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 89.93105340299999, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 90.416143749, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 90.61859324, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 96.387854826, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 96.388715132, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.803407695, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.803482989, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.833022071, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.834276867, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 105.576652815, "data": "START loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 105.69903013, "data": "START loso_P02 1711 189\n"}
+{"stream_name": "stderr", "time": 10.458970434, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 10.459018542, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 10.459023242, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 10.4590258, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 11.164596589, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 11.164629119, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 11.164634398, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 11.164638065, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 23.583395679, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 57.120436106, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.120465387, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.120472352, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120495016, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120500328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050519, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050984, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120514429, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12052995, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120848266, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120866197, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120871961, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120877077, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120882454, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120887949, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 57.306324643, "data": "Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.\n"}
+{"stream_name": "stderr", "time": 57.307462326, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307510956, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307517806, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307522276, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307526546, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307530163, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307533681, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307537155, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307540675, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307544018, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307547555, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307551107, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307554605, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30755808, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3075616, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307565057, "data": "\n"}
+{"stream_name": "stderr", "time": 57.307568236, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307573572, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307576991, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307582323, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307587328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307591308, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307595616, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307599231, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30760787, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3076112, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307614591, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307619096, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307622702, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307626645, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307630085, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 65.945768912, "data": "........                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 65.945882281, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 65.946221126, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 65.946245211, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 65.946252061, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 65.946256259, "data": "\n"}
+{"stream_name": "stdout", "time": 65.946259994, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 65.946425257, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stdout", "time": 66.144158773, "data": "..                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 66.144205197, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 66.144208942, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 66.144211577, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 66.144216863, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 66.144233468, "data": "\n"}
+{"stream_name": "stdout", "time": 66.144237188, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 66.144241161, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stderr", "time": 73.520272058, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.520315447, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.722734057, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722795379, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.72280094, "data": "\n"}
+{"stream_name": "stderr", "time": 73.722803324, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722805835, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 89.726805144, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 89.93105340299999, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 90.416143749, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 90.61859324, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 96.387854826, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 96.388715132, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.803407695, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.803482989, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.833022071, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.834276867, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 105.576652815, "data": "START loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 105.69903013, "data": "START loso_P02 1711 189\n"}
+{"stream_name": "stdout", "time": 493.622389049, "data": "router: impostor ratios [0.78 0.82 0.85 0.87 0.88 0.93 0.95 0.99 1.  ], genuine [0.71 0.8  0.82] -> threshold 0.838\n"}
+{"stream_name": "stdout", "time": 493.914534643, "data": "router: impostor ratios [0.78 0.79 0.82 0.85 0.88 0.93 0.95 0.99 1.  ], genuine [0.71 0.8  0.82] -> threshold 0.838\n"}
+{"stream_name": "stdout", "time": 504.602523044, "data": "DONE loso_P01 forest cell 0.5262096774193548 session 0.5262070105820106\n"}
+{"stream_name": "stdout", "time": 504.789270496, "data": "DONE loso_P02 forest cell 0.5918570788530466 session 0.5913445127154805\n"}
+{"stream_name": "stdout", "time": 515.487079001, "data": "DONE loso_P02 +balance cell 0.6031586021505376 session 0.6019398574842123\n"}
+{"stream_name": "stdout", "time": 515.559062992, "data": "DONE loso_P01 +balance cell 0.4899193548387097 session 0.48933531746031744\n"}
+{"stream_name": "stdout", "time": 527.836300703, "data": "DONE loso_P01 +bands cell 0.6001344086021506 session 0.5997023809523809\n"}
+{"stream_name": "stdout", "time": 527.892807618, "data": "DONE loso_P02 +bands cell 0.5710237455197134 session 0.5703458354668033\n"}
+{"stream_name": "stdout", "time": 549.990094861, "data": "DONE loso_P01 +routing cell 0.4679099462365591 session 0.46750992063492064\n"}
+{"stream_name": "stdout", "time": 550.474347388, "data": "DONE loso_P02 +routing cell 0.6022737455197132 session 0.6020118620925072\n"}
+{"stream_name": "stdout", "time": 573.876631165, "data": "DONE loso_P02 all but deep cell 0.5608422939068101 session 0.5597851595835467\n"}
+{"stream_name": "stdout", "time": 573.877402323, "data": "DEEP START loso_P02 100 epochs CUDA\n"}
+{"stream_name": "stdout", "time": 574.027925522, "data": "DONE loso_P01 all but deep cell 0.5638440860215054 session 0.5631613756613757\n"}
+{"stream_name": "stdout", "time": 574.029572846, "data": "DEEP START loso_P01 100 epochs CUDA\n"}
+{"stream_name": "stderr", "time": 10.458970434, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 10.459018542, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 10.459023242, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 10.4590258, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 11.164596589, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 11.164629119, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 11.164634398, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 11.164638065, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 23.583395679, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 57.120436106, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.120465387, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.120472352, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120495016, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120500328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050519, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050984, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120514429, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12052995, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120848266, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120866197, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120871961, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120877077, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120882454, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120887949, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 57.306324643, "data": "Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.\n"}
+{"stream_name": "stderr", "time": 57.307462326, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307510956, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307517806, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307522276, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307526546, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307530163, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307533681, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307537155, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307540675, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307544018, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307547555, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307551107, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307554605, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30755808, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3075616, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307565057, "data": "\n"}
+{"stream_name": "stderr", "time": 57.307568236, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307573572, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307576991, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307582323, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307587328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307591308, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307595616, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307599231, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30760787, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3076112, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307614591, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307619096, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307622702, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307626645, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307630085, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 65.945768912, "data": "........                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 65.945882281, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 65.946221126, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 65.946245211, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 65.946252061, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 65.946256259, "data": "\n"}
+{"stream_name": "stdout", "time": 65.946259994, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 65.946425257, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stdout", "time": 66.144158773, "data": "..                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 66.144205197, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 66.144208942, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 66.144211577, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 66.144216863, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 66.144233468, "data": "\n"}
+{"stream_name": "stdout", "time": 66.144237188, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 66.144241161, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stderr", "time": 73.520272058, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.520315447, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.722734057, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722795379, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.72280094, "data": "\n"}
+{"stream_name": "stderr", "time": 73.722803324, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722805835, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 89.726805144, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 89.93105340299999, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 90.416143749, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 90.61859324, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 96.387854826, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 96.388715132, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.803407695, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.803482989, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.833022071, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.834276867, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 105.576652815, "data": "START loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 105.69903013, "data": "START loso_P02 1711 189\n"}
+{"stream_name": "stdout", "time": 493.622389049, "data": "router: impostor ratios [0.78 0.82 0.85 0.87 0.88 0.93 0.95 0.99 1.  ], genuine [0.71 0.8  0.82] -> threshold 0.838\n"}
+{"stream_name": "stdout", "time": 493.914534643, "data": "router: impostor ratios [0.78 0.79 0.82 0.85 0.88 0.93 0.95 0.99 1.  ], genuine [0.71 0.8  0.82] -> threshold 0.838\n"}
+{"stream_name": "stdout", "time": 504.602523044, "data": "DONE loso_P01 forest cell 0.5262096774193548 session 0.5262070105820106\n"}
+{"stream_name": "stdout", "time": 504.789270496, "data": "DONE loso_P02 forest cell 0.5918570788530466 session 0.5913445127154805\n"}
+{"stream_name": "stdout", "time": 515.487079001, "data": "DONE loso_P02 +balance cell 0.6031586021505376 session 0.6019398574842123\n"}
+{"stream_name": "stdout", "time": 515.559062992, "data": "DONE loso_P01 +balance cell 0.4899193548387097 session 0.48933531746031744\n"}
+{"stream_name": "stdout", "time": 527.836300703, "data": "DONE loso_P01 +bands cell 0.6001344086021506 session 0.5997023809523809\n"}
+{"stream_name": "stdout", "time": 527.892807618, "data": "DONE loso_P02 +bands cell 0.5710237455197134 session 0.5703458354668033\n"}
+{"stream_name": "stdout", "time": 549.990094861, "data": "DONE loso_P01 +routing cell 0.4679099462365591 session 0.46750992063492064\n"}
+{"stream_name": "stdout", "time": 550.474347388, "data": "DONE loso_P02 +routing cell 0.6022737455197132 session 0.6020118620925072\n"}
+{"stream_name": "stdout", "time": 573.876631165, "data": "DONE loso_P02 all but deep cell 0.5608422939068101 session 0.5597851595835467\n"}
+{"stream_name": "stdout", "time": 573.877402323, "data": "DEEP START loso_P02 100 epochs CUDA\n"}
+{"stream_name": "stdout", "time": 574.027925522, "data": "DONE loso_P01 all but deep cell 0.5638440860215054 session 0.5631613756613757\n"}
+{"stream_name": "stdout", "time": 574.029572846, "data": "DEEP START loso_P01 100 epochs CUDA\n"}
+{"stream_name": "stderr", "time": 10.458970434, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 10.459018542, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 10.459023242, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 10.4590258, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 11.164596589, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 11.164629119, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 11.164634398, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 11.164638065, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 23.583395679, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 57.120436106, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.120465387, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.120472352, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120495016, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120500328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050519, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050984, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120514429, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12052995, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120848266, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120866197, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120871961, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120877077, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120882454, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120887949, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 57.306324643, "data": "Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.\n"}
+{"stream_name": "stderr", "time": 57.307462326, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307510956, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307517806, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307522276, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307526546, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307530163, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307533681, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307537155, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307540675, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307544018, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307547555, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307551107, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307554605, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30755808, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3075616, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307565057, "data": "\n"}
+{"stream_name": "stderr", "time": 57.307568236, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307573572, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307576991, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307582323, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307587328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307591308, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307595616, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307599231, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30760787, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3076112, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307614591, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307619096, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307622702, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307626645, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307630085, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 65.945768912, "data": "........                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 65.945882281, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 65.946221126, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 65.946245211, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 65.946252061, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 65.946256259, "data": "\n"}
+{"stream_name": "stdout", "time": 65.946259994, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 65.946425257, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stdout", "time": 66.144158773, "data": "..                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 66.144205197, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 66.144208942, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 66.144211577, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 66.144216863, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 66.144233468, "data": "\n"}
+{"stream_name": "stdout", "time": 66.144237188, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 66.144241161, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stderr", "time": 73.520272058, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.520315447, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.722734057, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722795379, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.72280094, "data": "\n"}
+{"stream_name": "stderr", "time": 73.722803324, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722805835, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 89.726805144, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 89.93105340299999, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 90.416143749, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 90.61859324, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 96.387854826, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 96.388715132, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.803407695, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.803482989, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.833022071, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.834276867, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 105.576652815, "data": "START loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 105.69903013, "data": "START loso_P02 1711 189\n"}
+{"stream_name": "stdout", "time": 493.622389049, "data": "router: impostor ratios [0.78 0.82 0.85 0.87 0.88 0.93 0.95 0.99 1.  ], genuine [0.71 0.8  0.82] -> threshold 0.838\n"}
+{"stream_name": "stdout", "time": 493.914534643, "data": "router: impostor ratios [0.78 0.79 0.82 0.85 0.88 0.93 0.95 0.99 1.  ], genuine [0.71 0.8  0.82] -> threshold 0.838\n"}
+{"stream_name": "stdout", "time": 504.602523044, "data": "DONE loso_P01 forest cell 0.5262096774193548 session 0.5262070105820106\n"}
+{"stream_name": "stdout", "time": 504.789270496, "data": "DONE loso_P02 forest cell 0.5918570788530466 session 0.5913445127154805\n"}
+{"stream_name": "stdout", "time": 515.487079001, "data": "DONE loso_P02 +balance cell 0.6031586021505376 session 0.6019398574842123\n"}
+{"stream_name": "stdout", "time": 515.559062992, "data": "DONE loso_P01 +balance cell 0.4899193548387097 session 0.48933531746031744\n"}
+{"stream_name": "stdout", "time": 527.836300703, "data": "DONE loso_P01 +bands cell 0.6001344086021506 session 0.5997023809523809\n"}
+{"stream_name": "stdout", "time": 527.892807618, "data": "DONE loso_P02 +bands cell 0.5710237455197134 session 0.5703458354668033\n"}
+{"stream_name": "stdout", "time": 549.990094861, "data": "DONE loso_P01 +routing cell 0.4679099462365591 session 0.46750992063492064\n"}
+{"stream_name": "stdout", "time": 550.474347388, "data": "DONE loso_P02 +routing cell 0.6022737455197132 session 0.6020118620925072\n"}
+{"stream_name": "stdout", "time": 573.876631165, "data": "DONE loso_P02 all but deep cell 0.5608422939068101 session 0.5597851595835467\n"}
+{"stream_name": "stdout", "time": 573.877402323, "data": "DEEP START loso_P02 100 epochs CUDA\n"}
+{"stream_name": "stdout", "time": 574.027925522, "data": "DONE loso_P01 all but deep cell 0.5638440860215054 session 0.5631613756613757\n"}
+{"stream_name": "stdout", "time": 574.029572846, "data": "DEEP START loso_P01 100 epochs CUDA\n"}
+{"stream_name": "stderr", "time": 10.458970434, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 10.459018542, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 10.459023242, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 10.4590258, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 11.164596589, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 11.164629119, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 11.164634398, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 11.164638065, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 23.583395679, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 57.120436106, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.120465387, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.120472352, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120495016, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120500328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050519, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050984, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120514429, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12052995, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120848266, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120866197, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120871961, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120877077, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120882454, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120887949, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 57.306324643, "data": "Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.\n"}
+{"stream_name": "stderr", "time": 57.307462326, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307510956, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307517806, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307522276, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307526546, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307530163, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307533681, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307537155, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307540675, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307544018, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307547555, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307551107, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307554605, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30755808, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3075616, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307565057, "data": "\n"}
+{"stream_name": "stderr", "time": 57.307568236, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307573572, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307576991, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307582323, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307587328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307591308, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307595616, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307599231, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30760787, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3076112, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307614591, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307619096, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307622702, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307626645, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307630085, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 65.945768912, "data": "........                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 65.945882281, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 65.946221126, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 65.946245211, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 65.946252061, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 65.946256259, "data": "\n"}
+{"stream_name": "stdout", "time": 65.946259994, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 65.946425257, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stdout", "time": 66.144158773, "data": "..                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 66.144205197, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 66.144208942, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 66.144211577, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 66.144216863, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 66.144233468, "data": "\n"}
+{"stream_name": "stdout", "time": 66.144237188, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 66.144241161, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stderr", "time": 73.520272058, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.520315447, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.722734057, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722795379, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.72280094, "data": "\n"}
+{"stream_name": "stderr", "time": 73.722803324, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722805835, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 89.726805144, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 89.93105340299999, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 90.416143749, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 90.61859324, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 96.387854826, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 96.388715132, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.803407695, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.803482989, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.833022071, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.834276867, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 105.576652815, "data": "START loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 105.69903013, "data": "START loso_P02 1711 189\n"}
+{"stream_name": "stdout", "time": 493.622389049, "data": "router: impostor ratios [0.78 0.82 0.85 0.87 0.88 0.93 0.95 0.99 1.  ], genuine [0.71 0.8  0.82] -> threshold 0.838\n"}
+{"stream_name": "stdout", "time": 493.914534643, "data": "router: impostor ratios [0.78 0.79 0.82 0.85 0.88 0.93 0.95 0.99 1.  ], genuine [0.71 0.8  0.82] -> threshold 0.838\n"}
+{"stream_name": "stdout", "time": 504.602523044, "data": "DONE loso_P01 forest cell 0.5262096774193548 session 0.5262070105820106\n"}
+{"stream_name": "stdout", "time": 504.789270496, "data": "DONE loso_P02 forest cell 0.5918570788530466 session 0.5913445127154805\n"}
+{"stream_name": "stdout", "time": 515.487079001, "data": "DONE loso_P02 +balance cell 0.6031586021505376 session 0.6019398574842123\n"}
+{"stream_name": "stdout", "time": 515.559062992, "data": "DONE loso_P01 +balance cell 0.4899193548387097 session 0.48933531746031744\n"}
+{"stream_name": "stdout", "time": 527.836300703, "data": "DONE loso_P01 +bands cell 0.6001344086021506 session 0.5997023809523809\n"}
+{"stream_name": "stdout", "time": 527.892807618, "data": "DONE loso_P02 +bands cell 0.5710237455197134 session 0.5703458354668033\n"}
+{"stream_name": "stdout", "time": 549.990094861, "data": "DONE loso_P01 +routing cell 0.4679099462365591 session 0.46750992063492064\n"}
+{"stream_name": "stdout", "time": 550.474347388, "data": "DONE loso_P02 +routing cell 0.6022737455197132 session 0.6020118620925072\n"}
+{"stream_name": "stdout", "time": 573.876631165, "data": "DONE loso_P02 all but deep cell 0.5608422939068101 session 0.5597851595835467\n"}
+{"stream_name": "stdout", "time": 573.877402323, "data": "DEEP START loso_P02 100 epochs CUDA\n"}
+{"stream_name": "stdout", "time": 574.027925522, "data": "DONE loso_P01 all but deep cell 0.5638440860215054 session 0.5631613756613757\n"}
+{"stream_name": "stdout", "time": 574.029572846, "data": "DEEP START loso_P01 100 epochs CUDA\n"}
+{"stream_name": "stderr", "time": 10.458970434, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 10.459018542, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 10.459023242, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 10.4590258, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stderr", "time": 11.164596589, "data": "0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+{"stream_name": "stderr", "time": 11.164629119, "data": "0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+{"stream_name": "stderr", "time": 11.164634398, "data": "0.00s - to python to disable frozen modules.\n"}
+{"stream_name": "stderr", "time": 11.164638065, "data": "0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+{"stream_name": "stdout", "time": 23.583395679, "data": "GPU Tesla T4\n"}
+{"stream_name": "stderr", "time": 57.120436106, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.120465387, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.120472352, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120495016, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120500328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050519, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12050984, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120514429, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.12052995, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120848266, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120866197, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120871961, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120877077, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120882454, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.120887949, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 57.306324643, "data": "Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.\n"}
+{"stream_name": "stderr", "time": 57.307462326, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307510956, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307517806, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307522276, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307526546, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307530163, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307533681, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307537155, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307540675, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307544018, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307547555, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307551107, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307554605, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30755808, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3075616, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307565057, "data": "\n"}
+{"stream_name": "stderr", "time": 57.307568236, "data": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+{"stream_name": "stderr", "time": 57.307573572, "data": "bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.\n"}
+{"stream_name": "stderr", "time": 57.307576991, "data": "ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307582323, "data": "ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307587328, "data": "ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307591308, "data": "google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307595616, "data": "google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307599231, "data": "google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.30760787, "data": "dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.3076112, "data": "moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307614591, "data": "dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307619096, "data": "cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307622702, "data": "ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307626645, "data": "numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+{"stream_name": "stderr", "time": 57.307630085, "data": "gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+{"stream_name": "stdout", "time": 65.945768912, "data": "........                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 65.945882281, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 65.946221126, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 65.946245211, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 65.946252061, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 65.946256259, "data": "\n"}
+{"stream_name": "stdout", "time": 65.946259994, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 65.946425257, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stdout", "time": 66.144158773, "data": "..                                                                    [100%]\n"}
+{"stream_name": "stdout", "time": 66.144205197, "data": "=============================== warnings summary ===============================\n"}
+{"stream_name": "stdout", "time": 66.144208942, "data": "../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+{"stream_name": "stdout", "time": 66.144211577, "data": "  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 66.144216863, "data": "    from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 66.144233468, "data": "\n"}
+{"stream_name": "stdout", "time": 66.144237188, "data": "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+{"stream_name": "stdout", "time": 66.144241161, "data": "5 passed, 1 warning in 6.65s\n"}
+{"stream_name": "stderr", "time": 73.520272058, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.520315447, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.722734057, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722795379, "data": "  from pandas.core import (\n"}
+{"stream_name": "stderr", "time": 73.72280094, "data": "\n"}
+{"stream_name": "stderr", "time": 73.722803324, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stderr", "time": 73.722805835, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 89.726805144, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 89.93105340299999, "data": "deep seed 0: final training loss 1.136\n"}
+{"stream_name": "stdout", "time": 90.416143749, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 90.61859324, "data": "CUDA training and saved model replay passed\n"}
+{"stream_name": "stdout", "time": 96.387854826, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 96.388715132, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.803407695, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.803482989, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 103.833022071, "data": "/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+{"stream_name": "stdout", "time": 103.834276867, "data": "  from pandas.core import (\n"}
+{"stream_name": "stdout", "time": 105.576652815, "data": "START loso_P01 1710 190\n"}
+{"stream_name": "stdout", "time": 105.69903013, "data": "START loso_P02 1711 189\n"}
+{"stream_name": "stdout", "time": 493.622389049, "data": "router: impostor ratios [0.78 0.82 0.85 0.87 0.88 0.93 0.95 0.99 1.  ], genuine [0.71 0.8  0.82] -> threshold 0.838\n"}
+{"stream_name": "stdout", "time": 493.914534643, "data": "router: impostor ratios [0.78 0.79 0.82 0.85 0.88 0.93 0.95 0.99 1.  ], genuine [0.71 0.8  0.82] -> threshold 0.838\n"}
+{"stream_name": "stdout", "time": 504.602523044, "data": "DONE loso_P01 forest cell 0.5262096774193548 session 0.5262070105820106\n"}
+{"stream_name": "stdout", "time": 504.789270496, "data": "DONE loso_P02 forest cell 0.5918570788530466 session 0.5913445127154805\n"}
+{"stream_name": "stdout", "time": 515.487079001, "data": "DONE loso_P02 +balance cell 0.6031586021505376 session 0.6019398574842123\n"}
+{"stream_name": "stdout", "time": 515.559062992, "data": "DONE loso_P01 +balance cell 0.4899193548387097 session 0.48933531746031744\n"}
+{"stream_name": "stdout", "time": 527.836300703, "data": "DONE loso_P01 +bands cell 0.6001344086021506 session 0.5997023809523809\n"}
+{"stream_name": "stdout", "time": 527.892807618, "data": "DONE loso_P02 +bands cell 0.5710237455197134 session 0.5703458354668033\n"}
+{"stream_name": "stdout", "time": 549.990094861, "data": "DONE loso_P01 +routing cell 0.4679099462365591 session 0.46750992063492064\n"}
+{"stream_name": "stdout", "time": 550.474347388, "data": "DONE loso_P02 +routing cell 0.6022737455197132 session 0.6020118620925072\n"}
+{"stream_name": "stdout", "time": 573.876631165, "data": "DONE loso_P02 all but deep cell 0.5608422939068101 session 0.5597851595835467\n"}
+{"stream_name": "stdout", "time": 573.877402323, "data": "DEEP START loso_P02 100 epochs CUDA\n"}
+{"stream_name": "stdout", "time": 574.027925522, "data": "DONE loso_P01 all but deep cell 0.5638440860215054 session 0.5631613756613757\n"}
+{"stream_name": "stdout", "time": 574.029572846, "data": "DEEP START loso_P01 100 epochs CUDA\n"}

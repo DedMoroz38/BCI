@@ -1,0 +1,10 @@
+{
+  "TSMNet": {
+    "url": "https://github.com/rkobler/TSMNet",
+    "commit": "90293b9d2982fa06a3030340d24d287155fd5a89"
+  },
+  "minirocket": {
+    "url": "https://github.com/angus924/minirocket",
+    "commit": "0b1c245d9c9dbc50886f28bc7b32d5d45b5663d6"
+  }
+}

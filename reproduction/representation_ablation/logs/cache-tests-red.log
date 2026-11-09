@@ -1,0 +1,93 @@
+FFFFFFF                                                                  [100%]
+=================================== FAILURES ===================================
+_ test_cached_lookup_matches_live_order_and_rejects_unknown_window[delay1_oas] _
+
+tmp_path = PosixPath('/private/var/folders/sg/qv2t2v2n6rv2lb0bxf8d_l680000gn/T/pytest-of-den1shh/pytest-9/test_cached_lookup_matches_liv0')
+representation = 'delay1_oas'
+
+    @pytest.mark.parametrize('representation',['delay1_oas','hsic_rbf','envelope_oas'])
+    def test_cached_lookup_matches_live_order_and_rejects_unknown_window(tmp_path,representation):
+>       assert MatrixCache is not None, 'Exact matrix cache implementation is missing'
+E       AssertionError: Exact matrix cache implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_matrix_cache.py:15: AssertionError
+__ test_cached_lookup_matches_live_order_and_rejects_unknown_window[hsic_rbf] __
+
+tmp_path = PosixPath('/private/var/folders/sg/qv2t2v2n6rv2lb0bxf8d_l680000gn/T/pytest-of-den1shh/pytest-9/test_cached_lookup_matches_liv1')
+representation = 'hsic_rbf'
+
+    @pytest.mark.parametrize('representation',['delay1_oas','hsic_rbf','envelope_oas'])
+    def test_cached_lookup_matches_live_order_and_rejects_unknown_window(tmp_path,representation):
+>       assert MatrixCache is not None, 'Exact matrix cache implementation is missing'
+E       AssertionError: Exact matrix cache implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_matrix_cache.py:15: AssertionError
+_ test_cached_lookup_matches_live_order_and_rejects_unknown_window[envelope_oas] _
+
+tmp_path = PosixPath('/private/var/folders/sg/qv2t2v2n6rv2lb0bxf8d_l680000gn/T/pytest-of-den1shh/pytest-9/test_cached_lookup_matches_liv2')
+representation = 'envelope_oas'
+
+    @pytest.mark.parametrize('representation',['delay1_oas','hsic_rbf','envelope_oas'])
+    def test_cached_lookup_matches_live_order_and_rejects_unknown_window(tmp_path,representation):
+>       assert MatrixCache is not None, 'Exact matrix cache implementation is missing'
+E       AssertionError: Exact matrix cache implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_matrix_cache.py:15: AssertionError
+_____ test_cache_resume_preserves_finished_matrix_and_detects_input_change _____
+
+tmp_path = PosixPath('/private/var/folders/sg/qv2t2v2n6rv2lb0bxf8d_l680000gn/T/pytest-of-den1shh/pytest-9/test_cache_resume_preserves_fi0')
+
+    def test_cache_resume_preserves_finished_matrix_and_detects_input_change(tmp_path):
+>       assert MatrixCache is not None, 'Exact matrix cache implementation is missing'
+E       AssertionError: Exact matrix cache implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_matrix_cache.py:30: AssertionError
+___ test_full_model_cached_and_live_training_and_streaming_match[delay1_oas] ___
+
+tmp_path = PosixPath('/private/var/folders/sg/qv2t2v2n6rv2lb0bxf8d_l680000gn/T/pytest-of-den1shh/pytest-9/test_full_model_cached_and_liv0')
+representation = 'delay1_oas'
+
+    @pytest.mark.parametrize('representation',['delay1_oas','hsic_rbf','envelope_oas'])
+    def test_full_model_cached_and_live_training_and_streaming_match(tmp_path,representation):
+>       assert MatrixCache is not None, 'Exact matrix cache implementation is missing'
+E       AssertionError: Exact matrix cache implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_matrix_cache.py:41: AssertionError
+____ test_full_model_cached_and_live_training_and_streaming_match[hsic_rbf] ____
+
+tmp_path = PosixPath('/private/var/folders/sg/qv2t2v2n6rv2lb0bxf8d_l680000gn/T/pytest-of-den1shh/pytest-9/test_full_model_cached_and_liv1')
+representation = 'hsic_rbf'
+
+    @pytest.mark.parametrize('representation',['delay1_oas','hsic_rbf','envelope_oas'])
+    def test_full_model_cached_and_live_training_and_streaming_match(tmp_path,representation):
+>       assert MatrixCache is not None, 'Exact matrix cache implementation is missing'
+E       AssertionError: Exact matrix cache implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_matrix_cache.py:41: AssertionError
+__ test_full_model_cached_and_live_training_and_streaming_match[envelope_oas] __
+
+tmp_path = PosixPath('/private/var/folders/sg/qv2t2v2n6rv2lb0bxf8d_l680000gn/T/pytest-of-den1shh/pytest-9/test_full_model_cached_and_liv2')
+representation = 'envelope_oas'
+
+    @pytest.mark.parametrize('representation',['delay1_oas','hsic_rbf','envelope_oas'])
+    def test_full_model_cached_and_live_training_and_streaming_match(tmp_path,representation):
+>       assert MatrixCache is not None, 'Exact matrix cache implementation is missing'
+E       AssertionError: Exact matrix cache implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_matrix_cache.py:41: AssertionError
+=========================== short test summary info ============================
+FAILED reproduction/representation_ablation/test_matrix_cache.py::test_cached_lookup_matches_live_order_and_rejects_unknown_window[delay1_oas]
+FAILED reproduction/representation_ablation/test_matrix_cache.py::test_cached_lookup_matches_live_order_and_rejects_unknown_window[hsic_rbf]
+FAILED reproduction/representation_ablation/test_matrix_cache.py::test_cached_lookup_matches_live_order_and_rejects_unknown_window[envelope_oas]
+FAILED reproduction/representation_ablation/test_matrix_cache.py::test_cache_resume_preserves_finished_matrix_and_detects_input_change
+FAILED reproduction/representation_ablation/test_matrix_cache.py::test_full_model_cached_and_live_training_and_streaming_match[delay1_oas]
+FAILED reproduction/representation_ablation/test_matrix_cache.py::test_full_model_cached_and_live_training_and_streaming_match[hsic_rbf]
+FAILED reproduction/representation_ablation/test_matrix_cache.py::test_full_model_cached_and_live_training_and_streaming_match[envelope_oas]
+7 failed in 0.04s

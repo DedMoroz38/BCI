@@ -1,0 +1,18 @@
+{
+  "id": "den1shh/proteus-regularization-wave2",
+  "title": "PROTEUS Regularization Wave2",
+  "code_file": "regularization.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "den1shh/proteus-lag4-classifier-inputs",
+    "den1shh/proteus-lag4-classifier-source"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

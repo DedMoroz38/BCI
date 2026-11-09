@@ -1,0 +1,12 @@
+{
+  "variant": "balance10",
+  "tag": "later_last",
+  "manifest": "7c10219a68b40adcadce4abc7837de39ea2bd31a3cca4d07e4e31c8bae2ac884",
+  "prediction_sha256": "ff9368c472d0ff625aa02e6b12d3079d6a5cd97bb62fb4bcaa3042b40c645b75",
+  "cell_mean": 0.7815038515406163,
+  "session_mean": 0.7837328508970302,
+  "pooled": 0.7837328508970302,
+  "accuracy": 0.7839195979899497,
+  "log_loss": 0.8769496408843512,
+  "brier": 0.5162543456686091
+}

@@ -1,0 +1,85 @@
+{
+  "status": "reconstruction, original synthetic source/seeds unavailable",
+  "h": 16,
+  "train": 400,
+  "test": 2000,
+  "C_correlation_variance": 0.001,
+  "correlation": {
+    "m": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16
+    ],
+    "tasks": 5,
+    "trees": 50
+  },
+  "variance": {
+    "m": [
+      4,
+      8,
+      12
+    ],
+    "trees_pool": 200,
+    "sigma": 0.15,
+    "K": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      12,
+      20,
+      30,
+      50
+    ],
+    "ensemble_resamples": 200
+  },
+  "equivalence": {
+    "tasks": 3,
+    "trees": 200,
+    "m": 8,
+    "C": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ]
+  },
+  "power": {
+    "tasks": 10,
+    "trees": 50,
+    "sigma": 0.1,
+    "train": 60,
+    "test": 2000,
+    "m": [
+      4,
+      8,
+      12
+    ],
+    "C": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ]
+  },
+  "unspecified_choices": [
+    "Balanced, shuffled labels; Gaussian direction normalized to unit norm",
+    "Equal-modulus direction has seeded random signs",
+    "Task seeds: correlation 1000+repeat; variance 2000; equivalence 3000+repeat; power 4000+repeat",
+    "50 trees for correlation; 200-tree empirical pool for variance",
+    "Variance: 200 independent ensembles sampled WITH replacement from the empirical pool",
+    "Equivalence relative error = RMS(logit difference) / std(structured logits)",
+    "Synthetic standard deviations use numpy ddof=0; sklearn default tolerance (as paper unspecified)",
+    "Table 1 forest averages probabilities, structured model uses theoretical inclusion probabilities",
+    "Table 1 chooses best C on test, as explicitly done in the paper; no further tuning"
+  ]
+}

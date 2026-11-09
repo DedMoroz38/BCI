@@ -1,0 +1,17 @@
+{
+  "prediction_sha256": "bb792994f47709a9da0adb7cfe7582a63a8e20a025debc39135bec72a5f8e340",
+  "tag": "later_last",
+  "config": {
+    "name": "cnn_only",
+    "weight": 1,
+    "temp": 1,
+    "alpha": 0,
+    "pool": "arithmetic"
+  },
+  "cell_mean": 0.7056372549019607,
+  "session_mean": 0.7089552238805971,
+  "pooled": 0.7089552238805971,
+  "accuracy": 0.7085427135678392,
+  "log_loss": 0.752608238507694,
+  "brier": 0.4291991564876833
+}

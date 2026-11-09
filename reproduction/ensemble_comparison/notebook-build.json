@@ -1,0 +1,29 @@
+{
+  "bundle_sha256": "00688825024ecf499f50277bf0a02e6a10392666e565442b071ff580ab73a55d",
+  "files": {
+    "reproduction/ensemble_author_20261108/LICENSE": "70e0ff1ed55f856aaee77ce613a229f9ac1d398a9c41552c25cfaff2c6fb2423",
+    "reproduction/ensemble_author_20261108/SOURCE_RECEIPT.json": "6195ace3b85e5a3335681908a905ad5dcffd39ed8538a39a3d6d69a1e9bd7288",
+    "reproduction/ensemble_author_20261108/track2_bci/bci/__init__.py": "484cea65ccbbdbe4dc3e3e9683a914465351e27e6f3f4dcfc203c5b14f2f2386",
+    "reproduction/ensemble_author_20261108/track2_bci/bci/benchmark.py": "55e3929646de0752846312e9c49bf056daadaf68e881006d4693d357dd430c9a",
+    "reproduction/ensemble_author_20261108/track2_bci/bci/data.py": "efc1a8a4d8a4032c12cb4aac6da58a9024ea34af3230d266ed59d791f424aa21",
+    "reproduction/ensemble_author_20261108/track2_bci/bci/ensemble.py": "8a5c7f5505d80c4d235efb24cb44a78e0d1e7160858558a009fc8fbca9a71377",
+    "reproduction/ensemble_author_20261108/track2_bci/bci/evaluation.py": "c9cc684944c3bae308a92669906a35df379fee3517bbf33b6c314c9d934b1b48",
+    "reproduction/ensemble_author_20261108/track2_bci/bci/export.py": "cd3a3d724a8f2cc33e4a343cc7ba483ecf3b3ff0afadbc688a60f1138451c69b",
+    "reproduction/ensemble_author_20261108/track2_bci/bci/make_submission.py": "6767335d279638fb86e6fe6cf1bed35403ab60f8996d4eed1b2cdd5a53538f40",
+    "reproduction/ensemble_author_20261108/track2_bci/bci/models/__init__.py": "1a045b4486dfede240e456197de82bd0a943bf9d84abe189cf13571021222db4",
+    "reproduction/ensemble_author_20261108/track2_bci/bci/models/forest.py": "66f61442917abb9e3078440c1c7e3e69a0e891440316f24a5ddd337f8311b73d",
+    "reproduction/ensemble_author_20261108/track2_bci/bci/models/gated.py": "3df62869ccf3d0291c91d1bbd0f5eec7a6e29a8021a674a120844e7f8b675e64",
+    "reproduction/ensemble_author_20261108/track2_bci/bci/models/logreg.py": "ac72a22a9a0006d42ae5c5fb0aa6aab96374ff0b2fef10d1ce9cd16ecbbaa5aa",
+    "reproduction/ensemble_author_20261108/track2_bci/bci/nemar_retry.py": "67c23f6f6dab76a6bf82ea1709088be47bc24a6e04268073ed046f4fda3f09d7",
+    "reproduction/ensemble_author_20261108/track2_bci/bci/riemann.py": "dcefad7d89ef03cda78f64236fd0bae2d7e3bf75d65bd0658de5c1251dfbf73e",
+    "reproduction/ensemble_author_20261108/track2_bci/bci/stream.py": "f61eaf7f53933d01618f7aa899275be644de38a6c2798e2d435360eeae930063",
+    "reproduction/ensemble_comparison/PROTOCOL.md": "8e7c08986d8b3e2fe06e7a4d2b3c33f8af950159ddf4f59d2db4d2a3d23a1524",
+    "reproduction/ensemble_comparison/analyze.py": "30e78b2a366486a183cc567537ec0c16a07fc58d9405f04bb7d28ee80484a416",
+    "reproduction/ensemble_comparison/baseline.py": "39122cc361f726afeef94fe58d303b3747917a90ce2240733cf1cbcdb9666be1",
+    "reproduction/ensemble_comparison/run.py": "9ae6f3d416c39b24ad3cab1a8386b9692a38402037caf0a1f2b01b763203b93b",
+    "reproduction/ensemble_comparison/test_analysis.py": "23b1192863c64d20dd340d4bcf9072592912877aafe09cc21f25ce329295b795",
+    "reproduction/ensemble_comparison/test_runner.py": "582574b1f1f852afefac2139269913f2bb0146f2237e58aca0225d2df916cfcf",
+    "reproduction/results/eeg/manifest.json": "19bce331d75abb07d4208be714570777e6abf548a34261d9a12a49588791226a"
+  },
+  "notebook_sha256": "907260d04a08804cc0d93bb1cda2068e3aeee86b530386c53a466edf41718703"
+}

@@ -1,0 +1,3 @@
+Validated exact source/data/environment and frozen experiment manifest
+START stationary_oas/logreg_test_official train=1521 eval=755
+DONE stationary_oas/logreg_test_official: 0.469164540, delta=+0.014337551 (5.9s)

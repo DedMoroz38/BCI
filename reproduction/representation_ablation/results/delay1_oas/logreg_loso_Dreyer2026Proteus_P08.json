@@ -1,0 +1,38 @@
+{
+  "variant": "delay1_oas",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P08",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P08"
+  ],
+  "train_windows": 1711,
+  "eval_windows": 189,
+  "fit_seconds": 16.27939774998231,
+  "total_seconds": 17.740928208979312,
+  "session_mean_delta_vs_control": 0.015878349547704396,
+  "representation_definition": "OAS covariance of electrode-major [x_i[t],x_i[t-1]], t=1..479; both copies selected together",
+  "reference_update": "original cumulative log-Euclidean, prior_weight=5",
+  "cell_mean": 0.6481070788530466,
+  "session_mean": 0.6484441670933606,
+  "pooled": 0.6484441670933606,
+  "accuracy": 0.6455026455026455,
+  "matrix_cache_sha256": {
+    "delay1_oas_band0": "e4f051e8fb1fe6e01c782d80612a78aaa9ead8972c91bd556b93d0e5e5bbf238",
+    "delay1_oas_band1": "6a1e61cc5d7a8e3019359141db056902a03a6461ac18621ac253b49c298b61fc",
+    "delay1_oas_band2": "8071aeb469a8765395bc5f0b2b7074189e6bdfc06d54e821b354b7ab58339cc3",
+    "delay1_oas_band3": "e7cb23803bcddd43a2d342fd30e4657636c04a8b981e2dc755e304388aed5f7d",
+    "delay1_oas_band4": "55f415795d820b08331f3dd47ebb0d8cad52c8442d5658c39b11f798730cd06a",
+    "delay1_oas_band5": "7eeb545c33002bbad438ca9f9cf5ffb04c53aeb2d291ddff857898343c08217e"
+  },
+  "tangent_dimension": 3403
+}

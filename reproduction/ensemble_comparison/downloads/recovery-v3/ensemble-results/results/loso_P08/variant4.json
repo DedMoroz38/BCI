@@ -1,0 +1,13 @@
+{
+  "variant": "+deep",
+  "tag": "loso_P08",
+  "manifest_sha256": "7260835c56d59d74a11bf4188ceb7dbf0bef81153a2a0a3caa77b0773aed40c4",
+  "prediction_sha256": "9b6210892d2be9608a3321dcc7925cc6c3c7c0552e5db63bc415a6f85ae36051",
+  "eval_seconds": 11.99921727800006,
+  "cell_mean": 0.8034722222222221,
+  "session_mean": 0.8051075268817204,
+  "pooled": 0.8051075268817204,
+  "accuracy": 0.8042328042328042,
+  "log_loss": 0.47379338799675724,
+  "brier": 0.2741195318027049
+}

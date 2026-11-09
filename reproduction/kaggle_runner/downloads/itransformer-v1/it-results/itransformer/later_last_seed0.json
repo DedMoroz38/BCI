@@ -1,0 +1,52 @@
+{
+  "model": "itransformer",
+  "tag": "later_last",
+  "seed": 0,
+  "selected_epoch": 1,
+  "stopped_epoch": 11,
+  "split": {
+    "train_subjects": [
+      "Dreyer2026Proteus/P01",
+      "Dreyer2026Proteus/P02",
+      "Dreyer2026Proteus/P03",
+      "Dreyer2026Proteus/P05",
+      "Dreyer2026Proteus/P06",
+      "Dreyer2026Proteus/P07"
+    ],
+    "validation_subjects": [
+      "Dreyer2026Proteus/P08",
+      "Dreyer2026Proteus/P10"
+    ],
+    "outer_evaluation_subjects": [
+      "Dreyer2026Proteus/P10"
+    ],
+    "inner_train_windows": 1134,
+    "inner_val_windows": 567,
+    "known_person_outer_overlap": [
+      "Dreyer2026Proteus/P10"
+    ]
+  },
+  "job_manifest_sha256": "3bf04d96180b13d3ceb9829d4bfd5a0505c5f57be0da7e1b91b0abad59ce3342",
+  "predictions_file": "itransformer/later_last_seed0_predictions.npz",
+  "seconds": 3.8361478630000647,
+  "inference_ms_per_window": 1.2886379648242283,
+  "parameter_count": 72259,
+  "artifact_sha256": {
+    "itransformer/later_last_seed0_predictions.npz": "192ef62e866f8c4f677a24327e506b664c4994e9132e2e5815d13f6e5e4ec224",
+    "itransformer/later_last/job-manifest.json": "3bf04d96180b13d3ceb9829d4bfd5a0505c5f57be0da7e1b91b0abad59ce3342",
+    "itransformer/later_last/inner-baseline.json": "76c1b2d4499b86248ded60bbeab6b8af635571cb317045b6295556fb821ce85b",
+    "itransformer/later_last/seed0/selection/curves.csv": "29e5e8d828d6d772384f644f652a3c708c1a67327ec225a2b8901a52014cf4e5",
+    "itransformer/later_last/seed0/selection/best.pt": "fe43ef72917a4d54a87480354cf6105758c018c11433b050a4f5d306578e49ed",
+    "itransformer/later_last/seed0/selection/selection.json": "2b054e278b0282e7b8e35b849dd99fd0e064b7c1afde800697a6470eecb2ed4c",
+    "itransformer/later_last/seed0/selection/curves.png": "af9b6f36fa35f84ab58ccab8f642b34b4a59aefc5f225ae52b2f471077de7c75",
+    "itransformer/later_last/seed0/refit/train_history.csv": "ea90173ee54b10726a63ee1334c74839a5619fb091debc85d0ab790eae5022b1",
+    "itransformer/later_last/seed0/refit/refit.json": "e4bf9cbe83f003c44a15b06b056b2d4b98a115946efbdc51e7eb036b89ad5e8a",
+    "itransformer/later_last/seed0/refit/final.pt": "8aa4eba5c7e2f2f19472f099febd4de93682573a34b01a22af049b6a697c9878"
+  },
+  "cell_mean": 0.3637692577030812,
+  "session_mean": 0.3625810342228253,
+  "pooled": 0.3625810342228253,
+  "accuracy": 0.36180904522613067,
+  "log_loss": 1.2315432162342381,
+  "brier": 0.7387043025266715
+}

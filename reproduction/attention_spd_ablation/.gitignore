@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+results/
+cache/
+*.zip
+
+live-v*.jsonl
+
+completion-v*.json

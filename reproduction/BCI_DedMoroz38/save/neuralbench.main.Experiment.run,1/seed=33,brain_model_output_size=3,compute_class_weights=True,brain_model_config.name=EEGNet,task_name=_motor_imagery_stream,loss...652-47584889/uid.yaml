@@ -1,0 +1,111 @@
+task_name: _motor_imagery_stream
+data:
+  study.steps:
+  - name: Dreyer2026Proteus
+  - name: SklearnSplit
+    split_by: subject
+  neuro:
+    name: EegExtractor
+    frequency: 120.0
+    filter:
+    - 0.1
+    - 75.0
+    notch_filter:
+    - 50.0
+    - 60.0
+    scale_factor: 1000000.0
+  target:
+    name: LabelEncoder
+    event_types: Stimulus
+    aggregation: trigger
+    event_field: code
+    return_one_hot: true
+  channel_positions:
+    name: ChannelPositions
+    n_spatial_dims: 3
+  trigger_event_type: Stimulus
+  start: 1.0
+  duration: 4.0
+  test_batch_size: 1
+  num_workers: 10
+  seed: 33
+  stream_by:
+  - subject
+  - session
+  summary_columns:
+  - code
+compute_class_weights: true
+brain_model_config.name: EEGNet
+brain_model_output_size: 3
+trainer_config:
+  n_epochs: 1
+  gradient_clip_val: 1.0
+  limit_train_batches: 1
+  limit_val_batches: 1
+  num_sanity_val_steps: 0
+  monitor: val/bal_acc_stream_mean
+  mode: max
+loss:
+  name: CrossEntropyLoss
+  kwargs.label_smoothing: 0.1
+lightning_optimizer_config:
+  name: LightningOptimizer
+  optimizer:
+    name: AdamW
+    lr: 0.0001
+    kwargs.weight_decay: 0.05
+  scheduler:
+    name: OneCycleLR
+    kwargs:
+      max_lr: 0.0001
+      pct_start: 0.1
+      anneal_strategy: cos
+metrics:
+- name: Accuracy
+  log_name: acc
+  kwargs:
+    task: multiclass
+    num_classes: 3
+- name: F1Score
+  log_name: f1_score_micro
+  kwargs:
+    task: multiclass
+    average: micro
+    num_classes: 3
+- name: F1Score
+  log_name: f1_score_macro
+  kwargs:
+    task: multiclass
+    average: macro
+    num_classes: 3
+- name: Accuracy
+  log_name: bal_acc
+  kwargs:
+    task: multiclass
+    num_classes: 3
+    average: macro
+- name: AUROC
+  log_name: auroc
+  kwargs:
+    task: multiclass
+    num_classes: 3
+- name: AveragePrecision
+  log_name: auprc
+  kwargs:
+    task: multiclass
+    num_classes: 3
+    average: macro
+- name: ConfusionMatrix
+  log_name: confusion_matrix
+  kwargs:
+    task: multiclass
+    num_classes: 3
+- name: GroupedMetric
+  log_name: bal_acc_stream_mean
+  metric_name: Accuracy
+  kwargs:
+    task: multiclass
+    num_classes: 3
+    average: macro
+  reduction: mean
+seed: 33

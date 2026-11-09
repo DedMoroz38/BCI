@@ -1,0 +1,17 @@
+{'sigma': 0.02, 'repeat': 0, 'tol': 0.0001, 'relative_error': 0.01718896922243327}
+{'sigma': 0.02, 'repeat': 0, 'tol': 1e-10, 'relative_error': 0.014305305620529948}
+{'sigma': 0.02, 'repeat': 1, 'tol': 0.0001, 'relative_error': 0.04385306096100589}
+{'sigma': 0.02, 'repeat': 1, 'tol': 1e-10, 'relative_error': 0.013576325438157828}
+{'sigma': 0.02, 'repeat': 2, 'tol': 0.0001, 'relative_error': 0.026619096835637072}
+{'sigma': 0.02, 'repeat': 2, 'tol': 1e-10, 'relative_error': 0.013490757694423637}
+{'sigma': 0.15, 'repeat': 0, 'tol': 0.0001, 'relative_error': 0.10633031804798349}
+{'sigma': 0.15, 'repeat': 0, 'tol': 1e-10, 'relative_error': 0.10598502555049723}
+{'sigma': 0.15, 'repeat': 1, 'tol': 0.0001, 'relative_error': 0.11270901431482534}
+{'sigma': 0.15, 'repeat': 1, 'tol': 1e-10, 'relative_error': 0.10120045464151428}
+{'sigma': 0.15, 'repeat': 2, 'tol': 0.0001, 'relative_error': 0.11142937467922277}
+{'sigma': 0.15, 'repeat': 2, 'tol': 1e-10, 'relative_error': 0.101132940011964}
+sigma  tol         
+0.02   1.000000e-10    0.013791
+       1.000000e-04    0.029220
+0.15   1.000000e-10    0.102773
+       1.000000e-04    0.110156

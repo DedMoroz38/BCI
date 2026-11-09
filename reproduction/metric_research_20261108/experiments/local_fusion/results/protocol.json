@@ -1,0 +1,125 @@
+{
+  "configs": [
+    {
+      "name": "lag4",
+      "weight": 0,
+      "temp": 1,
+      "alpha": 0,
+      "pool": "arithmetic"
+    },
+    {
+      "name": "lag4_balance1",
+      "weight": 0,
+      "temp": 1,
+      "alpha": 1,
+      "pool": "arithmetic"
+    },
+    {
+      "name": "cnn_only",
+      "weight": 1,
+      "temp": 1,
+      "alpha": 0,
+      "pool": "arithmetic"
+    },
+    {
+      "name": "arith_w0.1_T1_a0",
+      "weight": 0.1,
+      "temp": 1,
+      "alpha": 0,
+      "pool": "arithmetic"
+    },
+    {
+      "name": "arith_w0.1_T1_a1",
+      "weight": 0.1,
+      "temp": 1,
+      "alpha": 1,
+      "pool": "arithmetic"
+    },
+    {
+      "name": "arith_w0.1_T2_a0",
+      "weight": 0.1,
+      "temp": 2,
+      "alpha": 0,
+      "pool": "arithmetic"
+    },
+    {
+      "name": "arith_w0.1_T2_a1",
+      "weight": 0.1,
+      "temp": 2,
+      "alpha": 1,
+      "pool": "arithmetic"
+    },
+    {
+      "name": "arith_w0.1_T4_a0",
+      "weight": 0.1,
+      "temp": 4,
+      "alpha": 0,
+      "pool": "arithmetic"
+    },
+    {
+      "name": "arith_w0.1_T4_a1",
+      "weight": 0.1,
+      "temp": 4,
+      "alpha": 1,
+      "pool": "arithmetic"
+    },
+    {
+      "name": "arith_w0.3_T1_a0",
+      "weight": 0.3,
+      "temp": 1,
+      "alpha": 0,
+      "pool": "arithmetic"
+    },
+    {
+      "name": "arith_w0.3_T1_a1",
+      "weight": 0.3,
+      "temp": 1,
+      "alpha": 1,
+      "pool": "arithmetic"
+    },
+    {
+      "name": "arith_w0.3_T2_a0",
+      "weight": 0.3,
+      "temp": 2,
+      "alpha": 0,
+      "pool": "arithmetic"
+    },
+    {
+      "name": "arith_w0.3_T2_a1",
+      "weight": 0.3,
+      "temp": 2,
+      "alpha": 1,
+      "pool": "arithmetic"
+    },
+    {
+      "name": "arith_w0.3_T4_a0",
+      "weight": 0.3,
+      "temp": 4,
+      "alpha": 0,
+      "pool": "arithmetic"
+    },
+    {
+      "name": "arith_w0.3_T4_a1",
+      "weight": 0.3,
+      "temp": 4,
+      "alpha": 1,
+      "pool": "arithmetic"
+    },
+    {
+      "name": "geo_w0.3_T1_a0",
+      "weight": 0.3,
+      "temp": 1,
+      "alpha": 0,
+      "pool": "geometric"
+    },
+    {
+      "name": "geo_w0.3_T1_a1",
+      "weight": 0.3,
+      "temp": 1,
+      "alpha": 1,
+      "pool": "geometric"
+    }
+  ],
+  "protocol_sha256": "39d789508d91d57836453680e164fa9d1331c284ef7ff7cb67a1c9fdb5acf96f",
+  "source_manifest": "7260835c56d59d74a11bf4188ceb7dbf0bef81153a2a0a3caa77b0773aed40c4"
+}

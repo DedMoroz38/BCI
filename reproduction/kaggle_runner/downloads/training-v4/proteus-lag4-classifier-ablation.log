@@ -1,0 +1,1402 @@
+[{"stream_name":"stderr","time":12.764667268,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.764711007,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.764715702,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.764718546,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":13.538518539,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":13.538549038,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":13.538553889,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":13.538557611,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":28.366774852,"data":"GPU ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stderr","time":75.557427799,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":75.557482904,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":75.557491241,"data":"ydata-profiling 4.18.4 requires numpy\u003c2.4,\u003e=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.557496292,"data":"ydata-profiling 4.18.4 requires pandas!=1.4.0,\u003c3.0,\u003e1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.557501071,"data":"ydata-profiling 4.18.4 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.557505796,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.55751050800001,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.557515037,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.557519732,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.557524632,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.55752965,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.557539755,"data":"numba 0.61.2 requires numpy\u003c2.3,\u003e=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.55754336,"data":"cudf-cu12 26.2.1 requires pandas\u003c2.4.0,\u003e=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.557546559,"data":"dask-cudf-cu12 26.2.1 requires pandas\u003c2.4.0,\u003e=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761328939,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":75.761364946,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":75.761384368,"data":"ydata-profiling 4.18.4 requires numpy\u003c2.4,\u003e=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.76138877,"data":"ydata-profiling 4.18.4 requires pandas!=1.4.0,\u003c3.0,\u003e1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761392588,"data":"ydata-profiling 4.18.4 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761396286,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761399938,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761403572,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.76140685,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761410396,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761414131,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761417678,"data":"numba 0.61.2 requires numpy\u003c2.3,\u003e=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761421328,"data":"cudf-cu12 26.2.1 requires pandas\u003c2.4.0,\u003e=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.7614249,"data":"dask-cudf-cu12 26.2.1 requires pandas\u003c2.4.0,\u003e=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761428234,"data":"\n"}
+,{"stream_name":"stderr","time":75.761431608,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":75.761435152,"data":"bigframes 2.48.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":75.761438578,"data":"ydata-profiling 4.18.4 requires numpy\u003c2.4,\u003e=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761442267,"data":"ydata-profiling 4.18.4 requires pandas!=1.4.0,\u003c3.0,\u003e1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761445934,"data":"ydata-profiling 4.18.4 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761450849,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761454573,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761458003,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761461508,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761465138,"data":"gradio 6.26.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761468645,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761476166,"data":"numba 0.61.2 requires numpy\u003c2.3,\u003e=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761480012,"data":"cudf-cu12 26.2.1 requires pandas\u003c2.4.0,\u003e=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":75.761483813,"data":"dask-cudf-cu12 26.2.1 requires pandas\u003c2.4.0,\u003e=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stdout","time":77.477156824,"data":"Numerical runtime 3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0] {'numpy': '2.5.4', 'scipy': '1.18.1', 'scikit-learn': '1.9.1', 'pyriemann': '0.12', 'pandas': '3.1.0', 'torch': '2.11.0+cu128'}\n"}
+,{"stream_name":"stdout","time":77.679167833,"data":"Numerical runtime 3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0] {'numpy': '2.5.4', 'scipy': '1.18.1', 'scikit-learn': '1.9.1', 'pyriemann': '0.12', 'pandas': '3.1.0', 'torch': '2.11.0+cu128'}\n"}
+,{"stream_name":"stdout","time":83.060745791,"data":"Verified all source/input hashes. Original data and submitted model are attached.\n"}
+,{"stream_name":"stdout","time":99.776369091,"data":"................................                                                        [100%]\n"}
+,{"stream_name":"stdout","time":99.776472464,"data":"=============================== warnings summary ===============================\n"}
+,{"stream_name":"stdout","time":99.776844916,"data":"../../../../../tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+,{"stream_name":"stdout","time":99.776866919,"data":"  /tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stdout","time":99.776873748,"data":"    from pandas.core import (\n"}
+,{"stream_name":"stdout","time":99.776879779,"data":"\n"}
+,{"stream_name":"stdout","time":99.777130827,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+,{"stream_name":"stdout","time":99.777154623,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+,{"stream_name":"stdout","time":99.77716287,"data":"    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+,{"stream_name":"stdout","time":99.777169758,"data":"\n"}
+,{"stream_name":"stdout","time":99.778034119,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+,{"stream_name":"stdout","time":99.778059698,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+,{"stream_name":"stdout","time":99.778066831,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+,{"stream_name":"stdout","time":99.778072687,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+,{"stream_name":"stdout","time":99.778077969,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+,{"stream_name":"stdout","time":99.77808307,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+,{"stream_name":"stdout","time":99.778088175,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+,{"stream_name":"stdout","time":99.778093565,"data":"    parse = parser.parseString(pattern)\n"}
+,{"stream_name":"stdout","time":99.778109026,"data":"\n"}
+,{"stream_name":"stdout","time":99.778952065,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+,{"stream_name":"stdout","time":99.778973857,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+,{"stream_name":"stdout","time":99.778979068,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+,{"stream_name":"stdout","time":99.77898347,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+,{"stream_name":"stdout","time":99.778988017,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+,{"stream_name":"stdout","time":99.77899233,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+,{"stream_name":"stdout","time":99.778995983,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+,{"stream_name":"stdout","time":99.778999901,"data":"    parser.resetCache()\n"}
+,{"stream_name":"stdout","time":99.779003331,"data":"\n"}
+,{"stream_name":"stdout","time":99.779097292,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+,{"stream_name":"stdout","time":99.779105267,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+,{"stream_name":"stdout","time":99.779109651,"data":"    ParserElement.enablePackrat()\n"}
+,{"stream_name":"stdout","time":99.779113499,"data":"\n"}
+,{"stream_name":"stdout","time":99.77925004,"data":"-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+,{"stream_name":"stdout","time":99.779394811,"data":"17 passed, 15 warnings in 14.63s\n"}
+,{"stream_name":"stdout","time":99.968295119,"data":"..                                                        [100%]\n"}
+,{"stream_name":"stdout","time":99.96833966,"data":"=============================== warnings summary ===============================\n"}
+,{"stream_name":"stdout","time":99.968344593,"data":"../../../../../tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+,{"stream_name":"stdout","time":99.968349512,"data":"  /tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stdout","time":99.968354144,"data":"    from pandas.core import (\n"}
+,{"stream_name":"stdout","time":99.968357991,"data":"\n"}
+,{"stream_name":"stdout","time":99.968361784,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64\n"}
+,{"stream_name":"stdout","time":99.968366026,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+,{"stream_name":"stdout","time":99.968370623,"data":"    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+,{"stream_name":"stdout","time":99.968375201,"data":"\n"}
+,{"stream_name":"stdout","time":99.968379747,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+,{"stream_name":"stdout","time":99.968384233,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+,{"stream_name":"stdout","time":99.968406413,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+,{"stream_name":"stdout","time":99.968410742,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+,{"stream_name":"stdout","time":99.968414876,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+,{"stream_name":"stdout","time":99.968419017,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85\n"}
+,{"stream_name":"stdout","time":99.968423096,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+,{"stream_name":"stdout","time":99.968427375,"data":"    parse = parser.parseString(pattern)\n"}
+,{"stream_name":"stdout","time":99.968431088,"data":"\n"}
+,{"stream_name":"stdout","time":99.968434931,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+,{"stream_name":"stdout","time":99.968438843,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+,{"stream_name":"stdout","time":99.968443139,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+,{"stream_name":"stdout","time":99.968447287,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+,{"stream_name":"stdout","time":99.968451336,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+,{"stream_name":"stdout","time":99.968457127,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89\n"}
+,{"stream_name":"stdout","time":99.968461114,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+,{"stream_name":"stdout","time":99.968465232,"data":"    parser.resetCache()\n"}
+,{"stream_name":"stdout","time":99.968469225,"data":"\n"}
+,{"stream_name":"stdout","time":99.968473301,"data":"../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45\n"}
+,{"stream_name":"stdout","time":99.968477468,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+,{"stream_name":"stdout","time":99.968481734,"data":"    ParserElement.enablePackrat()\n"}
+,{"stream_name":"stdout","time":99.96848571,"data":"\n"}
+,{"stream_name":"stdout","time":99.968489698,"data":"-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+,{"stream_name":"stdout","time":99.968494166,"data":"17 passed, 15 warnings in 14.63s\n"}
+,{"stream_name":"stdout","time":102.311908245,"data":"Integrity tests passed; starting fixed classifier comparison\n"}
+,{"stream_name":"stderr","time":103.49828549,"data":"/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":103.498350138,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stderr","time":103.700702072,"data":"/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":103.700740947,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stderr","time":103.700745996,"data":"\n"}
+,{"stream_name":"stderr","time":103.7007697,"data":"/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":103.70077485,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stdout","time":106.058901993,"data":"CLASSIFIER EXPERIMENT START all\n"}
+,{"stream_name":"stdout","time":106.261360315,"data":"CLASSIFIER EXPERIMENT START all\n"}
+,{"stream_name":"stdout","time":106.719527342,"data":"START FEATURES loso_P01 1710 190\n"}
+,{"stream_name":"stdout","time":106.921903431,"data":"START FEATURES loso_P01 1710 190\n"}
+,{"stream_name":"stdout","time":150.075345592,"data":"FEATURES loso_P01 10 /50\n"}
+,{"stream_name":"stdout","time":150.279658138,"data":"FEATURES loso_P01 10 /50\n"}
+,{"stream_name":"stdout","time":189.999546356,"data":"FEATURES loso_P01 20 /50\n"}
+,{"stream_name":"stdout","time":190.205824721,"data":"FEATURES loso_P01 20 /50\n"}
+,{"stream_name":"stdout","time":229.857488306,"data":"FEATURES loso_P01 30 /50\n"}
+,{"stream_name":"stdout","time":230.061377144,"data":"FEATURES loso_P01 30 /50\n"}
+,{"stream_name":"stdout","time":269.161949747,"data":"FEATURES loso_P01 40 /50\n"}
+,{"stream_name":"stdout","time":269.365990387,"data":"FEATURES loso_P01 40 /50\n"}
+,{"stream_name":"stdout","time":308.658539193,"data":"FEATURES loso_P01 50 /50\n"}
+,{"stream_name":"stdout","time":308.862822668,"data":"FEATURES loso_P01 50 /50\n"}
+,{"stream_name":"stdout","time":310.801781827,"data":"DONE FEATURES loso_P01 202.43 s\n"}
+,{"stream_name":"stdout","time":311.005005687,"data":"DONE FEATURES loso_P01 202.43 s\n"}
+,{"stream_name":"stdout","time":312.054480711,"data":"CLASSIFIER baseline loso_P01 10 /50\n"}
+,{"stream_name":"stdout","time":312.257795943,"data":"CLASSIFIER baseline loso_P01 10 /50\n"}
+,{"stream_name":"stdout","time":313.151408548,"data":"CLASSIFIER baseline loso_P01 20 /50\n"}
+,{"stream_name":"stdout","time":313.354383,"data":"CLASSIFIER baseline loso_P01 20 /50\n"}
+,{"stream_name":"stdout","time":314.326778333,"data":"CLASSIFIER baseline loso_P01 30 /50\n"}
+,{"stream_name":"stdout","time":314.529711213,"data":"CLASSIFIER baseline loso_P01 30 /50\n"}
+,{"stream_name":"stdout","time":315.38348862,"data":"CLASSIFIER baseline loso_P01 40 /50\n"}
+,{"stream_name":"stdout","time":315.586418496,"data":"CLASSIFIER baseline loso_P01 40 /50\n"}
+,{"stream_name":"stdout","time":316.541548626,"data":"CLASSIFIER baseline loso_P01 50 /50\n"}
+,{"stream_name":"stdout","time":316.560137698,"data":"DONE MODEL baseline loso_P01 session= 0.6046627 cell= 0.60534274 seconds= 5.7\n"}
+,{"stream_name":"stdout","time":316.746848036,"data":"CLASSIFIER baseline loso_P01 50 /50\n"}
+,{"stream_name":"stdout","time":316.746898809,"data":"DONE MODEL baseline loso_P01 session= 0.6046627 cell= 0.60534274 seconds= 5.7\n"}
+,{"stream_name":"stderr","time":317.5125046,"data":"/kaggle/working/riemann-project/reproduction/classifier_ablation/gpu_mlp.py:18: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)\n"}
+,{"stream_name":"stderr","time":317.512545031,"data":"  x=torch.as_tensor(np.asarray(x),dtype=torch.float32,device=device)\n"}
+,{"stream_name":"stderr","time":317.715723112,"data":"/kaggle/working/riemann-project/reproduction/classifier_ablation/gpu_mlp.py:18: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)\n"}
+,{"stream_name":"stderr","time":317.715805316,"data":"  x=torch.as_tensor(np.asarray(x),dtype=torch.float32,device=device)\n"}
+,{"stream_name":"stderr","time":317.715811322,"data":"\n"}
+,{"stream_name":"stderr","time":317.715815017,"data":"/kaggle/working/riemann-project/reproduction/classifier_ablation/gpu_mlp.py:18: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)\n"}
+,{"stream_name":"stderr","time":317.715820449,"data":"  x=torch.as_tensor(np.asarray(x),dtype=torch.float32,device=device)\n"}
+,{"stream_name":"stderr","time":318.443895703,"data":"/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":318.44392641,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stderr","time":318.45277088,"data":"/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":318.452799086,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stderr","time":318.461284863,"data":"/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":318.461314445,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stderr","time":318.647842085,"data":"/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":318.647885434,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stderr","time":318.64789096,"data":"/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":318.647895646,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stderr","time":318.647899212,"data":"/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":318.647902849,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stderr","time":318.647906415,"data":"\n"}
+,{"stream_name":"stderr","time":318.647910433,"data":"/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":318.647915146,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stderr","time":318.647918783,"data":"/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":318.647937424,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stderr","time":318.647941002,"data":"/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":318.647944932,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stdout","time":322.897487809,"data":"DONE MODEL mlp loso_P01 session= 0.59449405 cell= 0.59509409 seconds= 5.7\n"}
+,{"stream_name":"stdout","time":322.919548224,"data":"START FEATURES loso_P02 1711 189\n"}
+,{"stream_name":"stdout","time":323.100503265,"data":"DONE MODEL mlp loso_P01 session= 0.59449405 cell= 0.59509409 seconds= 5.7\n"}
+,{"stream_name":"stdout","time":323.100544478,"data":"START FEATURES loso_P02 1711 189\n"}
+,{"stream_name":"stdout","time":351.989503508,"data":"CLASSIFIER svm_linear loso_P01 10 /50\n"}
+,{"stream_name":"stdout","time":352.203881357,"data":"CLASSIFIER svm_linear loso_P01 10 /50\n"}
+,{"stream_name":"stdout","time":363.14062773,"data":"CLASSIFIER svm_rbf loso_P01 10 /50\n"}
+,{"stream_name":"stdout","time":363.343754766,"data":"CLASSIFIER svm_rbf loso_P01 10 /50\n"}
+,{"stream_name":"stdout","time":390.297671645,"data":"CLASSIFIER svm_linear loso_P01 20 /50\n"}
+,{"stream_name":"stdout","time":390.511814169,"data":"CLASSIFIER svm_linear loso_P01 20 /50\n"}
+,{"stream_name":"stdout","time":400.924131568,"data":"FEATURES loso_P02 10 /50\n"}
+,{"stream_name":"stdout","time":401.126892044,"data":"FEATURES loso_P02 10 /50\n"}
+,{"stream_name":"stdout","time":410.768549315,"data":"CLASSIFIER svm_rbf loso_P01 20 /50\n"}
+,{"stream_name":"stdout","time":410.973610199,"data":"CLASSIFIER svm_rbf loso_P01 20 /50\n"}
+,{"stream_name":"stdout","time":424.358159567,"data":"CLASSIFIER svm_linear loso_P01 30 /50\n"}
+,{"stream_name":"stdout","time":424.574550296,"data":"CLASSIFIER svm_linear loso_P01 30 /50\n"}
+,{"stream_name":"stdout","time":445.136291411,"data":"CLASSIFIER svm_linear loso_P01 40 /50\n"}
+,{"stream_name":"stdout","time":445.343734497,"data":"CLASSIFIER svm_linear loso_P01 40 /50\n"}
+,{"stream_name":"stdout","time":455.441486202,"data":"CLASSIFIER svm_rbf loso_P01 30 /50\n"}
+,{"stream_name":"stdout","time":455.65945074,"data":"CLASSIFIER svm_rbf loso_P01 30 /50\n"}
+,{"stream_name":"stdout","time":468.14128031,"data":"CLASSIFIER svm_linear loso_P01 50 /50\n"}
+,{"stream_name":"stdout","time":468.178655913,"data":"DONE MODEL svm_linear loso_P01 session= 0.61598876 cell= 0.61676747 seconds= 145.6\n"}
+,{"stream_name":"stdout","time":468.345112855,"data":"CLASSIFIER svm_linear loso_P01 50 /50\n"}
+,{"stream_name":"stdout","time":468.345175551,"data":"DONE MODEL svm_linear loso_P01 session= 0.61598876 cell= 0.61676747 seconds= 145.6\n"}
+,{"stream_name":"stdout","time":474.459975913,"data":"CLASSIFIER lda_lw loso_P01 10 /50\n"}
+,{"stream_name":"stdout","time":474.662673371,"data":"CLASSIFIER lda_lw loso_P01 10 /50\n"}
+,{"stream_name":"stdout","time":474.967046748,"data":"FEATURES loso_P02 20 /50\n"}
+,{"stream_name":"stdout","time":475.169974617,"data":"FEATURES loso_P02 20 /50\n"}
+,{"stream_name":"stdout","time":480.478102487,"data":"CLASSIFIER lda_lw loso_P01 20 /50\n"}
+,{"stream_name":"stdout","time":480.681056952,"data":"CLASSIFIER lda_lw loso_P01 20 /50\n"}
+,{"stream_name":"stdout","time":486.626449802,"data":"CLASSIFIER lda_lw loso_P01 30 /50\n"}
+,{"stream_name":"stdout","time":486.838382035,"data":"CLASSIFIER lda_lw loso_P01 30 /50\n"}
+,{"stream_name":"stdout","time":488.193499969,"data":"CLASSIFIER svm_rbf loso_P01 40 /50\n"}
+,{"stream_name":"stdout","time":488.395963236,"data":"CLASSIFIER svm_rbf loso_P01 40 /50\n"}
+,{"stream_name":"stdout","time":492.330906333,"data":"CLASSIFIER lda_lw loso_P01 40 /50\n"}
+,{"stream_name":"stdout","time":492.534602595,"data":"CLASSIFIER lda_lw loso_P01 40 /50\n"}
+,{"stream_name":"stdout","time":499.429485954,"data":"CLASSIFIER lda_lw loso_P01 50 /50\n"}
+,{"stream_name":"stdout","time":499.466663961,"data":"DONE MODEL lda_lw loso_P01 session= 0.58878968 cell= 0.58921371 seconds= 31.2\n"}
+,{"stream_name":"stdout","time":499.633014277,"data":"CLASSIFIER lda_lw loso_P01 50 /50\n"}
+,{"stream_name":"stdout","time":499.633061432,"data":"DONE MODEL lda_lw loso_P01 session= 0.58878968 cell= 0.58921371 seconds= 31.2\n"}
+,{"stream_name":"stdout","time":503.457997081,"data":"CLASSIFIER ridge loso_P01 10 /50\n"}
+,{"stream_name":"stdout","time":503.6621359,"data":"CLASSIFIER ridge loso_P01 10 /50\n"}
+,{"stream_name":"stdout","time":507.729630881,"data":"CLASSIFIER ridge loso_P01 20 /50\n"}
+,{"stream_name":"stdout","time":507.933620095,"data":"CLASSIFIER ridge loso_P01 20 /50\n"}
+,{"stream_name":"stdout","time":511.952757815,"data":"CLASSIFIER ridge loso_P01 30 /50\n"}
+,{"stream_name":"stdout","time":512.157076832,"data":"CLASSIFIER ridge loso_P01 30 /50\n"}
+,{"stream_name":"stdout","time":515.403373884,"data":"CLASSIFIER ridge loso_P01 40 /50\n"}
+,{"stream_name":"stdout","time":515.609398279,"data":"CLASSIFIER ridge loso_P01 40 /50\n"}
+,{"stream_name":"stdout","time":519.289043922,"data":"CLASSIFIER ridge loso_P01 50 /50\n"}
+,{"stream_name":"stdout","time":519.335202558,"data":"DONE MODEL ridge loso_P01 session= 0.49975198 cell= 0.49983199 seconds= 19.8\n"}
+,{"stream_name":"stdout","time":519.500317112,"data":"CLASSIFIER ridge loso_P01 50 /50\n"}
+,{"stream_name":"stdout","time":519.500352071,"data":"DONE MODEL ridge loso_P01 session= 0.49975198 cell= 0.49983199 seconds= 19.8\n"}
+,{"stream_name":"stdout","time":521.183945624,"data":"CLASSIFIER svm_rbf loso_P01 50 /50\n"}
+,{"stream_name":"stdout","time":521.219882033,"data":"DONE MODEL svm_rbf loso_P01 session= 0.58912037 cell= 0.58938172 seconds= 198.4\n"}
+,{"stream_name":"stdout","time":521.38670789,"data":"CLASSIFIER svm_rbf loso_P01 50 /50\n"}
+,{"stream_name":"stdout","time":521.386800787,"data":"DONE MODEL svm_rbf loso_P01 session= 0.58912037 cell= 0.58938172 seconds= 198.4\n"}
+,{"stream_name":"stdout","time":535.77139173,"data":"FEATURES loso_P02 30 /50\n"}
+,{"stream_name":"stdout","time":535.974880928,"data":"FEATURES loso_P02 30 /50\n"}
+,{"stream_name":"stdout","time":575.92671509,"data":"FEATURES loso_P02 40 /50\n"}
+,{"stream_name":"stdout","time":576.135284242,"data":"FEATURES loso_P02 40 /50\n"}
+,{"stream_name":"stdout","time":617.071280103,"data":"FEATURES loso_P02 50 /50\n"}
+,{"stream_name":"stdout","time":617.280826844,"data":"FEATURES loso_P02 50 /50\n"}
+,{"stream_name":"stdout","time":618.898252891,"data":"DONE FEATURES loso_P02 294.3 s\n"}
+,{"stream_name":"stdout","time":619.101909505,"data":"DONE FEATURES loso_P02 294.3 s\n"}
+,{"stream_name":"stdout","time":620.127200863,"data":"CLASSIFIER baseline loso_P02 10 /50\n"}
+,{"stream_name":"stdout","time":620.330937673,"data":"CLASSIFIER baseline loso_P02 10 /50\n"}
+,{"stream_name":"stdout","time":621.292581019,"data":"CLASSIFIER baseline loso_P02 20 /50\n"}
+,{"stream_name":"stdout","time":621.495955509,"data":"CLASSIFIER baseline loso_P02 20 /50\n"}
+,{"stream_name":"stdout","time":622.516931329,"data":"CLASSIFIER baseline loso_P02 30 /50\n"}
+,{"stream_name":"stdout","time":622.720303513,"data":"CLASSIFIER baseline loso_P02 30 /50\n"}
+,{"stream_name":"stdout","time":623.550653234,"data":"CLASSIFIER baseline loso_P02 40 /50\n"}
+,{"stream_name":"stdout","time":623.754272535,"data":"CLASSIFIER baseline loso_P02 40 /50\n"}
+,{"stream_name":"stdout","time":624.725776457,"data":"CLASSIFIER baseline loso_P02 50 /50\n"}
+,{"stream_name":"stdout","time":624.744364772,"data":"DONE MODEL baseline loso_P02 session= 0.60285992 cell= 0.60453629 seconds= 5.8\n"}
+,{"stream_name":"stdout","time":624.932409113,"data":"CLASSIFIER baseline loso_P02 50 /50\n"}
+,{"stream_name":"stdout","time":624.932463507,"data":"DONE MODEL baseline loso_P02 session= 0.60285992 cell= 0.60453629 seconds= 5.8\n"}
+,{"stream_name":"stdout","time":628.264549826,"data":"DONE MODEL mlp loso_P02 session= 0.57640489 cell= 0.57730735 seconds= 2.9\n"}
+,{"stream_name":"stdout","time":628.290348854,"data":"START FEATURES loso_P03 1711 189\n"}
+,{"stream_name":"stdout","time":628.469203791,"data":"DONE MODEL mlp loso_P02 session= 0.57640489 cell= 0.57730735 seconds= 2.9\n"}
+,{"stream_name":"stdout","time":628.472285463,"data":"START FEATURES loso_P03 1711 189\n"}
+,{"stream_name":"stdout","time":649.606138712,"data":"CLASSIFIER svm_linear loso_P02 10 /50\n"}
+,{"stream_name":"stdout","time":649.821900898,"data":"CLASSIFIER svm_linear loso_P02 10 /50\n"}
+,{"stream_name":"stdout","time":687.817284341,"data":"CLASSIFIER svm_linear loso_P02 20 /50\n"}
+,{"stream_name":"stdout","time":688.041548364,"data":"CLASSIFIER svm_linear loso_P02 20 /50\n"}
+,{"stream_name":"stdout","time":706.26472951,"data":"FEATURES loso_P03 10 /50\n"}
+,{"stream_name":"stdout","time":706.467864804,"data":"FEATURES loso_P03 10 /50\n"}
+,{"stream_name":"stdout","time":721.906464721,"data":"CLASSIFIER svm_linear loso_P02 30 /50\n"}
+,{"stream_name":"stdout","time":722.130078425,"data":"CLASSIFIER svm_linear loso_P02 30 /50\n"}
+,{"stream_name":"stdout","time":742.614597781,"data":"CLASSIFIER svm_linear loso_P02 40 /50\n"}
+,{"stream_name":"stdout","time":742.818757777,"data":"CLASSIFIER svm_linear loso_P02 40 /50\n"}
+,{"stream_name":"stdout","time":767.449904172,"data":"CLASSIFIER svm_linear loso_P02 50 /50\n"}
+,{"stream_name":"stdout","time":767.491431315,"data":"DONE MODEL svm_linear loso_P02 session= 0.63360588 cell= 0.63493504 seconds= 142.7\n"}
+,{"stream_name":"stdout","time":767.66829163,"data":"CLASSIFIER svm_linear loso_P02 50 /50\n"}
+,{"stream_name":"stdout","time":767.668352647,"data":"DONE MODEL svm_linear loso_P02 session= 0.63360588 cell= 0.63493504 seconds= 142.7\n"}
+,{"stream_name":"stdout","time":780.197818125,"data":"FEATURES loso_P03 20 /50\n"}
+,{"stream_name":"stdout","time":780.401216431,"data":"FEATURES loso_P03 20 /50\n"}
+,{"stream_name":"stdout","time":798.745772695,"data":"CLASSIFIER svm_rbf loso_P02 10 /50\n"}
+,{"stream_name":"stdout","time":798.963741801,"data":"CLASSIFIER svm_rbf loso_P02 10 /50\n"}
+,{"stream_name":"stdout","time":846.397952506,"data":"CLASSIFIER svm_rbf loso_P02 20 /50\n"}
+,{"stream_name":"stdout","time":846.619716862,"data":"CLASSIFIER svm_rbf loso_P02 20 /50\n"}
+,{"stream_name":"stdout","time":854.215336521,"data":"FEATURES loso_P03 30 /50\n"}
+,{"stream_name":"stdout","time":854.419337492,"data":"FEATURES loso_P03 30 /50\n"}
+,{"stream_name":"stdout","time":890.66245619,"data":"CLASSIFIER svm_rbf loso_P02 30 /50\n"}
+,{"stream_name":"stdout","time":890.879913426,"data":"CLASSIFIER svm_rbf loso_P02 30 /50\n"}
+,{"stream_name":"stdout","time":919.403656653,"data":"CLASSIFIER svm_rbf loso_P02 40 /50\n"}
+,{"stream_name":"stdout","time":919.608174579,"data":"CLASSIFIER svm_rbf loso_P02 40 /50\n"}
+,{"stream_name":"stdout","time":927.073642434,"data":"FEATURES loso_P03 40 /50\n"}
+,{"stream_name":"stdout","time":927.295465641,"data":"FEATURES loso_P03 40 /50\n"}
+,{"stream_name":"stdout","time":947.685658851,"data":"CLASSIFIER svm_rbf loso_P02 50 /50\n"}
+,{"stream_name":"stdout","time":947.719470175,"data":"DONE MODEL svm_rbf loso_P02 session= 0.60714286 cell= 0.6078405 seconds= 180.2\n"}
+,{"stream_name":"stdout","time":947.889016269,"data":"CLASSIFIER svm_rbf loso_P02 50 /50\n"}
+,{"stream_name":"stdout","time":947.889114117,"data":"DONE MODEL svm_rbf loso_P02 session= 0.60714286 cell= 0.6078405 seconds= 180.2\n"}
+,{"stream_name":"stdout","time":953.811163998,"data":"CLASSIFIER lda_lw loso_P02 10 /50\n"}
+,{"stream_name":"stdout","time":954.014495221,"data":"CLASSIFIER lda_lw loso_P02 10 /50\n"}
+,{"stream_name":"stdout","time":959.698694838,"data":"CLASSIFIER lda_lw loso_P02 20 /50\n"}
+,{"stream_name":"stdout","time":959.920805843,"data":"CLASSIFIER lda_lw loso_P02 20 /50\n"}
+,{"stream_name":"stdout","time":967.032163216,"data":"CLASSIFIER lda_lw loso_P02 30 /50\n"}
+,{"stream_name":"stdout","time":967.23531377,"data":"CLASSIFIER lda_lw loso_P02 30 /50\n"}
+,{"stream_name":"stdout","time":974.001872336,"data":"CLASSIFIER lda_lw loso_P02 40 /50\n"}
+,{"stream_name":"stdout","time":974.206641377,"data":"CLASSIFIER lda_lw loso_P02 40 /50\n"}
+,{"stream_name":"stdout","time":977.589773208,"data":"CLASSIFIER elasticnet loso_P01 10 /50\n"}
+,{"stream_name":"stdout","time":977.792592533,"data":"CLASSIFIER elasticnet loso_P01 10 /50\n"}
+,{"stream_name":"stdout","time":981.178691294,"data":"CLASSIFIER lda_lw loso_P02 50 /50\n"}
+,{"stream_name":"stdout","time":981.223424635,"data":"DONE MODEL lda_lw loso_P02 session= 0.61865026 cell= 0.6203293 seconds= 33.4\n"}
+,{"stream_name":"stdout","time":981.385804156,"data":"CLASSIFIER lda_lw loso_P02 50 /50\n"}
+,{"stream_name":"stdout","time":981.38584653,"data":"DONE MODEL lda_lw loso_P02 session= 0.61865026 cell= 0.6203293 seconds= 33.4\n"}
+,{"stream_name":"stdout","time":984.91473292,"data":"CLASSIFIER ridge loso_P02 10 /50\n"}
+,{"stream_name":"stdout","time":985.118093927,"data":"CLASSIFIER ridge loso_P02 10 /50\n"}
+,{"stream_name":"stdout","time":988.647075004,"data":"CLASSIFIER ridge loso_P02 20 /50\n"}
+,{"stream_name":"stdout","time":988.850363249,"data":"CLASSIFIER ridge loso_P02 20 /50\n"}
+,{"stream_name":"stdout","time":992.447890636,"data":"CLASSIFIER ridge loso_P02 30 /50\n"}
+,{"stream_name":"stdout","time":992.669530481,"data":"CLASSIFIER ridge loso_P02 30 /50\n"}
+,{"stream_name":"stdout","time":995.574956023,"data":"CLASSIFIER ridge loso_P02 40 /50\n"}
+,{"stream_name":"stdout","time":995.778323899,"data":"CLASSIFIER ridge loso_P02 40 /50\n"}
+,{"stream_name":"stdout","time":999.15271515,"data":"CLASSIFIER ridge loso_P02 50 /50\n"}
+,{"stream_name":"stdout","time":999.203733916,"data":"DONE MODEL ridge loso_P02 session= 0.48610044 cell= 0.48686156 seconds= 17.9\n"}
+,{"stream_name":"stdout","time":999.356193387,"data":"CLASSIFIER ridge loso_P02 50 /50\n"}
+,{"stream_name":"stdout","time":999.356292109,"data":"DONE MODEL ridge loso_P02 session= 0.48610044 cell= 0.48686156 seconds= 17.9\n"}
+,{"stream_name":"stdout","time":1000.709330772,"data":"FEATURES loso_P03 50 /50\n"}
+,{"stream_name":"stdout","time":1000.913316048,"data":"FEATURES loso_P03 50 /50\n"}
+,{"stream_name":"stdout","time":1004.465822274,"data":"DONE FEATURES loso_P03 372.63 s\n"}
+,{"stream_name":"stdout","time":1004.670027737,"data":"DONE FEATURES loso_P03 372.63 s\n"}
+,{"stream_name":"stdout","time":1006.541556017,"data":"CLASSIFIER baseline loso_P03 10 /50\n"}
+,{"stream_name":"stdout","time":1006.745252797,"data":"CLASSIFIER baseline loso_P03 10 /50\n"}
+,{"stream_name":"stdout","time":1008.674769393,"data":"CLASSIFIER baseline loso_P03 20 /50\n"}
+,{"stream_name":"stdout","time":1008.878106685,"data":"CLASSIFIER baseline loso_P03 20 /50\n"}
+,{"stream_name":"stdout","time":1010.919156132,"data":"CLASSIFIER baseline loso_P03 30 /50\n"}
+,{"stream_name":"stdout","time":1011.122316847,"data":"CLASSIFIER baseline loso_P03 30 /50\n"}
+,{"stream_name":"stdout","time":1012.188891535,"data":"CLASSIFIER baseline loso_P03 40 /50\n"}
+,{"stream_name":"stdout","time":1012.393341796,"data":"CLASSIFIER baseline loso_P03 40 /50\n"}
+,{"stream_name":"stdout","time":1013.373748554,"data":"CLASSIFIER baseline loso_P03 50 /50\n"}
+,{"stream_name":"stdout","time":1013.392887396,"data":"DONE MODEL baseline loso_P03 session= 0.41764806 cell= 0.41627464 seconds= 8.9\n"}
+,{"stream_name":"stdout","time":1013.579612319,"data":"CLASSIFIER baseline loso_P03 50 /50\n"}
+,{"stream_name":"stdout","time":1013.579656134,"data":"DONE MODEL baseline loso_P03 session= 0.41764806 cell= 0.41627464 seconds= 8.9\n"}
+,{"stream_name":"stdout","time":1017.178522159,"data":"DONE MODEL mlp loso_P03 session= 0.40168704 cell= 0.40064964 seconds= 3.0\n"}
+,{"stream_name":"stdout","time":1017.204305453,"data":"START FEATURES loso_P05 1710 190\n"}
+,{"stream_name":"stdout","time":1017.38234304,"data":"DONE MODEL mlp loso_P03 session= 0.40168704 cell= 0.40064964 seconds= 3.0\n"}
+,{"stream_name":"stdout","time":1017.382399516,"data":"START FEATURES loso_P05 1710 190\n"}
+,{"stream_name":"stdout","time":1094.586399668,"data":"FEATURES loso_P05 10 /50\n"}
+,{"stream_name":"stdout","time":1094.807419952,"data":"FEATURES loso_P05 10 /50\n"}
+,{"stream_name":"stdout","time":1168.646772879,"data":"FEATURES loso_P05 20 /50\n"}
+,{"stream_name":"stdout","time":1168.87056575,"data":"FEATURES loso_P05 20 /50\n"}
+,{"stream_name":"stdout","time":1241.666806122,"data":"FEATURES loso_P05 30 /50\n"}
+,{"stream_name":"stdout","time":1241.894833155,"data":"FEATURES loso_P05 30 /50\n"}
+,{"stream_name":"stdout","time":1313.586700561,"data":"FEATURES loso_P05 40 /50\n"}
+,{"stream_name":"stdout","time":1313.807561219,"data":"FEATURES loso_P05 40 /50\n"}
+,{"stream_name":"stdout","time":1342.070455699,"data":"CLASSIFIER elasticnet loso_P02 10 /50\n"}
+,{"stream_name":"stdout","time":1342.27135249,"data":"CLASSIFIER elasticnet loso_P02 10 /50\n"}
+,{"stream_name":"stdout","time":1385.760414209,"data":"FEATURES loso_P05 50 /50\n"}
+,{"stream_name":"stdout","time":1385.987551145,"data":"FEATURES loso_P05 50 /50\n"}
+,{"stream_name":"stdout","time":1389.474441715,"data":"DONE FEATURES loso_P05 368.8 s\n"}
+,{"stream_name":"stdout","time":1389.67729276,"data":"DONE FEATURES loso_P05 368.8 s\n"}
+,{"stream_name":"stdout","time":1391.692803178,"data":"CLASSIFIER baseline loso_P05 10 /50\n"}
+,{"stream_name":"stdout","time":1391.896036265,"data":"CLASSIFIER baseline loso_P05 10 /50\n"}
+,{"stream_name":"stdout","time":1393.922212029,"data":"CLASSIFIER baseline loso_P05 20 /50\n"}
+,{"stream_name":"stdout","time":1394.125416588,"data":"CLASSIFIER baseline loso_P05 20 /50\n"}
+,{"stream_name":"stdout","time":1396.362712858,"data":"CLASSIFIER baseline loso_P05 30 /50\n"}
+,{"stream_name":"stdout","time":1396.56589566,"data":"CLASSIFIER baseline loso_P05 30 /50\n"}
+,{"stream_name":"stdout","time":1398.352030052,"data":"CLASSIFIER baseline loso_P05 40 /50\n"}
+,{"stream_name":"stdout","time":1398.555776255,"data":"CLASSIFIER baseline loso_P05 40 /50\n"}
+,{"stream_name":"stdout","time":1400.513455551,"data":"CLASSIFIER baseline loso_P05 50 /50\n"}
+,{"stream_name":"stdout","time":1400.567000827,"data":"DONE MODEL baseline loso_P05 session= 0.39988426 cell= 0.4000336 seconds= 11.0\n"}
+,{"stream_name":"stdout","time":1400.715681611,"data":"CLASSIFIER baseline loso_P05 50 /50\n"}
+,{"stream_name":"stdout","time":1400.715734,"data":"DONE MODEL baseline loso_P05 session= 0.39988426 cell= 0.4000336 seconds= 11.0\n"}
+,{"stream_name":"stdout","time":1404.522554033,"data":"DONE MODEL mlp loso_P05 session= 0.35780423 cell= 0.35752688 seconds= 3.1\n"}
+,{"stream_name":"stdout","time":1404.545076725,"data":"START FEATURES loso_P06 1713 187\n"}
+,{"stream_name":"stdout","time":1404.72565528,"data":"DONE MODEL mlp loso_P05 session= 0.35780423 cell= 0.35752688 seconds= 3.1\n"}
+,{"stream_name":"stdout","time":1404.725743843,"data":"START FEATURES loso_P06 1713 187\n"}
+,{"stream_name":"stdout","time":1482.567408992,"data":"FEATURES loso_P06 10 /50\n"}
+,{"stream_name":"stdout","time":1482.797648755,"data":"FEATURES loso_P06 10 /50\n"}
+,{"stream_name":"stdout","time":1553.707887179,"data":"FEATURES loso_P06 20 /50\n"}
+,{"stream_name":"stdout","time":1553.933328283,"data":"FEATURES loso_P06 20 /50\n"}
+,{"stream_name":"stdout","time":1624.940994662,"data":"FEATURES loso_P06 30 /50\n"}
+,{"stream_name":"stdout","time":1625.169469848,"data":"FEATURES loso_P06 30 /50\n"}
+,{"stream_name":"stdout","time":1696.82872924,"data":"FEATURES loso_P06 40 /50\n"}
+,{"stream_name":"stdout","time":1697.056572627,"data":"FEATURES loso_P06 40 /50\n"}
+,{"stream_name":"stdout","time":1705.169999497,"data":"CLASSIFIER elasticnet loso_P03 10 /50\n"}
+,{"stream_name":"stdout","time":1705.373946902,"data":"CLASSIFIER elasticnet loso_P03 10 /50\n"}
+,{"stream_name":"stdout","time":1745.797641607,"data":"CLASSIFIER elasticnet loso_P01 20 /50\n"}
+,{"stream_name":"stdout","time":1746.028531661,"data":"CLASSIFIER elasticnet loso_P01 20 /50\n"}
+,{"stream_name":"stdout","time":1770.546024891,"data":"FEATURES loso_P06 50 /50\n"}
+,{"stream_name":"stdout","time":1770.749107664,"data":"FEATURES loso_P06 50 /50\n"}
+,{"stream_name":"stdout","time":1774.315473938,"data":"DONE FEATURES loso_P06 366.23 s\n"}
+,{"stream_name":"stdout","time":1774.518328034,"data":"DONE FEATURES loso_P06 366.23 s\n"}
+,{"stream_name":"stdout","time":1776.422772712,"data":"CLASSIFIER baseline loso_P06 10 /50\n"}
+,{"stream_name":"stdout","time":1776.650600046,"data":"CLASSIFIER baseline loso_P06 10 /50\n"}
+,{"stream_name":"stdout","time":1778.430403084,"data":"CLASSIFIER baseline loso_P06 20 /50\n"}
+,{"stream_name":"stdout","time":1778.633299792,"data":"CLASSIFIER baseline loso_P06 20 /50\n"}
+,{"stream_name":"stdout","time":1780.547719429,"data":"CLASSIFIER baseline loso_P06 30 /50\n"}
+,{"stream_name":"stdout","time":1780.749609396,"data":"CLASSIFIER baseline loso_P06 30 /50\n"}
+,{"stream_name":"stdout","time":1782.347536963,"data":"CLASSIFIER baseline loso_P06 40 /50\n"}
+,{"stream_name":"stdout","time":1782.551774387,"data":"CLASSIFIER baseline loso_P06 40 /50\n"}
+,{"stream_name":"stdout","time":1784.284254645,"data":"CLASSIFIER baseline loso_P06 50 /50\n"}
+,{"stream_name":"stdout","time":1784.334342882,"data":"DONE MODEL baseline loso_P06 session= 0.54045059 cell= 0.54125224 seconds= 9.9\n"}
+,{"stream_name":"stdout","time":1784.487646326,"data":"CLASSIFIER baseline loso_P06 50 /50\n"}
+,{"stream_name":"stdout","time":1784.4877406,"data":"DONE MODEL baseline loso_P06 session= 0.54045059 cell= 0.54125224 seconds= 9.9\n"}
+,{"stream_name":"stdout","time":1788.182491561,"data":"DONE MODEL mlp loso_P06 session= 0.55615293 cell= 0.55703405 seconds= 3.0\n"}
+,{"stream_name":"stdout","time":1788.20716831,"data":"START FEATURES loso_P07 1711 189\n"}
+,{"stream_name":"stdout","time":1788.390452608,"data":"DONE MODEL mlp loso_P06 session= 0.55615293 cell= 0.55703405 seconds= 3.0\n"}
+,{"stream_name":"stdout","time":1788.390520923,"data":"START FEATURES loso_P07 1711 189\n"}
+,{"stream_name":"stdout","time":1865.296865845,"data":"FEATURES loso_P07 10 /50\n"}
+,{"stream_name":"stdout","time":1865.52415045,"data":"FEATURES loso_P07 10 /50\n"}
+,{"stream_name":"stdout","time":1938.716652399,"data":"FEATURES loso_P07 20 /50\n"}
+,{"stream_name":"stdout","time":1938.948558983,"data":"FEATURES loso_P07 20 /50\n"}
+,{"stream_name":"stdout","time":2014.176443223,"data":"FEATURES loso_P07 30 /50\n"}
+,{"stream_name":"stdout","time":2014.403772685,"data":"FEATURES loso_P07 30 /50\n"}
+,{"stream_name":"stdout","time":2038.641456876,"data":"CLASSIFIER elasticnet loso_P02 20 /50\n"}
+,{"stream_name":"stdout","time":2038.845489721,"data":"CLASSIFIER elasticnet loso_P02 20 /50\n"}
+,{"stream_name":"stdout","time":2086.040616796,"data":"FEATURES loso_P07 40 /50\n"}
+,{"stream_name":"stdout","time":2086.267304488,"data":"FEATURES loso_P07 40 /50\n"}
+,{"stream_name":"stdout","time":2160.111503521,"data":"FEATURES loso_P07 50 /50\n"}
+,{"stream_name":"stdout","time":2160.343145045,"data":"FEATURES loso_P07 50 /50\n"}
+,{"stream_name":"stdout","time":2163.996641757,"data":"DONE FEATURES loso_P07 372.13 s\n"}
+,{"stream_name":"stdout","time":2164.200510078,"data":"DONE FEATURES loso_P07 372.13 s\n"}
+,{"stream_name":"stdout","time":2166.159477202,"data":"CLASSIFIER baseline loso_P07 10 /50\n"}
+,{"stream_name":"stdout","time":2166.363071718,"data":"CLASSIFIER baseline loso_P07 10 /50\n"}
+,{"stream_name":"stdout","time":2168.293943467,"data":"CLASSIFIER baseline loso_P07 20 /50\n"}
+,{"stream_name":"stdout","time":2168.498338935,"data":"CLASSIFIER baseline loso_P07 20 /50\n"}
+,{"stream_name":"stdout","time":2170.648662951,"data":"CLASSIFIER baseline loso_P07 30 /50\n"}
+,{"stream_name":"stdout","time":2170.851530139,"data":"CLASSIFIER baseline loso_P07 30 /50\n"}
+,{"stream_name":"stdout","time":2172.537771174,"data":"CLASSIFIER baseline loso_P07 40 /50\n"}
+,{"stream_name":"stdout","time":2172.740646159,"data":"CLASSIFIER baseline loso_P07 40 /50\n"}
+,{"stream_name":"stdout","time":2174.580616125,"data":"CLASSIFIER baseline loso_P07 50 /50\n"}
+,{"stream_name":"stdout","time":2174.627458763,"data":"DONE MODEL baseline loso_P07 session= 0.75062404 cell= 0.75145609 seconds= 10.5\n"}
+,{"stream_name":"stdout","time":2174.784760546,"data":"CLASSIFIER baseline loso_P07 50 /50\n"}
+,{"stream_name":"stdout","time":2174.784850341,"data":"DONE MODEL baseline loso_P07 session= 0.75062404 cell= 0.75145609 seconds= 10.5\n"}
+,{"stream_name":"stdout","time":2178.545147617,"data":"DONE MODEL mlp loso_P07 session= 0.73457768 cell= 0.73495744 seconds= 3.1\n"}
+,{"stream_name":"stdout","time":2178.568448865,"data":"START FEATURES loso_P08 1711 189\n"}
+,{"stream_name":"stdout","time":2178.751563697,"data":"DONE MODEL mlp loso_P07 session= 0.73457768 cell= 0.73495744 seconds= 3.1\n"}
+,{"stream_name":"stdout","time":2178.751656843,"data":"START FEATURES loso_P08 1711 189\n"}
+,{"stream_name":"stdout","time":2257.039834571,"data":"FEATURES loso_P08 10 /50\n"}
+,{"stream_name":"stdout","time":2257.269087418,"data":"FEATURES loso_P08 10 /50\n"}
+,{"stream_name":"stdout","time":2329.861648661,"data":"FEATURES loso_P08 20 /50\n"}
+,{"stream_name":"stdout","time":2330.08885468,"data":"FEATURES loso_P08 20 /50\n"}
+,{"stream_name":"stdout","time":2354.426620304,"data":"CLASSIFIER elasticnet loso_P03 20 /50\n"}
+,{"stream_name":"stdout","time":2354.630516489,"data":"CLASSIFIER elasticnet loso_P03 20 /50\n"}
+,{"stream_name":"stdout","time":2404.595728108,"data":"FEATURES loso_P08 30 /50\n"}
+,{"stream_name":"stdout","time":2404.825999104,"data":"FEATURES loso_P08 30 /50\n"}
+,{"stream_name":"stdout","time":2478.59177846,"data":"FEATURES loso_P08 40 /50\n"}
+,{"stream_name":"stdout","time":2478.820390394,"data":"FEATURES loso_P08 40 /50\n"}
+,{"stream_name":"stdout","time":2552.905362343,"data":"FEATURES loso_P08 50 /50\n"}
+,{"stream_name":"stdout","time":2553.13742012,"data":"FEATURES loso_P08 50 /50\n"}
+,{"stream_name":"stdout","time":2556.582068763,"data":"DONE FEATURES loso_P08 374.56 s\n"}
+,{"stream_name":"stdout","time":2556.785029793,"data":"DONE FEATURES loso_P08 374.56 s\n"}
+,{"stream_name":"stdout","time":2558.613386609,"data":"CLASSIFIER baseline loso_P08 10 /50\n"}
+,{"stream_name":"stdout","time":2558.816707835,"data":"CLASSIFIER baseline loso_P08 10 /50\n"}
+,{"stream_name":"stdout","time":2560.663479674,"data":"CLASSIFIER baseline loso_P08 20 /50\n"}
+,{"stream_name":"stdout","time":2560.864110082,"data":"CLASSIFIER baseline loso_P08 20 /50\n"}
+,{"stream_name":"stdout","time":2562.812155897,"data":"CLASSIFIER baseline loso_P08 30 /50\n"}
+,{"stream_name":"stdout","time":2563.017468262,"data":"CLASSIFIER baseline loso_P08 30 /50\n"}
+,{"stream_name":"stdout","time":2564.496529148,"data":"CLASSIFIER baseline loso_P08 40 /50\n"}
+,{"stream_name":"stdout","time":2564.699995723,"data":"CLASSIFIER baseline loso_P08 40 /50\n"}
+,{"stream_name":"stdout","time":2566.535824313,"data":"CLASSIFIER baseline loso_P08 50 /50\n"}
+,{"stream_name":"stdout","time":2566.576851755,"data":"DONE MODEL baseline loso_P08 session= 0.72673184 cell= 0.72708333 seconds= 9.9\n"}
+,{"stream_name":"stdout","time":2566.739171266,"data":"CLASSIFIER baseline loso_P08 50 /50\n"}
+,{"stream_name":"stdout","time":2566.739215321,"data":"DONE MODEL baseline loso_P08 session= 0.72673184 cell= 0.72708333 seconds= 9.9\n"}
+,{"stream_name":"stdout","time":2570.328583609,"data":"DONE MODEL mlp loso_P08 session= 0.69993546 cell= 0.70087366 seconds= 3.0\n"}
+,{"stream_name":"stdout","time":2570.352146507,"data":"START FEATURES loso_P10 1323 577\n"}
+,{"stream_name":"stdout","time":2570.532517299,"data":"DONE MODEL mlp loso_P08 session= 0.69993546 cell= 0.70087366 seconds= 3.0\n"}
+,{"stream_name":"stdout","time":2570.532555066,"data":"START FEATURES loso_P10 1323 577\n"}
+,{"stream_name":"stdout","time":2590.486244178,"data":"CLASSIFIER elasticnet loso_P01 30 /50\n"}
+,{"stream_name":"stdout","time":2590.716712114,"data":"CLASSIFIER elasticnet loso_P01 30 /50\n"}
+,{"stream_name":"stdout","time":2645.558601052,"data":"FEATURES loso_P10 10 /50\n"}
+,{"stream_name":"stdout","time":2645.792301488,"data":"FEATURES loso_P10 10 /50\n"}
+,{"stream_name":"stdout","time":2718.944425064,"data":"FEATURES loso_P10 20 /50\n"}
+,{"stream_name":"stdout","time":2719.174576452,"data":"FEATURES loso_P10 20 /50\n"}
+,{"stream_name":"stdout","time":2792.229702131,"data":"FEATURES loso_P10 30 /50\n"}
+,{"stream_name":"stdout","time":2792.462937618,"data":"FEATURES loso_P10 30 /50\n"}
+,{"stream_name":"stdout","time":2865.977354622,"data":"FEATURES loso_P10 40 /50\n"}
+,{"stream_name":"stdout","time":2866.209172266,"data":"FEATURES loso_P10 40 /50\n"}
+,{"stream_name":"stdout","time":2916.516727602,"data":"CLASSIFIER elasticnet loso_P02 30 /50\n"}
+,{"stream_name":"stdout","time":2916.744904308,"data":"CLASSIFIER elasticnet loso_P02 30 /50\n"}
+,{"stream_name":"stdout","time":2940.053989129,"data":"FEATURES loso_P10 50 /50\n"}
+,{"stream_name":"stdout","time":2940.259475697,"data":"FEATURES loso_P10 50 /50\n"}
+,{"stream_name":"stdout","time":2943.946461429,"data":"DONE FEATURES loso_P10 369.91 s\n"}
+,{"stream_name":"stdout","time":2944.149864054,"data":"DONE FEATURES loso_P10 369.91 s\n"}
+,{"stream_name":"stdout","time":2945.576432178,"data":"CLASSIFIER baseline loso_P10 10 /50\n"}
+,{"stream_name":"stdout","time":2945.778997779,"data":"CLASSIFIER baseline loso_P10 10 /50\n"}
+,{"stream_name":"stdout","time":2947.162216142,"data":"CLASSIFIER baseline loso_P10 20 /50\n"}
+,{"stream_name":"stdout","time":2947.395583045,"data":"CLASSIFIER baseline loso_P10 20 /50\n"}
+,{"stream_name":"stdout","time":2948.854754538,"data":"CLASSIFIER baseline loso_P10 30 /50\n"}
+,{"stream_name":"stdout","time":2949.057293785,"data":"CLASSIFIER baseline loso_P10 30 /50\n"}
+,{"stream_name":"stdout","time":2950.484412105,"data":"CLASSIFIER baseline loso_P10 40 /50\n"}
+,{"stream_name":"stdout","time":2950.687621886,"data":"CLASSIFIER baseline loso_P10 40 /50\n"}
+,{"stream_name":"stdout","time":2952.299610274,"data":"CLASSIFIER baseline loso_P10 50 /50\n"}
+,{"stream_name":"stdout","time":2952.405679787,"data":"DONE MODEL baseline loso_P10 session= 0.45954385 cell= 0.45835978 seconds= 8.3\n"}
+,{"stream_name":"stdout","time":2952.503149276,"data":"CLASSIFIER baseline loso_P10 50 /50\n"}
+,{"stream_name":"stdout","time":2952.503201378,"data":"DONE MODEL baseline loso_P10 session= 0.45954385 cell= 0.45835978 seconds= 8.3\n"}
+,{"stream_name":"stdout","time":2956.041421616,"data":"DONE MODEL mlp loso_P10 session= 0.44042169 cell= 0.4394392 seconds= 2.6\n"}
+,{"stream_name":"stdout","time":2956.063178903,"data":"START FEATURES later_last 1701 199\n"}
+,{"stream_name":"stdout","time":2956.245459382,"data":"DONE MODEL mlp loso_P10 session= 0.44042169 cell= 0.4394392 seconds= 2.6\n"}
+,{"stream_name":"stdout","time":2956.245534625,"data":"START FEATURES later_last 1701 199\n"}
+,{"stream_name":"stdout","time":3033.395341773,"data":"FEATURES later_last 10 /50\n"}
+,{"stream_name":"stdout","time":3033.626007609,"data":"FEATURES later_last 10 /50\n"}
+,{"stream_name":"stdout","time":3106.857735938,"data":"FEATURES later_last 20 /50\n"}
+,{"stream_name":"stdout","time":3107.0939573,"data":"FEATURES later_last 20 /50\n"}
+,{"stream_name":"stdout","time":3154.036645977,"data":"CLASSIFIER elasticnet loso_P03 30 /50\n"}
+,{"stream_name":"stdout","time":3154.27248575,"data":"CLASSIFIER elasticnet loso_P03 30 /50\n"}
+,{"stream_name":"stdout","time":3182.398600443,"data":"FEATURES later_last 30 /50\n"}
+,{"stream_name":"stdout","time":3182.602410691,"data":"FEATURES later_last 30 /50\n"}
+,{"stream_name":"stdout","time":3258.645041448,"data":"FEATURES later_last 40 /50\n"}
+,{"stream_name":"stdout","time":3258.879147613,"data":"FEATURES later_last 40 /50\n"}
+,{"stream_name":"stdout","time":3331.258385218,"data":"FEATURES later_last 50 /50\n"}
+,{"stream_name":"stdout","time":3331.49185441,"data":"FEATURES later_last 50 /50\n"}
+,{"stream_name":"stdout","time":3334.932100878,"data":"DONE FEATURES later_last 375.49 s\n"}
+,{"stream_name":"stdout","time":3335.075633907,"data":"CLASSIFIER elasticnet loso_P01 40 /50\n"}
+,{"stream_name":"stdout","time":3335.135393252,"data":"DONE FEATURES later_last 375.49 s\n"}
+,{"stream_name":"stdout","time":3335.135477612,"data":"CLASSIFIER elasticnet loso_P01 40 /50\n"}
+,{"stream_name":"stdout","time":3337.09547986,"data":"CLASSIFIER baseline later_last 10 /50\n"}
+,{"stream_name":"stdout","time":3337.296796128,"data":"CLASSIFIER baseline later_last 10 /50\n"}
+,{"stream_name":"stdout","time":3339.081722055,"data":"CLASSIFIER baseline later_last 20 /50\n"}
+,{"stream_name":"stdout","time":3339.287359475,"data":"CLASSIFIER baseline later_last 20 /50\n"}
+,{"stream_name":"stdout","time":3340.965134382,"data":"CLASSIFIER baseline later_last 30 /50\n"}
+,{"stream_name":"stdout","time":3341.166513749,"data":"CLASSIFIER baseline later_last 30 /50\n"}
+,{"stream_name":"stdout","time":3342.890078302,"data":"CLASSIFIER baseline later_last 40 /50\n"}
+,{"stream_name":"stdout","time":3343.093150683,"data":"CLASSIFIER baseline later_last 40 /50\n"}
+,{"stream_name":"stdout","time":3344.624842263,"data":"CLASSIFIER baseline later_last 50 /50\n"}
+,{"stream_name":"stdout","time":3344.668121336,"data":"DONE MODEL baseline later_last session= 0.72372984 cell= 0.72184874 seconds= 9.7\n"}
+,{"stream_name":"stdout","time":3344.827827052,"data":"CLASSIFIER baseline later_last 50 /50\n"}
+,{"stream_name":"stdout","time":3344.827928534,"data":"DONE MODEL baseline later_last session= 0.72372984 cell= 0.72184874 seconds= 9.7\n"}
+,{"stream_name":"stdout","time":3348.485012112,"data":"DONE MODEL mlp later_last session= 0.73375547 cell= 0.73167892 seconds= 3.0\n"}
+,{"stream_name":"stdout","time":3348.688007415,"data":"DONE MODEL mlp later_last session= 0.73375547 cell= 0.73167892 seconds= 3.0\n"}
+,{"stream_name":"stdout","time":3654.785418921,"data":"CLASSIFIER elasticnet loso_P02 40 /50\n"}
+,{"stream_name":"stdout","time":3655.004949257,"data":"CLASSIFIER elasticnet loso_P02 40 /50\n"}
+,{"stream_name":"stdout","time":3820.026406495,"data":"CLASSIFIER elasticnet loso_P03 40 /50\n"}
+,{"stream_name":"stdout","time":3820.243942291,"data":"CLASSIFIER elasticnet loso_P03 40 /50\n"}
+,{"stream_name":"stdout","time":3964.590554144,"data":"CLASSIFIER elasticnet loso_P01 50 /50\n"}
+,{"stream_name":"stdout","time":3964.614738724,"data":"DONE MODEL elasticnet loso_P01 session= 0.52075066 cell= 0.52083333 seconds= 3642.1\n"}
+,{"stream_name":"stdout","time":3964.809229088,"data":"CLASSIFIER elasticnet loso_P01 50 /50\n"}
+,{"stream_name":"stdout","time":3964.809384187,"data":"DONE MODEL elasticnet loso_P01 session= 0.52075066 cell= 0.52083333 seconds= 3642.1\n"}
+,{"stream_name":"stdout","time":3988.272010257,"data":"CLASSIFIER svm_linear loso_P03 10 /50\n"}
+,{"stream_name":"stdout","time":3988.475469206,"data":"CLASSIFIER svm_linear loso_P03 10 /50\n"}
+,{"stream_name":"stdout","time":4017.504990631,"data":"CLASSIFIER svm_linear loso_P03 20 /50\n"}
+,{"stream_name":"stdout","time":4017.722931749,"data":"CLASSIFIER svm_linear loso_P03 20 /50\n"}
+,{"stream_name":"stdout","time":4042.870537719,"data":"CLASSIFIER svm_linear loso_P03 30 /50\n"}
+,{"stream_name":"stdout","time":4043.074568103,"data":"CLASSIFIER svm_linear loso_P03 30 /50\n"}
+,{"stream_name":"stdout","time":4063.103217798,"data":"CLASSIFIER svm_linear loso_P03 40 /50\n"}
+,{"stream_name":"stdout","time":4063.324240385,"data":"CLASSIFIER svm_linear loso_P03 40 /50\n"}
+,{"stream_name":"stdout","time":4084.697477788,"data":"CLASSIFIER svm_linear loso_P03 50 /50\n"}
+,{"stream_name":"stdout","time":4084.748473092,"data":"DONE MODEL svm_linear loso_P03 session= 0.4813028 cell= 0.47942428 seconds= 120.1\n"}
+,{"stream_name":"stdout","time":4084.900791025,"data":"CLASSIFIER svm_linear loso_P03 50 /50\n"}
+,{"stream_name":"stdout","time":4084.90089552,"data":"DONE MODEL svm_linear loso_P03 session= 0.4813028 cell= 0.47942428 seconds= 120.1\n"}
+,{"stream_name":"stdout","time":4107.159430516,"data":"CLASSIFIER svm_rbf loso_P03 10 /50\n"}
+,{"stream_name":"stdout","time":4107.376552175,"data":"CLASSIFIER svm_rbf loso_P03 10 /50\n"}
+,{"stream_name":"stdout","time":4142.316580953,"data":"CLASSIFIER svm_rbf loso_P03 20 /50\n"}
+,{"stream_name":"stdout","time":4142.536335381,"data":"CLASSIFIER svm_rbf loso_P03 20 /50\n"}
+,{"stream_name":"stdout","time":4170.857441409,"data":"CLASSIFIER svm_rbf loso_P03 30 /50\n"}
+,{"stream_name":"stdout","time":4171.061862598,"data":"CLASSIFIER svm_rbf loso_P03 30 /50\n"}
+,{"stream_name":"stdout","time":4200.355138355,"data":"CLASSIFIER svm_rbf loso_P03 40 /50\n"}
+,{"stream_name":"stdout","time":4200.574482236,"data":"CLASSIFIER svm_rbf loso_P03 40 /50\n"}
+,{"stream_name":"stdout","time":4233.75024896,"data":"CLASSIFIER svm_rbf loso_P03 50 /50\n"}
+,{"stream_name":"stdout","time":4233.790907483,"data":"DONE MODEL svm_rbf loso_P03 session= 0.4556905 cell= 0.45392025 seconds= 149.0\n"}
+,{"stream_name":"stdout","time":4233.97112418,"data":"CLASSIFIER svm_rbf loso_P03 50 /50\n"}
+,{"stream_name":"stdout","time":4233.971199552,"data":"DONE MODEL svm_rbf loso_P03 session= 0.4556905 cell= 0.45392025 seconds= 149.0\n"}
+,{"stream_name":"stdout","time":4241.274948796,"data":"CLASSIFIER lda_lw loso_P03 10 /50\n"}
+,{"stream_name":"stdout","time":4241.477607503,"data":"CLASSIFIER lda_lw loso_P03 10 /50\n"}
+,{"stream_name":"stdout","time":4247.6874592,"data":"CLASSIFIER lda_lw loso_P03 20 /50\n"}
+,{"stream_name":"stdout","time":4247.889497599,"data":"CLASSIFIER lda_lw loso_P03 20 /50\n"}
+,{"stream_name":"stdout","time":4254.984322371,"data":"CLASSIFIER lda_lw loso_P03 30 /50\n"}
+,{"stream_name":"stdout","time":4255.187735077,"data":"CLASSIFIER lda_lw loso_P03 30 /50\n"}
+,{"stream_name":"stdout","time":4261.652449219,"data":"CLASSIFIER lda_lw loso_P03 40 /50\n"}
+,{"stream_name":"stdout","time":4261.855989637,"data":"CLASSIFIER lda_lw loso_P03 40 /50\n"}
+,{"stream_name":"stdout","time":4268.317899264,"data":"CLASSIFIER lda_lw loso_P03 50 /50\n"}
+,{"stream_name":"stdout","time":4268.363783208,"data":"DONE MODEL lda_lw loso_P03 session= 0.44419376 cell= 0.44352599 seconds= 34.5\n"}
+,{"stream_name":"stdout","time":4268.537677058,"data":"CLASSIFIER lda_lw loso_P03 50 /50\n"}
+,{"stream_name":"stdout","time":4268.537714302,"data":"DONE MODEL lda_lw loso_P03 session= 0.44419376 cell= 0.44352599 seconds= 34.5\n"}
+,{"stream_name":"stdout","time":4271.725791944,"data":"CLASSIFIER ridge loso_P03 10 /50\n"}
+,{"stream_name":"stdout","time":4271.929043692,"data":"CLASSIFIER ridge loso_P03 10 /50\n"}
+,{"stream_name":"stdout","time":4275.332552223,"data":"CLASSIFIER ridge loso_P03 20 /50\n"}
+,{"stream_name":"stdout","time":4275.53563353,"data":"CLASSIFIER ridge loso_P03 20 /50\n"}
+,{"stream_name":"stdout","time":4278.784572538,"data":"CLASSIFIER ridge loso_P03 30 /50\n"}
+,{"stream_name":"stdout","time":4278.987759101,"data":"CLASSIFIER ridge loso_P03 30 /50\n"}
+,{"stream_name":"stdout","time":4281.48773398,"data":"CLASSIFIER ridge loso_P03 40 /50\n"}
+,{"stream_name":"stdout","time":4281.68997831,"data":"CLASSIFIER ridge loso_P03 40 /50\n"}
+,{"stream_name":"stdout","time":4283.156696504,"data":"CLASSIFIER ridge loso_P03 50 /50\n"}
+,{"stream_name":"stdout","time":4283.178314805,"data":"DONE MODEL ridge loso_P03 session= 0.41050627 cell= 0.40982303 seconds= 14.8\n"}
+,{"stream_name":"stdout","time":4283.359699429,"data":"CLASSIFIER ridge loso_P03 50 /50\n"}
+,{"stream_name":"stdout","time":4283.359747343,"data":"DONE MODEL ridge loso_P03 session= 0.41050627 cell= 0.40982303 seconds= 14.8\n"}
+,{"stream_name":"stdout","time":4301.06368184,"data":"CLASSIFIER elasticnet loso_P02 50 /50\n"}
+,{"stream_name":"stdout","time":4301.087073642,"data":"DONE MODEL elasticnet loso_P02 session= 0.54935516 cell= 0.54919355 seconds= 3676.3\n"}
+,{"stream_name":"stdout","time":4301.322355044,"data":"CLASSIFIER elasticnet loso_P02 50 /50\n"}
+,{"stream_name":"stdout","time":4301.322406962,"data":"DONE MODEL elasticnet loso_P02 session= 0.54935516 cell= 0.54919355 seconds= 3676.3\n"}
+,{"stream_name":"stdout","time":4328.131597364,"data":"CLASSIFIER svm_linear loso_P05 10 /50\n"}
+,{"stream_name":"stdout","time":4328.335012715,"data":"CLASSIFIER svm_linear loso_P05 10 /50\n"}
+,{"stream_name":"stdout","time":4361.138402964,"data":"CLASSIFIER svm_linear loso_P05 20 /50\n"}
+,{"stream_name":"stdout","time":4361.375515769,"data":"CLASSIFIER svm_linear loso_P05 20 /50\n"}
+,{"stream_name":"stdout","time":4388.333457661,"data":"CLASSIFIER svm_linear loso_P05 30 /50\n"}
+,{"stream_name":"stdout","time":4388.536828476,"data":"CLASSIFIER svm_linear loso_P05 30 /50\n"}
+,{"stream_name":"stdout","time":4402.189560696,"data":"CLASSIFIER svm_linear loso_P05 40 /50\n"}
+,{"stream_name":"stdout","time":4402.410802374,"data":"CLASSIFIER svm_linear loso_P05 40 /50\n"}
+,{"stream_name":"stdout","time":4427.85151619,"data":"CLASSIFIER svm_linear loso_P05 50 /50\n"}
+,{"stream_name":"stdout","time":4427.897830093,"data":"DONE MODEL svm_linear loso_P05 session= 0.38979828 cell= 0.39079301 seconds= 126.8\n"}
+,{"stream_name":"stdout","time":4428.054418548,"data":"CLASSIFIER svm_linear loso_P05 50 /50\n"}
+,{"stream_name":"stdout","time":4428.054501139,"data":"DONE MODEL svm_linear loso_P05 session= 0.38979828 cell= 0.39079301 seconds= 126.8\n"}
+,{"stream_name":"stdout","time":4443.211014245,"data":"CLASSIFIER elasticnet loso_P03 50 /50\n"}
+,{"stream_name":"stdout","time":4443.259272299,"data":"DONE MODEL elasticnet loso_P03 session= 0.41134633 cell= 0.41034946 seconds= 3429.8\n"}
+,{"stream_name":"stdout","time":4443.433685603,"data":"CLASSIFIER elasticnet loso_P03 50 /50\n"}
+,{"stream_name":"stdout","time":4443.43371947,"data":"DONE MODEL elasticnet loso_P03 session= 0.41134633 cell= 0.41034946 seconds= 3429.8\n"}
+,{"stream_name":"stdout","time":4450.162683329,"data":"CLASSIFIER lda_lw loso_P05 10 /50\n"}
+,{"stream_name":"stdout","time":4450.365777257,"data":"CLASSIFIER lda_lw loso_P05 10 /50\n"}
+,{"stream_name":"stdout","time":4457.551129216,"data":"CLASSIFIER lda_lw loso_P05 20 /50\n"}
+,{"stream_name":"stdout","time":4457.754443779,"data":"CLASSIFIER lda_lw loso_P05 20 /50\n"}
+,{"stream_name":"stdout","time":4460.143340013,"data":"CLASSIFIER svm_rbf loso_P05 10 /50\n"}
+,{"stream_name":"stdout","time":4460.346777111,"data":"CLASSIFIER svm_rbf loso_P05 10 /50\n"}
+,{"stream_name":"stdout","time":4463.233506323,"data":"CLASSIFIER lda_lw loso_P05 30 /50\n"}
+,{"stream_name":"stdout","time":4463.434791238,"data":"CLASSIFIER lda_lw loso_P05 30 /50\n"}
+,{"stream_name":"stdout","time":4466.91975363,"data":"CLASSIFIER lda_lw loso_P05 40 /50\n"}
+,{"stream_name":"stdout","time":4467.123357877,"data":"CLASSIFIER lda_lw loso_P05 40 /50\n"}
+,{"stream_name":"stdout","time":4470.788778344,"data":"CLASSIFIER lda_lw loso_P05 50 /50\n"}
+,{"stream_name":"stdout","time":4470.807446518,"data":"DONE MODEL lda_lw loso_P05 session= 0.40534061 cell= 0.40524194 seconds= 27.5\n"}
+,{"stream_name":"stdout","time":4470.99461458,"data":"CLASSIFIER lda_lw loso_P05 50 /50\n"}
+,{"stream_name":"stdout","time":4470.994654583,"data":"DONE MODEL lda_lw loso_P05 session= 0.40534061 cell= 0.40524194 seconds= 27.5\n"}
+,{"stream_name":"stdout","time":4474.065045543,"data":"CLASSIFIER ridge loso_P05 10 /50\n"}
+,{"stream_name":"stdout","time":4474.295143031,"data":"CLASSIFIER ridge loso_P05 10 /50\n"}
+,{"stream_name":"stdout","time":4477.874516751,"data":"CLASSIFIER ridge loso_P05 20 /50\n"}
+,{"stream_name":"stdout","time":4478.077118633,"data":"CLASSIFIER ridge loso_P05 20 /50\n"}
+,{"stream_name":"stdout","time":4481.614666122,"data":"CLASSIFIER ridge loso_P05 30 /50\n"}
+,{"stream_name":"stdout","time":4481.818507259,"data":"CLASSIFIER ridge loso_P05 30 /50\n"}
+,{"stream_name":"stdout","time":4484.779553869,"data":"CLASSIFIER ridge loso_P05 40 /50\n"}
+,{"stream_name":"stdout","time":4484.98313369,"data":"CLASSIFIER ridge loso_P05 40 /50\n"}
+,{"stream_name":"stdout","time":4488.317099659,"data":"CLASSIFIER ridge loso_P05 50 /50\n"}
+,{"stream_name":"stdout","time":4488.366380778,"data":"DONE MODEL ridge loso_P05 session= 0.39500661 cell= 0.3953293 seconds= 17.5\n"}
+,{"stream_name":"stdout","time":4488.520477282,"data":"CLASSIFIER ridge loso_P05 50 /50\n"}
+,{"stream_name":"stdout","time":4488.520551843,"data":"DONE MODEL ridge loso_P05 session= 0.39500661 cell= 0.3953293 seconds= 17.5\n"}
+,{"stream_name":"stdout","time":4496.981466966,"data":"CLASSIFIER svm_rbf loso_P05 20 /50\n"}
+,{"stream_name":"stdout","time":4497.184464343,"data":"CLASSIFIER svm_rbf loso_P05 20 /50\n"}
+,{"stream_name":"stdout","time":4537.383018887,"data":"CLASSIFIER svm_rbf loso_P05 30 /50\n"}
+,{"stream_name":"stdout","time":4537.603632989,"data":"CLASSIFIER svm_rbf loso_P05 30 /50\n"}
+,{"stream_name":"stdout","time":4563.389562953,"data":"CLASSIFIER svm_rbf loso_P05 40 /50\n"}
+,{"stream_name":"stdout","time":4563.592280245,"data":"CLASSIFIER svm_rbf loso_P05 40 /50\n"}
+,{"stream_name":"stdout","time":4590.348557603,"data":"CLASSIFIER svm_rbf loso_P05 50 /50\n"}
+,{"stream_name":"stdout","time":4590.369388778,"data":"DONE MODEL svm_rbf loso_P05 session= 0.37326389 cell= 0.37365591 seconds= 162.4\n"}
+,{"stream_name":"stdout","time":4590.56790744,"data":"CLASSIFIER svm_rbf loso_P05 50 /50\n"}
+,{"stream_name":"stdout","time":4590.567938924,"data":"DONE MODEL svm_rbf loso_P05 session= 0.37326389 cell= 0.37365591 seconds= 162.4\n"}
+,{"stream_name":"stdout","time":4619.581819279,"data":"CLASSIFIER svm_linear loso_P06 10 /50\n"}
+,{"stream_name":"stdout","time":4619.785080191,"data":"CLASSIFIER svm_linear loso_P06 10 /50\n"}
+,{"stream_name":"stdout","time":4649.838491757,"data":"CLASSIFIER svm_linear loso_P06 20 /50\n"}
+,{"stream_name":"stdout","time":4650.061884702,"data":"CLASSIFIER svm_linear loso_P06 20 /50\n"}
+,{"stream_name":"stdout","time":4681.451605886,"data":"CLASSIFIER svm_linear loso_P06 30 /50\n"}
+,{"stream_name":"stdout","time":4681.676969404,"data":"CLASSIFIER svm_linear loso_P06 30 /50\n"}
+,{"stream_name":"stdout","time":4703.668994969,"data":"CLASSIFIER svm_linear loso_P06 40 /50\n"}
+,{"stream_name":"stdout","time":4703.872719819,"data":"CLASSIFIER svm_linear loso_P06 40 /50\n"}
+,{"stream_name":"stdout","time":4727.569413294,"data":"CLASSIFIER svm_linear loso_P06 50 /50\n"}
+,{"stream_name":"stdout","time":4727.589614834,"data":"DONE MODEL svm_linear loso_P06 session= 0.50332821 cell= 0.50411066 seconds= 137.2\n"}
+,{"stream_name":"stdout","time":4727.78943503,"data":"CLASSIFIER svm_linear loso_P06 50 /50\n"}
+,{"stream_name":"stdout","time":4727.789463373,"data":"DONE MODEL svm_linear loso_P06 session= 0.50332821 cell= 0.50411066 seconds= 137.2\n"}
+,{"stream_name":"stdout","time":4754.039989402,"data":"CLASSIFIER svm_rbf loso_P06 10 /50\n"}
+,{"stream_name":"stdout","time":4754.242898085,"data":"CLASSIFIER svm_rbf loso_P06 10 /50\n"}
+,{"stream_name":"stdout","time":4790.622273591,"data":"CLASSIFIER svm_rbf loso_P06 20 /50\n"}
+,{"stream_name":"stdout","time":4790.843872665,"data":"CLASSIFIER svm_rbf loso_P06 20 /50\n"}
+,{"stream_name":"stdout","time":4833.687143199,"data":"CLASSIFIER svm_rbf loso_P06 30 /50\n"}
+,{"stream_name":"stdout","time":4833.911728785,"data":"CLASSIFIER svm_rbf loso_P06 30 /50\n"}
+,{"stream_name":"stdout","time":4865.498643618,"data":"CLASSIFIER svm_rbf loso_P06 40 /50\n"}
+,{"stream_name":"stdout","time":4865.721535625,"data":"CLASSIFIER svm_rbf loso_P06 40 /50\n"}
+,{"stream_name":"stdout","time":4893.546656095,"data":"CLASSIFIER svm_rbf loso_P06 50 /50\n"}
+,{"stream_name":"stdout","time":4893.589368938,"data":"DONE MODEL svm_rbf loso_P06 session= 0.5411333 cell= 0.54159946 seconds= 165.9\n"}
+,{"stream_name":"stdout","time":4893.749806687,"data":"CLASSIFIER svm_rbf loso_P06 50 /50\n"}
+,{"stream_name":"stdout","time":4893.74986634,"data":"DONE MODEL svm_rbf loso_P06 session= 0.5411333 cell= 0.54159946 seconds= 165.9\n"}
+,{"stream_name":"stdout","time":4900.714744268,"data":"CLASSIFIER lda_lw loso_P06 10 /50\n"}
+,{"stream_name":"stdout","time":4900.938891888,"data":"CLASSIFIER lda_lw loso_P06 10 /50\n"}
+,{"stream_name":"stdout","time":4901.151658293,"data":"CLASSIFIER elasticnet loso_P05 10 /50\n"}
+,{"stream_name":"stdout","time":4901.35682385,"data":"CLASSIFIER elasticnet loso_P05 10 /50\n"}
+,{"stream_name":"stdout","time":4908.017013245,"data":"CLASSIFIER lda_lw loso_P06 20 /50\n"}
+,{"stream_name":"stdout","time":4908.220483389,"data":"CLASSIFIER lda_lw loso_P06 20 /50\n"}
+,{"stream_name":"stdout","time":4915.141882402,"data":"CLASSIFIER lda_lw loso_P06 30 /50\n"}
+,{"stream_name":"stdout","time":4915.344318343,"data":"CLASSIFIER lda_lw loso_P06 30 /50\n"}
+,{"stream_name":"stdout","time":4921.55669443,"data":"CLASSIFIER lda_lw loso_P06 40 /50\n"}
+,{"stream_name":"stdout","time":4921.761704355,"data":"CLASSIFIER lda_lw loso_P06 40 /50\n"}
+,{"stream_name":"stdout","time":4927.544876092,"data":"CLASSIFIER lda_lw loso_P06 50 /50\n"}
+,{"stream_name":"stdout","time":4927.587016138,"data":"DONE MODEL lda_lw loso_P06 session= 0.52952722 cell= 0.52996192 seconds= 33.9\n"}
+,{"stream_name":"stdout","time":4927.748279927,"data":"CLASSIFIER lda_lw loso_P06 50 /50\n"}
+,{"stream_name":"stdout","time":4927.748360887,"data":"DONE MODEL lda_lw loso_P06 session= 0.52952722 cell= 0.52996192 seconds= 33.9\n"}
+,{"stream_name":"stdout","time":4931.53712151,"data":"CLASSIFIER ridge loso_P06 10 /50\n"}
+,{"stream_name":"stdout","time":4931.762198436,"data":"CLASSIFIER ridge loso_P06 10 /50\n"}
+,{"stream_name":"stdout","time":4935.615565369,"data":"CLASSIFIER ridge loso_P06 20 /50\n"}
+,{"stream_name":"stdout","time":4935.819953965,"data":"CLASSIFIER ridge loso_P06 20 /50\n"}
+,{"stream_name":"stdout","time":4939.52448174,"data":"CLASSIFIER ridge loso_P06 30 /50\n"}
+,{"stream_name":"stdout","time":4939.727200413,"data":"CLASSIFIER ridge loso_P06 30 /50\n"}
+,{"stream_name":"stdout","time":4942.828717476,"data":"CLASSIFIER ridge loso_P06 40 /50\n"}
+,{"stream_name":"stdout","time":4943.032912623,"data":"CLASSIFIER ridge loso_P06 40 /50\n"}
+,{"stream_name":"stdout","time":4946.798473937,"data":"CLASSIFIER ridge loso_P06 50 /50\n"}
+,{"stream_name":"stdout","time":4946.851961387,"data":"DONE MODEL ridge loso_P06 session= 0.51339819 cell= 0.51311604 seconds= 19.2\n"}
+,{"stream_name":"stdout","time":4947.002473658,"data":"CLASSIFIER ridge loso_P06 50 /50\n"}
+,{"stream_name":"stdout","time":4947.002540685,"data":"DONE MODEL ridge loso_P06 session= 0.51339819 cell= 0.51311604 seconds= 19.2\n"}
+,{"stream_name":"stdout","time":5094.438446451,"data":"CLASSIFIER elasticnet loso_P06 10 /50\n"}
+,{"stream_name":"stdout","time":5094.668974223,"data":"CLASSIFIER elasticnet loso_P06 10 /50\n"}
+,{"stream_name":"stdout","time":5545.955726396,"data":"CLASSIFIER elasticnet loso_P05 20 /50\n"}
+,{"stream_name":"stdout","time":5546.180450222,"data":"CLASSIFIER elasticnet loso_P05 20 /50\n"}
+,{"stream_name":"stdout","time":5594.96461137,"data":"CLASSIFIER elasticnet loso_P07 10 /50\n"}
+,{"stream_name":"stdout","time":5595.186989988,"data":"CLASSIFIER elasticnet loso_P07 10 /50\n"}
+,{"stream_name":"stdout","time":5713.497716058,"data":"CLASSIFIER elasticnet loso_P06 20 /50\n"}
+,{"stream_name":"stdout","time":5713.723524384,"data":"CLASSIFIER elasticnet loso_P06 20 /50\n"}
+,{"stream_name":"stdout","time":6249.173630391,"data":"CLASSIFIER elasticnet loso_P07 20 /50\n"}
+,{"stream_name":"stdout","time":6249.39986755,"data":"CLASSIFIER elasticnet loso_P07 20 /50\n"}
+,{"stream_name":"stdout","time":6272.769423793,"data":"CLASSIFIER elasticnet loso_P05 30 /50\n"}
+,{"stream_name":"stdout","time":6272.972883447,"data":"CLASSIFIER elasticnet loso_P05 30 /50\n"}
+,{"stream_name":"stdout","time":6467.604304301,"data":"CLASSIFIER elasticnet loso_P06 30 /50\n"}
+,{"stream_name":"stdout","time":6467.828218525,"data":"CLASSIFIER elasticnet loso_P06 30 /50\n"}
+,{"stream_name":"stdout","time":6927.973429534,"data":"CLASSIFIER elasticnet loso_P05 40 /50\n"}
+,{"stream_name":"stdout","time":6928.200532401,"data":"CLASSIFIER elasticnet loso_P05 40 /50\n"}
+,{"stream_name":"stdout","time":6992.114679776,"data":"CLASSIFIER elasticnet loso_P07 30 /50\n"}
+,{"stream_name":"stdout","time":6992.339930917,"data":"CLASSIFIER elasticnet loso_P07 30 /50\n"}
+,{"stream_name":"stdout","time":7099.711618547,"data":"CLASSIFIER elasticnet loso_P06 40 /50\n"}
+,{"stream_name":"stdout","time":7099.934413053,"data":"CLASSIFIER elasticnet loso_P06 40 /50\n"}
+,{"stream_name":"stdout","time":7538.820463859,"data":"CLASSIFIER elasticnet loso_P05 50 /50\n"}
+,{"stream_name":"stdout","time":7538.843734803,"data":"DONE MODEL elasticnet loso_P05 session= 0.41087963 cell= 0.41112231 seconds= 3255.6\n"}
+,{"stream_name":"stdout","time":7539.044859203,"data":"CLASSIFIER elasticnet loso_P05 50 /50\n"}
+,{"stream_name":"stdout","time":7539.04489188,"data":"DONE MODEL elasticnet loso_P05 session= 0.41087963 cell= 0.41112231 seconds= 3255.6\n"}
+,{"stream_name":"stdout","time":7560.416327847,"data":"CLASSIFIER svm_linear loso_P07 10 /50\n"}
+,{"stream_name":"stdout","time":7560.619088078,"data":"CLASSIFIER svm_linear loso_P07 10 /50\n"}
+,{"stream_name":"stdout","time":7589.600425276,"data":"CLASSIFIER svm_linear loso_P07 20 /50\n"}
+,{"stream_name":"stdout","time":7589.824475465,"data":"CLASSIFIER svm_linear loso_P07 20 /50\n"}
+,{"stream_name":"stdout","time":7617.322634865,"data":"CLASSIFIER svm_linear loso_P07 30 /50\n"}
+,{"stream_name":"stdout","time":7617.52253389,"data":"CLASSIFIER svm_linear loso_P07 30 /50\n"}
+,{"stream_name":"stdout","time":7636.148010666,"data":"CLASSIFIER svm_linear loso_P07 40 /50\n"}
+,{"stream_name":"stdout","time":7636.37484819,"data":"CLASSIFIER svm_linear loso_P07 40 /50\n"}
+,{"stream_name":"stdout","time":7652.497545741,"data":"CLASSIFIER svm_linear loso_P07 50 /50\n"}
+,{"stream_name":"stdout","time":7652.516471374,"data":"DONE MODEL svm_linear loso_P07 session= 0.76053667 cell= 0.76083109 seconds= 113.6\n"}
+,{"stream_name":"stdout","time":7652.699258914,"data":"CLASSIFIER svm_linear loso_P07 50 /50\n"}
+,{"stream_name":"stdout","time":7652.699307658,"data":"DONE MODEL svm_linear loso_P07 session= 0.76053667 cell= 0.76083109 seconds= 113.6\n"}
+,{"stream_name":"stdout","time":7670.624566678,"data":"CLASSIFIER elasticnet loso_P07 40 /50\n"}
+,{"stream_name":"stdout","time":7670.848101616,"data":"CLASSIFIER elasticnet loso_P07 40 /50\n"}
+,{"stream_name":"stdout","time":7679.186661323,"data":"CLASSIFIER svm_rbf loso_P07 10 /50\n"}
+,{"stream_name":"stdout","time":7679.389464616,"data":"CLASSIFIER svm_rbf loso_P07 10 /50\n"}
+,{"stream_name":"stdout","time":7723.916638966,"data":"CLASSIFIER svm_rbf loso_P07 20 /50\n"}
+,{"stream_name":"stdout","time":7724.140641529,"data":"CLASSIFIER svm_rbf loso_P07 20 /50\n"}
+,{"stream_name":"stdout","time":7754.228302122,"data":"CLASSIFIER svm_rbf loso_P07 30 /50\n"}
+,{"stream_name":"stdout","time":7754.453495072,"data":"CLASSIFIER svm_rbf loso_P07 30 /50\n"}
+,{"stream_name":"stdout","time":7776.387126861,"data":"CLASSIFIER elasticnet loso_P06 50 /50\n"}
+,{"stream_name":"stdout","time":7776.438802804,"data":"DONE MODEL elasticnet loso_P06 session= 0.50290152 cell= 0.50271057 seconds= 3288.0\n"}
+,{"stream_name":"stdout","time":7776.590343429,"data":"CLASSIFIER elasticnet loso_P06 50 /50\n"}
+,{"stream_name":"stdout","time":7776.590378854,"data":"DONE MODEL elasticnet loso_P06 session= 0.50290152 cell= 0.50271057 seconds= 3288.0\n"}
+,{"stream_name":"stdout","time":7782.674078796,"data":"CLASSIFIER lda_lw loso_P07 10 /50\n"}
+,{"stream_name":"stdout","time":7782.877983238,"data":"CLASSIFIER lda_lw loso_P07 10 /50\n"}
+,{"stream_name":"stdout","time":7785.044968333,"data":"CLASSIFIER svm_rbf loso_P07 40 /50\n"}
+,{"stream_name":"stdout","time":7785.273448655,"data":"CLASSIFIER svm_rbf loso_P07 40 /50\n"}
+,{"stream_name":"stdout","time":7786.634753996,"data":"CLASSIFIER lda_lw loso_P07 20 /50\n"}
+,{"stream_name":"stdout","time":7786.837938027,"data":"CLASSIFIER lda_lw loso_P07 20 /50\n"}
+,{"stream_name":"stdout","time":7790.595904222,"data":"CLASSIFIER lda_lw loso_P07 30 /50\n"}
+,{"stream_name":"stdout","time":7790.7996359,"data":"CLASSIFIER lda_lw loso_P07 30 /50\n"}
+,{"stream_name":"stdout","time":7794.365062123,"data":"CLASSIFIER lda_lw loso_P07 40 /50\n"}
+,{"stream_name":"stdout","time":7794.568991097,"data":"CLASSIFIER lda_lw loso_P07 40 /50\n"}
+,{"stream_name":"stdout","time":7798.307899387,"data":"CLASSIFIER lda_lw loso_P07 50 /50\n"}
+,{"stream_name":"stdout","time":7798.326645088,"data":"DONE MODEL lda_lw loso_P07 session= 0.74011937 cell= 0.74033378 seconds= 21.9\n"}
+,{"stream_name":"stdout","time":7798.510464661,"data":"CLASSIFIER lda_lw loso_P07 50 /50\n"}
+,{"stream_name":"stdout","time":7798.510517336,"data":"DONE MODEL lda_lw loso_P07 session= 0.74011937 cell= 0.74033378 seconds= 21.9\n"}
+,{"stream_name":"stdout","time":7800.182369705,"data":"CLASSIFIER ridge loso_P07 10 /50\n"}
+,{"stream_name":"stdout","time":7800.385389358,"data":"CLASSIFIER ridge loso_P07 10 /50\n"}
+,{"stream_name":"stdout","time":7803.346873816,"data":"CLASSIFIER ridge loso_P07 20 /50\n"}
+,{"stream_name":"stdout","time":7803.550847986,"data":"CLASSIFIER ridge loso_P07 20 /50\n"}
+,{"stream_name":"stdout","time":7807.104018994,"data":"CLASSIFIER ridge loso_P07 30 /50\n"}
+,{"stream_name":"stdout","time":7807.307531281,"data":"CLASSIFIER ridge loso_P07 30 /50\n"}
+,{"stream_name":"stdout","time":7810.066536432,"data":"CLASSIFIER ridge loso_P07 40 /50\n"}
+,{"stream_name":"stdout","time":7810.270423236,"data":"CLASSIFIER ridge loso_P07 40 /50\n"}
+,{"stream_name":"stdout","time":7812.490781794,"data":"CLASSIFIER ridge loso_P07 50 /50\n"}
+,{"stream_name":"stdout","time":7812.51348851,"data":"DONE MODEL ridge loso_P07 session= 0.66544792 cell= 0.66621864 seconds= 14.2\n"}
+,{"stream_name":"stdout","time":7812.694131022,"data":"CLASSIFIER ridge loso_P07 50 /50\n"}
+,{"stream_name":"stdout","time":7812.694210438,"data":"DONE MODEL ridge loso_P07 session= 0.66544792 cell= 0.66621864 seconds= 14.2\n"}
+,{"stream_name":"stdout","time":7819.31066165,"data":"CLASSIFIER svm_rbf loso_P07 50 /50\n"}
+,{"stream_name":"stdout","time":7819.357778912,"data":"DONE MODEL svm_rbf loso_P07 session= 0.80320607 cell= 0.80334901 seconds= 166.8\n"}
+,{"stream_name":"stdout","time":7819.537001606,"data":"CLASSIFIER svm_rbf loso_P07 50 /50\n"}
+,{"stream_name":"stdout","time":7819.537032232,"data":"DONE MODEL svm_rbf loso_P07 session= 0.80320607 cell= 0.80334901 seconds= 166.8\n"}
+,{"stream_name":"stdout","time":7837.129447629,"data":"CLASSIFIER svm_linear loso_P08 10 /50\n"}
+,{"stream_name":"stdout","time":7837.333901667,"data":"CLASSIFIER svm_linear loso_P08 10 /50\n"}
+,{"stream_name":"stdout","time":7864.014472051,"data":"CLASSIFIER svm_linear loso_P08 20 /50\n"}
+,{"stream_name":"stdout","time":7864.237305714,"data":"CLASSIFIER svm_linear loso_P08 20 /50\n"}
+,{"stream_name":"stdout","time":7894.094008194,"data":"CLASSIFIER svm_linear loso_P08 30 /50\n"}
+,{"stream_name":"stdout","time":7894.32437581,"data":"CLASSIFIER svm_linear loso_P08 30 /50\n"}
+,{"stream_name":"stdout","time":7912.504048278,"data":"CLASSIFIER svm_linear loso_P08 40 /50\n"}
+,{"stream_name":"stdout","time":7912.707280981,"data":"CLASSIFIER svm_linear loso_P08 40 /50\n"}
+,{"stream_name":"stdout","time":7940.937599974,"data":"CLASSIFIER svm_linear loso_P08 50 /50\n"}
+,{"stream_name":"stdout","time":7940.982028487,"data":"DONE MODEL svm_linear loso_P08 session= 0.71622984 cell= 0.71666667 seconds= 121.6\n"}
+,{"stream_name":"stdout","time":7941.160800995,"data":"CLASSIFIER svm_linear loso_P08 50 /50\n"}
+,{"stream_name":"stdout","time":7941.160830833,"data":"DONE MODEL svm_linear loso_P08 session= 0.71622984 cell= 0.71666667 seconds= 121.6\n"}
+,{"stream_name":"stdout","time":7974.631551045,"data":"CLASSIFIER svm_rbf loso_P08 10 /50\n"}
+,{"stream_name":"stdout","time":7974.85750391,"data":"CLASSIFIER svm_rbf loso_P08 10 /50\n"}
+,{"stream_name":"stdout","time":8013.22688681,"data":"CLASSIFIER svm_rbf loso_P08 20 /50\n"}
+,{"stream_name":"stdout","time":8013.455087643,"data":"CLASSIFIER svm_rbf loso_P08 20 /50\n"}
+,{"stream_name":"stdout","time":8059.635531904,"data":"CLASSIFIER svm_rbf loso_P08 30 /50\n"}
+,{"stream_name":"stdout","time":8059.861028627,"data":"CLASSIFIER svm_rbf loso_P08 30 /50\n"}
+,{"stream_name":"stdout","time":8091.441496409,"data":"CLASSIFIER svm_rbf loso_P08 40 /50\n"}
+,{"stream_name":"stdout","time":8091.669169563,"data":"CLASSIFIER svm_rbf loso_P08 40 /50\n"}
+,{"stream_name":"stdout","time":8121.800172602,"data":"CLASSIFIER svm_rbf loso_P08 50 /50\n"}
+,{"stream_name":"stdout","time":8121.841310008,"data":"DONE MODEL svm_rbf loso_P08 session= 0.72068346 cell= 0.72152778 seconds= 180.8\n"}
+,{"stream_name":"stdout","time":8122.02784817,"data":"CLASSIFIER svm_rbf loso_P08 50 /50\n"}
+,{"stream_name":"stdout","time":8122.027879837,"data":"DONE MODEL svm_rbf loso_P08 session= 0.72068346 cell= 0.72152778 seconds= 180.8\n"}
+,{"stream_name":"stdout","time":8128.993563976,"data":"CLASSIFIER lda_lw loso_P08 10 /50\n"}
+,{"stream_name":"stdout","time":8129.196987694,"data":"CLASSIFIER lda_lw loso_P08 10 /50\n"}
+,{"stream_name":"stdout","time":8135.616123391,"data":"CLASSIFIER lda_lw loso_P08 20 /50\n"}
+,{"stream_name":"stdout","time":8135.819510024,"data":"CLASSIFIER lda_lw loso_P08 20 /50\n"}
+,{"stream_name":"stdout","time":8139.671154586,"data":"CLASSIFIER lda_lw loso_P08 30 /50\n"}
+,{"stream_name":"stdout","time":8139.874874627,"data":"CLASSIFIER lda_lw loso_P08 30 /50\n"}
+,{"stream_name":"stdout","time":8143.633597923,"data":"CLASSIFIER lda_lw loso_P08 40 /50\n"}
+,{"stream_name":"stdout","time":8143.836443225,"data":"CLASSIFIER lda_lw loso_P08 40 /50\n"}
+,{"stream_name":"stdout","time":8147.596371943,"data":"CLASSIFIER lda_lw loso_P08 50 /50\n"}
+,{"stream_name":"stdout","time":8147.615391509,"data":"DONE MODEL lda_lw loso_P08 session= 0.74252485 cell= 0.74270833 seconds= 25.7\n"}
+,{"stream_name":"stdout","time":8147.799685448,"data":"CLASSIFIER lda_lw loso_P08 50 /50\n"}
+,{"stream_name":"stdout","time":8147.799721052,"data":"DONE MODEL lda_lw loso_P08 session= 0.74252485 cell= 0.74270833 seconds= 25.7\n"}
+,{"stream_name":"stdout","time":8149.549861489,"data":"CLASSIFIER ridge loso_P08 10 /50\n"}
+,{"stream_name":"stdout","time":8149.753731471,"data":"CLASSIFIER ridge loso_P08 10 /50\n"}
+,{"stream_name":"stdout","time":8152.107729062,"data":"CLASSIFIER ridge loso_P08 20 /50\n"}
+,{"stream_name":"stdout","time":8152.339871302,"data":"CLASSIFIER ridge loso_P08 20 /50\n"}
+,{"stream_name":"stdout","time":8156.170774659,"data":"CLASSIFIER ridge loso_P08 30 /50\n"}
+,{"stream_name":"stdout","time":8156.374914306,"data":"CLASSIFIER ridge loso_P08 30 /50\n"}
+,{"stream_name":"stdout","time":8159.520904187,"data":"CLASSIFIER ridge loso_P08 40 /50\n"}
+,{"stream_name":"stdout","time":8159.724113097,"data":"CLASSIFIER ridge loso_P08 40 /50\n"}
+,{"stream_name":"stdout","time":8163.287007534,"data":"CLASSIFIER ridge loso_P08 50 /50\n"}
+,{"stream_name":"stdout","time":8163.340544893,"data":"DONE MODEL ridge loso_P08 session= 0.69464179 cell= 0.69479167 seconds= 15.7\n"}
+,{"stream_name":"stdout","time":8163.490463992,"data":"CLASSIFIER ridge loso_P08 50 /50\n"}
+,{"stream_name":"stdout","time":8163.490528944,"data":"DONE MODEL ridge loso_P08 session= 0.69464179 cell= 0.69479167 seconds= 15.7\n"}
+,{"stream_name":"stdout","time":8298.818829733,"data":"CLASSIFIER elasticnet loso_P07 50 /50\n"}
+,{"stream_name":"stdout","time":8298.869749841,"data":"DONE MODEL elasticnet loso_P07 session= 0.67082427 cell= 0.67142697 seconds= 3352.0\n"}
+,{"stream_name":"stdout","time":8299.045963029,"data":"CLASSIFIER elasticnet loso_P07 50 /50\n"}
+,{"stream_name":"stdout","time":8299.045990294,"data":"DONE MODEL elasticnet loso_P07 session= 0.67082427 cell= 0.67142697 seconds= 3352.0\n"}
+,{"stream_name":"stdout","time":8316.486965652,"data":"CLASSIFIER svm_linear loso_P10 10 /50\n"}
+,{"stream_name":"stdout","time":8316.690217139,"data":"CLASSIFIER svm_linear loso_P10 10 /50\n"}
+,{"stream_name":"stdout","time":8337.397576114,"data":"CLASSIFIER svm_linear loso_P10 20 /50\n"}
+,{"stream_name":"stdout","time":8337.62228232,"data":"CLASSIFIER svm_linear loso_P10 20 /50\n"}
+,{"stream_name":"stdout","time":8349.460733861,"data":"CLASSIFIER svm_linear loso_P10 30 /50\n"}
+,{"stream_name":"stdout","time":8349.664136942,"data":"CLASSIFIER svm_linear loso_P10 30 /50\n"}
+,{"stream_name":"stdout","time":8363.924372235,"data":"CLASSIFIER svm_linear loso_P10 40 /50\n"}
+,{"stream_name":"stdout","time":8364.127171299,"data":"CLASSIFIER svm_linear loso_P10 40 /50\n"}
+,{"stream_name":"stdout","time":8377.202999054,"data":"CLASSIFIER svm_linear loso_P10 50 /50\n"}
+,{"stream_name":"stdout","time":8377.248880702,"data":"DONE MODEL svm_linear loso_P10 session= 0.50069454 cell= 0.49996435 seconds= 78.3\n"}
+,{"stream_name":"stdout","time":8377.430013295,"data":"CLASSIFIER svm_linear loso_P10 50 /50\n"}
+,{"stream_name":"stdout","time":8377.430043437,"data":"DONE MODEL svm_linear loso_P10 session= 0.50069454 cell= 0.49996435 seconds= 78.3\n"}
+,{"stream_name":"stdout","time":8402.108660315,"data":"CLASSIFIER svm_rbf loso_P10 10 /50\n"}
+,{"stream_name":"stdout","time":8402.311442127,"data":"CLASSIFIER svm_rbf loso_P10 10 /50\n"}
+,{"stream_name":"stdout","time":8426.183896733,"data":"CLASSIFIER svm_rbf loso_P10 20 /50\n"}
+,{"stream_name":"stdout","time":8426.413290639,"data":"CLASSIFIER svm_rbf loso_P10 20 /50\n"}
+,{"stream_name":"stdout","time":8447.356853591,"data":"CLASSIFIER svm_rbf loso_P10 30 /50\n"}
+,{"stream_name":"stdout","time":8447.560008163,"data":"CLASSIFIER svm_rbf loso_P10 30 /50\n"}
+,{"stream_name":"stdout","time":8456.996577581,"data":"CLASSIFIER elasticnet loso_P08 10 /50\n"}
+,{"stream_name":"stdout","time":8457.224944423,"data":"CLASSIFIER elasticnet loso_P08 10 /50\n"}
+,{"stream_name":"stdout","time":8464.86039596,"data":"CLASSIFIER svm_rbf loso_P10 40 /50\n"}
+,{"stream_name":"stdout","time":8465.063177026,"data":"CLASSIFIER svm_rbf loso_P10 40 /50\n"}
+,{"stream_name":"stdout","time":8490.720057479,"data":"CLASSIFIER svm_rbf loso_P10 50 /50\n"}
+,{"stream_name":"stdout","time":8490.822570435,"data":"DONE MODEL svm_rbf loso_P10 session= 0.44058101 cell= 0.43936471 seconds= 113.5\n"}
+,{"stream_name":"stdout","time":8490.944341539,"data":"CLASSIFIER svm_rbf loso_P10 50 /50\n"}
+,{"stream_name":"stdout","time":8490.944397186,"data":"DONE MODEL svm_rbf loso_P10 session= 0.44058101 cell= 0.43936471 seconds= 113.5\n"}
+,{"stream_name":"stdout","time":8494.794995017,"data":"CLASSIFIER lda_lw loso_P10 10 /50\n"}
+,{"stream_name":"stdout","time":8494.999594268,"data":"CLASSIFIER lda_lw loso_P10 10 /50\n"}
+,{"stream_name":"stdout","time":8498.378791742,"data":"CLASSIFIER lda_lw loso_P10 20 /50\n"}
+,{"stream_name":"stdout","time":8498.584346847,"data":"CLASSIFIER lda_lw loso_P10 20 /50\n"}
+,{"stream_name":"stdout","time":8503.281704337,"data":"CLASSIFIER lda_lw loso_P10 30 /50\n"}
+,{"stream_name":"stdout","time":8503.486077624,"data":"CLASSIFIER lda_lw loso_P10 30 /50\n"}
+,{"stream_name":"stdout","time":8506.912981847,"data":"CLASSIFIER lda_lw loso_P10 40 /50\n"}
+,{"stream_name":"stdout","time":8507.116309187,"data":"CLASSIFIER lda_lw loso_P10 40 /50\n"}
+,{"stream_name":"stdout","time":8510.533174151,"data":"CLASSIFIER lda_lw loso_P10 50 /50\n"}
+,{"stream_name":"stdout","time":8510.577425503,"data":"DONE MODEL lda_lw loso_P10 session= 0.45162195 cell= 0.45122004 seconds= 19.7\n"}
+,{"stream_name":"stdout","time":8510.735323845,"data":"CLASSIFIER lda_lw loso_P10 50 /50\n"}
+,{"stream_name":"stdout","time":8510.73536094,"data":"DONE MODEL lda_lw loso_P10 session= 0.45162195 cell= 0.45122004 seconds= 19.7\n"}
+,{"stream_name":"stdout","time":8512.988390232,"data":"CLASSIFIER ridge loso_P10 10 /50\n"}
+,{"stream_name":"stdout","time":8513.191980528,"data":"CLASSIFIER ridge loso_P10 10 /50\n"}
+,{"stream_name":"stdout","time":8516.442630941,"data":"CLASSIFIER ridge loso_P10 20 /50\n"}
+,{"stream_name":"stdout","time":8516.646350628,"data":"CLASSIFIER ridge loso_P10 20 /50\n"}
+,{"stream_name":"stdout","time":8519.25645277,"data":"CLASSIFIER ridge loso_P10 30 /50\n"}
+,{"stream_name":"stdout","time":8519.458162006,"data":"CLASSIFIER ridge loso_P10 30 /50\n"}
+,{"stream_name":"stdout","time":8521.664431308,"data":"CLASSIFIER ridge loso_P10 40 /50\n"}
+,{"stream_name":"stdout","time":8521.897413794,"data":"CLASSIFIER ridge loso_P10 40 /50\n"}
+,{"stream_name":"stdout","time":8524.549497042,"data":"CLASSIFIER ridge loso_P10 50 /50\n"}
+,{"stream_name":"stdout","time":8524.674150843,"data":"DONE MODEL ridge loso_P10 session= 0.4446294 cell= 0.44384836 seconds= 14.0\n"}
+,{"stream_name":"stdout","time":8524.752945122,"data":"CLASSIFIER ridge loso_P10 50 /50\n"}
+,{"stream_name":"stdout","time":8524.753003213,"data":"DONE MODEL ridge loso_P10 session= 0.4446294 cell= 0.44384836 seconds= 14.0\n"}
+,{"stream_name":"stdout","time":8714.423317273,"data":"CLASSIFIER elasticnet loso_P10 10 /50\n"}
+,{"stream_name":"stdout","time":8714.659565538,"data":"CLASSIFIER elasticnet loso_P10 10 /50\n"}
+,{"stream_name":"stdout","time":9086.233571612,"data":"CLASSIFIER elasticnet loso_P08 20 /50\n"}
+,{"stream_name":"stdout","time":9086.463207723,"data":"CLASSIFIER elasticnet loso_P08 20 /50\n"}
+,{"stream_name":"stdout","time":9175.420195848,"data":"CLASSIFIER elasticnet later_last 10 /50\n"}
+,{"stream_name":"stdout","time":9175.653113252,"data":"CLASSIFIER elasticnet later_last 10 /50\n"}
+,{"stream_name":"stdout","time":9301.343934868,"data":"CLASSIFIER elasticnet loso_P10 20 /50\n"}
+,{"stream_name":"stdout","time":9301.575916999,"data":"CLASSIFIER elasticnet loso_P10 20 /50\n"}
+,{"stream_name":"stdout","time":9813.104478182,"data":"CLASSIFIER elasticnet later_last 20 /50\n"}
+,{"stream_name":"stdout","time":9813.339561666,"data":"CLASSIFIER elasticnet later_last 20 /50\n"}
+,{"stream_name":"stdout","time":9814.511939753,"data":"CLASSIFIER elasticnet loso_P08 30 /50\n"}
+,{"stream_name":"stdout","time":9814.715097952,"data":"CLASSIFIER elasticnet loso_P08 30 /50\n"}
+,{"stream_name":"stdout","time":9860.15084208,"data":"CLASSIFIER elasticnet loso_P10 30 /50\n"}
+,{"stream_name":"stdout","time":9860.380176521,"data":"CLASSIFIER elasticnet loso_P10 30 /50\n"}
+,{"stream_name":"stdout","time":10382.396439527,"data":"CLASSIFIER elasticnet loso_P10 40 /50\n"}
+,{"stream_name":"stdout","time":10382.625945757,"data":"CLASSIFIER elasticnet loso_P10 40 /50\n"}
+,{"stream_name":"stdout","time":10436.643603043,"data":"CLASSIFIER elasticnet later_last 30 /50\n"}
+,{"stream_name":"stdout","time":10436.876410891,"data":"CLASSIFIER elasticnet later_last 30 /50\n"}
+,{"stream_name":"stdout","time":10522.551451372,"data":"CLASSIFIER elasticnet loso_P08 40 /50\n"}
+,{"stream_name":"stdout","time":10522.78090492,"data":"CLASSIFIER elasticnet loso_P08 40 /50\n"}
+,{"stream_name":"stdout","time":10871.955189663,"data":"CLASSIFIER elasticnet loso_P10 50 /50\n"}
+,{"stream_name":"stdout","time":10872.077471246,"data":"DONE MODEL elasticnet loso_P10 session= 0.42931289 cell= 0.42912681 seconds= 2708.6\n"}
+,{"stream_name":"stdout","time":10872.18556829,"data":"CLASSIFIER elasticnet loso_P10 50 /50\n"}
+,{"stream_name":"stdout","time":10872.185598201,"data":"DONE MODEL elasticnet loso_P10 session= 0.42931289 cell= 0.42912681 seconds= 2708.6\n"}
+,{"stream_name":"stdout","time":10898.821357626,"data":"CLASSIFIER svm_linear later_last 10 /50\n"}
+,{"stream_name":"stdout","time":10899.024884069,"data":"CLASSIFIER svm_linear later_last 10 /50\n"}
+,{"stream_name":"stdout","time":10919.368860442,"data":"CLASSIFIER svm_linear later_last 20 /50\n"}
+,{"stream_name":"stdout","time":10919.601899469,"data":"CLASSIFIER svm_linear later_last 20 /50\n"}
+,{"stream_name":"stdout","time":10943.089731117,"data":"CLASSIFIER svm_linear later_last 30 /50\n"}
+,{"stream_name":"stdout","time":10943.293313193,"data":"CLASSIFIER svm_linear later_last 30 /50\n"}
+,{"stream_name":"stdout","time":10967.366961251,"data":"CLASSIFIER svm_linear later_last 40 /50\n"}
+,{"stream_name":"stdout","time":10967.599695145,"data":"CLASSIFIER svm_linear later_last 40 /50\n"}
+,{"stream_name":"stdout","time":10999.110493065,"data":"CLASSIFIER svm_linear later_last 50 /50\n"}
+,{"stream_name":"stdout","time":10999.160451944,"data":"DONE MODEL svm_linear later_last session= 0.75825418 cell= 0.75774685 seconds= 127.0\n"}
+,{"stream_name":"stdout","time":10999.341614775,"data":"CLASSIFIER svm_linear later_last 50 /50\n"}
+,{"stream_name":"stdout","time":10999.341803552,"data":"DONE MODEL svm_linear later_last session= 0.75825418 cell= 0.75774685 seconds= 127.0\n"}
+,{"stream_name":"stdout","time":11027.721777562,"data":"CLASSIFIER svm_rbf later_last 10 /50\n"}
+,{"stream_name":"stdout","time":11027.925214609,"data":"CLASSIFIER svm_rbf later_last 10 /50\n"}
+,{"stream_name":"stdout","time":11045.621833387,"data":"CLASSIFIER elasticnet later_last 40 /50\n"}
+,{"stream_name":"stdout","time":11045.853084866,"data":"CLASSIFIER elasticnet later_last 40 /50\n"}
+,{"stream_name":"stdout","time":11055.101930314,"data":"CLASSIFIER svm_rbf later_last 20 /50\n"}
+,{"stream_name":"stdout","time":11055.304763014,"data":"CLASSIFIER svm_rbf later_last 20 /50\n"}
+,{"stream_name":"stdout","time":11089.524360312,"data":"CLASSIFIER svm_rbf later_last 30 /50\n"}
+,{"stream_name":"stdout","time":11089.756726733,"data":"CLASSIFIER svm_rbf later_last 30 /50\n"}
+,{"stream_name":"stdout","time":11120.345581378,"data":"CLASSIFIER svm_rbf later_last 40 /50\n"}
+,{"stream_name":"stdout","time":11120.571129051,"data":"CLASSIFIER svm_rbf later_last 40 /50\n"}
+,{"stream_name":"stdout","time":11152.8185939,"data":"CLASSIFIER svm_rbf later_last 50 /50\n"}
+,{"stream_name":"stdout","time":11152.838880496,"data":"DONE MODEL svm_rbf later_last session= 0.66840042 cell= 0.66759454 seconds= 153.6\n"}
+,{"stream_name":"stdout","time":11153.047980516,"data":"CLASSIFIER svm_rbf later_last 50 /50\n"}
+,{"stream_name":"stdout","time":11153.048013428,"data":"DONE MODEL svm_rbf later_last session= 0.66840042 cell= 0.66759454 seconds= 153.6\n"}
+,{"stream_name":"stdout","time":11156.843032238,"data":"CLASSIFIER lda_lw later_last 10 /50\n"}
+,{"stream_name":"stdout","time":11157.046805995,"data":"CLASSIFIER lda_lw later_last 10 /50\n"}
+,{"stream_name":"stdout","time":11160.766790928,"data":"CLASSIFIER lda_lw later_last 20 /50\n"}
+,{"stream_name":"stdout","time":11160.971290956,"data":"CLASSIFIER lda_lw later_last 20 /50\n"}
+,{"stream_name":"stdout","time":11167.32715152,"data":"CLASSIFIER lda_lw later_last 30 /50\n"}
+,{"stream_name":"stdout","time":11167.531505134,"data":"CLASSIFIER lda_lw later_last 30 /50\n"}
+,{"stream_name":"stdout","time":11171.056793375,"data":"CLASSIFIER elasticnet loso_P08 50 /50\n"}
+,{"stream_name":"stdout","time":11171.095465161,"data":"DONE MODEL elasticnet loso_P08 session= 0.71068815 cell= 0.71076389 seconds= 3358.5\n"}
+,{"stream_name":"stdout","time":11171.261011298,"data":"CLASSIFIER elasticnet loso_P08 50 /50\n"}
+,{"stream_name":"stdout","time":11171.261044972,"data":"DONE MODEL elasticnet loso_P08 session= 0.71068815 cell= 0.71076389 seconds= 3358.5\n"}
+,{"stream_name":"stdout","time":11174.286690923,"data":"CLASSIFIER ridge later_last 10 /50\n"}
+,{"stream_name":"stdout","time":11174.294833297,"data":"CLASSIFIER lda_lw later_last 40 /50\n"}
+,{"stream_name":"stdout","time":11174.491386787,"data":"CLASSIFIER ridge later_last 10 /50\n"}
+,{"stream_name":"stdout","time":11174.491466877,"data":"CLASSIFIER lda_lw later_last 40 /50\n"}
+,{"stream_name":"stdout","time":11177.705808794,"data":"CLASSIFIER ridge later_last 20 /50\n"}
+,{"stream_name":"stdout","time":11177.909190607,"data":"CLASSIFIER ridge later_last 20 /50\n"}
+,{"stream_name":"stdout","time":11180.428022555,"data":"CLASSIFIER lda_lw later_last 50 /50\n"}
+,{"stream_name":"stdout","time":11180.461592346,"data":"DONE MODEL lda_lw later_last session= 0.70895522 cell= 0.70742297 seconds= 27.6\n"}
+,{"stream_name":"stdout","time":11180.632276798,"data":"CLASSIFIER lda_lw later_last 50 /50\n"}
+,{"stream_name":"stdout","time":11180.632321375,"data":"DONE MODEL lda_lw later_last session= 0.70895522 cell= 0.70742297 seconds= 27.6\n"}
+,{"stream_name":"stdout","time":11180.749967513,"data":"CLASSIFIER ridge later_last 30 /50\n"}
+,{"stream_name":"stdout","time":11180.952954653,"data":"CLASSIFIER ridge later_last 30 /50\n"}
+,{"stream_name":"stdout","time":11182.666761994,"data":"CLASSIFIER ridge later_last 40 /50\n"}
+,{"stream_name":"stdout","time":11182.870304203,"data":"CLASSIFIER ridge later_last 40 /50\n"}
+,{"stream_name":"stdout","time":11184.643262091,"data":"CLASSIFIER ridge later_last 50 /50\n"}
+,{"stream_name":"stdout","time":11184.666835863,"data":"DONE MODEL ridge later_last session= 0.62844867 cell= 0.6271271 seconds= 13.5\n"}
+,{"stream_name":"stdout","time":11184.858369677,"data":"CLASSIFIER ridge later_last 50 /50\n"}
+,{"stream_name":"stdout","time":11184.858397061,"data":"DONE MODEL ridge later_last session= 0.62844867 cell= 0.6271271 seconds= 13.5\n"}
+,{"stream_name":"stdout","time":11502.805526995,"data":"CLASSIFIER elasticnet later_last 50 /50\n"}
+,{"stream_name":"stdout","time":11502.829001886,"data":"DONE MODEL elasticnet later_last session= 0.65309815 cell= 0.65093662 seconds= 2978.1\n"}
+,{"stream_name":"stdout","time":11503.028777107,"data":"CLASSIFIER elasticnet later_last 50 /50\n"}
+,{"stream_name":"stdout","time":11503.028800675,"data":"DONE MODEL elasticnet later_last session= 0.65309815 cell= 0.65093662 seconds= 2978.1\n"}
+,{"stream_name":"stdout","time":11503.32545497,"data":"FROZEN SELECTION {\"baseline\": 0.5628006572739627, \"lda_lw\": 0.5650959636766038, \"svm_linear\": 0.5751856243822775, \"svm_rbf\": 0.5663526816812261, \"ridge\": 0.5136853275938564, \"elasticnet\": 0.5257573248731585, \"mlp\": 0.5451847457854171} winner svm_linear\n"}
+,{"stream_name":"stdout","time":11503.332395684,"data":"START FEATURES test_official 1521 755\n"}
+,{"stream_name":"stdout","time":11503.527732896,"data":"FROZEN SELECTION {\"baseline\": 0.5628006572739627, \"lda_lw\": 0.5650959636766038, \"svm_linear\": 0.5751856243822775, \"svm_rbf\": 0.5663526816812261, \"ridge\": 0.5136853275938564, \"elasticnet\": 0.5257573248731585, \"mlp\": 0.5451847457854171} winner svm_linear\n"}
+,{"stream_name":"stdout","time":11503.527767414,"data":"START FEATURES test_official 1521 755\n"}
+,{"stream_name":"stdout","time":11552.947914222,"data":"FEATURES test_official 10 /50\n"}
+,{"stream_name":"stdout","time":11553.160746257,"data":"FEATURES test_official 10 /50\n"}
+,{"stream_name":"stdout","time":11600.105827502,"data":"FEATURES test_official 20 /50\n"}
+,{"stream_name":"stdout","time":11600.31865403,"data":"FEATURES test_official 20 /50\n"}
+,{"stream_name":"stdout","time":11647.402480205,"data":"FEATURES test_official 30 /50\n"}
+,{"stream_name":"stdout","time":11647.615529286,"data":"FEATURES test_official 30 /50\n"}
+,{"stream_name":"stdout","time":11694.081487393,"data":"FEATURES test_official 40 /50\n"}
+,{"stream_name":"stdout","time":11694.295286449,"data":"FEATURES test_official 40 /50\n"}
+,{"stream_name":"stdout","time":11741.381578694,"data":"FEATURES test_official 50 /50\n"}
+,{"stream_name":"stdout","time":11741.602716206,"data":"FEATURES test_official 50 /50\n"}
+,{"stream_name":"stdout","time":11743.508786917,"data":"DONE FEATURES test_official 238.16 s\n"}
+,{"stream_name":"stdout","time":11743.711004362,"data":"DONE FEATURES test_official 238.16 s\n"}
+,{"stream_name":"stdout","time":11744.665369297,"data":"CLASSIFIER baseline test_official 10 /50\n"}
+,{"stream_name":"stdout","time":11744.868389855,"data":"CLASSIFIER baseline test_official 10 /50\n"}
+,{"stream_name":"stdout","time":11745.828013886,"data":"CLASSIFIER baseline test_official 20 /50\n"}
+,{"stream_name":"stdout","time":11746.030790703,"data":"CLASSIFIER baseline test_official 20 /50\n"}
+,{"stream_name":"stdout","time":11746.872649779,"data":"CLASSIFIER baseline test_official 30 /50\n"}
+,{"stream_name":"stdout","time":11747.075661888,"data":"CLASSIFIER baseline test_official 30 /50\n"}
+,{"stream_name":"stdout","time":11747.942404182,"data":"CLASSIFIER baseline test_official 40 /50\n"}
+,{"stream_name":"stdout","time":11748.145392225,"data":"CLASSIFIER baseline test_official 40 /50\n"}
+,{"stream_name":"stdout","time":11749.021895947,"data":"CLASSIFIER baseline test_official 50 /50\n"}
+,{"stream_name":"stdout","time":11749.089121609,"data":"DONE MODEL baseline test_official session= 0.55540729 cell= 0.55716363 seconds= 5.5\n"}
+,{"stream_name":"stdout","time":11749.226600988,"data":"CLASSIFIER baseline test_official 50 /50\n"}
+,{"stream_name":"stdout","time":11749.226633593,"data":"DONE MODEL baseline test_official session= 0.55540729 cell= 0.55716363 seconds= 5.5\n"}
+,{"stream_name":"stdout","time":11752.922570212,"data":"DONE MODEL mlp test_official session= 0.53443338 cell= 0.53603937 seconds= 2.9\n"}
+,{"stream_name":"stdout","time":11753.126165139,"data":"DONE MODEL mlp test_official session= 0.53443338 cell= 0.53603937 seconds= 2.9\n"}
+,{"stream_name":"stdout","time":11765.681436342,"data":"CLASSIFIER svm_linear test_official 10 /50\n"}
+,{"stream_name":"stdout","time":11765.885005221,"data":"CLASSIFIER svm_linear test_official 10 /50\n"}
+,{"stream_name":"stdout","time":11778.966409124,"data":"CLASSIFIER svm_rbf test_official 10 /50\n"}
+,{"stream_name":"stdout","time":11779.198584342,"data":"CLASSIFIER svm_rbf test_official 10 /50\n"}
+,{"stream_name":"stdout","time":11788.86309573,"data":"CLASSIFIER svm_linear test_official 20 /50\n"}
+,{"stream_name":"stdout","time":11789.066887313,"data":"CLASSIFIER svm_linear test_official 20 /50\n"}
+,{"stream_name":"stdout","time":11804.597820535,"data":"CLASSIFIER svm_rbf test_official 20 /50\n"}
+,{"stream_name":"stdout","time":11804.801676727,"data":"CLASSIFIER svm_rbf test_official 20 /50\n"}
+,{"stream_name":"stdout","time":11806.841475505,"data":"CLASSIFIER svm_linear test_official 30 /50\n"}
+,{"stream_name":"stdout","time":11807.044510258,"data":"CLASSIFIER svm_linear test_official 30 /50\n"}
+,{"stream_name":"stdout","time":11820.997401218,"data":"CLASSIFIER svm_rbf test_official 30 /50\n"}
+,{"stream_name":"stdout","time":11821.229151026,"data":"CLASSIFIER svm_rbf test_official 30 /50\n"}
+,{"stream_name":"stdout","time":11835.969706338,"data":"CLASSIFIER svm_linear test_official 40 /50\n"}
+,{"stream_name":"stdout","time":11836.17579489,"data":"CLASSIFIER svm_linear test_official 40 /50\n"}
+,{"stream_name":"stdout","time":11856.046636831,"data":"CLASSIFIER svm_rbf test_official 40 /50\n"}
+,{"stream_name":"stdout","time":11856.283709308,"data":"CLASSIFIER svm_rbf test_official 40 /50\n"}
+,{"stream_name":"stdout","time":11856.871490936,"data":"CLASSIFIER svm_linear test_official 50 /50\n"}
+,{"stream_name":"stdout","time":11856.933532345,"data":"DONE MODEL svm_linear test_official session= 0.50350884 cell= 0.50444717 seconds= 107.8\n"}
+,{"stream_name":"stdout","time":11857.074796646,"data":"CLASSIFIER svm_linear test_official 50 /50\n"}
+,{"stream_name":"stdout","time":11857.074876021,"data":"DONE MODEL svm_linear test_official session= 0.50350884 cell= 0.50444717 seconds= 107.8\n"}
+,{"stream_name":"stdout","time":11860.795106675,"data":"CLASSIFIER lda_lw test_official 10 /50\n"}
+,{"stream_name":"stdout","time":11860.998197015,"data":"CLASSIFIER lda_lw test_official 10 /50\n"}
+,{"stream_name":"stdout","time":11864.700293298,"data":"CLASSIFIER lda_lw test_official 20 /50\n"}
+,{"stream_name":"stdout","time":11864.904201413,"data":"CLASSIFIER lda_lw test_official 20 /50\n"}
+,{"stream_name":"stdout","time":11868.389926882,"data":"CLASSIFIER lda_lw test_official 30 /50\n"}
+,{"stream_name":"stdout","time":11868.593928029,"data":"CLASSIFIER lda_lw test_official 30 /50\n"}
+,{"stream_name":"stdout","time":11872.855927715,"data":"CLASSIFIER lda_lw test_official 40 /50\n"}
+,{"stream_name":"stdout","time":11873.059206165,"data":"CLASSIFIER lda_lw test_official 40 /50\n"}
+,{"stream_name":"stdout","time":11879.707174019,"data":"CLASSIFIER lda_lw test_official 50 /50\n"}
+,{"stream_name":"stdout","time":11879.842479301,"data":"DONE MODEL lda_lw test_official session= 0.55167382 cell= 0.55282586 seconds= 22.8\n"}
+,{"stream_name":"stdout","time":11879.911499143,"data":"CLASSIFIER lda_lw test_official 50 /50\n"}
+,{"stream_name":"stdout","time":11879.911599269,"data":"DONE MODEL lda_lw test_official session= 0.55167382 cell= 0.55282586 seconds= 22.8\n"}
+,{"stream_name":"stdout","time":11882.920693197,"data":"CLASSIFIER ridge test_official 10 /50\n"}
+,{"stream_name":"stdout","time":11883.123599029,"data":"CLASSIFIER ridge test_official 10 /50\n"}
+,{"stream_name":"stdout","time":11885.513611595,"data":"CLASSIFIER ridge test_official 20 /50\n"}
+,{"stream_name":"stdout","time":11885.69210512,"data":"CLASSIFIER svm_rbf test_official 50 /50\n"}
+,{"stream_name":"stdout","time":11885.716631164,"data":"CLASSIFIER ridge test_official 20 /50\n"}
+,{"stream_name":"stdout","time":11885.716720192,"data":"CLASSIFIER svm_rbf test_official 50 /50\n"}
+,{"stream_name":"stdout","time":11885.798445868,"data":"DONE MODEL svm_rbf test_official session= 0.51838392 cell= 0.51940128 seconds= 136.6\n"}
+,{"stream_name":"stdout","time":11886.000593367,"data":"DONE MODEL svm_rbf test_official session= 0.51838392 cell= 0.51940128 seconds= 136.6\n"}
+,{"stream_name":"stdout","time":11886.809777186,"data":"CLASSIFIER ridge test_official 30 /50\n"}
+,{"stream_name":"stdout","time":11887.038197409,"data":"CLASSIFIER ridge test_official 30 /50\n"}
+,{"stream_name":"stdout","time":11888.46773692,"data":"CLASSIFIER ridge test_official 40 /50\n"}
+,{"stream_name":"stdout","time":11888.670608555,"data":"CLASSIFIER ridge test_official 40 /50\n"}
+,{"stream_name":"stdout","time":11890.041039156,"data":"CLASSIFIER ridge test_official 50 /50\n"}
+,{"stream_name":"stdout","time":11890.10734164,"data":"DONE MODEL ridge test_official session= 0.45778147 cell= 0.45892774 seconds= 10.2\n"}
+,{"stream_name":"stdout","time":11890.243337389,"data":"CLASSIFIER ridge test_official 50 /50\n"}
+,{"stream_name":"stdout","time":11890.243369545,"data":"DONE MODEL ridge test_official session= 0.45778147 cell= 0.45892774 seconds= 10.2\n"}
+,{"stream_name":"stdout","time":12187.357762912,"data":"CLASSIFIER elasticnet test_official 10 /50\n"}
+,{"stream_name":"stdout","time":12187.572384175,"data":"CLASSIFIER elasticnet test_official 10 /50\n"}
+,{"stream_name":"stdout","time":12610.794801172,"data":"CLASSIFIER elasticnet test_official 20 /50\n"}
+,{"stream_name":"stdout","time":12611.009597732,"data":"CLASSIFIER elasticnet test_official 20 /50\n"}
+,{"stream_name":"stdout","time":12974.521135224,"data":"CLASSIFIER elasticnet test_official 30 /50\n"}
+,{"stream_name":"stdout","time":12974.744966432,"data":"CLASSIFIER elasticnet test_official 30 /50\n"}
+,{"stream_name":"stdout","time":13396.684300397,"data":"CLASSIFIER elasticnet test_official 40 /50\n"}
+,{"stream_name":"stdout","time":13396.898319604,"data":"CLASSIFIER elasticnet test_official 40 /50\n"}
+,{"stream_name":"stdout","time":13808.284640667,"data":"CLASSIFIER elasticnet test_official 50 /50\n"}
+,{"stream_name":"stdout","time":13808.351439374,"data":"DONE MODEL elasticnet test_official session= 0.45784211 cell= 0.45848474 seconds= 2059.2\n"}
+,{"stream_name":"stdout","time":13808.51055085,"data":"CLASSIFIER elasticnet test_official 50 /50\n"}
+,{"stream_name":"stdout","time":13808.510624301,"data":"DONE MODEL elasticnet test_official session= 0.45784211 cell= 0.45848474 seconds= 2059.2\n"}
+,{"stream_name":"stdout","time":13809.759593719,"data":"FROZEN SELECTION {\"baseline\": 0.5628006572739627, \"lda_lw\": 0.5650959636766038, \"svm_linear\": 0.5751856243822775, \"svm_rbf\": 0.5663526816812261, \"ridge\": 0.5136853275938564, \"elasticnet\": 0.5257573248731585, \"mlp\": 0.5451847457854171} winner svm_linear\n"}
+,{"stream_name":"stdout","time":13809.75962281,"data":"CLASSIFIER EXPERIMENT COMPLETE all\n"}
+,{"stream_name":"stdout","time":13809.961915352,"data":"FROZEN SELECTION {\"baseline\": 0.5628006572739627, \"lda_lw\": 0.5650959636766038, \"svm_linear\": 0.5751856243822775, \"svm_rbf\": 0.5663526816812261, \"ridge\": 0.5136853275938564, \"elasticnet\": 0.5257573248731585, \"mlp\": 0.5451847457854171} winner svm_linear\n"}
+,{"stream_name":"stdout","time":13809.961950994,"data":"CLASSIFIER EXPERIMENT COMPLETE all\n"}
+,{"stream_name":"stderr","time":13813.477190031,"data":"/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":13813.477242124,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stderr","time":13813.679873525,"data":"/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":13813.679933936,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stderr","time":13813.679939762,"data":"\n"}
+,{"stream_name":"stderr","time":13813.679943309,"data":"/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":13813.679947255,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stdout","time":13815.323970845,"data":"[\n"}
+,{"stream_name":"stdout","time":13815.323996381,"data":"  {\n"}
+,{"stream_name":"stdout","time":13815.324000629,"data":"    \"variant\": \"baseline\",\n"}
+,{"stream_name":"stdout","time":13815.324004585,"data":"    \"label\": \"Logistic regression (submitted baseline)\",\n"}
+,{"stream_name":"stdout","time":13815.324008108,"data":"    \"loso_session_mean\": 0.5628006572739627,\n"}
+,{"stream_name":"stdout","time":13815.324011393,"data":"    \"loso_std_subjects\": 0.13324561338345278,\n"}
+,{"stream_name":"stdout","time":13815.324014762,"data":"    \"loso_delta\": 0.0,\n"}
+,{"stream_name":"stdout","time":13815.324017922,"data":"    \"paired_bootstrap95_low\": 0.0,\n"}
+,{"stream_name":"stdout","time":13815.324021282,"data":"    \"paired_bootstrap95_high\": 0.0,\n"}
+,{"stream_name":"stdout","time":13815.32402547,"data":"    \"loso_subject_wins\": 0,\n"}
+,{"stream_name":"stdout","time":13815.324028745,"data":"    \"loso_subject_ties\": 8,\n"}
+,{"stream_name":"stdout","time":13815.32403237,"data":"    \"later_session_mean\": 0.7237298356701342,\n"}
+,{"stream_name":"stdout","time":13815.3240356,"data":"    \"test_cell_mean\": 0.5571636308861698,\n"}
+,{"stream_name":"stdout","time":13815.324038946,"data":"    \"test_session_mean\": 0.5554072947007407,\n"}
+,{"stream_name":"stdout","time":13815.324042097,"data":"    \"test_pooled\": 0.5558597344006698,\n"}
+,{"stream_name":"stdout","time":13815.324045934,"data":"    \"test_accuracy\": 0.5562913907284768,\n"}
+,{"stream_name":"stdout","time":13815.324049849,"data":"    \"test_log_loss\": 0.9929632480008811,\n"}
+,{"stream_name":"stdout","time":13815.324053925,"data":"    \"test_brier\": 0.5961898202388922,\n"}
+,{"stream_name":"stdout","time":13815.324057803,"data":"    \"total_classifier_seconds\": 85.17318276099832,\n"}
+,{"stream_name":"stdout","time":13815.324061665,"data":"    \"convergence_warnings\": 0,\n"}
+,{"stream_name":"stdout","time":13815.324065403,"data":"    \"exploratory_signflip_p\": 1.0,\n"}
+,{"stream_name":"stdout","time":13815.324068842,"data":"    \"exploratory_holm_p\": 1.0\n"}
+,{"stream_name":"stdout","time":13815.324072643,"data":"  },\n"}
+,{"stream_name":"stdout","time":13815.324075831,"data":"  {\n"}
+,{"stream_name":"stdout","time":13815.3240797,"data":"    \"variant\": \"lda_lw\",\n"}
+,{"stream_name":"stdout","time":13815.32408355,"data":"    \"label\": \"Shrinkage LDA\",\n"}
+,{"stream_name":"stdout","time":13815.324086811,"data":"    \"loso_session_mean\": 0.5650959636766038,\n"}
+,{"stream_name":"stdout","time":13815.324090137,"data":"    \"loso_std_subjects\": 0.13083482566809468,\n"}
+,{"stream_name":"stdout","time":13815.324093648,"data":"    \"loso_delta\": 0.0022953064026410355,\n"}
+,{"stream_name":"stdout","time":13815.324096952,"data":"    \"paired_bootstrap95_low\": -0.007534906064290162,\n"}
+,{"stream_name":"stdout","time":13815.324100306,"data":"    \"paired_bootstrap95_high\": 0.012609148652180392,\n"}
+,{"stream_name":"stdout","time":13815.324103638,"data":"    \"loso_subject_wins\": 4,\n"}
+,{"stream_name":"stdout","time":13815.324107047,"data":"    \"loso_subject_ties\": 0,\n"}
+,{"stream_name":"stdout","time":13815.324125635,"data":"    \"later_session_mean\": 0.7089552238805971,\n"}
+,{"stream_name":"stdout","time":13815.324128244,"data":"    \"test_cell_mean\": 0.552825863613892,\n"}
+,{"stream_name":"stdout","time":13815.324130464,"data":"    \"test_session_mean\": 0.5516738207857325,\n"}
+,{"stream_name":"stdout","time":13815.324132689,"data":"    \"test_pooled\": 0.5520710513595439,\n"}
+,{"stream_name":"stdout","time":13815.324134909,"data":"    \"test_accuracy\": 0.552317880794702,\n"}
+,{"stream_name":"stdout","time":13815.32413749,"data":"    \"test_log_loss\": 0.9821931852763031,\n"}
+,{"stream_name":"stdout","time":13815.32413972,"data":"    \"test_brier\": 0.5891930719509784,\n"}
+,{"stream_name":"stdout","time":13815.324141918,"data":"    \"total_classifier_seconds\": 278.3038445810032,\n"}
+,{"stream_name":"stdout","time":13815.324144187,"data":"    \"convergence_warnings\": 0,\n"}
+,{"stream_name":"stdout","time":13815.324146673,"data":"    \"exploratory_signflip_p\": 0.7109375,\n"}
+,{"stream_name":"stdout","time":13815.324148934,"data":"    \"exploratory_holm_p\": 1\n"}
+,{"stream_name":"stdout","time":13815.324151182,"data":"  },\n"}
+,{"stream_name":"stdout","time":13815.324153313,"data":"  {\n"}
+,{"stream_name":"stdout","time":13815.324155538,"data":"    \"variant\": \"svm_linear\",\n"}
+,{"stream_name":"stdout","time":13815.324157812,"data":"    \"label\": \"Linear SVM + grouped calibration\",\n"}
+,{"stream_name":"stdout","time":13815.324160099,"data":"    \"loso_session_mean\": 0.5751856243822775,\n"}
+,{"stream_name":"stdout","time":13815.324162314,"data":"    \"loso_std_subjects\": 0.12717881921633586,\n"}
+,{"stream_name":"stdout","time":13815.324164612,"data":"    \"loso_delta\": 0.012384967108314805,\n"}
+,{"stream_name":"stdout","time":13815.324166815,"data":"    \"paired_bootstrap95_low\": -0.008643712060485295,\n"}
+,{"stream_name":"stdout","time":13815.324169055,"data":"    \"paired_bootstrap95_high\": 0.03355300413685773,\n"}
+,{"stream_name":"stdout","time":13815.324171318,"data":"    \"loso_subject_wins\": 5,\n"}
+,{"stream_name":"stdout","time":13815.32417353,"data":"    \"loso_subject_ties\": 0,\n"}
+,{"stream_name":"stdout","time":13815.324175707,"data":"    \"later_session_mean\": 0.7582541836273181,\n"}
+,{"stream_name":"stdout","time":13815.324177962,"data":"    \"test_cell_mean\": 0.5044471673773329,\n"}
+,{"stream_name":"stdout","time":13815.324182138,"data":"    \"test_session_mean\": 0.5035088365873995,\n"}
+,{"stream_name":"stdout","time":13815.324184414,"data":"    \"test_pooled\": 0.503681392235609,\n"}
+,{"stream_name":"stdout","time":13815.324186632,"data":"    \"test_accuracy\": 0.5033112582781457,\n"}
+,{"stream_name":"stdout","time":13815.324188841,"data":"    \"test_log_loss\": 1.0731228758686289,\n"}
+,{"stream_name":"stdout","time":13815.324191047,"data":"    \"test_brier\": 0.6496416805681866,\n"}
+,{"stream_name":"stdout","time":13815.324193249,"data":"    \"total_classifier_seconds\": 1220.6236191300006,\n"}
+,{"stream_name":"stdout","time":13815.324195514,"data":"    \"convergence_warnings\": 0,\n"}
+,{"stream_name":"stdout","time":13815.324197721,"data":"    \"exploratory_signflip_p\": 0.3125,\n"}
+,{"stream_name":"stdout","time":13815.324199959,"data":"    \"exploratory_holm_p\": 0.9375\n"}
+,{"stream_name":"stdout","time":13815.324202209,"data":"  },\n"}
+,{"stream_name":"stdout","time":13815.324204348,"data":"  {\n"}
+,{"stream_name":"stdout","time":13815.32420647,"data":"    \"variant\": \"svm_rbf\",\n"}
+,{"stream_name":"stdout","time":13815.324208702,"data":"    \"label\": \"RBF SVM + grouped calibration\",\n"}
+,{"stream_name":"stdout","time":13815.324210998,"data":"    \"loso_session_mean\": 0.5663526816812261,\n"}
+,{"stream_name":"stdout","time":13815.324215202,"data":"    \"loso_std_subjects\": 0.1454469240142981,\n"}
+,{"stream_name":"stdout","time":13815.32421752,"data":"    \"loso_delta\": 0.003552024407263432,\n"}
+,{"stream_name":"stdout","time":13815.324253927,"data":"    \"paired_bootstrap95_low\": -0.01313971053043926,\n"}
+,{"stream_name":"stdout","time":13815.324258808,"data":"    \"paired_bootstrap95_high\": 0.02239543330773168,\n"}
+,{"stream_name":"stdout","time":13815.324262158,"data":"    \"loso_subject_wins\": 4,\n"}
+,{"stream_name":"stdout","time":13815.324265365,"data":"    \"loso_subject_ties\": 0,\n"}
+,{"stream_name":"stdout","time":13815.324268664,"data":"    \"later_session_mean\": 0.6684004221317653,\n"}
+,{"stream_name":"stdout","time":13815.324272335,"data":"    \"test_cell_mean\": 0.5194012830614263,\n"}
+,{"stream_name":"stdout","time":13815.324275691,"data":"    \"test_session_mean\": 0.5183839197402622,\n"}
+,{"stream_name":"stdout","time":13815.324279,"data":"    \"test_pooled\": 0.518513624551951,\n"}
+,{"stream_name":"stdout","time":13815.324282315,"data":"    \"test_accuracy\": 0.5178807947019868,\n"}
+,{"stream_name":"stdout","time":13815.324289425,"data":"    \"test_log_loss\": 1.0586578277595262,\n"}
+,{"stream_name":"stdout","time":13815.324292676,"data":"    \"test_brier\": 0.6399261725312626,\n"}
+,{"stream_name":"stdout","time":13815.324294983,"data":"    \"total_classifier_seconds\": 1607.2878475649993,\n"}
+,{"stream_name":"stdout","time":13815.324297263,"data":"    \"convergence_warnings\": 0,\n"}
+,{"stream_name":"stdout","time":13815.324299457,"data":"    \"exploratory_signflip_p\": 0.7265625,\n"}
+,{"stream_name":"stdout","time":13815.32430171,"data":"    \"exploratory_holm_p\": 1\n"}
+,{"stream_name":"stdout","time":13815.324303992,"data":"  },\n"}
+,{"stream_name":"stdout","time":13815.324306093,"data":"  {\n"}
+,{"stream_name":"stdout","time":13815.32430821,"data":"    \"variant\": \"ridge\",\n"}
+,{"stream_name":"stdout","time":13815.324310478,"data":"    \"label\": \"Ridge + grouped calibration\",\n"}
+,{"stream_name":"stdout","time":13815.324319714,"data":"    \"loso_session_mean\": 0.5136853275938564,\n"}
+,{"stream_name":"stdout","time":13815.324322154,"data":"    \"loso_std_subjects\": 0.11099005619733296,\n"}
+,{"stream_name":"stdout","time":13815.324324366,"data":"    \"loso_delta\": -0.04911532968010627,\n"}
+,{"stream_name":"stdout","time":13815.324326592,"data":"    \"paired_bootstrap95_low\": -0.07980110727086541,\n"}
+,{"stream_name":"stdout","time":13815.324328932,"data":"    \"paired_bootstrap95_high\": -0.021567963683009117,\n"}
+,{"stream_name":"stdout","time":13815.324331196,"data":"    \"loso_subject_wins\": 0,\n"}
+,{"stream_name":"stdout","time":13815.324333408,"data":"    \"loso_subject_ties\": 0,\n"}
+,{"stream_name":"stdout","time":13815.324335607,"data":"    \"later_session_mean\": 0.6284486657620986,\n"}
+,{"stream_name":"stdout","time":13815.324337907,"data":"    \"test_cell_mean\": 0.4589277437893956,\n"}
+,{"stream_name":"stdout","time":13815.324340124,"data":"    \"test_session_mean\": 0.45778147287765214,\n"}
+,{"stream_name":"stdout","time":13815.324342374,"data":"    \"test_pooled\": 0.45754559294546016,\n"}
+,{"stream_name":"stdout","time":13815.324344595,"data":"    \"test_accuracy\": 0.45695364238410596,\n"}
+,{"stream_name":"stdout","time":13815.324346877,"data":"    \"test_log_loss\": 1.088217926130752,\n"}
+,{"stream_name":"stdout","time":13815.324349275,"data":"    \"test_brier\": 0.6597177261501982,\n"}
+,{"stream_name":"stdout","time":13815.324351521,"data":"    \"total_classifier_seconds\": 156.70672310600185,\n"}
+,{"stream_name":"stdout","time":13815.324356833,"data":"    \"convergence_warnings\": 0,\n"}
+,{"stream_name":"stdout","time":13815.3243592,"data":"    \"exploratory_signflip_p\": 0.0078125,\n"}
+,{"stream_name":"stdout","time":13815.324361417,"data":"    \"exploratory_holm_p\": 0.046875\n"}
+,{"stream_name":"stdout","time":13815.32436367,"data":"  },\n"}
+,{"stream_name":"stdout","time":13815.324365798,"data":"  {\n"}
+,{"stream_name":"stdout","time":13815.324367978,"data":"    \"variant\": \"elasticnet\",\n"}
+,{"stream_name":"stdout","time":13815.324370872,"data":"    \"label\": \"Elastic net + grouped calibration\",\n"}
+,{"stream_name":"stdout","time":13815.324373257,"data":"    \"loso_session_mean\": 0.5257573248731585,\n"}
+,{"stream_name":"stdout","time":13815.324375523,"data":"    \"loso_std_subjects\": 0.1146026870267926,\n"}
+,{"stream_name":"stdout","time":13815.32437773,"data":"    \"loso_delta\": -0.03704333240080417,\n"}
+,{"stream_name":"stdout","time":13815.324379937,"data":"    \"paired_bootstrap95_low\": -0.05912240379470668,\n"}
+,{"stream_name":"stdout","time":13815.324382193,"data":"    \"paired_bootstrap95_high\": -0.01577159930408316,\n"}
+,{"stream_name":"stdout","time":13815.324384445,"data":"    \"loso_subject_wins\": 1,\n"}
+,{"stream_name":"stdout","time":13815.324386628,"data":"    \"loso_subject_ties\": 0,\n"}
+,{"stream_name":"stdout","time":13815.32438882,"data":"    \"later_session_mean\": 0.6530981456354591,\n"}
+,{"stream_name":"stdout","time":13815.324391055,"data":"    \"test_cell_mean\": 0.4584847361265604,\n"}
+,{"stream_name":"stdout","time":13815.324393271,"data":"    \"test_session_mean\": 0.45784211063825025,\n"}
+,{"stream_name":"stdout","time":13815.324395517,"data":"    \"test_pooled\": 0.45754559294546016,\n"}
+,{"stream_name":"stdout","time":13815.324397732,"data":"    \"test_accuracy\": 0.45695364238410596,\n"}
+,{"stream_name":"stdout","time":13815.324399953,"data":"    \"test_log_loss\": 1.0894260172478527,\n"}
+,{"stream_name":"stdout","time":13815.324402176,"data":"    \"test_brier\": 0.6605304173174181,\n"}
+,{"stream_name":"stdout","time":13815.324404379,"data":"    \"total_classifier_seconds\": 31748.259544014,\n"}
+,{"stream_name":"stdout","time":13815.324406627,"data":"    \"convergence_warnings\": 2423,\n"}
+,{"stream_name":"stdout","time":13815.32440887,"data":"    \"exploratory_signflip_p\": 0.0234375,\n"}
+,{"stream_name":"stdout","time":13815.324411083,"data":"    \"exploratory_holm_p\": 0.1171875\n"}
+,{"stream_name":"stdout","time":13815.324413325,"data":"  },\n"}
+,{"stream_name":"stdout","time":13815.32441544,"data":"  {\n"}
+,{"stream_name":"stdout","time":13815.324417538,"data":"    \"variant\": \"mlp\",\n"}
+,{"stream_name":"stdout","time":13815.324419787,"data":"    \"label\": \"MLP32 (PyTorch CUDA)\",\n"}
+,{"stream_name":"stdout","time":13815.32442205,"data":"    \"loso_session_mean\": 0.5451847457854171,\n"}
+,{"stream_name":"stdout","time":13815.324424273,"data":"    \"loso_std_subjects\": 0.13628867474459394,\n"}
+,{"stream_name":"stdout","time":13815.324426497,"data":"    \"loso_delta\": -0.01761591148854555,\n"}
+,{"stream_name":"stdout","time":13815.324428712,"data":"    \"paired_bootstrap95_low\": -0.027665770609318997,\n"}
+,{"stream_name":"stdout","time":13815.324430955,"data":"    \"paired_bootstrap95_high\": -0.006040053230073353,\n"}
+,{"stream_name":"stdout","time":13815.324433303,"data":"    \"loso_subject_wins\": 1,\n"}
+,{"stream_name":"stdout","time":13815.324435504,"data":"    \"loso_subject_ties\": 0,\n"}
+,{"stream_name":"stdout","time":13815.324437684,"data":"    \"later_session_mean\": 0.7337554650987487,\n"}
+,{"stream_name":"stdout","time":13815.324439905,"data":"    \"test_cell_mean\": 0.5360393685885552,\n"}
+,{"stream_name":"stdout","time":13815.324444687,"data":"    \"test_session_mean\": 0.534433384064449,\n"}
+,{"stream_name":"stdout","time":13815.324447099,"data":"    \"test_pooled\": 0.5347894515193633,\n"}
+,{"stream_name":"stdout","time":13815.324449304,"data":"    \"test_accuracy\": 0.5350993377483444,\n"}
+,{"stream_name":"stdout","time":13815.324451512,"data":"    \"test_log_loss\": 0.9940801964803291,\n"}
+,{"stream_name":"stdout","time":13815.32445371,"data":"    \"test_brier\": 0.5972315915073421,\n"}
+,{"stream_name":"stdout","time":13815.324455911,"data":"    \"total_classifier_seconds\": 32.31108700299865,\n"}
+,{"stream_name":"stdout","time":13815.324458171,"data":"    \"convergence_warnings\": 0,\n"}
+,{"stream_name":"stdout","time":13815.324460379,"data":"    \"exploratory_signflip_p\": 0.0234375,\n"}
+,{"stream_name":"stdout","time":13815.324462615,"data":"    \"exploratory_holm_p\": 0.1171875\n"}
+,{"stream_name":"stdout","time":13815.32446485,"data":"  }\n"}
+,{"stream_name":"stdout","time":13815.324466943,"data":"]\n"}
+,{"stream_name":"stdout","time":13815.3244691,"data":"VERIFIED ALL70 JOBS\n"}
+,{"stream_name":"stdout","time":13815.527141982,"data":"[\n"}
+,{"stream_name":"stdout","time":13815.527171721,"data":"  {\n"}
+,{"stream_name":"stdout","time":13815.527174749,"data":"    \"variant\": \"baseline\",\n"}
+,{"stream_name":"stdout","time":13815.527177456,"data":"    \"label\": \"Logistic regression (submitted baseline)\",\n"}
+,{"stream_name":"stdout","time":13815.527180778,"data":"    \"loso_session_mean\": 0.5628006572739627,\n"}
+,{"stream_name":"stdout","time":13815.527196286,"data":"    \"loso_std_subjects\": 0.13324561338345278,\n"}
+,{"stream_name":"stdout","time":13815.527200328,"data":"    \"loso_delta\": 0.0,\n"}
+,{"stream_name":"stdout","time":13815.527204259,"data":"    \"paired_bootstrap95_low\": 0.0,\n"}
+,{"stream_name":"stdout","time":13815.527207985,"data":"    \"paired_bootstrap95_high\": 0.0,\n"}
+,{"stream_name":"stdout","time":13815.527212083,"data":"    \"loso_subject_wins\": 0,\n"}
+,{"stream_name":"stdout","time":13815.52721562,"data":"    \"loso_subject_ties\": 8,\n"}
+,{"stream_name":"stdout","time":13815.527218953,"data":"    \"later_session_mean\": 0.7237298356701342,\n"}
+,{"stream_name":"stdout","time":13815.527222891,"data":"    \"test_cell_mean\": 0.5571636308861698,\n"}
+,{"stream_name":"stdout","time":13815.527245122,"data":"    \"test_session_mean\": 0.5554072947007407,\n"}
+,{"stream_name":"stdout","time":13815.527248927,"data":"    \"test_pooled\": 0.5558597344006698,\n"}
+,{"stream_name":"stdout","time":13815.527252298,"data":"    \"test_accuracy\": 0.5562913907284768,\n"}
+,{"stream_name":"stdout","time":13815.527255525,"data":"    \"test_log_loss\": 0.9929632480008811,\n"}
+,{"stream_name":"stdout","time":13815.527258883,"data":"    \"test_brier\": 0.5961898202388922,\n"}
+,{"stream_name":"stdout","time":13815.527262263,"data":"    \"total_classifier_seconds\": 85.17318276099832,\n"}
+,{"stream_name":"stdout","time":13815.527270285,"data":"    \"convergence_warnings\": 0,\n"}
+,{"stream_name":"stdout","time":13815.527273415,"data":"    \"exploratory_signflip_p\": 1.0,\n"}
+,{"stream_name":"stdout","time":13815.527275662,"data":"    \"exploratory_holm_p\": 1.0\n"}
+,{"stream_name":"stdout","time":13815.527277924,"data":"  },\n"}
+,{"stream_name":"stdout","time":13815.527280555,"data":"  {\n"}
+,{"stream_name":"stdout","time":13815.527294597,"data":"    \"variant\": \"lda_lw\",\n"}
+,{"stream_name":"stdout","time":13815.527298705,"data":"    \"label\": \"Shrinkage LDA\",\n"}
+,{"stream_name":"stdout","time":13815.527302997,"data":"    \"loso_session_mean\": 0.5650959636766038,\n"}
+,{"stream_name":"stdout","time":13815.527321418,"data":"    \"loso_std_subjects\": 0.13083482566809468,\n"}
+,{"stream_name":"stdout","time":13815.52732526,"data":"    \"loso_delta\": 0.0022953064026410355,\n"}
+,{"stream_name":"stdout","time":13815.527328683,"data":"    \"paired_bootstrap95_low\": -0.007534906064290162,\n"}
+,{"stream_name":"stdout","time":13815.527332131,"data":"    \"paired_bootstrap95_high\": 0.012609148652180392,\n"}
+,{"stream_name":"stdout","time":13815.527335765,"data":"    \"loso_subject_wins\": 4,\n"}
+,{"stream_name":"stdout","time":13815.527339022,"data":"    \"loso_subject_ties\": 0,\n"}
+,{"stream_name":"stdout","time":13815.527342425,"data":"    \"later_session_mean\": 0.7089552238805971,\n"}
+,{"stream_name":"stdout","time":13815.527345921,"data":"    \"test_cell_mean\": 0.552825863613892,\n"}
+,{"stream_name":"stdout","time":13815.527349212,"data":"    \"test_session_mean\": 0.5516738207857325,\n"}
+,{"stream_name":"stdout","time":13815.527352618,"data":"    \"test_pooled\": 0.5520710513595439,\n"}
+,{"stream_name":"stdout","time":13815.527355933,"data":"    \"test_accuracy\": 0.552317880794702,\n"}
+,{"stream_name":"stdout","time":13815.527359205,"data":"    \"test_log_loss\": 0.9821931852763031,\n"}
+,{"stream_name":"stdout","time":13815.527362528,"data":"    \"test_brier\": 0.5891930719509784,\n"}
+,{"stream_name":"stdout","time":13815.527367462,"data":"    \"total_classifier_seconds\": 278.3038445810032,\n"}
+,{"stream_name":"stdout","time":13815.527374052,"data":"    \"convergence_warnings\": 0,\n"}
+,{"stream_name":"stdout","time":13815.527376322,"data":"    \"exploratory_signflip_p\": 0.7109375,\n"}
+,{"stream_name":"stdout","time":13815.527378565,"data":"    \"exploratory_holm_p\": 1\n"}
+,{"stream_name":"stdout","time":13815.527391585,"data":"  },\n"}
+,{"stream_name":"stdout","time":13815.527395213,"data":"  {\n"}
+,{"stream_name":"stdout","time":13815.527398977,"data":"    \"variant\": \"svm_linear\",\n"}
+,{"stream_name":"stdout","time":13815.527403178,"data":"    \"label\": \"Linear SVM + grouped calibration\",\n"}
+,{"stream_name":"stdout","time":13815.527407253,"data":"    \"loso_session_mean\": 0.5751856243822775,\n"}
+,{"stream_name":"stdout","time":13815.527411155,"data":"    \"loso_std_subjects\": 0.12717881921633586,\n"}
+,{"stream_name":"stdout","time":13815.527414518,"data":"    \"loso_delta\": 0.012384967108314805,\n"}
+,{"stream_name":"stdout","time":13815.52741788,"data":"    \"paired_bootstrap95_low\": -0.008643712060485295,\n"}
+,{"stream_name":"stdout","time":13815.527421125,"data":"    \"paired_bootstrap95_high\": 0.03355300413685773,\n"}
+,{"stream_name":"stdout","time":13815.527424433,"data":"    \"loso_subject_wins\": 5,\n"}
+,{"stream_name":"stdout","time":13815.527427728,"data":"    \"loso_subject_ties\": 0,\n"}
+,{"stream_name":"stdout","time":13815.527431265,"data":"    \"later_session_mean\": 0.7582541836273181,\n"}
+,{"stream_name":"stdout","time":13815.527434644,"data":"    \"test_cell_mean\": 0.5044471673773329,\n"}
+,{"stream_name":"stdout","time":13815.52743936,"data":"    \"test_session_mean\": 0.5035088365873995,\n"}
+,{"stream_name":"stdout","time":13815.527442746,"data":"    \"test_pooled\": 0.503681392235609,\n"}
+,{"stream_name":"stdout","time":13815.527446033,"data":"    \"test_accuracy\": 0.5033112582781457,\n"}
+,{"stream_name":"stdout","time":13815.527449325,"data":"    \"test_log_loss\": 1.0731228758686289,\n"}
+,{"stream_name":"stdout","time":13815.527452748,"data":"    \"test_brier\": 0.6496416805681866,\n"}
+,{"stream_name":"stdout","time":13815.527456086,"data":"    \"total_classifier_seconds\": 1220.6236191300006,\n"}
+,{"stream_name":"stdout","time":13815.527459393,"data":"    \"convergence_warnings\": 0,\n"}
+,{"stream_name":"stdout","time":13815.527472842,"data":"    \"exploratory_signflip_p\": 0.3125,\n"}
+,{"stream_name":"stdout","time":13815.527475873,"data":"    \"exploratory_holm_p\": 0.9375\n"}
+,{"stream_name":"stdout","time":13815.527490265,"data":"  },\n"}
+,{"stream_name":"stdout","time":13815.527494169,"data":"  {\n"}
+,{"stream_name":"stdout","time":13815.527497847,"data":"    \"variant\": \"svm_rbf\",\n"}
+,{"stream_name":"stdout","time":13815.527502015,"data":"    \"label\": \"RBF SVM + grouped calibration\",\n"}
+,{"stream_name":"stdout","time":13815.527506055,"data":"    \"loso_session_mean\": 0.5663526816812261,\n"}
+,{"stream_name":"stdout","time":13815.527509518,"data":"    \"loso_std_subjects\": 0.1454469240142981,\n"}
+,{"stream_name":"stdout","time":13815.527512758,"data":"    \"loso_delta\": 0.003552024407263432,\n"}
+,{"stream_name":"stdout","time":13815.527516064,"data":"    \"paired_bootstrap95_low\": -0.01313971053043926,\n"}
+,{"stream_name":"stdout","time":13815.527519338,"data":"    \"paired_bootstrap95_high\": 0.02239543330773168,\n"}
+,{"stream_name":"stdout","time":13815.527522702,"data":"    \"loso_subject_wins\": 4,\n"}
+,{"stream_name":"stdout","time":13815.527526008,"data":"    \"loso_subject_ties\": 0,\n"}
+,{"stream_name":"stdout","time":13815.527529228,"data":"    \"later_session_mean\": 0.6684004221317653,\n"}
+,{"stream_name":"stdout","time":13815.527533793,"data":"    \"test_cell_mean\": 0.5194012830614263,\n"}
+,{"stream_name":"stdout","time":13815.527537219,"data":"    \"test_session_mean\": 0.5183839197402622,\n"}
+,{"stream_name":"stdout","time":13815.527540628,"data":"    \"test_pooled\": 0.518513624551951,\n"}
+,{"stream_name":"stdout","time":13815.527543914,"data":"    \"test_accuracy\": 0.5178807947019868,\n"}
+,{"stream_name":"stdout","time":13815.527547198,"data":"    \"test_log_loss\": 1.0586578277595262,\n"}
+,{"stream_name":"stdout","time":13815.527550515,"data":"    \"test_brier\": 0.6399261725312626,\n"}
+,{"stream_name":"stdout","time":13815.52755383,"data":"    \"total_classifier_seconds\": 1607.2878475649993,\n"}
+,{"stream_name":"stdout","time":13815.527557356,"data":"    \"convergence_warnings\": 0,\n"}
+,{"stream_name":"stdout","time":13815.527562252,"data":"    \"exploratory_signflip_p\": 0.7265625,\n"}
+,{"stream_name":"stdout","time":13815.52756983,"data":"    \"exploratory_holm_p\": 1\n"}
+,{"stream_name":"stdout","time":13815.527584048,"data":"  },\n"}
+,{"stream_name":"stdout","time":13815.527587663,"data":"  {\n"}
+,{"stream_name":"stdout","time":13815.527591349,"data":"    \"variant\": \"ridge\",\n"}
+,{"stream_name":"stdout","time":13815.527595313,"data":"    \"label\": \"Ridge + grouped calibration\",\n"}
+,{"stream_name":"stdout","time":13815.527599533,"data":"    \"loso_session_mean\": 0.5136853275938564,\n"}
+,{"stream_name":"stdout","time":13815.527603223,"data":"    \"loso_std_subjects\": 0.11099005619733296,\n"}
+,{"stream_name":"stdout","time":13815.52760665,"data":"    \"loso_delta\": -0.04911532968010627,\n"}
+,{"stream_name":"stdout","time":13815.527609904,"data":"    \"paired_bootstrap95_low\": -0.07980110727086541,\n"}
+,{"stream_name":"stdout","time":13815.527613278,"data":"    \"paired_bootstrap95_high\": -0.021567963683009117,\n"}
+,{"stream_name":"stdout","time":13815.527616698,"data":"    \"loso_subject_wins\": 0,\n"}
+,{"stream_name":"stdout","time":13815.527619945,"data":"    \"loso_subject_ties\": 0,\n"}
+,{"stream_name":"stdout","time":13815.527623171,"data":"    \"later_session_mean\": 0.6284486657620986,\n"}
+,{"stream_name":"stdout","time":13815.527626379,"data":"    \"test_cell_mean\": 0.4589277437893956,\n"}
+,{"stream_name":"stdout","time":13815.527629812,"data":"    \"test_session_mean\": 0.45778147287765214,\n"}
+,{"stream_name":"stdout","time":13815.527636703,"data":"    \"test_pooled\": 0.45754559294546016,\n"}
+,{"stream_name":"stdout","time":13815.527640077,"data":"    \"test_accuracy\": 0.45695364238410596,\n"}
+,{"stream_name":"stdout","time":13815.527643409,"data":"    \"test_log_loss\": 1.088217926130752,\n"}
+,{"stream_name":"stdout","time":13815.527646705,"data":"    \"test_brier\": 0.6597177261501982,\n"}
+,{"stream_name":"stdout","time":13815.527649957,"data":"    \"total_classifier_seconds\": 156.70672310600185,\n"}
+,{"stream_name":"stdout","time":13815.527653384,"data":"    \"convergence_warnings\": 0,\n"}
+,{"stream_name":"stdout","time":13815.527662497,"data":"    \"exploratory_signflip_p\": 0.0078125,\n"}
+,{"stream_name":"stdout","time":13815.527666247,"data":"    \"exploratory_holm_p\": 0.046875\n"}
+,{"stream_name":"stdout","time":13815.527679959,"data":"  },\n"}
+,{"stream_name":"stdout","time":13815.527683976,"data":"  {\n"}
+,{"stream_name":"stdout","time":13815.527687607,"data":"    \"variant\": \"elasticnet\",\n"}
+,{"stream_name":"stdout","time":13815.527692479,"data":"    \"label\": \"Elastic net + grouped calibration\",\n"}
+,{"stream_name":"stdout","time":13815.527696535,"data":"    \"loso_session_mean\": 0.5257573248731585,\n"}
+,{"stream_name":"stdout","time":13815.527700166,"data":"    \"loso_std_subjects\": 0.1146026870267926,\n"}
+,{"stream_name":"stdout","time":13815.527703603,"data":"    \"loso_delta\": -0.03704333240080417,\n"}
+,{"stream_name":"stdout","time":13815.527707263,"data":"    \"paired_bootstrap95_low\": -0.05912240379470668,\n"}
+,{"stream_name":"stdout","time":13815.52771064,"data":"    \"paired_bootstrap95_high\": -0.01577159930408316,\n"}
+,{"stream_name":"stdout","time":13815.527714026,"data":"    \"loso_subject_wins\": 1,\n"}
+,{"stream_name":"stdout","time":13815.527717594,"data":"    \"loso_subject_ties\": 0,\n"}
+,{"stream_name":"stdout","time":13815.527720902,"data":"    \"later_session_mean\": 0.6530981456354591,\n"}
+,{"stream_name":"stdout","time":13815.527724236,"data":"    \"test_cell_mean\": 0.4584847361265604,\n"}
+,{"stream_name":"stdout","time":13815.52772764,"data":"    \"test_session_mean\": 0.45784211063825025,\n"}
+,{"stream_name":"stdout","time":13815.527730972,"data":"    \"test_pooled\": 0.45754559294546016,\n"}
+,{"stream_name":"stdout","time":13815.52773424,"data":"    \"test_accuracy\": 0.45695364238410596,\n"}
+,{"stream_name":"stdout","time":13815.527737674,"data":"    \"test_log_loss\": 1.0894260172478527,\n"}
+,{"stream_name":"stdout","time":13815.527740787,"data":"    \"test_brier\": 0.6605304173174181,\n"}
+,{"stream_name":"stdout","time":13815.527744192,"data":"    \"total_classifier_seconds\": 31748.259544014,\n"}
+,{"stream_name":"stdout","time":13815.527747472,"data":"    \"convergence_warnings\": 2423,\n"}
+,{"stream_name":"stdout","time":13815.527755659,"data":"    \"exploratory_signflip_p\": 0.0234375,\n"}
+,{"stream_name":"stdout","time":13815.527759219,"data":"    \"exploratory_holm_p\": 0.1171875\n"}
+,{"stream_name":"stdout","time":13815.527773866,"data":"  },\n"}
+,{"stream_name":"stdout","time":13815.527778795,"data":"  {\n"}
+,{"stream_name":"stdout","time":13815.527782391,"data":"    \"variant\": \"mlp\",\n"}
+,{"stream_name":"stdout","time":13815.527786472,"data":"    \"label\": \"MLP32 (PyTorch CUDA)\",\n"}
+,{"stream_name":"stdout","time":13815.527790471,"data":"    \"loso_session_mean\": 0.5451847457854171,\n"}
+,{"stream_name":"stdout","time":13815.527793849,"data":"    \"loso_std_subjects\": 0.13628867474459394,\n"}
+,{"stream_name":"stdout","time":13815.527797124,"data":"    \"loso_delta\": -0.01761591148854555,\n"}
+,{"stream_name":"stdout","time":13815.527800466,"data":"    \"paired_bootstrap95_low\": -0.027665770609318997,\n"}
+,{"stream_name":"stdout","time":13815.527807294,"data":"    \"paired_bootstrap95_high\": -0.006040053230073353,\n"}
+,{"stream_name":"stdout","time":13815.527810927,"data":"    \"loso_subject_wins\": 1,\n"}
+,{"stream_name":"stdout","time":13815.527820874,"data":"    \"loso_subject_ties\": 0,\n"}
+,{"stream_name":"stdout","time":13815.527824256,"data":"    \"later_session_mean\": 0.7337554650987487,\n"}
+,{"stream_name":"stdout","time":13815.527827488,"data":"    \"test_cell_mean\": 0.5360393685885552,\n"}
+,{"stream_name":"stdout","time":13815.527830689,"data":"    \"test_session_mean\": 0.534433384064449,\n"}
+,{"stream_name":"stdout","time":13815.527834048,"data":"    \"test_pooled\": 0.5347894515193633,\n"}
+,{"stream_name":"stdout","time":13815.527837356,"data":"    \"test_accuracy\": 0.5350993377483444,\n"}
+,{"stream_name":"stdout","time":13815.527840649,"data":"    \"test_log_loss\": 0.9940801964803291,\n"}
+,{"stream_name":"stdout","time":13815.527843995,"data":"    \"test_brier\": 0.5972315915073421,\n"}
+,{"stream_name":"stdout","time":13815.527852811,"data":"    \"total_classifier_seconds\": 32.31108700299865,\n"}
+,{"stream_name":"stdout","time":13815.527855935,"data":"    \"convergence_warnings\": 0,\n"}
+,{"stream_name":"stdout","time":13815.527869565,"data":"    \"exploratory_signflip_p\": 0.0234375,\n"}
+,{"stream_name":"stdout","time":13815.527873792,"data":"    \"exploratory_holm_p\": 0.1171875\n"}
+,{"stream_name":"stdout","time":13815.527877691,"data":"  }\n"}
+,{"stream_name":"stdout","time":13815.527881087,"data":"]\n"}
+,{"stream_name":"stdout","time":13815.527884935,"data":"VERIFIED ALL70 JOBS\n"}
+,{"stream_name":"stdout","time":13815.938482999,"data":"# Classifier-only ablation of the submitted Lag4 forest\n"}
+,{"stream_name":"stdout","time":13815.938511647,"data":"\n"}
+,{"stream_name":"stdout","time":13815.938516516,"data":"All70 evaluations completed. Geometry,scalers,tree draws and subject bootstraps are shared. The original LR reproduced all10 prior baseline prediction files exactly.\n"}
+,{"stream_name":"stdout","time":13815.938520956,"data":"\n"}
+,{"stream_name":"stdout","time":13815.938524215,"data":"LOSO-selected model,chosen before new public-test scores: **svm_linear**.\n"}
+,{"stream_name":"stdout","time":13815.938527667,"data":"\n"}
+,{"stream_name":"stdout","time":13815.938530879,"data":"| Classifier | LOSO session BA mean ± SD,% | Delta,pp | Later session,% | Public test cell BA,% | Public test session BA,% |\n"}
+,{"stream_name":"stdout","time":13815.938535728,"data":"|---|---:|---:|---:|---:|---:|\n"}
+,{"stream_name":"stdout","time":13815.938538961,"data":"| Logistic regression (submitted baseline) | 56.28 ± 13.32 | +0.00 | 72.37 | 55.72 | 55.54 |\n"}
+,{"stream_name":"stdout","time":13815.938542438,"data":"| Shrinkage LDA | 56.51 ± 13.08 | +0.23 | 70.90 | 55.28 | 55.17 |\n"}
+,{"stream_name":"stdout","time":13815.938545857,"data":"| Linear SVM + grouped calibration | 57.52 ± 12.72 | +1.24 | 75.83 | 50.44 | 50.35 |\n"}
+,{"stream_name":"stdout","time":13815.938549222,"data":"| RBF SVM + grouped calibration | 56.64 ± 14.54 | +0.36 | 66.84 | 51.94 | 51.84 |\n"}
+,{"stream_name":"stdout","time":13815.938552624,"data":"| Ridge + grouped calibration | 51.37 ± 11.10 | -4.91 | 62.84 | 45.89 | 45.78 |\n"}
+,{"stream_name":"stdout","time":13815.938556142,"data":"| Elastic net + grouped calibration | 52.58 ± 11.46 | -3.70 | 65.31 | 45.85 | 45.78 |\n"}
+,{"stream_name":"stdout","time":13815.938559314,"data":"| MLP32 (PyTorch CUDA) | 54.52 ± 13.63 | -1.76 | 73.38 | 53.60 | 53.44 |\n"}
+,{"stream_name":"stdout","time":13815.938562442,"data":"\n"}
+,{"stream_name":"stdout","time":13815.938567107,"data":"## Interpretation limits\n"}
+,{"stream_name":"stdout","time":13815.938584929,"data":"\n"}
+,{"stream_name":"stdout","time":13815.938588639,"data":"Fixed literature-informed configurations were compared,not optimally tuned model families. There are only8 LOSO people; their training folds overlap. Paired bootstrap intervals and sign-flip/Holm values in the CSV are exploratory descriptions,not independent-cohort confirmation. The later-session estimate is one held-out session. Public test comprises two people and has already been inspected in prior research. It is not a sealed score.\n"}
+,{"stream_name":"stdout","time":13815.938591674,"data":"\n"}
+,{"stream_name":"stdout","time":13815.938593885,"data":"The probability interface for SVM,ridge and elastic net includes subject-grouped sigmoid calibration. This is part of the classifier replacement. Geometry is frozen at the outer-training fold during inner calibration; no outer-evaluation labels enter fit.\n"}
+,{"stream_name":"stdout","time":13815.938596505,"data":"\n"}
+,{"stream_name":"stdout","time":13815.938598611,"data":"MLP uses300 fixed full-batch Adam epochs on CUDA,not the provisional local sklearn L-BFGS fixture. Its fixed-epoch results do not assert convergence. All numerical ConvergenceWarnings from classical classifiers remain in individual job JSON files.\n"}
+,{"stream_name":"stdout","time":13815.938601362,"data":"\n"}
+,{"stream_name":"stdout","time":13815.938604967,"data":"Evidence tiers and adaptations are documented in ../literature/survey.md. Ridge has direct fMRI tangent-connectome support; RBF has a weaker direct EEG source. The strongest direct EEG precedents are TS-LDA,TS-linear-SVM and TS-elastic net.\n"}
+,{"stream_name":"stdout","time":13815.938607543,"data":"\n"}
+,{"stream_name":"stdout","time":13815.938609665,"data":"Outputs: ['REPORT.md', 'baseline', 'comparison.csv', 'comparison.png', 'elasticnet', 'lda_lw', 'mlp', 'paired_subject_scores.csv', 'ridge', 'runtime.json', 'selection.json', 'svm_linear', 'svm_rbf', 'verification.json']\n"}
+,{"stream_name":"stderr","time":13819.159036224,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":13819.159086459,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":13819.381388973,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":13819.381414464,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":13820.257041212,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":13820.375863067,"data":"[NbConvertApp] Writing 52101 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":13822.930454907,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":13823.5039367,"data":"[NbConvertApp] Writing 335378 bytes to __results__.html\n"}
+]

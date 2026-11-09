@@ -1,0 +1,13 @@
+__pycache__/
+.pytest_cache/
+results/
+logs/
+manifest.json
+cv-freeze.json
+RUN_STATUS.json
+completion-gpu-v*.json
+live-gpu-v*.jsonl
+downloads/
+checkpoint-input/
+completion-recovery-v*.json
+live-recovery-v*.jsonl

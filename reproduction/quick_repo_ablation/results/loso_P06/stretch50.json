@@ -1,0 +1,12 @@
+{
+  "variant": "stretch50",
+  "tag": "loso_P06",
+  "manifest": "7c10219a68b40adcadce4abc7837de39ea2bd31a3cca4d07e4e31c8bae2ac884",
+  "prediction_sha256": "408b43081e96276b430a727332ec07cb64fb68b4063d4c582b2ffa5eb9de6b34",
+  "cell_mean": 0.5620855734767025,
+  "session_mean": 0.5620413039767879,
+  "pooled": 0.5620413039767879,
+  "accuracy": 0.5614973262032086,
+  "log_loss": 0.9574892379995716,
+  "brier": 0.57779302129692
+}

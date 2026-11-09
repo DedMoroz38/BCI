@@ -1,0 +1,40 @@
+{
+  "scores": {
+    "baseline": 0.5463648925532529,
+    "attention_gram": 0.49785045659698257,
+    "attention_exp": 0.35925023352226226
+  },
+  "winner": "baseline",
+  "metric": "mean LOSO session BA",
+  "source_sha256": "e952ae120bb69f8a1881f8419e10dd1150834768911526b6bbe77b7df4475136",
+  "cv_hashes": {
+    "baseline/loso_P01.json": "c0f5cfa5458b42ade2b714e430867d3236a5ea55bcc090d7640bdc67754b79aa",
+    "baseline/loso_P02.json": "5a45235d100babfaef91e7398972d2559b55378223fad693f1e1ff3a4b813228",
+    "baseline/loso_P03.json": "ab534d7f326cfb0ddf6ab27ab5e29945146e035e895cdf2e76e2413268d69a09",
+    "baseline/loso_P05.json": "e09ee40ecb966ebacd293cee3e047992c18aadf5ae8678d95964a7ca913b290c",
+    "baseline/loso_P06.json": "9a498b9ce967ce76945ce8c9fb858d136b8837480fab6b44f9bfba5126cc5203",
+    "baseline/loso_P07.json": "369da9943c3f5bdd790c98a5511bd574f33a7cfcb035fc62ac9269544da1755d",
+    "baseline/loso_P08.json": "eb093c4af89f54eac32a2d50e061a50a83e7af3d190096a03d2c64d9757554fc",
+    "baseline/loso_P10.json": "5ca33dc850359e53b5c8cf8f6884d9e116edf43da81593bdbed703abada33462",
+    "baseline/later_last.json": "891fc110aee722f7c26e8c2cfa225cb866407e2c0f3794339454368c5f691dac",
+    "attention_gram/loso_P01.json": "2fb51ccbe50590fc281179c547c2dee448b60f9540dda0ddb465e12d644f95a5",
+    "attention_gram/loso_P02.json": "65a25ae185875afa7df984dc7d8aaecc3fbc402ce242e71769a4c5f8134c2161",
+    "attention_gram/loso_P03.json": "511713231aab66e6731a0c7aad05dad0c90efe0456b23940b29236243bc750c6",
+    "attention_gram/loso_P05.json": "bbac40e0cbfc5cfb2f01f368a649a31ca34346c55f202e345fa15a5da81a5459",
+    "attention_gram/loso_P06.json": "32e09769b092b1f55a1d9984dbf083273d231d5f2b063c985ebff6e827b9e4cf",
+    "attention_gram/loso_P07.json": "a152a1228bbb24e37de7c3af54bdae8b46ddc22ad6161be50a71797ef199867b",
+    "attention_gram/loso_P08.json": "b66812092b413e0dac532e700f0087be291c1bf9c2d52746d92c389c3646ed91",
+    "attention_gram/loso_P10.json": "e1769071b65a7979e9963393193e76beadf27eae30d6069733e3daf44f94d470",
+    "attention_gram/later_last.json": "505965f8bab276398c4f9b11cea7955bd7c3d0d3410a82cc166389d6f03b8a98",
+    "attention_exp/loso_P01.json": "faa69d598a295ba3a3aa88dacbc046daea718be743c86ecf05219ae703b33814",
+    "attention_exp/loso_P02.json": "bd016d131e43f2b77941ab5b372eb2c864402b6a14023e74e67fabadc6fb6f04",
+    "attention_exp/loso_P03.json": "af32886332b2ddc380a9e14b7dcfff1e97994b5fc9969da10fcd85ccf80f0827",
+    "attention_exp/loso_P05.json": "5a1b1b14bd7c9f04e3f850a54fbcf795414eb52abcac0e8948146d3a633358a0",
+    "attention_exp/loso_P06.json": "ce45c99cc744b234e0b667a343bb2859d5965abd72c20f802c4043ba04002db2",
+    "attention_exp/loso_P07.json": "7119deefd9f7fc27c16aa15fa8097f3aff14b0059b540116dda8bda24872f0f4",
+    "attention_exp/loso_P08.json": "f7debe7d55bc269678e3fe1fb005d22752c6e0034710f7720b00e5d39d196f9f",
+    "attention_exp/loso_P10.json": "9af7fe824c264e9025f6d45b2121efa693274d683905ae297fc822cb3a8abbf5",
+    "attention_exp/later_last.json": "a7cc945d4d1a5cc4b8034d58ee20ad820c5b9c834229ad2dbc31909918f7ad4e"
+  },
+  "public_test_previously_seen": true
+}

@@ -17,3 +17,6 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 .claude/
+
+# Saved third-party web pages may embed browser API keys
+/reproduction/kaggle_runner/notebook-page.html

@@ -1,0 +1,19 @@
+{
+  "id": "den1shh/proteus-author-ensemble-recovery",
+  "title": "PROTEUS Author Ensemble Recovery",
+  "code_file": "recovery.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "den1shh/proteus-lag4-classifier-inputs",
+    "den1shh/proteus-lag4-classifier-source",
+    "den1shh/proteus-author-ensemble-checkpoints"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

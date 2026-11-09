@@ -1,0 +1,832 @@
+\chapter{Пространственно-временная классификация многоканальных временных рядов в условиях ограниченной выборки}\label{ch:cls}
+
+В данной главе рассматривается вторая постановка задачи декодирования, дополняющая временное описание пространственным. Многоканальные временные ряды классифицируются по категориям стимула на основе масок активности классов и проекции ковариационных матриц на касательное пространство риманова многообразия. Размерность признакового описания задается числом отобранных каналов и не зависит от объема выборки. Метод и его теоретические свойства не зависят от природы сигнала. Проверка выполнена на реальных данных в разделе~\ref{sec4:cls}. Результаты главы опубликованы в работах~\cite{dorin2025enhancing, dorin2025conf67mipt, dorin2025aij, dorin2026ioi} и докладывались на 67-й Всероссийской научной конференции МФТИ 2025 года, конференции AI Journey 2025 и 16-й Международной конференции <<Интеллектуализация обработки информации>> 2026 года.
+
+Полный код реализации, использованный для получения результатов главы, доступен в открытом репозитории:
+\begin{center}
+    {\small \url{https://github.com/DorinDaniil/Spatial-and-Temporal-Characteristics}}
+\end{center}
+
+\section{Постановка задачи}\label{sec2:cls}
+
+Многоканальный временной ряд~--- это последовательность из $\mathcal{T}$ отсчетов:
+\begin{equation*}
+\mathbf{F} = [\mathbf{F}(1), \ldots, \mathbf{F}(\mathcal{T})] \in \mathcal{X}^{\mathcal{T}},
+\end{equation*}
+где $\mathbf{F}(t) \in \mathcal{X}$~--- отсчет в момент $t$, составленный из значений всех каналов. Задана выборка из $N$ рядов одного источника, каждому из которых сопоставлена метка категории стимула:
+\begin{equation}\label{eq:cls_dataset}
+\mathfrak{D} = \{(\mathbf{F}_i, y_i) \mid i = 1, \ldots, N\}, \qquad y_i \in \{1, \ldots, L\},
+\end{equation}
+где $L$~--- число категорий стимула. Требуется построить отображение:
+\begin{equation}\label{eq:cls_target}
+\mathbf{h}: \mathcal{X}^{\mathcal{T}} \to \{1, \ldots, L\},
+\end{equation}
+учитывающее пространственно-временные характеристики ряда.
+
+\section{Метод классификации}\label{sec3:cls}
+
+Предлагается методология декодирования с учетом пространственно-временных характеристик (англ. Decoding with Spatio-Temporal characteristics, DeSPoT). Она объединяет выделение информативных каналов путем их отбора по кросс-корреляции со стимулом, классификацию временных рядов на основе полученных масок активности и сегментацию протяженной записи для аугментации. Методология предназначена для декодирования по записи одного источника при ограниченном объеме выборки и включает Алгоритм~\ref{alg:bad} отбора информативных каналов, модель классификации на его основе и метод аугментации.
+
+Модель классификации включает два этапа. На первом этапе для каждой категории стимула $y = 1, \ldots, L$ по обучающей выборке \textit{извлекается маска активности} $\mathcal{M}^{y}$, выделяющая каналы, сигнал которых сильнее всего коррелирует с бинарным рядом стимула этой категории при лаге сигнала $\Delta t$. На втором этапе выполняется \textit{классификация ряда}. Объект описывается отдельно с точки зрения каждого из $L$ классов, и каждое описание получается проекцией ковариационной матрицы отобранных каналов на касательное пространство риманова многообразия (англ. Tangent Space Mapping, TSM)~\cite{barachant2011multiclass}. Схема второго этапа для одного объекта приведена на Рисунке~\ref{fig:cls_scheme}.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{cls/cls_method_scheme.pdf}
+    \caption{Схема модели классификации для одного объекта $\mathbf{F}$ из $\mathcal{T}$ отсчетов. Строка $y$ отвечает классу $y$. Маска активности $\mathcal{M}^{y}$, построенная по кросс-корреляции сигнала со стимулом при лаге $\Delta t$, отбирает ряды активных каналов $\mathbf{H}_y$; их ковариационная матрица $\mathbf{R}_y$ проецируется логарифмическим отображением на касательное пространство в точке риманова среднего $\bar{\mathbf{R}}_y$, и координаты проекции образуют вектор $\mathbf{p}_y$ соответствия объекта классу $y$. Векторы всех классов конкатенируются в признак $\mathbf{p} \in \mathbb{R}^{d}$, по которому классификатор $\boldsymbol{\eta}$ предсказывает класс $\hat{y}$}
+    \label{fig:cls_scheme}
+\end{figure}
+
+Объект $\mathbf{F}$ есть последовательность из $\mathcal{T}$ отсчетов $\mathbf{F}(t)$. Строка схемы с номером $y$ отвечает классу $y$ и читается слева направо. Отображение $\mathbf{m}_y$ сопоставляет объекту матрицу $\mathbf{H}_y \in \mathbb{R}^{h_y \times \mathcal{T}}$, строки которой суть временные ряды $h_y$ активных каналов, выделенных маской $\mathcal{M}^{y}$. По этой матрице вычисляется ковариационная матрица $\mathbf{R}_y$, то есть точка риманова многообразия симметричных положительно определенных матриц. Логарифмическое отображение $\operatorname{Log}_{\bar{\mathbf{R}}_y}$ проецирует ее на касательное пространство в точке риманова среднего $\bar{\mathbf{R}}_y$ ковариаций всех обучающих объектов, вычисленных по каналам маски $\mathcal{M}^{y}$. Координаты проекции в ортонормированном базисе касательного пространства образуют вектор $\mathbf{p}_y$. Поскольку маска $\mathcal{M}^{y}$ выделяет каналы, реагирующие на стимулы класса $y$, ковариационная структура этих каналов различна у объектов класса $y$ и у остальных объектов, и вектор $\mathbf{p}_y$ измеряет соответствие объекта классу $y$. Векторы всех классов конкатенируются в признак $\mathbf{p} \in \mathbb{R}^{d}$, по которому классификатор $\boldsymbol{\eta}$ предсказывает метку $\hat{y}$. Размерность признака определяется числами активных каналов $h_y$ и не зависит от объема выборки, что существенно при ограниченной выборке одного источника.
+
+\subsection{Извлечение масок активности}\label{sec3:cls_mask}
+Информативные каналы выделяются по корреляции сигнала канала со стимулом. Каналы расположены на пространственной сетке с координатами $(x, y, z)$. Для ускорения вычислений каждый отсчет ряда $\mathbf{F}$ предварительно сжимается усреднением по пространственным ячейкам с ядром $k_s$ (англ. 3D average pooling). Затем сигнал канала $F_{xyz}(t)$ и бинарный ряд стимула $\mathbf{u} = [u(1), \ldots, u(\mathcal{T})]$, $u(t)\in\{0,1\}$, приводятся к нулевому среднему и единичной дисперсии, то есть подвергаются Z-нормализации. Вычисляется их кросс-корреляция при лаге сигнала $\Delta t$:
+\begin{equation}\label{eq:cls_corr}
+\rho_{xyz} = \frac{1}{\mathcal{T}-1} \sum_{t} \mathring{u}(t)\, \mathring{F}_{xyz}(t + \Delta t).
+\end{equation}
+Бинарная маска активности $\mathcal{M} \in \{0,1\}^{X/k_s \times Y/k_s \times Z/k_s}$ задается единицами в $h$ каналах с наибольшим значением $\rho_{xyz}$.
+
+Далее процедура выделения маски описывается формально. В основе алгоритма лежат два предположения о свойствах ряда.
+
+\begin{assumption}\label{as:cls_delay}
+Сигнал каждого источника запаздывает относительно стимула на лаг~$\Delta t$, индивидуальный для источника и постоянный в пределах записи.
+\end{assumption}
+
+\begin{assumption}\label{as:cls_peak}
+Если группа каналов реагирует на стимул, функция кросс-корреляции между рядами этих каналов и рядом стимула достигает максимума при лаге сигнала~$\Delta t$. Этот максимум и выделяет каналы, связанные со стимулом.
+\end{assumption}
+
+Предположение~\ref{as:cls_delay} опирается на результат главы~\ref{ch:delay}, где подтверждено наличие лага между стимулом и сигналом. В разделе~\ref{sec4:delay_dt} на Рисунке~\ref{fig:mse_dt} показано, что ошибка прогноза сигнала существенно зависит от лага и в информативной области сигнала имеет выраженный минимум. Этот минимум наблюдается лишь в локализованной области, что и мотивирует отбор каналов по корреляции со стимулом. В настоящую главу переносится сам факт влияния лага, а не его конкретное значение. Лаг $\Delta t$ выступает индивидуальным для источника параметром Алгоритма~\ref{alg:bad}, и кросс-корреляция~\eqref{eq:cls_corr} вычисляется со сдвигом именно на этот лаг.
+
+На вход Алгоритма~\ref{alg:bad} подаются многоканальный временной ряд на пространственной сетке и бинарный ряд стимула. Алгоритм имеет три настраиваемых параметра: размер ядра $k_s$, лаг сигнала $\Delta t$ и число активных каналов $h$. Частота дискретизации $\mu$ используется для перевода лага в число отсчетов.
+
+\begin{algorithm}[h!]
+    \caption{Отбор информативных каналов по кросс-корреляции со стимулом}\label{alg:bad}
+    \KwIn{многоканальный временной ряд $\mathbf{F}$ на пространственной сетке; бинарный ряд стимула $\mathbf{u}$; параметры $k_s$, $\Delta t$, $h$}
+    \KwOut{маска активности $\mathcal{M}$ и ее версия $\mathcal{M}^{\uparrow}$ в исходном разрешении}
+    \nl \textbf{Сжатие}: усреднение по пространственным ячейкам с ядром $k_s$:
+    $\mathbf{F} \rightarrow \mathbf{V}$, $\mathbf{V} \in \mathbb{R}^{\mathcal{T} \times X/k_s \times Y/k_s \times Z/k_s}$\;
+    \nl \textbf{Z-нормализация}: нормализация временных рядов каналов и ряда стимула:
+    $\mathbf{V} \rightarrow \mathring{\mathbf{V}}$, $\mathbf{u} \rightarrow \mathring{\mathbf{u}}$\;
+    \nl \textbf{Кросс-корреляция}: для каждого канала с координатами $(x, y, z)$ вычисляется
+    \[
+    \rho_{xyz}(p) = \frac{1}{\mathcal{T}-1} \sum_{t=1}^{\mathcal{T}-p} \mathring{u}(t)\, \mathring{V}_{xyz}(t+p), \quad p = 0, \ldots, \mathcal{T}-1\;
+    \]
+    \nl \textbf{Определение маски}: вычисляется $p_{\Delta t} = \lfloor \mu \Delta t \rfloor$; создается бинарная маска $\mathcal{M} \in \{0,1\}^{X/k_s \times Y/k_s \times Z/k_s}$ с единицами в позициях $h$ наибольших значений $\rho_{xyz}(p_{\Delta t})$\;
+    \nl \textbf{Увеличение разрешения}: для получения $\mathcal{M}^{\uparrow} \in \{0,1\}^{X \times Y \times Z}$ каждому элементу присваивается значение ближайшего элемента $\mathcal{M}$:
+    \[
+    \mathcal{M}^{\uparrow}(x, y, z) = \mathcal{M}\left(\left\lfloor \tfrac{x}{k_s} \right\rfloor, \left\lfloor \tfrac{y}{k_s} \right\rfloor, \left\lfloor \tfrac{z}{k_s} \right\rfloor\right)\;
+    \]
+    \Return{$\mathcal{M}$, $\mathcal{M}^{\uparrow}$}
+\end{algorithm}
+
+Кросс-корреляция~\eqref{eq:cls_corr} есть значение функции $\rho_{xyz}(p)$ из Алгоритма~\ref{alg:bad} в точке $p = p_{\Delta t}$. Статистическая значимость областей, полученных Алгоритмом~\ref{alg:bad}, устанавливается проверкой значимости корреляции между рядом стимула и временным рядом каждого канала. Пусть $\mathbf{v}$~--- временной ряд канала, а $\tau_{\mathbf{v}\mathbf{u}}$~--- коэффициент ранговой корреляции Кендалла. Применяется следующий критерий:
+\begin{center}
+    \begin{tabular}{rl}
+    \textit{Выборки:}                        & $\mathbf{v}=\left[v(1),\ldots,v(\mathcal{T})\right]$\\
+                                    & $\mathbf{u}=\left[u(1),\ldots,u(\mathcal{T})\right]$\\
+                                    & выборки связаны\\
+    \textit{Нулевая гипотеза:}                & $H_0\colon \tau_{\mathbf{v}\mathbf{u}}=0$ \\
+    \textit{Альтернативная гипотеза:}         & $H_1\colon \tau_{\mathbf{v}\mathbf{u}}>0$ \\
+    \textit{Статистика критерия:}             & $\hat{\tau}_{\mathbf{v}\mathbf{u}}$ \\
+    \textit{Распределение при нулевой гипотезе:} & табличное\\
+    \end{tabular}
+\end{center}
+Критерий применяется к каждому каналу, поэтому возникает задача множественной проверки гипотез. Для контроля групповой вероятности ошибки первого рода (англ. Family-Wise Error Rate, FWER) на заданном уровне значимости используется поправка Холма. Таким образом, отсеиваются ложные срабатывания и выделяются каналы со статистически значимой корреляцией.
+
+Маска строится отдельно для каждой категории $y = 1, \ldots, L$. По одному объекту класса Алгоритм~\ref{alg:bad} строит неустойчивую маску, поскольку ряд короток, а сигнал зашумлен, как описано в главе~\ref{sec1}. Поэтому для повышения статистической значимости ряды объектов класса $y$ и их ряды стимула объединяются по времени:
+\begin{align*}
+& \widetilde{\mathbf{F}}^{y} = \mathbf{F}_1 \oplus \mathbf{F}_2 \oplus \ldots \oplus \mathbf{F}_{N_y}, \quad \widetilde{\mathbf{F}}^{y} \in \mathbb{R}^{\mathcal{T} N_y \times X \times Y \times Z},\\
+& \widetilde{\mathbf{u}}^{y} = \mathbf{u}_1 \oplus \mathbf{u}_2 \oplus \ldots \oplus \mathbf{u}_{N_y}, \quad \widetilde{\mathbf{u}}^{y} \in \{0, 1\}^{\mathcal{T} N_y},
+\end{align*}
+где $N_y$~--- число объектов класса $y$, а $\oplus$ обозначает конкатенацию по временной оси. К конкатенированным данным применяется Алгоритм~\ref{alg:bad} с параметрами $h_y$, $k_s$, $\Delta t$. Шаг увеличения разрешения опускается, поскольку применение average pooling уменьшает влияние аномальных и зашумленных каналов. Результат~--- маска $\mathcal{M}^{y} \in \{0,1\}^{X/k_s \times Y/k_s \times Z/k_s}$. Объединение записей объектов класса по времени удлиняет ряд и повышает статистическую значимость маски и ее устойчивость к шуму отдельных записей.
+
+Применение маски к временному ряду формально задается следующим определением.
+
+\begin{definition}\label{def:cls_masking}
+Результат применения маски активности $\mathcal{M}$ к ряду $\mathbf{F} = [\mathbf{F}(1), \ldots, \mathbf{F}(\mathcal{T})]$ определяется как матрица
+\begin{equation*}
+\mathbf{H} = \mathcal{M} \odot \mathbf{F} \in \mathbb{R}^{h \times \mathcal{T}},
+\end{equation*}
+где $\odot$ обозначает произведение Адамара, а столбец $t$ матрицы $\mathbf{H}$ состоит из значений отсчета $\mathbf{F}(t)$, соответствующих ненулевым элементам маски, $h$~--- число таких элементов.
+\end{definition}
+
+\subsection{Классификация временных рядов}\label{sec3:cls_clf}
+Заданы набор данных $\mathfrak{D}$ вида~\eqref{eq:cls_dataset} и маски активности $\mathcal{M}^{y}$, $y = 1, \ldots, L$. Искомое отображение $\mathbf{h}: \mathcal{X}^{\mathcal{T}} \to \{1,\ldots,L\}$ представляется суперпозицией
+\begin{equation}\label{eq:cls_model}
+\mathbf{h} = \boldsymbol{\eta} \circ \boldsymbol{\psi} \circ \mathcal{A},
+\end{equation}
+где $\mathcal{A}$~--- 3D average pooling с ядром $k_s$, $\boldsymbol{\psi}$~--- кодировщик пространственно-временных характеристик, $\boldsymbol{\eta}: \mathbb{R}^{d} \to \{1,\ldots,L\}$~--- классификатор.
+
+Кодировщик является конкатенацией отображений для каждой категории стимула:
+\begin{equation}\label{eq:cls_psi}
+\boldsymbol{\psi} = \boldsymbol{\psi}_1 \oplus \cdots \oplus \boldsymbol{\psi}_L, \qquad \boldsymbol{\psi}_y = \boldsymbol{\pi}_y \circ \mathbf{m}_y, \qquad d = \sum_{y=1}^{L} d_y,
+\end{equation}
+где $\mathbf{m}_y$ применяет маску $\mathcal{M}^{y}$ в смысле Определения~\ref{def:cls_masking} и отбирает $h_y$ активных каналов, формируя матрицу из $\mathbb{R}^{h_y \times \mathcal{T}}$, а $\boldsymbol{\pi}_y$ проецирует ее на касательное пространство риманова многообразия с последующей векторизацией. Размерность определяется в разделе~\ref{sec3:cls_tsm}:
+\begin{equation*}d_y = \frac{h_y(h_y+1)}{2}.
+\end{equation*}
+Основным компонентом модели является кодировщик $\boldsymbol{\psi}$, который отображает временные ряды в евклидово пространство, проецируя их ковариационные матрицы на касательное пространство риманова многообразия. Это касательное пространство само является евклидовым. Преобразование упрощает последующую задачу классификации, поскольку извлекает пространственно-временные характеристики, отражающие степень соответствия объекта маске активности конкретного класса. Поэтому в качестве классификатора $\boldsymbol{\eta}$ можно использовать простые модели, и в данной работе рассматриваются логистическая регрессия и двухслойный перцептрон.
+
+\subsection{Проекция на касательное пространство риманова многообразия}\label{sec3:cls_tsm}
+Построение одинаково для всех классов, поэтому для упрощения изложения индекс класса $y$ далее опускается во всех обозначениях. Отображение $\boldsymbol{\pi}: \mathbb{R}^{h \times \mathcal{T}} \to \mathbb{R}^{d}$ строится методом TSM~\cite{barachant2011multiclass}, основанным на римановой геометрии ковариационных матриц~\cite{barachant2010riemannian, barachant2011multiclass}. Метод проецирует выборку ковариационных матриц объектов с риманова многообразия, которое не является линейным пространством, на касательное пространство к нему, которое является евклидовым. На первом шаге метода матрица активных каналов $i$-го объекта $\mathbf{H}_i = \mathcal{M} \odot \mathbf{F}_i$ из Определения~\ref{def:cls_masking} центрируется по времени:
+\begin{equation*}
+\mathbf{H}_i = \left[
+\begin{array}{cccc}
+f^{i}_{11} & f^{i}_{12} & \ldots & f^{i}_{1\mathcal{T}}\\
+f^{i}_{21} & f^{i}_{22} & \ldots & f^{i}_{2\mathcal{T}}\\
+\vdots & \vdots & \ddots & \vdots\\
+f^{i}_{h1} & f^{i}_{h2} & \ldots & f^{i}_{h\mathcal{T}}
+\end{array}
+\right]
+= \begin{bmatrix}
+\mathbf{f}^{i}_1\\
+\mathbf{f}^{i}_2\\
+\vdots\\
+\mathbf{f}^{i}_{h}
+\end{bmatrix} \in \mathbb{R}^{h \times \mathcal{T}}, \qquad i = 1, \ldots, N,
+\end{equation*}
+где $\mathbf{f}^{i}_k$, $k = 1, \ldots, h$,~--- центрированные временные ряды активных каналов. Затем вычисляется ковариационная матрица многомерного временного ряда $\mathbf{H}_i$:
+\begin{equation}\label{eq:cls_cov}
+\mathbf{R}_i = \frac{1}{\mathcal{T}-1}\, \mathbf{H}_i \mathbf{H}_i^{\top} \in \mathbb{S}_{+}^{h}, \qquad i = 1, \ldots, N,
+\end{equation}
+где $\mathbb{S}_{+}^{h}$~--- пространство симметричных положительно определенных (англ. Symmetric Positive Definite, SPD) матриц размера $h \times h$. Это пространство образует риманово многообразие~$\mathcal{R}$~\cite{barachant2010riemannian}.
+
+В каждой точке риманова многообразия существует касательная плоскость с определенным на ней скалярным произведением. Все ковариационные матрицы выборки проецируются на общую касательную плоскость, построенную в точке их геометрического среднего относительно римановой метрики. Геометрическое среднее SPD-матриц задается как
+\begin{equation}\label{eq:cls_mean}
+\bar{\mathbf{R}} = \mathfrak{G}\left(\mathbf{R}_1, \ldots, \mathbf{R}_N\right) = \operatorname*{arg\,min}_{\mathbf{R} \in \mathbb{S}_{+}^{h}} \sum_{i=1}^{N} \delta_{\mathcal{R}}^2(\mathbf{R}, \mathbf{R}_i),
+\end{equation}
+где геодезическое расстояние от $\mathbf{R}_1$ до $\mathbf{R}_2$ равна
+\begin{equation}\label{eq:cls_dist}
+\delta_{\mathcal{R}}(\mathbf{R}_1, \mathbf{R}_2) = \big\| \log\big(\mathbf{R}_1^{-1}\mathbf{R}_2\big) \big\|_F = \Big( \sum_{l=1}^{h} \log^2 \lambda_l \Big)^{1/2},
+\end{equation}
+а $\lambda_l$~--- собственные значения матрицы $\mathbf{R}_1^{-1}\mathbf{R}_2$. Существование и единственность среднего~\eqref{eq:cls_mean} обсуждаются в разделе~\ref{sec3:cls_theory}.
+
+Для каждой ковариационной матрицы $\mathbf{R}_i$ существует ее проекция $\mathbf{P}_i$ на касательное пространство $T_{\bar{\mathbf{R}}}$ в точке $\bar{\mathbf{R}}$. Проекция задается логарифмическим отображением
+\begin{equation}\label{eq:cls_log}
+\mathbf{P}_i = \operatorname{Log}_{\bar{\mathbf{R}}}(\mathbf{R}_i) = \bar{\mathbf{R}}^{1/2} \log\!\big( \bar{\mathbf{R}}^{-1/2} \mathbf{R}_i \bar{\mathbf{R}}^{-1/2} \big) \bar{\mathbf{R}}^{1/2}, \qquad \mathbf{P}_i \in \mathbb{R}^{h \times h},
+\end{equation}
+а обратное отображение с касательного пространства на многообразие~--- экспоненциальным:
+\begin{equation*}\operatorname{Exp}_{\bar{\mathbf{R}}}(\mathbf{P}_i) = \mathbf{R}_i = \bar{\mathbf{R}}^{1/2} \exp\!\big( \bar{\mathbf{R}}^{-1/2} \mathbf{P}_i \bar{\mathbf{R}}^{-1/2} \big) \bar{\mathbf{R}}^{1/2}.
+\end{equation*}
+Эти операции вычисляются через спектральное разложение матриц. Для матрицы $\mathbf{B} = \mathbf{U} \mathbf{D} \mathbf{U}^{-1}$, где $\mathbf{D}$~--- диагональная матрица собственных значений, а $\mathbf{U}$~--- матрица собственных векторов,
+\begin{equation}\label{eq:cls_matfun}
+\mathbf{B}^{\pm 1/2} = \mathbf{U} \mathbf{D}^{\pm 1/2} \mathbf{U}^{-1}, \qquad \log(\mathbf{B}) = \mathbf{U} \log(\mathbf{D}) \mathbf{U}^{-1}, \qquad \exp(\mathbf{B}) = \mathbf{U} \exp(\mathbf{D}) \mathbf{U}^{-1}.
+\end{equation}
+
+После проекции каждой ковариационной матрицы $\mathbf{R}_i$ с использованием $\operatorname{Log}_{\bar{\mathbf{R}}}(\,\cdot\,)$ получаются симметричные матрицы $\mathbf{P}_i \in \mathbb{R}^{h \times h}$. Последним шагом метода является векторизация. Длина касательного вектора в точке $\bar{\mathbf{R}}$ измеряется не нормой Фробениуса самой матрицы $\mathbf{P}_i$, а нормой ее отбеленной формы
+\begin{equation}\label{eq:cls_white}
+\mathbf{S}_i = \bar{\mathbf{R}}^{-1/2} \mathbf{P}_i \bar{\mathbf{R}}^{-1/2} = \log\!\big( \bar{\mathbf{R}}^{-1/2} \mathbf{R}_i \bar{\mathbf{R}}^{-1/2} \big),
+\end{equation}
+см. раздел~\ref{sec3:cls_theory}. Поэтому векторизуется матрица $\mathbf{S}_i$. Элементы ее верхнего треугольника последовательно записываются в вектор, причем диагональные элементы входят в него с коэффициентом~$1$, а внедиагональные~--- с коэффициентом~$\sqrt{2}$. В результате получаются представления
+\begin{equation}\label{eq:cls_emb}
+\mathbf{p}_i = \operatorname{vec}_{\sqrt{2}}(\mathbf{S}_i) = \begin{bmatrix}
+S_{11} & \sqrt{2}\, S_{12} & \ldots & \sqrt{2}\, S_{1h} & S_{22} & \sqrt{2}\, S_{23} & \ldots & S_{hh}
+\end{bmatrix}^{\top} \in \mathbb{R}^{d},
+\end{equation}
+размерности $d = h(h+1)/2$. Коэффициент $\sqrt{2}$ согласует евклидову норму вектора с нормой Фробениуса матрицы. Каждый внедиагональный элемент симметричной матрицы входит в $\|\mathbf{S}_i\|_F^2 = \sum_k S_{kk}^2 + 2\sum_{k<l} S_{kl}^2$ дважды, а в верхний треугольник~--- один раз, и множитель $\sqrt{2}$ учитывает его второе вхождение, так что $\|\mathbf{p}_i\|_2 = \|\mathbf{S}_i\|_F$. Без этого коэффициента евклидовы расстояния между представлениями занижали бы вклад внедиагональных элементов, а $L_2$-регуляризация классификатора штрафовала бы диагональные и внедиагональные направления по-разному. Тем самым $\mathbf{p}_i$~--- координаты касательного вектора $\mathbf{P}_i$ в ортонормированном базисе касательного пространства. Их метрические свойства доказываются в разделе~\ref{sec3:cls_theory}. Проекция ковариационных матриц на касательное пространство и обратное отображение на многообразие показаны на Рисунке~\ref{fig:rieman}.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.78\textwidth]{cls/riemann_scheme.pdf}
+    \caption{Проекция на касательное пространство. Ковариационная матрица $\mathbf{R}_j$ проецируется на касательное пространство $T_{\bar{\mathbf{R}}}$ в точке риманова среднего $\bar{\mathbf{R}}$ логарифмическим отображением $\operatorname{Log}_{\bar{\mathbf{R}}}(\mathbf{R}_j)$; проекция $\mathbf{P}_j$ возвращается на многообразие $\mathcal{R}$ экспоненциальным отображением $\operatorname{Exp}_{\bar{\mathbf{R}}}(\mathbf{P}_j)$. Длина $\|\mathbf{P}_j\|_{\bar{\mathbf{R}}}$ касательного вектора в аффинно-инвариантной метрике равна геодезическому расстоянию $\delta_{\mathcal{R}}(\bar{\mathbf{R}}, \mathbf{R}_j)$}
+    \label{fig:rieman}
+\end{figure}
+
+\subsection{Сегментация временных рядов для аугментации}\label{sec3:cls_aug}
+
+Запись многоканального сигнала обычно представляет собой одно протяженное измерение, отдельное для каждого источника, тогда как для обучения модели~\eqref{eq:cls_model} требуется выборка размеченных рядов фиксированной длины. Для формирования такой выборки предлагается метод сегментации временного ряда, выделяющий сегменты с преобладающей категорией стимула.
+
+\begin{definition}
+Фрагмент временного ряда $\mathbf{F}_{\mathrm{rec}} = [\mathbf{F}(1), \ldots, \mathbf{F}(\mathcal{T}_{\mathrm{rec}})]$~--- любая его подпоследовательность
+\begin{equation*}
+   [\mathbf{F}(t_1), \ldots, \mathbf{F}(t_k)], \quad 1 \leqslant t_1 < \ldots < t_k \leqslant \mathcal{T}_{\mathrm{rec}}.
+\end{equation*}
+\end{definition}
+
+\begin{definition}
+Сегмент временного ряда $\mathbf{F}_{\mathrm{rec}}$~--- его непрерывный фрагмент
+\begin{equation*}
+[\mathbf{F}(t)]_{t=t_0}^{t_1}, \quad 1 \leqslant t_0 < t_1 \leqslant \mathcal{T}_{\mathrm{rec}}.
+\end{equation*}
+\end{definition}
+
+\begin{definition}
+Сегментация временного ряда~--- отображение $\mathcal{G}$, которое ставит в соответствие ряду $\mathbf{F}_{\mathrm{rec}}$ множество его сегментов.
+\end{definition}
+
+Пусть задана полная запись $\mathbf{F}_{\mathrm{rec}} = [\mathbf{F}(1), \ldots, \mathbf{F}(\mathcal{T}_{\mathrm{rec}})]$ длиной $\mathcal{T}_{\mathrm{rec}}$ и категориальный ряд стимула
+\begin{equation*}\mathbf{u}_{\mathrm{rec}} = [u_{\mathrm{rec}}(1), \ldots, u_{\mathrm{rec}}(\mathcal{T}_{\mathrm{rec}})], \quad u_{\mathrm{rec}}(t) \in \{0, 1, \dots, L\},
+\end{equation*}
+где класс $0$ обозначает периоды без стимула. Требуется выделить в записи сегменты фиксированной длины $\mathcal{T}$ так, чтобы каждый сегмент преимущественно содержал одну категорию стимула.
+
+\begin{assumption}\label{as:cls_rest}
+Между стимулами разных категорий запись содержит достаточно длинные периоды без стимула: существует $\mathcal{T} > 0$ такое, что для любого сегмента длины $\mathcal{T}$ суммарная длина моментов предъявления стимула в нем меньше $\mathcal{T}$.
+\end{assumption}
+
+Длина $\mathcal{T}$ фиксируется в соответствии с Предположением~\ref{as:cls_rest}. Для каждой категории $y \in \{1,\dots,L\}$ на первом шаге находятся начальные и конечные индексы интервалов предъявления стимула класса $y$, упорядоченные по возрастанию:
+\begin{align*}
+\{b_{1}, \ldots, b_{N_{y}}\} &= \{t \mid u_{\mathrm{rec}}(t)=y,\ u_{\mathrm{rec}}(t-1)=0\},\\
+\{e_{1}, \ldots, e_{N_{y}}\} &= \{t \mid u_{\mathrm{rec}}(t)=y,\ u_{\mathrm{rec}}(t+1)=0\},
+\end{align*}
+где $N_{y}$~--- число интервалов категории $y$. На втором шаге каждый интервал $[b_{j}, e_{j}]$ длины $\mathcal{T}_{j} = e_{j} - b_{j} + 1$ дополняется периодами без стимула слева и справа до сегмента длины $\mathcal{T}$:
+\begin{equation*}
+\mathbf{F}_{j} = [\mathbf{F}(b_{j}-r_1), \ldots, \mathbf{F}(e_{j}+r_2)],
+\qquad
+r_1 = \lfloor (\mathcal{T} - \mathcal{T}_{j})/2 \rfloor, \quad r_2 = \lceil (\mathcal{T} - \mathcal{T}_{j})/2 \rceil,
+\end{equation*}
+где $j = 1,\ldots, N_{y}$, а $\lfloor \cdot \rfloor$ и $\lceil \cdot \rceil$ обозначают округление вниз и вверх. Аналогично сегментируется ряд стимула. Бинарный ряд стимула $\mathbf{u}$ объекта класса $y$ задается индикатором $u(t) = \mathds{1}\{u_{\mathrm{rec}}(t) = y\}$. В результате объединения всех категорий формируется выборка из $N = \sum_{y=1}^{L} N_y$ сегментов длины $\mathcal{T}$ с метками классов.
+
+\section{Теоретические свойства проекции на касательное пространство}\label{sec3:cls_theory}
+
+Кодировщик~$\boldsymbol{\psi}$ из~\eqref{eq:cls_psi} заменяет ковариационную матрицу объекта ее проекцией на касательное пространство в точке риманова среднего, и полученные признаки подаются на вход линейного классификатора. В настоящем разделе доказываются три свойства этой конструкции. Во-первых, признаки не зависят от единиц измерения сигнала и от невырожденного смешивания отобранных каналов. Во-вторых, евклидовы расстояния между признаками отличаются от геодезических расстояний между ковариациями не более чем в контролируемое число раз, которое определяется наибольшим спектральным разбросом касательных векторов, а потому и геодезическим радиусом облака объектов. Константа этой оценки неулучшаема. В-третьих, распределение ошибки оценки ковариации по $\mathcal{T}$ отсчетам не зависит от истинной ковариации, а сама ошибка убывает как $h/\sqrt{\mathcal{T}}$, что задает ограничение на число отбираемых каналов~$h$.
+
+\subsection{Многообразие ковариационных матриц и признаковое описание}\label{sec3:cls_theory_geom}
+
+Множество $\mathbb{S}_{+}^{h}$ снабжается аффинно-инвариантной римановой метрикой~\cite{bhatia2007positive}: касательное пространство $T_{\mathbf{R}}$ в точке $\mathbf{R} \in \mathbb{S}_{+}^{h}$ есть пространство симметричных матриц $\mathrm{Sym}(h)$, а скалярное произведение касательных векторов $\mathbf{X}, \mathbf{Z} \in \mathrm{Sym}(h)$ задается формулой
+\begin{equation}\label{eq:cls_metric}
+\langle \mathbf{X}, \mathbf{Z} \rangle_{\mathbf{R}} = \operatorname{tr}\big(\mathbf{R}^{-1} \mathbf{X} \mathbf{R}^{-1} \mathbf{Z}\big),
+\qquad
+\|\mathbf{X}\|_{\mathbf{R}} = \big\| \mathbf{R}^{-1/2} \mathbf{X} \mathbf{R}^{-1/2} \big\|_F .
+\end{equation}
+Геодезическое расстояние~\eqref{eq:cls_dist} допускает эквивалентную симметричную запись
+\begin{equation}\label{eq:cls_dist_log}
+\delta_{\mathcal{R}}(\mathbf{R}_1, \mathbf{R}_2) = \big\| \log\big( \mathbf{R}_1^{-1/2} \mathbf{R}_2 \mathbf{R}_1^{-1/2} \big) \big\|_F ,
+\end{equation}
+поскольку матрицы $\mathbf{R}_1^{-1}\mathbf{R}_2$ и $\mathbf{R}_1^{-1/2}\mathbf{R}_2\mathbf{R}_1^{-1/2}$ подобны и имеют одни и те же собственные значения $\lambda_l > 0$, а норма Фробениуса симметричной матрицы равна корню из суммы квадратов ее собственных значений. В отличие от $\log(\mathbf{R}_1^{-1}\mathbf{R}_2)$, матрица под нормой в~\eqref{eq:cls_dist_log} симметрична.
+
+\begin{lemma}\label{lem:cls_inv}
+Для любой обратимой матрицы $\mathbf{A} \in \mathbb{R}^{h \times h}$ и любых $\mathbf{R}_1, \mathbf{R}_2 \in \mathbb{S}_{+}^{h}$
+\begin{equation*}\delta_{\mathcal{R}}\big(\mathbf{A}\mathbf{R}_1\mathbf{A}^{\top}, \mathbf{A}\mathbf{R}_2\mathbf{A}^{\top}\big) = \delta_{\mathcal{R}}(\mathbf{R}_1, \mathbf{R}_2).
+\end{equation*}
+\end{lemma}
+\begin{proof}
+Расстояние зависит только от собственных значений матрицы $\mathbf{R}_1^{-1}\mathbf{R}_2$. Матрица $(\mathbf{A}\mathbf{R}_1\mathbf{A}^{\top})^{-1}\mathbf{A}\mathbf{R}_2\mathbf{A}^{\top} = \mathbf{A}^{-\top}\mathbf{R}_1^{-1}\mathbf{R}_2\mathbf{A}^{\top}$ подобна $\mathbf{R}_1^{-1}\mathbf{R}_2$, а подобные матрицы имеют одинаковые собственные значения.
+\end{proof}
+
+Риманово среднее $\bar{\mathbf{R}}$ из раздела~\ref{sec3:cls_tsm} существует и единственно, поскольку функция $\mathbf{R} \mapsto \delta_{\mathcal{R}}^2(\mathbf{R}, \mathbf{R}_i)$ строго геодезически выпукла на многообразии неположительной кривизны~\cite{bhatia2007positive, moakher2005differential}. Оно характеризуется уравнением
+\begin{equation}\label{eq:cls_karcher}
+\sum_{i=1}^{N} \log\big( \bar{\mathbf{R}}^{-1/2} \mathbf{R}_i \bar{\mathbf{R}}^{-1/2} \big) = \mathbf{0}.
+\end{equation}
+
+\paragraph{Координаты в касательном пространстве.} Проекция $\mathbf{P}_i = \operatorname{Log}_{\bar{\mathbf{R}}}(\mathbf{R}_i)$ является касательным вектором в точке $\bar{\mathbf{R}}$, и ее длина измеряется нормой~\eqref{eq:cls_metric}. В обозначениях раздела~\ref{sec3:cls_tsm}, см.~\eqref{eq:cls_white} и~\eqref{eq:cls_emb}, отбеленная форма касательного вектора и признак объекта равны
+\begin{equation}\label{eq:cls_feat}
+\mathbf{S}_i = \bar{\mathbf{R}}^{-1/2} \mathbf{P}_i \bar{\mathbf{R}}^{-1/2} = \log\big( \bar{\mathbf{R}}^{-1/2} \mathbf{R}_i \bar{\mathbf{R}}^{-1/2} \big),
+\qquad
+\mathbf{p}_i = \operatorname{vec}_{\sqrt{2}}(\mathbf{S}_i) \in \mathbb{R}^{d},
+\end{equation}
+где $\operatorname{vec}_{\sqrt{2}}$~--- векторизация~\eqref{eq:cls_emb} и $d = h(h+1)/2$.
+
+\begin{lemma}\label{lem:cls_vec}
+Отображение $\operatorname{vec}_{\sqrt{2}}$ является линейной изометрией пространств $(\mathrm{Sym}(h), \|\cdot\|_F)$ и $(\mathbb{R}^{d}, \|\cdot\|_2)$. Как следствие,
+\begin{equation*}\|\mathbf{p}_i\|_2 = \|\mathbf{P}_i\|_{\bar{\mathbf{R}}},
+\qquad
+\|\mathbf{p}_i - \mathbf{p}_j\|_2 = \|\mathbf{P}_i - \mathbf{P}_j\|_{\bar{\mathbf{R}}} .
+\end{equation*}
+\end{lemma}
+\begin{proof}
+Для симметричной $\mathbf{S}$ каждый внедиагональный элемент входит в норму Фробениуса дважды:
+$\|\mathbf{S}\|_F^2 = \sum_{k} S_{kk}^2 + 2\sum_{k<l} S_{kl}^2 = \|\operatorname{vec}_{\sqrt{2}}(\mathbf{S})\|_2^2$. Линейность очевидна. Второе утверждение следует из~\eqref{eq:cls_metric} и~\eqref{eq:cls_feat}.
+\end{proof}
+
+\begin{remark}
+Из уравнения~\eqref{eq:cls_karcher} и линейности $\operatorname{vec}_{\sqrt{2}}$ следует $\sum_i \mathbf{p}_i = \mathbf{0}$: признаки обучающей выборки центрированы автоматически.
+\end{remark}
+
+Далее используются два элементарных факта о матричных функциях. Для симметричной $\mathbf{M} = \mathbf{U} \operatorname{diag}(\lambda_1, \ldots, \lambda_h) \mathbf{U}^{\top}$ с ортогональной $\mathbf{U}$ и функции $f$ положено $f(\mathbf{M}) = \mathbf{U} \operatorname{diag}(f(\lambda_1), \ldots, f(\lambda_h)) \mathbf{U}^{\top}$, что согласуется с~\eqref{eq:cls_matfun}. Отображение $\exp\colon \mathrm{Sym}(h) \to \mathbb{S}_{+}^{h}$ есть диффеоморфизм с обратным~$\log$.
+
+\begin{lemma}\label{lem:cls_conj}
+Для ортогональной $\mathbf{Q}$ и симметричной $\mathbf{M}$ выполнено $f(\mathbf{Q}\mathbf{M}\mathbf{Q}^{\top}) = \mathbf{Q} f(\mathbf{M}) \mathbf{Q}^{\top}$.
+\end{lemma}
+\begin{proof}
+Если $\mathbf{M} = \mathbf{U}\operatorname{diag}(\lambda)\mathbf{U}^{\top}$, то $\mathbf{Q}\mathbf{M}\mathbf{Q}^{\top} = (\mathbf{Q}\mathbf{U})\operatorname{diag}(\lambda)(\mathbf{Q}\mathbf{U})^{\top}$~--- спектральное разложение с теми же собственными значениями и ортогональной матрицей $\mathbf{Q}\mathbf{U}$.
+\end{proof}
+
+\begin{lemma}\label{lem:cls_duhamel}
+Для симметричных $\mathbf{S}$ и $\mathbf{X}$ дифференциал матричной экспоненты равен
+\begin{equation}\label{eq:cls_duhamel}
+d\exp_{\mathbf{S}}[\mathbf{X}] = \frac{d}{dt} e^{\mathbf{S} + t\mathbf{X}} \Big|_{t=0} = \int_{0}^{1} e^{(1-u)\mathbf{S}} \mathbf{X} e^{u\mathbf{S}} \, du .
+\end{equation}
+\end{lemma}
+\begin{proof}
+Положим $\mathbf{G}(u) = e^{(1-u)\mathbf{S}} e^{u(\mathbf{S}+t\mathbf{X})}$. Тогда $\mathbf{G}(1) - \mathbf{G}(0) = e^{\mathbf{S}+t\mathbf{X}} - e^{\mathbf{S}}$, а производная
+$\mathbf{G}'(u) = e^{(1-u)\mathbf{S}} \big( -\mathbf{S} + \mathbf{S} + t\mathbf{X} \big) e^{u(\mathbf{S}+t\mathbf{X})} = t\, e^{(1-u)\mathbf{S}} \mathbf{X} e^{u(\mathbf{S}+t\mathbf{X})}$.
+Интегрируя по $u \in [0,1]$, деля на $t$ и переходя к пределу $t \to 0$, получаем~\eqref{eq:cls_duhamel}.
+\end{proof}
+
+\subsection{Инвариантность к преобразованию каналов}\label{sec3:cls_theory_inv}
+
+Для метода, обрабатывающего многоканальную запись, первым возникает вопрос о том, зависит ли результат от единиц измерения каналов и от их смешивания. Следующее предложение показывает, что для описанной конструкции такой зависимости нет.
+
+\begin{proposition}\label{prop:cls_affine}
+Пусть $\mathbf{A} \in \mathbb{R}^{h \times h}$ обратима и все ковариационные матрицы преобразованы как $\mathbf{R}_i' = \mathbf{A} \mathbf{R}_i \mathbf{A}^{\top}$, $i = 1, \ldots, N$, что отвечает замене рядов $\mathbf{H}_i$ на $\mathbf{A}\mathbf{H}_i$. Тогда
+\begin{enumerate}
+    \item[(а)] риманово среднее преобразуется согласованно: $\bar{\mathbf{R}}' = \mathbf{A} \bar{\mathbf{R}} \mathbf{A}^{\top}$;
+    \item[(б)] существует ортогональная матрица $\mathbf{O} \in \mathbb{R}^{d \times d}$, одна и та же для всех объектов, такая что $\mathbf{p}_i' = \mathbf{O} \mathbf{p}_i$;
+    \item[(в)] матрица весов решения $L_2$-регуляризованной логистической регрессии на признаках $\{\mathbf{p}_i'\}$ равна $\hat{\mathbf{W}}' = \hat{\mathbf{W}} \mathbf{O}^{\top}$, где $\hat{\mathbf{W}}$~--- матрица весов решения на $\{\mathbf{p}_i\}$, и предсказания на любом объекте совпадают.
+\end{enumerate}
+\end{proposition}
+\begin{proof}
+(а) По лемме~\ref{lem:cls_inv} для любой $\mathbf{R} \in \mathbb{S}_{+}^{h}$ выполнено $\sum_i \delta_{\mathcal{R}}^2(\mathbf{A}\mathbf{R}\mathbf{A}^{\top}, \mathbf{R}_i') = \sum_i \delta_{\mathcal{R}}^2(\mathbf{R}, \mathbf{R}_i)$. Отображение $\mathbf{R} \mapsto \mathbf{A}\mathbf{R}\mathbf{A}^{\top}$~--- биекция $\mathbb{S}_{+}^{h}$ на себя, переводящая целевую функцию задачи о среднем для исходных матриц в целевую функцию задачи для преобразованных. Поэтому оно переводит минимизатор в минимизатор, и по единственности $\bar{\mathbf{R}}' = \mathbf{A}\bar{\mathbf{R}}\mathbf{A}^{\top}$.
+
+(б) Положим $\mathbf{Q} = (\mathbf{A}\bar{\mathbf{R}}\mathbf{A}^{\top})^{-1/2} \mathbf{A} \bar{\mathbf{R}}^{1/2}$. Прямая проверка дает
+\begin{equation*}
+\mathbf{Q}\mathbf{Q}^{\top} = (\mathbf{A}\bar{\mathbf{R}}\mathbf{A}^{\top})^{-1/2} \mathbf{A}\bar{\mathbf{R}}\mathbf{A}^{\top} (\mathbf{A}\bar{\mathbf{R}}\mathbf{A}^{\top})^{-1/2} = \mathbb{I},
+\end{equation*}
+то есть $\mathbf{Q}$ ортогональна. Подставляя $\bar{\mathbf{R}}'$ из пункта~(а) и вставляя $\bar{\mathbf{R}}^{1/2}\bar{\mathbf{R}}^{-1/2} = \mathbb{I}$ по обе стороны от $\mathbf{R}_i$, получаем
+\begin{equation*}
+\bar{\mathbf{R}}'^{-1/2} \mathbf{R}_i' \bar{\mathbf{R}}'^{-1/2} = \mathbf{Q} \big( \bar{\mathbf{R}}^{-1/2} \mathbf{R}_i \bar{\mathbf{R}}^{-1/2} \big) \mathbf{Q}^{\top},
+\end{equation*}
+и по лемме~\ref{lem:cls_conj} $\mathbf{S}_i' = \mathbf{Q}\mathbf{S}_i\mathbf{Q}^{\top}$. Отображение $\mathbf{S} \mapsto \mathbf{Q}\mathbf{S}\mathbf{Q}^{\top}$ линейно на $\mathrm{Sym}(h)$ и сохраняет норму Фробениуса. В изометричных координатах леммы~\ref{lem:cls_vec} оно задается матрицей $\mathbf{O}$, сохраняющей евклидову норму, то есть ортогональной. Матрица $\mathbf{O}$ зависит от $\mathbf{A}$ и $\bar{\mathbf{R}}$, но не от~$i$.
+
+(в) Функционал логистической регрессии с матрицей весов $\mathbf{W} \in \mathbb{R}^{L \times d}$ и вектором смещений $\mathbf{b}$
+\begin{equation*}
+J(\mathbf{W}, \mathbf{b}) = \frac{1}{N} \sum_{i=1}^{N} \ell\big( y_i, \mathbf{W}\mathbf{p}_i + \mathbf{b} \big) + \lambda \|\mathbf{W}\|_F^2
+\end{equation*}
+выпукл по паре $(\mathbf{W}, \mathbf{b})$, а слагаемое $\lambda\|\mathbf{W}\|_F^2$ строго выпукло по $\mathbf{W}$: если бы два минимизатора имели различные матрицы весов, их полусумма давала бы строго меньшее значение функционала. Поэтому матрица весов $\hat{\mathbf{W}}$ у всех минимизаторов одна и та же. Так как $(\mathbf{W}\mathbf{O}^{\top})(\mathbf{O}\mathbf{p}_i) = \mathbf{W}\mathbf{p}_i$ и $\|\mathbf{W}\mathbf{O}^{\top}\|_F = \|\mathbf{W}\|_F$, функционал задачи на преобразованных признаках в точке $(\mathbf{W}\mathbf{O}^{\top}, \mathbf{b})$ равен исходному в точке $(\mathbf{W}, \mathbf{b})$. Биекция $\mathbf{W} \mapsto \mathbf{W}\mathbf{O}^{\top}$ переводит минимизаторы в минимизаторы, откуда $\hat{\mathbf{W}}' = \hat{\mathbf{W}}\mathbf{O}^{\top}$, и $\hat{\mathbf{W}}'\mathbf{p}' = \hat{\mathbf{W}}\mathbf{p}$ для любого объекта, поскольку пункт~(б) верен для произвольной $\mathbf{R} \in \mathbb{S}_{+}^{h}$, а не только для объектов обучающей выборки.
+\end{proof}
+
+\begin{corollary}\label{cor:cls_units}
+Результат классификации не зависит от единиц измерения сигнала, от покомпонентного масштабирования каналов, которому отвечают диагональные $\mathbf{A}$, от нормировочного множителя в~\eqref{eq:cls_cov}, которому отвечает $\mathbf{A} = c\mathbb{I}$, и от невырожденного смешивания отобранных каналов.
+\end{corollary}
+
+\begin{remark}
+Предложение предполагает, что признаки подаются в классификатор без покоординатной стандартизации, поскольку она не коммутирует с поворотом~$\mathbf{O}$. При $h < \mathcal{T} - 1$ выборочная ковариация~\eqref{eq:cls_cov} невырождена почти наверное, и регуляризация ковариаций сжатием не требуется.
+\end{remark}
+
+\subsection{Искажение расстояний касательной проекцией}\label{sec3:cls_theory_dist}
+
+Классификатор использует не геодезические расстояния на многообразии, а евклидовы расстояния между векторами~$\mathbf{p}_i$. Основное вычисление содержится в следующей лемме, которая показывает, как дифференциал экспоненты меняет длину касательного вектора в метрике~\eqref{eq:cls_metric}.
+
+\begin{lemma}\label{lem:cls_dexp}
+Пусть $\mathbf{S}, \mathbf{X} \in \mathrm{Sym}(h)$, $\lambda_1, \ldots, \lambda_h$~--- собственные значения $\mathbf{S}$, а $X_{kl}$~--- элементы $\mathbf{X}$ в ортонормированном собственном базисе $\mathbf{S}$. Тогда
+\begin{equation}\label{eq:cls_dexp}
+\big\| d\exp_{\mathbf{S}}[\mathbf{X}] \big\|_{e^{\mathbf{S}}}^2 = \sum_{k,l=1}^{h} g(\lambda_k - \lambda_l)^2 X_{kl}^2,
+\qquad
+g(x) = \frac{\sinh(x/2)}{x/2}, \quad g(0) = 1 .
+\end{equation}
+Функция $g$ четна, $g(x) \geqslant 1$ и строго возрастает по $|x|$.
+\end{lemma}
+\begin{proof}
+Касательный вектор~\eqref{eq:cls_duhamel} приложен в точке $\mathbf{P} = e^{\mathbf{S}}$, поэтому по~\eqref{eq:cls_metric} его длина равна норме Фробениуса матрицы
+\begin{equation*}
+e^{-\mathbf{S}/2} \Big( \int_0^1 e^{(1-u)\mathbf{S}} \mathbf{X} e^{u\mathbf{S}} du \Big) e^{-\mathbf{S}/2} = \int_0^1 e^{(1/2-u)\mathbf{S}} \mathbf{X} e^{(u-1/2)\mathbf{S}} du .
+\end{equation*}
+Перейдем в ортонормированный собственный базис $\mathbf{S}$. Норма Фробениуса при этом не меняется, а матрицы $e^{a\mathbf{S}}$ диагональны, поэтому элемент $(k,l)$ подынтегральной матрицы равен $X_{kl} e^{(1/2-u)(\lambda_k - \lambda_l)}$. Интегрируя,
+\begin{equation*}
+\int_0^1 e^{(1/2-u)(\lambda_k - \lambda_l)} du = \int_{-1/2}^{1/2} e^{v(\lambda_k - \lambda_l)} dv = \frac{e^{(\lambda_k-\lambda_l)/2} - e^{-(\lambda_k-\lambda_l)/2}}{\lambda_k - \lambda_l} = g(\lambda_k - \lambda_l),
+\end{equation*}
+что дает~\eqref{eq:cls_dexp}. Четность $g$ очевидна, $g \geqslant 1$ следует из $\sinh x \geqslant x$ при $x \geqslant 0$, а строгое возрастание по $|x|$~--- из строгого возрастания $\sinh x / x$ на $[0, \infty)$.
+\end{proof}
+
+Спектральным разбросом матрицы $\mathbf{S} \in \mathrm{Sym}(h)$ называется величина $\omega(\mathbf{S}) = \lambda_{\max}(\mathbf{S}) - \lambda_{\min}(\mathbf{S})$. Для касательного вектора~\eqref{eq:cls_feat} он равен логарифму числа обусловленности отбеленной ковариации: $\omega(\mathbf{S}_i) = \log\kappa\big(\bar{\mathbf{R}}^{-1/2}\mathbf{R}_i\bar{\mathbf{R}}^{-1/2}\big)$, где $\kappa(\mathbf{C}) = \lambda_{\max}(\mathbf{C})/\lambda_{\min}(\mathbf{C})$.
+
+\begin{theorem}\label{thm:cls_isometry}
+Для признаков~\eqref{eq:cls_feat} справедливы следующие утверждения.
+\begin{enumerate}
+    \item[(а)] Норма признака равна геодезическому расстоянию до опорной точки: $\|\mathbf{p}_i\|_2 = \delta_{\mathcal{R}}(\bar{\mathbf{R}}, \mathbf{R}_i)$.
+    \item[(б)] Проекция не увеличивает расстояний: $\|\mathbf{p}_i - \mathbf{p}_j\|_2 \leqslant \delta_{\mathcal{R}}(\mathbf{R}_i, \mathbf{R}_j)$ для любых $i, j$.
+    \item[(в)] Если $\omega(\mathbf{S}_i) \leqslant \omega$ для всех $i$, то
+    \begin{equation}\label{eq:cls_isometry_omega}
+    \delta_{\mathcal{R}}(\mathbf{R}_i, \mathbf{R}_j) \leqslant g(\omega)\, \|\mathbf{p}_i - \mathbf{p}_j\|_2,
+    \qquad
+    g(\omega) = \frac{\sinh(\omega/2)}{\omega/2} .
+    \end{equation}
+    \item[(г)] Если $\delta_{\mathcal{R}}(\bar{\mathbf{R}}, \mathbf{R}_i) \leqslant \rho$ для всех $i$, то
+    \begin{equation}\label{eq:cls_isometry}
+    \delta_{\mathcal{R}}(\mathbf{R}_i, \mathbf{R}_j) \leqslant c(\rho)\, \|\mathbf{p}_i - \mathbf{p}_j\|_2,
+    \qquad
+    c(\rho) = g\big(\sqrt{2}\rho\big) = \frac{\sinh(\rho/\sqrt{2})}{\rho/\sqrt{2}} .
+    \end{equation}
+\end{enumerate}
+\end{theorem}
+\begin{proof}
+По предложению~\ref{prop:cls_affine} с $\mathbf{A} = \bar{\mathbf{R}}^{-1/2}$ и лемме~\ref{lem:cls_inv} обе части всех соотношений, а также $\omega(\mathbf{S}_i)$, не меняются при переходе к матрицам $\bar{\mathbf{R}}^{-1/2}\mathbf{R}_i\bar{\mathbf{R}}^{-1/2}$, поэтому достаточно рассмотреть случай $\bar{\mathbf{R}} = \mathbb{I}$. Тогда $\mathbf{S}_i = \log \mathbf{R}_i$ и $\mathbf{R}_i = \exp \mathbf{S}_i$.
+
+(а) По~\eqref{eq:cls_dist_log} и лемме~\ref{lem:cls_vec} $\delta_{\mathcal{R}}(\mathbb{I}, \mathbf{R}_i) = \|\log \mathbf{R}_i\|_F = \|\mathbf{S}_i\|_F = \|\mathbf{p}_i\|_2$.
+
+(б) Из леммы~\ref{lem:cls_dexp} и $g \geqslant 1$ следует $\|d\exp_{\mathbf{S}}[\mathbf{X}]\|_{e^{\mathbf{S}}} \geqslant \|\mathbf{X}\|_F$ для всех $\mathbf{S}, \mathbf{X}$: экспонента не укорачивает касательных векторов. Пусть $\sigma$~--- произвольная гладкая кривая в $\mathbb{S}_{+}^{h}$ из $\mathbf{R}_i$ в $\mathbf{R}_j$. Поскольку $\exp$~--- диффеоморфизм, кривая $\gamma = \log \circ\, \sigma$ лежит в $\mathrm{Sym}(h)$, соединяет $\mathbf{S}_i$ с $\mathbf{S}_j$, и $\dot{\sigma}(t) = d\exp_{\gamma(t)}[\dot{\gamma}(t)]$. Для длин кривых
+\begin{equation*}
+L(\sigma) = \int \big\| d\exp_{\gamma(t)}[\dot{\gamma}(t)] \big\|_{\sigma(t)} dt \geqslant \int \|\dot{\gamma}(t)\|_F \, dt \geqslant \|\mathbf{S}_i - \mathbf{S}_j\|_F ,
+\end{equation*}
+где последнее неравенство~--- евклидов отрезок короче любой соединяющей кривой. Геодезическое расстояние есть нижняя грань $L(\sigma)$ по всем кривым, поэтому $\delta_{\mathcal{R}}(\mathbf{R}_i, \mathbf{R}_j) \geqslant \|\mathbf{S}_i - \mathbf{S}_j\|_F = \|\mathbf{p}_i - \mathbf{p}_j\|_2$.
+
+(в) Рассмотрим отрезок $\gamma(t) = (1-t)\mathbf{S}_i + t\mathbf{S}_j$, $t \in [0,1]$, и его образ $\exp \circ\, \gamma$, соединяющий $\mathbf{R}_i$ с $\mathbf{R}_j$. Функция $\lambda_{\max}$ выпукла, а $\lambda_{\min}$ вогнута на $\mathrm{Sym}(h)$, поэтому
+\begin{equation*}
+\omega(\gamma(t)) \leqslant (1-t)\,\omega(\mathbf{S}_i) + t\,\omega(\mathbf{S}_j) \leqslant \omega .
+\end{equation*}
+Разность любых двух собственных значений $\gamma(t)$ по модулю не превосходит $\omega(\gamma(t))$, и так как $g$ возрастает по модулю аргумента, из~\eqref{eq:cls_dexp} для всех $t$ и $\mathbf{X} \in \mathrm{Sym}(h)$
+\begin{equation*}
+\big\| d\exp_{\gamma(t)}[\mathbf{X}] \big\|_{e^{\gamma(t)}} \leqslant g\big(\omega(\gamma(t))\big) \|\mathbf{X}\|_F \leqslant g(\omega) \|\mathbf{X}\|_F .
+\end{equation*}
+Следовательно, длина кривой $\exp \circ\, \gamma$ не превосходит $g(\omega) \int_0^1 \|\dot{\gamma}(t)\|_F dt = g(\omega) \|\mathbf{S}_j - \mathbf{S}_i\|_F$, а геодезическое расстояние не превосходит длины любой соединяющей кривой.
+
+(г) Для симметричной $\mathbf{S}$ с собственными значениями $\lambda_k$ из $(a-b)^2 \leqslant 2(a^2 + b^2)$ и $\sum_k \lambda_k^2 = \|\mathbf{S}\|_F^2$ следует $\omega(\mathbf{S}) \leqslant \sqrt{2}\,\|\mathbf{S}\|_F$. По пункту~(а) и условию $\|\mathbf{S}_i\|_F \leqslant \rho$, поэтому $\omega(\mathbf{S}_i) \leqslant \sqrt{2}\rho$, и остается применить пункт~(в) с $\omega = \sqrt{2}\rho$.
+\end{proof}
+
+Следующее предложение показывает, что константы теоремы не достигаются ни на одной паре объектов и при этом не могут быть уменьшены. Эти утверждения составляют его пункты~(а) и~(б) соответственно.
+
+\begin{proposition}\label{prop:cls_sharp}
+Пусть $\omega > 0$.
+\begin{enumerate}
+    \item[(а)] Для любой пары различных объектов, удовлетворяющих условию пункта~(в) теоремы~\ref{thm:cls_isometry}, неравенство~\eqref{eq:cls_isometry_omega} строгое. То же верно для пункта~(г) и неравенства~\eqref{eq:cls_isometry}.
+    \item[(б)] Пусть $\mathbf{D} = \operatorname{diag}(\omega/2, -\omega/2, 0, \ldots, 0)$, $\mathbf{Q}_{\theta}$~--- поворот на угол $\theta$ в плоскости первых двух базисных векторов и $\mathbf{S}(\theta) = \mathbf{Q}_{\theta} \mathbf{D} \mathbf{Q}_{\theta}^{\top}$. Тогда $\omega(\mathbf{S}(\theta)) = \omega$, $\|\mathbf{S}(\theta)\|_F = \omega/\sqrt{2}$ для всех $\theta$ и
+    \begin{equation}\label{eq:cls_sharp}
+    \lim_{\theta \to 0} \frac{\delta_{\mathcal{R}}\big(\exp \mathbf{S}(-\theta/2), \exp \mathbf{S}(\theta/2)\big)}{\|\mathbf{S}(\theta/2) - \mathbf{S}(-\theta/2)\|_F} = g(\omega).
+    \end{equation}
+    Выборка из четырех матриц $\exp\mathbf{S}(\pm\theta/2)$, $\exp(-\mathbf{S}(\pm\theta/2))$ имеет риманово среднее $\bar{\mathbf{R}} = \mathbb{I}$, все ее элементы удовлетворяют условию пункта~(в) теоремы~\ref{thm:cls_isometry} с данным $\omega$ и условию пункта~(г) с $\rho = \omega/\sqrt{2}$, а отношение геодезического расстояния между $\exp\mathbf{S}(-\theta/2)$ и $\exp\mathbf{S}(\theta/2)$ к евклидову расстоянию между их признаками стремится к $g(\omega) = c(\rho)$.
+\end{enumerate}
+\end{proposition}
+\begin{proof}
+(а) Как и в теореме, считаем $\bar{\mathbf{R}} = \mathbb{I}$. Пусть $\mathbf{X} = \mathbf{S}_j - \mathbf{S}_i \neq \mathbf{0}$, $\gamma(t) = \mathbf{S}_i + t\mathbf{X}$ и $\varphi(t) = \|d\exp_{\gamma(t)}[\mathbf{X}]\|_{e^{\gamma(t)}}$~--- непрерывная функция на $[0,1]$. По лемме~\ref{lem:cls_dexp} $\varphi(t)^2 = \sum_{k,l} g(\lambda_k(t) - \lambda_l(t))^2 X_{kl}(t)^2$, где $\lambda_k(t)$~--- собственные значения $\gamma(t)$, а $X_{kl}(t)$~--- элементы $\mathbf{X}$ в собственном базисе $\gamma(t)$. Все множители не превосходят $g(\omega)$, а при $k = l$ равны $g(0) = 1 < g(\omega)$, поэтому равенство $\varphi(t) = g(\omega)\|\mathbf{X}\|_F$ возможно лишь при $X_{kk}(t) = 0$ для всех $k$. Но
+\begin{equation*}
+\sum_{k} \lambda_k(t) X_{kk}(t) = \operatorname{tr}\big(\gamma(t)\mathbf{X}\big) = \frac{1}{2}\,\frac{d}{dt}\|\gamma(t)\|_F^2 ,
+\end{equation*}
+и если бы $\varphi(t) = g(\omega)\|\mathbf{X}\|_F$ на всем отрезке $[0,1]$, функция $\|\gamma(t)\|_F^2 = \|\mathbf{S}_i\|_F^2 + 2t\langle \mathbf{S}_i, \mathbf{X}\rangle + t^2\|\mathbf{X}\|_F^2$ была бы постоянной, что противоречит $\|\mathbf{X}\|_F > 0$. Значит, $\varphi(t) < g(\omega)\|\mathbf{X}\|_F$ на непустом открытом множестве, и $\delta_{\mathcal{R}}(\mathbf{R}_i, \mathbf{R}_j) \leqslant \int_0^1 \varphi(t)\, dt < g(\omega)\|\mathbf{X}\|_F$. Для пункта~(г) достаточно заметить, что условие $\delta_{\mathcal{R}}(\mathbb{I}, \mathbf{R}_i) \leqslant \rho$ влечет условие пункта~(в) с $\omega = \sqrt{2}\rho$.
+
+(б) Ортогональное сопряжение не меняет спектра, откуда $\omega(\mathbf{S}(\theta)) = \omega$ и $\|\mathbf{S}(\theta)\|_F = \|\mathbf{D}\|_F = \omega/\sqrt{2}$. Кривая $\sigma(\theta) = \exp \mathbf{S}(\theta)$ гладкая, и для геодезического расстояния на римановом многообразии $\delta_{\mathcal{R}}(\sigma(-\theta/2), \sigma(\theta/2)) = \theta\,\|\dot{\sigma}(0)\|_{\sigma(0)} + o(\theta)$, тогда как $\|\mathbf{S}(\theta/2) - \mathbf{S}(-\theta/2)\|_F = \theta\,\|\dot{\mathbf{S}}(0)\|_F + o(\theta)$. Производная $\dot{\mathbf{Q}}_0 = \mathbf{e}_2\mathbf{e}_1^{\top} - \mathbf{e}_1\mathbf{e}_2^{\top}$, поэтому $\dot{\mathbf{S}}(0) = \dot{\mathbf{Q}}_0\mathbf{D} - \mathbf{D}\dot{\mathbf{Q}}_0 = \omega\,(\mathbf{e}_1\mathbf{e}_2^{\top} + \mathbf{e}_2\mathbf{e}_1^{\top})$: в собственном базисе $\mathbf{D}$ вектор $\dot{\mathbf{S}}(0)$ имеет лишь элементы $(1,2)$ и $(2,1)$, отвечающие паре собственных значений с разностью $\omega$. По лемме~\ref{lem:cls_dexp} $\|\dot{\sigma}(0)\|_{\sigma(0)} = \|d\exp_{\mathbf{D}}[\dot{\mathbf{S}}(0)]\|_{e^{\mathbf{D}}} = g(\omega)\|\dot{\mathbf{S}}(0)\|_F$, что дает~\eqref{eq:cls_sharp}. Для выборки из четырех матриц $\exp(\pm\mathbf{S}(\pm\theta/2))$ сумма логарифмов равна нулю, то есть $\mathbb{I}$ удовлетворяет уравнению~\eqref{eq:cls_karcher}, характеризующему риманово среднее, откуда $\bar{\mathbf{R}} = \mathbb{I}$. Спектральный разброс и норма Фробениуса всех четырех касательных векторов $\pm\mathbf{S}(\pm\theta/2)$ равны $\omega$ и $\omega/\sqrt{2}$, поэтому по пункту~(а) теоремы~\ref{thm:cls_isometry} выполнены условия пунктов~(в) и~(г). Признаки равны $\operatorname{vec}_{\sqrt{2}}(\pm\mathbf{S}(\pm\theta/2))$, так что евклидово расстояние между признаками пары $\exp\mathbf{S}(\mp\theta/2)$ равно $\|\mathbf{S}(\theta/2) - \mathbf{S}(-\theta/2)\|_F$, и утверждение следует из~\eqref{eq:cls_sharp} и равенства $g(\sqrt{2}\rho) = c(\rho)$.
+\end{proof}
+
+Предельный переход~\eqref{eq:cls_sharp} проверяется численно в разделе~\ref{sec4:cls_sharp}.
+
+\begin{remark}
+Теорема~\ref{thm:cls_isometry} и предложение~\ref{prop:cls_sharp} означают, что отношение $\delta_{\mathcal{R}}(\mathbf{R}_i, \mathbf{R}_j) / \|\mathbf{p}_i - \mathbf{p}_j\|_2$ по всем парам объектов лежит в полуинтервале $[1, g(\omega))$, точная верхняя грань которого достигается в пределе сближающихся пар. Концы этого промежутка отвечают двум предельным направлениям смещения в касательном пространстве, показанным на Рисунке~\ref{fig:cls_distortion}. Нижняя граница достигается на коммутирующих касательных векторах. Для них в общем собственном базисе $\mathbf{R}_i^{-1/2}\mathbf{R}_j\mathbf{R}_i^{-1/2} = \exp(\mathbf{S}_j - \mathbf{S}_i)$, поэтому $\delta_{\mathcal{R}}(\mathbf{R}_i, \mathbf{R}_j) = \|\mathbf{p}_i - \mathbf{p}_j\|_2$. В частности, радиальные расстояния вдоль геодезической через опорную точку сохраняются точно: при $\mathbf{p}_k = -\mathbf{p}_i$ выполнено $\delta_{\mathcal{R}}(\mathbf{R}_i, \mathbf{R}_k) = 2\|\mathbf{p}_i\|_2$. Верхняя граница приближается на тангенциальных смещениях, поворачивающих собственный базис при неизменном спектре. Таким образом, искажение порождается не удаленностью объектов от опорной точки, а некоммутативностью их касательных векторов, и управляется спектральным разбросом $\omega$, а не нормой. Например, касательный вектор $a\mathbb{I}$, отвечающий общему масштабированию всех каналов, имеет норму $|a|\sqrt{h}$, но нулевой разброс и не вносит вклада в искажение. В терминах числа обусловленности $\kappa = e^{\omega}$ отбеленных ковариаций константа записывается как $g(\log\kappa) = (\kappa - 1)/(\sqrt{\kappa}\log\kappa)$. Пункт~(б) теоремы согласуется с общим свойством многообразий неположительной кривизны, на которых экспоненциальное отображение не уменьшает расстояний~\cite{bhatia2007positive}. Содержание теоремы составляют явная константа $g(\omega)$ пункта~(в) и ее неулучшаемость по предложению~\ref{prop:cls_sharp}.
+\end{remark}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.62\textwidth]{cls/distortion_scheme.pdf}
+    \caption{Искажение расстояний при проекции на касательное пространство. Точки $\mathbf{R}_i$, $\mathbf{R}_j$, $\mathbf{R}_k$ лежат на окружности геодезического радиуса $\rho$ вокруг $\bar{\mathbf{R}}$, их образы $\mathbf{p}_i$, $\mathbf{p}_j$, $\mathbf{p}_k$~--- на окружности того же радиуса в $T_{\bar{\mathbf{R}}}$. Радиальное расстояние через $\bar{\mathbf{R}}$ сохраняется: $\delta_{\mathcal{R}}(\mathbf{R}_i, \mathbf{R}_k) = \|\mathbf{p}_i - \mathbf{p}_k\|_2 = 2\rho$. Тангенциальное расстояние между соседними точками окружности при возвращении на многообразие растягивается. Отношение $\delta_{\mathcal{R}}(\mathbf{R}_i, \mathbf{R}_j) / \|\mathbf{p}_i - \mathbf{p}_j\|_2$ меньше $c(\rho)$ и по предложению~\ref{prop:cls_sharp} стремится к $c(\rho)$ при сближении $\mathbf{R}_j$ с $\mathbf{R}_i$}
+    \label{fig:cls_distortion}
+\end{figure}
+
+\subsection{Шум оценки ковариаций}\label{sec3:cls_theory_noise}
+
+Ковариационная матрица объекта оценивается по $\mathcal{T}$ отсчетам, поэтому часть разброса признаков обусловлена не различием объектов, а ошибкой оценки. Следующая теорема показывает, что распределение этой ошибки в геодезической метрике не зависит от истинной ковариации, и ограничивает ее величину сверху. Доказательство опирается на классический результат о сингулярных числах гауссовой матрицы.
+
+\begin{proposition}[{\cite[следствие~5.35]{vershynin2012introduction}}]\label{prop:cls_vershynin}
+Пусть $\mathbf{G} \in \mathbb{R}^{n \times k}$, $n \geqslant k$, имеет независимые элементы с распределением $\mathcal{N}(0,1)$. Тогда для любого $u \geqslant 0$ с вероятностью не меньше $1 - 2e^{-u^2/2}$
+\begin{equation*}\sqrt{n} - \sqrt{k} - u \leqslant s_{\min}(\mathbf{G}) \leqslant s_{\max}(\mathbf{G}) \leqslant \sqrt{n} + \sqrt{k} + u ,
+\end{equation*}
+где $s_{\min}$ и $s_{\max}$~--- наименьшее и наибольшее сингулярные числа.
+\end{proposition}
+
+\begin{theorem}\label{thm:cls_conc}
+Пусть столбцы матрицы $\mathbf{H} \in \mathbb{R}^{h \times \mathcal{T}}$~--- независимые случайные векторы с распределением $\mathcal{N}(\mathbf{0}, \mathbf{R})$, $\mathbf{R} \in \mathbb{S}_{+}^{h}$, и $\hat{\mathbf{R}} = \mathcal{T}^{-1} \mathbf{H}\mathbf{H}^{\top}$. Тогда
+\begin{enumerate}
+    \item[(а)] распределение случайной величины $\delta_{\mathcal{R}}(\hat{\mathbf{R}}, \mathbf{R})$ зависит только от $h$ и $\mathcal{T}$ и не зависит от $\mathbf{R}$;
+    \item[(б)] для любого $t > 0$ такого, что $\varepsilon = \sqrt{h/\mathcal{T}} + t < 1$, с вероятностью не меньше $1 - 2\exp(-\mathcal{T}t^2/2)$
+    \begin{equation}\label{eq:cls_conc}
+    \delta_{\mathcal{R}}(\hat{\mathbf{R}}, \mathbf{R}) \leqslant \frac{2\sqrt{h}\, \varepsilon}{1 - \varepsilon} .
+    \end{equation}
+\end{enumerate}
+\end{theorem}
+\begin{proof}
+(а) Положим $\boldsymbol{\Xi} = \mathbf{R}^{-1/2}\mathbf{H}$. Столбцы $\boldsymbol{\Xi}$ независимы и распределены как $\mathcal{N}(\mathbf{0}, \mathbb{I})$, то есть все элементы $\boldsymbol{\Xi}$ независимы и стандартны нормальны, и их распределение от $\mathbf{R}$ не зависит. По лемме~\ref{lem:cls_inv} с $\mathbf{A} = \mathbf{R}^{-1/2}$
+\begin{equation*}
+\delta_{\mathcal{R}}(\hat{\mathbf{R}}, \mathbf{R}) = \delta_{\mathcal{R}}\big( \mathbf{R}^{-1/2}\hat{\mathbf{R}}\mathbf{R}^{-1/2}, \mathbb{I} \big) = \big\| \log \hat{\mathbf{C}} \big\|_F ,
+\qquad
+\hat{\mathbf{C}} = \mathcal{T}^{-1} \boldsymbol{\Xi}\boldsymbol{\Xi}^{\top},
+\end{equation*}
+и правая часть есть функция только от $\boldsymbol{\Xi}$.
+
+(б) Применим предложение~\ref{prop:cls_vershynin} к матрице $\boldsymbol{\Xi}^{\top} \in \mathbb{R}^{\mathcal{T} \times h}$ с $u = t\sqrt{\mathcal{T}}$: с вероятностью не меньше $1 - 2\exp(-\mathcal{T}t^2/2)$ все ее сингулярные числа лежат в отрезке $\sqrt{\mathcal{T}}\,[1 - \varepsilon, 1 + \varepsilon]$. Собственные значения $\hat{\mathbf{C}}$ суть квадраты сингулярных чисел $\boldsymbol{\Xi}^{\top}$, деленные на $\mathcal{T}$, поэтому на этом событии они лежат в $[(1-\varepsilon)^2, (1+\varepsilon)^2]$, и для каждого из них
+\begin{equation*}
+\big| \log \lambda_k(\hat{\mathbf{C}}) \big| \leqslant \max\big\{ 2\log(1+\varepsilon),\ -2\log(1-\varepsilon) \big\} = -2\log(1-\varepsilon) \leqslant \frac{2\varepsilon}{1-\varepsilon} ,
+\end{equation*}
+где равенство следует из $-\log(1-\varepsilon) \geqslant \log(1+\varepsilon)$ при $\varepsilon \in (0,1)$, а последнее неравенство~--- из $\log x \leqslant x - 1$ при $x = 1/(1-\varepsilon)$. Остается заметить, что $\|\log\hat{\mathbf{C}}\|_F^2 = \sum_{k=1}^{h} \log^2 \lambda_k(\hat{\mathbf{C}}) \leqslant h \max_k \log^2 \lambda_k(\hat{\mathbf{C}})$, что дает~\eqref{eq:cls_conc}.
+\end{proof}
+
+Параметр $t$ в теореме~\ref{thm:cls_conc} связывает вероятность выполнения оценки с ее величиной. Следующее следствие фиксирует уровень значимости $\alpha$ и показывает, что оба слагаемых в $\varepsilon$ убывают как $1/\sqrt{\mathcal{T}}$.
+
+\begin{corollary}\label{cor:cls_rate}
+Пусть $\alpha \in (0,1)$ и $\mathcal{T} > 4\big(\sqrt{h} + \sqrt{2\log(2/\alpha)}\big)^2$. Тогда с вероятностью не меньше $1-\alpha$
+\begin{equation}\label{eq:cls_rate}
+\delta_{\mathcal{R}}(\hat{\mathbf{R}}, \mathbf{R}) \leqslant \frac{4\big(h + \sqrt{2h\log(2/\alpha)}\big)}{\sqrt{\mathcal{T}}} .
+\end{equation}
+В частности, при $h \geqslant 2\log(2/\alpha)$ и $\mathcal{T} > 16h$ правая часть не превосходит $8h/\sqrt{\mathcal{T}}$.
+\end{corollary}
+\begin{proof}
+Положим в теореме~\ref{thm:cls_conc} $t = \sqrt{2\log(2/\alpha)/\mathcal{T}}$. Тогда $2\exp(-\mathcal{T}t^2/2) = \alpha$, а $\varepsilon = \big(\sqrt{h} + \sqrt{2\log(2/\alpha)}\big)/\sqrt{\mathcal{T}} < 1/2$ по условию на $\mathcal{T}$. Поэтому $1/(1-\varepsilon) < 2$ и
+\begin{equation*}
+\frac{2\sqrt{h}\,\varepsilon}{1-\varepsilon} < 4\sqrt{h}\,\varepsilon = \frac{4\big(h + \sqrt{2h\log(2/\alpha)}\big)}{\sqrt{\mathcal{T}}} .
+\end{equation*}
+При $h \geqslant 2\log(2/\alpha)$ второе слагаемое в скобках не превосходит $h$, а условие $\mathcal{T} > 16h$ влечет условие на $\mathcal{T}$, поскольку $\big(\sqrt{h} + \sqrt{2\log(2/\alpha)}\big)^2 \leqslant 4h$.
+\end{proof}
+
+\begin{corollary}\label{cor:cls_stab}
+Пусть признаки $\mathbf{p}_i$ и $\hat{\mathbf{p}}_i$ вычислены по~\eqref{eq:cls_feat} при одной и той же опорной точке по истинной ковариации $\mathbf{R}_i$ и по ее оценке $\hat{\mathbf{R}}_i$. Тогда $\|\hat{\mathbf{p}}_i - \mathbf{p}_i\|_2 \leqslant \delta_{\mathcal{R}}(\hat{\mathbf{R}}_i, \mathbf{R}_i)$, и эта величина ограничена теоремой~\ref{thm:cls_conc}.
+\end{corollary}
+\begin{proof}
+Первое неравенство~--- пункт~(б) теоремы~\ref{thm:cls_isometry}, примененный к паре $\hat{\mathbf{R}}_i, \mathbf{R}_i$.
+\end{proof}
+
+\begin{remark}
+Пункт~(а) теоремы~\ref{thm:cls_conc} означает, что типичную величину ошибки оценки ковариации в геодезической метрике можно получить моделированием с единичной ковариацией, и результат будет верен для любых реальных ковариаций с теми же $h$ и $\mathcal{T}$. Сравнение этой величины с наблюдаемым разбросом $\delta_{\mathcal{R}}(\bar{\mathbf{R}}, \mathbf{R}_i)$ показывает, какая доля разброса признаков обусловлена шумом оценки, а не различием объектов. Следствие~\ref{cor:cls_rate} задает скорость $\delta_{\mathcal{R}}(\hat{\mathbf{R}}, \mathbf{R}) = O\big(h/\sqrt{\mathcal{T}}\big)$ при фиксированном уровне значимости $\alpha$. Шум оценки растет линейно по числу отобранных каналов и убывает как корень из длины ряда, а константа зависит только от $\alpha$. Неравенство применимо лишь при $h < \mathcal{T}$, а его правая часть мала только при $h^2 \ll \mathcal{T}$, то есть допустимое число каналов растет как корень из длины ряда. Отсюда следует ограничение на параметр $h$ Алгоритма~\ref{alg:bad}. Ковариация вычисляется по небольшому числу наиболее коррелированных со стимулом каналов, а не по всей маске, поскольку рост $h$ при фиксированной длине сегмента увеличивает шум оценки. Для центрированных рядов и нормировки~\eqref{eq:cls_cov} теорема применяется с $\mathcal{T} - 1$ вместо $\mathcal{T}$. Согласно следствию~\ref{cor:cls_units}, выбор нормировочного множителя на признаки не влияет.
+\end{remark}
+
+Оценка~\eqref{eq:cls_conc} проверяется численно в разделе~\ref{sec4:cls_synth}.
+
+\section{Вычислительный эксперимент}\label{sec4:cls}
+
+Метод проверяется на данных фМРТ. В терминах главы скан рассматривается как отсчет, воксель на трехмерной сетке как канал, пациент как источник, предъявленное изображение как стимул. Лаг сигнала имеет гемодинамическую природу и отражает время изменения уровня кислорода в крови в ответ на нейронную активность. Маски активности соответствуют реагирующим на стимул областям интереса (англ. Regions of Interest, ROI).
+
+\subsection{Данные и постановка эксперимента}\label{sec4:cls_setup}
+
+В вычислительном эксперименте используются данные фМРТ из исследования~\cite{haxby2001distributed}, собранные при изучении представлений лиц и объектов в зрительной коре. Набор данных содержит записи фМРТ 6 пациентов, каждый из которых проходил 12 сессий. В каждой сессии пациент пассивно просматривал черно-белые изображения восьми категорий, сгруппированные в блоки по 24 секунды, разделенные периодами отдыха. Каждое изображение демонстрировалось в течение 500 мс, после чего следовал интервал между стимулами длительностью 1500 мс. Данные фМРТ мозга записывались с частотой 0,4~Гц. Примеры стимулов приведены на Рисунке~\ref{fig:cls_stimuli}, характеристики записей~--- в Таблице~\ref{table:cls_parameters}.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{figs/cls_stimuli.pdf}
+    \caption{Примеры стимулов из используемого набора данных. В наборе данных представлено 8 различных типов визуальных стимулов. Для каждого типа приведено по 4 примера изображений. Стимулы внутри каждой категории значительно различаются.}
+    \label{fig:cls_stimuli}
+\end{figure}
+
+\begin{table}[h!]
+    \centering
+    \caption{Основные параметры временных рядов фМРТ из выборки}\label{table:cls_parameters}
+    \begin{tabular}{lcc}
+        \toprule
+        Название & Обозначение & Значение \\
+        \midrule
+        Количество сканов за сессию & $\mathcal{T}_{\mathrm{rec}}$ & 121 \\
+        Частота сканирования & $\mu$ & 0,4 Гц \\
+        Размеры скана & $X, Y, Z$ & 40, 64, 64 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Кроме того, набор данных содержит временные ряды стимулов и маски активных областей мозга, полученные нейроучеными. Эти области определены для каждого пациента индивидуально. При аннотировании набора данных Haxby et al.~\cite{haxby2001distributed} учтен гемодинамический лаг, что обеспечивает корректную временную синхронизацию данных. Поэтому во всех экспериментах гиперпараметр $\Delta t$ полагается равным $0$.
+
+\paragraph{Аугментация данных.}\label{sec4:cls_aug} Для формирования обучающей выборки к записи каждого пациента применялся метод сегментации из раздела~\ref{sec3:cls_aug}. Параметры выборок, полученных в результате аугментации, представлены в Таблице~\ref{table:cls_augmentation}. Из записи каждого пациента получено $N = 96$ временных рядов длины $\mathcal{T} = 19$ по $L = 8$ категориям, по $N_y = 12$ объектов на категорию. Выборка каждого пациента разбита на обучающую и тестовую в пропорции 80\% к 20\%. Качество оценивается метриками accuracy, Macro F1-score и Micro F1-score.
+
+\begin{table}[h!]
+    \centering
+    \caption{Параметры выборки каждого пациента, полученной в результате аугментации временных рядов фМРТ}\label{table:cls_augmentation}
+    \begin{tabular}{lcc}
+        \toprule
+        Название & Обозначение & Значение \\
+        \midrule
+        Количество объектов & $N$ & 96 \\
+        Длина каждого сегмента & $\mathcal{T}$ & 19 \\
+        Количество классов стимулов & $L$ & 8 \\
+        Количество объектов на класс & $N_y$ & 12 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\subsection{Оценка алгоритма выделения масок}\label{sec4:cls_bad}
+
+Для оценки Алгоритма~\ref{alg:bad} его маски активности сравнивались с целевыми масками нейроученых и масками, полученными в ходе статистического анализа, с использованием метрик precision, recall и доли пересечения (англ. Intersection over Union, IoU), усредненных по шести пациентам. Precision равна доле правильных среди положительных предсказаний алгоритма, recall характеризует способность алгоритма выявить все релевантные области, а IoU измеряет перекрытие предсказанных и истинных масок.
+
+Гиперпараметры $k_s$ и $h$ выбирались для максимизации recall, чтобы маски активности покрывали как можно больше аннотаций нейроученых, даже ценой включения некоторых дополнительных областей. Кроме того, требовалось сохранить высокое значение precision относительно статистически значимой маски. По результатам предварительных экспериментов установлены значения параметров $k_s = 4$ и $h = 10$.
+
+\begin{table}[h!]
+    \centering
+    \caption{Метрики сравнения масок активности, усредненные по пациентам. В таблице представлены средние значения и стандартные отклонения для каждой метрики}\label{table:cls_mask_metrics}
+    \resizebox{\textwidth}{!}{\begin{tabular}{lccc}
+        \toprule
+        Сравнение & Precision & Recall & IoU \\
+        \midrule
+        Алгоритм~\ref{alg:bad} и разметка нейроученых & 0{,}11 $\pm$ 0{,}04 & 0{,}43 $\pm$ 0{,}07 & 0{,}10 $\pm$ 0{,}04 \\
+        Алгоритм~\ref{alg:bad} и статистически значимая маска & 1{,}00 $\pm$ 0{,}00 & 0{,}22 $\pm$ 0{,}09 & 0{,}22 $\pm$ 0{,}09 \\
+        \bottomrule
+    \end{tabular}}
+\end{table}
+
+Результаты, представленные в Таблице~\ref{table:cls_mask_metrics}, показывают, что алгоритм выявляет области мозга со статистически значимой корреляцией со стимулами и эти области хорошо согласуются с аннотациями нейроученых.
+
+Для наглядности рассматривается выборка первого пациента с размером ядра $k_s = 4$ и $h = 10$. Выбраны 20-й, 28-й и 24-й срезы вдоль первой, второй и третьей осей соответственно. На Рисунке~\ref{fig:cls_masks} приведены срезы скана из выборки с соответствующими масками активности: в верхней строке~--- области, определенные Алгоритмом~\ref{alg:bad}, в средней~--- области, полученные в результате статистического анализа, в нижней~--- аннотации нейроученых, служащие эталоном. Экспериментально подтверждено, что корреляция между отобранными областями и стимулами статистически значима, а выявленные области хорошо согласуются с аннотациями нейроученых.
+
+\begin{figure}[h!]
+    \centering
+    \begin{tabular}{ccc}
+        \begin{subfigure}{0.3\textwidth}
+            \centering
+            \includegraphics[height=1.\textwidth]{cls/Figure_5.png}
+            \caption{Алгоритм~\ref{alg:bad}}
+        \end{subfigure}
+        &
+        \begin{subfigure}{0.3\textwidth}
+            \centering
+            \includegraphics[height=1.\textwidth]{cls/Figure_6.png}
+            \caption{Алгоритм~\ref{alg:bad}}
+        \end{subfigure}
+        &
+        \begin{subfigure}{0.3\textwidth}
+            \centering
+            \includegraphics[height=1.\textwidth]{cls/Figure_7.png}
+            \caption{Алгоритм~\ref{alg:bad}}
+        \end{subfigure}
+        \\
+        \begin{subfigure}{0.3\textwidth}
+            \centering
+            \includegraphics[height=1.\textwidth]{cls/Figure_8.png}
+            \caption{Статистически значимые}
+        \end{subfigure}
+        &
+        \begin{subfigure}{0.3\textwidth}
+            \centering
+            \includegraphics[height=1.\textwidth]{cls/Figure_9.png}
+            \caption{Статистически значимые}
+        \end{subfigure}
+        &
+        \begin{subfigure}{0.3\textwidth}
+            \centering
+            \includegraphics[height=1.\textwidth]{cls/Figure_10.png}
+            \caption{Статистически значимые}
+        \end{subfigure}
+        \\
+        \begin{subfigure}{0.3\textwidth}
+            \centering
+            \includegraphics[height=1.\textwidth]{cls/Figure_11.png}
+            \caption{Аннотации нейроученых}
+        \end{subfigure}
+        &
+        \begin{subfigure}{0.3\textwidth}
+            \centering
+            \includegraphics[height=1.\textwidth]{cls/Figure_12.png}
+            \caption{Аннотации нейроученых}
+        \end{subfigure}
+        &
+        \begin{subfigure}{0.3\textwidth}
+            \centering
+            \includegraphics[height=1.\textwidth]{cls/Figure_13.png}
+            \caption{Аннотации нейроученых}
+        \end{subfigure}
+    \end{tabular}
+    \caption{Визуализация масок активности фМРТ. Выбранные области обозначены красным цветом. В верхней строке показаны маски активности, предсказанные Алгоритмом~\ref{alg:bad}, в средней строке~--- статистически значимые области, полученные в результате анализа, а в нижней строке~--- аннотации нейроученых в качестве эталона. Предсказанные области в достаточной мере покрывают истинные аннотации, а статистически значимая корреляция отобранных вокселей со стимулами подтверждает надежность алгоритма}
+    \label{fig:cls_masks}
+\end{figure}
+
+Кроме того, работа алгоритма проверялась на неинформативных данных. Использовались временные ряды фМРТ первого пациента и случайно сгенерированный бинарный временной ряд стимулов. На Рисунке~\ref{fig:cls_correctness} показаны срезы скана фМРТ, на которых цветом выделены области мозга, предсказанные Алгоритмом~\ref{alg:bad}. Алгоритм предсказывает случайные области, не связанные с активностью мозга. Как и в предыдущем эксперименте, были проведены статистические тесты. Ни одна из полученных областей не оказалась статистически значимой, что подтверждает корректность алгоритма.
+
+Крупная пикселизация на Рисунках~\ref{fig:cls_masks} и~\ref{fig:cls_correctness} вызвана намеренным сжатием сканов фМРТ в Алгоритме~\ref{alg:bad} для устранения лишнего шума. На рисунках показаны маски активности после увеличения разрешения, то есть маски $\mathcal{M}^{\uparrow}$, тогда как модель классификации использует сжатые сканы и маску $\mathcal{M}$ без шага увеличения разрешения.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[height=0.3\textwidth]{cls/Figure_14.png}
+    \hfill
+    \includegraphics[height=0.3\textwidth]{cls/Figure_15.png}
+    \hfill
+    \includegraphics[height=0.3\textwidth]{cls/Figure_16.png}
+    \caption{\textbf{Анализ работы Алгоритма~\ref{alg:bad} на неинформативных данных.} Представлены срезы вдоль трех осей. Использовался случайно сгенерированный бинарный временной ряд стимулов. Алгоритм предсказывает случайные области, не связанные с активностью мозга}
+    \label{fig:cls_correctness}
+\end{figure}
+
+\subsection{Оценка качества классификации}\label{sec4:cls_results}
+
+Рассматривались данные фМРТ всех шести пациентов. Маски и модель строились отдельно для каждого пациента, а метрики усреднялись по пациентам. В ходе экспериментов были зафиксированы следующие параметры модели: число активных каналов каждого класса $h_y = 10$, $y = 1, \ldots, L$, и размер ядра $k_s = 4$. В качестве классификатора $\boldsymbol{\eta}$ использовалась логистическая регрессия со стратегией <<один против всех>> и единичным коэффициентом $L_2$-регуляризации. Кроме того, рассматривался перцептрон с двумя скрытыми слоями по 128 нейронов с сигмоидной функцией активации.
+
+В Таблице~\ref{table:cls_results} представлены усредненные по пациентам значения метрик на тестовой выборке, а также их стандартные отклонения и 95\% доверительные интервалы (англ. Confidence Interval, CI).
+
+\begin{table}[h!]
+    \centering
+    \caption{Средние значения метрик по пациентам на тестовой выборке, включая стандартные отклонения и 95\% доверительные интервалы}\label{table:cls_results}
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{lcccccc}
+            \toprule
+            Классификатор $\boldsymbol{\eta}$ & Accuracy & Macro F1-score & Micro F1-score & Accuracy CI & Macro F1 CI & Micro F1 CI \\
+            \midrule
+            Логистическая регрессия & 0{,}61 $\pm$ 0{,}04 & 0{,}56 $\pm$ 0{,}03 & 0{,}61 $\pm$ 0{,}04 & [0{,}56; 0{,}66] & [0{,}52; 0{,}60] & [0{,}56; 0{,}66] \\
+            Перцептрон & 0{,}64 $\pm$ 0{,}05 & 0{,}60 $\pm$ 0{,}05 & 0{,}64 $\pm$ 0{,}05 & [0{,}57; 0{,}71] & [0{,}54; 0{,}67] & [0{,}57; 0{,}71] \\
+            \bottomrule
+        \end{tabular}
+    }
+\end{table}
+
+Метрики заметно превышают уровень случайного угадывания, равный $1/8$ при восьми классах, то есть модель выявляет зависимости в данных при малом объеме выборки и большом числе классов. Для дальнейшего анализа исследовалось влияние доли обучающей выборки на качество. Для сопоставимости метрики при всех долях вычислялись на одной и той же тестовой выборке.
+
+На Рисунке~\ref{fig:cls_fraction} представлены графики accuracy и Macro F1-score для логистической регрессии и перцептрона в зависимости от доли обучающей выборки, изменяющейся от 0 до 1, с погрешностями в виде стандартного отклонения по пациентам. Рост метрик показывает, что извлеченные пространственно-временные характеристики значимы, а качество модели повышается с увеличением объема обучающих данных.
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{cls/Figure_17.pdf}
+        \caption{Accuracy}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{cls/Figure_18.pdf}
+        \caption{Macro F1-score}
+    \end{subfigure}
+    \caption{Зависимость качества декодирования от доли обучающей выборки. На графиках показаны accuracy и Macro F1-score, усредненные по пациентам, в зависимости от доли обучающей выборки, изменяющейся от 0 до 1. Метрики вычислялись на одной и той же тестовой выборке для обеспечения сопоставимости. Качество декодирования растет по мере увеличения размера обучающей выборки}
+    \label{fig:cls_fraction}
+\end{figure}
+
+\subsection{Вклад компонент и сравнение с нейросетевыми моделями}\label{sec4:cls_ablation}
+\paragraph{Исключение компонент.} Вклад каждого компонента в предложенную модель оценивался методом исключения компонент. Рассматривались следующие варианты модели:
+\begin{itemize}
+    \item \textit{Без TSM}: временные ряды преобразуются в вектор после применения масок каждого класса, конкатенируются и подаются на вход классификатору без использования TSM.
+    \item \textit{Без масок классов}: маска активности рассчитывается как среднее по всем временным рядам, без учета специфичных для классов масок, и TSM применяется для кодирования.
+    \item \textit{Оригинальные маски}: вместо масок, сгенерированных алгоритмом из раздела~\ref{sec3:cls_mask}, используются оригинальные маски, предоставленные нейроучеными, и TSM применяется для кодирования временных рядов.
+\end{itemize}
+
+В Таблице~\ref{table:ablation} представлены усредненные по пациентам значения метрик, а также их стандартные отклонения и 95\% доверительные интервалы. Статистическая значимость отличий от полной модели оценивалась t-критерием для связанных выборок; отличия, значимые на уровне $0{,}05$, отмечены одной звездочкой, на уровне $0{,}005$~--- двумя. Для достоверности статистических сравнений по трем метрикам применялась поправка Холма на множественное тестирование. В качестве классификатора $ \boldsymbol{\eta}$ использовалась логистическая регрессия.
+
+\begin{table}[h!]
+    \centering
+    \caption{Влияние отдельных компонентов модели на качество классификации, оцененное методом исключения компонент. Метрики на тестовых выборках усреднены по пациентам. Одной звездочкой отмечены отличия от полной модели, значимые на уровне $0{,}05$, двумя~--- на уровне $0{,}005$. Приведены 95\% доверительные интервалы}\label{table:ablation}
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{lccccccccc}
+            \toprule
+            Метод & Accuracy & Macro F1-score & Micro F1-score & Accuracy CI & Macro F1 CI & Micro F1 CI \\
+            \midrule
+            Без TSM & 0{,}24 $\pm$ 0{,}11* & 0{,}22 $\pm$ 0{,}11* & 0{,}24 $\pm$ 0{,}11* & [0{,}11; 0{,}37] & [0{,}09; 0{,}36] & [0{,}10; 0{,}37] \\
+            Без масок классов & 0{,}25 $\pm$ 0{,}13* & 0{,}23 $\pm$ 0{,}13* & 0{,}25 $\pm$ 0{,}13* & [0{,}09; 0{,}41] & [0{,}07; 0{,}39] & [0{,}09; 0{,}41] \\
+            Оригинальные маски & 0{,}10 $\pm$ 0{,}05** & 0{,}09 $\pm$ 0{,}04** & 0{,}10 $\pm$ 0{,}05** & [0{,}04; 0{,}16] & [0{,}03; 0{,}14] & [0{,}04; 0{,}16] \\
+            Предложенная модель & \textbf{0{,}61 $\pm$ 0{,}04} & \textbf{0{,}56 $\pm$ 0{,}03} & \textbf{0{,}61 $\pm$ 0{,}04} & [0{,}56; 0{,}66] & [0{,}52; 0{,}60] & [0{,}56; 0{,}66] \\
+            \bottomrule
+        \end{tabular}
+    }
+\end{table}
+
+Исследование методом исключения компонент показывает, что без проецирования на касательное пространство риманова многообразия метрики значительно снижаются. Отсутствие масок активности для каждого класса стимулов также снижает качество классификации. Отмеченные звездочками в Таблице~\ref{table:ablation} отличия статистически значимы.
+
+\paragraph{Сравнение с нейросетевыми моделями.}\label{sec4:cls_nn} Предложенная модель сравнивается с двумя нейросетевыми моделями, использующими различные методы кодирования временных рядов фМРТ:
+\begin{itemize}
+    \item \textit{Оригинальные маски и LSTM}: эта модель сначала применяет оригинальные маски, предоставленные нейроучеными, для выбора активных областей мозга. Затем временные ряды из этих областей кодируются сетью долгой краткосрочной памяти (англ. Long Short-Term Memory, LSTM), моделирующей временные зависимости. Извлеченные признаки подаются в линейный слой с активацией softmax для классификации.
+    \item \textit{Оригинальные маски и Attention}: эта модель сначала применяет оригинальные маски, предоставленные нейроучеными, для выбора активных областей мозга. Затем временные ряды из этих областей кодируются слоем внимания, который взвешивает отсчеты, и полученный вектор подается в линейный слой с активацией softmax для классификации.
+\end{itemize}
+
+В Таблице~\ref{table:model_comparison} представлены средние по пациентам значения метрик на тестовой выборке для каждой модели в сравнении с предложенной моделью, использующей логистическую регрессию в качестве классификатора $\boldsymbol{\eta}$. Значимость улучшения проверялась t-критерием для связанных выборок с поправкой Холма, как и выше; различия, значимые на уровне $0{,}005$, отмечены двумя звездочками. Приведены также 95\% доверительные интервалы.
+
+\begin{table}[h!]
+    \centering
+    \caption{Сравнение модели с подходами на основе нейронных сетей. Метрики на тестовой выборке усреднены по пациентам и приведены с доверительными интервалами; двумя звездочками отмечены отличия, значимые на уровне $0{,}005$}\label{table:model_comparison}
+    \resizebox{\textwidth}{!}{
+        \begin{tabular}{lcccccc}
+            \toprule
+            Модель & Accuracy & Macro F1-score & Micro F1-score & Accuracy CI & Macro F1 CI & Micro F1 CI \\
+            \midrule
+            Оригинальные маски и LSTM & 0{,}12 $\pm$ 0{,}02** & 0{,}03 $\pm$ 0{,}01** & 0{,}12 $\pm$ 0{,}02** & [0{,}09; 0{,}14] & [0{,}02; 0{,}04] & [0{,}09; 0{,}14] \\
+            Оригинальные маски и Attention & 0{,}14 $\pm$ 0{,}04** & 0{,}04 $\pm$ 0{,}03** & 0{,}14 $\pm$ 0{,}04** & [0{,}11; 0{,}18] & [0{,}02; 0{,}07] & [0{,}11; 0{,}18] \\
+            Предложенная модель & \textbf{0{,}61 $\pm$ 0{,}04} & \textbf{0{,}56 $\pm$ 0{,}03} & \textbf{0{,}61 $\pm$ 0{,}04} & [0{,}56; 0{,}66] & [0{,}52; 0{,}60] & [0{,}56; 0{,}66] \\
+            \bottomrule
+        \end{tabular}
+    }
+\end{table}
+
+Экспериментальные результаты, представленные в Таблице~\ref{table:model_comparison}, показывают преимущество предложенной модели перед подходами на основе нейронных сетей при ограниченной выборке. Специфичные для классов маски из раздела~\ref{sec3:cls_mask} и кодирование с помощью TSM позволяют модели учитывать как пространственные, так и временные характеристики данных фМРТ. Отличия значимы на уровне $0{,}005$, а доверительные интервалы характеризуют надежность оценок.
+
+\subsection{Проверка теоретических оценок на синтетических данных}\label{sec4:cls_synth}
+
+На записях фМРТ истинные ковариации объектов неизвестны, а радиус облака объектов и длина сегмента заданы данными. Поэтому три утверждения раздела~\ref{sec3:cls_theory} проверены на синтетических данных, где эти величины задаются явно. Проверяется, достигается ли константа искажения в пределе, повышает ли учет геометрии многообразия accuracy по сравнению с методами, не согласованными с облаком объектов, и как шум оценки ковариации по $\mathcal{T}$ отсчетам сказывается на accuracy в сравнении с границей теоремы~\ref{thm:cls_conc}.
+
+\paragraph{Неулучшаемость константы искажения.}\label{sec4:cls_sharp} Предложение~\ref{prop:cls_sharp} утверждает, что константа $c(\rho)$ теоремы~\ref{thm:cls_isometry} неулучшаема, но достигается лишь в пределе. Предельный переход~\eqref{eq:cls_sharp} проверен численно. Для пар $\exp\mathbf{S}(\pm\theta/2)$ с $\omega = \sqrt{2}\rho$, $\rho \in \{1, 2, 4\}$ и опорной точкой $\bar{\mathbf{R}} = \mathbb{I}$ вычислено отношение $\delta_{\mathcal{R}}(\mathbf{R}_i, \mathbf{R}_j) / \|\mathbf{p}_i - \mathbf{p}_j\|_2$ в зависимости от угла поворота $\theta$ собственного базиса. Результат показан на Рисунке~\ref{fig:cls_sharp}. Отношение строго меньше $c(\rho)$ при всех $\theta > 0$ и стремится к $c(\rho)$ при $\theta \to 0$. При $\theta = 10^{-3}$ оно отличается от $c(\rho)$ менее чем на $10^{-4}$, а при $\theta = \pi/2$, когда $\mathbf{S}_j = -\mathbf{S}_i$ и касательные векторы коммутируют, равно единице. Результат не зависит от $h$, поскольку при $h > 2$ пары отличаются от случая $h = 2$ нулевыми блоками.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.55\textwidth]{cls/exp_sharp.pdf}
+    \caption{Отношение геодезического расстояния к евклидову для пар предложения~\ref{prop:cls_sharp}, то есть пар касательных векторов с собственными значениями $\pm\rho/\sqrt{2}$, собственные базисы которых повернуты друг относительно друга на угол $\theta$. Пунктиром показана граница $c(\rho)$ теоремы~\ref{thm:cls_isometry}}
+    \label{fig:cls_sharp}
+\end{figure}
+
+\paragraph{Генеративная модель.} Через $\mathbf{Z}$ обозначается случайная симметричная матрица размера $h \times h$, координаты $\operatorname{vec}_{\sqrt{2}}(\mathbf{Z})$ которой независимы и имеют стандартное нормальное распределение. Для каждой задачи один раз разыгрываются опорная точка $\mathbf{R}_0 = \exp(\mathbf{Z}_0)$ и единичное направление разделения классов $\mathbf{U} = \mathbf{Z}_1 / \|\mathbf{Z}_1\|_F$. Центры двух классов
+\begin{equation*}
+\mathbf{R}_{\pm} = \mathbf{R}_0^{1/2} \exp\big( \pm \tfrac{s}{2}\, \mathbf{U} \big) \mathbf{R}_0^{1/2}
+\end{equation*}
+лежат на геодезической, проходящей через $\mathbf{R}_0$, на расстоянии $s$ друг от друга, а объект класса $\pm$ порождается как гауссово возмущение центра в отбеленных касательных координатах~\eqref{eq:cls_white}:
+\begin{equation}\label{eq:cls_synth_model}
+\mathbf{R}_i = \mathbf{R}_{\pm}^{1/2} \exp( \sigma \mathbf{Z}_i ) \mathbf{R}_{\pm}^{1/2}, \qquad \sigma = s/2 .
+\end{equation}
+Все масштабы модели пропорциональны $s$, поэтому в касательных координатах центра класса задача при разных $s$ одна и та же, а меняется только геодезический радиус облака, то есть вклад кривизны многообразия. В обучающую выборку входит по $100$ объектов каждого класса, в тестовую~--- по $500$. Для каждого набора параметров разыграны десять задач с различными $\mathbf{R}_0$ и $\mathbf{U}$, по которым приводятся средние и стандартные отклонения.
+
+\paragraph{Сравниваемые методы.} Наряду с TSM, то есть признаками~\eqref{eq:cls_feat} в точке риманова среднего обучающей выборки и логистической регрессией, рассматриваются три метода. Лог-евклидова проекция (англ. log-Euclidean)~\cite{arsigny2007geometric} использует те же признаки с опорной точкой $\mathbb{I}$, то есть $\mathbf{p}_i = \operatorname{vec}_{\sqrt{2}}(\log \mathbf{R}_i)$. Она учитывает геометрию многообразия, но ее опорная точка не согласована с облаком объектов. Евклидова векторизация (англ. Euclidean) подает в классификатор $\mathbf{p}_i = \operatorname{vec}_{\sqrt{2}}(\mathbf{R}_i)$ и геометрию не учитывает. Классификатор по минимальному расстоянию до среднего (англ. Minimum Distance to Mean, MDM)~\cite{barachant2011multiclass} относит объект к классу, риманово среднее которого ближе по $\delta_{\mathcal{R}}$, и служит ориентиром, который классифицирует объекты непосредственно на многообразии без касательной проекции. В методах с логистической регрессией коэффициент регуляризации единичный, как в разделе~\ref{sec4:cls_results}, а признаки умножаются на общий скалярный множитель, чтобы регуляризация действовала одинаково при любом масштабе облака. Покоординатная стандартизация, нарушающая инвариантность по предложению~\ref{prop:cls_affine}, не применяется.
+
+\paragraph{Учет геометрии.} Параметр $s$ меняется от $0{,}1$ до $2{,}5$ при $h = 8$, чему отвечают радиусы облака $\rho = \max_i \delta_{\mathcal{R}}(\bar{\mathbf{R}}, \mathbf{R}_i)$ от $0{,}4$ до $10$. На Рисунке~\ref{fig:cls_exp_radius}(а) показана accuracy методов на тестовой выборке, на Рисунке~\ref{fig:cls_exp_radius}(б)~--- отношение $\delta_{\mathcal{R}}(\mathbf{R}_i, \mathbf{R}_j) / \|\mathbf{p}_i - \mathbf{p}_j\|_2$ по всем парам обучающих объектов в сравнении с границами $c(\rho)$ и $g(\omega)$ теоремы~\ref{thm:cls_isometry}. Accuracy TSM и MDM практически совпадает на всем диапазоне радиусов, то есть касательная проекция в точке риманова среднего не теряет разделимости классов и тогда, когда гарантия теоремы~\ref{thm:cls_isometry} становится тривиальной. Рост accuracy с радиусом объясняется отрицательной кривизной многообразия. Внутриклассовый разброс по построению~\eqref{eq:cls_synth_model} от кривизны не зависит, тогда как геодезическое расстояние между объектами разных классов растет быстрее, чем линейно по $s$. Лог-евклидова проекция уступает TSM, и разрыв увеличивается с радиусом, поскольку облако удалено от $\mathbb{I}$ и касательные координаты в $\mathbb{I}$ связаны с координатами в $\bar{\mathbf{R}}$ анизотропным преобразованием. Евклидова векторизация существенно уступает методам, учитывающим геометрию многообразия, и ее accuracy с радиусом не растет. Отношение расстояний для всех пар не меньше единицы, как и гарантирует пункт~(б) теоремы~\ref{thm:cls_isometry}, и остается много меньше границ. При наибольшем радиусе его максимум по парам близок к $1{,}5$, тогда как граница $g(\omega)$ превышает $30$. Для гауссовых облаков смещение между типичной парой объектов почти целиком приходится на компоненты, коммутирующие с касательными векторами, которые экспоненциальное отображение не растягивает. После преобразования $\mathbf{A}\mathbf{R}_i\mathbf{A}^{\top}$ со случайной невырожденной матрицей $\mathbf{A}$ accuracy TSM и попарные расстояния между признаками совпали с исходными с точностью вычислений, в согласии с предложением~\ref{prop:cls_affine}.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{cls/exp_radius.pdf}
+    \caption{Зависимость от радиуса облака $\rho$ при $h = 8$; средние и стандартные отклонения по десяти задачам. (а)~Accuracy TSM, MDM, лог-евклидовой проекции и евклидовой векторизации на тестовой выборке. (б)~Отношение геодезического расстояния между объектами к евклидову расстоянию между их признаками по всем парам обучающих объектов в сравнении с границами $c(\rho)$ и $g(\omega)$ теоремы~\ref{thm:cls_isometry}}
+    \label{fig:cls_exp_radius}
+\end{figure}
+
+\paragraph{Шум оценки ковариаций.} При $s = 0{,}5$ и $h \in \{8, 16\}$ истинные ковариации объектов обучающей и тестовой выборок заменены выборочными $\hat{\mathbf{R}}_i = \mathcal{T}^{-1}\mathbf{H}_i\mathbf{H}_i^{\top}$, где столбцы $\mathbf{H}_i \in \mathbb{R}^{h \times \mathcal{T}}$~--- независимые отсчеты с распределением $\mathcal{N}(\mathbf{0}, \mathbf{R}_i)$, что в точности соответствует условиям теоремы~\ref{thm:cls_conc}. Число отсчетов $\mathcal{T}$ меняется от $20$ до $1280$. Признаки TSM и классификатор строятся по выборочным ковариациям, как и на реальных данных, а истинные ковариации используются только для вычисления ошибки $\delta_{\mathcal{R}}(\hat{\mathbf{R}}_i, \mathbf{R}_i)$, усредняемой по тестовым объектам, и эталонной accuracy TSM на тех же задачах. Граница~\eqref{eq:cls_conc} вычислена при $\alpha = 0{,}05$, то есть при $t = \sqrt{2\log(2/\alpha)/\mathcal{T}}$ из следствия~\ref{cor:cls_rate}, и показана для тех $\mathcal{T}$, при которых $\varepsilon < 1$, а именно начиная с $\mathcal{T} = 40$ для $h = 8$ и с $\mathcal{T} = 80$ для $h = 16$. Граница лежит выше средней ошибки, поскольку является верхней оценкой, выполняющейся с вероятностью не меньше $0{,}95$, но убывает с тем же наклоном $1/\sqrt{\mathcal{T}}$. Результаты показаны на Рисунке~\ref{fig:cls_exp_noise}. Accuracy TSM растет с $\mathcal{T}$ и приближается к эталонной. При $\mathcal{T} = 20$ потеря accuracy заметна для обоих значений $h$, а при $\mathcal{T} \geqslant 320$ становится пренебрежимо малой. Средняя ошибка убывает как $\mathcal{T}^{-1/2}$ и пропорциональна $h$, в согласии с порядком $h/\sqrt{\mathcal{T}}$ оценки~\eqref{eq:cls_conc}, а ее разброс между задачами с различными ковариациями пренебрежимо мал, что отвечает пункту~(а) теоремы~\ref{thm:cls_conc}. Граница лежит выше эмпирической ошибки, но убывает с той же скоростью, то есть верно передает зависимость от $h$ и $\mathcal{T}$ ценой постоянного множителя. Тем самым эксперимент подтверждает, что допустимое число каналов в Алгоритме~\ref{alg:bad} растет лишь как корень из длины ряда.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{cls/exp_noise.pdf}
+    \caption{Шум оценки ковариаций при $s = 0{,}5$. (а)~Accuracy TSM на тестовой выборке при обучении на выборочных ковариациях в зависимости от числа отсчетов $\mathcal{T}$; пунктиром показана accuracy на истинных ковариациях. (б)~Средняя ошибка $\delta_{\mathcal{R}}(\hat{\mathbf{R}}_i, \mathbf{R}_i)$ и граница теоремы~\ref{thm:cls_conc} при уровне значимости $\alpha = 0{,}05$; граница показана для тех $\mathcal{T}$, при которых $\varepsilon < 1$}
+    \label{fig:cls_exp_noise}
+\end{figure}
+
+\subsection{Проверка теоретических оценок на записях ЭЭГ}\label{sec4:cls_eeg}
+
+Те же три свойства проверены на открытом наборе записей ЭЭГ при воображении движения левой и правой руки~\cite{tangermann2012review}. В терминах главы отсчет~--- отсчет записи ЭЭГ, канал~--- электрод, источник~--- пациент, а стимул~--- воображаемое движение. Используются обучающие сессии девяти пациентов с $22$ каналами в полосе $8$--$30$~Гц. Объектом служит ковариация~\eqref{eq:cls_cov} пробы по окну длиной $3{,}5$~с после подсказки. Наряду с полным набором каналов рассматривается малое подмножество из $h = 9$ центральных каналов. Accuracy измерена стратифицированной пятикратной кросс-валидацией для каждого пациента отдельно, как показано на Рисунке~\ref{fig:cls_eeg}(а). Касательная проекция в точке риманова среднего не уступает классификатору по геодезическому расстоянию и лог-евклидовой проекции и существенно превосходит евклидову векторизацию, а разброс accuracy между пациентами много больше различий между методами, учитывающими геометрию многообразия. Преобразование каналов случайной невырожденной матрицей не меняет accuracy TSM ни на одном разбиении кросс-валидации, а попарные расстояния между признаками сохраняются с точностью итерационного вычисления риманова среднего, в согласии с предложением~\ref{prop:cls_affine}. Отношение геодезического расстояния к евклидову по всем парам проб близко к единице и далеко от границ $g(\omega)$ и $c(\rho)$, вычисленных по выборке, а попарная граница $g(\max\{\omega(\mathbf{S}_i), \omega(\mathbf{S}_j)\})$ теоремы~\ref{thm:cls_isometry} выполнена для всех пар. На малом подмножестве каналов гарантированная константа $c(\rho)$ сама невелика.
+
+Для проверки теоремы~\ref{thm:cls_conc} ковариация пробы по полному окну принята за истинную, а оценка вычислена по начальному отрезку окна из $\mathcal{T}'$ отсчетов. Результат показан на Рисунке~\ref{fig:cls_eeg}(б). Ошибка убывает с длиной отрезка, но превышает величину $\sqrt{h(h+1)/\mathcal{T}'}$, поскольку отсчеты ЭЭГ зависимы. Полоса пропускания фильтра составляет малую долю частоты дискретизации, и эффективное число независимых отсчетов заметно меньше номинального. Кроме того, при длине отрезка, сопоставимой с удвоенным числом каналов, выборочная ковариация почти вырождена, и логарифм увеличивает ошибку еще сильнее. Граница~\eqref{eq:cls_conc}, доказанная для независимых отсчетов, на этих данных выполнена всюду, где она определена, и для длинных отрезков отличается от ошибки постоянным множителем, как и на синтетических данных. Accuracy TSM по отрезку длиной менее половины окна практически совпадает с accuracy по полному окну.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{cls/eeg_check.pdf}
+    \caption{Проверка на записях ЭЭГ. (а)~Accuracy TSM, MDM, лог-евклидовой проекции и евклидовой векторизации для каждого пациента при полном наборе каналов. (б)~Средняя по пробам и пациентам ошибка оценки ковариации по первым $\mathcal{T}'$ отсчетам окна относительно ковариации по полному окну, величина $\sqrt{h(h+1)/\mathcal{T}'}$ и граница теоремы~\ref{thm:cls_conc} для полного набора каналов и для подмножества центральных каналов}
+    \label{fig:cls_eeg}
+\end{figure}
+
+\section{Выводы по главе}\label{sec4:cls_disc}
+В главе предложен метод классификации многоканальных временных рядов по выборке в десятки объектов. Маски активности классов отбирают информативные каналы по кросс-корреляции со стимулом при учете лага сигнала, а ковариации отобранных каналов проецируются на касательное пространство в точке риманова среднего, так что объект описывается отдельно с точки зрения каждого класса. Размерность признаков задается числом отобранных каналов и не зависит от объема выборки, что и делает метод применимым при малой выборке.
+
+Для касательных признаков доказаны свойства, существенные для линейного классификатора. Невырожденное преобразование каналов сводится к ортогональному преобразованию признаков и не меняет предсказаний логистической регрессии, как установлено в предложении~\ref{prop:cls_affine}. Евклидовы расстояния между признаками не превосходят геодезических и отличаются от них не более чем в $g(\omega)$ раз, где $\omega$~--- спектральный разброс касательных векторов, а при радиусе облака $\rho$~--- не более чем в $c(\rho)$ раз. Оценки доказаны в теореме~\ref{thm:cls_isometry}, неулучшаемость констант~--- в предложении~\ref{prop:cls_sharp}. Ошибка выборочной ковариации в геодезической метрике распределена одинаково для всех истинных ковариаций и с высокой вероятностью имеет порядок $h/\sqrt{\mathcal{T}}$ по теореме~\ref{thm:cls_conc}, поэтому допустимое число отбираемых каналов растет лишь как корень из длины ряда. Эксперименты на синтетических данных подтверждают порядки оценок и показывают, что касательная проекция не уступает классификатору на многообразии при любом радиусе облака, а с ростом радиуса все сильнее превосходит лог-евклидову и евклидову векторизации. Те же свойства подтверждены на открытых записях ЭЭГ, где преобразование каналов не меняет признаков, искажение расстояний много меньше границ, а ошибка оценки ковариации убывает с длиной отрезка в согласии с теоремой~\ref{thm:cls_conc}.
+
+На записях фМРТ шести пациентов с восемью категориями стимулов метод в среднем существенно превосходит нейросетевые модели, исключение любой из его компонент значимо снижает качество, а качество полного метода растет с долей обучающей выборки. Маски активности состоят из статистически значимых вокселей и покрывают разметку нейроученых, а на случайном ряде стимулов значимых вокселей не содержат.

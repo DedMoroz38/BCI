@@ -1,0 +1,1973 @@
+{
+  "seconds": 334.38014724899995,
+  "scores": [
+    {
+      "tag": "loso_P10",
+      "config": "fallback_balance1",
+      "prior": "lag4",
+      "cell": 0.5334153886186782,
+      "nll": 1.0087615042368827,
+      "brier": 0.6067655614555381
+    },
+    {
+      "tag": "loso_P10",
+      "config": "fallback_balance1",
+      "prior": "lag4_swad",
+      "cell": 0.5512178023477343,
+      "nll": 1.0105294087765033,
+      "brier": 0.6075466629694756
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running__hard",
+      "prior": "lag4",
+      "cell": 0.5410736842938881,
+      "nll": 1.329287017337224,
+      "brier": 0.70403384381207
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running__hard",
+      "prior": "lag4_swad",
+      "cell": 0.5422655409648719,
+      "nll": 1.2263447918259291,
+      "brier": 0.6740681597122999
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running__soft25",
+      "prior": "lag4",
+      "cell": 0.5368543062077135,
+      "nll": 1.4077939901056291,
+      "brier": 0.7131501210339936
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running__soft25",
+      "prior": "lag4_swad",
+      "cell": 0.5501528200576979,
+      "nll": 1.3261764812601007,
+      "brier": 0.6805809139297417
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running__soft50",
+      "prior": "lag4",
+      "cell": 0.5347589996943036,
+      "nll": 1.362743423398911,
+      "brier": 0.7074519679520219
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running__soft50",
+      "prior": "lag4_swad",
+      "cell": 0.5450466109073712,
+      "nll": 1.271559836899663,
+      "brier": 0.6749157202906169
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running__soft75",
+      "prior": "lag4",
+      "cell": 0.5325923571752271,
+      "nll": 1.336267630699981,
+      "brier": 0.7035744986140022
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running__soft75",
+      "prior": "lag4_swad",
+      "cell": 0.5484721477887905,
+      "nll": 1.2391220242063443,
+      "brier": 0.6725139523353801
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running__no_marginal",
+      "prior": "lag4",
+      "cell": 0.5385904173188247,
+      "nll": 1.4693585766881636,
+      "brier": 0.7191538107302663
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running__no_marginal",
+      "prior": "lag4_swad",
+      "cell": 0.5502923113380812,
+      "nll": 1.4026222041176606,
+      "brier": 0.6877536810903481
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running__soft50_beta05",
+      "prior": "lag4",
+      "cell": 0.5549899123226104,
+      "nll": 0.980611858331801,
+      "brier": 0.5888735082723827
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running__soft50_beta05",
+      "prior": "lag4_swad",
+      "cell": 0.5584253202887879,
+      "nll": 0.9811138050983516,
+      "brier": 0.587629787789177
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running__soft50_beta2",
+      "prior": "lag4",
+      "cell": 0.5349847179942301,
+      "nll": 3.4608879379315165,
+      "brier": 0.8609620116433411
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running__soft50_beta2",
+      "prior": "lag4_swad",
+      "cell": 0.5330556944691113,
+      "nll": 3.4777757482409073,
+      "brier": 0.8677667752965695
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running__soft50_ramp60",
+      "prior": "lag4",
+      "cell": 0.5348187368508149,
+      "nll": 1.2057886297082385,
+      "brier": 0.6618252309117241
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running__soft50_ramp60",
+      "prior": "lag4_swad",
+      "cell": 0.5448110096219924,
+      "nll": 1.1583628244798334,
+      "brier": 0.6411327137683049
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__hard",
+      "prior": "lag4",
+      "cell": 0.5247271127583403,
+      "nll": 1.315306790342964,
+      "brier": 0.6954027603061209
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__hard",
+      "prior": "lag4_swad",
+      "cell": 0.5474953442321188,
+      "nll": 1.2219760178851393,
+      "brier": 0.6648788372264381
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft25",
+      "prior": "lag4",
+      "cell": 0.5381203442321189,
+      "nll": 1.4066494686052482,
+      "brier": 0.7059618473989671
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft25",
+      "prior": "lag4_swad",
+      "cell": 0.553098965608985,
+      "nll": 1.3258588055651377,
+      "brier": 0.6784404835682154
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50",
+      "prior": "lag4",
+      "cell": 0.5293931033357603,
+      "nll": 1.3584427559005423,
+      "brier": 0.6991672882021712
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50",
+      "prior": "lag4_swad",
+      "cell": 0.5525037275137468,
+      "nll": 1.2725611159970713,
+      "brier": 0.6688428066644716
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft75",
+      "prior": "lag4",
+      "cell": 0.5266717705497722,
+      "nll": 1.3279993153629188,
+      "brier": 0.6956326214403334
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft75",
+      "prior": "lag4_swad",
+      "cell": 0.5594905589846864,
+      "nll": 1.2382092025736022,
+      "brier": 0.6641283719889374
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__no_marginal",
+      "prior": "lag4",
+      "cell": 0.5396983275759939,
+      "nll": 1.470299712301163,
+      "brier": 0.7141214448718417
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__no_marginal",
+      "prior": "lag4_swad",
+      "cell": 0.5425708565158852,
+      "nll": 1.3980782355678518,
+      "brier": 0.6875976590855463
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_beta05",
+      "prior": "lag4",
+      "cell": 0.549211220917733,
+      "nll": 0.9812386845485364,
+      "brier": 0.5890159247210777
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_beta05",
+      "prior": "lag4_swad",
+      "cell": 0.5513787516613369,
+      "nll": 0.980587111296376,
+      "brier": 0.5871277559225513
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_beta2",
+      "prior": "lag4",
+      "cell": 0.5049941770985987,
+      "nll": 3.59439709606419,
+      "brier": 0.9169497900281214
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_beta2",
+      "prior": "lag4_swad",
+      "cell": 0.5319674484860067,
+      "nll": 3.447280273490194,
+      "brier": 0.863817441724616
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_ramp60",
+      "prior": "lag4",
+      "cell": 0.5380872754490499,
+      "nll": 1.219774936088742,
+      "brier": 0.6588368479520216
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_ramp60",
+      "prior": "lag4_swad",
+      "cell": 0.5577120608470801,
+      "nll": 1.1672830328067432,
+      "brier": 0.6403987389512584
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_k10",
+      "prior": "lag4",
+      "cell": 0.4804637860582375,
+      "nll": 1.435092972140473,
+      "brier": 0.7609308934361518
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_k10",
+      "prior": "lag4_swad",
+      "cell": 0.4926894761427003,
+      "nll": 1.3534512058798664,
+      "brier": 0.7314252572764766
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_k30",
+      "prior": "lag4",
+      "cell": 0.5413244611279192,
+      "nll": 1.3629133759427277,
+      "brier": 0.6973932000583759
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_k30",
+      "prior": "lag4_swad",
+      "cell": 0.5548905155622995,
+      "nll": 1.2707514268771902,
+      "brier": 0.6631274593117833
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_shrink02",
+      "prior": "lag4",
+      "cell": 0.5274153767612594,
+      "nll": 2.037573383545818,
+      "brier": 0.7750353649812024
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_shrink02",
+      "prior": "lag4_swad",
+      "cell": 0.5508697405856423,
+      "nll": 1.8166335064423702,
+      "brier": 0.7299928298614183
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_shrink08",
+      "prior": "lag4",
+      "cell": 0.5394259239352643,
+      "nll": 1.1546298712767793,
+      "brier": 0.6539666199466775
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_shrink08",
+      "prior": "lag4_swad",
+      "cell": 0.5528013465613658,
+      "nll": 1.1097327702869408,
+      "brier": 0.6321156176478618
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_warm50",
+      "prior": "lag4",
+      "cell": 0.5362023548141294,
+      "nll": 1.2572755489203264,
+      "brier": 0.6681674387341603
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_warm50",
+      "prior": "lag4_swad",
+      "cell": 0.5543886481486674,
+      "nll": 1.208690582670587,
+      "brier": 0.65022645077454
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_warm80",
+      "prior": "lag4",
+      "cell": 0.5362023548141294,
+      "nll": 1.206387647278388,
+      "brier": 0.6557899402866877
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_warm80",
+      "prior": "lag4_swad",
+      "cell": 0.5510185501094518,
+      "nll": 1.1586785997155378,
+      "brier": 0.6412477226481134
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_half",
+      "prior": "lag4",
+      "cell": 0.5267982100144469,
+      "nll": 0.9944338714950572,
+      "brier": 0.5991660052634533
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running__soft50_half",
+      "prior": "lag4_swad",
+      "cell": 0.5528013465613658,
+      "nll": 0.9828677659053718,
+      "brier": 0.5886954779932296
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_fixed__hard",
+      "prior": "lag4",
+      "cell": 0.5080026757953212,
+      "nll": 1.4024244418410932,
+      "brier": 0.7370405021554208
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_fixed__hard",
+      "prior": "lag4_swad",
+      "cell": 0.5219592785513663,
+      "nll": 1.2848039859243718,
+      "brier": 0.7026222889547729
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_fixed__soft25",
+      "prior": "lag4",
+      "cell": 0.5173066416345304,
+      "nll": 1.4865333999950816,
+      "brier": 0.7436558220317598
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_fixed__soft25",
+      "prior": "lag4_swad",
+      "cell": 0.5326401600993876,
+      "nll": 1.3870501983020909,
+      "brier": 0.7055250059773029
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_fixed__soft50",
+      "prior": "lag4",
+      "cell": 0.517080358592578,
+      "nll": 1.4409080008077029,
+      "brier": 0.7394081532685445
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_fixed__soft50",
+      "prior": "lag4_swad",
+      "cell": 0.5376996839089115,
+      "nll": 1.3325413150353316,
+      "brier": 0.7005930824892287
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_fixed__soft75",
+      "prior": "lag4",
+      "cell": 0.5046705095955079,
+      "nll": 1.4141307147465736,
+      "brier": 0.7372489305786583
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_fixed__soft75",
+      "prior": "lag4_swad",
+      "cell": 0.5361211358230105,
+      "nll": 1.2995646447798583,
+      "brier": 0.699983899604516
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_fixed__no_marginal",
+      "prior": "lag4",
+      "cell": 0.517250638050301,
+      "nll": 1.5500360745956583,
+      "brier": 0.7512915070125019
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_fixed__no_marginal",
+      "prior": "lag4_swad",
+      "cell": 0.5308480454040472,
+      "nll": 1.4621300906979788,
+      "brier": 0.7121341508698354
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_fixed__soft50_beta05",
+      "prior": "lag4",
+      "cell": 0.53944896476079,
+      "nll": 0.9923642396198785,
+      "brier": 0.5961022113273478
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_fixed__soft50_beta05",
+      "prior": "lag4_swad",
+      "cell": 0.5581656330805712,
+      "nll": 0.9899056666610315,
+      "brier": 0.5931849157714465
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_fixed__soft50_beta2",
+      "prior": "lag4",
+      "cell": 0.5070298016314423,
+      "nll": 3.923577100599127,
+      "brier": 0.9216593346919948
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_fixed__soft50_beta2",
+      "prior": "lag4_swad",
+      "cell": 0.5172571109459727,
+      "nll": 3.8173850702302925,
+      "brier": 0.9007830247425754
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_fixed__soft50_ramp60",
+      "prior": "lag4",
+      "cell": 0.5153442474814669,
+      "nll": 1.2737226023174621,
+      "brier": 0.6916239172361478
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_fixed__soft50_ramp60",
+      "prior": "lag4_swad",
+      "cell": 0.5394357950200226,
+      "nll": 1.2114397918358688,
+      "brier": 0.663040949540962
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_fixed__hard",
+      "prior": "lag4",
+      "cell": 0.5124143680151582,
+      "nll": 1.3818083783350816,
+      "brier": 0.7258039742686629
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_fixed__hard",
+      "prior": "lag4_swad",
+      "cell": 0.526780032245255,
+      "nll": 1.2674518379468918,
+      "brier": 0.6930337761252433
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_fixed__soft25",
+      "prior": "lag4",
+      "cell": 0.5168537401674302,
+      "nll": 1.4733244888012949,
+      "brier": 0.7365670802296148
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_fixed__soft25",
+      "prior": "lag4_swad",
+      "cell": 0.5524795182564436,
+      "nll": 1.3730174814326286,
+      "brier": 0.6946873919308769
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_fixed__soft50",
+      "prior": "lag4",
+      "cell": 0.521913263976954,
+      "nll": 1.4291261549378589,
+      "brier": 0.7310905249991717
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_fixed__soft50",
+      "prior": "lag4_swad",
+      "cell": 0.5474595361256602,
+      "nll": 1.3201895720915697,
+      "brier": 0.6902089973322526
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_fixed__soft75",
+      "prior": "lag4",
+      "cell": 0.5144916027837411,
+      "nll": 1.3994331673131657,
+      "brier": 0.7279163491614632
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_fixed__soft75",
+      "prior": "lag4_swad",
+      "cell": 0.5283020120049008,
+      "nll": 1.2859673342317415,
+      "brier": 0.6904018447165803
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_fixed__no_marginal",
+      "prior": "lag4",
+      "cell": 0.5289086920765093,
+      "nll": 1.5330076507347683,
+      "brier": 0.7444728901463693
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_fixed__no_marginal",
+      "prior": "lag4_swad",
+      "cell": 0.5305981178468174,
+      "nll": 1.446219000402633,
+      "brier": 0.7032755780211765
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_fixed__soft50_beta05",
+      "prior": "lag4",
+      "cell": 0.5378149778326854,
+      "nll": 0.9950754260742013,
+      "brier": 0.5979698671858674
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_fixed__soft50_beta05",
+      "prior": "lag4_swad",
+      "cell": 0.54946790590541,
+      "nll": 0.9922117717071601,
+      "brier": 0.5947197120660912
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_fixed__soft50_beta2",
+      "prior": "lag4",
+      "cell": 0.4905768075985801,
+      "nll": 3.8128761127027317,
+      "brier": 0.9483614914568552
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_fixed__soft50_beta2",
+      "prior": "lag4_swad",
+      "cell": 0.5145578128359242,
+      "nll": 3.760194695163869,
+      "brier": 0.9018188737273665
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_fixed__soft50_ramp60",
+      "prior": "lag4",
+      "cell": 0.5220290047176948,
+      "nll": 1.2823950354896274,
+      "brier": 0.6866985270220435
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_fixed__soft50_ramp60",
+      "prior": "lag4_swad",
+      "cell": 0.5457234250145492,
+      "nll": 1.2161960765705817,
+      "brier": 0.6583320496288964
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_log__hard",
+      "prior": "lag4",
+      "cell": 0.5038988545300707,
+      "nll": 1.411099246252124,
+      "brier": 0.7431422810439732
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_log__hard",
+      "prior": "lag4_swad",
+      "cell": 0.5174408230416131,
+      "nll": 1.2936603906394566,
+      "brier": 0.7078429734025562
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_log__soft25",
+      "prior": "lag4",
+      "cell": 0.5199023452849191,
+      "nll": 1.47129380910904,
+      "brier": 0.744282058337177
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_log__soft25",
+      "prior": "lag4_swad",
+      "cell": 0.5305024665594825,
+      "nll": 1.3818159567665573,
+      "brier": 0.7099921507825132
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_log__soft50",
+      "prior": "lag4",
+      "cell": 0.5195832563033865,
+      "nll": 1.434499598689902,
+      "brier": 0.7411215211885366
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_log__soft50",
+      "prior": "lag4_swad",
+      "cell": 0.5303321871017594,
+      "nll": 1.3325822732417487,
+      "brier": 0.7047003775688876
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_log__soft75",
+      "prior": "lag4",
+      "cell": 0.5161664729233678,
+      "nll": 1.4152268483600812,
+      "brier": 0.7407376003458338
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_log__soft75",
+      "prior": "lag4_swad",
+      "cell": 0.5192450894274407,
+      "nll": 1.3037877098624053,
+      "brier": 0.7039199951453077
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_log__no_marginal",
+      "prior": "lag4",
+      "cell": 0.5099936835443607,
+      "nll": 1.5261584569047852,
+      "brier": 0.750011073857297
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_log__no_marginal",
+      "prior": "lag4_swad",
+      "cell": 0.5341679030405884,
+      "nll": 1.4525698375818274,
+      "brier": 0.7168834415622556
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_log__soft50_beta05",
+      "prior": "lag4",
+      "cell": 0.5304400019802754,
+      "nll": 0.992517122511831,
+      "brier": 0.5965456352306227
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_log__soft50_beta05",
+      "prior": "lag4_swad",
+      "cell": 0.5530753210937075,
+      "nll": 0.990556978160252,
+      "brier": 0.5938199533189723
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_log__soft50_beta2",
+      "prior": "lag4",
+      "cell": 0.5048164737715627,
+      "nll": 3.8214624047950614,
+      "brier": 0.9245665219361022
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_log__soft50_beta2",
+      "prior": "lag4_swad",
+      "cell": 0.5132522331327786,
+      "nll": 3.825455400262289,
+      "brier": 0.9119354910386431
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_log__soft50_ramp60",
+      "prior": "lag4",
+      "cell": 0.5246894654537133,
+      "nll": 1.2798710329966871,
+      "brier": 0.6934298374227025
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_log__soft50_ramp60",
+      "prior": "lag4_swad",
+      "cell": 0.5355405204350928,
+      "nll": 1.2222112697234926,
+      "brier": 0.6667081575283135
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_log__hard",
+      "prior": "lag4",
+      "cell": 0.5156048683532244,
+      "nll": 1.380570205112749,
+      "brier": 0.7230934074623032
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_log__hard",
+      "prior": "lag4_swad",
+      "cell": 0.5177617512213141,
+      "nll": 1.2799812851076102,
+      "brier": 0.6984131121537125
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_log__soft25",
+      "prior": "lag4",
+      "cell": 0.5256825405047695,
+      "nll": 1.4410368155027633,
+      "brier": 0.7216395524108936
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_log__soft25",
+      "prior": "lag4_swad",
+      "cell": 0.5494148926410262,
+      "nll": 1.3649506866366476,
+      "brier": 0.6927849135876906
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_log__soft50",
+      "prior": "lag4",
+      "cell": 0.539088198466879,
+      "nll": 1.4049675310553813,
+      "brier": 0.717979296339785
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_log__soft50",
+      "prior": "lag4_swad",
+      "cell": 0.5544837346939765,
+      "nll": 1.3183218927357578,
+      "brier": 0.6898781454151204
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_log__soft75",
+      "prior": "lag4",
+      "cell": 0.5316665372736661,
+      "nll": 1.3850900531782937,
+      "brier": 0.7183920710029746
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_log__soft75",
+      "prior": "lag4_swad",
+      "cell": 0.5389234917796064,
+      "nll": 1.2903462703068378,
+      "brier": 0.6919015125699207
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_log__no_marginal",
+      "prior": "lag4",
+      "cell": 0.5274560187132572,
+      "nll": 1.4927190176035499,
+      "brier": 0.7287932896048881
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_log__no_marginal",
+      "prior": "lag4_swad",
+      "cell": 0.5442065593076929,
+      "nll": 1.432164341398269,
+      "brier": 0.7015731806229097
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_log__soft50_beta05",
+      "prior": "lag4",
+      "cell": 0.5409341421650851,
+      "nll": 0.9960867032008788,
+      "brier": 0.5988524710484762
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_log__soft50_beta05",
+      "prior": "lag4_swad",
+      "cell": 0.5580327207202248,
+      "nll": 0.992742638082772,
+      "brier": 0.5951562091558091
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_log__soft50_beta2",
+      "prior": "lag4",
+      "cell": 0.5145293052643132,
+      "nll": 3.620004375527189,
+      "brier": 0.8930123619232683
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_log__soft50_beta2",
+      "prior": "lag4_swad",
+      "cell": 0.5165312410961171,
+      "nll": 3.711683158973957,
+      "brier": 0.8905426139016106
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_log__soft50_ramp60",
+      "prior": "lag4",
+      "cell": 0.542676161429842,
+      "nll": 1.2654640565469177,
+      "brier": 0.6767123499049853
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_log__soft50_ramp60",
+      "prior": "lag4_swad",
+      "cell": 0.5598078087680506,
+      "nll": 1.216219657649404,
+      "brier": 0.657669188609993
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_pseudo__hard",
+      "prior": "lag4",
+      "cell": 0.5373443908523735,
+      "nll": 1.3387431095205518,
+      "brier": 0.7053870389854698
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_pseudo__hard",
+      "prior": "lag4_swad",
+      "cell": 0.5459173608882436,
+      "nll": 1.2335618206982795,
+      "brier": 0.6757144314532406
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_pseudo__soft25",
+      "prior": "lag4",
+      "cell": 0.5384108196176752,
+      "nll": 1.4157441507130357,
+      "brier": 0.7145971289212711
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_pseudo__soft25",
+      "prior": "lag4_swad",
+      "cell": 0.5518889311688091,
+      "nll": 1.329907769040171,
+      "brier": 0.6821323329507636
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_pseudo__soft50",
+      "prior": "lag4",
+      "cell": 0.5366747085065641,
+      "nll": 1.3714502861172895,
+      "brier": 0.7088314863607105
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_pseudo__soft50",
+      "prior": "lag4_swad",
+      "cell": 0.5467827220184823,
+      "nll": 1.2758292685192094,
+      "brier": 0.6765003189202143
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_pseudo__soft75",
+      "prior": "lag4",
+      "cell": 0.5328526091254695,
+      "nll": 1.3452301936770932,
+      "brier": 0.7050780395485993
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_pseudo__soft75",
+      "prior": "lag4_swad",
+      "cell": 0.5448203278654188,
+      "nll": 1.2445873180170106,
+      "brier": 0.6741303207635055
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_pseudo__no_marginal",
+      "prior": "lag4",
+      "cell": 0.5403265284299358,
+      "nll": 1.4764981793941039,
+      "brier": 0.720833377294366
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_pseudo__no_marginal",
+      "prior": "lag4_swad",
+      "cell": 0.550199505398501,
+      "nll": 1.4059034968370145,
+      "brier": 0.6892163159495358
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_pseudo__soft50_beta05",
+      "prior": "lag4",
+      "cell": 0.5493066428462375,
+      "nll": 0.9810136468775409,
+      "brier": 0.5891558689985581
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_pseudo__soft50_beta05",
+      "prior": "lag4_swad",
+      "cell": 0.5514808758443435,
+      "nll": 0.9810646654767429,
+      "brier": 0.5876290720969843
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_pseudo__soft50_beta2",
+      "prior": "lag4",
+      "cell": 0.531512495772008,
+      "nll": 3.4769528647429575,
+      "brier": 0.8646373841896785
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_pseudo__soft50_beta2",
+      "prior": "lag4_swad",
+      "cell": 0.5311399856568508,
+      "nll": 3.497799460946669,
+      "brier": 0.8703831601100501
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_pseudo__soft50_ramp60",
+      "prior": "lag4",
+      "cell": 0.5382909590730371,
+      "nll": 1.2086120610828446,
+      "brier": 0.6628222179702334
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_pseudo__soft50_ramp60",
+      "prior": "lag4_swad",
+      "cell": 0.5465471207331035,
+      "nll": 1.1608029756518663,
+      "brier": 0.6422604417183729
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo__hard",
+      "prior": "lag4",
+      "cell": 0.5178847924969023,
+      "nll": 1.3226354139547996,
+      "brier": 0.6960818787588631
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo__hard",
+      "prior": "lag4_swad",
+      "cell": 0.550967566454341,
+      "nll": 1.2299397780210481,
+      "brier": 0.6673047232856506
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo__soft25",
+      "prior": "lag4",
+      "cell": 0.5363842331210077,
+      "nll": 1.4040806356015527,
+      "brier": 0.7035990882000488
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo__soft25",
+      "prior": "lag4_swad",
+      "cell": 0.5529968414259784,
+      "nll": 1.3254686062907102,
+      "brier": 0.6786221475292156
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo__soft50",
+      "prior": "lag4",
+      "cell": 0.5380736588913159,
+      "nll": 1.3598406363726474,
+      "brier": 0.6978393627962965
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo__soft50",
+      "prior": "lag4_swad",
+      "cell": 0.5525037275137468,
+      "nll": 1.2754983184471826,
+      "brier": 0.6699069899269817
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo__soft75",
+      "prior": "lag4",
+      "cell": 0.5233791460286994,
+      "nll": 1.3326137202488064,
+      "brier": 0.6959795412682589
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo__soft75",
+      "prior": "lag4_swad",
+      "cell": 0.5542822256513531,
+      "nll": 1.2439485777493913,
+      "brier": 0.666000266960226
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo__no_marginal",
+      "prior": "lag4",
+      "cell": 0.5344899942426606,
+      "nll": 1.4636828983795278,
+      "brier": 0.7118221339505587
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo__no_marginal",
+      "prior": "lag4_swad",
+      "cell": 0.5425708565158852,
+      "nll": 1.3944288363266297,
+      "brier": 0.6878134803202551
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo__soft50_beta05",
+      "prior": "lag4",
+      "cell": 0.5507677343276948,
+      "nll": 0.9814379304956086,
+      "brier": 0.5890624951057837
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo__soft50_beta05",
+      "prior": "lag4_swad",
+      "cell": 0.5565870849946702,
+      "nll": 0.9805425098251984,
+      "brier": 0.5870917039132848
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo__soft50_beta2",
+      "prior": "lag4",
+      "cell": 0.5101465068477026,
+      "nll": 3.5589412791945376,
+      "brier": 0.9107292343429803
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo__soft50_beta2",
+      "prior": "lag4_swad",
+      "cell": 0.5355554114489697,
+      "nll": 3.4359159515843225,
+      "brier": 0.8607342297166064
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo__soft50_ramp60",
+      "prior": "lag4",
+      "cell": 0.5415594976712722,
+      "nll": 1.2175664254181495,
+      "brier": 0.6574607978416421
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo__soft50_ramp60",
+      "prior": "lag4_swad",
+      "cell": 0.5594481719581913,
+      "nll": 1.1667511766989955,
+      "brier": 0.6404372579405704
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo_sharp__hard",
+      "prior": "lag4",
+      "cell": 0.5178847924969023,
+      "nll": 1.3434854538519039,
+      "brier": 0.7026313223778052
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo_sharp__hard",
+      "prior": "lag4_swad",
+      "cell": 0.5438995278929765,
+      "nll": 1.2450830318440276,
+      "brier": 0.6731993918054734
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo_sharp__soft25",
+      "prior": "lag4",
+      "cell": 0.5398564553432299,
+      "nll": 1.4167710790213477,
+      "brier": 0.7083435468782247
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo_sharp__soft25",
+      "prior": "lag4_swad",
+      "cell": 0.547788508092645,
+      "nll": 1.3322936108976147,
+      "brier": 0.6833000020983567
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo_sharp__soft50",
+      "prior": "lag4",
+      "cell": 0.5360091405552457,
+      "nll": 1.3760306068446018,
+      "brier": 0.7028158345972738
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo_sharp__soft50",
+      "prior": "lag4_swad",
+      "cell": 0.5577120608470801,
+      "nll": 1.2854781782659424,
+      "brier": 0.6753849945676744
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo_sharp__soft75",
+      "prior": "lag4",
+      "cell": 0.5233016725105566,
+      "nll": 1.3518075669517837,
+      "brier": 0.7016775585386875
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo_sharp__soft75",
+      "prior": "lag4_swad",
+      "cell": 0.5559162125794578,
+      "nll": 1.2566472488569551,
+      "brier": 0.6717956275585233
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo_sharp__no_marginal",
+      "prior": "lag4",
+      "cell": 0.5379062128806534,
+      "nll": 1.4722479955115135,
+      "brier": 0.7156260468113034
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo_sharp__no_marginal",
+      "prior": "lag4_swad",
+      "cell": 0.5428684755635044,
+      "nll": 1.3976616509593396,
+      "brier": 0.6916662009144419
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo_sharp__soft50_beta05",
+      "prior": "lag4",
+      "cell": 0.5559122107006194,
+      "nll": 0.9827480095742899,
+      "brier": 0.5900446772698967
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo_sharp__soft50_beta05",
+      "prior": "lag4_swad",
+      "cell": 0.5548509738835591,
+      "nll": 0.9810413308901069,
+      "brier": 0.5875442586251773
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo_sharp__soft50_beta2",
+      "prior": "lag4",
+      "cell": 0.5031245888851152,
+      "nll": 3.57456274245641,
+      "brier": 0.9155720886630974
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo_sharp__soft50_beta2",
+      "prior": "lag4_swad",
+      "cell": 0.528644035787594,
+      "nll": 3.4486987799165743,
+      "brier": 0.8648623258943502
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo_sharp__soft50_ramp60",
+      "prior": "lag4",
+      "cell": 0.5412310904463132,
+      "nll": 1.2246799547734137,
+      "brier": 0.6608427698493593
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_pseudo_sharp__soft50_ramp60",
+      "prior": "lag4_swad",
+      "cell": 0.5646565052915246,
+      "nll": 1.1716317407293926,
+      "brier": 0.6433209131901158
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running20__hard",
+      "prior": "lag4",
+      "cell": 0.5339188539709544,
+      "nll": 1.383642167177296,
+      "brier": 0.7164178481543236
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running20__hard",
+      "prior": "lag4_swad",
+      "cell": 0.5460754886554795,
+      "nll": 1.2671616201708786,
+      "brier": 0.6879296879646626
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running20__soft25",
+      "prior": "lag4",
+      "cell": 0.5383086954346687,
+      "nll": 1.4540833408846228,
+      "brier": 0.7252964284955933
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running20__soft25",
+      "prior": "lag4_swad",
+      "cell": 0.5419741319157746,
+      "nll": 1.3552683951966773,
+      "brier": 0.6927668640144735
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running20__soft50",
+      "prior": "lag4",
+      "cell": 0.5366747085065641,
+      "nll": 1.4139694293688536,
+      "brier": 0.7218612418580959
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running20__soft50",
+      "prior": "lag4_swad",
+      "cell": 0.5451487350903778,
+      "nll": 1.3042584776030854,
+      "brier": 0.6871124910351146
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running20__soft75",
+      "prior": "lag4",
+      "cell": 0.5293421196806494,
+      "nll": 1.3899134145426104,
+      "brier": 0.7176418035557616
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running20__soft75",
+      "prior": "lag4_swad",
+      "cell": 0.5484721477887905,
+      "nll": 1.2758008197007085,
+      "brier": 0.6861760617958468
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running20__no_marginal",
+      "prior": "lag4",
+      "cell": 0.540053224663985,
+      "nll": 1.5094572244631377,
+      "brier": 0.7284263603364055
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running20__no_marginal",
+      "prior": "lag4_swad",
+      "cell": 0.5452421057719837,
+      "nll": 1.4274410000921747,
+      "brier": 0.6992296131366112
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running20__soft50_beta05",
+      "prior": "lag4",
+      "cell": 0.5509406297743421,
+      "nll": 0.9831210446834662,
+      "brier": 0.5906080805421251
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running20__soft50_beta05",
+      "prior": "lag4_swad",
+      "cell": 0.5497311481754981,
+      "nll": 0.9819761104192798,
+      "brier": 0.588475394318375
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running20__soft50_beta2",
+      "prior": "lag4",
+      "cell": 0.5224652657688956,
+      "nll": 3.715919930682028,
+      "brier": 0.8906231621909233
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running20__soft50_beta2",
+      "prior": "lag4_swad",
+      "cell": 0.5242593981728151,
+      "nll": 3.69209127526458,
+      "brier": 0.8887202741128508
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running20__soft50_ramp60",
+      "prior": "lag4",
+      "cell": 0.5382909590730371,
+      "nll": 1.2410065888563617,
+      "brier": 0.6741252958584076
+    },
+    {
+      "tag": "loso_P10",
+      "config": "ordinary_running20__soft50_ramp60",
+      "prior": "lag4_swad",
+      "cell": 0.544913133804999,
+      "nll": 1.1854142279736362,
+      "brier": 0.6521769810252008
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running20__hard",
+      "prior": "lag4",
+      "cell": 0.5301034568443618,
+      "nll": 1.3817488825696929,
+      "brier": 0.7159056976083285
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running20__hard",
+      "prior": "lag4_swad",
+      "cell": 0.5370572076315386,
+      "nll": 1.2679699277135945,
+      "brier": 0.6828157658291445
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running20__soft25",
+      "prior": "lag4",
+      "cell": 0.539396974956093,
+      "nll": 1.452603224208458,
+      "brier": 0.7201589847364367
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running20__soft25",
+      "prior": "lag4_swad",
+      "cell": 0.5427844231253248,
+      "nll": 1.35055083830353,
+      "brier": 0.6860406500172401
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running20__soft50",
+      "prior": "lag4",
+      "cell": 0.5323750569935056,
+      "nll": 1.4122080724326898,
+      "brier": 0.7163270536287205
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running20__soft50",
+      "prior": "lag4_swad",
+      "cell": 0.5374136637104477,
+      "nll": 1.3041444589429076,
+      "brier": 0.6802406827308211
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running20__soft75",
+      "prior": "lag4",
+      "cell": 0.5268943200194427,
+      "nll": 1.3888239241805402,
+      "brier": 0.7154788601088443
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running20__soft75",
+      "prior": "lag4_swad",
+      "cell": 0.5474399053899152,
+      "nll": 1.2771644446182528,
+      "brier": 0.6793917247648147
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running20__no_marginal",
+      "prior": "lag4",
+      "cell": 0.5360772958299622,
+      "nll": 1.5075131891782392,
+      "brier": 0.7252901719795899
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running20__no_marginal",
+      "prior": "lag4_swad",
+      "cell": 0.546145202921114,
+      "nll": 1.4174136369972452,
+      "brier": 0.6942253648322009
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running20__soft50_beta05",
+      "prior": "lag4",
+      "cell": 0.5524571600980028,
+      "nll": 0.9846690515353137,
+      "brier": 0.5913214940006252
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running20__soft50_beta05",
+      "prior": "lag4_swad",
+      "cell": 0.5582210719227748,
+      "nll": 0.9818691798596124,
+      "brier": 0.5882880327034131
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running20__soft50_beta2",
+      "prior": "lag4",
+      "cell": 0.5065124232859626,
+      "nll": 3.741184528995644,
+      "brier": 0.9215566863224534
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running20__soft50_beta2",
+      "prior": "lag4_swad",
+      "cell": 0.5170485642656519,
+      "nll": 3.58702280161265,
+      "brier": 0.8790750995586477
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running20__soft50_ramp60",
+      "prior": "lag4",
+      "cell": 0.5376567440410845,
+      "nll": 1.248468447526526,
+      "brier": 0.6716682995521533
+    },
+    {
+      "tag": "loso_P10",
+      "config": "lag_running20__soft50_ramp60",
+      "prior": "lag4_swad",
+      "cell": 0.5462099600067439,
+      "nll": 1.1869549696986441,
+      "brier": 0.6484653406250684
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__hard",
+      "prior": "lag4",
+      "cell": 0.5391333248167639,
+      "nll": 1.315755945986775,
+      "brier": 0.6941751715310528
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__hard",
+      "prior": "lag4_swad",
+      "cell": 0.5422870108987854,
+      "nll": 1.2191720044234085,
+      "brier": 0.6677276369053093
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft25",
+      "prior": "lag4",
+      "cell": 0.5381044470686557,
+      "nll": 1.4024607335244577,
+      "brier": 0.7090154531492155
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft25",
+      "prior": "lag4_swad",
+      "cell": 0.5602323259980052,
+      "nll": 1.3265867495933894,
+      "brier": 0.679434993464672
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50",
+      "prior": "lag4",
+      "cell": 0.5378320434279261,
+      "nll": 1.3534111535544167,
+      "brier": 0.7010048389992182
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50",
+      "prior": "lag4_swad",
+      "cell": 0.5567134184349799,
+      "nll": 1.2684297177864532,
+      "brier": 0.6698483313867056
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft75",
+      "prior": "lag4",
+      "cell": 0.5447298025315676,
+      "nll": 1.3245804721703913,
+      "brier": 0.695967497616332
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft75",
+      "prior": "lag4_swad",
+      "cell": 0.5512535866528047,
+      "nll": 1.233120541822317,
+      "brier": 0.6658961619863585
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__no_marginal",
+      "prior": "lag4",
+      "cell": 0.5382532565924653,
+      "nll": 1.468971342806266,
+      "brier": 0.7187984890684078
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__no_marginal",
+      "prior": "lag4_swad",
+      "cell": 0.5534833764181732,
+      "nll": 1.4068526102483623,
+      "brier": 0.6898650839683268
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_beta05",
+      "prior": "lag4",
+      "cell": 0.5524724925194401,
+      "nll": 0.9788088188048818,
+      "brier": 0.5874518850656687
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_beta05",
+      "prior": "lag4_swad",
+      "cell": 0.5618975425110101,
+      "nll": 0.979486714779431,
+      "brier": 0.5864896878308195
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_beta2",
+      "prior": "lag4",
+      "cell": 0.534185796275005,
+      "nll": 3.5412216550802467,
+      "brier": 0.8796490242266447
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_beta2",
+      "prior": "lag4_swad",
+      "cell": 0.534027668507769,
+      "nll": 3.4039286242018703,
+      "brier": 0.8561739675305593
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_ramp60",
+      "prior": "lag4",
+      "cell": 0.5378917805844375,
+      "nll": 1.2049142547531928,
+      "brier": 0.6586486384723524
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_ramp60",
+      "prior": "lag4_swad",
+      "cell": 0.5601296370729728,
+      "nll": 1.1585769715003584,
+      "brier": 0.6391025025383467
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_k10",
+      "prior": "lag4",
+      "cell": 0.48427373374884497,
+      "nll": 1.416726812806205,
+      "brier": 0.7556213855256804
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_k10",
+      "prior": "lag4_swad",
+      "cell": 0.49827380216701683,
+      "nll": 1.3277700294307966,
+      "brier": 0.7223445003860564
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_k30",
+      "prior": "lag4",
+      "cell": 0.5288552493052591,
+      "nll": 1.364181584412857,
+      "brier": 0.6995330128548002
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_k30",
+      "prior": "lag4_swad",
+      "cell": 0.5512547161368565,
+      "nll": 1.2707270470981462,
+      "brier": 0.665338190060838
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_shrink02",
+      "prior": "lag4",
+      "cell": 0.5395681545390373,
+      "nll": 2.0555200030855807,
+      "brier": 0.7742367918884836
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_shrink02",
+      "prior": "lag4_swad",
+      "cell": 0.5531945108719547,
+      "nll": 1.8163678134711192,
+      "brier": 0.7283324627207651
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_shrink08",
+      "prior": "lag4",
+      "cell": 0.5378221604424739,
+      "nll": 1.1468713376718422,
+      "brier": 0.6540402038142067
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_shrink08",
+      "prior": "lag4_swad",
+      "cell": 0.5601296370729728,
+      "nll": 1.1054470297392969,
+      "brier": 0.6330869388275464
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_warm50",
+      "prior": "lag4",
+      "cell": 0.5396278916955486,
+      "nll": 1.2490024499309453,
+      "brier": 0.6704496024212677
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_warm50",
+      "prior": "lag4_swad",
+      "cell": 0.5601296370729728,
+      "nll": 1.2032920116311403,
+      "brier": 0.6494562350275925
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_warm80",
+      "prior": "lag4",
+      "cell": 0.5378917805844375,
+      "nll": 1.191332309688966,
+      "brier": 0.6551611109238997
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_warm80",
+      "prior": "lag4_swad",
+      "cell": 0.5567595390337571,
+      "nll": 1.1472907701038315,
+      "brier": 0.6379425829566395
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_half",
+      "prior": "lag4",
+      "cell": 0.5394906810208943,
+      "nll": 0.9935400727757004,
+      "brier": 0.5981904795988305
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_running__soft50_half",
+      "prior": "lag4_swad",
+      "cell": 0.5583935259618616,
+      "nll": 0.9832024668006027,
+      "brier": 0.5886860642845572
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_fixed__hard",
+      "prior": "lag4",
+      "cell": 0.5088861422087064,
+      "nll": 1.3779044493314945,
+      "brier": 0.7237818375950335
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_fixed__hard",
+      "prior": "lag4_swad",
+      "cell": 0.5197702659731548,
+      "nll": 1.2619188638623555,
+      "brier": 0.6899815469648557
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_fixed__soft25",
+      "prior": "lag4",
+      "cell": 0.5292551710462953,
+      "nll": 1.4712596066467871,
+      "brier": 0.7339181299805412
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_fixed__soft25",
+      "prior": "lag4_swad",
+      "cell": 0.5494686156195268,
+      "nll": 1.3714010024282945,
+      "brier": 0.6942411743453403
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_fixed__soft50",
+      "prior": "lag4",
+      "cell": 0.5256033511229236,
+      "nll": 1.4241451594366399,
+      "brier": 0.7283387793011218
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_fixed__soft50",
+      "prior": "lag4_swad",
+      "cell": 0.5496015279798732,
+      "nll": 1.3149382895890183,
+      "brier": 0.6879891174189687
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_fixed__soft75",
+      "prior": "lag4",
+      "cell": 0.5198711157000188,
+      "nll": 1.393866798087401,
+      "brier": 0.7246872852877692
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_fixed__soft75",
+      "prior": "lag4_swad",
+      "cell": 0.5461847445998546,
+      "nll": 1.2796067344360975,
+      "brier": 0.6870609631429757
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_fixed__no_marginal",
+      "prior": "lag4",
+      "cell": 0.525782948824073,
+      "nll": 1.536707923940546,
+      "brier": 0.742611915470957
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_fixed__no_marginal",
+      "prior": "lag4_swad",
+      "cell": 0.5426169771146624,
+      "nll": 1.4512825906848137,
+      "brier": 0.7040233151847848
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_fixed__soft50_beta05",
+      "prior": "lag4",
+      "cell": 0.5429211869830123,
+      "nll": 0.9928922984478444,
+      "brier": 0.5959896457507006
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_fixed__soft50_beta05",
+      "prior": "lag4_swad",
+      "cell": 0.5584301833451215,
+      "nll": 0.9902844642660081,
+      "brier": 0.5931733270891946
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_fixed__soft50_beta2",
+      "prior": "lag4",
+      "cell": 0.5099311010400948,
+      "nll": 3.813844283616406,
+      "brier": 0.914289416042268
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_fixed__soft50_beta2",
+      "prior": "lag4_swad",
+      "cell": 0.532810774940306,
+      "nll": 3.656440907647213,
+      "brier": 0.8721963734964249
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_fixed__soft50_ramp60",
+      "prior": "lag4",
+      "cell": 0.5290755733451458,
+      "nll": 1.2670862340140456,
+      "brier": 0.6840636079084513
+    },
+    {
+      "tag": "loso_P10",
+      "config": "joint_fixed__soft50_ramp60",
+      "prior": "lag4_swad",
+      "cell": 0.5496015279798733,
+      "nll": 1.204134191848016,
+      "brier": 0.6554872433452138
+    },
+    {
+      "tag": "loso_P10",
+      "config": "views_mean",
+      "prior": "lag4",
+      "cell": 0.538411384359701,
+      "nll": 1.3236078669608244,
+      "brier": 0.6921343333529758
+    },
+    {
+      "tag": "loso_P10",
+      "config": "views_mean",
+      "prior": "lag4_swad",
+      "cell": 0.5515512057004238,
+      "nll": 1.2463985799882988,
+      "brier": 0.662375831356401
+    },
+    {
+      "tag": "loso_P10",
+      "config": "views_stable005",
+      "prior": "lag4",
+      "cell": 0.5467850026242113,
+      "nll": 1.2351214359546245,
+      "brier": 0.6659887984239775
+    },
+    {
+      "tag": "loso_P10",
+      "config": "views_stable005",
+      "prior": "lag4_swad",
+      "cell": 0.563555173954392,
+      "nll": 1.1849680782236935,
+      "brier": 0.6462893482513169
+    },
+    {
+      "tag": "loso_P10",
+      "config": "views_stable02",
+      "prior": "lag4",
+      "cell": 0.5399893677035763,
+      "nll": 1.2818617818771874,
+      "brier": 0.6799359761672401
+    },
+    {
+      "tag": "loso_P10",
+      "config": "views_stable02",
+      "prior": "lag4_swad",
+      "cell": 0.555023427922646,
+      "nll": 1.2208016385817637,
+      "brier": 0.6552025668900081
+    },
+    {
+      "tag": "loso_P10",
+      "config": "views_mean_half",
+      "prior": "lag4",
+      "cell": 0.537911232809772,
+      "nll": 0.9923841366160262,
+      "brier": 0.5974602662492038
+    },
+    {
+      "tag": "loso_P10",
+      "config": "views_mean_half",
+      "prior": "lag4_swad",
+      "cell": 0.5618190628432809,
+      "nll": 0.9811996774799226,
+      "brier": 0.5873901896644622
+    }
+  ]
+}

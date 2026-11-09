@@ -1,0 +1,85 @@
+/Users/den1shh/.matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /var/folders/sg/qv2t2v2n6rv2lb0bxf8d_l680000gn/T/matplotlib-26veuzak because there was an issue with the default path (/Users/den1shh/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Matplotlib is building the font cache; this may take a moment.
+[
+  {
+    "variant": "original_oas",
+    "intervention": "reverse",
+    "mean_relative_frobenius": 8.684822887191227e-16
+  },
+  {
+    "variant": "original_oas",
+    "intervention": "shuffle",
+    "mean_relative_frobenius": 7.352613272589e-16
+  },
+  {
+    "variant": "delay1_oas",
+    "intervention": "reverse",
+    "mean_relative_frobenius": 0.03181146867092458
+  },
+  {
+    "variant": "delay1_oas",
+    "intervention": "shuffle",
+    "mean_relative_frobenius": 0.5478206109195013
+  },
+  {
+    "variant": "lag4_oas",
+    "intervention": "reverse",
+    "mean_relative_frobenius": 0.07517014525523846
+  },
+  {
+    "variant": "lag4_oas",
+    "intervention": "shuffle",
+    "mean_relative_frobenius": 0.16102381596552895
+  },
+  {
+    "variant": "stationary_oas",
+    "intervention": "reverse",
+    "mean_relative_frobenius": 0.03181134844196239
+  },
+  {
+    "variant": "stationary_oas",
+    "intervention": "shuffle",
+    "mean_relative_frobenius": 0.5478171225039297
+  },
+  {
+    "variant": "pyramid2_oas",
+    "intervention": "reverse",
+    "mean_relative_frobenius": 0.37984971634360104
+  },
+  {
+    "variant": "pyramid2_oas",
+    "intervention": "shuffle",
+    "mean_relative_frobenius": 0.10339441539416801
+  },
+  {
+    "variant": "quadrature_oas",
+    "intervention": "reverse",
+    "mean_relative_frobenius": 0.0765005786627306
+  },
+  {
+    "variant": "quadrature_oas",
+    "intervention": "shuffle",
+    "mean_relative_frobenius": 0.04322129590132745
+  },
+  {
+    "variant": "path_integral_oas",
+    "intervention": "reverse",
+    "mean_relative_frobenius": 1.2450245690476023e-15
+  },
+  {
+    "variant": "path_integral_oas",
+    "intervention": "shuffle",
+    "mean_relative_frobenius": 0.24868075819841978
+  },
+  {
+    "variant": "signature2_oas",
+    "intervention": "reverse",
+    "mean_relative_frobenius": 4.519197192590876e-16
+  },
+  {
+    "variant": "signature2_oas",
+    "intervention": "shuffle",
+    "mean_relative_frobenius": 0.5681657617995738
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "status": "reconstructed protocol; original synthetic source unavailable",
+  "complete_rows": {
+    "correlation": 120,
+    "variance": 27,
+    "equivalence": 36,
+    "power_grid": 350
+  },
+  "correlation_max_abs_error_of_task_mean": 0.010194264032284489,
+  "variance_max_abs_error": 0.1021852353805085,
+  "equivalence_at_C_0.001": {
+    "0.02": 0.02922037567302541,
+    "0.15": 0.11015623568067719
+  }
+}

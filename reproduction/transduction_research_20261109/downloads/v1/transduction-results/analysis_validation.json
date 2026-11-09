@@ -1,0 +1,67 @@
+{
+  "folds": [
+    {
+      "fold": "later_last",
+      "windows": 387,
+      "cases": 246
+    },
+    {
+      "fold": "loso_P01",
+      "windows": 190,
+      "cases": 246
+    },
+    {
+      "fold": "loso_P02",
+      "windows": 189,
+      "cases": 246
+    },
+    {
+      "fold": "loso_P03",
+      "windows": 189,
+      "cases": 246
+    },
+    {
+      "fold": "loso_P04",
+      "windows": 566,
+      "cases": 246
+    },
+    {
+      "fold": "loso_P05",
+      "windows": 190,
+      "cases": 246
+    },
+    {
+      "fold": "loso_P06",
+      "windows": 187,
+      "cases": 246
+    },
+    {
+      "fold": "loso_P07",
+      "windows": 189,
+      "cases": 246
+    },
+    {
+      "fold": "loso_P08",
+      "windows": 189,
+      "cases": 246
+    },
+    {
+      "fold": "loso_P09",
+      "windows": 189,
+      "cases": 246
+    },
+    {
+      "fold": "loso_P10",
+      "windows": 577,
+      "cases": 246
+    }
+  ],
+  "scored_cases": 2706,
+  "max_score_difference": 1.1102230246251565e-16,
+  "original_lag4_oof": {
+    "cell": 0.5744243305868881,
+    "nll": 0.9538660842035458,
+    "brier": 0.5700723745331355
+  },
+  "note": "Predictions fully saved; Kaggle error was a report-generation race, recovered locally."
+}

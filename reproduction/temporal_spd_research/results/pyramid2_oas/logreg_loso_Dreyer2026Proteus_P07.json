@@ -1,0 +1,38 @@
+{
+  "variant": "pyramid2_oas",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P07",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P07"
+  ],
+  "train_windows": 1711,
+  "eval_windows": 189,
+  "fit_seconds": 4.41417529201135,
+  "total_seconds": 4.8363405839772895,
+  "session_mean_delta_vs_control": -0.011248719918074745,
+  "representation_definition": "Electrode-interleaved block diagonal of OAS of first/second 240-sample halves",
+  "reference_update": "original cumulative log-Euclidean, prior_weight=5",
+  "cell_mean": 0.5488799283154122,
+  "session_mean": 0.5491124765318314,
+  "pooled": 0.5491124765318314,
+  "accuracy": 0.5502645502645502,
+  "matrix_cache_sha256": {
+    "pyramid2_oas_band0": "214823459239940b614b3dbb2bd8806e77fb611b42f8063bf326c0a29f861c35",
+    "pyramid2_oas_band1": "23b8204541b8e9c42e868d55a8112ce61ed5d040dab5d84c4351bf22d171f771",
+    "pyramid2_oas_band2": "50618aab965b36abf731f2d04e20e6a5edf50665349f01caec6bd525a4dab8e0",
+    "pyramid2_oas_band3": "a4f10be72c5108820e8235cdf07e6dbfca046494b2b6c13c86f4bc7bc9dba43b",
+    "pyramid2_oas_band4": "86dcb9147288e2b839306160ce3c35145ef8ec6997478df2a64270edfdd0ce3c",
+    "pyramid2_oas_band5": "41da03190c5a7d03bc2702a11d2cd6c24d9e1442480a023271fc012e540e93ae"
+  },
+  "tangent_dimension": 3403
+}

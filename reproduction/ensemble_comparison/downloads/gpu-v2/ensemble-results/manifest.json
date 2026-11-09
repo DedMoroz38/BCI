@@ -1,0 +1,149 @@
+{
+  "author_commit": "934f423a73e1ed50d653345d27256ecfe50ab009",
+  "data": {
+    "train": "8b177bc78dc26f47666f420ecbc0e2decbd865f15909284c225db1b23396bdbf",
+    "val": "80674d38123f5cc2ae51e5c2ce4884b60f3ef37231cdbd030bec07747eec8585",
+    "test": "adafd2515eaf1c0ce689eba6384af74a65c974829ca16dec4ef12c95e5a87c58"
+  },
+  "cache": {
+    "lag4_oas_band0.npy": "247fd3e6c45121dd79290987fe6397c78c23f25e16b91b907cc7527b41890e59",
+    "lag4_oas_band1.npy": "b0871ac52b53b71d3df45b7f6ae3b9849c82191934e2aed48c00c148fef357b5",
+    "lag4_oas_band2.npy": "f68b4f45ca75a52ecb4a46e427c210e2b592cda9b6d0b2dd025f0d701cbc01bd",
+    "lag4_oas_band3.npy": "daa7e2922644dee62fdbe55a8e3efb2354e0c3ea21dbce6c2e0d5014d1799c6e",
+    "lag4_oas_band4.npy": "72f73917ebc91dbb362a64a6abd73c4e7cec72b8fd9022d9dbb701def74b62c1",
+    "lag4_oas_band5.npy": "2f57cd1957e21776d278155432a3e91d8d3a64928ed2194c80d2043b23124342"
+  },
+  "references": {
+    "loso_P01": {
+      ".json": "ffceb3d4046cfe64c494c78da5ca9faf2f62e666f450d8b959fbc531645d5dc8",
+      "_predictions.npz": "a1ac760cda85f057ee7b2089ad1a3f9835d9638258ccc8fb49f1632230423b5c"
+    },
+    "loso_P02": {
+      ".json": "75b17c7f8aae1c665ee86c4a0f509e763478e31a7c4fd06fca950c4171e523c3",
+      "_predictions.npz": "4d1a3ac4ecc716e09d53038b43e1b34003358382edad660cebcde7f3ef01fc68"
+    },
+    "loso_P03": {
+      ".json": "0be5b0d35c1ce45a4523af2b1ea6852b806006de26fa216dbe7a6fe5bbdc23ae",
+      "_predictions.npz": "b805ce77edc725bcd24d544904deb35cb75e40195352b82fb2d8c27cdbd13efe"
+    },
+    "loso_P05": {
+      ".json": "aa9988253f5b5ab91a12e123182b23f630c4f82a850fe3729c6df49c29955ed7",
+      "_predictions.npz": "c30c4fee46bdf199ed5af7aca030195cd776ec20295b4e82f3f63c862b17e0a7"
+    },
+    "loso_P06": {
+      ".json": "8f890dcaa3a88c1b1d6a91dcb7028de279befbd0fe0f04bad6f88fc49d871768",
+      "_predictions.npz": "437fa5d6edba782be169bd1fba1cc7941aa9ab973b2cddfb0a6a5feaae407dae"
+    },
+    "loso_P07": {
+      ".json": "18304ab1a9e8a504caea8f4a2ec6b04f727bdf3a5329b435498635461889a967",
+      "_predictions.npz": "fb4dcf80ca85e0d0dba9a479114c5d6c810d30f7630bc92b0a1fbe632575cac8"
+    },
+    "loso_P08": {
+      ".json": "e90c5fd370f8e6aaba7c98aacf50db723cdadeb94c87333c84a0c95db69c6ab6",
+      "_predictions.npz": "148c1838e7cce793b0c6ecae060d05647e184f9cc33a0dacea26644574bd186e"
+    },
+    "loso_P10": {
+      ".json": "6042778e126cc9f07de7bec14a930a5660be550f6af42442c6bfac34f914c900",
+      "_predictions.npz": "272d3a5792b7486fd329f52ae94ea0f7c12cb712a9a89910c95eab3ea89abb6d"
+    },
+    "later_last": {
+      ".json": "4c6ffb7a24a0f3bc824620103204d99394a9455c9bcff125cdc509d4c506df22",
+      "_predictions.npz": "b7420b091732aacaffa1d7adae1dcadbb0a6d056e3b3245fe5ddc1fa17313f53"
+    },
+    "test_official": {
+      ".json": "567c87aa61b4a47dd861c18d4e0f5da409565a7b7cb0de6346304b16820cebd6",
+      "_predictions.npz": "c1e2d3e6b65699de8cd00f4815ce5e9a51686c9ff5d1518245f86cf71ed38ef4"
+    }
+  },
+  "code": {
+    "ensemble_comparison/run.py": "9ae6f3d416c39b24ad3cab1a8386b9692a38402037caf0a1f2b01b763203b93b",
+    "ensemble_comparison/baseline.py": "39122cc361f726afeef94fe58d303b3747917a90ce2240733cf1cbcdb9666be1",
+    "ensemble_comparison/analyze.py": "30e78b2a366486a183cc567537ec0c16a07fc58d9405f04bb7d28ee80484a416",
+    "ensemble_comparison/PROTOCOL.md": "8e7c08986d8b3e2fe06e7a4d2b3c33f8af950159ddf4f59d2db4d2a3d23a1524",
+    "ensemble_author_20261108/track2_bci/bci/nemar_retry.py": "67c23f6f6dab76a6bf82ea1709088be47bc24a6e04268073ed046f4fda3f09d7",
+    "ensemble_author_20261108/track2_bci/bci/riemann.py": "dcefad7d89ef03cda78f64236fd0bae2d7e3bf75d65bd0658de5c1251dfbf73e",
+    "ensemble_author_20261108/track2_bci/bci/evaluation.py": "c9cc684944c3bae308a92669906a35df379fee3517bbf33b6c314c9d934b1b48",
+    "ensemble_author_20261108/track2_bci/bci/ensemble.py": "8a5c7f5505d80c4d235efb24cb44a78e0d1e7160858558a009fc8fbca9a71377",
+    "ensemble_author_20261108/track2_bci/bci/benchmark.py": "55e3929646de0752846312e9c49bf056daadaf68e881006d4693d357dd430c9a",
+    "ensemble_author_20261108/track2_bci/bci/__init__.py": "484cea65ccbbdbe4dc3e3e9683a914465351e27e6f3f4dcfc203c5b14f2f2386",
+    "ensemble_author_20261108/track2_bci/bci/data.py": "efc1a8a4d8a4032c12cb4aac6da58a9024ea34af3230d266ed59d791f424aa21",
+    "ensemble_author_20261108/track2_bci/bci/make_submission.py": "6767335d279638fb86e6fe6cf1bed35403ab60f8996d4eed1b2cdd5a53538f40",
+    "ensemble_author_20261108/track2_bci/bci/stream.py": "f61eaf7f53933d01618f7aa899275be644de38a6c2798e2d435360eeae930063",
+    "ensemble_author_20261108/track2_bci/bci/export.py": "cd3a3d724a8f2cc33e4a343cc7ba483ecf3b3ff0afadbc688a60f1138451c69b",
+    "ensemble_author_20261108/track2_bci/bci/models/logreg.py": "ac72a22a9a0006d42ae5c5fb0aa6aab96374ff0b2fef10d1ce9cd16ecbbaa5aa",
+    "ensemble_author_20261108/track2_bci/bci/models/gated.py": "3df62869ccf3d0291c91d1bbd0f5eec7a6e29a8021a674a120844e7f8b675e64",
+    "ensemble_author_20261108/track2_bci/bci/models/__init__.py": "1a045b4486dfede240e456197de82bd0a943bf9d84abe189cf13571021222db4",
+    "ensemble_author_20261108/track2_bci/bci/models/forest.py": "66f61442917abb9e3078440c1c7e3e69a0e891440316f24a5ddd337f8311b73d",
+    "Brain-Decoding/track2_bci/bci/nemar_retry.py": "67c23f6f6dab76a6bf82ea1709088be47bc24a6e04268073ed046f4fda3f09d7",
+    "Brain-Decoding/track2_bci/bci/riemann.py": "dcefad7d89ef03cda78f64236fd0bae2d7e3bf75d65bd0658de5c1251dfbf73e",
+    "Brain-Decoding/track2_bci/bci/evaluation.py": "c9cc684944c3bae308a92669906a35df379fee3517bbf33b6c314c9d934b1b48",
+    "Brain-Decoding/track2_bci/bci/__init__.py": "484cea65ccbbdbe4dc3e3e9683a914465351e27e6f3f4dcfc203c5b14f2f2386",
+    "Brain-Decoding/track2_bci/bci/data.py": "32449741e8e81b2a066906782e1a18a78fcbece88232794eb2a7c631e5df790c",
+    "Brain-Decoding/track2_bci/bci/make_submission.py": "5845140c1cf91171654600f3c232f8975181abd18593247fbd3fa296e9dc646a",
+    "Brain-Decoding/track2_bci/bci/export.py": "6a2f16fe891278ed344fd151239ec61792419ffc953dab81ffadb2ec0bea344b",
+    "Brain-Decoding/track2_bci/bci/models/logreg.py": "ac72a22a9a0006d42ae5c5fb0aa6aab96374ff0b2fef10d1ce9cd16ecbbaa5aa",
+    "Brain-Decoding/track2_bci/bci/models/gated.py": "3df62869ccf3d0291c91d1bbd0f5eec7a6e29a8021a674a120844e7f8b675e64",
+    "Brain-Decoding/track2_bci/bci/models/__init__.py": "1a045b4486dfede240e456197de82bd0a943bf9d84abe189cf13571021222db4",
+    "Brain-Decoding/track2_bci/bci/models/forest.py": "66f61442917abb9e3078440c1c7e3e69a0e891440316f24a5ddd337f8311b73d",
+    "temporal_spd_research/temporal_features.py": "47433dc696fd2bdc2a56241b8319cbe797d2949f02e10ae70153dae22d16d60c",
+    "temporal_spd_research/temporal_cache.py": "66e163100bfb52a36adfccae7796f8b03ef6916f6488bc0ba09e8726dce7090e",
+    "temporal_spd_research/cache/manifest.json": "bbf99646eb512d5408ac14b8847d058a2692152864fc69761095a83a648c473f",
+    "temporal_spd_research/cache/lag4_oas_band0.complete.json": "6556a06c74fd85c1ecd28d29cbfb4e5503b86c291ad641cd6ac956e75832523a",
+    "temporal_spd_research/cache/lag4_oas_band1.complete.json": "3a894d82707186f929ca6eebd56dbc58b4db84f95de53538a346f7775e9ee2ba",
+    "temporal_spd_research/cache/lag4_oas_band2.complete.json": "e001f67f619f3d6b406338d3cb2ff14aed80846ab8be83e38ba1cdd4ad7829a7",
+    "temporal_spd_research/cache/lag4_oas_band3.complete.json": "728708ad7ad12179e2c3f55391a14e088fa1ea5d9ed7c79253756230c8f063d2",
+    "temporal_spd_research/cache/lag4_oas_band4.complete.json": "92a9f4ce19ab41ba89ba1c39355f7be22e5fb83c233528138165ee425cca20b2",
+    "temporal_spd_research/cache/lag4_oas_band5.complete.json": "3b7855ba921152bf017a8679d5828bbbdf3a5f114b1ed08d9ad9ab5def7903ec"
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "torch": "2.11.0+cu130",
+    "pyriemann": "0.12"
+  },
+  "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+  "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+  "variants": {
+    "forest": {},
+    "+balance": {
+      "balance": true
+    },
+    "+bands": {
+      "bands": "extended"
+    },
+    "+routing": {
+      "routing": true
+    },
+    "+deep": {
+      "deep": true
+    },
+    "all but deep": {
+      "bands": "extended",
+      "routing": true,
+      "balance": true
+    },
+    "all": {
+      "bands": "extended",
+      "routing": true,
+      "deep": true,
+      "balance": true
+    }
+  },
+  "config": {
+    "n_trees": 50,
+    "n_channels": 20,
+    "n_subject_trees": 10,
+    "C": 0.01,
+    "prior_weight": 5,
+    "seed": 0,
+    "deep_seeds": [
+      0
+    ],
+    "deep_epochs": 100,
+    "torch_threads": 2,
+    "blas_threads": 1,
+    "deep_device": "cuda",
+    "gpu": "Tesla T4"
+  }
+}

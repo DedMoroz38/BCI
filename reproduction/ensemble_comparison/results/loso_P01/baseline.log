@@ -1,0 +1,9 @@
+/Users/den1shh/.matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /var/folders/sg/qv2t2v2n6rv2lb0bxf8d_l680000gn/T/matplotlib-2457asut because there was an issue with the default path (/Users/den1shh/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	/Users/den1shh/.cache/fontconfig
+	/Users/den1shh/.fontconfig
+Matplotlib is building the font cache; this may take a moment.
+BASELINE loso_P01 0.6053427419354838 65.27793370804284

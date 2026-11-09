@@ -1,0 +1,15 @@
+{
+  "variant": "Lag4",
+  "tag": "loso_P03",
+  "manifest_sha256": "ab3ab25c19fa33bc61d81ac3b3fc1bdb51b2508ae4150aaa5bb751f896029792",
+  "cell_mean": 0.41627464157706096,
+  "session_mean": 0.4176480628093531,
+  "pooled": 0.4176480628093531,
+  "accuracy": 0.41798941798941797,
+  "fit_seconds": 183.657972514,
+  "total_seconds": 202.935037492,
+  "exact_old_predictions": true,
+  "log_loss": 1.0526952032353363,
+  "brier": 0.6352352652354406,
+  "prediction_sha256": "4a2e6f0c417762e3cbcfe98a6d7c5cca73c523ccf92f62f016dad9e85ea9474a"
+}

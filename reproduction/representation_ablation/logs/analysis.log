@@ -1,0 +1,34 @@
+     variant    model  loso_mean  loso_std  delta_loso  delta_loso_std  loso_wins  loso_ties  loso_losses    later  delta_later     test  delta_test
+original_oas   logreg   0.469444  0.114333    0.000000        0.000000          0          8            0 0.546962     0.000000 0.454827    0.000000
+original_oas forest12   0.510785  0.132683    0.000000        0.000000          0          8            0 0.613900     0.000000      NaN         NaN
+original_oas forest20   0.531430  0.149736    0.000000        0.000000          0          8            0 0.668627     0.000000 0.528622    0.000000
+  delay1_oas   logreg   0.510873  0.122203    0.041429        0.023407          8          0            0 0.562415     0.015453 0.469165    0.014338
+  delay1_oas forest12   0.529321  0.125049    0.018537        0.029688          6          0            2 0.648801     0.034901      NaN         NaN
+  delay1_oas forest20   0.553871  0.137630    0.022440        0.030665          6          0            2 0.693728     0.025102 0.544350    0.015728
+    hsic_rbf   logreg   0.452442  0.113573   -0.017002        0.036303          3          0            5 0.467285    -0.079677 0.453297   -0.001530
+    hsic_rbf forest12   0.485922  0.111032   -0.024863        0.042850          2          0            6 0.638248     0.024348      NaN         NaN
+    hsic_rbf forest20   0.502061  0.150277   -0.029370        0.039852          2          0            6 0.523443    -0.145183 0.487374   -0.041248
+envelope_oas   logreg   0.448946  0.072517   -0.020498        0.051137          2          0            6 0.451379    -0.095583 0.404412   -0.050415
+envelope_oas forest12   0.499690  0.111337   -0.011095        0.046574          3          0            5 0.563169    -0.050731      NaN         NaN
+envelope_oas forest20   0.508136  0.104349   -0.023294        0.064278          4          0            4 0.588723    -0.079904 0.452911   -0.075711
+{
+  "candidate_jobs": 87,
+  "control_jobs": 29,
+  "officially_rescored_files": 116,
+  "all_scores_match_official_code": true,
+  "metric_atol": 1e-14,
+  "all_original_artifacts_unchanged": true,
+  "source_checkouts_unchanged": true,
+  "all_previous_ablation_artifacts_unchanged": true,
+  "all_18_matrix_cache_hashes_match": true,
+  "all_cached_windows_strictly_positive_definite": true,
+  "all_delay_copies_grouped": true,
+  "original_logeuclidean_updater_inherited_unchanged": true,
+  "data_hashes_match_control": true,
+  "all_tree_selections_match_control": true,
+  "all_test_window_orders_match_control": true,
+  "paired_loso_rows": 72,
+  "source_commit": "8d577af42619e5911cc5da8743c8a3e9b629014b",
+  "competition_commit": "2b53aec91c111f8b5423b6674f096c48cc1a99af"
+}
+/Users/den1shh/Documents/diploma/reproduction/representation_ablation/REPORT.md

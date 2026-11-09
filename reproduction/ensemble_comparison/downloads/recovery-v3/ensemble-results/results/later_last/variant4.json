@@ -1,0 +1,13 @@
+{
+  "variant": "+deep",
+  "tag": "later_last",
+  "manifest_sha256": "7260835c56d59d74a11bf4188ceb7dbf0bef81153a2a0a3caa77b0773aed40c4",
+  "prediction_sha256": "6238e4633a584c4c45db72839f1e85e3af61c1ac2a2349373dd4490026f2a089",
+  "eval_seconds": 11.468800995000038,
+  "cell_mean": 0.7361344537815127,
+  "session_mean": 0.7389567314940448,
+  "pooled": 0.7389567314940448,
+  "accuracy": 0.7386934673366834,
+  "log_loss": 0.5995402306373732,
+  "brier": 0.3475957252780932
+}

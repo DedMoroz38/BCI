@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-10-29T10:40:55.323464+00:00",
+  "criterion": "forest20 mean session-balanced LOSO across 8 subjects",
+  "winner": "pyramid2_oas",
+  "ranking": [
+    {
+      "variant": "pyramid2_oas",
+      "loso_mean": 0.6202955296187913
+    },
+    {
+      "variant": "lag4_oas",
+      "loso_mean": 0.5628006572739627
+    },
+    {
+      "variant": "stationary_oas",
+      "loso_mean": 0.555193363947684
+    },
+    {
+      "variant": "delay1_oas",
+      "loso_mean": 0.5538706126249328
+    },
+    {
+      "variant": "path_integral_oas",
+      "loso_mean": 0.5317343272899475
+    },
+    {
+      "variant": "original_oas",
+      "loso_mean": 0.53143047873286
+    },
+    {
+      "variant": "quadrature_oas",
+      "loso_mean": 0.5309055639011779
+    },
+    {
+      "variant": "signature2_oas",
+      "loso_mean": 0.4994961596511661
+    }
+  ],
+  "policy": "Selection fixed before any new test evaluations; previous public test already seen"
+}

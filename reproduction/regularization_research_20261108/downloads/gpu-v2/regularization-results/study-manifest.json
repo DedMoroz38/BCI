@@ -1,0 +1,434 @@
+{
+  "code": {
+    "src/metrics.py": "15c266560445c7f508255c450d14348e7a57bf26c1db4b04e14be13c75785bb0",
+    "src/training.py": "2b858c88ddc42559c7503793ec7eb99cd5d40abe8785d4f26b3a3af8107631ae",
+    "src/common.py": "0db1b71b74efe6314d53eb59d2d44219a174082da859665fda8a7cdb7358177d",
+    "src/configurations.py": "06b9844b0ab11a519629a738b18f8a61f214139d2a8600b08dc85452093f20e2",
+    "src/regularizers.py": "0baf6e6f9946a1f1da43a9c379890b6a0a4c2fd584c2974b1b83fc86cc3d4ebf",
+    "src/wave1_training.py": "1d10438aaf7ad89462c72a59b5c908039d30441ce152228a38615a064aa0425a",
+    "run_gpu.py": "d5f14d896deddc67bd75636dcaa99d2aab7226d944f1caebbf58159ad23668be",
+    "runner_support.py": "71653f011cb0e4eccb8ec13b13ebad62432ecb9544f052b73c61bb6f3919af7e",
+    "PROTOCOL.md": "07422da39c5817bc49e47c1ffc13fd8fafd1aea66bbf2c6776bfc2a90a861fe7"
+  },
+  "configs": [
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.02,
+      "augment": {},
+      "average": "none",
+      "name": "ls0.02",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.05,
+      "augment": {},
+      "average": "none",
+      "name": "ls0.05",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.1,
+      "augment": {},
+      "average": "none",
+      "name": "ls0.1",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.2,
+      "augment": {},
+      "average": "none",
+      "name": "ls0.2",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "noise": 0.01
+      },
+      "average": "none",
+      "name": "noise0.01",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "noise": 0.03
+      },
+      "average": "none",
+      "name": "noise0.03",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "noise": 0.05
+      },
+      "average": "none",
+      "name": "noise0.05",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "global_gain": 0.1
+      },
+      "average": "none",
+      "name": "global_gain0.1",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "global_gain": 0.2
+      },
+      "average": "none",
+      "name": "global_gain0.2",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "coordinate_gain": 0.1
+      },
+      "average": "none",
+      "name": "coordinate_gain0.1",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "coordinate_gain": 0.2
+      },
+      "average": "none",
+      "name": "coordinate_gain0.2",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "drop": 1
+      },
+      "average": "none",
+      "name": "drop1",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "drop": 3
+      },
+      "average": "none",
+      "name": "drop3",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "drop": 5
+      },
+      "average": "none",
+      "name": "drop5",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "mask": 24
+      },
+      "average": "none",
+      "name": "mask24",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "mask": 48
+      },
+      "average": "none",
+      "name": "mask48",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "shift": 6
+      },
+      "average": "none",
+      "name": "shift6",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "shift": 12
+      },
+      "average": "none",
+      "name": "shift12",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "flip": 0.5
+      },
+      "average": "none",
+      "name": "flip",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "mix": 0.2
+      },
+      "average": "none",
+      "name": "sameclass_mix0.2",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "mix": 0.4
+      },
+      "average": "none",
+      "name": "sameclass_mix0.4",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "style": 0.1
+      },
+      "average": "none",
+      "name": "mixstyle0.1",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "style": 0.3
+      },
+      "average": "none",
+      "name": "mixstyle0.3",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {},
+      "average": "window",
+      "window": 3,
+      "name": "window3",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {},
+      "average": "window",
+      "window": 5,
+      "name": "window5",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {},
+      "average": "ema",
+      "decay": 0.95,
+      "name": "ema0.95",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {},
+      "average": "ema",
+      "decay": 0.99,
+      "name": "ema0.99",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {},
+      "average": "swad",
+      "ratio": 0.05,
+      "name": "swad0.05",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {},
+      "average": "swad",
+      "ratio": 0.1,
+      "name": "swad0.1",
+      "stage": 1
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.05,
+      "augment": {
+        "noise": 0.03
+      },
+      "average": "none",
+      "name": "ls05_noise03",
+      "stage": 2
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.05,
+      "augment": {
+        "drop": 3
+      },
+      "average": "none",
+      "name": "ls05_drop3",
+      "stage": 2
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.05,
+      "augment": {
+        "global_gain": 0.2
+      },
+      "average": "none",
+      "name": "ls05_gain20",
+      "stage": 2
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.0,
+      "augment": {
+        "noise": 0.03,
+        "drop": 3
+      },
+      "average": "none",
+      "name": "noise03_drop3",
+      "stage": 2
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.05,
+      "augment": {
+        "noise": 0.03,
+        "drop": 3
+      },
+      "average": "none",
+      "name": "ls05_noise03_drop3",
+      "stage": 2
+    },
+    {
+      "n_filters": 16,
+      "loss": "class",
+      "ls": 0.05,
+      "augment": {},
+      "average": "window",
+      "window": 3,
+      "name": "ls05_window3",
+      "stage": 2
+    }
+  ],
+  "data": {
+    "train": "8b177bc78dc26f47666f420ecbc0e2decbd865f15909284c225db1b23396bdbf",
+    "val": "80674d38123f5cc2ae51e5c2ce4884b60f3ef37231cdbd030bec07747eec8585",
+    "test": "adafd2515eaf1c0ce689eba6384af74a65c974829ca16dec4ef12c95e5a87c58"
+  },
+  "references": {
+    "baselines/later_last/lag4.npz": "d391f64cfa382dac3a0b108d9f47ea498854c08bbc29f0ac13139aef260a192f",
+    "baselines/later_last/lag4_balance1.npz": "024af2909c3187f816591a3052a3fed839c412d40db8a1a6d98883c80f9b510d",
+    "baselines/loso_P01/lag4.npz": "9e4034a5f634e1c274eb0a0a9c348bf52824742d717e7c5fb0813ce43c4ae7b2",
+    "baselines/loso_P01/lag4_balance1.npz": "8ce7d3922ce6f45b07d71304b12991e217c2120630774928e4f665892646708a",
+    "baselines/loso_P02/lag4.npz": "fbef507ae913dfa7a07ecf8ceccbfbd36752aae933371658051921a91bd9f262",
+    "baselines/loso_P02/lag4_balance1.npz": "6f9bfd193699832ddf5e0957effe0f964f1a9e35237ab85550bb34c732bedcd4",
+    "baselines/loso_P03/lag4.npz": "c7e39d1308f30707712002d66b48a69b59c67dbef58b19452a679ccf9e0db019",
+    "baselines/loso_P03/lag4_balance1.npz": "10e9c1304af1a54bb1aeec544c660a771d243671059fa2e7d25f21d6ed36c568",
+    "baselines/loso_P04/lag4.npz": "4d2e48203b91bab2b7524482ab7f31bdec1236bf50cdaa44498faffb30ecbec4",
+    "baselines/loso_P04/lag4_balance1.npz": "e57725f1b44e4ef1bbff6b1dbfbf48fd1e96655ffd234c97e1d50220c7b770fd",
+    "baselines/loso_P05/lag4.npz": "d3fce33cdffa832cbb50c266f9168be6450cba2ba4d21f0d6dd0cbc1629cb3d3",
+    "baselines/loso_P05/lag4_balance1.npz": "24d46bd5ba7698833a430a92f34a36b0d7bc0b9ecf8f207ea8740f0758264fa4",
+    "baselines/loso_P06/lag4.npz": "2fb164a1c8d97d4ac4f79dae0acd4e74f66b055819b5b3599e680127d71fe737",
+    "baselines/loso_P06/lag4_balance1.npz": "b99c917724dbe288d24e98a769ebab3d4ee1f8a50eee74451b4436166a787ba9",
+    "baselines/loso_P07/lag4.npz": "aed56387d7b9bff930dc8e1fb740e29e0d6fd686cf05892d03ee9220c2997ddd",
+    "baselines/loso_P07/lag4_balance1.npz": "957e491a4e5dc0a73f20d87843f3c6a05c00cbec3c6b755a8430802b9cebf4c9",
+    "baselines/loso_P08/lag4.npz": "4b5fd1691db7b6c4ed8aa8e63392b15cb42073109e25d37dbab43dfad0839bff",
+    "baselines/loso_P08/lag4_balance1.npz": "ae5a8fc1587945c3b13a6b6a9c8a4356a48af6b00902553f728b1e30007660a1",
+    "baselines/loso_P09/lag4.npz": "cab3642a5dc79d244ac0123cbf567a50749d7f0ee1dc194a62f23bfdb5567a1c",
+    "baselines/loso_P09/lag4_balance1.npz": "431438b88bed52fde248929b8bfa40a8b5155dde95ef174f1b33d4083e88f03c",
+    "baselines/loso_P10/lag4.npz": "7f1cd06ae2b0ab8196f0536c81661fb5ed06d6b25f520bfca39899f584effb92",
+    "baselines/loso_P10/lag4_balance1.npz": "13da9b56b692e8515a2647925a3d3e33328441841646631887bcfe6ff3115cdd"
+  },
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1"
+  },
+  "gpu": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "max_epochs": 30,
+  "patience": 6,
+  "seeds": [
+    0,
+    1
+  ],
+  "criterion": "inner_cell_NLL",
+  "inner_seed": 33
+}

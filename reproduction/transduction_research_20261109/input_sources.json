@@ -1,0 +1,90 @@
+[
+  {
+    "tag": "later_last",
+    "windows": 387,
+    "prior_sources": [
+      "/Users/den1shh/Documents/diploma/reproduction/metric_research_20261108/experiments/all10_baseline/results/later_last/lag4.npz",
+      "/Users/den1shh/Documents/diploma/reproduction/regularization_research_20261108/downloads/gpu-v2/regularization-results/models/later_last/swad0.1"
+    ]
+  },
+  {
+    "tag": "loso_P01",
+    "windows": 190,
+    "prior_sources": [
+      "/Users/den1shh/Documents/diploma/reproduction/metric_research_20261108/experiments/all10_baseline/results/loso_P01/lag4.npz",
+      "/Users/den1shh/Documents/diploma/reproduction/regularization_research_20261108/downloads/gpu-v2/regularization-results/models/loso_P01/swad0.1"
+    ]
+  },
+  {
+    "tag": "loso_P02",
+    "windows": 189,
+    "prior_sources": [
+      "/Users/den1shh/Documents/diploma/reproduction/metric_research_20261108/experiments/all10_baseline/results/loso_P02/lag4.npz",
+      "/Users/den1shh/Documents/diploma/reproduction/regularization_research_20261108/downloads/gpu-v2/regularization-results/models/loso_P02/swad0.1"
+    ]
+  },
+  {
+    "tag": "loso_P03",
+    "windows": 189,
+    "prior_sources": [
+      "/Users/den1shh/Documents/diploma/reproduction/metric_research_20261108/experiments/all10_baseline/results/loso_P03/lag4.npz",
+      "/Users/den1shh/Documents/diploma/reproduction/regularization_research_20261108/downloads/gpu-v2/regularization-results/models/loso_P03/swad0.1"
+    ]
+  },
+  {
+    "tag": "loso_P04",
+    "windows": 566,
+    "prior_sources": [
+      "/Users/den1shh/Documents/diploma/reproduction/metric_research_20261108/experiments/all10_baseline/results/loso_P04/lag4.npz",
+      "/Users/den1shh/Documents/diploma/reproduction/regularization_research_20261108/downloads/gpu-v2/regularization-results/models/loso_P04/swad0.1"
+    ]
+  },
+  {
+    "tag": "loso_P05",
+    "windows": 190,
+    "prior_sources": [
+      "/Users/den1shh/Documents/diploma/reproduction/metric_research_20261108/experiments/all10_baseline/results/loso_P05/lag4.npz",
+      "/Users/den1shh/Documents/diploma/reproduction/regularization_research_20261108/downloads/gpu-v2/regularization-results/models/loso_P05/swad0.1"
+    ]
+  },
+  {
+    "tag": "loso_P06",
+    "windows": 187,
+    "prior_sources": [
+      "/Users/den1shh/Documents/diploma/reproduction/metric_research_20261108/experiments/all10_baseline/results/loso_P06/lag4.npz",
+      "/Users/den1shh/Documents/diploma/reproduction/regularization_research_20261108/downloads/gpu-v2/regularization-results/models/loso_P06/swad0.1"
+    ]
+  },
+  {
+    "tag": "loso_P07",
+    "windows": 189,
+    "prior_sources": [
+      "/Users/den1shh/Documents/diploma/reproduction/metric_research_20261108/experiments/all10_baseline/results/loso_P07/lag4.npz",
+      "/Users/den1shh/Documents/diploma/reproduction/regularization_research_20261108/downloads/gpu-v2/regularization-results/models/loso_P07/swad0.1"
+    ]
+  },
+  {
+    "tag": "loso_P08",
+    "windows": 189,
+    "prior_sources": [
+      "/Users/den1shh/Documents/diploma/reproduction/metric_research_20261108/experiments/all10_baseline/results/loso_P08/lag4.npz",
+      "/Users/den1shh/Documents/diploma/reproduction/regularization_research_20261108/downloads/gpu-v2/regularization-results/models/loso_P08/swad0.1"
+    ]
+  },
+  {
+    "tag": "loso_P09",
+    "windows": 189,
+    "prior_sources": [
+      "/Users/den1shh/Documents/diploma/reproduction/metric_research_20261108/experiments/all10_baseline/results/loso_P09/lag4.npz",
+      "/Users/den1shh/Documents/diploma/reproduction/regularization_research_20261108/downloads/gpu-v2/regularization-results/models/loso_P09/swad0.1"
+    ]
+  },
+  {
+    "tag": "loso_P10",
+    "windows": 577,
+    "prior_sources": [
+      "/Users/den1shh/Documents/diploma/reproduction/metric_research_20261108/experiments/all10_baseline/results/loso_P10/lag4.npz",
+      "/Users/den1shh/Documents/diploma/reproduction/regularization_research_20261108/downloads/gpu-v2/regularization-results/models/loso_P10/swad0.1"
+    ]
+  }
+]

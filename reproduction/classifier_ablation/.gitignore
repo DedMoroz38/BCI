@@ -1,0 +1,7 @@
+cache/
+logs/
+__pycache__/
+.pytest_cache/
+.superpowers/
+models/
+results/

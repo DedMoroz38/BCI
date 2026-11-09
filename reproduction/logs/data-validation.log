@@ -1,0 +1,33 @@
+{
+  "train": {
+    "windows": 1521,
+    "subjects": 6,
+    "subject_ids": [
+      "Dreyer2026Proteus/P01",
+      "Dreyer2026Proteus/P02",
+      "Dreyer2026Proteus/P03",
+      "Dreyer2026Proteus/P06",
+      "Dreyer2026Proteus/P07",
+      "Dreyer2026Proteus/P10"
+    ],
+    "sessions": 8
+  },
+  "val": {
+    "windows": 379,
+    "subjects": 2,
+    "subject_ids": [
+      "Dreyer2026Proteus/P05",
+      "Dreyer2026Proteus/P08"
+    ],
+    "sessions": 2
+  },
+  "test": {
+    "windows": 755,
+    "subjects": 2,
+    "subject_ids": [
+      "Dreyer2026Proteus/P04",
+      "Dreyer2026Proteus/P09"
+    ],
+    "sessions": 4
+  }
+}

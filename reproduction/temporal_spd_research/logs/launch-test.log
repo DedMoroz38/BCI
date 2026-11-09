@@ -1,0 +1,25 @@
+STARTSTARTSTART   test stationary_oas testtestforest20 pyramid2_oas lag4_oas forest20
+ 
+forest20
+DONE test pyramid2_oas forest20
+START test quadrature_oas forest20
+DONE test lag4_oas forest20
+START test path_integral_oas forest20
+DONE test stationary_oas forest20
+START test signature2_oas forest20
+DONE test path_integral_oas forest20
+START test lag4_oas logreg
+DONE test signature2_oas forest20
+START test stationary_oas logreg
+DONE test lag4_oas logreg
+START test pyramid2_oas logreg
+DONE test stationary_oas logreg
+START test quadrature_oas logreg
+DONE test quadrature_oas logreg
+START test path_integral_oas logreg
+DONE test pyramid2_oas logreg
+START test signature2_oas logreg
+DONE test path_integral_oas logreg
+DONE test signature2_oas logreg
+DONE test quadrature_oas forest20
+PHASE COMPLETE test

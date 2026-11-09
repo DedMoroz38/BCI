@@ -1,0 +1,79 @@
+[
+  {
+    "model": "logreg",
+    "metric": "loso_mean",
+    "measured": 0.469444016130744,
+    "paper": 0.469,
+    "matches_at_3_decimals": true
+  },
+  {
+    "model": "logreg",
+    "metric": "loso_std",
+    "measured": 0.11433295206083449,
+    "paper": 0.114,
+    "matches_at_3_decimals": true
+  },
+  {
+    "model": "logreg",
+    "metric": "later",
+    "measured": 0.5469621589024575,
+    "paper": 0.547,
+    "matches_at_3_decimals": true
+  },
+  {
+    "model": "logreg",
+    "metric": "test",
+    "measured": 0.4548269887086981,
+    "paper": 0.455,
+    "matches_at_3_decimals": true
+  },
+  {
+    "model": "forest12",
+    "metric": "loso_mean",
+    "measured": 0.5107847657688005,
+    "paper": 0.511,
+    "matches_at_3_decimals": true
+  },
+  {
+    "model": "forest12",
+    "metric": "loso_std",
+    "measured": 0.1326831946063713,
+    "paper": 0.133,
+    "matches_at_3_decimals": true
+  },
+  {
+    "model": "forest12",
+    "metric": "later",
+    "measured": 0.6139001959897482,
+    "paper": 0.614,
+    "matches_at_3_decimals": true
+  },
+  {
+    "model": "forest20",
+    "metric": "loso_mean",
+    "measured": 0.5314304787328599,
+    "paper": 0.531,
+    "matches_at_3_decimals": true
+  },
+  {
+    "model": "forest20",
+    "metric": "loso_std",
+    "measured": 0.14973595674858658,
+    "paper": 0.15,
+    "matches_at_3_decimals": true
+  },
+  {
+    "model": "forest20",
+    "metric": "later",
+    "measured": 0.6686265641489522,
+    "paper": 0.669,
+    "matches_at_3_decimals": true
+  },
+  {
+    "model": "forest20",
+    "metric": "test",
+    "measured": 0.52862187551588,
+    "paper": 0.529,
+    "matches_at_3_decimals": true
+  }
+]

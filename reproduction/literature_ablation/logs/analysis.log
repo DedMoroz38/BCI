@@ -1,0 +1,47 @@
+              variant    model  loso_mean  loso_std  delta_loso  delta_loso_std  loso_wins  loso_ties  loso_losses    later  delta_later     test  delta_test
+ logeuclid_cumulative   logreg   0.469444  0.114333    0.000000        0.000000          0          8            0 0.546962     0.000000 0.454827    0.000000
+ logeuclid_cumulative forest12   0.510785  0.132683    0.000000        0.000000          0          8            0 0.613900     0.000000      NaN         NaN
+ logeuclid_cumulative forest20   0.531430  0.149736    0.000000        0.000000          0          8            0 0.668627     0.000000 0.528622    0.000000
+    euclid_cumulative   logreg   0.460574  0.106003   -0.008870        0.030922          3          0            5 0.567466     0.020504 0.424015   -0.030812
+    euclid_cumulative forest12   0.496949  0.125119   -0.013836        0.030499          3          0            5 0.614277     0.000377      NaN         NaN
+    euclid_cumulative forest20   0.520789  0.144418   -0.010641        0.011495          2          0            6 0.623850    -0.044776 0.522773   -0.005849
+    riemann_recursive   logreg   0.479216  0.121959    0.009772        0.010678          7          0            1 0.562038     0.015076 0.444094   -0.010733
+    riemann_recursive forest12   0.513874  0.130248    0.003090        0.011825          5          0            3 0.613825    -0.000075      NaN         NaN
+    riemann_recursive forest20   0.529726  0.151627   -0.001705        0.009270          3          1            4 0.658601    -0.010026 0.520829   -0.007793
+        logeuclid_ema   logreg   0.473326  0.109408    0.003882        0.026736          5          0            3 0.532112    -0.014850 0.454470   -0.000357
+        logeuclid_ema forest12   0.508427  0.135828   -0.002358        0.014656          3          0            5 0.623474     0.009573      NaN         NaN
+        logeuclid_ema forest20   0.528442  0.146955   -0.002989        0.017609          3          0            5 0.698477     0.029851 0.508733   -0.019889
+  harmonic_cumulative   logreg   0.474006  0.120641    0.004562        0.029697          4          0            4 0.577190     0.030228 0.440127   -0.014700
+  harmonic_cumulative forest12   0.513575  0.130918    0.002790        0.021695          5          0            3 0.608096    -0.005804      NaN         NaN
+  harmonic_cumulative forest20   0.536975  0.143382    0.005544        0.022685          4          0            4 0.658149    -0.010478 0.505426   -0.023196
+       poweuclid_half   logreg   0.457855  0.107467   -0.011589        0.022065          3          0            5 0.556988     0.010026 0.452073   -0.002754
+       poweuclid_half forest12   0.501560  0.126255   -0.009225        0.015858          2          0            6 0.609076    -0.004824      NaN         NaN
+       poweuclid_half forest20   0.533211  0.147721    0.001780        0.009761          6          0            2 0.643751    -0.024876 0.519040   -0.009582
+         kullback_sym   logreg   0.474514  0.115094    0.005070        0.015068          7          0            1 0.557063     0.010101 0.438909   -0.015918
+         kullback_sym forest12   0.507770  0.126725   -0.003015        0.021016          2          1            5 0.613825    -0.000075      NaN         NaN
+         kullback_sym forest20   0.537488  0.147713    0.006057        0.012195          5          0            3 0.653626    -0.015001 0.514176   -0.014446
+   logchol_cumulative   logreg   0.459695  0.117274   -0.009749        0.019091          2          0            6 0.497136    -0.049827 0.445162   -0.009665
+   logchol_cumulative forest12   0.506461  0.139024   -0.004324        0.015348          2          0            6 0.583974    -0.029926      NaN         NaN
+   logchol_cumulative forest20   0.527208  0.148501   -0.004223        0.010816          3          0            5 0.624001    -0.044625 0.512019   -0.016603
+wasserstein_recursive   logreg   0.456256  0.105750   -0.013188        0.023985          3          0            5 0.547188     0.000226 0.448212   -0.006615
+wasserstein_recursive forest12   0.500617  0.129859   -0.010168        0.015332          2          0            6 0.594000    -0.019900      NaN         NaN
+wasserstein_recursive forest20   0.528960  0.152275   -0.002470        0.012736          3          0            5 0.623775    -0.044852 0.523053   -0.005569
+{
+  "candidate_jobs": 145,
+  "previous_candidate_jobs": 87,
+  "control_jobs": 29,
+  "officially_rescored_files": 261,
+  "all_scores_match_official_code": true,
+  "metric_atol": 1e-14,
+  "all_original_artifacts_unchanged": true,
+  "all_previous_ablation_artifacts_unchanged": true,
+  "source_checkouts_unchanged": true,
+  "data_hashes_match_control": true,
+  "all_tree_selections_match_control": true,
+  "all_test_window_orders_match_control": true,
+  "combined_paired_loso_rows": 192,
+  "new_paired_loso_rows": 120,
+  "source_commit": "8d577af42619e5911cc5da8743c8a3e9b629014b",
+  "competition_commit": "2b53aec91c111f8b5423b6674f096c48cc1a99af"
+}
+/Users/den1shh/Documents/diploma/reproduction/literature_ablation/REPORT.md

@@ -1,0 +1,15 @@
+{
+  "variant": "+routing",
+  "tag": "loso_P06",
+  "manifest_sha256": "7260835c56d59d74a11bf4188ceb7dbf0bef81153a2a0a3caa77b0773aed40c4",
+  "prediction_sha256": "b94d1098817d22a9efe4b5ea394a260ff2ab416a1276d91998729141f369898a",
+  "eval_seconds": 20.708346080999945,
+  "cell_mean": 0.5040882616487454,
+  "session_mean": 0.502389486260454,
+  "pooled": 0.502389486260454,
+  "accuracy": 0.5026737967914439,
+  "log_loss": 1.0085391085999413,
+  "brier": 0.6118267112665868,
+  "parent_record_sha256": "e1de168b69174f27636e9347592f0bcc476d4a4dbdf1b28214d3cb007a7f06ac",
+  "parent_manifest_sha256": "ab3ab25c19fa33bc61d81ac3b3fc1bdb51b2508ae4150aaa5bb751f896029792"
+}

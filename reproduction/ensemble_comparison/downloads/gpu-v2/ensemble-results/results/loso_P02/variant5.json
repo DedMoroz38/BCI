@@ -1,0 +1,13 @@
+{
+  "variant": "all but deep",
+  "tag": "loso_P02",
+  "manifest_sha256": "ab3ab25c19fa33bc61d81ac3b3fc1bdb51b2508ae4150aaa5bb751f896029792",
+  "prediction_sha256": "1548aa45706950f4ab1ad7f171eed17a3cdc92ea14e39e2c7081cfd5f406f914",
+  "eval_seconds": 23.378598191000037,
+  "cell_mean": 0.5608422939068101,
+  "session_mean": 0.5597851595835467,
+  "pooled": 0.5597851595835467,
+  "accuracy": 0.5608465608465608,
+  "log_loss": 0.9617587358092264,
+  "brier": 0.5743608779803463
+}

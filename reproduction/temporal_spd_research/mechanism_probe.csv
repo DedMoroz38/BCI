@@ -1,0 +1,17 @@
+variant,intervention,mean_relative_frobenius
+original_oas,reverse,8.684822887191227e-16
+original_oas,shuffle,7.352613272589e-16
+delay1_oas,reverse,0.03181146867092458
+delay1_oas,shuffle,0.5478206109195013
+lag4_oas,reverse,0.07517014525523846
+lag4_oas,shuffle,0.16102381596552895
+stationary_oas,reverse,0.03181134844196239
+stationary_oas,shuffle,0.5478171225039297
+pyramid2_oas,reverse,0.37984971634360104
+pyramid2_oas,shuffle,0.10339441539416801
+quadrature_oas,reverse,0.0765005786627306
+quadrature_oas,shuffle,0.04322129590132745
+path_integral_oas,reverse,1.2450245690476023e-15
+path_integral_oas,shuffle,0.24868075819841978
+signature2_oas,reverse,4.519197192590876e-16
+signature2_oas,shuffle,0.5681657617995738

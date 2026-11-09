@@ -1,0 +1,20 @@
+{
+  "candidate_jobs": 87,
+  "control_jobs": 29,
+  "officially_rescored_files": 116,
+  "all_scores_match_official_code": true,
+  "metric_atol": 1e-14,
+  "all_original_artifacts_unchanged": true,
+  "source_checkouts_unchanged": true,
+  "all_previous_ablation_artifacts_unchanged": true,
+  "all_18_matrix_cache_hashes_match": true,
+  "all_cached_windows_strictly_positive_definite": true,
+  "all_delay_copies_grouped": true,
+  "original_logeuclidean_updater_inherited_unchanged": true,
+  "data_hashes_match_control": true,
+  "all_tree_selections_match_control": true,
+  "all_test_window_orders_match_control": true,
+  "paired_loso_rows": 72,
+  "source_commit": "8d577af42619e5911cc5da8743c8a3e9b629014b",
+  "competition_commit": "2b53aec91c111f8b5423b6674f096c48cc1a99af"
+}

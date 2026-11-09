@@ -1,0 +1,1160 @@
+{
+  "variant": "elasticnet",
+  "tag": "later_last",
+  "protocol": "later",
+  "fold": "last",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P10"
+  ],
+  "train_windows": 1701,
+  "eval_windows": 199,
+  "feature_manifest_sha256": "1f73463e8ec0b23eaf4269e5a1757a494a88e54c234fe9ec47580c45c2b5a3cd",
+  "classifier_config_sha256": "12abff9e82c4954355840023e94af27c90981efd953793259bbd59f8eca2e827",
+  "cell_mean": 0.65093662464986,
+  "session_mean": 0.6530981456354591,
+  "pooled": 0.6530981456354591,
+  "accuracy": 0.6532663316582915,
+  "log_loss": 1.0837843696606724,
+  "brier": 0.6567697423291293,
+  "classifier_seconds": 2978.1198454749992,
+  "warnings": [
+    {
+      "tree": 0,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.294545e-02, tolerance: 1.258e-02"
+    },
+    {
+      "tree": 0,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.229664e-02, tolerance: 1.258e-02"
+    },
+    {
+      "tree": 0,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.876681e-02, tolerance: 1.258e-02"
+    },
+    {
+      "tree": 0,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.076465e-01, tolerance: 1.258e-02"
+    },
+    {
+      "tree": 0,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.167878e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 0,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.751213e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 0,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.190557e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 1,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.005279e-02, tolerance: 2.098e-02"
+    },
+    {
+      "tree": 1,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.461612e-02, tolerance: 2.102e-02"
+    },
+    {
+      "tree": 2,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.320468e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 2,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.609202e-01, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 2,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 9.356671e-02, tolerance: 2.096e-02"
+    },
+    {
+      "tree": 2,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.301294e-01, tolerance: 2.096e-02"
+    },
+    {
+      "tree": 2,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.163999e-01, tolerance: 2.096e-02"
+    },
+    {
+      "tree": 3,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.529047e-02, tolerance: 1.260e-02"
+    },
+    {
+      "tree": 3,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.204721e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 3,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.873210e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 4,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.458843e-02, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 5,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.373449e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 5,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.394129e-01, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 5,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.270119e-01, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 6,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.773925e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 6,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.461882e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 7,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.127818e-02, tolerance: 8.400e-03"
+    },
+    {
+      "tree": 7,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.020176e-02, tolerance: 1.256e-02"
+    },
+    {
+      "tree": 7,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.839224e-02, tolerance: 1.256e-02"
+    },
+    {
+      "tree": 7,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.756448e-02, tolerance: 1.256e-02"
+    },
+    {
+      "tree": 7,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.394919e-02, tolerance: 1.256e-02"
+    },
+    {
+      "tree": 7,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.323006e-02, tolerance: 1.256e-02"
+    },
+    {
+      "tree": 7,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.295276e-02, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 7,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.391939e-01, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 7,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.928789e-02, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 8,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.724361e-02, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 8,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 9.243871e-02, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 8,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.595337e-02, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 8,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.244724e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 8,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.757869e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 8,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.905554e-01, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 8,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.945101e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 8,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.444158e-01, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 9,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.252696e-01, tolerance: 2.098e-02"
+    },
+    {
+      "tree": 9,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.970557e-02, tolerance: 2.098e-02"
+    },
+    {
+      "tree": 9,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.362683e-02, tolerance: 2.102e-02"
+    },
+    {
+      "tree": 9,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.973338e-02, tolerance: 2.102e-02"
+    },
+    {
+      "tree": 10,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 7.747334e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 10,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.838324e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 11,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.978010e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 11,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.735265e-01, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 11,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.444886e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 12,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.161072e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 12,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.828499e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 13,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 9.331623e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 13,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.276453e-01, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 13,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.408990e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 13,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.954723e-02, tolerance: 2.096e-02"
+    },
+    {
+      "tree": 13,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.396160e-02, tolerance: 2.096e-02"
+    },
+    {
+      "tree": 13,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 9.300905e-02, tolerance: 2.096e-02"
+    },
+    {
+      "tree": 13,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.907024e-02, tolerance: 2.098e-02"
+    },
+    {
+      "tree": 14,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.534495e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 14,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.472660e-01, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 14,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.154883e-01, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 14,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.309165e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 14,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.672867e-01, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 14,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.158246e-01, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 14,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.746458e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 15,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.922775e-02, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 15,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.789752e-02, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 15,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.364549e-02, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 16,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.523845e-02, tolerance: 1.256e-02"
+    },
+    {
+      "tree": 16,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.795675e-02, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 17,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.478383e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 17,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 7.256664e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 17,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.931538e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 17,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.181477e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 17,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.082303e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 18,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.289223e-02, tolerance: 1.256e-02"
+    },
+    {
+      "tree": 18,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.719007e-02, tolerance: 1.256e-02"
+    },
+    {
+      "tree": 18,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.923555e-02, tolerance: 1.256e-02"
+    },
+    {
+      "tree": 18,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.163253e-02, tolerance: 1.256e-02"
+    },
+    {
+      "tree": 18,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.643595e-02, tolerance: 1.256e-02"
+    },
+    {
+      "tree": 18,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.606873e-01, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 18,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.763678e-01, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 18,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.942073e-01, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 19,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 7.071273e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 19,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.081877e-01, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 19,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.420012e-02, tolerance: 1.262e-02"
+    },
+    {
+      "tree": 19,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.527520e-02, tolerance: 1.262e-02"
+    },
+    {
+      "tree": 19,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.127507e-02, tolerance: 1.262e-02"
+    },
+    {
+      "tree": 19,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.583795e-02, tolerance: 2.102e-02"
+    },
+    {
+      "tree": 20,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.127790e-02, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 21,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.433138e-01, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 21,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.143500e-02, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 21,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 7.866339e-02, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 21,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.271077e-02, tolerance: 1.258e-02"
+    },
+    {
+      "tree": 21,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.612351e-02, tolerance: 1.258e-02"
+    },
+    {
+      "tree": 21,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.725501e-02, tolerance: 1.258e-02"
+    },
+    {
+      "tree": 21,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.284284e-02, tolerance: 1.262e-02"
+    },
+    {
+      "tree": 22,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.366242e-02, tolerance: 1.258e-02"
+    },
+    {
+      "tree": 22,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.069882e-02, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 22,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.974790e-02, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 22,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.871790e-02, tolerance: 1.262e-02"
+    },
+    {
+      "tree": 22,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.921978e-02, tolerance: 1.262e-02"
+    },
+    {
+      "tree": 23,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 9.692784e-02, tolerance: 1.262e-02"
+    },
+    {
+      "tree": 23,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.933040e-01, tolerance: 1.262e-02"
+    },
+    {
+      "tree": 23,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.587647e-02, tolerance: 1.262e-02"
+    },
+    {
+      "tree": 23,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.922217e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 23,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.842741e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 23,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.953790e-02, tolerance: 1.264e-02"
+    },
+    {
+      "tree": 23,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.724128e-02, tolerance: 1.264e-02"
+    },
+    {
+      "tree": 23,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.558426e-02, tolerance: 1.264e-02"
+    },
+    {
+      "tree": 25,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.127605e-02, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 25,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.379004e-02, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 25,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 9.694214e-02, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 25,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.231656e-02, tolerance: 1.258e-02"
+    },
+    {
+      "tree": 25,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.812831e-02, tolerance: 1.262e-02"
+    },
+    {
+      "tree": 25,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.759256e-02, tolerance: 1.262e-02"
+    },
+    {
+      "tree": 26,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.374550e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 26,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.051993e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 26,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.292261e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 26,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.843388e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 27,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.349663e-01, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 27,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.669048e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 27,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.630875e-01, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 27,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 7.413204e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 27,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.154767e-01, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 27,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 7.957950e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 27,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 7.600662e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 27,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.556633e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 28,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.544876e-02, tolerance: 1.260e-02"
+    },
+    {
+      "tree": 28,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 7.106645e-02, tolerance: 1.262e-02"
+    },
+    {
+      "tree": 28,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.346889e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 28,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.408361e-01, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 28,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.801464e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 29,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.368793e-02, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 29,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.252393e-02, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 29,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 9.558065e-02, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 29,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.478372e-02, tolerance: 2.102e-02"
+    },
+    {
+      "tree": 29,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.431101e-02, tolerance: 2.102e-02"
+    },
+    {
+      "tree": 29,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 9.639538e-02, tolerance: 2.102e-02"
+    },
+    {
+      "tree": 29,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.034059e-01, tolerance: 2.102e-02"
+    },
+    {
+      "tree": 30,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.460971e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 30,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 9.979016e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 30,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.070580e-01, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 30,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.734763e-01, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 30,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 7.194958e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 30,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.185449e-01, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 30,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 9.752651e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 32,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 7.828664e-02, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 32,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.876683e-02, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 32,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.924977e-01, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 32,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.056002e-02, tolerance: 2.098e-02"
+    },
+    {
+      "tree": 32,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.989105e-01, tolerance: 2.098e-02"
+    },
+    {
+      "tree": 32,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.192275e-01, tolerance: 2.098e-02"
+    },
+    {
+      "tree": 32,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.343456e-02, tolerance: 2.098e-02"
+    },
+    {
+      "tree": 32,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.343184e-02, tolerance: 2.098e-02"
+    },
+    {
+      "tree": 33,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.425973e-01, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 33,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.890988e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 33,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.704490e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 34,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.306707e-02, tolerance: 2.100e-02"
+    },
+    {
+      "tree": 35,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.514857e-02, tolerance: 1.260e-02"
+    },
+    {
+      "tree": 36,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.826496e-03, tolerance: 8.356e-03"
+    },
+    {
+      "tree": 36,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.384953e-02, tolerance: 1.256e-02"
+    },
+    {
+      "tree": 36,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.330244e-02, tolerance: 1.256e-02"
+    },
+    {
+      "tree": 36,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.823332e-02, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 36,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.114495e-02, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 37,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.146547e-01, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 37,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.640208e-01, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 37,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.220889e-01, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 37,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.722890e-01, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 37,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.775323e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 37,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.466305e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 37,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.417902e-01, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 37,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.158822e-01, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 38,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.196246e-02, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 39,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.220322e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 39,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.764553e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 39,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.728232e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 39,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.799934e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 39,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.023830e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 39,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.544062e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 39,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.175169e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 40,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.253013e-02, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 40,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.877731e-02, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 40,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.927024e-02, tolerance: 2.098e-02"
+    },
+    {
+      "tree": 40,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 8.468306e-02, tolerance: 2.098e-02"
+    },
+    {
+      "tree": 41,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.594826e-02, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 41,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.712210e-01, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 41,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 7.080302e-02, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 41,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.998970e-01, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 41,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.148584e+00, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 41,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.332751e-01, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 41,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.261281e-01, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 41,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.846293e-01, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 41,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.676913e-01, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 41,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.937295e-01, tolerance: 2.516e-02"
+    },
+    {
+      "tree": 41,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.842931e-01, tolerance: 2.516e-02"
+    },
+    {
+      "tree": 42,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.538701e-02, tolerance: 1.256e-02"
+    },
+    {
+      "tree": 42,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.960196e-02, tolerance: 1.256e-02"
+    },
+    {
+      "tree": 42,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.995763e-02, tolerance: 1.258e-02"
+    },
+    {
+      "tree": 42,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.524625e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 42,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.100115e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 42,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.580853e-01, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 43,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.799342e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 43,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.800677e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 45,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.246088e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 45,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.031890e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 45,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.081944e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 45,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.645661e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 45,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.297106e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 45,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.988260e-02, tolerance: 1.678e-02"
+    },
+    {
+      "tree": 46,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.334963e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 46,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.433122e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 46,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 6.538305e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 46,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.869644e-02, tolerance: 1.680e-02"
+    },
+    {
+      "tree": 47,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.539362e-01, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 47,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.240691e-01, tolerance: 1.684e-02"
+    },
+    {
+      "tree": 48,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.785746e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 48,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.837073e-02, tolerance: 1.682e-02"
+    },
+    {
+      "tree": 49,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.871940e-02, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 49,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 5.439700e-02, tolerance: 1.676e-02"
+    },
+    {
+      "tree": 49,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.566051e-02, tolerance: 1.258e-02"
+    },
+    {
+      "tree": 49,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.410011e-02, tolerance: 1.258e-02"
+    },
+    {
+      "tree": 49,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.614036e-02, tolerance: 1.258e-02"
+    },
+    {
+      "tree": 49,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 1.684442e-02, tolerance: 1.262e-02"
+    },
+    {
+      "tree": 49,
+      "category": "ConvergenceWarning",
+      "message": "Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.507712e-02, tolerance: 1.262e-02"
+    }
+  ],
+  "convergence_warning_count": 225,
+  "backend": "sklearn CPU",
+  "predictions_sha256": "7f3449723a0328328af7fa772161efd1949ee6305992664ff08f87d3fe7696c0"
+}

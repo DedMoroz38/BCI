@@ -1,0 +1,275 @@
+PREPARE label-free ordinary/Lag4 log-covariances
+CACHE band (4, 8) 0 / 2655
+CACHE band (8, 13) 0 / 2655CACHE band
+ (20, 30) 0 / 2655
+CACHE band (13, 20) 0 / 2655
+CACHE band (4, 8) 480 / 2655
+CACHE band (8, 13) 480 / 2655
+CACHE band (13, 20) 480 / 2655
+CACHE band (20, 30) 480 / 2655
+CACHE band (4, 8) 960 / 2655
+CACHE band (8, 13) 960 / 2655
+CACHE band (13, 20) 960 / 2655
+CACHE band (20, 30) 960 / 2655
+CACHE band (4, 8) 1440 / 2655
+CACHE band (8, 13) 1440 / 2655
+CACHE band (13, 20) 1440 / 2655
+CACHE band (20, 30) 1440 / 2655
+CACHE band (4, 8) 1920 / 2655
+CACHE band (8, 13) 1920 / 2655
+CACHE band (13, 20) 1920 / 2655
+CACHE band (20, 30) 1920 / 2655
+CACHE band (4, 8) 2400 / 2655
+CACHE band (8, 13) 2400 / 2655
+CACHE band (13, 20) 2400 / 2655
+CACHE band (20, 30) 2400 / 2655
+CACHE COMPLETE band (4, 8)
+CACHE band (4, 40) 0 / 2655
+CACHE COMPLETE band (8, 13)
+CACHE COMPLETE band (13, 20)
+CACHE COMPLETE band (20, 30)
+CACHE band (4, 40) 480 / 2655
+CACHE band (4, 40) 960 / 2655
+CACHE band (4, 40) 1440 / 2655
+CACHE band (4, 40) 1920 / 2655
+CACHE band (4, 40) 2400 / 2655
+CACHE COMPLETE band (4, 40)
+DONE loso_P05 session 1 ordinary_running configs 16 seconds 9.1
+DONE loso_P03 session 1 ordinary_running configs 16 seconds 9.1
+DONE loso_P01 session 1 ordinary_running configs 16 seconds 9.2
+DONE loso_P02 session 1 ordinary_running configs 16 seconds 9.2
+DONE loso_P02 session 1 lag_running configs 30 seconds 29.6
+DONE loso_P05 session 1 lag_running configs 30 seconds 29.8
+DONE loso_P03 session 1 lag_running configs 30 seconds 30.0
+DONE loso_P01 session 1 lag_running configs 30 seconds 30.0
+DONE loso_P02 session 1 ordinary_fixed configs 16 seconds 37.2
+DONE loso_P05 session 1 ordinary_fixed configs 16 seconds 37.5
+DONE loso_P03 session 1 ordinary_fixed configs 16 seconds 37.6
+DONE loso_P01 session 1 ordinary_fixed configs 16 seconds 37.7
+DONE loso_P02 session 1 lag_fixed configs 16 seconds 47.6
+DONE loso_P05 session 1 lag_fixed configs 16 seconds 48.0
+DONE loso_P03 session 1 lag_fixed configs 16 seconds 48.1
+DONE loso_P01 session 1 lag_fixed configs 16 seconds 48.2
+DONE loso_P02 session 1 ordinary_log configs 16 seconds 54.0
+DONE loso_P05 session 1 ordinary_log configs 16 seconds 54.5
+DONE loso_P03 session 1 ordinary_log configs 16 seconds 54.5
+DONE loso_P01 session 1 ordinary_log configs 16 seconds 54.8
+DONE loso_P02 session 1 lag_log configs 16 seconds 60.6
+DONE loso_P03 session 1 lag_log configs 16 seconds 61.1
+DONE loso_P05 session 1 lag_log configs 16 seconds 61.1
+DONE loso_P01 session 1 lag_log configs 16 seconds 61.4
+DONE loso_P02 session 1 ordinary_pseudo configs 16 seconds 68.7
+DONE loso_P03 session 1 ordinary_pseudo configs 16 seconds 69.3
+DONE loso_P05 session 1 ordinary_pseudo configs 16 seconds 69.4
+DONE loso_P01 session 1 ordinary_pseudo configs 16 seconds 69.7
+DONE loso_P02 session 1 lag_pseudo configs 16 seconds 81.2
+DONE loso_P03 session 1 lag_pseudo configs 16 seconds 81.9
+DONE loso_P05 session 1 lag_pseudo configs 16 seconds 82.1
+DONE loso_P01 session 1 lag_pseudo configs 16 seconds 82.5
+DONE loso_P02 session 1 lag_pseudo_sharp configs 16 seconds 93.6
+DONE loso_P03 session 1 lag_pseudo_sharp configs 16 seconds 94.3
+DONE loso_P05 session 1 lag_pseudo_sharp configs 16 seconds 94.7
+DONE loso_P01 session 1 lag_pseudo_sharp configs 16 seconds 95.0
+DONE loso_P02 session 1 ordinary_running20 configs 16 seconds 101.8
+DONE loso_P03 session 1 ordinary_running20 configs 16 seconds 102.4
+DONE loso_P05 session 1 ordinary_running20 configs 16 seconds 102.9
+DONE loso_P01 session 1 ordinary_running20 configs 16 seconds 103.3
+DONE loso_P02 session 1 lag_running20 configs 16 seconds 114.0
+DONE loso_P03 session 1 lag_running20 configs 16 seconds 114.7
+DONE loso_P05 session 1 lag_running20 configs 16 seconds 115.3
+DONE loso_P01 session 1 lag_running20 configs 16 seconds 115.8
+DONE loso_P02 session 1 joint_running configs 30 seconds 135.8
+DONE loso_P03 session 1 joint_running configs 30 seconds 136.7
+DONE loso_P05 session 1 joint_running configs 30 seconds 137.5
+DONE loso_P01 session 1 joint_running configs 30 seconds 138.0
+DONE loso_P02 session 1 joint_fixed configs 16 seconds 147.2
+FOLD COMPLETE loso_P02 147.6 seconds
+DONE loso_P03 session 1 joint_fixed configs 16 seconds 148.2
+FOLD COMPLETE loso_P03 148.7 seconds
+DONE loso_P05 session 1 joint_fixed configs 16 seconds 149.2
+FOLD COMPLETE loso_P05 149.6 seconds
+DONE loso_P01 session 1 joint_fixed configs 16 seconds 149.9
+FOLD COMPLETE loso_P01 150.4 seconds
+DONE loso_P06 session 1 ordinary_running configs 16 seconds 8.7
+DONE loso_P07 session 1 ordinary_running configs 16 seconds 8.6
+DONE loso_P08 session 1 ordinary_running configs 16 seconds 8.5
+DONE loso_P09 session 1 ordinary_running configs 16 seconds 8.5
+DONE loso_P06 session 1 lag_running configs 30 seconds 28.4
+DONE loso_P07 session 1 lag_running configs 30 seconds 28.8
+DONE loso_P08 session 1 lag_running configs 30 seconds 28.6
+DONE loso_P09 session 1 lag_running configs 30 seconds 28.6
+DONE loso_P06 session 1 ordinary_fixed configs 16 seconds 35.7
+DONE loso_P07 session 1 ordinary_fixed configs 16 seconds 36.2
+DONE loso_P08 session 1 ordinary_fixed configs 16 seconds 36.1
+DONE loso_P09 session 1 ordinary_fixed configs 16 seconds 36.3
+DONE loso_P06 session 1 lag_fixed configs 16 seconds 45.8
+DONE loso_P07 session 1 lag_fixed configs 16 seconds 46.5
+DONE loso_P08 session 1 lag_fixed configs 16 seconds 46.4
+DONE loso_P09 session 1 lag_fixed configs 16 seconds 46.4
+DONE loso_P06 session 1 ordinary_log configs 16 seconds 52.7
+DONE loso_P07 session 1 ordinary_log configs 16 seconds 53.0
+DONE loso_P08 session 1 ordinary_log configs 16 seconds 52.8
+DONE loso_P09 session 1 ordinary_log configs 16 seconds 52.7
+DONE loso_P06 session 1 lag_log configs 16 seconds 59.1
+DONE loso_P07 session 1 lag_log configs 16 seconds 59.5
+DONE loso_P08 session 1 lag_log configs 16 seconds 59.4
+DONE loso_P09 session 1 lag_log configs 16 seconds 59.2
+DONE loso_P06 session 1 ordinary_pseudo configs 16 seconds 67.1
+DONE loso_P07 session 1 ordinary_pseudo configs 16 seconds 67.7
+DONE loso_P08 session 1 ordinary_pseudo configs 16 seconds 67.6
+DONE loso_P09 session 1 ordinary_pseudo configs 16 seconds 67.5
+DONE loso_P06 session 1 lag_pseudo configs 16 seconds 79.3
+DONE loso_P07 session 1 lag_pseudo configs 16 seconds 80.1
+DONE loso_P08 session 1 lag_pseudo configs 16 seconds 80.1
+DONE loso_P09 session 1 lag_pseudo configs 16 seconds 79.8
+DONE loso_P06 session 1 lag_pseudo_sharp configs 16 seconds 91.4
+DONE loso_P07 session 1 lag_pseudo_sharp configs 16 seconds 92.5
+DONE loso_P08 session 1 lag_pseudo_sharp configs 16 seconds 92.5
+DONE loso_P09 session 1 lag_pseudo_sharp configs 16 seconds 92.2
+DONE loso_P06 session 1 ordinary_running20 configs 16 seconds 99.4
+DONE loso_P07 session 1 ordinary_running20 configs 16 seconds 100.7
+DONE loso_P08 session 1 ordinary_running20 configs 16 seconds 100.7
+DONE loso_P09 session 1 ordinary_running20 configs 16 seconds 100.5
+DONE loso_P06 session 1 lag_running20 configs 16 seconds 111.4
+DONE loso_P07 session 1 lag_running20 configs 16 seconds 113.0
+DONE loso_P08 session 1 lag_running20 configs 16 seconds 113.0
+DONE loso_P09 session 1 lag_running20 configs 16 seconds 112.7
+DONE loso_P06 session 1 joint_running configs 30 seconds 132.7
+DONE loso_P07 session 1 joint_running configs 30 seconds 134.8
+DONE loso_P08 session 1 joint_running configs 30 seconds 134.9
+DONE loso_P09 session 1 joint_running configs 30 seconds 134.6
+DONE loso_P06 session 1 joint_fixed configs 16 seconds 143.7
+FOLD COMPLETE loso_P06 144.2 seconds
+DONE loso_P07 session 1 joint_fixed configs 16 seconds 146.1
+FOLD COMPLETE loso_P07 146.6 seconds
+DONE loso_P08 session 1 joint_fixed configs 16 seconds 146.3
+DONE loso_P09 session 1 joint_fixed configs 16 seconds 145.9
+FOLD COMPLETE loso_P08 146.8 seconds
+FOLD COMPLETE loso_P09 146.3 seconds
+DONE loso_P04 session 1 ordinary_running configs 16 seconds 7.0
+DONE loso_P10 session 1 ordinary_running configs 16 seconds 8.7
+DONE later_last session 1 ordinary_running configs 16 seconds 8.4
+DONE loso_P04 session 1 lag_running configs 30 seconds 22.3
+DONE later_last session 1 lag_running configs 30 seconds 21.3
+DONE loso_P10 session 1 lag_running configs 30 seconds 25.4
+DONE loso_P04 session 1 ordinary_fixed configs 16 seconds 29.6
+DONE loso_P10 session 1 ordinary_fixed configs 16 seconds 29.8
+DONE later_last session 1 ordinary_fixed configs 16 seconds 28.7
+DONE loso_P04 session 1 lag_fixed configs 16 seconds 38.9
+DONE later_last session 1 lag_fixed configs 16 seconds 36.1
+DONE loso_P10 session 1 lag_fixed configs 16 seconds 39.3
+DONE loso_P04 session 1 ordinary_log configs 16 seconds 42.8
+DONE later_last session 1 ordinary_log configs 16 seconds 41.0
+DONE loso_P04 session 1 lag_log configs 16 seconds 48.9
+DONE later_last session 1 lag_log configs 16 seconds 44.7
+DONE loso_P10 session 1 ordinary_log configs 16 seconds 45.9
+DONE loso_P10 session 1 lag_log configs 16 seconds 50.8
+DONE later_last session 1 ordinary_pseudo configs 16 seconds 50.4
+DONE loso_P04 session 1 ordinary_pseudo configs 16 seconds 56.9
+DONE later_last session 1 lag_pseudo configs 16 seconds 57.5
+DONE loso_P10 session 1 ordinary_pseudo configs 16 seconds 59.2
+DONE loso_P04 session 1 lag_pseudo configs 16 seconds 66.7
+DONE later_last session 1 lag_pseudo_sharp configs 16 seconds 68.8
+DONE loso_P04 session 1 lag_pseudo_sharp configs 16 seconds 74.2
+DONE loso_P10 session 1 lag_pseudo configs 16 seconds 71.2
+DONE later_last session 1 ordinary_running20 configs 16 seconds 76.7
+DONE loso_P04 session 1 ordinary_running20 configs 16 seconds 82.1
+DONE loso_P10 session 1 lag_pseudo_sharp configs 16 seconds 78.7
+DONE loso_P10 session 1 ordinary_running20 configs 16 seconds 86.1
+DONE loso_P04 session 1 lag_running20 configs 16 seconds 90.0
+DONE later_last session 1 lag_running20 configs 16 seconds 88.9
+DONE loso_P10 session 1 lag_running20 configs 16 seconds 95.0
+DONE loso_P04 session 1 joint_running configs 30 seconds 107.8
+DONE later_last session 1 joint_running configs 30 seconds 105.7
+DONE later_last session 1 joint_fixed configs 16 seconds 112.4
+DONE loso_P10 session 1 joint_running configs 30 seconds 115.3
+DONE loso_P04 session 1 joint_fixed configs 16 seconds 119.1
+DONE later_last session 2 ordinary_running configs 16 seconds 117.6
+DONE loso_P04 session 2 ordinary_running configs 16 seconds 127.3
+DONE loso_P10 session 1 joint_fixed configs 16 seconds 124.9
+DONE loso_P10 session 2 ordinary_running configs 16 seconds 129.9
+DONE later_last session 2 lag_running configs 30 seconds 136.8
+DONE loso_P10 session 2 lag_running configs 30 seconds 142.5
+DONE loso_P04 session 2 lag_running configs 30 seconds 146.6
+DONE later_last session 2 ordinary_fixed configs 16 seconds 142.4
+DONE loso_P10 session 2 ordinary_fixed configs 16 seconds 149.8
+DONE later_last session 2 lag_fixed configs 16 seconds 149.2
+DONE loso_P04 session 2 ordinary_fixed configs 16 seconds 154.2
+DONE loso_P10 session 2 lag_fixed configs 16 seconds 156.2
+DONE later_last session 2 ordinary_log configs 16 seconds 155.5
+DONE loso_P10 session 2 ordinary_log configs 16 seconds 160.2
+DONE loso_P04 session 2 lag_fixed configs 16 seconds 164.3
+DONE later_last session 2 lag_log configs 16 seconds 161.1
+DONE loso_P10 session 2 lag_log configs 16 seconds 166.6
+DONE loso_P04 session 2 ordinary_log configs 16 seconds 170.8
+DONE later_last session 2 ordinary_pseudo configs 16 seconds 166.3
+DONE loso_P10 session 2 ordinary_pseudo configs 16 seconds 173.1
+DONE loso_P04 session 2 lag_log configs 16 seconds 177.5
+DONE later_last session 2 lag_pseudo configs 16 seconds 175.0
+DONE loso_P04 session 2 ordinary_pseudo configs 16 seconds 185.0
+DONE loso_P10 session 2 lag_pseudo configs 16 seconds 184.9
+DONE later_last session 2 lag_pseudo_sharp configs 16 seconds 186.0
+DONE loso_P04 session 2 lag_pseudo configs 16 seconds 192.4
+DONE later_last session 2 ordinary_running20 configs 16 seconds 195.3
+DONE loso_P04 session 2 lag_pseudo_sharp configs 16 seconds 200.2
+DONE loso_P10 session 2 lag_pseudo_sharp configs 16 seconds 197.2
+DONE loso_P04 session 2 ordinary_running20 configs 16 seconds 206.1
+DONE loso_P10 session 2 ordinary_running20 configs 16 seconds 205.5
+DONE later_last session 2 lag_running20 configs 16 seconds 204.6
+DONE loso_P04 session 2 lag_running20 configs 16 seconds 218.3
+DONE loso_P10 session 2 lag_running20 configs 16 seconds 215.1
+DONE later_last session 2 joint_running configs 30 seconds 221.1
+DONE loso_P04 session 2 joint_running configs 30 seconds 234.6
+DONE later_last session 2 joint_fixed configs 16 seconds 233.3
+DONE loso_P10 session 2 joint_running configs 30 seconds 234.5
+FOLD COMPLETE later_last 234.2 seconds
+DONE loso_P04 session 2 joint_fixed configs 16 seconds 241.3
+DONE loso_P10 session 2 joint_fixed configs 16 seconds 241.4
+DONE loso_P04 session 3 ordinary_running configs 16 seconds 246.1
+DONE loso_P10 session 3 ordinary_running configs 16 seconds 246.6
+DONE loso_P04 session 3 lag_running configs 30 seconds 258.1
+DONE loso_P04 session 3 ordinary_fixed configs 16 seconds 262.5
+DONE loso_P10 session 3 lag_running configs 30 seconds 259.6
+DONE loso_P10 session 3 ordinary_fixed configs 16 seconds 264.3
+DONE loso_P04 session 3 lag_fixed configs 16 seconds 268.6
+DONE loso_P04 session 3 ordinary_log configs 16 seconds 272.1
+DONE loso_P10 session 3 lag_fixed configs 16 seconds 270.9
+DONE loso_P04 session 3 lag_log configs 16 seconds 275.9
+DONE loso_P10 session 3 ordinary_log configs 16 seconds 275.3
+DONE loso_P04 session 3 ordinary_pseudo configs 16 seconds 280.8
+DONE loso_P10 session 3 lag_log configs 16 seconds 279.4
+DONE loso_P10 session 3 ordinary_pseudo configs 16 seconds 284.6
+DONE loso_P04 session 3 lag_pseudo configs 16 seconds 288.1
+DONE loso_P04 session 3 lag_pseudo_sharp configs 16 seconds 295.4
+DONE loso_P10 session 3 lag_pseudo configs 16 seconds 292.3
+DONE loso_P04 session 3 ordinary_running20 configs 16 seconds 300.0
+DONE loso_P10 session 3 lag_pseudo_sharp configs 16 seconds 300.0
+DONE loso_P04 session 3 lag_running20 configs 16 seconds 307.1
+DONE loso_P10 session 3 ordinary_running20 configs 16 seconds 305.1
+DONE loso_P10 session 3 lag_running20 configs 16 seconds 312.9
+DONE loso_P04 session 3 joint_running configs 30 seconds 320.0
+DONE loso_P04 session 3 joint_fixed configs 16 seconds 326.6
+FOLD COMPLETE loso_P04 327.3 seconds
+DONE loso_P10 session 3 joint_running configs 30 seconds 326.7
+DONE loso_P10 session 3 joint_fixed configs 16 seconds 333.6
+FOLD COMPLETE loso_P10 334.4 seconds
+Traceback (most recent call last):
+  File "/tmp/proteus-transduction-study/run.py", line 195, in <module>
+    if __name__ == '__main__': main()
+                               ~~~~^^
+  File "/tmp/proteus-transduction-study/run.py", line 190, in main
+    summarize(args.out)
+    ~~~~~~~~~^^^^^^^^^^
+  File "/tmp/proteus-transduction-study/run.py", line 118, in summarize
+    foldrows = [r for p in paths for r in json.loads(p.with_suffix('.json').read_text())['scores']]
+                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/pathlib/_local.py", line 546, in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/pathlib/_abc.py", line 632, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/pathlib/_local.py", line 537, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/kaggle/working/transduction-results/folds/loso_P05.json'

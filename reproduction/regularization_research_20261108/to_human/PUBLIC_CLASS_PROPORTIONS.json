@@ -1,0 +1,198 @@
+[
+  {
+    "stream": "Dreyer2026Proteus/P01/1",
+    "windows": 190,
+    "classes": [
+      63,
+      64,
+      63
+    ],
+    "first20": [
+      8,
+      7,
+      5
+    ]
+  },
+  {
+    "stream": "Dreyer2026Proteus/P02/1",
+    "windows": 189,
+    "classes": [
+      64,
+      63,
+      62
+    ],
+    "first20": [
+      7,
+      6,
+      7
+    ]
+  },
+  {
+    "stream": "Dreyer2026Proteus/P03/1",
+    "windows": 189,
+    "classes": [
+      63,
+      62,
+      64
+    ],
+    "first20": [
+      8,
+      6,
+      6
+    ]
+  },
+  {
+    "stream": "Dreyer2026Proteus/P04/1",
+    "windows": 189,
+    "classes": [
+      62,
+      63,
+      64
+    ],
+    "first20": [
+      4,
+      8,
+      8
+    ]
+  },
+  {
+    "stream": "Dreyer2026Proteus/P04/2",
+    "windows": 189,
+    "classes": [
+      64,
+      62,
+      63
+    ],
+    "first20": [
+      9,
+      6,
+      5
+    ]
+  },
+  {
+    "stream": "Dreyer2026Proteus/P04/3",
+    "windows": 188,
+    "classes": [
+      62,
+      63,
+      63
+    ],
+    "first20": [
+      6,
+      7,
+      7
+    ]
+  },
+  {
+    "stream": "Dreyer2026Proteus/P05/1",
+    "windows": 190,
+    "classes": [
+      63,
+      63,
+      64
+    ],
+    "first20": [
+      5,
+      8,
+      7
+    ]
+  },
+  {
+    "stream": "Dreyer2026Proteus/P06/1",
+    "windows": 187,
+    "classes": [
+      62,
+      63,
+      62
+    ],
+    "first20": [
+      7,
+      7,
+      6
+    ]
+  },
+  {
+    "stream": "Dreyer2026Proteus/P07/1",
+    "windows": 189,
+    "classes": [
+      64,
+      63,
+      62
+    ],
+    "first20": [
+      7,
+      5,
+      8
+    ]
+  },
+  {
+    "stream": "Dreyer2026Proteus/P08/1",
+    "windows": 189,
+    "classes": [
+      63,
+      64,
+      62
+    ],
+    "first20": [
+      4,
+      10,
+      6
+    ]
+  },
+  {
+    "stream": "Dreyer2026Proteus/P09/1",
+    "windows": 189,
+    "classes": [
+      61,
+      64,
+      64
+    ],
+    "first20": [
+      6,
+      8,
+      6
+    ]
+  },
+  {
+    "stream": "Dreyer2026Proteus/P10/1",
+    "windows": 192,
+    "classes": [
+      64,
+      64,
+      64
+    ],
+    "first20": [
+      7,
+      7,
+      6
+    ]
+  },
+  {
+    "stream": "Dreyer2026Proteus/P10/2",
+    "windows": 186,
+    "classes": [
+      63,
+      62,
+      61
+    ],
+    "first20": [
+      6,
+      9,
+      5
+    ]
+  },
+  {
+    "stream": "Dreyer2026Proteus/P10/3",
+    "windows": 199,
+    "classes": [
+      67,
+      66,
+      66
+    ],
+    "first20": [
+      6,
+      8,
+      6
+    ]
+  }
+]

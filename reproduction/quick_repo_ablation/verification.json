@@ -1,0 +1,11 @@
+{
+  "evaluations": 45,
+  "baseline_refits": 9,
+  "baseline_prediction_matches": true,
+  "independent_rescore": true,
+  "manifest": "7c10219a68b40adcadce4abc7837de39ea2bd31a3cca4d07e4e31c8bae2ac884",
+  "warnings": 0,
+  "new_matrix_cache_files_verified": 11,
+  "cache_audit_sha256": "5b23fe60fef8088d6ba0fef13578e48f3c1e880260dd5ad58806b83597a59020",
+  "summed_fold_wall_seconds": 1569.9828594590072
+}

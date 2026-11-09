@@ -1,0 +1,17 @@
+Training 50-tree lag4 forest, original6 train subjects only,1521 windows.
+{
+  "fit_seconds": 51.22147287498228,
+  "weights_bytes": 2003015,
+  "package_versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "pyriemann": "0.12",
+    "benchopt": "1.10.0"
+  },
+  "numerical_source_hashes": {
+    "temporal_features.py": "47433dc696fd2bdc2a56241b8319cbe797d2949f02e10ae70153dae22d16d60c",
+    "temporal_cache.py": "66e163100bfb52a36adfccae7796f8b03ef6916f6488bc0ba09e8726dce7090e"
+  },
+  "original_tree_draws_match": true
+}

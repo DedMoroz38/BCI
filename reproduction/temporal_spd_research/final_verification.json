@@ -1,0 +1,21 @@
+{
+  "new_jobs": 203,
+  "control_jobs": 58,
+  "officially_rescored_files": 261,
+  "all_scores_match_official_code": true,
+  "first_stage_verification": "verification.json",
+  "followup_verified_files": 29,
+  "selected_variant": "pyramid2_mixed",
+  "selection_frozen_before_all_new_test": true,
+  "all_previous_artifacts_unchanged": true,
+  "all_followup_near_null_coordinates_zero": true,
+  "min_followup_scaler_variance": 0.0015225235545871152,
+  "excluded_raw_variants": {
+    "pyramid2_oas": "400 mathematically null tangent coordinates amplified by source scaler; measured variance <=4.53e-27",
+    "quadrature_oas": "Complex structure forces null self-quadrature tangent coordinates; not eligible without numerical handling"
+  },
+  "same_physical_trees_and_window_order": true,
+  "source_baseline_unchanged": true,
+  "summary_rows": 27,
+  "fold_rows": 261
+}

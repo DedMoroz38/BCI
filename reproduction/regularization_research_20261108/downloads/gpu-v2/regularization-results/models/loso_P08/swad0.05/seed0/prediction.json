@@ -1,0 +1,62 @@
+{
+  "prediction_sha256": "e15ce15f2849540b560e7aa410caeaa3fadabcd7c24d64ced9be7b1c4e0a1d12",
+  "tag": "loso_P08",
+  "config": "swad0.05",
+  "seed": 0,
+  "best_epoch": 1,
+  "refit_epochs": 3,
+  "averaging_epochs": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3
+  ],
+  "parameters": 13731,
+  "study_sha256": "3b1509248a3276fc649cd19269a34c6db383e557aa7f405919fb854193a0b797",
+  "cpu_replay_diagnostic": {
+    "max_probability_delta": 3.2782554626464844e-07,
+    "label_disagreements": 0,
+    "windows": 189
+  },
+  "gpu_replay_diagnostic": {
+    "max_probability_delta": 0.0,
+    "label_disagreements": 0,
+    "windows": 189
+  },
+  "model_sha256": "cfc7a4455553570f2a28d73a0b91464762790de0e6824358491a9f534f84122a",
+  "alignment_sha256": "d90ac3438260dcc2f99d7973225cd1ce8c579e656df7732eea790bb135b878bf",
+  "logits_sha256": "a233a0ff074f80eb8a45341b971fdd86e7fd7c81a738077def9a69aeed2bfed4",
+  "train_people": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P04",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P09",
+    "Dreyer2026Proteus/P10"
+  ],
+  "inner_train_people": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P04",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P09"
+  ],
+  "inner_val_people": [
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P10"
+  ],
+  "cell_mean": 0.6380600358422939,
+  "session_mean": 0.6390462322922,
+  "pooled": 0.6390462322922,
+  "accuracy": 0.6402116402116402,
+  "log_loss": 0.9032818675041199,
+  "brier": 0.5307780768245492
+}

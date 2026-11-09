@@ -1,0 +1,29 @@
+             variant    model  loso_mean  loso_std  delta_loso  delta_loso_std  loso_wins  loso_ties  loso_losses    later  delta_later     test  delta_test
+logeuclid_cumulative   logreg   0.469444  0.114333    0.000000        0.000000          0          8            0 0.546962     0.000000 0.454827    0.000000
+logeuclid_cumulative forest12   0.510785  0.132683    0.000000        0.000000          0          8            0 0.613900     0.000000      NaN         NaN
+logeuclid_cumulative forest20   0.531430  0.149736    0.000000        0.000000          0          8            0 0.668627     0.000000 0.528622    0.000000
+   euclid_cumulative   logreg   0.460574  0.106003   -0.008870        0.030922          3          0            5 0.567466     0.020504 0.424015   -0.030812
+   euclid_cumulative forest12   0.496949  0.125119   -0.013836        0.030499          3          0            5 0.614277     0.000377      NaN         NaN
+   euclid_cumulative forest20   0.520789  0.144418   -0.010641        0.011495          2          0            6 0.623850    -0.044776 0.522773   -0.005849
+   riemann_recursive   logreg   0.479216  0.121959    0.009772        0.010678          7          0            1 0.562038     0.015076 0.444094   -0.010733
+   riemann_recursive forest12   0.513874  0.130248    0.003090        0.011825          5          0            3 0.613825    -0.000075      NaN         NaN
+   riemann_recursive forest20   0.529726  0.151627   -0.001705        0.009270          3          1            4 0.658601    -0.010026 0.520829   -0.007793
+       logeuclid_ema   logreg   0.473326  0.109408    0.003882        0.026736          5          0            3 0.532112    -0.014850 0.454470   -0.000357
+       logeuclid_ema forest12   0.508427  0.135828   -0.002358        0.014656          3          0            5 0.623474     0.009573      NaN         NaN
+       logeuclid_ema forest20   0.528442  0.146955   -0.002989        0.017609          3          0            5 0.698477     0.029851 0.508733   -0.019889
+{
+  "candidate_jobs": 87,
+  "control_jobs": 29,
+  "officially_rescored_files": 116,
+  "all_scores_match_official_code": true,
+  "metric_atol": 1e-14,
+  "all_original_artifacts_unchanged": true,
+  "source_checkouts_unchanged": true,
+  "data_hashes_match_control": true,
+  "all_tree_selections_match_control": true,
+  "all_test_window_orders_match_control": true,
+  "paired_loso_rows": 72,
+  "source_commit": "8d577af42619e5911cc5da8743c8a3e9b629014b",
+  "competition_commit": "2b53aec91c111f8b5423b6674f096c48cc1a99af"
+}
+/Users/den1shh/Documents/diploma/reproduction/reference_ablation/REPORT.md

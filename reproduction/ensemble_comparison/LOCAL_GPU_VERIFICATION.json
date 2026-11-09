@@ -1,0 +1,15 @@
+{
+  "evaluations": 80,
+  "baseline_matches": 10,
+  "independent_probability_and_label_rescore": true,
+  "metadata_matches": 80,
+  "cv_freeze_checked": 63,
+  "parent_imports_checked": 46,
+  "parent_manifest": "ab3ab25c19fa33bc61d81ac3b3fc1bdb51b2508ae4150aaa5bb751f896029792",
+  "manifest": "7260835c56d59d74a11bf4188ceb7dbf0bef81153a2a0a3caa77b0773aed40c4",
+  "replay_checks": 30,
+  "max_replay_probability_delta": 0.0,
+  "original_training_warnings_unavailable": [
+    "loso_P02"
+  ]
+}

@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+logs/
+downloads/
+results/
+reference/
+tmp/
+*.partial

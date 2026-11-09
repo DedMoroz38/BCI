@@ -1,0 +1,17 @@
+{
+  "prediction_sha256": "d7b4960d1d506ad89b6a7f296f0ab578f175d4279f703e57feb1d088f8c290f0",
+  "tag": "later_last",
+  "config": {
+    "name": "arith_w0.1_T2_a0",
+    "weight": 0.1,
+    "temp": 2,
+    "alpha": 0,
+    "pool": "arithmetic"
+  },
+  "cell_mean": 0.7987745098039215,
+  "session_mean": 0.7991858887381276,
+  "pooled": 0.7991858887381276,
+  "accuracy": 0.7989949748743719,
+  "log_loss": 0.830275450274247,
+  "brier": 0.4842842523442719
+}

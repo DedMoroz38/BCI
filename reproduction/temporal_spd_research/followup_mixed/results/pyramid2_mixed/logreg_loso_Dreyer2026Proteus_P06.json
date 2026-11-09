@@ -1,0 +1,40 @@
+{
+  "variant": "pyramid2_mixed",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P06",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P06"
+  ],
+  "train_windows": 1713,
+  "eval_windows": 187,
+  "fit_seconds": 3.723806708934717,
+  "total_seconds": 4.077240333892405,
+  "session_mean_delta_vs_control": -0.021334698754053583,
+  "representation_definition": "Per-electrode orthogonal Hadamard congruence of the two-half OAS block covariance: U=(A+B)/2,V=(A-B)/2,R=[[U,V],[V,U]], interleaved physical copies",
+  "reference_update": "original cumulative log-Euclidean, prior_weight=5",
+  "cell_mean": 0.4891465053763441,
+  "session_mean": 0.4911247653183137,
+  "pooled": 0.4911247653183137,
+  "accuracy": 0.4919786096256685,
+  "matrix_cache_sha256": {
+    "pyramid2_mixed_band0": "214823459239940b614b3dbb2bd8806e77fb611b42f8063bf326c0a29f861c35",
+    "pyramid2_mixed_band1": "23b8204541b8e9c42e868d55a8112ce61ed5d040dab5d84c4351bf22d171f771",
+    "pyramid2_mixed_band2": "50618aab965b36abf731f2d04e20e6a5edf50665349f01caec6bd525a4dab8e0",
+    "pyramid2_mixed_band3": "a4f10be72c5108820e8235cdf07e6dbfca046494b2b6c13c86f4bc7bc9dba43b",
+    "pyramid2_mixed_band4": "86dcb9147288e2b839306160ce3c35145ef8ec6997478df2a64270edfdd0ce3c",
+    "pyramid2_mixed_band5": "41da03190c5a7d03bc2702a11d2cd6c24d9e1442480a023271fc012e540e93ae"
+  },
+  "tangent_dimension": 3403,
+  "minimum_scaler_variance": 0.0017751587791999602,
+  "near_null_scaler_coordinates": 0
+}

@@ -1,0 +1,21 @@
+Validated exact source/data/environment and frozen experiment manifest
+START wasserstein_recursive/logreg_loso_Dreyer2026Proteus_P01 train=1710 eval=190
+DONE wasserstein_recursive/logreg_loso_Dreyer2026Proteus_P01: 0.436590608, delta=-0.005373677 (7.5s)
+START wasserstein_recursive/logreg_loso_Dreyer2026Proteus_P02 train=1711 eval=189
+DONE wasserstein_recursive/logreg_loso_Dreyer2026Proteus_P02: 0.533807497, delta=-0.026044334 (5.8s)
+START wasserstein_recursive/logreg_loso_Dreyer2026Proteus_P03 train=1711 eval=189
+DONE wasserstein_recursive/logreg_loso_Dreyer2026Proteus_P03: 0.344803401, delta=-0.000426694 (6.4s)
+START wasserstein_recursive/logreg_loso_Dreyer2026Proteus_P05 train=1710 eval=190
+DONE wasserstein_recursive/logreg_loso_Dreyer2026Proteus_P05: 0.326140873, delta=+0.010830026 (5.9s)
+START wasserstein_recursive/logreg_loso_Dreyer2026Proteus_P06 train=1713 eval=187
+DONE wasserstein_recursive/logreg_loso_Dreyer2026Proteus_P06: 0.453405018, delta=-0.059054446 (5.8s)
+START wasserstein_recursive/logreg_loso_Dreyer2026Proteus_P07 train=1711 eval=189
+DONE wasserstein_recursive/logreg_loso_Dreyer2026Proteus_P07: 0.527599100, delta=-0.032762097 (5.7s)
+START wasserstein_recursive/logreg_loso_Dreyer2026Proteus_P08 train=1711 eval=189
+DONE wasserstein_recursive/logreg_loso_Dreyer2026Proteus_P08: 0.637942162, delta=+0.005376344 (6.8s)
+START wasserstein_recursive/logreg_loso_Dreyer2026Proteus_P10 train=1323 eval=577
+DONE wasserstein_recursive/logreg_loso_Dreyer2026Proteus_P10: 0.389761292, delta=+0.001952699 (6.4s)
+START wasserstein_recursive/logreg_later_last train=1701 eval=199
+DONE wasserstein_recursive/logreg_later_last: 0.547188301, delta=+0.000226142 (6.7s)
+START wasserstein_recursive/logreg_test_official train=1521 eval=755
+DONE wasserstein_recursive/logreg_test_official: 0.448211899, delta=-0.006615090 (7.4s)

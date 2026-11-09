@@ -1,0 +1,19 @@
+{
+  "source_sha256": "e952ae120bb69f8a1881f8419e10dd1150834768911526b6bbe77b7df4475136",
+  "input_sha256": {
+    "train": "8b177bc78dc26f47666f420ecbc0e2decbd865f15909284c225db1b23396bdbf",
+    "val": "80674d38123f5cc2ae51e5c2ce4884b60f3ef37231cdbd030bec07747eec8585",
+    "test": "adafd2515eaf1c0ce689eba6384af74a65c974829ca16dec4ef12c95e5a87c58"
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "pyriemann": "0.12",
+    "pandas": "3.1.0",
+    "torch": "2.11.0+cu130"
+  },
+  "torch": "2.11.0+cu130",
+  "device": "cuda",
+  "gpu": "Tesla T4"
+}

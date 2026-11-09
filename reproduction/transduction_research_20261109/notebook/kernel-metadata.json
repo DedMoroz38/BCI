@@ -1,0 +1,16 @@
+{
+  "id": "den1shh/proteus-causal-transduction-research",
+  "title": "PROTEUS Causal Transduction Research",
+  "code_file": "transduction.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "den1shh/proteus-lag4-classifier-inputs"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

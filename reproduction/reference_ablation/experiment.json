@@ -1,0 +1,173 @@
+{
+  "created_utc": "2026-10-28T23:09:22.199876+00:00",
+  "source_commit": "8d577af42619e5911cc5da8743c8a3e9b629014b",
+  "competition_commit": "2b53aec91c111f8b5423b6674f096c48cc1a99af",
+  "data_sha256": {
+    "train": "8b177bc78dc26f47666f420ecbc0e2decbd865f15909284c225db1b23396bdbf",
+    "val": "80674d38123f5cc2ae51e5c2ce4884b60f3ef37231cdbd030bec07747eec8585",
+    "test": "adafd2515eaf1c0ce689eba6384af74a65c974829ca16dec4ef12c95e5a87c58"
+  },
+  "package_versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "pyriemann": "0.12",
+    "mne": "1.13.2",
+    "neuralbench": "0.4.0",
+    "pandas": "3.1.0",
+    "torch": "2.15.0"
+  },
+  "splits": {
+    "train": {
+      "windows": 1521,
+      "subjects": 6,
+      "subject_ids": [
+        "Dreyer2026Proteus/P01",
+        "Dreyer2026Proteus/P02",
+        "Dreyer2026Proteus/P03",
+        "Dreyer2026Proteus/P06",
+        "Dreyer2026Proteus/P07",
+        "Dreyer2026Proteus/P10"
+      ],
+      "sessions": 8
+    },
+    "val": {
+      "windows": 379,
+      "subjects": 2,
+      "subject_ids": [
+        "Dreyer2026Proteus/P05",
+        "Dreyer2026Proteus/P08"
+      ],
+      "sessions": 2
+    },
+    "test": {
+      "windows": 755,
+      "subjects": 2,
+      "subject_ids": [
+        "Dreyer2026Proteus/P04",
+        "Dreyer2026Proteus/P09"
+      ],
+      "sessions": 4
+    }
+  },
+  "original_artifact_sha256": {
+    "comparison.csv": "ee5831c9634e87395eb8b02a8d717e6367d8601f899392a61b8679049e924ce2",
+    "fold_scores.csv": "8fd1583b47c8c8f5cac427f2df3d619257789647403761bba8eb654ccc3ff685",
+    "forest12_later_last.json": "19925768c23b1a91bf478491b107450b41991844c00ed5eaa9e296f91e0ccb94",
+    "forest12_later_last_predictions.npz": "3b6f6b1b9fe7bcaa390a9bf781e0170c771338ca95ad1a9fe1334377f50c8874",
+    "forest12_loso_Dreyer2026Proteus_P01.json": "f24bb2bd4d0f7ad53a842a6318a40fec31f50fffc77e98916a754898b9524d8e",
+    "forest12_loso_Dreyer2026Proteus_P01_predictions.npz": "1fb98777ff000da85a071a4029def7be4fb3a52f881d23cab09fc1a742986075",
+    "forest12_loso_Dreyer2026Proteus_P02.json": "884b2fa41e85403fc18b7d90348f96e4927a5619f88c3f890fdb8d148dd8c8da",
+    "forest12_loso_Dreyer2026Proteus_P02_predictions.npz": "2b51210216e5689f0fd8e0a910e68467fc5032a9fed480efbbcaaa89382b8e2e",
+    "forest12_loso_Dreyer2026Proteus_P03.json": "f5cbe2236d013a5ace0bf1d0d038a88992da085e3497aa2567ed9e73d0f7346e",
+    "forest12_loso_Dreyer2026Proteus_P03_predictions.npz": "b47ac7fdb1dd23f9331e89a2aa9b4f1920cba330597fa4af584b3fc826a7567c",
+    "forest12_loso_Dreyer2026Proteus_P05.json": "866c2d066f0d55857066bb09a421ca4ba8eb7fc7749073564e1d814a0e83b5ac",
+    "forest12_loso_Dreyer2026Proteus_P05_predictions.npz": "a095537be00a3105bd313f693aafcf64116b2131eb64576e3a01a211a6cd6614",
+    "forest12_loso_Dreyer2026Proteus_P06.json": "b8330c1a685edd066941c3cd47d9318efbb4e6dc0b2cf534109ed128defd6c01",
+    "forest12_loso_Dreyer2026Proteus_P06_predictions.npz": "24ee35e38c384199cc90b66cecb9afc507e80dbef21be4729612499d4f65366d",
+    "forest12_loso_Dreyer2026Proteus_P07.json": "3f9f1516348be0fc0e5fd6a1c46f470a0f46ca5c9ce72578a07c49cbfadc8067",
+    "forest12_loso_Dreyer2026Proteus_P07_predictions.npz": "94902948910b75aa379de0bca0219f681d8d2019ad365f4922030ace634ee82a",
+    "forest12_loso_Dreyer2026Proteus_P08.json": "2e9e39195b6744074df62d0838afb4974a7684c7fd973a9fd37ddd31384322e2",
+    "forest12_loso_Dreyer2026Proteus_P08_predictions.npz": "2ffcde7d400be1455ee2d235c062b6fb6bdcbe5191fb1e45070bef9174ad495d",
+    "forest12_loso_Dreyer2026Proteus_P10.json": "5c218dbc5dc77e9990467dae232360bef517afdfed75dd71f802cc38ec93d507",
+    "forest12_loso_Dreyer2026Proteus_P10_predictions.npz": "a5943e4ddc89d9085bab921036accb6f173e32cb7b11b673ead64b0e1ed28121",
+    "forest20_later_last.json": "313da18350bdbfd82d3a218c9f45bb6ffa6f66380f004960321a846071a18ac3",
+    "forest20_later_last_predictions.npz": "970a82d28bf6cc0537c9dd6da1adee0a9d28154bc08f3cf2f209377352eb7855",
+    "forest20_loso_Dreyer2026Proteus_P01.json": "97c450cb314ba27302b59e98ef5639d95586bad139f72f77649309fe6b97c86e",
+    "forest20_loso_Dreyer2026Proteus_P01_predictions.npz": "e15e20f2c26c4d00059bded7ea4ad4a4c6cfc20be30dd159eec128cee6f1b161",
+    "forest20_loso_Dreyer2026Proteus_P02.json": "c7f41ec9205e184f8ebf2e0911048a173badc0fc084ea1b3dab9383ffb68ed26",
+    "forest20_loso_Dreyer2026Proteus_P02_predictions.npz": "4fe7913f9efb314e82333cb6f93678c5caf15c6b98989cdbb0cbf3686114bb63",
+    "forest20_loso_Dreyer2026Proteus_P03.json": "13608f07eccfaefce27175c02b9343a762efe327eb5f99061f1ccebfb819ccb0",
+    "forest20_loso_Dreyer2026Proteus_P03_predictions.npz": "ae9de10e2761d3d050c06eaedfe2c2fd14e097e77d55922b0ee445e8d68a7158",
+    "forest20_loso_Dreyer2026Proteus_P05.json": "09bad619955075dd9bc8b670d1686b100559305b99eb297a0551f5ff3fb38a65",
+    "forest20_loso_Dreyer2026Proteus_P05_predictions.npz": "2feba0a1e4b3df6eba9059ee560aa858b87b6804b75af3d1979de000944af86d",
+    "forest20_loso_Dreyer2026Proteus_P06.json": "c7f923b985520a725df3c77cfea456a506d2b6c8d8dc67a317a78d01cd511103",
+    "forest20_loso_Dreyer2026Proteus_P06_predictions.npz": "158f93ff82acb720e2f665aa97f801b155104fb6e530285c043292b75be35e3d",
+    "forest20_loso_Dreyer2026Proteus_P07.json": "9b53ec5cf3cd3ba406cc9e810c5bc74b7ef37a6850a17785510d59610b731d92",
+    "forest20_loso_Dreyer2026Proteus_P07_predictions.npz": "106dac19ee8f23d4305517bec3a21c3503b7094f53ac347ae5b1e1612a04c4b6",
+    "forest20_loso_Dreyer2026Proteus_P08.json": "7aea699c5ec9bd371941322d2e85ec8d6dd5fd1f58ba748568de99a6be9f1c5c",
+    "forest20_loso_Dreyer2026Proteus_P08_predictions.npz": "4c3d39b6d25272101b5f2e1751d64a4c03ee465673a456b70141f4caf68bed24",
+    "forest20_loso_Dreyer2026Proteus_P10.json": "e5c9671549cb4d67d2136a616dc32539067c1cb7383d21cb1e757ca0d5549f7e",
+    "forest20_loso_Dreyer2026Proteus_P10_predictions.npz": "e3548c72460d7f0bb5922405ab63df6b56f1934f2d4802b391b44a35f3ab5730",
+    "forest20_test_official.json": "24a0ada83ba4cc1af119d7dbc314525bd7cf94c718a8993a64941899c999ed38",
+    "forest20_test_official_predictions.npz": "2a2e05925c8a1433cf886c2bf9639030a6bc17e4f230eb6599c946b561f67423",
+    "logreg_later_last.json": "94738aa130f8aadaf25c4de8e7b6a6726fdd35c2f912856497ebbe19dec1b838",
+    "logreg_later_last_predictions.npz": "772635b922484a93b0e37fb3ea5cc43a5e04602dbb4c355dbea7337f13a04c91",
+    "logreg_loso_Dreyer2026Proteus_P01.json": "dc47b2be86c4bc10e7742764afd7559e5d97521a286ec8de0487a5e9767e753e",
+    "logreg_loso_Dreyer2026Proteus_P01_predictions.npz": "a83e42b0e9de11f7d18f5dcd604dbd02821d80a3edb9286dcccdadb60a02e88b",
+    "logreg_loso_Dreyer2026Proteus_P02.json": "d621850bf15eb28f088043bb62a48cd87de8ea2c15bb4165a0c13d32cd08f116",
+    "logreg_loso_Dreyer2026Proteus_P02_predictions.npz": "266a357573311e31e42282dd1d17bfc2063881611d87f71f51ef8866cf39c98d",
+    "logreg_loso_Dreyer2026Proteus_P03.json": "0bf0ecb354b1a82172c4a54632f50f6bab48ff946288d03eecd84ae54dfe83fe",
+    "logreg_loso_Dreyer2026Proteus_P03_predictions.npz": "a795aecd6b8b0a2826a8ed529a523321bb22119e01d4f62f98573f75db925334",
+    "logreg_loso_Dreyer2026Proteus_P05.json": "17c1ad7ae2eddeef7e4a194e8259de761daf82844782e684fedcdddd6225ee22",
+    "logreg_loso_Dreyer2026Proteus_P05_predictions.npz": "fdee70a4973aab8eebd6782b71e6153c929ffd035cc8de0fed26d6ff867fa8cc",
+    "logreg_loso_Dreyer2026Proteus_P06.json": "e3e0b90cdc51f1b2ee19c2563cc033cdcb70b7dea4af14dc1e72e122b9af9bea",
+    "logreg_loso_Dreyer2026Proteus_P06_predictions.npz": "70f5a3a8bfba53e2c9908a72c2b292aff4b0f8bf6efc11aa34ba7e03052562ae",
+    "logreg_loso_Dreyer2026Proteus_P07.json": "a92f8cc77f2cfc42584f525c4cb3919d10ffbbd82a1143e8dccecee87fdc1c3f",
+    "logreg_loso_Dreyer2026Proteus_P07_predictions.npz": "7442db98ad8872a0683592302d724e9d159a3bf1e56df1e8a5acebad89e55b91",
+    "logreg_loso_Dreyer2026Proteus_P08.json": "c73b091b2188a078e8cd2dc07a1f295e7a9b733175105c963c5ef59202f287bc",
+    "logreg_loso_Dreyer2026Proteus_P08_predictions.npz": "99c73aaeeecdd4d3d61ffe1c4cdb8e8ab88fee468ef683b25e245d058887cfff",
+    "logreg_loso_Dreyer2026Proteus_P10.json": "37a32a3317df184b8c235341c25254e73aca0fffe7d00fa31e585645f7ccb72f",
+    "logreg_loso_Dreyer2026Proteus_P10_predictions.npz": "b1a494c4537fe9655677365b1ff2bbdeac60634ea1a496d7957b5f5f39c89fcc",
+    "logreg_test_official.json": "9aa4e483792eec55eae61be238fdf39cf467e130c36ea507e2df108072e9aed2",
+    "logreg_test_official_predictions.npz": "ca4f5d108ee5bffb14004b45305f9b82141c83a83a706e6f4fcab97c530fe1f2",
+    "manifest.json": "19bce331d75abb07d4208be714570777e6abf548a34261d9a12a49588791226a",
+    "paper_agreement.json": "8f20dbe26bfe6570474ab15e7237ba6cca3eca6211442dc98595c74a257acbd1",
+    "verification.json": "eff5571bafc7db01c4274facc561247dbc1f8a3793f4b327e68e8ddc8a2ee1f4"
+  },
+  "code_sha256": {
+    "references.py": "30358565e39db366395dbd8f7603e7fba8725d82551125ad7f854d744634e004",
+    "run.py": "c13bdecd8d3aa3ff9abcc23a78482b391c38bdbe8337d5ee6b7803e701eb2aa5"
+  },
+  "variants": {
+    "euclid_cumulative": "M_t=(5*M0+sum_{i=1}^t R_i)/(5+t)",
+    "riemann_recursive": "M_t=geodesic_riemann(M_{t-1},R_t,alpha=1/(5+t))",
+    "logeuclid_ema": "S_t=.95*S_{t-1}+log(R_t), n_t=.95*n_{t-1}+1, L_t=S_t/n_t; S0=5*L0,n0=5"
+  },
+  "parameters": {
+    "C": 0.01,
+    "seed": 0,
+    "prior_weight": 5,
+    "n_trees": 50,
+    "forest_channels": [
+      12,
+      20
+    ],
+    "bands": [
+      [
+        4,
+        40
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        13,
+        20
+      ],
+      [
+        20,
+        30
+      ],
+      [
+        30,
+        40
+      ]
+    ]
+  },
+  "decay": 0.95,
+  "prior": "Same original training log-Euclidean mean in every variant; weight=5",
+  "protocol": "29 jobs per candidate: 24 LOSO, 3 later, 2 test; train-only fit for public test",
+  "test_policy": "Predeclared candidate/decay values; no parameter tuning on public test",
+  "geometry_note": "Recursive AIRM is inductive, not exact batch Frechet mean",
+  "ema_note": "Normalized decaying prior/window weights; gain tends to .05, warm-up is not constant gain",
+  "sources": [
+    "https://pyriemann.readthedocs.io/en/latest/generated/pyriemann.geometry.geodesic.geodesic_riemann.html",
+    "https://pyriemann.readthedocs.io/en/latest/generated/pyriemann.geometry.mean.mean_euclid.html"
+  ]
+}

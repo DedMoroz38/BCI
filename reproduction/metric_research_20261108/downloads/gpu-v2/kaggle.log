@@ -1,0 +1,521 @@
+[{"stream_name":"stderr","time":8.449681726,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.449726988,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.449733514,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.449738106,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.058403383,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.058433751,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.058438922,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.05844301,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":17.62355571,"data":"GPU Tesla T4\n"}
+,{"stream_name":"stderr","time":51.930772784,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":51.930800062,"data":"bigframes 2.51.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":51.930804405,"data":"ydata-profiling 4.18.4 requires numpy\u003c2.4,\u003e=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":51.930807723,"data":"ydata-profiling 4.18.4 requires pandas!=1.4.0,\u003c3.0,\u003e1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":51.930810848,"data":"ydata-profiling 4.18.4 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":51.930814024,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":51.93081724,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":51.930820967,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":51.930840605,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":51.930845549,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":51.930850912,"data":"dask-cudf-cu13 26.6.0 requires pandas\u003c2.4.0,\u003e=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":51.930856018,"data":"cudf-cu13 26.6.0 requires pandas\u003c2.4.0,\u003e=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":51.930860525,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":51.930864942,"data":"numba 0.61.2 requires numpy\u003c2.3,\u003e=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":51.930869663,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stdout","time":52.122465604,"data":"Verified public data and author ShallowNet. All10people,nested early stopping,75min budget.\n"}
+,{"stream_name":"stdout","time":52.123399169,"data":"CUDA DEVICES 2 ['Tesla T4', 'Tesla T4']\n"}
+,{"stream_name":"stderr","time":52.124736573,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":52.124747281,"data":"bigframes 2.51.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":52.124752065,"data":"ydata-profiling 4.18.4 requires numpy\u003c2.4,\u003e=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124755947,"data":"ydata-profiling 4.18.4 requires pandas!=1.4.0,\u003c3.0,\u003e1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124759805,"data":"ydata-profiling 4.18.4 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124765487,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124787594,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124792725,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124796997,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124801587,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124806016,"data":"dask-cudf-cu13 26.6.0 requires pandas\u003c2.4.0,\u003e=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124809938,"data":"cudf-cu13 26.6.0 requires pandas\u003c2.4.0,\u003e=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124813802,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124817519,"data":"numba 0.61.2 requires numpy\u003c2.3,\u003e=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124821187,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124824987,"data":"\n"}
+,{"stream_name":"stderr","time":52.124828502,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stderr","time":52.124841391,"data":"bigframes 2.51.0 requires google-cloud-bigquery-storage\u003c3.0.0,\u003e=2.30.0, which is not installed.\n"}
+,{"stream_name":"stderr","time":52.124844667,"data":"ydata-profiling 4.18.4 requires numpy\u003c2.4,\u003e=1.22, but you have numpy 2.5.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124847298,"data":"ydata-profiling 4.18.4 requires pandas!=1.4.0,\u003c3.0,\u003e1.5, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124850402,"data":"ydata-profiling 4.18.4 requires scipy\u003c1.17,\u003e=1.8, but you have scipy 1.18.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124853001,"data":"google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124855527,"data":"google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124864222,"data":"google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124866869,"data":"dopamine-rl 4.1.2 requires gym\u003c=0.25.2, but you have gym 0.26.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124869542,"data":"moviepy 1.0.3 requires decorator\u003c5.0,\u003e=4.0.2, but you have decorator 5.3.1 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124885927,"data":"dask-cudf-cu13 26.6.0 requires pandas\u003c2.4.0,\u003e=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124890771,"data":"cudf-cu13 26.6.0 requires pandas\u003c2.4.0,\u003e=2.0, but you have pandas 3.1.0 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124895077,"data":"ydf 0.15.0 requires protobuf\u003c7.0.0,\u003e=5.29.1, but you have protobuf 7.36.2 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124899461,"data":"numba 0.61.2 requires numpy\u003c2.3,\u003e=1.24, but you have numpy 2.5.4 which is incompatible.\n"}
+,{"stream_name":"stderr","time":52.124903453,"data":"gradio 6.30.0 requires pillow\u003c13.0,\u003e=8.0, but you have pillow 13.0.0 which is incompatible.\n"}
+,{"stream_name":"stdout","time":69.158377956,"data":"...................                                                               [100%]\n"}
+,{"stream_name":"stdout","time":69.158544226,"data":"=============================== warnings summary ===============================\n"}
+,{"stream_name":"stdout","time":69.158838663,"data":"../../../../../tmp/metric-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+,{"stream_name":"stdout","time":69.15885234,"data":"  /tmp/metric-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stdout","time":69.158871108,"data":"    from pandas.core import (\n"}
+,{"stream_name":"stdout","time":69.158876748,"data":"\n"}
+,{"stream_name":"stdout","time":69.158881639,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.158886782,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+,{"stream_name":"stdout","time":69.158891822,"data":"    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+,{"stream_name":"stdout","time":69.158896228,"data":"\n"}
+,{"stream_name":"stdout","time":69.158931743,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.15894283,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.158948071,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.158952822,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.158957383,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.158961623,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.158965433,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+,{"stream_name":"stdout","time":69.158969459,"data":"    parse = parser.parseString(pattern)\n"}
+,{"stream_name":"stdout","time":69.15897328,"data":"\n"}
+,{"stream_name":"stdout","time":69.158987487,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.158991526,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.158995305,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.158998977,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.159003473,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.159008111,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.159012565,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+,{"stream_name":"stdout","time":69.159029137,"data":"    parser.resetCache()\n"}
+,{"stream_name":"stdout","time":69.159033146,"data":"\n"}
+,{"stream_name":"stdout","time":69.159045592,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.1590494,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+,{"stream_name":"stdout","time":69.159053216,"data":"    ParserElement.enablePackrat()\n"}
+,{"stream_name":"stdout","time":69.159056562,"data":"\n"}
+,{"stream_name":"stdout","time":69.159059813,"data":"-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+,{"stream_name":"stdout","time":69.159235159,"data":"10 passed, 15 warnings in 15.38s\n"}
+,{"stream_name":"stdout","time":69.35866821,"data":".                                                               [100%]\n"}
+,{"stream_name":"stdout","time":69.358702193,"data":"=============================== warnings summary ===============================\n"}
+,{"stream_name":"stdout","time":69.358706604,"data":"../../../../../tmp/metric-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63\n"}
+,{"stream_name":"stdout","time":69.358710806,"data":"  /tmp/metric-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stdout","time":69.358715191,"data":"    from pandas.core import (\n"}
+,{"stream_name":"stdout","time":69.358718826,"data":"\n"}
+,{"stream_name":"stdout","time":69.358722546,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.358726368,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n"}
+,{"stream_name":"stdout","time":69.358730672,"data":"    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n"}
+,{"stream_name":"stdout","time":69.358742324,"data":"\n"}
+,{"stream_name":"stdout","time":69.35874607,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.358749864,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.358753616,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.358757427,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.358761064,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.358781103,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.358785042,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n"}
+,{"stream_name":"stdout","time":69.358788925,"data":"    parse = parser.parseString(pattern)\n"}
+,{"stream_name":"stdout","time":69.358792851,"data":"\n"}
+,{"stream_name":"stdout","time":69.358796446,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.358800303,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.358804172,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.358807937,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.35881177,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.358815815,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.35881961,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n"}
+,{"stream_name":"stdout","time":69.35882345,"data":"    parser.resetCache()\n"}
+,{"stream_name":"stdout","time":69.358827093,"data":"\n"}
+,{"stream_name":"stdout","time":69.358830495,"data":"test_training.py::test_training_checkpoint_and_selection_smoke\n"}
+,{"stream_name":"stdout","time":69.358835399,"data":"  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n"}
+,{"stream_name":"stdout","time":69.35883986,"data":"    ParserElement.enablePackrat()\n"}
+,{"stream_name":"stdout","time":69.358843897,"data":"\n"}
+,{"stream_name":"stdout","time":69.358847475,"data":"-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"}
+,{"stream_name":"stdout","time":69.358851416,"data":"10 passed, 15 warnings in 15.38s\n"}
+,{"stream_name":"stderr","time":76.595298755,"data":"/tmp/metric-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":76.595339997,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stderr","time":76.797869895,"data":"/tmp/metric-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":76.797905957,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stderr","time":76.797926328,"data":"\n"}
+,{"stream_name":"stderr","time":76.797932602,"data":"/tmp/metric-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stderr","time":76.797937703,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stdout","time":83.680961012,"data":"CNN_EPOCH  tmp 0 1 trainCE 1.0968 valCE -\n"}
+,{"stream_name":"stdout","time":83.683616949,"data":"CUDA weighted training and checkpoint smoke passed\n"}
+,{"stream_name":"stdout","time":83.88682357,"data":"CNN_EPOCH  tmp 0 1 trainCE 1.0968 valCE -\n"}
+,{"stream_name":"stdout","time":83.886853535,"data":"CUDA weighted training and checkpoint smoke passed\n"}
+,{"stream_name":"stdout","time":89.225625762,"data":"/tmp/metric-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stdout","time":89.226443098,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stdout","time":93.915823012,"data":"/tmp/metric-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stdout","time":93.917514317,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stdout","time":93.929125525,"data":"/tmp/metric-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stdout","time":93.931215661,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stdout","time":95.69998952,"data":"NEURAL_FOLD loso_P01 seed 0 GPU 1 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":95.704248951,"data":"NEURAL_FOLD loso_P02 seed 0 GPU 0 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":108.410560731,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.8159 valCE 1.0879\n"}
+,{"stream_name":"stdout","time":108.412558608,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.806 valCE 1.1068\n"}
+,{"stream_name":"stdout","time":119.582104955,"data":"CNN_EPOCH shallow40_class seed0 0 5 trainCE 0.1202 valCE 1.3871\n"}
+,{"stream_name":"stdout","time":119.640318343,"data":"CNN_EPOCH shallow40_class seed0 0 5 trainCE 0.1236 valCE 1.4403\n"}
+,{"stream_name":"stdout","time":125.546555591,"data":"CNN_EPOCH shallow40_class seed0 0 7 trainCE 0.062 valCE 1.4191\n"}
+,{"stream_name":"stdout","time":125.6750058,"data":"CNN_EPOCH shallow40_class seed0 0 7 trainCE 0.0566 valCE 1.6157\n"}
+,{"stream_name":"stdout","time":129.701396656,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.722 valCE -\n"}
+,{"stream_name":"stdout","time":129.860772783,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.7285 valCE -\n"}
+,{"stream_name":"stdout","time":130.027959254,"data":"NEURAL_DONE loso_P02 shallow40_class 0 epochs 1 cell 0.5601030465949821\n"}
+,{"stream_name":"stdout","time":130.199532651,"data":"NEURAL_DONE loso_P01 shallow40_class 0 epochs 1 cell 0.515625\n"}
+,{"stream_name":"stdout","time":131.13060406,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9959 valCE 1.1319\n"}
+,{"stream_name":"stdout","time":131.364394897,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9919 valCE 1.0976\n"}
+,{"stream_name":"stdout","time":134.244633694,"data":"CNN_EPOCH shallow16_class seed0 0 5 trainCE 0.4366 valCE 1.3217\n"}
+,{"stream_name":"stdout","time":134.488122078,"data":"CNN_EPOCH shallow16_class seed0 0 5 trainCE 0.4324 valCE 1.2658\n"}
+,{"stream_name":"stdout","time":136.0071923,"data":"CNN_EPOCH shallow16_class seed0 0 7 trainCE 0.2906 valCE 1.3648\n"}
+,{"stream_name":"stdout","time":136.949394385,"data":"CNN_EPOCH shallow16_class seed0 0 8 trainCE 0.2287 valCE 1.4309\n"}
+,{"stream_name":"stdout","time":137.061636228,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.943 valCE -\n"}
+,{"stream_name":"stdout","time":137.343248772,"data":"NEURAL_DONE loso_P02 shallow16_class 0 epochs 1 cell 0.4297267025089606\n"}
+,{"stream_name":"stdout","time":138.015731838,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9259 valCE -\n"}
+,{"stream_name":"stdout","time":138.625399168,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9942 valCE 1.129\n"}
+,{"stream_name":"stdout","time":139.082018608,"data":"CNN_EPOCH shallow16_class seed0 0 2 trainCE 0.7247 valCE -\n"}
+,{"stream_name":"stdout","time":139.356124411,"data":"NEURAL_DONE loso_P01 shallow16_class 0 epochs 2 cell 0.5603158602150538\n"}
+,{"stream_name":"stdout","time":140.624710702,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9932 valCE 1.0973\n"}
+,{"stream_name":"stdout","time":141.75009433,"data":"CNN_EPOCH shallow16_subject seed0 0 5 trainCE 0.4804 valCE 1.3912\n"}
+,{"stream_name":"stdout","time":143.563752617,"data":"CNN_EPOCH shallow16_subject seed0 0 7 trainCE 0.3461 valCE 1.3696\n"}
+,{"stream_name":"stdout","time":143.761835549,"data":"CNN_EPOCH shallow16_subject seed0 0 5 trainCE 0.4629 valCE 1.2879\n"}
+,{"stream_name":"stdout","time":144.623619661,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9695 valCE -\n"}
+,{"stream_name":"stdout","time":144.90238764,"data":"NEURAL_DONE loso_P02 shallow16_subject 0 epochs 1 cell 0.505611559139785\n"}
+,{"stream_name":"stdout","time":145.931187609,"data":"NEURAL_FOLD loso_P03 seed 0 GPU 0 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":146.288014953,"data":"CNN_EPOCH shallow16_subject seed0 0 8 trainCE 0.2802 valCE 1.4707\n"}
+,{"stream_name":"stdout","time":147.379012982,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9503 valCE -\n"}
+,{"stream_name":"stdout","time":148.470590956,"data":"CNN_EPOCH shallow16_subject seed0 0 2 trainCE 0.766 valCE -\n"}
+,{"stream_name":"stdout","time":148.747556306,"data":"NEURAL_DONE loso_P01 shallow16_subject 0 epochs 2 cell 0.5336021505376345\n"}
+,{"stream_name":"stdout","time":149.75510491,"data":"NEURAL_FOLD loso_P04 seed 0 GPU 1 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":156.706060568,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.8202 valCE 1.0837\n"}
+,{"stream_name":"stdout","time":159.317980577,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.9107 valCE 1.2794\n"}
+,{"stream_name":"stdout","time":168.64343748,"data":"CNN_EPOCH shallow40_class seed0 0 5 trainCE 0.113 valCE 1.3379\n"}
+,{"stream_name":"stdout","time":168.974127215,"data":"CNN_EPOCH shallow40_class seed0 0 5 trainCE 0.1065 valCE 1.4525\n"}
+,{"stream_name":"stdout","time":175.089867227,"data":"CNN_EPOCH shallow40_class seed0 0 7 trainCE 0.0558 valCE 1.3614\n"}
+,{"stream_name":"stdout","time":176.538939801,"data":"CNN_EPOCH shallow40_class seed0 0 8 trainCE 0.0369 valCE 1.6086\n"}
+,{"stream_name":"stdout","time":179.590612729,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.7034 valCE -\n"}
+,{"stream_name":"stdout","time":179.890673287,"data":"NEURAL_DONE loso_P03 shallow40_class 0 epochs 1 cell 0.4870855734767025\n"}
+,{"stream_name":"stdout","time":180.419252306,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.6758 valCE -\n"}
+,{"stream_name":"stdout","time":181.03012232,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 1.0206 valCE 1.1389\n"}
+,{"stream_name":"stdout","time":184.350389856,"data":"CNN_EPOCH shallow40_class seed0 0 2 trainCE 0.3708 valCE -\n"}
+,{"stream_name":"stdout","time":184.35749882,"data":"CNN_EPOCH shallow16_class seed0 0 5 trainCE 0.4059 valCE 1.2959\n"}
+,{"stream_name":"stdout","time":185.225969433,"data":"NEURAL_DONE loso_P04 shallow40_class 0 epochs 2 cell 0.399174880525687\n"}
+,{"stream_name":"stdout","time":186.223557022,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9651 valCE 1.1224\n"}
+,{"stream_name":"stdout","time":186.986680969,"data":"CNN_EPOCH shallow16_class seed0 0 8 trainCE 0.2139 valCE 1.5163\n"}
+,{"stream_name":"stdout","time":188.137704134,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9406 valCE -\n"}
+,{"stream_name":"stdout","time":188.957765718,"data":"CNN_EPOCH shallow16_class seed0 0 5 trainCE 0.399 valCE 1.3052\n"}
+,{"stream_name":"stdout","time":189.293793885,"data":"CNN_EPOCH shallow16_class seed0 0 2 trainCE 0.699 valCE -\n"}
+,{"stream_name":"stdout","time":189.56478466,"data":"NEURAL_DONE loso_P03 shallow16_class 0 epochs 2 cell 0.4678203405017921\n"}
+,{"stream_name":"stdout","time":190.712047112,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 1.0066 valCE 1.1202\n"}
+,{"stream_name":"stdout","time":191.178055077,"data":"CNN_EPOCH shallow16_class seed0 0 8 trainCE 0.1987 valCE 1.4596\n"}
+,{"stream_name":"stdout","time":192.170990687,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9062 valCE -\n"}
+,{"stream_name":"stdout","time":193.173901962,"data":"CNN_EPOCH shallow16_class seed0 0 2 trainCE 0.6874 valCE -\n"}
+,{"stream_name":"stdout","time":193.95084617,"data":"NEURAL_DONE loso_P04 shallow16_class 0 epochs 2 cell 0.40014934289127835\n"}
+,{"stream_name":"stdout","time":194.085278278,"data":"CNN_EPOCH shallow16_subject seed0 0 5 trainCE 0.4489 valCE 1.3408\n"}
+,{"stream_name":"stdout","time":194.928490075,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9648 valCE 1.1234\n"}
+,{"stream_name":"stdout","time":196.734360443,"data":"CNN_EPOCH shallow16_subject seed0 0 8 trainCE 0.2704 valCE 1.5382\n"}
+,{"stream_name":"stdout","time":197.719715392,"data":"CNN_EPOCH shallow16_subject seed0 0 5 trainCE 0.399 valCE 1.3059\n"}
+,{"stream_name":"stdout","time":197.906344776,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9649 valCE -\n"}
+,{"stream_name":"stdout","time":199.085254274,"data":"CNN_EPOCH shallow16_subject seed0 0 2 trainCE 0.7576 valCE -\n"}
+,{"stream_name":"stdout","time":199.352417441,"data":"NEURAL_DONE loso_P03 shallow16_subject 0 epochs 2 cell 0.5089493727598566\n"}
+,{"stream_name":"stdout","time":199.95430873,"data":"CNN_EPOCH shallow16_subject seed0 0 8 trainCE 0.1988 valCE 1.4602\n"}
+,{"stream_name":"stdout","time":200.32521634,"data":"NEURAL_FOLD loso_P05 seed 0 GPU 0 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":200.972771687,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.927 valCE -\n"}
+,{"stream_name":"stdout","time":202.001642628,"data":"CNN_EPOCH shallow16_subject seed0 0 2 trainCE 0.7441 valCE -\n"}
+,{"stream_name":"stdout","time":202.791369779,"data":"NEURAL_DONE loso_P04 shallow16_subject 0 epochs 2 cell 0.4165359916367981\n"}
+,{"stream_name":"stdout","time":203.832713108,"data":"NEURAL_FOLD loso_P06 seed 0 GPU 1 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":211.175347546,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.819 valCE 1.1551\n"}
+,{"stream_name":"stdout","time":214.663148135,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.7928 valCE 1.0962\n"}
+,{"stream_name":"stdout","time":223.946277369,"data":"CNN_EPOCH shallow40_class seed0 0 5 trainCE 0.1249 valCE 1.3509\n"}
+,{"stream_name":"stdout","time":227.745920056,"data":"CNN_EPOCH shallow40_class seed0 0 5 trainCE 0.1201 valCE 1.3951\n"}
+,{"stream_name":"stdout","time":230.776545069,"data":"CNN_EPOCH shallow40_class seed0 0 7 trainCE 0.0618 valCE 1.5195\n"}
+,{"stream_name":"stdout","time":235.511024033,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.7473 valCE -\n"}
+,{"stream_name":"stdout","time":235.802756783,"data":"NEURAL_DONE loso_P05 shallow40_class 0 epochs 1 cell 0.42456317204301075\n"}
+,{"stream_name":"stdout","time":236.934975894,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 1.011 valCE 1.1165\n"}
+,{"stream_name":"stdout","time":237.820554921,"data":"CNN_EPOCH shallow40_class seed0 0 8 trainCE 0.0439 valCE 1.6462\n"}
+,{"stream_name":"stdout","time":240.314945528,"data":"CNN_EPOCH shallow16_class seed0 0 5 trainCE 0.4314 valCE 1.2285\n"}
+,{"stream_name":"stdout","time":242.581711382,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.7485 valCE -\n"}
+,{"stream_name":"stdout","time":243.675984499,"data":"CNN_EPOCH shallow16_class seed0 0 9 trainCE 0.1953 valCE 1.4142\n"}
+,{"stream_name":"stdout","time":244.820095984,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9375 valCE -\n"}
+,{"stream_name":"stdout","time":246.982957674,"data":"CNN_EPOCH shallow16_class seed0 0 3 trainCE 0.5478 valCE -\n"}
+,{"stream_name":"stdout","time":247.253439965,"data":"NEURAL_DONE loso_P05 shallow16_class 0 epochs 3 cell 0.5099126344086022\n"}
+,{"stream_name":"stdout","time":247.289047797,"data":"CNN_EPOCH shallow40_class seed0 0 2 trainCE 0.4556 valCE -\n"}
+,{"stream_name":"stdout","time":247.56582362,"data":"NEURAL_DONE loso_P06 shallow40_class 0 epochs 2 cell 0.5679883512544803\n"}
+,{"stream_name":"stdout","time":248.392723753,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9969 valCE 1.1277\n"}
+,{"stream_name":"stdout","time":248.726092543,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9865 valCE 1.1093\n"}
+,{"stream_name":"stdout","time":251.715091735,"data":"CNN_EPOCH shallow16_subject seed0 0 5 trainCE 0.4598 valCE 1.2589\n"}
+,{"stream_name":"stdout","time":252.117981889,"data":"CNN_EPOCH shallow16_class seed0 0 5 trainCE 0.4139 valCE 1.3384\n"}
+,{"stream_name":"stdout","time":254.812522485,"data":"CNN_EPOCH shallow16_class seed0 0 8 trainCE 0.2221 valCE 1.5505\n"}
+,{"stream_name":"stdout","time":255.048625118,"data":"CNN_EPOCH shallow16_subject seed0 0 9 trainCE 0.246 valCE 1.5321\n"}
+,{"stream_name":"stdout","time":255.997139127,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.92 valCE -\n"}
+,{"stream_name":"stdout","time":256.185949747,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9556 valCE -\n"}
+,{"stream_name":"stdout","time":257.165504279,"data":"CNN_EPOCH shallow16_class seed0 0 2 trainCE 0.7113 valCE -\n"}
+,{"stream_name":"stdout","time":257.429817823,"data":"NEURAL_DONE loso_P06 shallow16_class 0 epochs 2 cell 0.5191644265232975\n"}
+,{"stream_name":"stdout","time":258.332252795,"data":"CNN_EPOCH shallow16_subject seed0 0 3 trainCE 0.6073 valCE -\n"}
+,{"stream_name":"stdout","time":258.567887529,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9808 valCE 1.1059\n"}
+,{"stream_name":"stdout","time":258.608384599,"data":"NEURAL_DONE loso_P05 shallow16_subject 0 epochs 3 cell 0.5414986559139785\n"}
+,{"stream_name":"stdout","time":259.605993502,"data":"NEURAL_FOLD loso_P07 seed 0 GPU 0 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":261.977169995,"data":"CNN_EPOCH shallow16_subject seed0 0 5 trainCE 0.4567 valCE 1.3226\n"}
+,{"stream_name":"stdout","time":264.64190875,"data":"CNN_EPOCH shallow16_subject seed0 0 8 trainCE 0.2784 valCE 1.5512\n"}
+,{"stream_name":"stdout","time":265.802184459,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9607 valCE -\n"}
+,{"stream_name":"stdout","time":266.975574566,"data":"CNN_EPOCH shallow16_subject seed0 0 2 trainCE 0.775 valCE -\n"}
+,{"stream_name":"stdout","time":267.237277795,"data":"NEURAL_DONE loso_P06 shallow16_subject 0 epochs 2 cell 0.501836917562724\n"}
+,{"stream_name":"stdout","time":268.229883709,"data":"NEURAL_FOLD loso_P08 seed 0 GPU 1 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":270.328012849,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.793 valCE 1.0886\n"}
+,{"stream_name":"stdout","time":279.25585272,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.793 valCE 1.123\n"}
+,{"stream_name":"stdout","time":282.91220969,"data":"CNN_EPOCH shallow40_class seed0 0 5 trainCE 0.1389 valCE 1.4037\n"}
+,{"stream_name":"stdout","time":289.528920936,"data":"CNN_EPOCH shallow40_class seed0 0 7 trainCE 0.0594 valCE 1.6633\n"}
+,{"stream_name":"stdout","time":292.193842582,"data":"CNN_EPOCH shallow40_class seed0 0 5 trainCE 0.1389 valCE 1.4369\n"}
+,{"stream_name":"stdout","time":294.22005829,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.7105 valCE -\n"}
+,{"stream_name":"stdout","time":294.517682349,"data":"NEURAL_DONE loso_P07 shallow40_class 0 epochs 1 cell 0.4966509856630824\n"}
+,{"stream_name":"stdout","time":295.668948577,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9792 valCE 1.0908\n"}
+,{"stream_name":"stdout","time":299.095426787,"data":"CNN_EPOCH shallow16_class seed0 0 5 trainCE 0.4587 valCE 1.2563\n"}
+,{"stream_name":"stdout","time":299.223789345,"data":"CNN_EPOCH shallow40_class seed0 0 7 trainCE 0.0594 valCE 1.7185\n"}
+,{"stream_name":"stdout","time":301.045146447,"data":"CNN_EPOCH shallow16_class seed0 0 7 trainCE 0.3104 valCE 1.386\n"}
+,{"stream_name":"stdout","time":302.224520128,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9468 valCE -\n"}
+,{"stream_name":"stdout","time":302.495655885,"data":"NEURAL_DONE loso_P07 shallow16_class 0 epochs 1 cell 0.3377688172043011\n"}
+,{"stream_name":"stdout","time":303.63876144,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9757 valCE 1.0859\n"}
+,{"stream_name":"stdout","time":304.137595294,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.7762 valCE -\n"}
+,{"stream_name":"stdout","time":304.427651536,"data":"NEURAL_DONE loso_P08 shallow40_class 0 epochs 1 cell 0.6564516129032258\n"}
+,{"stream_name":"stdout","time":305.616020827,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9792 valCE 1.104\n"}
+,{"stream_name":"stdout","time":307.017126676,"data":"CNN_EPOCH shallow16_subject seed0 0 5 trainCE 0.4956 valCE 1.3373\n"}
+,{"stream_name":"stdout","time":308.923889409,"data":"CNN_EPOCH shallow16_subject seed0 0 7 trainCE 0.3599 valCE 1.4788\n"}
+,{"stream_name":"stdout","time":309.133085507,"data":"CNN_EPOCH shallow16_class seed0 0 5 trainCE 0.4587 valCE 1.3293\n"}
+,{"stream_name":"stdout","time":310.096269594,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9849 valCE -\n"}
+,{"stream_name":"stdout","time":310.378000697,"data":"NEURAL_DONE loso_P07 shallow16_subject 0 epochs 1 cell 0.40011200716845874\n"}
+,{"stream_name":"stdout","time":311.115992248,"data":"CNN_EPOCH shallow16_class seed0 0 7 trainCE 0.3104 valCE 1.4538\n"}
+,{"stream_name":"stdout","time":311.442814805,"data":"NEURAL_FOLD loso_P09 seed 0 GPU 0 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":312.316534745,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9692 valCE -\n"}
+,{"stream_name":"stdout","time":312.590545685,"data":"NEURAL_DONE loso_P08 shallow16_class 0 epochs 1 cell 0.5365367383512545\n"}
+,{"stream_name":"stdout","time":313.761607411,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9757 valCE 1.1107\n"}
+,{"stream_name":"stdout","time":317.24366032,"data":"CNN_EPOCH shallow16_subject seed0 0 5 trainCE 0.4956 valCE 1.4137\n"}
+,{"stream_name":"stdout","time":319.231695096,"data":"CNN_EPOCH shallow16_subject seed0 0 7 trainCE 0.3599 valCE 1.5584\n"}
+,{"stream_name":"stdout","time":320.421394301,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 1.0035 valCE -\n"}
+,{"stream_name":"stdout","time":320.701790959,"data":"NEURAL_DONE loso_P08 shallow16_subject 0 epochs 1 cell 0.5205421146953405\n"}
+,{"stream_name":"stdout","time":321.716226333,"data":"NEURAL_FOLD loso_P10 seed 0 GPU 1 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":322.375352795,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.7695 valCE 1.2053\n"}
+,{"stream_name":"stdout","time":332.019491487,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.7695 valCE 1.0076\n"}
+,{"stream_name":"stdout","time":334.849982608,"data":"CNN_EPOCH shallow40_class seed0 0 5 trainCE 0.1212 valCE 1.408\n"}
+,{"stream_name":"stdout","time":344.703355009,"data":"CNN_EPOCH shallow40_class seed0 0 5 trainCE 0.1212 valCE 0.9801\n"}
+,{"stream_name":"stdout","time":347.411788422,"data":"CNN_EPOCH shallow40_class seed0 0 9 trainCE 0.0329 valCE 1.6211\n"}
+,{"stream_name":"stdout","time":352.020197757,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.736 valCE -\n"}
+,{"stream_name":"stdout","time":354.404694247,"data":"CNN_EPOCH shallow40_class seed0 0 8 trainCE 0.0421 valCE 1.0284\n"}
+,{"stream_name":"stdout","time":358.419866785,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.7608 valCE -\n"}
+,{"stream_name":"stdout","time":360.822874489,"data":"CNN_EPOCH shallow40_class seed0 0 3 trainCE 0.2489 valCE -\n"}
+,{"stream_name":"stdout","time":361.14064235,"data":"NEURAL_DONE loso_P09 shallow40_class 0 epochs 3 cell 0.46659482758620685\n"}
+,{"stream_name":"stdout","time":362.287195958,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9645 valCE 1.087\n"}
+,{"stream_name":"stdout","time":362.427495981,"data":"CNN_EPOCH shallow40_class seed0 0 2 trainCE 0.449 valCE -\n"}
+,{"stream_name":"stdout","time":363.322809325,"data":"NEURAL_DONE loso_P10 shallow40_class 0 epochs 2 cell 0.5155675380398111\n"}
+,{"stream_name":"stdout","time":364.457133469,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9645 valCE 1.0608\n"}
+,{"stream_name":"stdout","time":365.654561268,"data":"CNN_EPOCH shallow16_class seed0 0 5 trainCE 0.3885 valCE 1.2674\n"}
+,{"stream_name":"stdout","time":367.557419552,"data":"CNN_EPOCH shallow16_class seed0 0 7 trainCE 0.2528 valCE 1.4162\n"}
+,{"stream_name":"stdout","time":367.806709419,"data":"CNN_EPOCH shallow16_class seed0 0 5 trainCE 0.3885 valCE 0.8673\n"}
+,{"stream_name":"stdout","time":368.703390068,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9504 valCE -\n"}
+,{"stream_name":"stdout","time":368.969052943,"data":"NEURAL_DONE loso_P09 shallow16_class 0 epochs 1 cell 0.44935344827586204\n"}
+,{"stream_name":"stdout","time":370.105316097,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9617 valCE 1.1105\n"}
+,{"stream_name":"stdout","time":371.902544649,"data":"CNN_EPOCH shallow16_class seed0 0 10 trainCE 0.1471 valCE 0.9466\n"}
+,{"stream_name":"stdout","time":373.006770235,"data":"CNN_EPOCH shallow16_class seed0 0 11 trainCE 0.1281 valCE 0.9538\n"}
+,{"stream_name":"stdout","time":373.454250239,"data":"CNN_EPOCH shallow16_subject seed0 0 5 trainCE 0.4539 valCE 1.3116\n"}
+,{"stream_name":"stdout","time":373.996247182,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9292 valCE -\n"}
+,{"stream_name":"stdout","time":375.349752804,"data":"CNN_EPOCH shallow16_subject seed0 0 7 trainCE 0.3217 valCE 1.4241\n"}
+,{"stream_name":"stdout","time":376.486192438,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9859 valCE -\n"}
+,{"stream_name":"stdout","time":376.757494387,"data":"NEURAL_DONE loso_P09 shallow16_subject 0 epochs 1 cell 0.49838362068965514\n"}
+,{"stream_name":"stdout","time":377.641011033,"data":"CNN_EPOCH shallow16_class seed0 0 5 trainCE 0.3646 valCE -\n"}
+,{"stream_name":"stdout","time":377.745528871,"data":"NEURAL_FOLD later_last seed 0 GPU 0 inner_people 8 2\n"}
+,{"stream_name":"stdout","time":378.428664351,"data":"NEURAL_DONE loso_P10 shallow16_class 0 epochs 5 cell 0.5195368760531033\n"}
+,{"stream_name":"stdout","time":379.572995737,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9617 valCE 1.0624\n"}
+,{"stream_name":"stdout","time":382.935637379,"data":"CNN_EPOCH shallow16_subject seed0 0 5 trainCE 0.454 valCE 0.8975\n"}
+,{"stream_name":"stdout","time":387.035775058,"data":"CNN_EPOCH shallow16_subject seed0 0 10 trainCE 0.2022 valCE 0.9511\n"}
+,{"stream_name":"stdout","time":388.142930715,"data":"CNN_EPOCH shallow16_subject seed0 0 11 trainCE 0.1821 valCE 0.952\n"}
+,{"stream_name":"stdout","time":388.183092491,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.7785 valCE 1.2487\n"}
+,{"stream_name":"stdout","time":389.137218926,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9251 valCE -\n"}
+,{"stream_name":"stdout","time":392.798113203,"data":"CNN_EPOCH shallow16_subject seed0 0 5 trainCE 0.4082 valCE -\n"}
+,{"stream_name":"stdout","time":393.578728985,"data":"NEURAL_DONE loso_P10 shallow16_subject 0 epochs 5 cell 0.5104539948163173\n"}
+,{"stream_name":"stdout","time":400.485213908,"data":"CNN_EPOCH shallow40_class seed0 0 5 trainCE 0.0929 valCE 1.4783\n"}
+,{"stream_name":"stdout","time":410.017492987,"data":"CNN_EPOCH shallow40_class seed0 0 8 trainCE 0.0344 valCE 1.6008\n"}
+,{"stream_name":"stdout","time":414.254057815,"data":"CNN_EPOCH shallow40_class seed0 0 1 trainCE 0.7546 valCE -\n"}
+,{"stream_name":"stdout","time":418.520223794,"data":"CNN_EPOCH shallow40_class seed0 0 2 trainCE 0.4475 valCE -\n"}
+,{"stream_name":"stdout","time":419.125056362,"data":"NEURAL_DONE later_last shallow40_class 0 epochs 2 cell 0.5559335562181863\n"}
+,{"stream_name":"stdout","time":420.246768261,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9268 valCE 1.1556\n"}
+,{"stream_name":"stdout","time":423.546031434,"data":"CNN_EPOCH shallow16_class seed0 0 5 trainCE 0.3302 valCE 1.2235\n"}
+,{"stream_name":"stdout","time":425.647731505,"data":"CNN_EPOCH shallow16_class seed0 0 7 trainCE 0.2138 valCE 1.3104\n"}
+,{"stream_name":"stdout","time":426.704221755,"data":"CNN_EPOCH shallow16_class seed0 0 1 trainCE 0.9364 valCE -\n"}
+,{"stream_name":"stdout","time":427.217144498,"data":"NEURAL_DONE later_last shallow16_class 0 epochs 1 cell 0.3957906011867113\n"}
+,{"stream_name":"stdout","time":428.333270636,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.9423 valCE 1.1413\n"}
+,{"stream_name":"stdout","time":431.619951304,"data":"CNN_EPOCH shallow16_subject seed0 0 5 trainCE 0.3513 valCE 1.1993\n"}
+,{"stream_name":"stdout","time":434.915854031,"data":"CNN_EPOCH shallow16_subject seed0 0 9 trainCE 0.158 valCE 1.4049\n"}
+,{"stream_name":"stdout","time":435.976265647,"data":"CNN_EPOCH shallow16_subject seed0 0 1 trainCE 0.942 valCE -\n"}
+,{"stream_name":"stdout","time":437.974311177,"data":"CNN_EPOCH shallow16_subject seed0 0 3 trainCE 0.5834 valCE -\n"}
+,{"stream_name":"stdout","time":438.481523579,"data":"NEURAL_DONE later_last shallow16_subject 0 epochs 3 cell 0.5460004969729827\n"}
+,{"stream_name":"stdout","time":442.563070549,"data":"/tmp/metric-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stdout","time":442.565047186,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stdout","time":442.565222842,"data":"/tmp/metric-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stdout","time":442.566282548,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stdout","time":444.303699449,"data":"NEURAL_FOLD loso_P01 seed 1 GPU 0 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":444.325559297,"data":"NEURAL_FOLD loso_P02 seed 1 GPU 1 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":454.514162167,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 1.0087 valCE 1.0874\n"}
+,{"stream_name":"stdout","time":454.736024781,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 1.0502 valCE 1.1477\n"}
+,{"stream_name":"stdout","time":457.793015173,"data":"CNN_EPOCH shallow16_class seed1 1 5 trainCE 0.4289 valCE 1.2031\n"}
+,{"stream_name":"stdout","time":457.917479404,"data":"CNN_EPOCH shallow16_class seed1 1 5 trainCE 0.4453 valCE 1.1455\n"}
+,{"stream_name":"stdout","time":459.633701276,"data":"CNN_EPOCH shallow16_class seed1 1 7 trainCE 0.2723 valCE 1.3051\n"}
+,{"stream_name":"stdout","time":460.766671914,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 0.9785 valCE -\n"}
+,{"stream_name":"stdout","time":461.057818627,"data":"NEURAL_DONE loso_P01 shallow16_class 1 epochs 1 cell 0.3983534946236559\n"}
+,{"stream_name":"stdout","time":461.150042262,"data":"CNN_EPOCH shallow16_class seed1 1 9 trainCE 0.2076 valCE 1.2736\n"}
+,{"stream_name":"stdout","time":462.173082178,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 1.0014 valCE 1.0813\n"}
+,{"stream_name":"stdout","time":462.256586318,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 0.9451 valCE -\n"}
+,{"stream_name":"stdout","time":464.354603502,"data":"CNN_EPOCH shallow16_class seed1 1 3 trainCE 0.5587 valCE -\n"}
+,{"stream_name":"stdout","time":464.650747856,"data":"NEURAL_DONE loso_P02 shallow16_class 1 epochs 3 cell 0.6069668458781362\n"}
+,{"stream_name":"stdout","time":465.517400647,"data":"CNN_EPOCH shallow16_subject seed1 1 5 trainCE 0.4713 valCE 1.2572\n"}
+,{"stream_name":"stdout","time":465.74222976,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 1.0567 valCE 1.1447\n"}
+,{"stream_name":"stdout","time":467.412051124,"data":"CNN_EPOCH shallow16_subject seed1 1 7 trainCE 0.3381 valCE 1.3735\n"}
+,{"stream_name":"stdout","time":468.563041154,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 0.9872 valCE -\n"}
+,{"stream_name":"stdout","time":468.837191581,"data":"NEURAL_DONE loso_P01 shallow16_subject 1 epochs 1 cell 0.44657258064516125\n"}
+,{"stream_name":"stdout","time":469.028807711,"data":"CNN_EPOCH shallow16_subject seed1 1 5 trainCE 0.4849 valCE 1.1819\n"}
+,{"stream_name":"stdout","time":469.829349085,"data":"NEURAL_FOLD loso_P03 seed 1 GPU 0 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":472.372019106,"data":"CNN_EPOCH shallow16_subject seed1 1 9 trainCE 0.2498 valCE 1.417\n"}
+,{"stream_name":"stdout","time":473.54511049,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 0.9727 valCE -\n"}
+,{"stream_name":"stdout","time":475.687136721,"data":"CNN_EPOCH shallow16_subject seed1 1 3 trainCE 0.6561 valCE -\n"}
+,{"stream_name":"stdout","time":475.952036629,"data":"NEURAL_DONE loso_P02 shallow16_subject 1 epochs 3 cell 0.5941308243727599\n"}
+,{"stream_name":"stdout","time":476.937136999,"data":"NEURAL_FOLD loso_P04 seed 1 GPU 1 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":478.393146863,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 1.0415 valCE 1.1502\n"}
+,{"stream_name":"stdout","time":481.790091162,"data":"CNN_EPOCH shallow16_class seed1 1 5 trainCE 0.3979 valCE 1.1393\n"}
+,{"stream_name":"stdout","time":484.654248923,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 1.0507 valCE 1.1576\n"}
+,{"stream_name":"stdout","time":485.215839161,"data":"CNN_EPOCH shallow16_class seed1 1 9 trainCE 0.1788 valCE 1.2461\n"}
+,{"stream_name":"stdout","time":486.398346078,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 0.9375 valCE -\n"}
+,{"stream_name":"stdout","time":487.3543333,"data":"CNN_EPOCH shallow16_class seed1 1 5 trainCE 0.4239 valCE 1.256\n"}
+,{"stream_name":"stdout","time":488.637152698,"data":"CNN_EPOCH shallow16_class seed1 1 3 trainCE 0.5331 valCE -\n"}
+,{"stream_name":"stdout","time":488.902836795,"data":"NEURAL_DONE loso_P03 shallow16_class 1 epochs 3 cell 0.4497311827956989\n"}
+,{"stream_name":"stdout","time":490.048018547,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 1.0554 valCE 1.1482\n"}
+,{"stream_name":"stdout","time":490.088420573,"data":"CNN_EPOCH shallow16_class seed1 1 9 trainCE 0.1736 valCE 1.4046\n"}
+,{"stream_name":"stdout","time":491.073853559,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 0.9299 valCE -\n"}
+,{"stream_name":"stdout","time":492.95737884,"data":"CNN_EPOCH shallow16_class seed1 1 3 trainCE 0.514 valCE -\n"}
+,{"stream_name":"stdout","time":493.53452116,"data":"CNN_EPOCH shallow16_subject seed1 1 5 trainCE 0.4407 valCE 1.1903\n"}
+,{"stream_name":"stdout","time":493.742024659,"data":"NEURAL_DONE loso_P04 shallow16_class 1 epochs 3 cell 0.4127240143369176\n"}
+,{"stream_name":"stdout","time":494.717797282,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 1.0513 valCE 1.158\n"}
+,{"stream_name":"stdout","time":497.02458234,"data":"CNN_EPOCH shallow16_subject seed1 1 9 trainCE 0.2233 valCE 1.3031\n"}
+,{"stream_name":"stdout","time":497.503980702,"data":"CNN_EPOCH shallow16_subject seed1 1 5 trainCE 0.4237 valCE 1.2526\n"}
+,{"stream_name":"stdout","time":498.223742318,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 0.9635 valCE -\n"}
+,{"stream_name":"stdout","time":500.27353972,"data":"CNN_EPOCH shallow16_subject seed1 1 9 trainCE 0.1739 valCE 1.4046\n"}
+,{"stream_name":"stdout","time":500.476924909,"data":"CNN_EPOCH shallow16_subject seed1 1 3 trainCE 0.616 valCE -\n"}
+,{"stream_name":"stdout","time":500.7444569,"data":"NEURAL_DONE loso_P03 shallow16_subject 1 epochs 3 cell 0.5033714157706093\n"}
+,{"stream_name":"stdout","time":501.283467558,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 0.9657 valCE -\n"}
+,{"stream_name":"stdout","time":501.77379286,"data":"NEURAL_FOLD loso_P05 seed 1 GPU 0 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":503.162947927,"data":"CNN_EPOCH shallow16_subject seed1 1 3 trainCE 0.5951 valCE -\n"}
+,{"stream_name":"stdout","time":503.949396814,"data":"NEURAL_DONE loso_P04 shallow16_subject 1 epochs 3 cell 0.3938694743130227\n"}
+,{"stream_name":"stdout","time":504.913480912,"data":"NEURAL_FOLD loso_P06 seed 1 GPU 1 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":510.146250549,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 1.0046 valCE 1.0877\n"}
+,{"stream_name":"stdout","time":513.290535639,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 0.9899 valCE 1.0948\n"}
+,{"stream_name":"stdout","time":513.474201869,"data":"CNN_EPOCH shallow16_class seed1 1 5 trainCE 0.4515 valCE 1.2235\n"}
+,{"stream_name":"stdout","time":516.091458155,"data":"CNN_EPOCH shallow16_class seed1 1 8 trainCE 0.2682 valCE 1.282\n"}
+,{"stream_name":"stdout","time":516.594835285,"data":"CNN_EPOCH shallow16_class seed1 1 5 trainCE 0.4229 valCE 1.1799\n"}
+,{"stream_name":"stdout","time":517.230267533,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 0.9755 valCE -\n"}
+,{"stream_name":"stdout","time":518.374103717,"data":"CNN_EPOCH shallow16_class seed1 1 2 trainCE 0.7152 valCE -\n"}
+,{"stream_name":"stdout","time":518.645870405,"data":"NEURAL_DONE loso_P05 shallow16_class 1 epochs 2 cell 0.4576612903225806\n"}
+,{"stream_name":"stdout","time":519.768571194,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 1.0021 valCE 1.0846\n"}
+,{"stream_name":"stdout","time":519.919877416,"data":"CNN_EPOCH shallow16_class seed1 1 9 trainCE 0.1961 valCE 1.3042\n"}
+,{"stream_name":"stdout","time":521.05745964,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 0.9434 valCE -\n"}
+,{"stream_name":"stdout","time":523.137781875,"data":"CNN_EPOCH shallow16_subject seed1 1 5 trainCE 0.5016 valCE 1.2666\n"}
+,{"stream_name":"stdout","time":523.222618387,"data":"CNN_EPOCH shallow16_class seed1 1 3 trainCE 0.5459 valCE -\n"}
+,{"stream_name":"stdout","time":523.498643475,"data":"NEURAL_DONE loso_P06 shallow16_class 1 epochs 3 cell 0.554603494623656\n"}
+,{"stream_name":"stdout","time":524.645481542,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 1.001 valCE 1.1028\n"}
+,{"stream_name":"stdout","time":525.793128547,"data":"CNN_EPOCH shallow16_subject seed1 1 8 trainCE 0.328 valCE 1.3556\n"}
+,{"stream_name":"stdout","time":526.945340498,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 0.9799 valCE -\n"}
+,{"stream_name":"stdout","time":528.009880836,"data":"CNN_EPOCH shallow16_subject seed1 1 5 trainCE 0.48 valCE 1.2371\n"}
+,{"stream_name":"stdout","time":528.099674909,"data":"CNN_EPOCH shallow16_subject seed1 1 2 trainCE 0.7857 valCE -\n"}
+,{"stream_name":"stdout","time":528.364808638,"data":"NEURAL_DONE loso_P05 shallow16_subject 1 epochs 2 cell 0.5152889784946237\n"}
+,{"stream_name":"stdout","time":529.400597442,"data":"NEURAL_FOLD loso_P07 seed 1 GPU 0 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":531.424311741,"data":"CNN_EPOCH shallow16_subject seed1 1 9 trainCE 0.252 valCE 1.4562\n"}
+,{"stream_name":"stdout","time":532.587350107,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 0.9634 valCE -\n"}
+,{"stream_name":"stdout","time":534.802087209,"data":"CNN_EPOCH shallow16_subject seed1 1 3 trainCE 0.6126 valCE -\n"}
+,{"stream_name":"stdout","time":535.060137384,"data":"NEURAL_DONE loso_P06 shallow16_subject 1 epochs 3 cell 0.5780577956989248\n"}
+,{"stream_name":"stdout","time":536.059818625,"data":"NEURAL_FOLD loso_P08 seed 1 GPU 1 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":537.822521596,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 1.0602 valCE 1.1553\n"}
+,{"stream_name":"stdout","time":541.150997726,"data":"CNN_EPOCH shallow16_class seed1 1 5 trainCE 0.4531 valCE 1.1728\n"}
+,{"stream_name":"stdout","time":544.367208926,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 1.0602 valCE 1.1542\n"}
+,{"stream_name":"stdout","time":544.457985535,"data":"CNN_EPOCH shallow16_class seed1 1 9 trainCE 0.2192 valCE 1.2838\n"}
+,{"stream_name":"stdout","time":545.594753314,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 0.9419 valCE -\n"}
+,{"stream_name":"stdout","time":547.698445447,"data":"CNN_EPOCH shallow16_class seed1 1 5 trainCE 0.4531 valCE 1.1936\n"}
+,{"stream_name":"stdout","time":547.755399586,"data":"CNN_EPOCH shallow16_class seed1 1 3 trainCE 0.5528 valCE -\n"}
+,{"stream_name":"stdout","time":548.024382167,"data":"NEURAL_DONE loso_P07 shallow16_class 1 epochs 3 cell 0.6124327956989248\n"}
+,{"stream_name":"stdout","time":549.150344349,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 1.0626 valCE 1.1491\n"}
+,{"stream_name":"stdout","time":551.074878755,"data":"CNN_EPOCH shallow16_class seed1 1 9 trainCE 0.2191 valCE 1.2557\n"}
+,{"stream_name":"stdout","time":552.235232467,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 0.9425 valCE -\n"}
+,{"stream_name":"stdout","time":552.519323684,"data":"CNN_EPOCH shallow16_subject seed1 1 5 trainCE 0.5057 valCE 1.127\n"}
+,{"stream_name":"stdout","time":554.449332173,"data":"CNN_EPOCH shallow16_class seed1 1 3 trainCE 0.5562 valCE -\n"}
+,{"stream_name":"stdout","time":554.712475331,"data":"NEURAL_DONE loso_P08 shallow16_class 1 epochs 3 cell 0.6980958781362007\n"}
+,{"stream_name":"stdout","time":555.85087509,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 1.0626 valCE 1.1537\n"}
+,{"stream_name":"stdout","time":555.890152594,"data":"CNN_EPOCH shallow16_subject seed1 1 9 trainCE 0.2684 valCE 1.2905\n"}
+,{"stream_name":"stdout","time":557.061141069,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 0.9572 valCE -\n"}
+,{"stream_name":"stdout","time":559.278056599,"data":"CNN_EPOCH shallow16_subject seed1 1 3 trainCE 0.6396 valCE -\n"}
+,{"stream_name":"stdout","time":559.279839026,"data":"CNN_EPOCH shallow16_subject seed1 1 5 trainCE 0.5058 valCE 1.1762\n"}
+,{"stream_name":"stdout","time":559.54197784,"data":"NEURAL_DONE loso_P07 shallow16_subject 1 epochs 3 cell 0.5501120071684589\n"}
+,{"stream_name":"stdout","time":560.544452773,"data":"NEURAL_FOLD loso_P09 seed 1 GPU 0 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":562.733004084,"data":"CNN_EPOCH shallow16_subject seed1 1 9 trainCE 0.2684 valCE 1.3144\n"}
+,{"stream_name":"stdout","time":563.957971976,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 0.9668 valCE -\n"}
+,{"stream_name":"stdout","time":566.252017518,"data":"CNN_EPOCH shallow16_subject seed1 1 3 trainCE 0.6445 valCE -\n"}
+,{"stream_name":"stdout","time":566.487579526,"data":"NEURAL_DONE loso_P08 shallow16_subject 1 epochs 3 cell 0.7045138888888889\n"}
+,{"stream_name":"stdout","time":567.472010447,"data":"NEURAL_FOLD loso_P10 seed 1 GPU 1 inner_people 7 2\n"}
+,{"stream_name":"stdout","time":568.901614667,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 1.0279 valCE 1.1337\n"}
+,{"stream_name":"stdout","time":572.306858627,"data":"CNN_EPOCH shallow16_class seed1 1 5 trainCE 0.4245 valCE 1.2139\n"}
+,{"stream_name":"stdout","time":574.960862555,"data":"CNN_EPOCH shallow16_class seed1 1 8 trainCE 0.2307 valCE 1.3458\n"}
+,{"stream_name":"stdout","time":575.220224693,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 1.0279 valCE 1.1111\n"}
+,{"stream_name":"stdout","time":576.127171805,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 0.9378 valCE -\n"}
+,{"stream_name":"stdout","time":577.280455512,"data":"CNN_EPOCH shallow16_class seed1 1 2 trainCE 0.7256 valCE -\n"}
+,{"stream_name":"stdout","time":577.537209153,"data":"NEURAL_DONE loso_P09 shallow16_class 1 epochs 2 cell 0.49874281609195403\n"}
+,{"stream_name":"stdout","time":578.540547239,"data":"CNN_EPOCH shallow16_class seed1 1 5 trainCE 0.4245 valCE 0.9426\n"}
+,{"stream_name":"stdout","time":578.672108682,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 1.0368 valCE 1.1396\n"}
+,{"stream_name":"stdout","time":582.262060505,"data":"CNN_EPOCH shallow16_subject seed1 1 5 trainCE 0.4765 valCE 1.2636\n"}
+,{"stream_name":"stdout","time":582.611254564,"data":"CNN_EPOCH shallow16_class seed1 1 10 trainCE 0.1647 valCE 1.0367\n"}
+,{"stream_name":"stdout","time":583.597459092,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 0.9729 valCE -\n"}
+,{"stream_name":"stdout","time":584.165001015,"data":"CNN_EPOCH shallow16_subject seed1 1 7 trainCE 0.3467 valCE 1.4356\n"}
+,{"stream_name":"stdout","time":585.330543367,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 0.9539 valCE -\n"}
+,{"stream_name":"stdout","time":585.590696246,"data":"NEURAL_DONE loso_P09 shallow16_subject 1 epochs 1 cell 0.4337284482758621\n"}
+,{"stream_name":"stdout","time":586.360274229,"data":"CNN_EPOCH shallow16_class seed1 1 4 trainCE 0.506 valCE -\n"}
+,{"stream_name":"stdout","time":586.589393952,"data":"NEURAL_FOLD later_last seed 1 GPU 0 inner_people 8 2\n"}
+,{"stream_name":"stdout","time":587.169254733,"data":"NEURAL_DONE loso_P10 shallow16_class 1 epochs 4 cell 0.47363729371986096\n"}
+,{"stream_name":"stdout","time":588.2968888,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 1.0369 valCE 1.1098\n"}
+,{"stream_name":"stdout","time":591.67088613,"data":"CNN_EPOCH shallow16_subject seed1 1 5 trainCE 0.4765 valCE 0.9206\n"}
+,{"stream_name":"stdout","time":594.527031306,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 0.946 valCE 1.1245\n"}
+,{"stream_name":"stdout","time":596.039048325,"data":"CNN_EPOCH shallow16_subject seed1 1 10 trainCE 0.2314 valCE 1.0292\n"}
+,{"stream_name":"stdout","time":597.051940384,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 0.9596 valCE -\n"}
+,{"stream_name":"stdout","time":597.790608081,"data":"CNN_EPOCH shallow16_class seed1 1 5 trainCE 0.3274 valCE 1.2548\n"}
+,{"stream_name":"stdout","time":599.65478916,"data":"CNN_EPOCH shallow16_class seed1 1 7 trainCE 0.2078 valCE 1.2717\n"}
+,{"stream_name":"stdout","time":599.823280188,"data":"CNN_EPOCH shallow16_subject seed1 1 4 trainCE 0.538 valCE -\n"}
+,{"stream_name":"stdout","time":600.612244856,"data":"NEURAL_DONE loso_P10 shallow16_subject 1 epochs 4 cell 0.49766995337870656\n"}
+,{"stream_name":"stdout","time":600.706850172,"data":"CNN_EPOCH shallow16_class seed1 1 1 trainCE 0.9767 valCE -\n"}
+,{"stream_name":"stdout","time":601.242043062,"data":"NEURAL_DONE later_last shallow16_class 1 epochs 1 cell 0.40161332678232586\n"}
+,{"stream_name":"stdout","time":602.342947913,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 0.9497 valCE 1.1237\n"}
+,{"stream_name":"stdout","time":605.626753629,"data":"CNN_EPOCH shallow16_subject seed1 1 5 trainCE 0.3462 valCE 1.2823\n"}
+,{"stream_name":"stdout","time":607.468514451,"data":"CNN_EPOCH shallow16_subject seed1 1 7 trainCE 0.2231 valCE 1.3128\n"}
+,{"stream_name":"stdout","time":608.523884303,"data":"CNN_EPOCH shallow16_subject seed1 1 1 trainCE 0.9656 valCE -\n"}
+,{"stream_name":"stdout","time":609.035173129,"data":"NEURAL_DONE later_last shallow16_subject 1 epochs 1 cell 0.38559394860094576\n"}
+,{"stream_name":"stdout","time":610.560076804,"data":"/tmp/metric-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).\n"}
+,{"stream_name":"stdout","time":610.561019019,"data":"  from pandas.core import (\n"}
+,{"stream_name":"stdout","time":610.911409357,"data":"# Wave1: nested person-held-out CNNs\n"}
+,{"stream_name":"stdout","time":610.911436368,"data":"\n"}
+,{"stream_name":"stdout","time":610.912641419,"data":"Complete protocol requires10held-out people and one later-session fold covering2people.\n"}
+,{"stream_name":"stdout","time":610.914029091,"data":"No old public-test tuning;all10public people enter the new CV.\n"}
+,{"stream_name":"stdout","time":610.914998897,"data":"\n"}
+,{"stream_name":"stdout","time":610.916436046,"data":"           config  seed  loso_folds  later_folds  loso_mean_person_cell  later_cell  complete_protocol\n"}
+,{"stream_name":"stdout","time":610.917556335,"data":"  shallow16_class     0          10            1               0.473029    0.395791               True\n"}
+,{"stream_name":"stdout","time":610.918494005,"data":"  shallow16_class     1          10            1               0.516295    0.401613               True\n"}
+,{"stream_name":"stdout","time":610.919688711,"data":"shallow16_subject     0          10            1               0.493753    0.546000               True\n"}
+,{"stream_name":"stdout","time":610.922719791,"data":"shallow16_subject     1          10            1               0.521732    0.385594               True\n"}
+,{"stream_name":"stdout","time":610.923776881,"data":"  shallow40_class     0          10            1               0.508980    0.555934               True\n"}
+,{"stream_name":"stdout","time":610.924668348,"data":"\n"}
+,{"stream_name":"stdout","time":610.925495244,"data":"Completed network fits:55. Partial seed sets are labeled explicitly.\n"}
+,{"stream_name":"stdout","time":610.926364024,"data":"Next:combine saved predictions with matching local all10 Lag4 controls;rank official pooled OOF cellBA and report person-mean separately.\n"}
+,{"stream_name":"stdout","time":611.677037275,"data":"# Wave1: nested person-held-out CNNs\n"}
+,{"stream_name":"stdout","time":611.677077089,"data":"\n"}
+,{"stream_name":"stdout","time":611.677088465,"data":"Complete protocol requires10held-out people and one later-session fold covering2people.\n"}
+,{"stream_name":"stdout","time":611.677092132,"data":"No old public-test tuning;all10public people enter the new CV.\n"}
+,{"stream_name":"stdout","time":611.677104006,"data":"\n"}
+,{"stream_name":"stdout","time":611.677106408,"data":"           config  seed  loso_folds  later_folds  loso_mean_person_cell  later_cell  complete_protocol\n"}
+,{"stream_name":"stdout","time":611.677108775,"data":"  shallow16_class     0          10            1               0.473029    0.395791               True\n"}
+,{"stream_name":"stdout","time":611.677111089,"data":"  shallow16_class     1          10            1               0.516295    0.401613               True\n"}
+,{"stream_name":"stdout","time":611.677113404,"data":"shallow16_subject     0          10            1               0.493753    0.546000               True\n"}
+,{"stream_name":"stdout","time":611.677115717,"data":"shallow16_subject     1          10            1               0.521732    0.385594               True\n"}
+,{"stream_name":"stdout","time":611.677134667,"data":"  shallow40_class     0          10            1               0.508980    0.555934               True\n"}
+,{"stream_name":"stdout","time":611.677137348,"data":"\n"}
+,{"stream_name":"stdout","time":611.677139629,"data":"Completed network fits:55. Partial seed sets are labeled explicitly.\n"}
+,{"stream_name":"stdout","time":611.677142103,"data":"Next:combine saved predictions with matching local all10 Lag4 controls;rank official pooled OOF cellBA and report person-mean separately.\n"}
+,{"stream_name":"stdout","time":611.677144783,"data":"\n"}
+,{"stream_name":"stdout","time":611.677147058,"data":"Saved learning curves: 55\n"}
+,{"stream_name":"stderr","time":614.585126794,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":614.585173317,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":614.757624376,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":614.757665308,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":615.523733763,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":615.637498655,"data":"[NbConvertApp] Writing 109909 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":618.099702872,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":618.628441641,"data":"[NbConvertApp] Writing 396685 bytes to __results__.html\n"}
+]

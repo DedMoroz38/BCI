@@ -1,0 +1,38 @@
+{
+  "variant": "hsic_rbf",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P06",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P06"
+  ],
+  "train_windows": 1713,
+  "eval_windows": 187,
+  "fit_seconds": 2.3389568330021575,
+  "total_seconds": 2.608590833027847,
+  "session_mean_delta_vs_control": -0.0846560846560847,
+  "representation_definition": "R_ij=tr(H*K_i*H*H*K_j*H)/T^2 + eps*I; RBF sigma_i=median pairwise absolute differences per window/channel; eps=max(1e-12,1e-6*mean(diag(S)))",
+  "reference_update": "original cumulative log-Euclidean, prior_weight=5",
+  "cell_mean": 0.4280577956989247,
+  "session_mean": 0.4278033794162826,
+  "pooled": 0.4278033794162826,
+  "accuracy": 0.42780748663101603,
+  "matrix_cache_sha256": {
+    "hsic_rbf_band0": "78491ef790c835868f34ebcfe5fe42b06fcdc9e4261af49a5a47c3773db35c13",
+    "hsic_rbf_band1": "015bd599afc58dee1617992b8665f094caa6da1958f1aee410982f39c6b84504",
+    "hsic_rbf_band2": "7a325d272b615ce15e00575b9a5ebe7eaa943fec56d95967ccda3263b61515b0",
+    "hsic_rbf_band3": "515a8db245f243aa3e321994e881e28f0d83823b3e8e3e03d28b58b6082f807e",
+    "hsic_rbf_band4": "ef8039657cf6c87d5945ed5777532c2a49334ddaf8b28b6ae06db35f5c63b6e7",
+    "hsic_rbf_band5": "abb54ddb88e5fa1ca75de2e36849f15007b6b5b3b278abfa54ff770136b047bd"
+  },
+  "tangent_dimension": 861
+}

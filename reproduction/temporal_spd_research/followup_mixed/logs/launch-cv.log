@@ -1,0 +1,7 @@
+STARTSTART cv pyramid2_mixed  cv pyramid2_mixed forest20
+forest12
+DONE cv pyramid2_mixed forest12
+START cv pyramid2_mixed logreg
+DONE cv pyramid2_mixed logreg
+DONE cv pyramid2_mixed forest20
+PHASE COMPLETE cv

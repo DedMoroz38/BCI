@@ -1,0 +1,6 @@
+{
+  "parameters_exact": true,
+  "labels_exact": true,
+  "max_probability_delta": 0.0,
+  "atol": 0.0001
+}

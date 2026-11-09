@@ -1,0 +1,17 @@
+{
+  "prediction_sha256": "48b811e7fe5d586cb8b4219e92866c4296efe0abae7c2053711d8d3c5a17abe3",
+  "tag": "loso_P06",
+  "config": {
+    "name": "cnn_only",
+    "weight": 1,
+    "temp": 1,
+    "alpha": 0,
+    "pool": "arithmetic"
+  },
+  "cell_mean": 0.6257728494623656,
+  "session_mean": 0.6263867554190136,
+  "pooled": 0.6263867554190136,
+  "accuracy": 0.6256684491978609,
+  "log_loss": 1.2235135213470807,
+  "brier": 0.5812505498655047
+}

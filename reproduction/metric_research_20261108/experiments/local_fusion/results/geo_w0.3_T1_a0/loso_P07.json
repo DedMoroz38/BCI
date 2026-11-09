@@ -1,0 +1,17 @@
+{
+  "prediction_sha256": "853f1896880ac2b6fd482dc2ecd9f96d1187b9170ba6a9e59eefcaac0090776b",
+  "tag": "loso_P07",
+  "config": {
+    "name": "geo_w0.3_T1_a0",
+    "weight": 0.3,
+    "temp": 1,
+    "alpha": 0,
+    "pool": "geometric"
+  },
+  "cell_mean": 0.6912410394265234,
+  "session_mean": 0.6919936209250724,
+  "pooled": 0.6919936209250724,
+  "accuracy": 0.6931216931216931,
+  "log_loss": 0.728117063426075,
+  "brier": 0.43432446409311787
+}

@@ -1,0 +1,13 @@
+{
+  "variant": "+balance",
+  "tag": "later_last",
+  "manifest_sha256": "7260835c56d59d74a11bf4188ceb7dbf0bef81153a2a0a3caa77b0773aed40c4",
+  "prediction_sha256": "c8caac50dd27b37efa7b03de73071c05fbd47582d85b9d9bc8d3b04943e070a3",
+  "eval_seconds": 10.72934082100005,
+  "cell_mean": 0.7033000700280112,
+  "session_mean": 0.7034524347957184,
+  "pooled": 0.7034524347957184,
+  "accuracy": 0.7035175879396985,
+  "log_loss": 0.9375815167392182,
+  "brier": 0.5578860137630253
+}

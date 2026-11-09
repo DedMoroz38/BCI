@@ -1,0 +1,33 @@
+{
+  "gpu": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "torch": "2.11.0+cu128",
+  "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+  "source_manifest_sha256": "3e8cf0b952a1a18ab496a89d6a31275522e8efa003ea6b8ed4b9e6467d2a3c81",
+  "input_manifest": {
+    "files_sha256": {
+      "proteus_train.npz": "8b177bc78dc26f47666f420ecbc0e2decbd865f15909284c225db1b23396bdbf",
+      "proteus_val.npz": "80674d38123f5cc2ae51e5c2ce4884b60f3ef37231cdbd030bec07747eec8585",
+      "proteus_test.npz": "adafd2515eaf1c0ce689eba6384af74a65c974829ca16dec4ef12c95e5a87c58",
+      "manifest.json": "bbf99646eb512d5408ac14b8847d058a2692152864fc69761095a83a648c473f",
+      "lag4_oas_band0.npy": "247fd3e6c45121dd79290987fe6397c78c23f25e16b91b907cc7527b41890e59",
+      "lag4_oas_band0.complete.json": "6556a06c74fd85c1ecd28d29cbfb4e5503b86c291ad641cd6ac956e75832523a",
+      "lag4_oas_band1.npy": "b0871ac52b53b71d3df45b7f6ae3b9849c82191934e2aed48c00c148fef357b5",
+      "lag4_oas_band1.complete.json": "3a894d82707186f929ca6eebd56dbc58b4db84f95de53538a346f7775e9ee2ba",
+      "lag4_oas_band2.npy": "f68b4f45ca75a52ecb4a46e427c210e2b592cda9b6d0b2dd025f0d701cbc01bd",
+      "lag4_oas_band2.complete.json": "e001f67f619f3d6b406338d3cb2ff14aed80846ab8be83e38ba1cdd4ad7829a7",
+      "lag4_oas_band3.npy": "daa7e2922644dee62fdbe55a8e3efb2354e0c3ea21dbce6c2e0d5014d1799c6e",
+      "lag4_oas_band3.complete.json": "728708ad7ad12179e2c3f55391a14e088fa1ea5d9ed7c79253756230c8f063d2",
+      "lag4_oas_band4.npy": "72f73917ebc91dbb362a64a6abd73c4e7cec72b8fd9022d9dbb701def74b62c1",
+      "lag4_oas_band4.complete.json": "92a9f4ce19ab41ba89ba1c39355f7be22e5fb83c233528138165ee425cca20b2",
+      "lag4_oas_band5.npy": "2f57cd1957e21776d278155432a3e91d8d3a64928ed2194c80d2043b23124342",
+      "lag4_oas_band5.complete.json": "3b7855ba921152bf017a8679d5828bbbdf3a5f114b1ed08d9ad9ab5def7903ec"
+    },
+    "files": 16,
+    "bytes": 1066440458,
+    "source": "PROTEUS BCI Bordeaux; DOI10.82901/nemar.nm000290",
+    "data_policy": "Existing public data only; private Kaggle compute copy; no credentials"
+  }
+}

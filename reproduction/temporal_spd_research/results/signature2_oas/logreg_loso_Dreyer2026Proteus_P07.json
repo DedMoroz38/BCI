@@ -1,0 +1,38 @@
+{
+  "variant": "signature2_oas",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P07",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P07"
+  ],
+  "train_windows": 1711,
+  "eval_windows": 189,
+  "fit_seconds": 1.6361814161064103,
+  "total_seconds": 1.8374080409994349,
+  "session_mean_delta_vs_control": -0.022001408090117747,
+  "representation_definition": "Original OAS + window RMS^2 * Phi Phi^T/64; four exact depth-2 time-path signature coordinates on 16 ordered patches",
+  "reference_update": "original cumulative log-Euclidean, prior_weight=5",
+  "cell_mean": 0.5374215949820789,
+  "session_mean": 0.5383597883597884,
+  "pooled": 0.5383597883597884,
+  "accuracy": 0.5396825396825397,
+  "matrix_cache_sha256": {
+    "signature2_oas_band0": "49f7bedd4e4d8ea0042485f5662bb417f2082adf47e07fe076ca8ca999ac655b",
+    "signature2_oas_band1": "024cd4c2c6a30aa860d0d9d2b8b95f3a91c7ae27e163cd2632cb7b0b375257ce",
+    "signature2_oas_band2": "7c00ed90487bc2914113b3dc7266045dea2f15882cc5994b7a589d6da136c7a1",
+    "signature2_oas_band3": "738b105fde05cefc3cff959919bb8169d65410c978801fd9cb722477b50323bc",
+    "signature2_oas_band4": "232122294232ef03cf95b50b5da8d2633cc8b9500a4fd46ec0c5fed4c1a36a56",
+    "signature2_oas_band5": "cf13c1f0ee148b32f7798d7a1e8d0efa9cbbe67346872ad0c55bfb0c4498209b"
+  },
+  "tangent_dimension": 861
+}

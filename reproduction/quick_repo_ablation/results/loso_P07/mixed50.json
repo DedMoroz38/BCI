@@ -1,0 +1,12 @@
+{
+  "variant": "mixed50",
+  "tag": "loso_P07",
+  "manifest": "7c10219a68b40adcadce4abc7837de39ea2bd31a3cca4d07e4e31c8bae2ac884",
+  "prediction_sha256": "db3b1e51ac770df8999a525a8ea8b1120a23bbe4f36d5b9c0ab779ca7ed1228a",
+  "cell_mean": 0.7783490143369176,
+  "session_mean": 0.7771670720259429,
+  "pooled": 0.7771670720259429,
+  "accuracy": 0.7777777777777778,
+  "log_loss": 0.8124678162569419,
+  "brier": 0.46996452254782767
+}

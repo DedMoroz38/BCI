@@ -1,0 +1,49 @@
+{
+  "model": "itransformer",
+  "tag": "loso_P01",
+  "seed": 1,
+  "selected_epoch": 1,
+  "stopped_epoch": 11,
+  "split": {
+    "train_subjects": [
+      "Dreyer2026Proteus/P02",
+      "Dreyer2026Proteus/P03",
+      "Dreyer2026Proteus/P05",
+      "Dreyer2026Proteus/P07",
+      "Dreyer2026Proteus/P10"
+    ],
+    "validation_subjects": [
+      "Dreyer2026Proteus/P06",
+      "Dreyer2026Proteus/P08"
+    ],
+    "outer_evaluation_subjects": [
+      "Dreyer2026Proteus/P01"
+    ],
+    "inner_train_windows": 1334,
+    "inner_val_windows": 376,
+    "known_person_outer_overlap": []
+  },
+  "job_manifest_sha256": "2b19e7a8a7d68031e33bde029f2a40c773e0e50640f430b14d8a0aac69a9e659",
+  "predictions_file": "itransformer/loso_P01_seed1_predictions.npz",
+  "seconds": 4.047811913999965,
+  "inference_ms_per_window": 1.2883337947369597,
+  "parameter_count": 72259,
+  "artifact_sha256": {
+    "itransformer/loso_P01_seed1_predictions.npz": "aaa778ff5ed31bedec8a5320f7589837b1a272e71b660510decd7e694791b949",
+    "itransformer/loso_P01/job-manifest.json": "2b19e7a8a7d68031e33bde029f2a40c773e0e50640f430b14d8a0aac69a9e659",
+    "itransformer/loso_P01/inner-baseline.json": "1cbc6bfc5f67e92a7fac8234403fe4af7568b8790c0472f3fd6f86ca2044345b",
+    "itransformer/loso_P01/seed1/selection/curves.csv": "1da84065130d024d4d948398a320adc0f8a67791a98fdef68d52db38d77de6c7",
+    "itransformer/loso_P01/seed1/selection/best.pt": "3982b7a46da383af8b013f5666b5678769150f3d6391216508f10a8ab0b212de",
+    "itransformer/loso_P01/seed1/selection/selection.json": "e2a8ec5967b01ffcae8fb0d6658551c90b87acb287c14f2784df74c6a8ce8162",
+    "itransformer/loso_P01/seed1/selection/curves.png": "aab11881f732a6658a5b1a8e7f3308e2b00a2b9eb2f939a800e837ddf6faa1df",
+    "itransformer/loso_P01/seed1/refit/train_history.csv": "cf4c021b063bfce620550f63e450c1ac98bc108a60383b4c8c10d7620f58b833",
+    "itransformer/loso_P01/seed1/refit/refit.json": "ccfbc22ecf35fb321dd9016267c3c792c427a457aa17104ee4e616855ec7b5d6",
+    "itransformer/loso_P01/seed1/refit/final.pt": "dca7bb9f8005b0475148909ef6a69dbf7c0f143010ec8543a25fff0b1596a5e6"
+  },
+  "cell_mean": 0.3106518817204301,
+  "session_mean": 0.31059854497354494,
+  "pooled": 0.31059854497354494,
+  "accuracy": 0.3105263157894737,
+  "log_loss": 1.2220992387806096,
+  "brier": 0.7490383024072146
+}

@@ -1,0 +1,13 @@
+{
+  "variant": "+routing",
+  "tag": "loso_P10",
+  "manifest_sha256": "7260835c56d59d74a11bf4188ceb7dbf0bef81153a2a0a3caa77b0773aed40c4",
+  "prediction_sha256": "ca32d243f15a207841e3ffe091edea681ec44dd56f9692eb8485a5ffa80385d2",
+  "eval_seconds": 63.430138102,
+  "cell_mean": 0.44307650077705046,
+  "session_mean": 0.44395481723273783,
+  "pooled": 0.4433337343996449,
+  "accuracy": 0.44194107452339687,
+  "log_loss": 1.085217157478392,
+  "brier": 0.6540438614108031
+}

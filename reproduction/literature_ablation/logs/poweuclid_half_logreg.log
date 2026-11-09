@@ -1,0 +1,21 @@
+Validated exact source/data/environment and frozen experiment manifest
+START poweuclid_half/logreg_loso_Dreyer2026Proteus_P01 train=1710 eval=190
+DONE poweuclid_half/logreg_loso_Dreyer2026Proteus_P01: 0.426091270, delta=-0.015873016 (5.9s)
+START poweuclid_half/logreg_loso_Dreyer2026Proteus_P02 train=1711 eval=189
+DONE poweuclid_half/logreg_loso_Dreyer2026Proteus_P02: 0.544309502, delta=-0.015542328 (6.1s)
+START poweuclid_half/logreg_loso_Dreyer2026Proteus_P03 train=1711 eval=189
+DONE poweuclid_half/logreg_loso_Dreyer2026Proteus_P03: 0.355641428, delta=+0.010411333 (5.5s)
+START poweuclid_half/logreg_loso_Dreyer2026Proteus_P05 train=1710 eval=190
+DONE poweuclid_half/logreg_loso_Dreyer2026Proteus_P05: 0.320684524, delta=+0.005373677 (5.7s)
+START poweuclid_half/logreg_loso_Dreyer2026Proteus_P06 train=1713 eval=187
+DONE poweuclid_half/logreg_loso_Dreyer2026Proteus_P06: 0.469278034, delta=-0.043181430 (5.3s)
+START poweuclid_half/logreg_loso_Dreyer2026Proteus_P07 train=1711 eval=189
+DONE poweuclid_half/logreg_loso_Dreyer2026Proteus_P07: 0.517099761, delta=-0.043261435 (4.9s)
+START poweuclid_half/logreg_loso_Dreyer2026Proteus_P08 train=1711 eval=189
+DONE poweuclid_half/logreg_loso_Dreyer2026Proteus_P08: 0.643235834, delta=+0.010670016 (5.0s)
+START poweuclid_half/logreg_loso_Dreyer2026Proteus_P10 train=1323 eval=577
+DONE poweuclid_half/logreg_loso_Dreyer2026Proteus_P10: 0.386501938, delta=-0.001306655 (5.3s)
+START poweuclid_half/logreg_later_last train=1701 eval=199
+DONE poweuclid_half/logreg_later_last: 0.556987788, delta=+0.010025629 (5.3s)
+START poweuclid_half/logreg_test_official train=1521 eval=755
+DONE poweuclid_half/logreg_test_official: 0.452072747, delta=-0.002754242 (6.6s)

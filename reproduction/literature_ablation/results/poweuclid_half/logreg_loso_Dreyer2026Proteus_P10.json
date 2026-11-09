@@ -1,0 +1,28 @@
+{
+  "variant": "poweuclid_half",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P10",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P10"
+  ],
+  "train_windows": 1323,
+  "eval_windows": 577,
+  "fit_seconds": 3.498047874949407,
+  "total_seconds": 5.334561624971684,
+  "session_mean_delta_vs_control": -0.0013066553277893966,
+  "reference_update": "M_t=((5*sqrt(M0)+sum(sqrt(R_i)))/(5+t))^2; power-Euclidean p=.5",
+  "cell_mean": 0.3869375353342424,
+  "session_mean": 0.386501938131885,
+  "pooled": 0.3859517341057795,
+  "accuracy": 0.3847487001733102
+}

@@ -1,0 +1,180 @@
+FFFFFFFF                                                                 [100%]
+=================================== FAILURES ===================================
+___________ test_covariances_match_original_lagged_full_channel_oas ____________
+
+trained = (<bci.models.forest.RiemannForest object at 0x12046bd40>, Windows(X=array([[[-5.75110853e-01, -6.22099340e-01,  8.0254...gn/T/pytest-of-den1shh/pytest-17/test_covariances_match_origina0'), 'n_chans': 6, 'n_times': 480, 'n_classes': 3, ...})
+
+    def test_covariances_match_original_lagged_full_channel_oas(trained):
+>    source,tr,te,meta=trained;m=load_module();packed=m.Solver.get_instance().load_model(meta)
+                                 ^^^^^^^^^^^^^
+
+reproduction/submission_lag4/test_submission.py:36: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def load_module():
+     path=HERE/'package/submission.py'
+>    assert path.exists(),'Self-contained inference submission.py has not been implemented'
+E    AssertionError: Self-contained inference submission.py has not been implemented
+E    assert False
+E     +  where False = exists()
+E     +    where exists = PosixPath('/Users/den1shh/Documents/diploma/reproduction/submission_lag4/package/submission.py').exists
+
+reproduction/submission_lag4/test_submission.py:15: AssertionError
+________ test_exported_probabilities_match_source_and_reset_per_stream _________
+
+trained = (<bci.models.forest.RiemannForest object at 0x12041ffb0>, Windows(X=array([[[-5.75110853e-01, -6.22099340e-01,  8.0254...gn/T/pytest-of-den1shh/pytest-17/test_exported_probabilities_ma0'), 'n_chans': 6, 'n_times': 480, 'n_classes': 3, ...})
+
+    def test_exported_probabilities_match_source_and_reset_per_stream(trained):
+>    source,tr,te,meta=trained;m=load_module();packed=m.Solver.get_instance().load_model(meta)
+                                 ^^^^^^^^^^^^^
+
+reproduction/submission_lag4/test_submission.py:43: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def load_module():
+     path=HERE/'package/submission.py'
+>    assert path.exists(),'Self-contained inference submission.py has not been implemented'
+E    AssertionError: Self-contained inference submission.py has not been implemented
+E    assert False
+E     +  where False = exists()
+E     +    where exists = PosixPath('/Users/den1shh/Documents/diploma/reproduction/submission_lag4/package/submission.py').exists
+
+reproduction/submission_lag4/test_submission.py:15: AssertionError
+_______________ test_batch_and_one_window_updates_are_equivalent _______________
+
+trained = (<bci.models.forest.RiemannForest object at 0x12049fdd0>, Windows(X=array([[[-5.75110853e-01, -6.22099340e-01,  8.0254...gn/T/pytest-of-den1shh/pytest-17/test_batch_and_one_window_upda0'), 'n_chans': 6, 'n_times': 480, 'n_classes': 3, ...})
+
+    def test_batch_and_one_window_updates_are_equivalent(trained):
+>    _,_,te,meta=trained;m=load_module();a=m.Solver.get_instance().load_model(meta);b=m.Solver.get_instance().load_model(meta)
+                           ^^^^^^^^^^^^^
+
+reproduction/submission_lag4/test_submission.py:55: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def load_module():
+     path=HERE/'package/submission.py'
+>    assert path.exists(),'Self-contained inference submission.py has not been implemented'
+E    AssertionError: Self-contained inference submission.py has not been implemented
+E    assert False
+E     +  where False = exists()
+E     +    where exists = PosixPath('/Users/den1shh/Documents/diploma/reproduction/submission_lag4/package/submission.py').exists
+
+reproduction/submission_lag4/test_submission.py:15: AssertionError
+______ test_channel_metadata_reorders_inputs_without_changing_prediction _______
+
+trained = (<bci.models.forest.RiemannForest object at 0x120487710>, Windows(X=array([[[-5.75110853e-01, -6.22099340e-01,  8.0254...gn/T/pytest-of-den1shh/pytest-17/test_channel_metadata_reorders0'), 'n_chans': 6, 'n_times': 480, 'n_classes': 3, ...})
+
+    def test_channel_metadata_reorders_inputs_without_changing_prediction(trained):
+>    _,tr,te,meta=trained;m=load_module();a=m.Solver.get_instance().load_model(meta)
+                            ^^^^^^^^^^^^^
+
+reproduction/submission_lag4/test_submission.py:61: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def load_module():
+     path=HERE/'package/submission.py'
+>    assert path.exists(),'Self-contained inference submission.py has not been implemented'
+E    AssertionError: Self-contained inference submission.py has not been implemented
+E    assert False
+E     +  where False = exists()
+E     +    where exists = PosixPath('/Users/den1shh/Documents/diploma/reproduction/submission_lag4/package/submission.py').exists
+
+reproduction/submission_lag4/test_submission.py:15: AssertionError
+______________ test_incompatible_metadata_fails_clearly[change0] _______________
+
+trained = (<bci.models.forest.RiemannForest object at 0x1204c6c60>, Windows(X=array([[[-5.75110853e-01, -6.22099340e-01,  8.0254...gn/T/pytest-of-den1shh/pytest-17/test_incompatible_metadata_fai0'), 'n_chans': 6, 'n_times': 480, 'n_classes': 3, ...})
+change = {'sfreq': 100.0}
+
+    @pytest.mark.parametrize('change',[{'sfreq':100.},{'n_classes':2},{'n_chans':8},{'ch_names':['wrong']*6}])
+    def test_incompatible_metadata_fails_clearly(trained,change):
+>    _,_,_,meta=trained;m=load_module()
+                          ^^^^^^^^^^^^^
+
+reproduction/submission_lag4/test_submission.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def load_module():
+     path=HERE/'package/submission.py'
+>    assert path.exists(),'Self-contained inference submission.py has not been implemented'
+E    AssertionError: Self-contained inference submission.py has not been implemented
+E    assert False
+E     +  where False = exists()
+E     +    where exists = PosixPath('/Users/den1shh/Documents/diploma/reproduction/submission_lag4/package/submission.py').exists
+
+reproduction/submission_lag4/test_submission.py:15: AssertionError
+______________ test_incompatible_metadata_fails_clearly[change1] _______________
+
+trained = (<bci.models.forest.RiemannForest object at 0x1204c5730>, Windows(X=array([[[-5.75110853e-01, -6.22099340e-01,  8.0254...gn/T/pytest-of-den1shh/pytest-17/test_incompatible_metadata_fai1'), 'n_chans': 6, 'n_times': 480, 'n_classes': 3, ...})
+change = {'n_classes': 2}
+
+    @pytest.mark.parametrize('change',[{'sfreq':100.},{'n_classes':2},{'n_chans':8},{'ch_names':['wrong']*6}])
+    def test_incompatible_metadata_fails_clearly(trained,change):
+>    _,_,_,meta=trained;m=load_module()
+                          ^^^^^^^^^^^^^
+
+reproduction/submission_lag4/test_submission.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def load_module():
+     path=HERE/'package/submission.py'
+>    assert path.exists(),'Self-contained inference submission.py has not been implemented'
+E    AssertionError: Self-contained inference submission.py has not been implemented
+E    assert False
+E     +  where False = exists()
+E     +    where exists = PosixPath('/Users/den1shh/Documents/diploma/reproduction/submission_lag4/package/submission.py').exists
+
+reproduction/submission_lag4/test_submission.py:15: AssertionError
+______________ test_incompatible_metadata_fails_clearly[change2] _______________
+
+trained = (<bci.models.forest.RiemannForest object at 0x1204c3500>, Windows(X=array([[[-5.75110853e-01, -6.22099340e-01,  8.0254...gn/T/pytest-of-den1shh/pytest-17/test_incompatible_metadata_fai2'), 'n_chans': 6, 'n_times': 480, 'n_classes': 3, ...})
+change = {'n_chans': 8}
+
+    @pytest.mark.parametrize('change',[{'sfreq':100.},{'n_classes':2},{'n_chans':8},{'ch_names':['wrong']*6}])
+    def test_incompatible_metadata_fails_clearly(trained,change):
+>    _,_,_,meta=trained;m=load_module()
+                          ^^^^^^^^^^^^^
+
+reproduction/submission_lag4/test_submission.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def load_module():
+     path=HERE/'package/submission.py'
+>    assert path.exists(),'Self-contained inference submission.py has not been implemented'
+E    AssertionError: Self-contained inference submission.py has not been implemented
+E    assert False
+E     +  where False = exists()
+E     +    where exists = PosixPath('/Users/den1shh/Documents/diploma/reproduction/submission_lag4/package/submission.py').exists
+
+reproduction/submission_lag4/test_submission.py:15: AssertionError
+______________ test_incompatible_metadata_fails_clearly[change3] _______________
+
+trained = (<bci.models.forest.RiemannForest object at 0x120485a60>, Windows(X=array([[[-5.75110853e-01, -6.22099340e-01,  8.0254...gn/T/pytest-of-den1shh/pytest-17/test_incompatible_metadata_fai3'), 'n_chans': 6, 'n_times': 480, 'n_classes': 3, ...})
+change = {'ch_names': ['wrong', 'wrong', 'wrong', 'wrong', 'wrong', 'wrong']}
+
+    @pytest.mark.parametrize('change',[{'sfreq':100.},{'n_classes':2},{'n_chans':8},{'ch_names':['wrong']*6}])
+    def test_incompatible_metadata_fails_clearly(trained,change):
+>    _,_,_,meta=trained;m=load_module()
+                          ^^^^^^^^^^^^^
+
+reproduction/submission_lag4/test_submission.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def load_module():
+     path=HERE/'package/submission.py'
+>    assert path.exists(),'Self-contained inference submission.py has not been implemented'
+E    AssertionError: Self-contained inference submission.py has not been implemented
+E    assert False
+E     +  where False = exists()
+E     +    where exists = PosixPath('/Users/den1shh/Documents/diploma/reproduction/submission_lag4/package/submission.py').exists
+
+reproduction/submission_lag4/test_submission.py:15: AssertionError
+=========================== short test summary info ============================
+FAILED reproduction/submission_lag4/test_submission.py::test_covariances_match_original_lagged_full_channel_oas
+FAILED reproduction/submission_lag4/test_submission.py::test_exported_probabilities_match_source_and_reset_per_stream
+FAILED reproduction/submission_lag4/test_submission.py::test_batch_and_one_window_updates_are_equivalent
+FAILED reproduction/submission_lag4/test_submission.py::test_channel_metadata_reorders_inputs_without_changing_prediction
+FAILED reproduction/submission_lag4/test_submission.py::test_incompatible_metadata_fails_clearly[change0]
+FAILED reproduction/submission_lag4/test_submission.py::test_incompatible_metadata_fails_clearly[change1]
+FAILED reproduction/submission_lag4/test_submission.py::test_incompatible_metadata_fails_clearly[change2]
+FAILED reproduction/submission_lag4/test_submission.py::test_incompatible_metadata_fails_clearly[change3]
+8 failed in 2.02s

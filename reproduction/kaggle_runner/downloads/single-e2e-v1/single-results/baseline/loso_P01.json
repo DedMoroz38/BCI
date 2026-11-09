@@ -1,0 +1,32 @@
+{
+  "model": "baseline",
+  "tag": "loso_P01",
+  "source_sha256": "e952ae120bb69f8a1881f8419e10dd1150834768911526b6bbe77b7df4475136",
+  "fingerprint": "152ec65835d865854adef2a2d1f43099078ece603cf9b85a84406eea820cb0db",
+  "train_subjects": [
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P01"
+  ],
+  "training_windows": 1710,
+  "eval_windows": 190,
+  "predictions_sha256": "66ce9fd2db258b45a9c1eaf5735525337fe0948642737e3ca1e009be7b2d96b7",
+  "cell_mean": 0.5470430107526881,
+  "session_mean": 0.546875,
+  "pooled": 0.546875,
+  "accuracy": 0.5473684210526316,
+  "log_loss": 1.2215879363333377,
+  "brier": 0.6435990893125959,
+  "seconds": 22.28167965,
+  "exact_original_single_model": true,
+  "historical_prediction_match": true,
+  "checkpoint_sha256": "ab28c011d05befe472558d9aadf585fabadc0b95879b03703b33129a1a743bc6",
+  "warnings": []
+}

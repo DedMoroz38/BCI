@@ -1,0 +1,9 @@
+{
+  "legacy_scores": 170,
+  "all10_scores": 22,
+  "reconstructed_teacher_ensembles": 10,
+  "cv_hashes": 153,
+  "winner": "arith_w0.3_T4_a1",
+  "source_manifest": "7260835c56d59d74a11bf4188ceb7dbf0bef81153a2a0a3caa77b0773aed40c4",
+  "local_protocol_snapshot_sha256": "39d789508d91d57836453680e164fa9d1331c284ef7ff7cb67a1c9fdb5acf96f"
+}

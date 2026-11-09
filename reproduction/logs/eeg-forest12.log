@@ -1,0 +1,55 @@
+{
+  "train": {
+    "windows": 1521,
+    "subjects": 6,
+    "subject_ids": [
+      "Dreyer2026Proteus/P01",
+      "Dreyer2026Proteus/P02",
+      "Dreyer2026Proteus/P03",
+      "Dreyer2026Proteus/P06",
+      "Dreyer2026Proteus/P07",
+      "Dreyer2026Proteus/P10"
+    ],
+    "sessions": 8
+  },
+  "val": {
+    "windows": 379,
+    "subjects": 2,
+    "subject_ids": [
+      "Dreyer2026Proteus/P05",
+      "Dreyer2026Proteus/P08"
+    ],
+    "sessions": 2
+  },
+  "test": {
+    "windows": 755,
+    "subjects": 2,
+    "subject_ids": [
+      "Dreyer2026Proteus/P04",
+      "Dreyer2026Proteus/P09"
+    ],
+    "sessions": 4
+  }
+}
+START forest12_loso_Dreyer2026Proteus_P01 train=1710 eval=190
+DONE forest12_loso_Dreyer2026Proteus_P01: session_mean=0.530919312 (26.9s)
+START forest12_loso_Dreyer2026Proteus_P02 train=1711 eval=189
+DONE forest12_loso_Dreyer2026Proteus_P02: session_mean=0.607137523 (24.8s)
+START forest12_loso_Dreyer2026Proteus_P03 train=1711 eval=189
+DONE forest12_loso_Dreyer2026Proteus_P03: session_mean=0.423360428 (23.3s)
+START forest12_loso_Dreyer2026Proteus_P05 train=1710 eval=190
+DONE forest12_loso_Dreyer2026Proteus_P05: session_mean=0.310102513 (23.3s)
+START forest12_loso_Dreyer2026Proteus_P06 train=1713 eval=187
+DONE forest12_loso_Dreyer2026Proteus_P06: session_mean=0.481396143 (23.3s)
+START forest12_loso_Dreyer2026Proteus_P07 train=1711 eval=189
+DONE forest12_loso_Dreyer2026Proteus_P07: session_mean=0.649828256 (23.2s)
+START forest12_loso_Dreyer2026Proteus_P08 train=1711 eval=189
+DONE forest12_loso_Dreyer2026Proteus_P08: session_mean=0.689265446 (24.0s)
+START forest12_loso_Dreyer2026Proteus_P10 train=1323 eval=577
+DONE forest12_loso_Dreyer2026Proteus_P10: session_mean=0.394268504 (25.9s)
+START forest12_later_last train=1701 eval=199
+DONE forest12_later_last: session_mean=0.613900196 (23.9s)
+   model  loso_folds  loso_mean  loso_std    later     test  paper_loso_mean  delta_loso_mean  paper_loso_std  delta_loso_std  paper_later  delta_later  paper_test  delta_test
+  logreg           8   0.469444  0.114333 0.546962 0.454827            0.469         0.000444           0.114        0.000333        0.547    -0.000038       0.455   -0.000173
+forest12           8   0.510785  0.132683 0.613900      NaN            0.511        -0.000215           0.133       -0.000317        0.614    -0.000100         NaN         NaN
+forest20           7   0.543927  0.157163      NaN      NaN            0.531         0.012927           0.150        0.007163        0.669          NaN       0.529         NaN

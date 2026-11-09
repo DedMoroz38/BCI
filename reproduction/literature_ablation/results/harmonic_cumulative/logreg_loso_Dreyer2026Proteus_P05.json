@@ -1,0 +1,28 @@
+{
+  "variant": "harmonic_cumulative",
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P05",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P05"
+  ],
+  "train_windows": 1710,
+  "eval_windows": 190,
+  "fit_seconds": 4.3740512920194305,
+  "total_seconds": 4.917073209013324,
+  "session_mean_delta_vs_control": -8.267195767197588e-05,
+  "reference_update": "H_t=((5*M0^-1+sum(R_i^-1))/(5+t))^-1; M_t=H_t",
+  "cell_mean": 0.31535618279569894,
+  "session_mean": 0.3152281746031746,
+  "pooled": 0.3152281746031746,
+  "accuracy": 0.3157894736842105
+}

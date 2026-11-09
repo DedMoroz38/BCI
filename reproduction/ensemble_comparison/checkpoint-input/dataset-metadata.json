@@ -1,0 +1,10 @@
+{
+  "id": "den1shh/proteus-author-ensemble-checkpoints",
+  "title": "PROTEUS Author Ensemble Checkpoints",
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ],
+  "description": "Private checkpoint recovery of previously authorized experiment v2. Six trained folds and46 checked evaluations; no new training data or labels."
+}

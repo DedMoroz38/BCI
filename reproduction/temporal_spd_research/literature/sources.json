@@ -1,0 +1,83 @@
+[
+  {
+    "id": "carrara2023",
+    "authors": "Igor Carrara; Théodore Papadopoulo",
+    "year": 2023,
+    "title": "Classification of BCI-EEG Based on Augmented Covariance Matrix",
+    "url": "https://arxiv.org/abs/2302.04508",
+    "verified_mechanism": "Delay embedding gives an SPD augmented covariance with spatial and lagged dependence. The paper relates delay/order to autoregression and dynamical reconstruction, and studies grid search and dynamical parameter estimation.",
+    "adaptation": "We retain two copies and compare lag4 against previous lag1 at exactly the same dimension. We do not reproduce their classifiers, datasets or parameter search."
+  },
+  {
+    "id": "wu_xiao2011",
+    "authors": "Wei Biao Wu; Han Xiao",
+    "year": 2011,
+    "title": "Covariance Matrix Estimation in Time Series",
+    "url": "https://www.stat.uchicago.edu/~wbwu/papers/cov-reviewJune15-2011-2.pdf",
+    "verified_mechanism": "Studies covariance and autocovariance estimation for temporally dependent observations, including Toeplitz structure and tapering. Serial dependence changes covariance estimation; arbitrary lag matrices are not automatically positive definite.",
+    "adaptation": "Our zero-padded shift Gram is a finite-sample PSD construction with equal diagonal blocks, then OAS regularization. This particular implementation is an adaptation, not the full estimator from the review."
+  },
+  {
+    "id": "hallac2017",
+    "authors": "David Hallac; Sagar Vare; Stephen Boyd; Jure Leskovec",
+    "year": 2017,
+    "title": "Toeplitz Inverse Covariance-Based Clustering of Multivariate Time Series Data",
+    "url": "https://arxiv.org/abs/1706.03161",
+    "verified_mechanism": "TICC models multivariate subsequences with block-Toeplitz inverse covariance networks and jointly learns segmentation and clusters. Demonstrated outside neuroscience on automobile sensor data.",
+    "adaptation": "Motivates stationary temporal structure. Full TICC would alter the baseline, so no clustering, graphical lasso, state transition penalty or fitted cluster reference is introduced."
+  },
+  {
+    "id": "hussein2013",
+    "authors": "Mohamed E. Hussein; Marwan Torki; Mohammad A. Gowayyed; Motaz El-Saban",
+    "year": 2013,
+    "title": "Human Action Recognition Using a Temporal Hierarchy of Covariance Descriptors on 3D Joint Locations",
+    "url": "https://www.ijcai.org/Proceedings/13/Papers/363.pdf",
+    "verified_mechanism": "Uses covariances of joint locations and a hierarchy of subsequence covariance descriptors to preserve temporal information in human action recognition.",
+    "adaptation": "Use only a fixed first/second-half level, assembled into one block-diagonal SPD matrix. This packing, OAS and unchanged Riemannian classifier are our adaptation; the full original hierarchy/classifier is not reproduced."
+  },
+  {
+    "id": "sanin2013",
+    "authors": "Andres Sanin; Conrad Sanderson; Mehrtash T. Harandi; Brian C. Lovell",
+    "year": 2013,
+    "title": "Spatio-Temporal Covariance Descriptors for Action and Gesture Recognition",
+    "url": "https://arxiv.org/abs/1303.6021",
+    "verified_mechanism": "Uses spatio-temporal covariance descriptors, a weighted Riemannian projection and boosting for action/gesture recognition. Shows covariance descriptors need not be restricted to raw sensor amplitudes.",
+    "adaptation": "Contextual cross-domain evidence. Its projection and boosting would change the classifier; neither is copied. No direct claim that its video features are suitable EEG features."
+  },
+  {
+    "id": "vonsachs2020",
+    "authors": "Rainer von Sachs",
+    "year": 2020,
+    "title": "Nonparametric Spectral Analysis of Multivariate Time Series",
+    "url": "https://doi.org/10.1146/annurev-statistics-031219-041138",
+    "verified_mechanism": "Reviews multivariate spectral density, cross-spectra, smoothing and positive-definite estimation. Spectra are Hermitian matrices; real and imaginary cross-spectral components contain different information.",
+    "adaptation": "Motivates preserving quadrature/phase information. We use a per-window analytic-signal covariance projected to complex structure, with real SPD packing. This is not the review's wavelet/spectral-estimation pipeline."
+  },
+  {
+    "id": "chau2021",
+    "authors": "Joris Chau; Rainer von Sachs",
+    "year": 2021,
+    "title": "Intrinsic Wavelet Regression for Curves of Hermitian Positive Definite Matrices",
+    "url": "https://arxiv.org/abs/1701.03314",
+    "verified_mechanism": "Constructs intrinsic wavelet regression for Hermitian positive definite matrix curves, including multivariate Fourier spectral estimation with guaranteed positive definiteness. Journal version JASA 116(534), 819–832, DOI 10.1080/01621459.2019.1700129.",
+    "adaptation": "A literature alternative for future spectral curves. Full frequency-dependent intrinsic smoothing is excluded now because compressing it to one fixed R requires additional modeling choices. Our quadrature candidate does not implement this estimator."
+  },
+  {
+    "id": "kiraly2019",
+    "authors": "Franz J. Király; Harald Oberhauser",
+    "year": 2019,
+    "title": "Kernels for Sequentially Ordered Data",
+    "url": "https://jmlr.org/papers/v20/16-314.html",
+    "verified_mechanism": "Builds positive-definite kernels for ordered sequences from signature/ordered-moment features and connects discrete sequences to continuous paths. JMLR 20(31), 1–45; verified arXiv ID 1601.08169.",
+    "adaptation": "Supports ordered-path features and explicit interpolation. We compute exact depth-2 time-augmented signatures locally and add their channel Gram to original covariance. Full-kernel universality does not imply universality of our truncated, packed adaptation."
+  },
+  {
+    "id": "dyer2022",
+    "authors": "Joel Dyer; Patrick W. Cannon; Sebastian M. Schmon",
+    "year": 2022,
+    "title": "Amortised Likelihood-free Inference for Expensive Time-series Simulators with Signatured Ratio Estimation",
+    "url": "https://proceedings.mlr.press/v151/dyer22a.html",
+    "verified_mechanism": "Uses signatures of time-series paths in simulator-based inference and explains continuous piecewise-linear interpolation, iterated integrals and signature kernels.",
+    "adaptation": "Provides a non-EEG application of path-based features. Our continuous covariance quadrature and signature-covariance fusion are new per-window assemblies; the paper's ratio estimator is not implemented."
+  }
+]

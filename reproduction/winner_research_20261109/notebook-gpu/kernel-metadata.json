@@ -1,0 +1,17 @@
+{
+  "id": "den1shh/proteus-causal-alignment-gpu",
+  "title": "PROTEUS Causal Alignment GPU",
+  "code_file": "winner_gpu.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "den1shh/proteus-lag4-classifier-inputs"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "machine_shape": "NvidiaTeslaT4"
+}

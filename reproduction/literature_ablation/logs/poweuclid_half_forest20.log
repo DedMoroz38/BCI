@@ -1,0 +1,21 @@
+Validated exact source/data/environment and frozen experiment manifest
+START poweuclid_half/forest20_loso_Dreyer2026Proteus_P01 train=1710 eval=190
+DONE poweuclid_half/forest20_loso_Dreyer2026Proteus_P01: 0.531332672, delta=+0.005125661 (40.8s)
+START poweuclid_half/forest20_loso_Dreyer2026Proteus_P02 train=1711 eval=189
+DONE poweuclid_half/forest20_loso_Dreyer2026Proteus_P02: 0.607550883, delta=+0.016206371 (40.4s)
+START poweuclid_half/forest20_loso_Dreyer2026Proteus_P03 train=1711 eval=189
+DONE poweuclid_half/forest20_loso_Dreyer2026Proteus_P03: 0.385638014, delta=+0.000333355 (42.8s)
+START poweuclid_half/forest20_loso_Dreyer2026Proteus_P05 train=1710 eval=190
+DONE poweuclid_half/forest20_loso_Dreyer2026Proteus_P05: 0.341517857, delta=+0.010416667 (46.0s)
+START poweuclid_half/forest20_loso_Dreyer2026Proteus_P06 train=1713 eval=187
+DONE poweuclid_half/forest20_loso_Dreyer2026Proteus_P06: 0.507509814, delta=+0.005120328 (52.6s)
+START poweuclid_half/forest20_loso_Dreyer2026Proteus_P07 train=1711 eval=189
+DONE poweuclid_half/forest20_loso_Dreyer2026Proteus_P07: 0.723659648, delta=-0.010838027 (55.9s)
+START poweuclid_half/forest20_loso_Dreyer2026Proteus_P08 train=1711 eval=189
+DONE poweuclid_half/forest20_loso_Dreyer2026Proteus_P08: 0.736812489, delta=+0.000168011 (54.6s)
+START poweuclid_half/forest20_loso_Dreyer2026Proteus_P10 train=1323 eval=577
+DONE poweuclid_half/forest20_loso_Dreyer2026Proteus_P10: 0.431662799, delta=-0.012292018 (63.6s)
+START poweuclid_half/forest20_later_last train=1701 eval=199
+DONE poweuclid_half/forest20_later_last: 0.643750942, delta=-0.024875622 (60.7s)
+START poweuclid_half/forest20_test_official train=1521 eval=755
+DONE poweuclid_half/forest20_test_official: 0.519039798, delta=-0.009582078 (77.2s)

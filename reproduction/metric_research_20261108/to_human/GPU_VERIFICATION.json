@@ -1,0 +1,19 @@
+{
+  "fits": 55,
+  "complete_config_seeds": 5,
+  "held_out_people": 10,
+  "completed_later_folds": 5,
+  "download_files": 557,
+  "data_and_code_hashes": true,
+  "predictions_and_artifact_hashes": true,
+  "matching_metadata": true,
+  "independent_rescore": true,
+  "inner_outer_person_separation": true,
+  "epoch_selection_and_refit": true,
+  "bundle_sha256": "8c785a6e410628ecbf71b71558297ae6c25b4fadbd81db79933cb6cd0262d0b2",
+  "execution_seconds": 520.1403901576996,
+  "max_float32_nll_rescore_delta": 1.1920928955078125e-07,
+  "max_float32_softmax_rescore_delta": 1.1920928955078125e-07,
+  "cpu_model_replay": "all55_passed",
+  "cpu_replay_receipt_sha256": "338aad23e2cc2281b9b3630f888a06563e9b110b9bbaf3e80d11edc0fadf0e4f"
+}

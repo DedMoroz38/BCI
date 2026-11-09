@@ -1,0 +1,13 @@
+{
+  "variant": "+routing",
+  "tag": "later_last",
+  "manifest_sha256": "7260835c56d59d74a11bf4188ceb7dbf0bef81153a2a0a3caa77b0773aed40c4",
+  "prediction_sha256": "7cd1c3463ab877968aa672b3fcac7d81f4f82645030f3db57716a3cbb9f29082",
+  "eval_seconds": 23.316800218000026,
+  "cell_mean": 0.708061974789916,
+  "session_mean": 0.7084275591738279,
+  "pooled": 0.7084275591738279,
+  "accuracy": 0.7085427135678392,
+  "log_loss": 0.9101734719671482,
+  "brier": 0.5388037859573099
+}

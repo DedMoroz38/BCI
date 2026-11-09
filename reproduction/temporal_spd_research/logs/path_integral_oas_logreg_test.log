@@ -1,0 +1,3 @@
+Validated exact source/data/environment and frozen experiment manifest
+START path_integral_oas/logreg_test_official train=1521 eval=755
+DONE path_integral_oas/logreg_test_official: 0.448191897, delta=-0.006635091 (2.1s)

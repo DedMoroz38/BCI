@@ -1,0 +1,18 @@
+{
+  "README.md": "cb0f5f65b32bc9801398737e17e635fba8beeff2c97fa7a1fcb19a42f1fac414",
+  "build.json": "2bc02be54984f73f4c2bde3f0d3ce2ad069d3a6e349b07d2d1f1c68a3af0a5c4",
+  "build_weights.py": "674b2aa983629c27530c3cf8072656515131bff1d6226a934b82c8786c2cc204",
+  "logs/benchopt.log": "9e0ceed8f8df4d95ce7eb4e8897308590956f6c357d8dde40714587d05e9f8f7",
+  "logs/build.log": "2be5b2879b662818313c79379f746dcdc5a24acbb75347c0eb71bf1a45314b1f",
+  "logs/final-tests.log": "2d27e9d9296f384157fcee6ae1f670badc58e48490c638aa3b7c89bb5884ead1",
+  "logs/tests-green.log": "acf5da2e385d2a696854d6338048cae04d81e25b45046ede62eb132a72bcaba0",
+  "logs/tests-red.log": "8800442522b35d96ce1751c2c3764e993e7535c7a3507da9030fceca5fd56ea9",
+  "logs/validation.log": "1ab23fc98d8ca6e0d658f0b667de1aa1615e62d79a85dd2c1d7c98319fb8ec25",
+  "package/model_info.json": "7f82df6a06b3d330fdbfce8a4f65dcc7881dc6d2053e21ae3ddfd9d5f3bd16c2",
+  "package/submission.py": "ddd324df323c72bac1bbb1fc0c9e2a169851e4491f0bae8a8f76a90c63d06693",
+  "package/weights.npz": "6b3122ab17ed1fe2fb2b9c26c5bcbf150713059ce318197fe6b0205c995a03c9",
+  "riemann_forest_lag4.zip": "fdc3584cd21cf9d1388dd360bd45cfd8fdc60b899870b373f190fe5c910d6ef8",
+  "test_submission.py": "5527aef1612e965088c04e95de67062c51f6afe76431e8cebff0fda2c669d17c",
+  "validate_zip.py": "5e709f2c2c4475d25e1d99dc14b7a734157acff4127806097a03b9bcebcff043",
+  "verification.json": "799883875b6061e9ac0a6a9772f0853d4a010a0df300d535c73214e090fe54d0"
+}

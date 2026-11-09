@@ -1,0 +1,16 @@
+{
+  "manifest": "7c10219a68b40adcadce4abc7837de39ea2bd31a3cca4d07e4e31c8bae2ac884",
+  "files": {
+    "mixed50.npz": "4e4a14e7d4adcf7bddce54a7b9b4b528f89ef37c8c374ec9f3621723b35643a2",
+    "timing.json": "68990dfea2a619648d54419b29c7413e58bf74c1ce6f0be2ea20d8b499b3fb39",
+    "balance05.json": "28c280673f5b39416077966605fc443f6269ce4ab44cae5eeb473be2ee954ea7",
+    "stretch50.npz": "408b43081e96276b430a727332ec07cb64fb68b4063d4c582b2ffa5eb9de6b34",
+    "baseline.npz": "ad99977c723be00d13171fb62c3ce314b696e31cb55aceb1de02f5cec9e47772",
+    "balance05.npz": "2e38c6d9c1e5825333e16148eabf7d767361c2db5f520b0592a6dcc092a58c8c",
+    "balance10.npz": "fe6da5b472e9f3153a907c32bcbdd23dc6e37080b0b3418baf3731b59cea4300",
+    "mixed50.json": "fbdd4c6e6c7b8b586588b7f83455105eb1b75ffa1874bae467bed4d5bed38ad1",
+    "baseline.json": "4dcce7fc9379975191ee7ca1192426082375d5c5ab0ea3705494d52a69d15395",
+    "balance10.json": "af6887a5ec85a07e17e9cadf0b6499157638aa9b7c03d47736379aef59e32bc0",
+    "stretch50.json": "96255375bbd5c26013c3cf9249b7a2bfade5425abbd4630e113804cc8ea5c7c5"
+  }
+}

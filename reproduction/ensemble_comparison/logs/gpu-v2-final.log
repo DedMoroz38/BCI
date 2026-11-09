@@ -1,0 +1,536 @@
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+
+0.00s - to python to disable frozen modules.
+
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+
+0.00s - to python to disable frozen modules.
+
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+
+GPU Tesla T4
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+
+bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.
+
+ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.
+
+ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.
+
+ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.
+
+google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.
+
+google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.
+
+google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.
+
+dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.
+
+moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.
+
+dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.
+
+cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.
+
+ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.
+
+numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.
+
+gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.
+
+Verified author ensemble and exact submitted Lag4. ShallowConvNet trains on CUDA.
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+
+bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.
+
+ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.
+
+ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.
+
+ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.
+
+google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.
+
+google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.
+
+google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.
+
+dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.
+
+moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.
+
+dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.
+
+cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.
+
+ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.
+
+numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.
+
+gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.
+
+
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+
+bigframes 2.51.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.
+
+ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.
+
+ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.
+
+ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.
+
+google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.
+
+google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.
+
+google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.
+
+dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.
+
+moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.
+
+dask-cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.
+
+cudf-cu13 26.6.0 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.
+
+ydf 0.15.0 requires protobuf<7.0.0,>=5.29.1, but you have protobuf 7.36.2 which is incompatible.
+
+numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.
+
+gradio 6.30.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.
+
+........                                                                    [100%]
+
+=============================== warnings summary ===============================
+
+../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63
+
+  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+
+    from pandas.core import (
+
+
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+
+5 passed, 1 warning in 6.65s
+
+..                                                                    [100%]
+
+=============================== warnings summary ===============================
+
+../../../../../tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63
+
+  /tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+
+    from pandas.core import (
+
+
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+
+5 passed, 1 warning in 6.65s
+
+/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+
+  from pandas.core import (
+
+/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+
+  from pandas.core import (
+
+
+
+/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+
+  from pandas.core import (
+
+deep seed 0: final training loss 1.136
+
+deep seed 0: final training loss 1.136
+
+CUDA training and saved model replay passed
+
+CUDA training and saved model replay passed
+
+/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+
+  from pandas.core import (
+
+/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+
+  from pandas.core import (
+
+/tmp/ensemble-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+
+  from pandas.core import (
+
+START loso_P01 1710 190
+
+START loso_P02 1711 189
+
+router: impostor ratios [0.78 0.82 0.85 0.87 0.88 0.93 0.95 0.99 1.  ], genuine [0.71 0.8  0.82] -> threshold 0.838
+
+router: impostor ratios [0.78 0.79 0.82 0.85 0.88 0.93 0.95 0.99 1.  ], genuine [0.71 0.8  0.82] -> threshold 0.838
+
+DONE loso_P01 forest cell 0.5262096774193548 session 0.5262070105820106
+
+DONE loso_P02 forest cell 0.5918570788530466 session 0.5913445127154805
+
+DONE loso_P02 +balance cell 0.6031586021505376 session 0.6019398574842123
+
+DONE loso_P01 +balance cell 0.4899193548387097 session 0.48933531746031744
+
+DONE loso_P01 +bands cell 0.6001344086021506 session 0.5997023809523809
+
+DONE loso_P02 +bands cell 0.5710237455197134 session 0.5703458354668033
+
+DONE loso_P01 +routing cell 0.4679099462365591 session 0.46750992063492064
+
+DONE loso_P02 +routing cell 0.6022737455197132 session 0.6020118620925072
+
+DONE loso_P02 all but deep cell 0.5608422939068101 session 0.5597851595835467
+
+DEEP START loso_P02 100 epochs CUDA
+
+DONE loso_P01 all but deep cell 0.5638440860215054 session 0.5631613756613757
+
+DEEP START loso_P01 100 epochs CUDA
+
+deep seed 0: final training loss 0.001
+
+DEEP FINISHED loso_P02 713.1153056
+
+deep seed 0: final training loss 0.001
+
+DEEP FINISHED loso_P01 713.083620195
+
+DONE loso_P01 +deep cell 0.5848454301075269 session 0.5845734126984127
+
+START loso_P03 1711 189
+
+DONE loso_P01 all cell 0.5535954301075268 session 0.552744708994709
+
+START loso_P05 1710 190
+
+router: impostor ratios [0.73 0.75 0.81 0.88 0.89 0.93 0.93 0.95 1.  ], genuine [0.71 0.8  0.82] -> threshold 0.846
+
+DONE loso_P03 forest cell 0.3839829749103943 session 0.38530465949820786
+
+DONE loso_P03 +balance cell 0.4063620071684588 session 0.407642089093702
+
+router: impostor ratios [0.81 0.82 0.88 0.89 0.89 0.91 0.93 0.95 1.  ], genuine [0.71 0.8  0.82] -> threshold 0.847
+
+DONE loso_P03 +bands cell 0.36748431899641576 session 0.36976766513056836
+
+DONE loso_P05 forest cell 0.33148521505376344 session 0.33110119047619047
+
+DONE loso_P05 +balance cell 0.34223790322580644 session 0.34250992063492064
+
+DONE loso_P03 +routing cell 0.3839829749103943 session 0.38530465949820786
+
+DONE loso_P05 +bands cell 0.33232526881720426 session 0.3314318783068783
+
+DONE loso_P03 all but deep cell 0.3643481182795699 session 0.36589541730670766
+
+DEEP START loso_P03 100 epochs CUDA
+
+DONE loso_P05 +routing cell 0.4375 session 0.4364252645502645
+
+DONE loso_P05 all but deep cell 0.38104838709677424 session 0.37913359788359785
+
+DEEP START loso_P05 100 epochs CUDA
+
+deep seed 0: final training loss 0.001
+
+DEEP FINISHED loso_P03 681.6772983220001
+
+DONE loso_P03 +deep cell 0.5228046594982079 session 0.5241428784775559
+
+deep seed 0: final training loss 0.004
+
+DEEP FINISHED loso_P05 679.174301369
+
+DONE loso_P03 all cell 0.5280129928315412 session 0.5292685398532173
+
+START loso_P06 1713 187
+
+DONE loso_P05 +deep cell 0.5149529569892473 session 0.5144675925925926
+
+DONE loso_P05 all cell 0.4808467741935484 session 0.47966269841269843
+
+START loso_P07 1711 189
+
+router: impostor ratios [0.82 0.87 0.88 0.88 0.92 0.92 0.94 0.97 0.98], genuine [0.71 0.8  0.82] -> threshold 0.818
+
+DONE loso_P06 forest cell 0.5040882616487454 session 0.502389486260454
+
+DONE loso_P06 +balance cell 0.5146953405017921 session 0.5134835296125618
+
+router: impostor ratios [0.78 0.81 0.89 0.91 0.92 0.92 0.93 0.93 0.99], genuine [0.66 0.67 0.82] -> threshold 0.795
+
+DONE loso_P06 +bands cell 0.5299395161290322 session 0.5290151903055129
+
+DONE loso_P07 forest cell 0.7351254480286739 session 0.7344976745178359
+
+DONE loso_P07 +balance cell 0.7300739247311827 session 0.7293666794674859
+
+DONE loso_P06 +routing cell 0.5040882616487454 session 0.502389486260454
+
+DONE loso_P07 +bands cell 0.6976030465949821 session 0.6973619644990613
+
+DONE loso_P06 all but deep cell 0.5356854838709677 session 0.5348182283666155
+
+DEEP START loso_P06 100 epochs CUDA
+
+DONE loso_P07 +routing cell 0.7351254480286739 session 0.7344976745178359
+
+DONE loso_P07 all but deep cell 0.6982974910394264 session 0.6975299752517494
+
+DEEP START loso_P07 100 epochs CUDA
+
+deep seed 0: final training loss 0.001
+
+DEEP FINISHED loso_P06 686.2293859469996
+
+DONE loso_P06 +deep cell 0.6313396057347671 session 0.6315924219150025
+
+deep seed 0: final training loss 0.002
+
+DEEP FINISHED loso_P07 684.3256631479999
+
+DONE loso_P06 all cell 0.6408826164874553 session 0.6421744324970131
+
+DONE loso_P07 +deep cell 0.6544354838709678 session 0.6551192609660351
+
+DONE loso_P07 all cell 0.6592965949820788 session 0.6601569167093361
+
+concurrent.futures.process._RemoteTraceback: 
+
+"""
+
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.13/concurrent/futures/process.py", line 255, in _process_worker
+
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+
+  File "/usr/lib/python3.13/concurrent/futures/process.py", line 204, in _process_chunk
+
+    return [fn(*args) for args in chunk]
+
+            ~~^^^^^^^
+
+  File "/kaggle/working/riemann-project/reproduction/ensemble_comparison/run.py", line 190, in worker
+
+    def worker(args):return run_fold(*args)
+
+                            ~~~~~~~~^^^^^^^
+
+  File "/kaggle/working/riemann-project/reproduction/ensemble_comparison/run.py", line 183, in run_fold
+
+    np.testing.assert_array_equal(p[idx],probabilities(restored,prefix))
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "/tmp/ensemble-env/lib/python3.13/site-packages/numpy/testing/_private/utils.py", line 1128, in assert_array_equal
+
+    assert_array_compare(operator.__eq__, actual, desired, err_msg=err_msg,
+
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+                         verbose=verbose, header='Arrays are not equal',
+
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+                         strict=strict)
+
+                         ^^^^^^^^^^^^^^
+
+  File "/tmp/ensemble-env/lib/python3.13/site-packages/numpy/testing/_private/utils.py", line 988, in assert_array_compare
+
+    raise AssertionError(msg)
+
+AssertionError: 
+
+Arrays are not equal
+
+
+
+Mismatched elements: 3 / 9 (33.3%)
+
+Mismatch at indices:
+
+ [0, 0]: 0.6043574105635715 (ACTUAL), 0.6043633951329137 (DESIRED)
+
+ [0, 1]: 0.20988166421845145 (ACTUAL), 0.20987996376215018 (DESIRED)
+
+ [0, 2]: 0.18576092521797696 (ACTUAL), 0.18575664110493603 (DESIRED)
+
+Max absolute difference among violations: 5.98456934e-06
+
+Max relative difference among violations: 2.30630411e-05
+
+ ACTUAL: array([[0.604357, 0.209882, 0.185761],
+
+       [0.545895, 0.264821, 0.189284],
+
+       [0.070325, 0.912716, 0.016959]])
+
+ DESIRED: array([[0.604363, 0.20988 , 0.185757],
+
+       [0.545895, 0.264821, 0.189284],
+
+       [0.070325, 0.912716, 0.016959]])
+
+"""
+
+
+
+The above exception was the direct cause of the following exception:
+
+
+
+Traceback (most recent call last):
+
+  File "/kaggle/working/riemann-project/reproduction/ensemble_comparison/run.py", line 204, in <module>
+
+    if __name__=='__main__':main()
+
+                            ~~~~^^
+
+  File "/kaggle/working/riemann-project/reproduction/ensemble_comparison/run.py", line 201, in main
+
+    list(pool.map(worker,[(tag,phase,h) for tag,_,_ in folds(phase)]))
+
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "/usr/lib/python3.13/concurrent/futures/process.py", line 621, in _chain_from_iterable_of_lists
+
+    for element in iterable:
+
+                   ^^^^^^^^
+
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 625, in result_iterator
+
+    yield _result_or_cancel(fs.pop())
+
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 318, in _result_or_cancel
+
+    return fut.result(timeout)
+
+           ~~~~~~~~~~^^^^^^^^^
+
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 453, in result
+
+    return self.__get_result()
+
+           ~~~~~~~~~~~~~~~~~^^
+
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 402, in __get_result
+
+    raise self._exception
+
+AssertionError: 
+
+Arrays are not equal
+
+
+
+Mismatched elements: 3 / 9 (33.3%)
+
+Mismatch at indices:
+
+ [0, 0]: 0.6043574105635715 (ACTUAL), 0.6043633951329137 (DESIRED)
+
+ [0, 1]: 0.20988166421845145 (ACTUAL), 0.20987996376215018 (DESIRED)
+
+ [0, 2]: 0.18576092521797696 (ACTUAL), 0.18575664110493603 (DESIRED)
+
+Max absolute difference among violations: 5.98456934e-06
+
+Max relative difference among violations: 2.30630411e-05
+
+ ACTUAL: array([[0.604357, 0.209882, 0.185761],
+
+       [0.545895, 0.264821, 0.189284],
+
+       [0.070325, 0.912716, 0.016959]])
+
+ DESIRED: array([[0.604363, 0.20988 , 0.185757],
+
+       [0.545895, 0.264821, 0.189284],
+
+       [0.070325, 0.912716, 0.016959]])
+
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+
+    import sys;import papermill as pm;pm.execute_notebook("__notebook__.ipynb","__notebook__.ipynb",progress_bar=False,log_output=True,stdout_file=sys.stdout,stderr_file=sys.stderr,allow_errors=False,timeout=43200)
+
+                                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "/usr/local/lib/python3.13/dist-packages/papermill/execute.py", line 131, in execute_notebook
+
+    raise_for_execution_errors(nb, output_path)
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+
+  File "/usr/local/lib/python3.13/dist-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+
+    raise error
+
+papermill.exceptions.PapermillExecutionError: 
+
+---------------------------------------------------------------------------
+
+Exception encountered at "In [3]":
+
+---------------------------------------------------------------------------
+
+RuntimeError                              Traceback (most recent call last)
+
+/tmp/ipykernel_23/587072395.py in <cell line: 0>()
+
+      2 for line in process.stdout:print(line,end="",flush=True)
+
+      3 code=process.wait()
+
+----> 4 if code:raise RuntimeError(f"Experiment exited with status {code};partial results are saved")
+
+
+
+RuntimeError: Experiment exited with status 1;partial results are saved
+
+
+
+/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+
+  cells[i][c] = re.sub('\\\\\|', '|', cell)
+
+/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+
+  text = re.sub(r'_', '\_', text) # Escape underscores in display text
+
+[NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+
+[NbConvertApp] Writing 85497 bytes to __notebook__.ipynb
+
+[NbConvertApp] Converting notebook __notebook__.ipynb to html
+
+[NbConvertApp] Writing 374484 bytes to __results__.html
+

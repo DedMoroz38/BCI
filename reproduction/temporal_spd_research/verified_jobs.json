@@ -1,0 +1,1162 @@
+[
+  {
+    "variant": "original_oas",
+    "job": "forest12_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest20_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "forest20_test_official_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "logreg_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "original_oas",
+    "job": "logreg_test_official_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest12_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest20_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "forest20_test_official_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "logreg_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "delay1_oas",
+    "job": "logreg_test_official_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest12_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest20_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "forest20_test_official_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "logreg_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "lag4_oas",
+    "job": "logreg_test_official_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest12_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest20_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "forest20_test_official_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "logreg_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "stationary_oas",
+    "job": "logreg_test_official_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest12_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest20_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "forest20_test_official_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "logreg_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "pyramid2_oas",
+    "job": "logreg_test_official_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest12_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest20_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "forest20_test_official_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "logreg_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "quadrature_oas",
+    "job": "logreg_test_official_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest12_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest20_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "forest20_test_official_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "logreg_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "path_integral_oas",
+    "job": "logreg_test_official_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest12_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest12_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest20_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest20_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "forest20_test_official_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "logreg_later_last_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P01_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P02_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P03_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P05_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P06_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P07_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P08_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "logreg_loso_Dreyer2026Proteus_P10_predictions",
+    "official_scores_match": true
+  },
+  {
+    "variant": "signature2_oas",
+    "job": "logreg_test_official_predictions",
+    "official_scores_match": true
+  }
+]

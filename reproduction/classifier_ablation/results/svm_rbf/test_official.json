@@ -1,0 +1,33 @@
+{
+  "variant": "svm_rbf",
+  "tag": "test_official",
+  "protocol": "test",
+  "fold": "official",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P10"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P04",
+    "Dreyer2026Proteus/P09"
+  ],
+  "train_windows": 1521,
+  "eval_windows": 755,
+  "feature_manifest_sha256": "e93d7db757faeb0d62b9816c8409bb6184ea1816fee2245b7885fc0ed04b4a52",
+  "classifier_config_sha256": "12abff9e82c4954355840023e94af27c90981efd953793259bbd59f8eca2e827",
+  "cell_mean": 0.5194012830614263,
+  "session_mean": 0.5183839197402622,
+  "pooled": 0.518513624551951,
+  "accuracy": 0.5178807947019868,
+  "log_loss": 1.0586578277595262,
+  "brier": 0.6399261725312626,
+  "classifier_seconds": 136.59338918699905,
+  "warnings": [],
+  "convergence_warning_count": 0,
+  "backend": "sklearn CPU",
+  "predictions_sha256": "e5a8f0f2c9dac26d522cb7d32c9a1ef301dcdd072cf8cfb7ba4f2adeec1af867"
+}

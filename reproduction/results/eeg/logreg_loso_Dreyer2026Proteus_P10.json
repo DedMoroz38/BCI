@@ -1,0 +1,25 @@
+{
+  "model": "logreg",
+  "protocol": "loso",
+  "fold": "Dreyer2026Proteus/P10",
+  "train_subjects": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08"
+  ],
+  "eval_subjects": [
+    "Dreyer2026Proteus/P10"
+  ],
+  "train_windows": 1323,
+  "eval_windows": 577,
+  "fit_seconds": 1.9476314579951577,
+  "total_seconds": 2.9926582079497166,
+  "cell_mean": 0.38845668164682756,
+  "session_mean": 0.3878085934596744,
+  "pooled": 0.3874182499415268,
+  "accuracy": 0.38648180242634317
+}

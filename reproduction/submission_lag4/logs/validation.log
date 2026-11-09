@@ -1,0 +1,25 @@
+{
+  "archive": "/Users/den1shh/Documents/diploma/reproduction/submission_lag4/riemann_forest_lag4.zip",
+  "archive_sha256": "fdc3584cd21cf9d1388dd360bd45cfd8fdc60b899870b373f190fe5c910d6ef8",
+  "archive_bytes": 1990681,
+  "files": [
+    "model_info.json",
+    "submission.py",
+    "weights.npz"
+  ],
+  "all755_predictions_match_reference": true,
+  "windows": 755,
+  "streams": 4,
+  "official_streaming_used": true,
+  "read_only_package_unchanged": true,
+  "research_imports_blocked": true,
+  "unknown_window_supported": true,
+  "metrics": {
+    "cell_mean": 0.5571636308861698,
+    "session_mean": 0.5554072947007407,
+    "pooled": 0.5558597344006698,
+    "accuracy": 0.5562913907284768
+  },
+  "inference_seconds": 22.012068249983713,
+  "weights_sha256": "6b3122ab17ed1fe2fb2b9c26c5bcbf150713059ce318197fe6b0205c995a03c9"
+}

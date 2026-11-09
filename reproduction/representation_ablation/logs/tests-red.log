@@ -1,0 +1,148 @@
+FFFFFFFFFFFFFF                                                           [100%]
+=================================== FAILURES ===================================
+________________ test_delay_alignment_and_electrode_major_order ________________
+
+    def test_delay_alignment_and_electrode_major_order():
+>       assert delay_embed is not None, 'Representation implementation is missing'
+E       AssertionError: Representation implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_representations.py:17: AssertionError
+_______________ test_grouped_submatrix_keeps_all_delayed_copies ________________
+
+    def test_grouped_submatrix_keeps_all_delayed_copies():
+>       assert delay_embed is not None, 'Representation implementation is missing'
+E       AssertionError: Representation implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_representations.py:25: AssertionError
+__________ test_hilbert_envelope_recovers_known_amplitude_modulation ___________
+
+    def test_hilbert_envelope_recovers_known_amplitude_modulation():
+>       assert delay_embed is not None, 'Representation implementation is missing'
+E       AssertionError: Representation implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_representations.py:34: AssertionError
+______________ test_hsic_equals_naive_full_centered_kernel_trace _______________
+
+    def test_hsic_equals_naive_full_centered_kernel_trace():
+>       assert delay_embed is not None, 'Representation implementation is missing'
+E       AssertionError: Representation implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_representations.py:55: AssertionError
+_______ test_hsic_detects_squared_dependence_with_zero_linear_covariance _______
+
+    def test_hsic_detects_squared_dependence_with_zero_linear_covariance():
+>       assert delay_embed is not None, 'Representation implementation is missing'
+E       AssertionError: Representation implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_representations.py:61: AssertionError
+____ test_hsic_is_invariant_to_joint_time_permutation_and_spd_for_constants ____
+
+    def test_hsic_is_invariant_to_joint_time_permutation_and_spd_for_constants():
+>       assert delay_embed is not None, 'Representation implementation is missing'
+E       AssertionError: Representation implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_representations.py:69: AssertionError
+_______ test_matrices_are_spd_and_batch_equals_one_window[delay1_oas-12] _______
+
+representation = 'delay1_oas', dim = 12
+
+    @pytest.mark.parametrize('representation,dim',[('delay1_oas',12),('hsic_rbf',6),('envelope_oas',6)])
+    def test_matrices_are_spd_and_batch_equals_one_window(representation,dim):
+>       assert delay_embed is not None, 'Representation implementation is missing'
+E       AssertionError: Representation implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_representations.py:78: AssertionError
+________ test_matrices_are_spd_and_batch_equals_one_window[hsic_rbf-6] _________
+
+representation = 'hsic_rbf', dim = 6
+
+    @pytest.mark.parametrize('representation,dim',[('delay1_oas',12),('hsic_rbf',6),('envelope_oas',6)])
+    def test_matrices_are_spd_and_batch_equals_one_window(representation,dim):
+>       assert delay_embed is not None, 'Representation implementation is missing'
+E       AssertionError: Representation implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_representations.py:78: AssertionError
+______ test_matrices_are_spd_and_batch_equals_one_window[envelope_oas-6] _______
+
+representation = 'envelope_oas', dim = 6
+
+    @pytest.mark.parametrize('representation,dim',[('delay1_oas',12),('hsic_rbf',6),('envelope_oas',6)])
+    def test_matrices_are_spd_and_batch_equals_one_window(representation,dim):
+>       assert delay_embed is not None, 'Representation implementation is missing'
+E       AssertionError: Representation implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_representations.py:78: AssertionError
+_________________ test_envelope_retains_original_oas_estimator _________________
+
+    def test_envelope_retains_original_oas_estimator():
+>       assert delay_embed is not None, 'Representation implementation is missing'
+E       AssertionError: Representation implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_representations.py:88: AssertionError
+_______ test_original_control_has_identical_coefficients_and_predictions _______
+
+    def test_original_control_has_identical_coefficients_and_predictions():
+>       assert delay_embed is not None, 'Representation implementation is missing'
+E       AssertionError: Representation implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_representations.py:106: AssertionError
+___ test_physical_trees_causal_features_and_stream_reset_parity[delay1_oas] ____
+
+representation = 'delay1_oas'
+
+    @pytest.mark.parametrize('representation',['delay1_oas','hsic_rbf','envelope_oas'])
+    def test_physical_trees_causal_features_and_stream_reset_parity(representation):
+>       assert delay_embed is not None, 'Representation implementation is missing'
+E       AssertionError: Representation implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_representations.py:124: AssertionError
+____ test_physical_trees_causal_features_and_stream_reset_parity[hsic_rbf] _____
+
+representation = 'hsic_rbf'
+
+    @pytest.mark.parametrize('representation',['delay1_oas','hsic_rbf','envelope_oas'])
+    def test_physical_trees_causal_features_and_stream_reset_parity(representation):
+>       assert delay_embed is not None, 'Representation implementation is missing'
+E       AssertionError: Representation implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_representations.py:124: AssertionError
+__ test_physical_trees_causal_features_and_stream_reset_parity[envelope_oas] ___
+
+representation = 'envelope_oas'
+
+    @pytest.mark.parametrize('representation',['delay1_oas','hsic_rbf','envelope_oas'])
+    def test_physical_trees_causal_features_and_stream_reset_parity(representation):
+>       assert delay_embed is not None, 'Representation implementation is missing'
+E       AssertionError: Representation implementation is missing
+E       assert None is not None
+
+reproduction/representation_ablation/test_representations.py:124: AssertionError
+=========================== short test summary info ============================
+FAILED reproduction/representation_ablation/test_representations.py::test_delay_alignment_and_electrode_major_order
+FAILED reproduction/representation_ablation/test_representations.py::test_grouped_submatrix_keeps_all_delayed_copies
+FAILED reproduction/representation_ablation/test_representations.py::test_hilbert_envelope_recovers_known_amplitude_modulation
+FAILED reproduction/representation_ablation/test_representations.py::test_hsic_equals_naive_full_centered_kernel_trace
+FAILED reproduction/representation_ablation/test_representations.py::test_hsic_detects_squared_dependence_with_zero_linear_covariance
+FAILED reproduction/representation_ablation/test_representations.py::test_hsic_is_invariant_to_joint_time_permutation_and_spd_for_constants
+FAILED reproduction/representation_ablation/test_representations.py::test_matrices_are_spd_and_batch_equals_one_window[delay1_oas-12]
+FAILED reproduction/representation_ablation/test_representations.py::test_matrices_are_spd_and_batch_equals_one_window[hsic_rbf-6]
+FAILED reproduction/representation_ablation/test_representations.py::test_matrices_are_spd_and_batch_equals_one_window[envelope_oas-6]
+FAILED reproduction/representation_ablation/test_representations.py::test_envelope_retains_original_oas_estimator
+FAILED reproduction/representation_ablation/test_representations.py::test_original_control_has_identical_coefficients_and_predictions
+FAILED reproduction/representation_ablation/test_representations.py::test_physical_trees_causal_features_and_stream_reset_parity[delay1_oas]
+FAILED reproduction/representation_ablation/test_representations.py::test_physical_trees_causal_features_and_stream_reset_parity[hsic_rbf]
+FAILED reproduction/representation_ablation/test_representations.py::test_physical_trees_causal_features_and_stream_reset_parity[envelope_oas]
+14 failed in 0.55s

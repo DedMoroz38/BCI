@@ -1,0 +1,1401 @@
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+GPU ['Tesla T4', 'Tesla T4']
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+bigframes 2.48.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.
+ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.
+ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.
+ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.
+google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.
+google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.
+google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.
+dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.
+gradio 6.26.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.
+moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.
+numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.
+cudf-cu12 26.2.1 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.
+dask-cudf-cu12 26.2.1 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+bigframes 2.48.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.
+ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.
+ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.
+ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.
+google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.
+google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.
+google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.
+dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.
+gradio 6.26.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.
+moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.
+numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.
+cudf-cu12 26.2.1 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.
+dask-cudf-cu12 26.2.1 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.
+
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+bigframes 2.48.0 requires google-cloud-bigquery-storage<3.0.0,>=2.30.0, which is not installed.
+ydata-profiling 4.18.4 requires numpy<2.4,>=1.22, but you have numpy 2.5.4 which is incompatible.
+ydata-profiling 4.18.4 requires pandas!=1.4.0,<3.0,>1.5, but you have pandas 3.1.0 which is incompatible.
+ydata-profiling 4.18.4 requires scipy<1.17,>=1.8, but you have scipy 1.18.1 which is incompatible.
+google-colab 1.0.0 requires jupyter-server==2.20.0, but you have jupyter-server 2.12.5 which is incompatible.
+google-colab 1.0.0 requires pandas==2.2.3, but you have pandas 3.1.0 which is incompatible.
+google-colab 1.0.0 requires requests==2.32.4, but you have requests 2.34.2 which is incompatible.
+dopamine-rl 4.1.2 requires gym<=0.25.2, but you have gym 0.26.2 which is incompatible.
+gradio 6.26.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.
+moviepy 1.0.3 requires decorator<5.0,>=4.0.2, but you have decorator 5.3.1 which is incompatible.
+numba 0.61.2 requires numpy<2.3,>=1.24, but you have numpy 2.5.4 which is incompatible.
+cudf-cu12 26.2.1 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.
+dask-cudf-cu12 26.2.1 requires pandas<2.4.0,>=2.0, but you have pandas 3.1.0 which is incompatible.
+Numerical runtime 3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0] {'numpy': '2.5.4', 'scipy': '1.18.1', 'scikit-learn': '1.9.1', 'pyriemann': '0.12', 'pandas': '3.1.0', 'torch': '2.11.0+cu128'}
+Numerical runtime 3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0] {'numpy': '2.5.4', 'scipy': '1.18.1', 'scikit-learn': '1.9.1', 'pyriemann': '0.12', 'pandas': '3.1.0', 'torch': '2.11.0+cu128'}
+Verified all source/input hashes. Original data and submitted model are attached.
+................................                                                        [100%]
+=============================== warnings summary ===============================
+../../../../../tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63
+  /tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+    from pandas.core import (
+
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64
+  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45
+  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+17 passed, 15 warnings in 14.63s
+..                                                        [100%]
+=============================== warnings summary ===============================
+../../../../../tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63
+  /tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+    from pandas.core import (
+
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64
+  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+../../../../../usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45
+  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+17 passed, 15 warnings in 14.63s
+Integrity tests passed; starting fixed classifier comparison
+/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+
+/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+CLASSIFIER EXPERIMENT START all
+CLASSIFIER EXPERIMENT START all
+START FEATURES loso_P01 1710 190
+START FEATURES loso_P01 1710 190
+FEATURES loso_P01 10 /50
+FEATURES loso_P01 10 /50
+FEATURES loso_P01 20 /50
+FEATURES loso_P01 20 /50
+FEATURES loso_P01 30 /50
+FEATURES loso_P01 30 /50
+FEATURES loso_P01 40 /50
+FEATURES loso_P01 40 /50
+FEATURES loso_P01 50 /50
+FEATURES loso_P01 50 /50
+DONE FEATURES loso_P01 202.43 s
+DONE FEATURES loso_P01 202.43 s
+CLASSIFIER baseline loso_P01 10 /50
+CLASSIFIER baseline loso_P01 10 /50
+CLASSIFIER baseline loso_P01 20 /50
+CLASSIFIER baseline loso_P01 20 /50
+CLASSIFIER baseline loso_P01 30 /50
+CLASSIFIER baseline loso_P01 30 /50
+CLASSIFIER baseline loso_P01 40 /50
+CLASSIFIER baseline loso_P01 40 /50
+CLASSIFIER baseline loso_P01 50 /50
+DONE MODEL baseline loso_P01 session= 0.6046627 cell= 0.60534274 seconds= 5.7
+CLASSIFIER baseline loso_P01 50 /50
+DONE MODEL baseline loso_P01 session= 0.6046627 cell= 0.60534274 seconds= 5.7
+/kaggle/working/riemann-project/reproduction/classifier_ablation/gpu_mlp.py:18: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  x=torch.as_tensor(np.asarray(x),dtype=torch.float32,device=device)
+/kaggle/working/riemann-project/reproduction/classifier_ablation/gpu_mlp.py:18: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  x=torch.as_tensor(np.asarray(x),dtype=torch.float32,device=device)
+
+/kaggle/working/riemann-project/reproduction/classifier_ablation/gpu_mlp.py:18: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  x=torch.as_tensor(np.asarray(x),dtype=torch.float32,device=device)
+/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+
+/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+DONE MODEL mlp loso_P01 session= 0.59449405 cell= 0.59509409 seconds= 5.7
+START FEATURES loso_P02 1711 189
+DONE MODEL mlp loso_P01 session= 0.59449405 cell= 0.59509409 seconds= 5.7
+START FEATURES loso_P02 1711 189
+CLASSIFIER svm_linear loso_P01 10 /50
+CLASSIFIER svm_linear loso_P01 10 /50
+CLASSIFIER svm_rbf loso_P01 10 /50
+CLASSIFIER svm_rbf loso_P01 10 /50
+CLASSIFIER svm_linear loso_P01 20 /50
+CLASSIFIER svm_linear loso_P01 20 /50
+FEATURES loso_P02 10 /50
+FEATURES loso_P02 10 /50
+CLASSIFIER svm_rbf loso_P01 20 /50
+CLASSIFIER svm_rbf loso_P01 20 /50
+CLASSIFIER svm_linear loso_P01 30 /50
+CLASSIFIER svm_linear loso_P01 30 /50
+CLASSIFIER svm_linear loso_P01 40 /50
+CLASSIFIER svm_linear loso_P01 40 /50
+CLASSIFIER svm_rbf loso_P01 30 /50
+CLASSIFIER svm_rbf loso_P01 30 /50
+CLASSIFIER svm_linear loso_P01 50 /50
+DONE MODEL svm_linear loso_P01 session= 0.61598876 cell= 0.61676747 seconds= 145.6
+CLASSIFIER svm_linear loso_P01 50 /50
+DONE MODEL svm_linear loso_P01 session= 0.61598876 cell= 0.61676747 seconds= 145.6
+CLASSIFIER lda_lw loso_P01 10 /50
+CLASSIFIER lda_lw loso_P01 10 /50
+FEATURES loso_P02 20 /50
+FEATURES loso_P02 20 /50
+CLASSIFIER lda_lw loso_P01 20 /50
+CLASSIFIER lda_lw loso_P01 20 /50
+CLASSIFIER lda_lw loso_P01 30 /50
+CLASSIFIER lda_lw loso_P01 30 /50
+CLASSIFIER svm_rbf loso_P01 40 /50
+CLASSIFIER svm_rbf loso_P01 40 /50
+CLASSIFIER lda_lw loso_P01 40 /50
+CLASSIFIER lda_lw loso_P01 40 /50
+CLASSIFIER lda_lw loso_P01 50 /50
+DONE MODEL lda_lw loso_P01 session= 0.58878968 cell= 0.58921371 seconds= 31.2
+CLASSIFIER lda_lw loso_P01 50 /50
+DONE MODEL lda_lw loso_P01 session= 0.58878968 cell= 0.58921371 seconds= 31.2
+CLASSIFIER ridge loso_P01 10 /50
+CLASSIFIER ridge loso_P01 10 /50
+CLASSIFIER ridge loso_P01 20 /50
+CLASSIFIER ridge loso_P01 20 /50
+CLASSIFIER ridge loso_P01 30 /50
+CLASSIFIER ridge loso_P01 30 /50
+CLASSIFIER ridge loso_P01 40 /50
+CLASSIFIER ridge loso_P01 40 /50
+CLASSIFIER ridge loso_P01 50 /50
+DONE MODEL ridge loso_P01 session= 0.49975198 cell= 0.49983199 seconds= 19.8
+CLASSIFIER ridge loso_P01 50 /50
+DONE MODEL ridge loso_P01 session= 0.49975198 cell= 0.49983199 seconds= 19.8
+CLASSIFIER svm_rbf loso_P01 50 /50
+DONE MODEL svm_rbf loso_P01 session= 0.58912037 cell= 0.58938172 seconds= 198.4
+CLASSIFIER svm_rbf loso_P01 50 /50
+DONE MODEL svm_rbf loso_P01 session= 0.58912037 cell= 0.58938172 seconds= 198.4
+FEATURES loso_P02 30 /50
+FEATURES loso_P02 30 /50
+FEATURES loso_P02 40 /50
+FEATURES loso_P02 40 /50
+FEATURES loso_P02 50 /50
+FEATURES loso_P02 50 /50
+DONE FEATURES loso_P02 294.3 s
+DONE FEATURES loso_P02 294.3 s
+CLASSIFIER baseline loso_P02 10 /50
+CLASSIFIER baseline loso_P02 10 /50
+CLASSIFIER baseline loso_P02 20 /50
+CLASSIFIER baseline loso_P02 20 /50
+CLASSIFIER baseline loso_P02 30 /50
+CLASSIFIER baseline loso_P02 30 /50
+CLASSIFIER baseline loso_P02 40 /50
+CLASSIFIER baseline loso_P02 40 /50
+CLASSIFIER baseline loso_P02 50 /50
+DONE MODEL baseline loso_P02 session= 0.60285992 cell= 0.60453629 seconds= 5.8
+CLASSIFIER baseline loso_P02 50 /50
+DONE MODEL baseline loso_P02 session= 0.60285992 cell= 0.60453629 seconds= 5.8
+DONE MODEL mlp loso_P02 session= 0.57640489 cell= 0.57730735 seconds= 2.9
+START FEATURES loso_P03 1711 189
+DONE MODEL mlp loso_P02 session= 0.57640489 cell= 0.57730735 seconds= 2.9
+START FEATURES loso_P03 1711 189
+CLASSIFIER svm_linear loso_P02 10 /50
+CLASSIFIER svm_linear loso_P02 10 /50
+CLASSIFIER svm_linear loso_P02 20 /50
+CLASSIFIER svm_linear loso_P02 20 /50
+FEATURES loso_P03 10 /50
+FEATURES loso_P03 10 /50
+CLASSIFIER svm_linear loso_P02 30 /50
+CLASSIFIER svm_linear loso_P02 30 /50
+CLASSIFIER svm_linear loso_P02 40 /50
+CLASSIFIER svm_linear loso_P02 40 /50
+CLASSIFIER svm_linear loso_P02 50 /50
+DONE MODEL svm_linear loso_P02 session= 0.63360588 cell= 0.63493504 seconds= 142.7
+CLASSIFIER svm_linear loso_P02 50 /50
+DONE MODEL svm_linear loso_P02 session= 0.63360588 cell= 0.63493504 seconds= 142.7
+FEATURES loso_P03 20 /50
+FEATURES loso_P03 20 /50
+CLASSIFIER svm_rbf loso_P02 10 /50
+CLASSIFIER svm_rbf loso_P02 10 /50
+CLASSIFIER svm_rbf loso_P02 20 /50
+CLASSIFIER svm_rbf loso_P02 20 /50
+FEATURES loso_P03 30 /50
+FEATURES loso_P03 30 /50
+CLASSIFIER svm_rbf loso_P02 30 /50
+CLASSIFIER svm_rbf loso_P02 30 /50
+CLASSIFIER svm_rbf loso_P02 40 /50
+CLASSIFIER svm_rbf loso_P02 40 /50
+FEATURES loso_P03 40 /50
+FEATURES loso_P03 40 /50
+CLASSIFIER svm_rbf loso_P02 50 /50
+DONE MODEL svm_rbf loso_P02 session= 0.60714286 cell= 0.6078405 seconds= 180.2
+CLASSIFIER svm_rbf loso_P02 50 /50
+DONE MODEL svm_rbf loso_P02 session= 0.60714286 cell= 0.6078405 seconds= 180.2
+CLASSIFIER lda_lw loso_P02 10 /50
+CLASSIFIER lda_lw loso_P02 10 /50
+CLASSIFIER lda_lw loso_P02 20 /50
+CLASSIFIER lda_lw loso_P02 20 /50
+CLASSIFIER lda_lw loso_P02 30 /50
+CLASSIFIER lda_lw loso_P02 30 /50
+CLASSIFIER lda_lw loso_P02 40 /50
+CLASSIFIER lda_lw loso_P02 40 /50
+CLASSIFIER elasticnet loso_P01 10 /50
+CLASSIFIER elasticnet loso_P01 10 /50
+CLASSIFIER lda_lw loso_P02 50 /50
+DONE MODEL lda_lw loso_P02 session= 0.61865026 cell= 0.6203293 seconds= 33.4
+CLASSIFIER lda_lw loso_P02 50 /50
+DONE MODEL lda_lw loso_P02 session= 0.61865026 cell= 0.6203293 seconds= 33.4
+CLASSIFIER ridge loso_P02 10 /50
+CLASSIFIER ridge loso_P02 10 /50
+CLASSIFIER ridge loso_P02 20 /50
+CLASSIFIER ridge loso_P02 20 /50
+CLASSIFIER ridge loso_P02 30 /50
+CLASSIFIER ridge loso_P02 30 /50
+CLASSIFIER ridge loso_P02 40 /50
+CLASSIFIER ridge loso_P02 40 /50
+CLASSIFIER ridge loso_P02 50 /50
+DONE MODEL ridge loso_P02 session= 0.48610044 cell= 0.48686156 seconds= 17.9
+CLASSIFIER ridge loso_P02 50 /50
+DONE MODEL ridge loso_P02 session= 0.48610044 cell= 0.48686156 seconds= 17.9
+FEATURES loso_P03 50 /50
+FEATURES loso_P03 50 /50
+DONE FEATURES loso_P03 372.63 s
+DONE FEATURES loso_P03 372.63 s
+CLASSIFIER baseline loso_P03 10 /50
+CLASSIFIER baseline loso_P03 10 /50
+CLASSIFIER baseline loso_P03 20 /50
+CLASSIFIER baseline loso_P03 20 /50
+CLASSIFIER baseline loso_P03 30 /50
+CLASSIFIER baseline loso_P03 30 /50
+CLASSIFIER baseline loso_P03 40 /50
+CLASSIFIER baseline loso_P03 40 /50
+CLASSIFIER baseline loso_P03 50 /50
+DONE MODEL baseline loso_P03 session= 0.41764806 cell= 0.41627464 seconds= 8.9
+CLASSIFIER baseline loso_P03 50 /50
+DONE MODEL baseline loso_P03 session= 0.41764806 cell= 0.41627464 seconds= 8.9
+DONE MODEL mlp loso_P03 session= 0.40168704 cell= 0.40064964 seconds= 3.0
+START FEATURES loso_P05 1710 190
+DONE MODEL mlp loso_P03 session= 0.40168704 cell= 0.40064964 seconds= 3.0
+START FEATURES loso_P05 1710 190
+FEATURES loso_P05 10 /50
+FEATURES loso_P05 10 /50
+FEATURES loso_P05 20 /50
+FEATURES loso_P05 20 /50
+FEATURES loso_P05 30 /50
+FEATURES loso_P05 30 /50
+FEATURES loso_P05 40 /50
+FEATURES loso_P05 40 /50
+CLASSIFIER elasticnet loso_P02 10 /50
+CLASSIFIER elasticnet loso_P02 10 /50
+FEATURES loso_P05 50 /50
+FEATURES loso_P05 50 /50
+DONE FEATURES loso_P05 368.8 s
+DONE FEATURES loso_P05 368.8 s
+CLASSIFIER baseline loso_P05 10 /50
+CLASSIFIER baseline loso_P05 10 /50
+CLASSIFIER baseline loso_P05 20 /50
+CLASSIFIER baseline loso_P05 20 /50
+CLASSIFIER baseline loso_P05 30 /50
+CLASSIFIER baseline loso_P05 30 /50
+CLASSIFIER baseline loso_P05 40 /50
+CLASSIFIER baseline loso_P05 40 /50
+CLASSIFIER baseline loso_P05 50 /50
+DONE MODEL baseline loso_P05 session= 0.39988426 cell= 0.4000336 seconds= 11.0
+CLASSIFIER baseline loso_P05 50 /50
+DONE MODEL baseline loso_P05 session= 0.39988426 cell= 0.4000336 seconds= 11.0
+DONE MODEL mlp loso_P05 session= 0.35780423 cell= 0.35752688 seconds= 3.1
+START FEATURES loso_P06 1713 187
+DONE MODEL mlp loso_P05 session= 0.35780423 cell= 0.35752688 seconds= 3.1
+START FEATURES loso_P06 1713 187
+FEATURES loso_P06 10 /50
+FEATURES loso_P06 10 /50
+FEATURES loso_P06 20 /50
+FEATURES loso_P06 20 /50
+FEATURES loso_P06 30 /50
+FEATURES loso_P06 30 /50
+FEATURES loso_P06 40 /50
+FEATURES loso_P06 40 /50
+CLASSIFIER elasticnet loso_P03 10 /50
+CLASSIFIER elasticnet loso_P03 10 /50
+CLASSIFIER elasticnet loso_P01 20 /50
+CLASSIFIER elasticnet loso_P01 20 /50
+FEATURES loso_P06 50 /50
+FEATURES loso_P06 50 /50
+DONE FEATURES loso_P06 366.23 s
+DONE FEATURES loso_P06 366.23 s
+CLASSIFIER baseline loso_P06 10 /50
+CLASSIFIER baseline loso_P06 10 /50
+CLASSIFIER baseline loso_P06 20 /50
+CLASSIFIER baseline loso_P06 20 /50
+CLASSIFIER baseline loso_P06 30 /50
+CLASSIFIER baseline loso_P06 30 /50
+CLASSIFIER baseline loso_P06 40 /50
+CLASSIFIER baseline loso_P06 40 /50
+CLASSIFIER baseline loso_P06 50 /50
+DONE MODEL baseline loso_P06 session= 0.54045059 cell= 0.54125224 seconds= 9.9
+CLASSIFIER baseline loso_P06 50 /50
+DONE MODEL baseline loso_P06 session= 0.54045059 cell= 0.54125224 seconds= 9.9
+DONE MODEL mlp loso_P06 session= 0.55615293 cell= 0.55703405 seconds= 3.0
+START FEATURES loso_P07 1711 189
+DONE MODEL mlp loso_P06 session= 0.55615293 cell= 0.55703405 seconds= 3.0
+START FEATURES loso_P07 1711 189
+FEATURES loso_P07 10 /50
+FEATURES loso_P07 10 /50
+FEATURES loso_P07 20 /50
+FEATURES loso_P07 20 /50
+FEATURES loso_P07 30 /50
+FEATURES loso_P07 30 /50
+CLASSIFIER elasticnet loso_P02 20 /50
+CLASSIFIER elasticnet loso_P02 20 /50
+FEATURES loso_P07 40 /50
+FEATURES loso_P07 40 /50
+FEATURES loso_P07 50 /50
+FEATURES loso_P07 50 /50
+DONE FEATURES loso_P07 372.13 s
+DONE FEATURES loso_P07 372.13 s
+CLASSIFIER baseline loso_P07 10 /50
+CLASSIFIER baseline loso_P07 10 /50
+CLASSIFIER baseline loso_P07 20 /50
+CLASSIFIER baseline loso_P07 20 /50
+CLASSIFIER baseline loso_P07 30 /50
+CLASSIFIER baseline loso_P07 30 /50
+CLASSIFIER baseline loso_P07 40 /50
+CLASSIFIER baseline loso_P07 40 /50
+CLASSIFIER baseline loso_P07 50 /50
+DONE MODEL baseline loso_P07 session= 0.75062404 cell= 0.75145609 seconds= 10.5
+CLASSIFIER baseline loso_P07 50 /50
+DONE MODEL baseline loso_P07 session= 0.75062404 cell= 0.75145609 seconds= 10.5
+DONE MODEL mlp loso_P07 session= 0.73457768 cell= 0.73495744 seconds= 3.1
+START FEATURES loso_P08 1711 189
+DONE MODEL mlp loso_P07 session= 0.73457768 cell= 0.73495744 seconds= 3.1
+START FEATURES loso_P08 1711 189
+FEATURES loso_P08 10 /50
+FEATURES loso_P08 10 /50
+FEATURES loso_P08 20 /50
+FEATURES loso_P08 20 /50
+CLASSIFIER elasticnet loso_P03 20 /50
+CLASSIFIER elasticnet loso_P03 20 /50
+FEATURES loso_P08 30 /50
+FEATURES loso_P08 30 /50
+FEATURES loso_P08 40 /50
+FEATURES loso_P08 40 /50
+FEATURES loso_P08 50 /50
+FEATURES loso_P08 50 /50
+DONE FEATURES loso_P08 374.56 s
+DONE FEATURES loso_P08 374.56 s
+CLASSIFIER baseline loso_P08 10 /50
+CLASSIFIER baseline loso_P08 10 /50
+CLASSIFIER baseline loso_P08 20 /50
+CLASSIFIER baseline loso_P08 20 /50
+CLASSIFIER baseline loso_P08 30 /50
+CLASSIFIER baseline loso_P08 30 /50
+CLASSIFIER baseline loso_P08 40 /50
+CLASSIFIER baseline loso_P08 40 /50
+CLASSIFIER baseline loso_P08 50 /50
+DONE MODEL baseline loso_P08 session= 0.72673184 cell= 0.72708333 seconds= 9.9
+CLASSIFIER baseline loso_P08 50 /50
+DONE MODEL baseline loso_P08 session= 0.72673184 cell= 0.72708333 seconds= 9.9
+DONE MODEL mlp loso_P08 session= 0.69993546 cell= 0.70087366 seconds= 3.0
+START FEATURES loso_P10 1323 577
+DONE MODEL mlp loso_P08 session= 0.69993546 cell= 0.70087366 seconds= 3.0
+START FEATURES loso_P10 1323 577
+CLASSIFIER elasticnet loso_P01 30 /50
+CLASSIFIER elasticnet loso_P01 30 /50
+FEATURES loso_P10 10 /50
+FEATURES loso_P10 10 /50
+FEATURES loso_P10 20 /50
+FEATURES loso_P10 20 /50
+FEATURES loso_P10 30 /50
+FEATURES loso_P10 30 /50
+FEATURES loso_P10 40 /50
+FEATURES loso_P10 40 /50
+CLASSIFIER elasticnet loso_P02 30 /50
+CLASSIFIER elasticnet loso_P02 30 /50
+FEATURES loso_P10 50 /50
+FEATURES loso_P10 50 /50
+DONE FEATURES loso_P10 369.91 s
+DONE FEATURES loso_P10 369.91 s
+CLASSIFIER baseline loso_P10 10 /50
+CLASSIFIER baseline loso_P10 10 /50
+CLASSIFIER baseline loso_P10 20 /50
+CLASSIFIER baseline loso_P10 20 /50
+CLASSIFIER baseline loso_P10 30 /50
+CLASSIFIER baseline loso_P10 30 /50
+CLASSIFIER baseline loso_P10 40 /50
+CLASSIFIER baseline loso_P10 40 /50
+CLASSIFIER baseline loso_P10 50 /50
+DONE MODEL baseline loso_P10 session= 0.45954385 cell= 0.45835978 seconds= 8.3
+CLASSIFIER baseline loso_P10 50 /50
+DONE MODEL baseline loso_P10 session= 0.45954385 cell= 0.45835978 seconds= 8.3
+DONE MODEL mlp loso_P10 session= 0.44042169 cell= 0.4394392 seconds= 2.6
+START FEATURES later_last 1701 199
+DONE MODEL mlp loso_P10 session= 0.44042169 cell= 0.4394392 seconds= 2.6
+START FEATURES later_last 1701 199
+FEATURES later_last 10 /50
+FEATURES later_last 10 /50
+FEATURES later_last 20 /50
+FEATURES later_last 20 /50
+CLASSIFIER elasticnet loso_P03 30 /50
+CLASSIFIER elasticnet loso_P03 30 /50
+FEATURES later_last 30 /50
+FEATURES later_last 30 /50
+FEATURES later_last 40 /50
+FEATURES later_last 40 /50
+FEATURES later_last 50 /50
+FEATURES later_last 50 /50
+DONE FEATURES later_last 375.49 s
+CLASSIFIER elasticnet loso_P01 40 /50
+DONE FEATURES later_last 375.49 s
+CLASSIFIER elasticnet loso_P01 40 /50
+CLASSIFIER baseline later_last 10 /50
+CLASSIFIER baseline later_last 10 /50
+CLASSIFIER baseline later_last 20 /50
+CLASSIFIER baseline later_last 20 /50
+CLASSIFIER baseline later_last 30 /50
+CLASSIFIER baseline later_last 30 /50
+CLASSIFIER baseline later_last 40 /50
+CLASSIFIER baseline later_last 40 /50
+CLASSIFIER baseline later_last 50 /50
+DONE MODEL baseline later_last session= 0.72372984 cell= 0.72184874 seconds= 9.7
+CLASSIFIER baseline later_last 50 /50
+DONE MODEL baseline later_last session= 0.72372984 cell= 0.72184874 seconds= 9.7
+DONE MODEL mlp later_last session= 0.73375547 cell= 0.73167892 seconds= 3.0
+DONE MODEL mlp later_last session= 0.73375547 cell= 0.73167892 seconds= 3.0
+CLASSIFIER elasticnet loso_P02 40 /50
+CLASSIFIER elasticnet loso_P02 40 /50
+CLASSIFIER elasticnet loso_P03 40 /50
+CLASSIFIER elasticnet loso_P03 40 /50
+CLASSIFIER elasticnet loso_P01 50 /50
+DONE MODEL elasticnet loso_P01 session= 0.52075066 cell= 0.52083333 seconds= 3642.1
+CLASSIFIER elasticnet loso_P01 50 /50
+DONE MODEL elasticnet loso_P01 session= 0.52075066 cell= 0.52083333 seconds= 3642.1
+CLASSIFIER svm_linear loso_P03 10 /50
+CLASSIFIER svm_linear loso_P03 10 /50
+CLASSIFIER svm_linear loso_P03 20 /50
+CLASSIFIER svm_linear loso_P03 20 /50
+CLASSIFIER svm_linear loso_P03 30 /50
+CLASSIFIER svm_linear loso_P03 30 /50
+CLASSIFIER svm_linear loso_P03 40 /50
+CLASSIFIER svm_linear loso_P03 40 /50
+CLASSIFIER svm_linear loso_P03 50 /50
+DONE MODEL svm_linear loso_P03 session= 0.4813028 cell= 0.47942428 seconds= 120.1
+CLASSIFIER svm_linear loso_P03 50 /50
+DONE MODEL svm_linear loso_P03 session= 0.4813028 cell= 0.47942428 seconds= 120.1
+CLASSIFIER svm_rbf loso_P03 10 /50
+CLASSIFIER svm_rbf loso_P03 10 /50
+CLASSIFIER svm_rbf loso_P03 20 /50
+CLASSIFIER svm_rbf loso_P03 20 /50
+CLASSIFIER svm_rbf loso_P03 30 /50
+CLASSIFIER svm_rbf loso_P03 30 /50
+CLASSIFIER svm_rbf loso_P03 40 /50
+CLASSIFIER svm_rbf loso_P03 40 /50
+CLASSIFIER svm_rbf loso_P03 50 /50
+DONE MODEL svm_rbf loso_P03 session= 0.4556905 cell= 0.45392025 seconds= 149.0
+CLASSIFIER svm_rbf loso_P03 50 /50
+DONE MODEL svm_rbf loso_P03 session= 0.4556905 cell= 0.45392025 seconds= 149.0
+CLASSIFIER lda_lw loso_P03 10 /50
+CLASSIFIER lda_lw loso_P03 10 /50
+CLASSIFIER lda_lw loso_P03 20 /50
+CLASSIFIER lda_lw loso_P03 20 /50
+CLASSIFIER lda_lw loso_P03 30 /50
+CLASSIFIER lda_lw loso_P03 30 /50
+CLASSIFIER lda_lw loso_P03 40 /50
+CLASSIFIER lda_lw loso_P03 40 /50
+CLASSIFIER lda_lw loso_P03 50 /50
+DONE MODEL lda_lw loso_P03 session= 0.44419376 cell= 0.44352599 seconds= 34.5
+CLASSIFIER lda_lw loso_P03 50 /50
+DONE MODEL lda_lw loso_P03 session= 0.44419376 cell= 0.44352599 seconds= 34.5
+CLASSIFIER ridge loso_P03 10 /50
+CLASSIFIER ridge loso_P03 10 /50
+CLASSIFIER ridge loso_P03 20 /50
+CLASSIFIER ridge loso_P03 20 /50
+CLASSIFIER ridge loso_P03 30 /50
+CLASSIFIER ridge loso_P03 30 /50
+CLASSIFIER ridge loso_P03 40 /50
+CLASSIFIER ridge loso_P03 40 /50
+CLASSIFIER ridge loso_P03 50 /50
+DONE MODEL ridge loso_P03 session= 0.41050627 cell= 0.40982303 seconds= 14.8
+CLASSIFIER ridge loso_P03 50 /50
+DONE MODEL ridge loso_P03 session= 0.41050627 cell= 0.40982303 seconds= 14.8
+CLASSIFIER elasticnet loso_P02 50 /50
+DONE MODEL elasticnet loso_P02 session= 0.54935516 cell= 0.54919355 seconds= 3676.3
+CLASSIFIER elasticnet loso_P02 50 /50
+DONE MODEL elasticnet loso_P02 session= 0.54935516 cell= 0.54919355 seconds= 3676.3
+CLASSIFIER svm_linear loso_P05 10 /50
+CLASSIFIER svm_linear loso_P05 10 /50
+CLASSIFIER svm_linear loso_P05 20 /50
+CLASSIFIER svm_linear loso_P05 20 /50
+CLASSIFIER svm_linear loso_P05 30 /50
+CLASSIFIER svm_linear loso_P05 30 /50
+CLASSIFIER svm_linear loso_P05 40 /50
+CLASSIFIER svm_linear loso_P05 40 /50
+CLASSIFIER svm_linear loso_P05 50 /50
+DONE MODEL svm_linear loso_P05 session= 0.38979828 cell= 0.39079301 seconds= 126.8
+CLASSIFIER svm_linear loso_P05 50 /50
+DONE MODEL svm_linear loso_P05 session= 0.38979828 cell= 0.39079301 seconds= 126.8
+CLASSIFIER elasticnet loso_P03 50 /50
+DONE MODEL elasticnet loso_P03 session= 0.41134633 cell= 0.41034946 seconds= 3429.8
+CLASSIFIER elasticnet loso_P03 50 /50
+DONE MODEL elasticnet loso_P03 session= 0.41134633 cell= 0.41034946 seconds= 3429.8
+CLASSIFIER lda_lw loso_P05 10 /50
+CLASSIFIER lda_lw loso_P05 10 /50
+CLASSIFIER lda_lw loso_P05 20 /50
+CLASSIFIER lda_lw loso_P05 20 /50
+CLASSIFIER svm_rbf loso_P05 10 /50
+CLASSIFIER svm_rbf loso_P05 10 /50
+CLASSIFIER lda_lw loso_P05 30 /50
+CLASSIFIER lda_lw loso_P05 30 /50
+CLASSIFIER lda_lw loso_P05 40 /50
+CLASSIFIER lda_lw loso_P05 40 /50
+CLASSIFIER lda_lw loso_P05 50 /50
+DONE MODEL lda_lw loso_P05 session= 0.40534061 cell= 0.40524194 seconds= 27.5
+CLASSIFIER lda_lw loso_P05 50 /50
+DONE MODEL lda_lw loso_P05 session= 0.40534061 cell= 0.40524194 seconds= 27.5
+CLASSIFIER ridge loso_P05 10 /50
+CLASSIFIER ridge loso_P05 10 /50
+CLASSIFIER ridge loso_P05 20 /50
+CLASSIFIER ridge loso_P05 20 /50
+CLASSIFIER ridge loso_P05 30 /50
+CLASSIFIER ridge loso_P05 30 /50
+CLASSIFIER ridge loso_P05 40 /50
+CLASSIFIER ridge loso_P05 40 /50
+CLASSIFIER ridge loso_P05 50 /50
+DONE MODEL ridge loso_P05 session= 0.39500661 cell= 0.3953293 seconds= 17.5
+CLASSIFIER ridge loso_P05 50 /50
+DONE MODEL ridge loso_P05 session= 0.39500661 cell= 0.3953293 seconds= 17.5
+CLASSIFIER svm_rbf loso_P05 20 /50
+CLASSIFIER svm_rbf loso_P05 20 /50
+CLASSIFIER svm_rbf loso_P05 30 /50
+CLASSIFIER svm_rbf loso_P05 30 /50
+CLASSIFIER svm_rbf loso_P05 40 /50
+CLASSIFIER svm_rbf loso_P05 40 /50
+CLASSIFIER svm_rbf loso_P05 50 /50
+DONE MODEL svm_rbf loso_P05 session= 0.37326389 cell= 0.37365591 seconds= 162.4
+CLASSIFIER svm_rbf loso_P05 50 /50
+DONE MODEL svm_rbf loso_P05 session= 0.37326389 cell= 0.37365591 seconds= 162.4
+CLASSIFIER svm_linear loso_P06 10 /50
+CLASSIFIER svm_linear loso_P06 10 /50
+CLASSIFIER svm_linear loso_P06 20 /50
+CLASSIFIER svm_linear loso_P06 20 /50
+CLASSIFIER svm_linear loso_P06 30 /50
+CLASSIFIER svm_linear loso_P06 30 /50
+CLASSIFIER svm_linear loso_P06 40 /50
+CLASSIFIER svm_linear loso_P06 40 /50
+CLASSIFIER svm_linear loso_P06 50 /50
+DONE MODEL svm_linear loso_P06 session= 0.50332821 cell= 0.50411066 seconds= 137.2
+CLASSIFIER svm_linear loso_P06 50 /50
+DONE MODEL svm_linear loso_P06 session= 0.50332821 cell= 0.50411066 seconds= 137.2
+CLASSIFIER svm_rbf loso_P06 10 /50
+CLASSIFIER svm_rbf loso_P06 10 /50
+CLASSIFIER svm_rbf loso_P06 20 /50
+CLASSIFIER svm_rbf loso_P06 20 /50
+CLASSIFIER svm_rbf loso_P06 30 /50
+CLASSIFIER svm_rbf loso_P06 30 /50
+CLASSIFIER svm_rbf loso_P06 40 /50
+CLASSIFIER svm_rbf loso_P06 40 /50
+CLASSIFIER svm_rbf loso_P06 50 /50
+DONE MODEL svm_rbf loso_P06 session= 0.5411333 cell= 0.54159946 seconds= 165.9
+CLASSIFIER svm_rbf loso_P06 50 /50
+DONE MODEL svm_rbf loso_P06 session= 0.5411333 cell= 0.54159946 seconds= 165.9
+CLASSIFIER lda_lw loso_P06 10 /50
+CLASSIFIER lda_lw loso_P06 10 /50
+CLASSIFIER elasticnet loso_P05 10 /50
+CLASSIFIER elasticnet loso_P05 10 /50
+CLASSIFIER lda_lw loso_P06 20 /50
+CLASSIFIER lda_lw loso_P06 20 /50
+CLASSIFIER lda_lw loso_P06 30 /50
+CLASSIFIER lda_lw loso_P06 30 /50
+CLASSIFIER lda_lw loso_P06 40 /50
+CLASSIFIER lda_lw loso_P06 40 /50
+CLASSIFIER lda_lw loso_P06 50 /50
+DONE MODEL lda_lw loso_P06 session= 0.52952722 cell= 0.52996192 seconds= 33.9
+CLASSIFIER lda_lw loso_P06 50 /50
+DONE MODEL lda_lw loso_P06 session= 0.52952722 cell= 0.52996192 seconds= 33.9
+CLASSIFIER ridge loso_P06 10 /50
+CLASSIFIER ridge loso_P06 10 /50
+CLASSIFIER ridge loso_P06 20 /50
+CLASSIFIER ridge loso_P06 20 /50
+CLASSIFIER ridge loso_P06 30 /50
+CLASSIFIER ridge loso_P06 30 /50
+CLASSIFIER ridge loso_P06 40 /50
+CLASSIFIER ridge loso_P06 40 /50
+CLASSIFIER ridge loso_P06 50 /50
+DONE MODEL ridge loso_P06 session= 0.51339819 cell= 0.51311604 seconds= 19.2
+CLASSIFIER ridge loso_P06 50 /50
+DONE MODEL ridge loso_P06 session= 0.51339819 cell= 0.51311604 seconds= 19.2
+CLASSIFIER elasticnet loso_P06 10 /50
+CLASSIFIER elasticnet loso_P06 10 /50
+CLASSIFIER elasticnet loso_P05 20 /50
+CLASSIFIER elasticnet loso_P05 20 /50
+CLASSIFIER elasticnet loso_P07 10 /50
+CLASSIFIER elasticnet loso_P07 10 /50
+CLASSIFIER elasticnet loso_P06 20 /50
+CLASSIFIER elasticnet loso_P06 20 /50
+CLASSIFIER elasticnet loso_P07 20 /50
+CLASSIFIER elasticnet loso_P07 20 /50
+CLASSIFIER elasticnet loso_P05 30 /50
+CLASSIFIER elasticnet loso_P05 30 /50
+CLASSIFIER elasticnet loso_P06 30 /50
+CLASSIFIER elasticnet loso_P06 30 /50
+CLASSIFIER elasticnet loso_P05 40 /50
+CLASSIFIER elasticnet loso_P05 40 /50
+CLASSIFIER elasticnet loso_P07 30 /50
+CLASSIFIER elasticnet loso_P07 30 /50
+CLASSIFIER elasticnet loso_P06 40 /50
+CLASSIFIER elasticnet loso_P06 40 /50
+CLASSIFIER elasticnet loso_P05 50 /50
+DONE MODEL elasticnet loso_P05 session= 0.41087963 cell= 0.41112231 seconds= 3255.6
+CLASSIFIER elasticnet loso_P05 50 /50
+DONE MODEL elasticnet loso_P05 session= 0.41087963 cell= 0.41112231 seconds= 3255.6
+CLASSIFIER svm_linear loso_P07 10 /50
+CLASSIFIER svm_linear loso_P07 10 /50
+CLASSIFIER svm_linear loso_P07 20 /50
+CLASSIFIER svm_linear loso_P07 20 /50
+CLASSIFIER svm_linear loso_P07 30 /50
+CLASSIFIER svm_linear loso_P07 30 /50
+CLASSIFIER svm_linear loso_P07 40 /50
+CLASSIFIER svm_linear loso_P07 40 /50
+CLASSIFIER svm_linear loso_P07 50 /50
+DONE MODEL svm_linear loso_P07 session= 0.76053667 cell= 0.76083109 seconds= 113.6
+CLASSIFIER svm_linear loso_P07 50 /50
+DONE MODEL svm_linear loso_P07 session= 0.76053667 cell= 0.76083109 seconds= 113.6
+CLASSIFIER elasticnet loso_P07 40 /50
+CLASSIFIER elasticnet loso_P07 40 /50
+CLASSIFIER svm_rbf loso_P07 10 /50
+CLASSIFIER svm_rbf loso_P07 10 /50
+CLASSIFIER svm_rbf loso_P07 20 /50
+CLASSIFIER svm_rbf loso_P07 20 /50
+CLASSIFIER svm_rbf loso_P07 30 /50
+CLASSIFIER svm_rbf loso_P07 30 /50
+CLASSIFIER elasticnet loso_P06 50 /50
+DONE MODEL elasticnet loso_P06 session= 0.50290152 cell= 0.50271057 seconds= 3288.0
+CLASSIFIER elasticnet loso_P06 50 /50
+DONE MODEL elasticnet loso_P06 session= 0.50290152 cell= 0.50271057 seconds= 3288.0
+CLASSIFIER lda_lw loso_P07 10 /50
+CLASSIFIER lda_lw loso_P07 10 /50
+CLASSIFIER svm_rbf loso_P07 40 /50
+CLASSIFIER svm_rbf loso_P07 40 /50
+CLASSIFIER lda_lw loso_P07 20 /50
+CLASSIFIER lda_lw loso_P07 20 /50
+CLASSIFIER lda_lw loso_P07 30 /50
+CLASSIFIER lda_lw loso_P07 30 /50
+CLASSIFIER lda_lw loso_P07 40 /50
+CLASSIFIER lda_lw loso_P07 40 /50
+CLASSIFIER lda_lw loso_P07 50 /50
+DONE MODEL lda_lw loso_P07 session= 0.74011937 cell= 0.74033378 seconds= 21.9
+CLASSIFIER lda_lw loso_P07 50 /50
+DONE MODEL lda_lw loso_P07 session= 0.74011937 cell= 0.74033378 seconds= 21.9
+CLASSIFIER ridge loso_P07 10 /50
+CLASSIFIER ridge loso_P07 10 /50
+CLASSIFIER ridge loso_P07 20 /50
+CLASSIFIER ridge loso_P07 20 /50
+CLASSIFIER ridge loso_P07 30 /50
+CLASSIFIER ridge loso_P07 30 /50
+CLASSIFIER ridge loso_P07 40 /50
+CLASSIFIER ridge loso_P07 40 /50
+CLASSIFIER ridge loso_P07 50 /50
+DONE MODEL ridge loso_P07 session= 0.66544792 cell= 0.66621864 seconds= 14.2
+CLASSIFIER ridge loso_P07 50 /50
+DONE MODEL ridge loso_P07 session= 0.66544792 cell= 0.66621864 seconds= 14.2
+CLASSIFIER svm_rbf loso_P07 50 /50
+DONE MODEL svm_rbf loso_P07 session= 0.80320607 cell= 0.80334901 seconds= 166.8
+CLASSIFIER svm_rbf loso_P07 50 /50
+DONE MODEL svm_rbf loso_P07 session= 0.80320607 cell= 0.80334901 seconds= 166.8
+CLASSIFIER svm_linear loso_P08 10 /50
+CLASSIFIER svm_linear loso_P08 10 /50
+CLASSIFIER svm_linear loso_P08 20 /50
+CLASSIFIER svm_linear loso_P08 20 /50
+CLASSIFIER svm_linear loso_P08 30 /50
+CLASSIFIER svm_linear loso_P08 30 /50
+CLASSIFIER svm_linear loso_P08 40 /50
+CLASSIFIER svm_linear loso_P08 40 /50
+CLASSIFIER svm_linear loso_P08 50 /50
+DONE MODEL svm_linear loso_P08 session= 0.71622984 cell= 0.71666667 seconds= 121.6
+CLASSIFIER svm_linear loso_P08 50 /50
+DONE MODEL svm_linear loso_P08 session= 0.71622984 cell= 0.71666667 seconds= 121.6
+CLASSIFIER svm_rbf loso_P08 10 /50
+CLASSIFIER svm_rbf loso_P08 10 /50
+CLASSIFIER svm_rbf loso_P08 20 /50
+CLASSIFIER svm_rbf loso_P08 20 /50
+CLASSIFIER svm_rbf loso_P08 30 /50
+CLASSIFIER svm_rbf loso_P08 30 /50
+CLASSIFIER svm_rbf loso_P08 40 /50
+CLASSIFIER svm_rbf loso_P08 40 /50
+CLASSIFIER svm_rbf loso_P08 50 /50
+DONE MODEL svm_rbf loso_P08 session= 0.72068346 cell= 0.72152778 seconds= 180.8
+CLASSIFIER svm_rbf loso_P08 50 /50
+DONE MODEL svm_rbf loso_P08 session= 0.72068346 cell= 0.72152778 seconds= 180.8
+CLASSIFIER lda_lw loso_P08 10 /50
+CLASSIFIER lda_lw loso_P08 10 /50
+CLASSIFIER lda_lw loso_P08 20 /50
+CLASSIFIER lda_lw loso_P08 20 /50
+CLASSIFIER lda_lw loso_P08 30 /50
+CLASSIFIER lda_lw loso_P08 30 /50
+CLASSIFIER lda_lw loso_P08 40 /50
+CLASSIFIER lda_lw loso_P08 40 /50
+CLASSIFIER lda_lw loso_P08 50 /50
+DONE MODEL lda_lw loso_P08 session= 0.74252485 cell= 0.74270833 seconds= 25.7
+CLASSIFIER lda_lw loso_P08 50 /50
+DONE MODEL lda_lw loso_P08 session= 0.74252485 cell= 0.74270833 seconds= 25.7
+CLASSIFIER ridge loso_P08 10 /50
+CLASSIFIER ridge loso_P08 10 /50
+CLASSIFIER ridge loso_P08 20 /50
+CLASSIFIER ridge loso_P08 20 /50
+CLASSIFIER ridge loso_P08 30 /50
+CLASSIFIER ridge loso_P08 30 /50
+CLASSIFIER ridge loso_P08 40 /50
+CLASSIFIER ridge loso_P08 40 /50
+CLASSIFIER ridge loso_P08 50 /50
+DONE MODEL ridge loso_P08 session= 0.69464179 cell= 0.69479167 seconds= 15.7
+CLASSIFIER ridge loso_P08 50 /50
+DONE MODEL ridge loso_P08 session= 0.69464179 cell= 0.69479167 seconds= 15.7
+CLASSIFIER elasticnet loso_P07 50 /50
+DONE MODEL elasticnet loso_P07 session= 0.67082427 cell= 0.67142697 seconds= 3352.0
+CLASSIFIER elasticnet loso_P07 50 /50
+DONE MODEL elasticnet loso_P07 session= 0.67082427 cell= 0.67142697 seconds= 3352.0
+CLASSIFIER svm_linear loso_P10 10 /50
+CLASSIFIER svm_linear loso_P10 10 /50
+CLASSIFIER svm_linear loso_P10 20 /50
+CLASSIFIER svm_linear loso_P10 20 /50
+CLASSIFIER svm_linear loso_P10 30 /50
+CLASSIFIER svm_linear loso_P10 30 /50
+CLASSIFIER svm_linear loso_P10 40 /50
+CLASSIFIER svm_linear loso_P10 40 /50
+CLASSIFIER svm_linear loso_P10 50 /50
+DONE MODEL svm_linear loso_P10 session= 0.50069454 cell= 0.49996435 seconds= 78.3
+CLASSIFIER svm_linear loso_P10 50 /50
+DONE MODEL svm_linear loso_P10 session= 0.50069454 cell= 0.49996435 seconds= 78.3
+CLASSIFIER svm_rbf loso_P10 10 /50
+CLASSIFIER svm_rbf loso_P10 10 /50
+CLASSIFIER svm_rbf loso_P10 20 /50
+CLASSIFIER svm_rbf loso_P10 20 /50
+CLASSIFIER svm_rbf loso_P10 30 /50
+CLASSIFIER svm_rbf loso_P10 30 /50
+CLASSIFIER elasticnet loso_P08 10 /50
+CLASSIFIER elasticnet loso_P08 10 /50
+CLASSIFIER svm_rbf loso_P10 40 /50
+CLASSIFIER svm_rbf loso_P10 40 /50
+CLASSIFIER svm_rbf loso_P10 50 /50
+DONE MODEL svm_rbf loso_P10 session= 0.44058101 cell= 0.43936471 seconds= 113.5
+CLASSIFIER svm_rbf loso_P10 50 /50
+DONE MODEL svm_rbf loso_P10 session= 0.44058101 cell= 0.43936471 seconds= 113.5
+CLASSIFIER lda_lw loso_P10 10 /50
+CLASSIFIER lda_lw loso_P10 10 /50
+CLASSIFIER lda_lw loso_P10 20 /50
+CLASSIFIER lda_lw loso_P10 20 /50
+CLASSIFIER lda_lw loso_P10 30 /50
+CLASSIFIER lda_lw loso_P10 30 /50
+CLASSIFIER lda_lw loso_P10 40 /50
+CLASSIFIER lda_lw loso_P10 40 /50
+CLASSIFIER lda_lw loso_P10 50 /50
+DONE MODEL lda_lw loso_P10 session= 0.45162195 cell= 0.45122004 seconds= 19.7
+CLASSIFIER lda_lw loso_P10 50 /50
+DONE MODEL lda_lw loso_P10 session= 0.45162195 cell= 0.45122004 seconds= 19.7
+CLASSIFIER ridge loso_P10 10 /50
+CLASSIFIER ridge loso_P10 10 /50
+CLASSIFIER ridge loso_P10 20 /50
+CLASSIFIER ridge loso_P10 20 /50
+CLASSIFIER ridge loso_P10 30 /50
+CLASSIFIER ridge loso_P10 30 /50
+CLASSIFIER ridge loso_P10 40 /50
+CLASSIFIER ridge loso_P10 40 /50
+CLASSIFIER ridge loso_P10 50 /50
+DONE MODEL ridge loso_P10 session= 0.4446294 cell= 0.44384836 seconds= 14.0
+CLASSIFIER ridge loso_P10 50 /50
+DONE MODEL ridge loso_P10 session= 0.4446294 cell= 0.44384836 seconds= 14.0
+CLASSIFIER elasticnet loso_P10 10 /50
+CLASSIFIER elasticnet loso_P10 10 /50
+CLASSIFIER elasticnet loso_P08 20 /50
+CLASSIFIER elasticnet loso_P08 20 /50
+CLASSIFIER elasticnet later_last 10 /50
+CLASSIFIER elasticnet later_last 10 /50
+CLASSIFIER elasticnet loso_P10 20 /50
+CLASSIFIER elasticnet loso_P10 20 /50
+CLASSIFIER elasticnet later_last 20 /50
+CLASSIFIER elasticnet later_last 20 /50
+CLASSIFIER elasticnet loso_P08 30 /50
+CLASSIFIER elasticnet loso_P08 30 /50
+CLASSIFIER elasticnet loso_P10 30 /50
+CLASSIFIER elasticnet loso_P10 30 /50
+CLASSIFIER elasticnet loso_P10 40 /50
+CLASSIFIER elasticnet loso_P10 40 /50
+CLASSIFIER elasticnet later_last 30 /50
+CLASSIFIER elasticnet later_last 30 /50
+CLASSIFIER elasticnet loso_P08 40 /50
+CLASSIFIER elasticnet loso_P08 40 /50
+CLASSIFIER elasticnet loso_P10 50 /50
+DONE MODEL elasticnet loso_P10 session= 0.42931289 cell= 0.42912681 seconds= 2708.6
+CLASSIFIER elasticnet loso_P10 50 /50
+DONE MODEL elasticnet loso_P10 session= 0.42931289 cell= 0.42912681 seconds= 2708.6
+CLASSIFIER svm_linear later_last 10 /50
+CLASSIFIER svm_linear later_last 10 /50
+CLASSIFIER svm_linear later_last 20 /50
+CLASSIFIER svm_linear later_last 20 /50
+CLASSIFIER svm_linear later_last 30 /50
+CLASSIFIER svm_linear later_last 30 /50
+CLASSIFIER svm_linear later_last 40 /50
+CLASSIFIER svm_linear later_last 40 /50
+CLASSIFIER svm_linear later_last 50 /50
+DONE MODEL svm_linear later_last session= 0.75825418 cell= 0.75774685 seconds= 127.0
+CLASSIFIER svm_linear later_last 50 /50
+DONE MODEL svm_linear later_last session= 0.75825418 cell= 0.75774685 seconds= 127.0
+CLASSIFIER svm_rbf later_last 10 /50
+CLASSIFIER svm_rbf later_last 10 /50
+CLASSIFIER elasticnet later_last 40 /50
+CLASSIFIER elasticnet later_last 40 /50
+CLASSIFIER svm_rbf later_last 20 /50
+CLASSIFIER svm_rbf later_last 20 /50
+CLASSIFIER svm_rbf later_last 30 /50
+CLASSIFIER svm_rbf later_last 30 /50
+CLASSIFIER svm_rbf later_last 40 /50
+CLASSIFIER svm_rbf later_last 40 /50
+CLASSIFIER svm_rbf later_last 50 /50
+DONE MODEL svm_rbf later_last session= 0.66840042 cell= 0.66759454 seconds= 153.6
+CLASSIFIER svm_rbf later_last 50 /50
+DONE MODEL svm_rbf later_last session= 0.66840042 cell= 0.66759454 seconds= 153.6
+CLASSIFIER lda_lw later_last 10 /50
+CLASSIFIER lda_lw later_last 10 /50
+CLASSIFIER lda_lw later_last 20 /50
+CLASSIFIER lda_lw later_last 20 /50
+CLASSIFIER lda_lw later_last 30 /50
+CLASSIFIER lda_lw later_last 30 /50
+CLASSIFIER elasticnet loso_P08 50 /50
+DONE MODEL elasticnet loso_P08 session= 0.71068815 cell= 0.71076389 seconds= 3358.5
+CLASSIFIER elasticnet loso_P08 50 /50
+DONE MODEL elasticnet loso_P08 session= 0.71068815 cell= 0.71076389 seconds= 3358.5
+CLASSIFIER ridge later_last 10 /50
+CLASSIFIER lda_lw later_last 40 /50
+CLASSIFIER ridge later_last 10 /50
+CLASSIFIER lda_lw later_last 40 /50
+CLASSIFIER ridge later_last 20 /50
+CLASSIFIER ridge later_last 20 /50
+CLASSIFIER lda_lw later_last 50 /50
+DONE MODEL lda_lw later_last session= 0.70895522 cell= 0.70742297 seconds= 27.6
+CLASSIFIER lda_lw later_last 50 /50
+DONE MODEL lda_lw later_last session= 0.70895522 cell= 0.70742297 seconds= 27.6
+CLASSIFIER ridge later_last 30 /50
+CLASSIFIER ridge later_last 30 /50
+CLASSIFIER ridge later_last 40 /50
+CLASSIFIER ridge later_last 40 /50
+CLASSIFIER ridge later_last 50 /50
+DONE MODEL ridge later_last session= 0.62844867 cell= 0.6271271 seconds= 13.5
+CLASSIFIER ridge later_last 50 /50
+DONE MODEL ridge later_last session= 0.62844867 cell= 0.6271271 seconds= 13.5
+CLASSIFIER elasticnet later_last 50 /50
+DONE MODEL elasticnet later_last session= 0.65309815 cell= 0.65093662 seconds= 2978.1
+CLASSIFIER elasticnet later_last 50 /50
+DONE MODEL elasticnet later_last session= 0.65309815 cell= 0.65093662 seconds= 2978.1
+FROZEN SELECTION {"baseline": 0.5628006572739627, "lda_lw": 0.5650959636766038, "svm_linear": 0.5751856243822775, "svm_rbf": 0.5663526816812261, "ridge": 0.5136853275938564, "elasticnet": 0.5257573248731585, "mlp": 0.5451847457854171} winner svm_linear
+START FEATURES test_official 1521 755
+FROZEN SELECTION {"baseline": 0.5628006572739627, "lda_lw": 0.5650959636766038, "svm_linear": 0.5751856243822775, "svm_rbf": 0.5663526816812261, "ridge": 0.5136853275938564, "elasticnet": 0.5257573248731585, "mlp": 0.5451847457854171} winner svm_linear
+START FEATURES test_official 1521 755
+FEATURES test_official 10 /50
+FEATURES test_official 10 /50
+FEATURES test_official 20 /50
+FEATURES test_official 20 /50
+FEATURES test_official 30 /50
+FEATURES test_official 30 /50
+FEATURES test_official 40 /50
+FEATURES test_official 40 /50
+FEATURES test_official 50 /50
+FEATURES test_official 50 /50
+DONE FEATURES test_official 238.16 s
+DONE FEATURES test_official 238.16 s
+CLASSIFIER baseline test_official 10 /50
+CLASSIFIER baseline test_official 10 /50
+CLASSIFIER baseline test_official 20 /50
+CLASSIFIER baseline test_official 20 /50
+CLASSIFIER baseline test_official 30 /50
+CLASSIFIER baseline test_official 30 /50
+CLASSIFIER baseline test_official 40 /50
+CLASSIFIER baseline test_official 40 /50
+CLASSIFIER baseline test_official 50 /50
+DONE MODEL baseline test_official session= 0.55540729 cell= 0.55716363 seconds= 5.5
+CLASSIFIER baseline test_official 50 /50
+DONE MODEL baseline test_official session= 0.55540729 cell= 0.55716363 seconds= 5.5
+DONE MODEL mlp test_official session= 0.53443338 cell= 0.53603937 seconds= 2.9
+DONE MODEL mlp test_official session= 0.53443338 cell= 0.53603937 seconds= 2.9
+CLASSIFIER svm_linear test_official 10 /50
+CLASSIFIER svm_linear test_official 10 /50
+CLASSIFIER svm_rbf test_official 10 /50
+CLASSIFIER svm_rbf test_official 10 /50
+CLASSIFIER svm_linear test_official 20 /50
+CLASSIFIER svm_linear test_official 20 /50
+CLASSIFIER svm_rbf test_official 20 /50
+CLASSIFIER svm_rbf test_official 20 /50
+CLASSIFIER svm_linear test_official 30 /50
+CLASSIFIER svm_linear test_official 30 /50
+CLASSIFIER svm_rbf test_official 30 /50
+CLASSIFIER svm_rbf test_official 30 /50
+CLASSIFIER svm_linear test_official 40 /50
+CLASSIFIER svm_linear test_official 40 /50
+CLASSIFIER svm_rbf test_official 40 /50
+CLASSIFIER svm_rbf test_official 40 /50
+CLASSIFIER svm_linear test_official 50 /50
+DONE MODEL svm_linear test_official session= 0.50350884 cell= 0.50444717 seconds= 107.8
+CLASSIFIER svm_linear test_official 50 /50
+DONE MODEL svm_linear test_official session= 0.50350884 cell= 0.50444717 seconds= 107.8
+CLASSIFIER lda_lw test_official 10 /50
+CLASSIFIER lda_lw test_official 10 /50
+CLASSIFIER lda_lw test_official 20 /50
+CLASSIFIER lda_lw test_official 20 /50
+CLASSIFIER lda_lw test_official 30 /50
+CLASSIFIER lda_lw test_official 30 /50
+CLASSIFIER lda_lw test_official 40 /50
+CLASSIFIER lda_lw test_official 40 /50
+CLASSIFIER lda_lw test_official 50 /50
+DONE MODEL lda_lw test_official session= 0.55167382 cell= 0.55282586 seconds= 22.8
+CLASSIFIER lda_lw test_official 50 /50
+DONE MODEL lda_lw test_official session= 0.55167382 cell= 0.55282586 seconds= 22.8
+CLASSIFIER ridge test_official 10 /50
+CLASSIFIER ridge test_official 10 /50
+CLASSIFIER ridge test_official 20 /50
+CLASSIFIER svm_rbf test_official 50 /50
+CLASSIFIER ridge test_official 20 /50
+CLASSIFIER svm_rbf test_official 50 /50
+DONE MODEL svm_rbf test_official session= 0.51838392 cell= 0.51940128 seconds= 136.6
+DONE MODEL svm_rbf test_official session= 0.51838392 cell= 0.51940128 seconds= 136.6
+CLASSIFIER ridge test_official 30 /50
+CLASSIFIER ridge test_official 30 /50
+CLASSIFIER ridge test_official 40 /50
+CLASSIFIER ridge test_official 40 /50
+CLASSIFIER ridge test_official 50 /50
+DONE MODEL ridge test_official session= 0.45778147 cell= 0.45892774 seconds= 10.2
+CLASSIFIER ridge test_official 50 /50
+DONE MODEL ridge test_official session= 0.45778147 cell= 0.45892774 seconds= 10.2
+CLASSIFIER elasticnet test_official 10 /50
+CLASSIFIER elasticnet test_official 10 /50
+CLASSIFIER elasticnet test_official 20 /50
+CLASSIFIER elasticnet test_official 20 /50
+CLASSIFIER elasticnet test_official 30 /50
+CLASSIFIER elasticnet test_official 30 /50
+CLASSIFIER elasticnet test_official 40 /50
+CLASSIFIER elasticnet test_official 40 /50
+CLASSIFIER elasticnet test_official 50 /50
+DONE MODEL elasticnet test_official session= 0.45784211 cell= 0.45848474 seconds= 2059.2
+CLASSIFIER elasticnet test_official 50 /50
+DONE MODEL elasticnet test_official session= 0.45784211 cell= 0.45848474 seconds= 2059.2
+FROZEN SELECTION {"baseline": 0.5628006572739627, "lda_lw": 0.5650959636766038, "svm_linear": 0.5751856243822775, "svm_rbf": 0.5663526816812261, "ridge": 0.5136853275938564, "elasticnet": 0.5257573248731585, "mlp": 0.5451847457854171} winner svm_linear
+CLASSIFIER EXPERIMENT COMPLETE all
+FROZEN SELECTION {"baseline": 0.5628006572739627, "lda_lw": 0.5650959636766038, "svm_linear": 0.5751856243822775, "svm_rbf": 0.5663526816812261, "ridge": 0.5136853275938564, "elasticnet": 0.5257573248731585, "mlp": 0.5451847457854171} winner svm_linear
+CLASSIFIER EXPERIMENT COMPLETE all
+/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+
+/tmp/classifier-env/lib/python3.13/site-packages/pandas/core/arrays/masked.py:63: UserWarning: Pandas requires version '1.5.0' or newer of 'bottleneck' (version '1.4.2' currently installed).
+  from pandas.core import (
+[
+  {
+    "variant": "baseline",
+    "label": "Logistic regression (submitted baseline)",
+    "loso_session_mean": 0.5628006572739627,
+    "loso_std_subjects": 0.13324561338345278,
+    "loso_delta": 0.0,
+    "paired_bootstrap95_low": 0.0,
+    "paired_bootstrap95_high": 0.0,
+    "loso_subject_wins": 0,
+    "loso_subject_ties": 8,
+    "later_session_mean": 0.7237298356701342,
+    "test_cell_mean": 0.5571636308861698,
+    "test_session_mean": 0.5554072947007407,
+    "test_pooled": 0.5558597344006698,
+    "test_accuracy": 0.5562913907284768,
+    "test_log_loss": 0.9929632480008811,
+    "test_brier": 0.5961898202388922,
+    "total_classifier_seconds": 85.17318276099832,
+    "convergence_warnings": 0,
+    "exploratory_signflip_p": 1.0,
+    "exploratory_holm_p": 1.0
+  },
+  {
+    "variant": "lda_lw",
+    "label": "Shrinkage LDA",
+    "loso_session_mean": 0.5650959636766038,
+    "loso_std_subjects": 0.13083482566809468,
+    "loso_delta": 0.0022953064026410355,
+    "paired_bootstrap95_low": -0.007534906064290162,
+    "paired_bootstrap95_high": 0.012609148652180392,
+    "loso_subject_wins": 4,
+    "loso_subject_ties": 0,
+    "later_session_mean": 0.7089552238805971,
+    "test_cell_mean": 0.552825863613892,
+    "test_session_mean": 0.5516738207857325,
+    "test_pooled": 0.5520710513595439,
+    "test_accuracy": 0.552317880794702,
+    "test_log_loss": 0.9821931852763031,
+    "test_brier": 0.5891930719509784,
+    "total_classifier_seconds": 278.3038445810032,
+    "convergence_warnings": 0,
+    "exploratory_signflip_p": 0.7109375,
+    "exploratory_holm_p": 1
+  },
+  {
+    "variant": "svm_linear",
+    "label": "Linear SVM + grouped calibration",
+    "loso_session_mean": 0.5751856243822775,
+    "loso_std_subjects": 0.12717881921633586,
+    "loso_delta": 0.012384967108314805,
+    "paired_bootstrap95_low": -0.008643712060485295,
+    "paired_bootstrap95_high": 0.03355300413685773,
+    "loso_subject_wins": 5,
+    "loso_subject_ties": 0,
+    "later_session_mean": 0.7582541836273181,
+    "test_cell_mean": 0.5044471673773329,
+    "test_session_mean": 0.5035088365873995,
+    "test_pooled": 0.503681392235609,
+    "test_accuracy": 0.5033112582781457,
+    "test_log_loss": 1.0731228758686289,
+    "test_brier": 0.6496416805681866,
+    "total_classifier_seconds": 1220.6236191300006,
+    "convergence_warnings": 0,
+    "exploratory_signflip_p": 0.3125,
+    "exploratory_holm_p": 0.9375
+  },
+  {
+    "variant": "svm_rbf",
+    "label": "RBF SVM + grouped calibration",
+    "loso_session_mean": 0.5663526816812261,
+    "loso_std_subjects": 0.1454469240142981,
+    "loso_delta": 0.003552024407263432,
+    "paired_bootstrap95_low": -0.01313971053043926,
+    "paired_bootstrap95_high": 0.02239543330773168,
+    "loso_subject_wins": 4,
+    "loso_subject_ties": 0,
+    "later_session_mean": 0.6684004221317653,
+    "test_cell_mean": 0.5194012830614263,
+    "test_session_mean": 0.5183839197402622,
+    "test_pooled": 0.518513624551951,
+    "test_accuracy": 0.5178807947019868,
+    "test_log_loss": 1.0586578277595262,
+    "test_brier": 0.6399261725312626,
+    "total_classifier_seconds": 1607.2878475649993,
+    "convergence_warnings": 0,
+    "exploratory_signflip_p": 0.7265625,
+    "exploratory_holm_p": 1
+  },
+  {
+    "variant": "ridge",
+    "label": "Ridge + grouped calibration",
+    "loso_session_mean": 0.5136853275938564,
+    "loso_std_subjects": 0.11099005619733296,
+    "loso_delta": -0.04911532968010627,
+    "paired_bootstrap95_low": -0.07980110727086541,
+    "paired_bootstrap95_high": -0.021567963683009117,
+    "loso_subject_wins": 0,
+    "loso_subject_ties": 0,
+    "later_session_mean": 0.6284486657620986,
+    "test_cell_mean": 0.4589277437893956,
+    "test_session_mean": 0.45778147287765214,
+    "test_pooled": 0.45754559294546016,
+    "test_accuracy": 0.45695364238410596,
+    "test_log_loss": 1.088217926130752,
+    "test_brier": 0.6597177261501982,
+    "total_classifier_seconds": 156.70672310600185,
+    "convergence_warnings": 0,
+    "exploratory_signflip_p": 0.0078125,
+    "exploratory_holm_p": 0.046875
+  },
+  {
+    "variant": "elasticnet",
+    "label": "Elastic net + grouped calibration",
+    "loso_session_mean": 0.5257573248731585,
+    "loso_std_subjects": 0.1146026870267926,
+    "loso_delta": -0.03704333240080417,
+    "paired_bootstrap95_low": -0.05912240379470668,
+    "paired_bootstrap95_high": -0.01577159930408316,
+    "loso_subject_wins": 1,
+    "loso_subject_ties": 0,
+    "later_session_mean": 0.6530981456354591,
+    "test_cell_mean": 0.4584847361265604,
+    "test_session_mean": 0.45784211063825025,
+    "test_pooled": 0.45754559294546016,
+    "test_accuracy": 0.45695364238410596,
+    "test_log_loss": 1.0894260172478527,
+    "test_brier": 0.6605304173174181,
+    "total_classifier_seconds": 31748.259544014,
+    "convergence_warnings": 2423,
+    "exploratory_signflip_p": 0.0234375,
+    "exploratory_holm_p": 0.1171875
+  },
+  {
+    "variant": "mlp",
+    "label": "MLP32 (PyTorch CUDA)",
+    "loso_session_mean": 0.5451847457854171,
+    "loso_std_subjects": 0.13628867474459394,
+    "loso_delta": -0.01761591148854555,
+    "paired_bootstrap95_low": -0.027665770609318997,
+    "paired_bootstrap95_high": -0.006040053230073353,
+    "loso_subject_wins": 1,
+    "loso_subject_ties": 0,
+    "later_session_mean": 0.7337554650987487,
+    "test_cell_mean": 0.5360393685885552,
+    "test_session_mean": 0.534433384064449,
+    "test_pooled": 0.5347894515193633,
+    "test_accuracy": 0.5350993377483444,
+    "test_log_loss": 0.9940801964803291,
+    "test_brier": 0.5972315915073421,
+    "total_classifier_seconds": 32.31108700299865,
+    "convergence_warnings": 0,
+    "exploratory_signflip_p": 0.0234375,
+    "exploratory_holm_p": 0.1171875
+  }
+]
+VERIFIED ALL70 JOBS
+[
+  {
+    "variant": "baseline",
+    "label": "Logistic regression (submitted baseline)",
+    "loso_session_mean": 0.5628006572739627,
+    "loso_std_subjects": 0.13324561338345278,
+    "loso_delta": 0.0,
+    "paired_bootstrap95_low": 0.0,
+    "paired_bootstrap95_high": 0.0,
+    "loso_subject_wins": 0,
+    "loso_subject_ties": 8,
+    "later_session_mean": 0.7237298356701342,
+    "test_cell_mean": 0.5571636308861698,
+    "test_session_mean": 0.5554072947007407,
+    "test_pooled": 0.5558597344006698,
+    "test_accuracy": 0.5562913907284768,
+    "test_log_loss": 0.9929632480008811,
+    "test_brier": 0.5961898202388922,
+    "total_classifier_seconds": 85.17318276099832,
+    "convergence_warnings": 0,
+    "exploratory_signflip_p": 1.0,
+    "exploratory_holm_p": 1.0
+  },
+  {
+    "variant": "lda_lw",
+    "label": "Shrinkage LDA",
+    "loso_session_mean": 0.5650959636766038,
+    "loso_std_subjects": 0.13083482566809468,
+    "loso_delta": 0.0022953064026410355,
+    "paired_bootstrap95_low": -0.007534906064290162,
+    "paired_bootstrap95_high": 0.012609148652180392,
+    "loso_subject_wins": 4,
+    "loso_subject_ties": 0,
+    "later_session_mean": 0.7089552238805971,
+    "test_cell_mean": 0.552825863613892,
+    "test_session_mean": 0.5516738207857325,
+    "test_pooled": 0.5520710513595439,
+    "test_accuracy": 0.552317880794702,
+    "test_log_loss": 0.9821931852763031,
+    "test_brier": 0.5891930719509784,
+    "total_classifier_seconds": 278.3038445810032,
+    "convergence_warnings": 0,
+    "exploratory_signflip_p": 0.7109375,
+    "exploratory_holm_p": 1
+  },
+  {
+    "variant": "svm_linear",
+    "label": "Linear SVM + grouped calibration",
+    "loso_session_mean": 0.5751856243822775,
+    "loso_std_subjects": 0.12717881921633586,
+    "loso_delta": 0.012384967108314805,
+    "paired_bootstrap95_low": -0.008643712060485295,
+    "paired_bootstrap95_high": 0.03355300413685773,
+    "loso_subject_wins": 5,
+    "loso_subject_ties": 0,
+    "later_session_mean": 0.7582541836273181,
+    "test_cell_mean": 0.5044471673773329,
+    "test_session_mean": 0.5035088365873995,
+    "test_pooled": 0.503681392235609,
+    "test_accuracy": 0.5033112582781457,
+    "test_log_loss": 1.0731228758686289,
+    "test_brier": 0.6496416805681866,
+    "total_classifier_seconds": 1220.6236191300006,
+    "convergence_warnings": 0,
+    "exploratory_signflip_p": 0.3125,
+    "exploratory_holm_p": 0.9375
+  },
+  {
+    "variant": "svm_rbf",
+    "label": "RBF SVM + grouped calibration",
+    "loso_session_mean": 0.5663526816812261,
+    "loso_std_subjects": 0.1454469240142981,
+    "loso_delta": 0.003552024407263432,
+    "paired_bootstrap95_low": -0.01313971053043926,
+    "paired_bootstrap95_high": 0.02239543330773168,
+    "loso_subject_wins": 4,
+    "loso_subject_ties": 0,
+    "later_session_mean": 0.6684004221317653,
+    "test_cell_mean": 0.5194012830614263,
+    "test_session_mean": 0.5183839197402622,
+    "test_pooled": 0.518513624551951,
+    "test_accuracy": 0.5178807947019868,
+    "test_log_loss": 1.0586578277595262,
+    "test_brier": 0.6399261725312626,
+    "total_classifier_seconds": 1607.2878475649993,
+    "convergence_warnings": 0,
+    "exploratory_signflip_p": 0.7265625,
+    "exploratory_holm_p": 1
+  },
+  {
+    "variant": "ridge",
+    "label": "Ridge + grouped calibration",
+    "loso_session_mean": 0.5136853275938564,
+    "loso_std_subjects": 0.11099005619733296,
+    "loso_delta": -0.04911532968010627,
+    "paired_bootstrap95_low": -0.07980110727086541,
+    "paired_bootstrap95_high": -0.021567963683009117,
+    "loso_subject_wins": 0,
+    "loso_subject_ties": 0,
+    "later_session_mean": 0.6284486657620986,
+    "test_cell_mean": 0.4589277437893956,
+    "test_session_mean": 0.45778147287765214,
+    "test_pooled": 0.45754559294546016,
+    "test_accuracy": 0.45695364238410596,
+    "test_log_loss": 1.088217926130752,
+    "test_brier": 0.6597177261501982,
+    "total_classifier_seconds": 156.70672310600185,
+    "convergence_warnings": 0,
+    "exploratory_signflip_p": 0.0078125,
+    "exploratory_holm_p": 0.046875
+  },
+  {
+    "variant": "elasticnet",
+    "label": "Elastic net + grouped calibration",
+    "loso_session_mean": 0.5257573248731585,
+    "loso_std_subjects": 0.1146026870267926,
+    "loso_delta": -0.03704333240080417,
+    "paired_bootstrap95_low": -0.05912240379470668,
+    "paired_bootstrap95_high": -0.01577159930408316,
+    "loso_subject_wins": 1,
+    "loso_subject_ties": 0,
+    "later_session_mean": 0.6530981456354591,
+    "test_cell_mean": 0.4584847361265604,
+    "test_session_mean": 0.45784211063825025,
+    "test_pooled": 0.45754559294546016,
+    "test_accuracy": 0.45695364238410596,
+    "test_log_loss": 1.0894260172478527,
+    "test_brier": 0.6605304173174181,
+    "total_classifier_seconds": 31748.259544014,
+    "convergence_warnings": 2423,
+    "exploratory_signflip_p": 0.0234375,
+    "exploratory_holm_p": 0.1171875
+  },
+  {
+    "variant": "mlp",
+    "label": "MLP32 (PyTorch CUDA)",
+    "loso_session_mean": 0.5451847457854171,
+    "loso_std_subjects": 0.13628867474459394,
+    "loso_delta": -0.01761591148854555,
+    "paired_bootstrap95_low": -0.027665770609318997,
+    "paired_bootstrap95_high": -0.006040053230073353,
+    "loso_subject_wins": 1,
+    "loso_subject_ties": 0,
+    "later_session_mean": 0.7337554650987487,
+    "test_cell_mean": 0.5360393685885552,
+    "test_session_mean": 0.534433384064449,
+    "test_pooled": 0.5347894515193633,
+    "test_accuracy": 0.5350993377483444,
+    "test_log_loss": 0.9940801964803291,
+    "test_brier": 0.5972315915073421,
+    "total_classifier_seconds": 32.31108700299865,
+    "convergence_warnings": 0,
+    "exploratory_signflip_p": 0.0234375,
+    "exploratory_holm_p": 0.1171875
+  }
+]
+VERIFIED ALL70 JOBS
+# Classifier-only ablation of the submitted Lag4 forest
+
+All70 evaluations completed. Geometry,scalers,tree draws and subject bootstraps are shared. The original LR reproduced all10 prior baseline prediction files exactly.
+
+LOSO-selected model,chosen before new public-test scores: **svm_linear**.
+
+| Classifier | LOSO session BA mean ± SD,% | Delta,pp | Later session,% | Public test cell BA,% | Public test session BA,% |
+|---|---:|---:|---:|---:|---:|
+| Logistic regression (submitted baseline) | 56.28 ± 13.32 | +0.00 | 72.37 | 55.72 | 55.54 |
+| Shrinkage LDA | 56.51 ± 13.08 | +0.23 | 70.90 | 55.28 | 55.17 |
+| Linear SVM + grouped calibration | 57.52 ± 12.72 | +1.24 | 75.83 | 50.44 | 50.35 |
+| RBF SVM + grouped calibration | 56.64 ± 14.54 | +0.36 | 66.84 | 51.94 | 51.84 |
+| Ridge + grouped calibration | 51.37 ± 11.10 | -4.91 | 62.84 | 45.89 | 45.78 |
+| Elastic net + grouped calibration | 52.58 ± 11.46 | -3.70 | 65.31 | 45.85 | 45.78 |
+| MLP32 (PyTorch CUDA) | 54.52 ± 13.63 | -1.76 | 73.38 | 53.60 | 53.44 |
+
+## Interpretation limits
+
+Fixed literature-informed configurations were compared,not optimally tuned model families. There are only8 LOSO people; their training folds overlap. Paired bootstrap intervals and sign-flip/Holm values in the CSV are exploratory descriptions,not independent-cohort confirmation. The later-session estimate is one held-out session. Public test comprises two people and has already been inspected in prior research. It is not a sealed score.
+
+The probability interface for SVM,ridge and elastic net includes subject-grouped sigmoid calibration. This is part of the classifier replacement. Geometry is frozen at the outer-training fold during inner calibration; no outer-evaluation labels enter fit.
+
+MLP uses300 fixed full-batch Adam epochs on CUDA,not the provisional local sklearn L-BFGS fixture. Its fixed-epoch results do not assert convergence. All numerical ConvergenceWarnings from classical classifiers remain in individual job JSON files.
+
+Evidence tiers and adaptations are documented in ../literature/survey.md. Ridge has direct fMRI tangent-connectome support; RBF has a weaker direct EEG source. The strongest direct EEG precedents are TS-LDA,TS-linear-SVM and TS-elastic net.
+
+Outputs: ['REPORT.md', 'baseline', 'comparison.csv', 'comparison.png', 'elasticnet', 'lda_lw', 'mlp', 'paired_subject_scores.csv', 'ridge', 'runtime.json', 'selection.json', 'svm_linear', 'svm_rbf', 'verification.json']
+/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+  cells[i][c] = re.sub('\\\\\|', '|', cell)
+/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+  text = re.sub(r'_', '\_', text) # Escape underscores in display text
+[NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+[NbConvertApp] Writing 52101 bytes to __notebook__.ipynb
+[NbConvertApp] Converting notebook __notebook__.ipynb to html
+[NbConvertApp] Writing 335378 bytes to __results__.html

@@ -1,0 +1,20 @@
+Matplotlib is building the font cache; this may take a moment.
+Validated exact source/data/environment and frozen experiment manifest
+START pyramid2_mixed/forest20_loso_Dreyer2026Proteus_P01 train=1710 eval=190
+DONE pyramid2_mixed/forest20_loso_Dreyer2026Proteus_P01: 0.536789021, delta=+0.010582011 (59.4s)
+START pyramid2_mixed/forest20_loso_Dreyer2026Proteus_P02 train=1711 eval=189
+DONE pyramid2_mixed/forest20_loso_Dreyer2026Proteus_P02: 0.676848652, delta=+0.085504139 (60.0s)
+START pyramid2_mixed/forest20_loso_Dreyer2026Proteus_P03 train=1711 eval=189
+DONE pyramid2_mixed/forest20_loso_Dreyer2026Proteus_P03: 0.476118472, delta=+0.090813812 (60.6s)
+START pyramid2_mixed/forest20_loso_Dreyer2026Proteus_P05 train=1710 eval=190
+DONE pyramid2_mixed/forest20_loso_Dreyer2026Proteus_P05: 0.531250000, delta=+0.200148810 (62.3s)
+START pyramid2_mixed/forest20_loso_Dreyer2026Proteus_P06 train=1713 eval=187
+DONE pyramid2_mixed/forest20_loso_Dreyer2026Proteus_P06: 0.619986346, delta=+0.117596860 (63.2s)
+START pyramid2_mixed/forest20_loso_Dreyer2026Proteus_P07 train=1711 eval=189
+DONE pyramid2_mixed/forest20_loso_Dreyer2026Proteus_P07: 0.724161013, delta=-0.010336662 (62.7s)
+START pyramid2_mixed/forest20_loso_Dreyer2026Proteus_P08 train=1711 eval=189
+DONE pyramid2_mixed/forest20_loso_Dreyer2026Proteus_P08: 0.794610855, delta=+0.057966377 (63.3s)
+START pyramid2_mixed/forest20_loso_Dreyer2026Proteus_P10 train=1323 eval=577
+DONE pyramid2_mixed/forest20_loso_Dreyer2026Proteus_P10: 0.523247598, delta=+0.079292780 (62.2s)
+START pyramid2_mixed/forest20_later_last train=1701 eval=199
+DONE pyramid2_mixed/forest20_later_last: 0.774159506, delta=+0.105532941 (63.3s)

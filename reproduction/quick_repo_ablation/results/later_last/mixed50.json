@@ -1,0 +1,12 @@
+{
+  "variant": "mixed50",
+  "tag": "later_last",
+  "manifest": "7c10219a68b40adcadce4abc7837de39ea2bd31a3cca4d07e4e31c8bae2ac884",
+  "prediction_sha256": "8023d2d075b04776861255770ecf11a5c7aa4e388b13af403ef83de458cc55d4",
+  "cell_mean": 0.7642419467787114,
+  "session_mean": 0.7642092567465703,
+  "pooled": 0.7642092567465703,
+  "accuracy": 0.7638190954773869,
+  "log_loss": 0.8971113364195116,
+  "brier": 0.5315096665393292
+}

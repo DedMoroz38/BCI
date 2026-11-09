@@ -1,0 +1,3 @@
+Validated exact source/data/environment and frozen experiment manifest
+START pyramid2_oas/logreg_test_official train=1521 eval=755
+DONE pyramid2_oas/logreg_test_official: 0.420298014, delta=-0.034528975 (5.5s)

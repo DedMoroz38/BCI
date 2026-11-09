@@ -1,0 +1,12 @@
+{
+  "variant": "baseline",
+  "tag": "loso_P06",
+  "manifest": "7c10219a68b40adcadce4abc7837de39ea2bd31a3cca4d07e4e31c8bae2ac884",
+  "prediction_sha256": "ad99977c723be00d13171fb62c3ce314b696e31cb55aceb1de02f5cec9e47772",
+  "cell_mean": 0.5412522401433691,
+  "session_mean": 0.5404505888376856,
+  "pooled": 0.5404505888376856,
+  "accuracy": 0.5401069518716578,
+  "log_loss": 0.9589571768310362,
+  "brier": 0.5789170330609944
+}
