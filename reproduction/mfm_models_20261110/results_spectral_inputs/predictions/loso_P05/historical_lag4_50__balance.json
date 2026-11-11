@@ -1,0 +1,8 @@
+{
+  "tag": "loso_P05",
+  "name": "historical_lag4_50__balance",
+  "cell": 0.4114583333333333,
+  "nll": 1.0477929181928833,
+  "brier": 0.6368117501934211,
+  "source": "saved existing probabilities; no parity gate"
+}

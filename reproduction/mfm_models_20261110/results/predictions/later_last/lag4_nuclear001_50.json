@@ -1,0 +1,10 @@
+{
+  "tag": "later_last",
+  "name": "lag4_nuclear001_50",
+  "cell": 0.6461205046534743,
+  "nll": 0.930393576956376,
+  "brier": 0.554116994148414,
+  "trees": 50,
+  "representation": "lag4",
+  "seconds": 73.4068877089303
+}

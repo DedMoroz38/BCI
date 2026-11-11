@@ -1,0 +1,19 @@
+{
+  "tag": "loso_P06",
+  "name": "spectral_center_pls16__balance",
+  "cell": 0.41588261648745517,
+  "nll": 2.1574056980167367,
+  "brier": 0.8833212527220228,
+  "config": {
+    "name": "spectral_center_pls16",
+    "kind": "pls",
+    "r": 16
+  },
+  "seconds": 0.930070917122066,
+  "features": 16,
+  "train": {
+    "cell": 0.9602263151488598,
+    "nll": 0.10432563435766744,
+    "brier": 0.05832058024337046
+  }
+}

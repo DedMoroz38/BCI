@@ -1,0 +1,10 @@
+{
+  "tag": "pair08_P04_P10",
+  "name": "mssa8_mix25_lr50__balance",
+  "cell": 0.5203876534237474,
+  "nll": 1.012368459267822,
+  "brier": 0.6101804184730222,
+  "trees": 50,
+  "representation": "mssa8_mix25",
+  "seconds": 47.97508816700429
+}

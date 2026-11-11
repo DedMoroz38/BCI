@@ -1,0 +1,19 @@
+{
+  "tag": "loso_P09",
+  "name": "spectral_relative_pls16__balance",
+  "cell": 0.38146551724137934,
+  "nll": 2.3256579773469332,
+  "brier": 0.9547305926394507,
+  "config": {
+    "name": "spectral_relative_pls16",
+    "kind": "pls",
+    "r": 16
+  },
+  "seconds": 0.6665182919241488,
+  "features": 16,
+  "train": {
+    "cell": 0.9453356245881028,
+    "nll": 0.14286890268782615,
+    "brier": 0.07854790773449073
+  }
+}

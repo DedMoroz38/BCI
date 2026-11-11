@@ -1,0 +1,25 @@
+{
+  "best_epoch": 1,
+  "averaging_epochs": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "refit_epochs": 7,
+  "seconds": 6.8927644120000195,
+  "parameters": 13731,
+  "config": {
+    "name": "point_meanstd",
+    "recipe": "point",
+    "family": "context"
+  },
+  "seed": 1
+}

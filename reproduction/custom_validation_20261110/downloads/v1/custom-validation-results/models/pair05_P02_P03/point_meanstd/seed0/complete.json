@@ -1,0 +1,80 @@
+{
+  "tag": "pair05_P02_P03",
+  "model": "point_meanstd",
+  "seed": 0,
+  "status": "complete",
+  "selection": {
+    "best_epoch": 6,
+    "averaging_epochs": [
+      4,
+      5,
+      6,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "refit_epochs": 12,
+    "seconds": 11.585541031000048,
+    "parameters": 13731,
+    "config": {
+      "name": "point_meanstd",
+      "recipe": "point",
+      "family": "context"
+    },
+    "seed": 0
+  },
+  "refit": {
+    "best_epoch": 12,
+    "averaging_epochs": [
+      4,
+      5,
+      6,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "refit_epochs": 12,
+    "seconds": 16.767405048,
+    "parameters": 13731,
+    "config": {
+      "name": "point_meanstd",
+      "recipe": "point",
+      "family": "context"
+    },
+    "seed": 0
+  },
+  "train_people": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P04",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P09",
+    "Dreyer2026Proteus/P10"
+  ],
+  "test_people": [
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03"
+  ],
+  "inner_train_people": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P04",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08"
+  ],
+  "inner_val_people": [
+    "Dreyer2026Proteus/P09",
+    "Dreyer2026Proteus/P10"
+  ]
+}

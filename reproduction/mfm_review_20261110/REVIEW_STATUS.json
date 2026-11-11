@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-10",
+  "repo": "intsystems/MathematicalForecastingMethods",
+  "commit": "0666f6e30a39827dc7b8cc37a4552a1ef07bc6c9",
+  "lecture_tex_read": 13,
+  "notebooks_source_read": 6,
+  "new_experiments_run": false,
+  "report": "REPORT_RU.md",
+  "scope": "main branch sources; selected chapters of Tensor Networks Part 2 and primary papers; no complete PDF-book survey"
+}

@@ -1,0 +1,20 @@
+{
+  "best_epoch": 2,
+  "averaging_epochs": [
+    2
+  ],
+  "refit_epochs": 2,
+  "seconds": 23.925922541879117,
+  "parameters": 13731,
+  "config": {
+    "name": "covariance025",
+    "kind": "covariance",
+    "alignment_strength": 0.25,
+    "recipe": "novel",
+    "family": "context",
+    "prior": 10,
+    "scope": "filter",
+    "early": true
+  },
+  "seed": 0
+}

@@ -1,0 +1,10 @@
+{
+  "tag": "loso_P08",
+  "name": "lag4_rank16_50__balance",
+  "cell": 0.6980958781362007,
+  "nll": 0.7926167925751637,
+  "brier": 0.46382599857245665,
+  "trees": 50,
+  "representation": "lag4",
+  "seconds": 158.70118750003166
+}

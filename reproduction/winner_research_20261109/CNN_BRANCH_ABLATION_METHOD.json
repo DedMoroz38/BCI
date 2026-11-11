@@ -1,0 +1,6 @@
+{
+  "method": "Remove complete old/new CNN families; renormalize remaining family weights; keep geometry and transduction parameters fixed. Saved held-out predictions only; no model fitting.",
+  "old_cnn": "two SWAD.1 Shallow16 seeds, T4 inside original prior",
+  "new_cnn": "two latent_meanstd_p10 seeds, T1, balance1 in late fusion",
+  "scope": "Family-level pruning only; not individual seed or tree pruning."
+}

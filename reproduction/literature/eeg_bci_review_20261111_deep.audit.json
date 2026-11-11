@@ -1,0 +1,274 @@
+[
+  {
+    "id": "D01",
+    "name": "EEGNet",
+    "title": "EEGNet: a compact convolutional neural network for EEG-based brain–computer interfaces",
+    "year": 2018,
+    "venue": "Journal of Neural Engineering, 15(5), 056013",
+    "url": "https://doi.org/10.1088/1741-2552/aace8c",
+    "verification": {
+      "checked": "2026-11-11",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29932424/"
+      ],
+      "status": "Primary abstract and indexed journal metadata verified."
+    },
+    "evidence_scope": "P300, ERN, MRCP and SMR; within-subject and cross-subject experiments; no PROTEUS evidence."
+  },
+  {
+    "id": "D02",
+    "name": "DeepConvNet",
+    "title": "Deep learning with convolutional neural networks for EEG decoding and visualization",
+    "year": 2017,
+    "venue": "Human Brain Mapping, 38(11), 5391–5420",
+    "url": "https://doi.org/10.1002/hbm.23730",
+    "verification": {
+      "checked": "2026-11-11",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28782865/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5655781/"
+      ],
+      "status": "Primary full text and publication metadata verified; D02 and D03 are different architectures from one paper."
+    },
+    "evidence_scope": "BCI Competition IV-2a and High-Gamma movement dataset; not direct PROTEUS validation."
+  },
+  {
+    "id": "D03",
+    "name": "ShallowConvNet",
+    "title": "Deep learning with convolutional neural networks for EEG decoding and visualization",
+    "year": 2017,
+    "venue": "Human Brain Mapping, 38(11), 5391–5420",
+    "url": "https://doi.org/10.1002/hbm.23730",
+    "verification": {
+      "checked": "2026-11-11",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/28782865/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5655781/"
+      ],
+      "status": "Primary full text and publication metadata verified; D02 and D03 are different architectures from one paper."
+    },
+    "evidence_scope": "Same publication and data as D02; distinct band-power-oriented architecture."
+  },
+  {
+    "id": "D04",
+    "name": "FBMSNet",
+    "title": "FBMSNet: A Filter-Bank Multi-Scale Convolutional Neural Network for EEG-Based Motor Imagery Decoding",
+    "year": 2023,
+    "venue": "IEEE Transactions on Biomedical Engineering, 70(2), 436–445",
+    "url": "https://doi.org/10.1109/TBME.2022.3193277",
+    "verification": {
+      "checked": "2026-11-11",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/35867371/"
+      ],
+      "status": "Primary abstract and issue metadata verified; DOI contains early-access year 2022, issue year is 2023."
+    },
+    "evidence_scope": "BCI Competition IV-2a and OpenBMI; supervised MI hold-out evaluation."
+  },
+  {
+    "id": "D05",
+    "name": "EEG-TCNet",
+    "title": "EEG-TCNet: An Accurate Temporal Convolutional Network for Embedded Motor-Imagery Brain–Machine Interfaces",
+    "year": 2020,
+    "venue": "2020 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+    "url": "https://doi.org/10.1109/SMC42975.2020.9283028",
+    "verification": {
+      "checked": "2026-11-11",
+      "sources": [
+        "https://cris.unibo.it/handle/11585/800231",
+        "https://cris.unibo.it/bitstream/11585/800231/2/EEG-TCNet.pdf",
+        "https://ieeexplore.ieee.org/abstract/document/9283028/"
+      ],
+      "status": "Peer-reviewed author accepted manuscript and IEEE conference record verified."
+    },
+    "evidence_scope": "BCI Competition IV-2a plus MOABB experiments over 12 MI datasets; conference, not premier general ML venue."
+  },
+  {
+    "id": "D06",
+    "name": "ATCNet",
+    "title": "Physics-Informed Attention Temporal Convolutional Network for EEG-Based Motor Imagery Classification",
+    "year": 2023,
+    "venue": "IEEE Transactions on Industrial Informatics, 19(2), 2249–2258",
+    "url": "https://doi.org/10.1109/TII.2022.3197419",
+    "verification": {
+      "checked": "2026-11-11",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/9852687/",
+        "https://dblp.org/rec/journals/tii/AltaheriMA23.html"
+      ],
+      "status": "IEEE primary indexed abstract verified; issue/year cross-checked; direct open meets JavaScript challenge."
+    },
+    "evidence_scope": "MI-EEG classification; compact convolution, attention and TCN; no PROTEUS experiment."
+  },
+  {
+    "id": "D07",
+    "name": "EEG Conformer",
+    "title": "EEG Conformer: Convolutional Transformer for EEG Decoding and Visualization",
+    "year": 2023,
+    "venue": "IEEE Transactions on Neural Systems and Rehabilitation Engineering, 31, 710–719",
+    "url": "https://doi.org/10.1109/TNSRE.2022.3230250",
+    "verification": {
+      "checked": "2026-11-11",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37015413/",
+        "https://bingchuanliu.github.io/assets/pdf/song_tnsre.pdf"
+      ],
+      "status": "Primary abstract, author-hosted published PDF and issue year verified."
+    },
+    "evidence_scope": "Three public datasets across motor imagery and emotion recognition; no PROTEUS."
+  },
+  {
+    "id": "D08",
+    "name": "TSception",
+    "title": "TSception: Capturing Temporal Dynamics and Spatial Asymmetry From EEG for Emotion Recognition",
+    "year": 2023,
+    "venue": "IEEE Transactions on Affective Computing, 14(3), 2238–2250",
+    "url": "https://doi.org/10.1109/TAFFC.2022.3169001",
+    "verification": {
+      "checked": "2026-11-11",
+      "sources": [
+        "https://personal.ntu.edu.sg/ctguan/Publications/2022_DingYi_IEEE_TAC.pdf",
+        "https://github.com/yi-ding-cs/TSception"
+      ],
+      "status": "Author accepted manuscript and author repository final citation verified; early access 2022, issue 2023."
+    },
+    "evidence_scope": "EEG emotion recognition including DEAP; temporal multiscale and spatial asymmetry; not three-command BCI."
+  },
+  {
+    "id": "D09",
+    "name": "DGCNN",
+    "title": "EEG Emotion Recognition Using Dynamical Graph Convolutional Neural Networks",
+    "year": 2020,
+    "venue": "IEEE Transactions on Affective Computing, 11(3), 532–541",
+    "url": "https://doi.org/10.1109/TAFFC.2018.2817622",
+    "verification": {
+      "checked": "2026-11-11",
+      "sources": [
+        "https://ieeexplore.ieee.org/abstract/document/8320798/references",
+        "https://static.aminer.cn/upload/pdf/1605/1777/1863/5c7573b5f56def97988c92c6_0.pdf"
+      ],
+      "status": "Primary IEEE abstract and accepted manuscript verified; early access 2018, issue 2020."
+    },
+    "evidence_scope": "SEED subject-dependent and subject-independent emotion recognition; DREAMER affect dimensions."
+  },
+  {
+    "id": "D10",
+    "name": "RGNN",
+    "title": "EEG-Based Emotion Recognition Using Regularized Graph Neural Networks",
+    "year": 2022,
+    "venue": "IEEE Transactions on Affective Computing, 13(3), 1290–1301",
+    "url": "https://doi.org/10.1109/TAFFC.2020.2994159",
+    "verification": {
+      "checked": "2026-11-11",
+      "sources": [
+        "https://arxiv.org/abs/1907.07835",
+        "https://github.com/zhongpeixiang/RGNN",
+        "https://dblp.org/rec/journals/taffco/ZhongWM22.html"
+      ],
+      "status": "Primary author manuscript and implementation verified; final issue metadata cross-checked; IEEE direct open challenged. Early access 2020, issue 2022."
+    },
+    "evidence_scope": "SEED and SEED-IV emotion recognition; graph priors plus NodeDAT and EmotionDL; target-use setting must be separated."
+  },
+  {
+    "id": "D11",
+    "name": "LGGNet",
+    "title": "LGGNet: Learning From Local-Global-Graph Representations for Brain–Computer Interface",
+    "year": 2024,
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems, 35(7), 9773–9786",
+    "url": "https://doi.org/10.1109/TNNLS.2023.3236635",
+    "verification": {
+      "checked": "2026-11-11",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/37021989/",
+        "https://personal.ntu.edu.sg/ctguan/Publications/2023_DingYi_IEEE_TNNLS%28EA%29.pdf"
+      ],
+      "status": "Primary abstract and author accepted manuscript verified; final issue 2024, early access 2023."
+    },
+    "evidence_scope": "Public attention, driving-fatigue and DEAP datasets; four classification tasks including emotion/preference."
+  },
+  {
+    "id": "D12",
+    "name": "EEG-Inception для ERP",
+    "title": "EEG-Inception: A Novel Deep Convolutional Neural Network for Assistive ERP-Based Brain-Computer Interfaces",
+    "year": 2020,
+    "venue": "IEEE Transactions on Neural Systems and Rehabilitation Engineering, 28(12), 2773–2782",
+    "url": "https://doi.org/10.1109/TNSRE.2020.3048106",
+    "verification": {
+      "checked": "2026-11-11",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33378260/",
+        "https://gib.tel.uva.es/simplicity/docs/Santamaria_Vazquez_2020_TNSRE.pdf"
+      ],
+      "status": "Primary abstract and accepted manuscript verified; issue is dated Dec2020, PubMed Epub Jan2021; date discrepancy preserved."
+    },
+    "evidence_scope": "ERP assistive BCI; 73 participants, including motor disabilities; cross-subject pretraining plus supervised fine-tuning."
+  },
+  {
+    "id": "D13",
+    "name": "EEG-Deformer",
+    "title": "EEG-Deformer: A Dense Convolutional Transformer for Brain-Computer Interfaces",
+    "year": 2025,
+    "venue": "IEEE Journal of Biomedical and Health Informatics, 29(3), 1909–1918",
+    "url": "https://doi.org/10.1109/JBHI.2024.3504604",
+    "verification": {
+      "checked": "2026-11-11",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/40030277/",
+        "https://github.com/yi-ding-cs/EEG-Deformer",
+        "https://arxiv.org/abs/2405.00719"
+      ],
+      "status": "Primary abstract, author repository and manuscript verified; final issue 2025, early access 2024."
+    },
+    "evidence_scope": "Cognitive attention, driving fatigue and mental workload detection; not motor imagery command benchmark."
+  },
+  {
+    "id": "D14",
+    "name": "EEGSym",
+    "title": "EEGSym: Overcoming Inter-Subject Variability in Motor Imagery Based BCIs With Deep Learning",
+    "year": 2022,
+    "venue": "IEEE Transactions on Neural Systems and Rehabilitation Engineering, 30, 1766–1775",
+    "url": "https://doi.org/10.1109/TNSRE.2022.3186442",
+    "verification": {
+      "checked": "2026-11-11",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/35759578/",
+        "https://ieeexplore.ieee.org/abstract/document/9807323"
+      ],
+      "status": "Primary abstract and IEEE record verified."
+    },
+    "evidence_scope": "Five public left/right-hand MI datasets, 280 participants; inter-subject classification and cross-dataset transfer."
+  },
+  {
+    "id": "D15",
+    "name": "CNN над временным представлением FBCSP",
+    "title": "Learning Temporal Information for Brain-Computer Interface Using Convolutional Neural Networks",
+    "year": 2018,
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems, 29(11), 5619–5629",
+    "url": "https://doi.org/10.1109/TNNLS.2018.2789927",
+    "verification": {
+      "checked": "2026-11-11",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29994075/"
+      ],
+      "status": "Primary abstract and final publication metadata verified."
+    },
+    "evidence_scope": "BCI Competition IV-2a four-class motor imagery; modified FBCSP representation and supervised CNN."
+  },
+  {
+    "id": "D16",
+    "name": "EEG-inception для motor imagery",
+    "title": "EEG-inception: an accurate and robust end-to-end neural network for EEG-based motor imagery classification",
+    "year": 2021,
+    "venue": "Journal of Neural Engineering, 18(4), 046014",
+    "url": "https://doi.org/10.1088/1741-2552/abed81",
+    "verification": {
+      "checked": "2026-11-11",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/33691299/",
+        "https://arxiv.org/abs/2101.10932"
+      ],
+      "status": "Primary abstract, manuscript and final DOI/year verified; not the ERP model D12."
+    },
+    "evidence_scope": "BCI Competition IV-2a and IV-2b; supervised motor imagery with proposed data augmentation; no PROTEUS."
+  }
+]

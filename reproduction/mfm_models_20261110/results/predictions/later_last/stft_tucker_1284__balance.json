@@ -1,0 +1,23 @@
+{
+  "tag": "later_last",
+  "name": "stft_tucker_1284__balance",
+  "cell": 0.4959391283395078,
+  "nll": 1.5376630039921941,
+  "brier": 0.7606422986024248,
+  "config": {
+    "name": "stft_tucker_1284",
+    "kind": "tucker",
+    "ranks": [
+      12,
+      8,
+      4
+    ]
+  },
+  "seconds": 0.21732058399356902,
+  "features": 384,
+  "train": {
+    "cell": 0.7843142007065463,
+    "nll": 0.5421168575413765,
+    "brier": 0.3071595512182318
+  }
+}

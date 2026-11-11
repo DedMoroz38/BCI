@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "folds": 10,
+  "variants": 5,
+  "workers": 1,
+  "blas_threads": 1,
+  "seconds": 59.69814341608435
+}

@@ -1,0 +1,10 @@
+{
+  "tag": "loso_P05",
+  "name": "lag4_hopls4_50__balance",
+  "cell": 0.3587029569892473,
+  "nll": 1.0635732922265857,
+  "brier": 0.6478840054183341,
+  "trees": 50,
+  "representation": "lag4",
+  "seconds": 174.17874979111366
+}

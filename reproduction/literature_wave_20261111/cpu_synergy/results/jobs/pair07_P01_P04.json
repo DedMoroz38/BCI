@@ -1,0 +1,10 @@
+{
+  "fold": "pair07_P01_P04",
+  "status": "complete",
+  "failed": {},
+  "completed_heads": {
+    "mssa8_mix25_nuclear001_50": 50,
+    "mssa8_mix25_nuclear005_50": 50
+  },
+  "seconds": 55.89608687488362
+}

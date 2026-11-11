@@ -1,0 +1,319 @@
+{
+  "as_of": "2026-11-11",
+  "count": 16,
+  "criteria": "16 distinct peer-reviewed SSL/pretraining/foundation approaches with direct scalp EEG evidence. Generic TS-TCC explicitly flagged. Banville objectives counted as one paper-level family. No workshops or unaccepted preprints counted.",
+  "source_policy": "Conference proceedings/publisher or author institutional full publication records; access limitations retained, never silently treated as full-text inspection.",
+  "excluded": [
+    {
+      "name": "BrainBERT",
+      "reason": "Original intracranial neural recordings; not direct scalp EEG evidence."
+    },
+    {
+      "name": "Brant",
+      "reason": "Original intracranial neural recordings; not direct scalp EEG evidence."
+    },
+    {
+      "name": "MAEEG",
+      "reason": "Original NeurIPS workshop publication; not used to fill main peer-reviewed conference/journal quota."
+    }
+  ],
+  "proteus_protocol": {
+    "channels": 41,
+    "sampling_rate_hz": 120,
+    "window_seconds": 4,
+    "classes": [
+      "motor imagery",
+      "subtraction",
+      "words"
+    ],
+    "public_subjects": 10,
+    "public_windows": 2655,
+    "inference_batch": 1,
+    "session_reset": true,
+    "target_labels": false,
+    "future_target_windows": false,
+    "target_subject_or_session_metadata": false
+  },
+  "items": [
+    {
+      "id": "F01",
+      "title": "Uncovering the structure of clinical EEG signals with self-supervised learning",
+      "year": 2021,
+      "venue": "Journal of Neural Engineering 18(4), 046020",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/abca18",
+      "doi": "10.1088/1741-2552/abca18",
+      "verification": "Publisher URL blocked by robots; DOI/year/journal verified in author institutional manuscript and publication record. Publication year is 2021, not arXiv posting year 2020.",
+      "evidence_scope": "Direct clinical scalp EEG: sleep staging and pathology detection; relative positioning, temporal shuffling and CPC counted as one paper-level family.",
+      "supplementary_primary_urls": [
+        "https://pure.mpg.de/rest/items/item_3400043_4/component/file_3510743/content",
+        "https://pubmed.ncbi.nlm.nih.gov/33181507/"
+      ],
+      "review_body_words": 156,
+      "review_body_paragraphs": 2,
+      "publication_status": "peer-reviewed published",
+      "direct_scalp_eeg_evidence": true,
+      "proteus_evidence": false
+    },
+    {
+      "id": "F02",
+      "title": "BENDR: Using Transformers and a Contrastive Self-Supervised Learning Task to Learn From Massive Amounts of EEG Data",
+      "year": 2021,
+      "venue": "Frontiers in Human Neuroscience 15, 653659",
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2021.653659/full",
+      "doi": "10.3389/fnhum.2021.653659",
+      "verification": "Publisher full article read; Original Research, 23 June 2021; masked contrastive objective and TUEG source verified.",
+      "evidence_scope": "Direct scalp EEG; unseen downstream subjects, datasets and acquisition hardware; multiple BCI/EEG classification tasks; transfer regime dependent.",
+      "supplementary_primary_urls": [],
+      "review_body_words": 156,
+      "review_body_paragraphs": 2,
+      "publication_status": "peer-reviewed published",
+      "direct_scalp_eeg_evidence": true,
+      "proteus_evidence": false
+    },
+    {
+      "id": "F03",
+      "title": "Time-Series Representation Learning via Temporal and Contextual Contrasting",
+      "year": 2021,
+      "venue": "IJCAI 2021, Main Track, 2352–2359",
+      "url": "https://www.ijcai.org/proceedings/2021/324",
+      "doi": "10.24963/ijcai.2021/324",
+      "verification": "Official proceedings abstract and paper verified; main track, not workshop.",
+      "evidence_scope": "Generic time-series SSL with direct scalp EEG sleep-stage evidence among three datasets; not a dedicated multi-corpus EEG foundation model.",
+      "supplementary_primary_urls": [
+        "https://www.ijcai.org/proceedings/2021/0324.pdf"
+      ],
+      "review_body_words": 154,
+      "review_body_paragraphs": 2,
+      "publication_status": "peer-reviewed published",
+      "direct_scalp_eeg_evidence": true,
+      "proteus_evidence": false
+    },
+    {
+      "id": "F04",
+      "title": "BIOT: Biosignal Transformer for Cross-data Learning in the Wild",
+      "year": 2023,
+      "venue": "NeurIPS 2023, Advances in Neural Information Processing Systems 36, 78240–78260",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/f6b30f3e2dd9cb53bbf2024402d02295-Abstract-Conference.html",
+      "doi": "10.52202/075280-3420",
+      "verification": "Official main-conference proceedings and full PDF verified; Section 2.3 unsupervised pretraining uses channel/token dropout and contrastive loss. Also includes supervised pretraining settings.",
+      "evidence_scope": "Direct scalp EEG clinical tasks including seizure and abnormal/event detection; also ECG and human-activity modalities. Mixed-modality scope is explicitly flagged.",
+      "supplementary_primary_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/file/f6b30f3e2dd9cb53bbf2024402d02295-Paper-Conference.pdf"
+      ],
+      "review_body_words": 174,
+      "review_body_paragraphs": 2,
+      "publication_status": "peer-reviewed published",
+      "direct_scalp_eeg_evidence": true,
+      "proteus_evidence": false
+    },
+    {
+      "id": "F05",
+      "title": "Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI",
+      "year": 2024,
+      "venue": "ICLR 2024",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/47393e8594c82ce8fd83adc672cf9872-Abstract-Conference.html",
+      "doi": null,
+      "verification": "Official conference proceedings verified; LaBraM name, authors, two-stage spectral VQ and masked neural-code prediction, ~2500 h/~20 datasets verified.",
+      "evidence_scope": "Direct scalp EEG: abnormal detection, event type, emotion, gait; does not establish PROTEUS three-class performance.",
+      "supplementary_primary_urls": [],
+      "review_body_words": 158,
+      "review_body_paragraphs": 2,
+      "publication_status": "peer-reviewed published",
+      "direct_scalp_eeg_evidence": true,
+      "proteus_evidence": false
+    },
+    {
+      "id": "F06",
+      "title": "EEG2Rep: Enhancing Self-supervised EEG Representation Through Informative Masked Inputs",
+      "year": 2024,
+      "venue": "KDD 2024, 5544–5555",
+      "url": "https://dl.acm.org/doi/10.1145/3637528.3671600",
+      "doi": "10.1145/3637528.3671600",
+      "verification": "ACM DOI page blocked by HTTP 403. Author institutional publication record supplies final published version, full authors, exact proceedings, pages and publication date 25 August 2024; not inferred from a preprint.",
+      "evidence_scope": "Direct scalp EEG six tasks, subject variability, latent target prediction and semantic subsequence preserving; no claim of causal online adaptation.",
+      "supplementary_primary_urls": [
+        "https://research.monash.edu/en/publications/eeg2rep-enhancing-self-supervised-eeg-representation-through-info/"
+      ],
+      "review_body_words": 162,
+      "review_body_paragraphs": 2,
+      "publication_status": "peer-reviewed published",
+      "direct_scalp_eeg_evidence": true,
+      "proteus_evidence": false
+    },
+    {
+      "id": "F07",
+      "title": "EEGPT: Pretrained Transformer for Universal and Reliable Representation of EEG Signals",
+      "year": 2024,
+      "venue": "NeurIPS 2024, Advances in Neural Information Processing Systems 37",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/4540d267eeec4e5dbd9dae9448f0b739-Abstract-Conference.html",
+      "doi": "10.52202/079017-1239",
+      "verification": "Official main-conference proceedings and PDF verified. HTML has first-author typo Guagnyu; paper author normalized to Guangyu.",
+      "evidence_scope": "Direct scalp EEG: motor imagery, ERP, sleep; dual SSL signal reconstruction and representation alignment; frozen linear-probe evidence.",
+      "supplementary_primary_urls": [
+        "https://proceedings.nips.cc/paper_files/paper/2024/file/4540d267eeec4e5dbd9dae9448f0b739-Paper-Conference.pdf"
+      ],
+      "review_body_words": 169,
+      "review_body_paragraphs": 2,
+      "publication_status": "peer-reviewed published",
+      "direct_scalp_eeg_evidence": true,
+      "proteus_evidence": false
+    },
+    {
+      "id": "F08",
+      "title": "CBraMod: A Criss-Cross Brain Foundation Model for EEG Decoding",
+      "year": 2025,
+      "venue": "ICLR 2025",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/bbbd6d915cb90be21c1254a82d45cedd-Abstract-Conference.html",
+      "doi": null,
+      "verification": "Official proceedings verified; separate parallel spatial/temporal attention, asymmetric positional encoding, masked raw EEG reconstruction; 10 tasks/12 datasets.",
+      "evidence_scope": "Direct scalp EEG and broad BCI tasks, not intracranial inference; task-specific transfer protocols require matching.",
+      "supplementary_primary_urls": [],
+      "review_body_words": 168,
+      "review_body_paragraphs": 2,
+      "publication_status": "peer-reviewed published",
+      "direct_scalp_eeg_evidence": true,
+      "proteus_evidence": false
+    },
+    {
+      "id": "F09",
+      "title": "NeuroLM: A Universal Multi-task Foundation Model for Bridging the Gap between Language and EEG Signals",
+      "year": 2025,
+      "venue": "ICLR 2025",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/8b4add8b0aa8749d80a34ca5d941c355-Abstract-Conference.html",
+      "doi": null,
+      "verification": "Official proceedings verified; VQ temporal-frequency tokenizer, multichannel autoregression, instruction tuning; ~25000 h and six downstream datasets.",
+      "evidence_scope": "Direct scalp EEG with language-model interface; no evidence for arbitrary thought reading or PROTEUS word-class decoding.",
+      "supplementary_primary_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/file/8b4add8b0aa8749d80a34ca5d941c355-Paper-Conference.pdf"
+      ],
+      "review_body_words": 165,
+      "review_body_paragraphs": 2,
+      "publication_status": "peer-reviewed published",
+      "direct_scalp_eeg_evidence": true,
+      "proteus_evidence": false
+    },
+    {
+      "id": "F10",
+      "title": "REVE: A Foundation Model for EEG - Adapting to Any Setup with Large-Scale Pretraining on 25,000 Subjects",
+      "year": 2025,
+      "venue": "NeurIPS 2025, Advances in Neural Information Processing Systems 38, Main Conference Track",
+      "url": "https://papers.neurips.cc/paper_files/paper/2025/hash/20a917f77773ac0fa8bea2bdd6606b66-Abstract-Conference.html",
+      "doi": "10.52202/085713-0760",
+      "verification": "Official proceedings and PDF verified; confirmed main conference, not preprint/workshop; 4D positional encoding, masked autoencoding, >60000 h/92 datasets/25000 subjects.",
+      "evidence_scope": "Direct scalp EEG ten tasks including MI, seizure, sleep, cognitive load and emotion. Pretraining overlap audit remains necessary for a new benchmark.",
+      "supplementary_primary_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/file/20a917f77773ac0fa8bea2bdd6606b66-Paper-Conference.pdf"
+      ],
+      "review_body_words": 168,
+      "review_body_paragraphs": 2,
+      "publication_status": "peer-reviewed published",
+      "direct_scalp_eeg_evidence": true,
+      "proteus_evidence": false
+    },
+    {
+      "id": "F11",
+      "title": "LUNA: Efficient and Topology-Agnostic Foundation Model for EEG Signal Analysis",
+      "year": 2025,
+      "venue": "NeurIPS 2025, Advances in Neural Information Processing Systems 38, Main Conference Track",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/66969a9e6bd7a26dfeccea7227178ca7-Abstract-Conference.html",
+      "doi": "10.52202/085713-2377",
+      "verification": "Official main-conference proceedings verified; learned queries/cross-attention fixed latent, masked reconstruction, TUEG/Siena >21000 raw hours.",
+      "evidence_scope": "Direct scalp EEG abnormality, artifact, slowing and emotion; no direct MI/counting/word PROTEUS demonstration.",
+      "supplementary_primary_urls": [],
+      "review_body_words": 174,
+      "review_body_paragraphs": 2,
+      "publication_status": "peer-reviewed published",
+      "direct_scalp_eeg_evidence": true,
+      "proteus_evidence": false
+    },
+    {
+      "id": "F12",
+      "title": "CSBrain: A Cross-scale Spatiotemporal Brain Foundation Model for EEG Decoding",
+      "year": 2025,
+      "venue": "NeurIPS 2025, Advances in Neural Information Processing Systems 38, Main Conference Track",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/7e199ad8ae40eb19b2980f61f659cb07-Abstract-Conference.html",
+      "doi": "10.52202/085713-2915",
+      "verification": "Official proceedings verifies title/authors/main-track/year and 11 tasks/16 datasets. Proceedings PDF exceeds browser size limit; primary OpenReview paper indexed text verifies masked reconstruction objective.",
+      "evidence_scope": "Direct scalp EEG 11 tasks/16 datasets; cross-scale tokenization and structured sparse attention; no causal target-stream evaluation claimed.",
+      "supplementary_primary_urls": [
+        "https://openreview.net/pdf?id=agcXjEHmyW",
+        "https://openreview.net/pdf/205115da20b28256b5e06ad7b09d61b417d1dd66.pdf"
+      ],
+      "review_body_words": 171,
+      "review_body_paragraphs": 2,
+      "publication_status": "peer-reviewed published",
+      "direct_scalp_eeg_evidence": true,
+      "proteus_evidence": false
+    },
+    {
+      "id": "F13",
+      "title": "NeurIPT: Foundation Model for Neural Interfaces",
+      "year": 2025,
+      "venue": "NeurIPS 2025, Advances in Neural Information Processing Systems 38, Main Conference Track",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/dd9c5ce8803e1898d438e636fbae0236-Abstract-Conference.html",
+      "doi": "10.52202/085713-5043",
+      "verification": "Official main-conference proceedings verified; amplitude-aware masked pretraining, progressive MoE, 3D coordinates, intra/inter lobe pooling; nine downstream BCI datasets.",
+      "evidence_scope": "Direct scalp EEG BCI datasets, fine-tuning and scratch evaluation. Coordinate input means known montage, not permission to use target subject/session metadata.",
+      "supplementary_primary_urls": [],
+      "review_body_words": 171,
+      "review_body_paragraphs": 2,
+      "publication_status": "peer-reviewed published",
+      "direct_scalp_eeg_evidence": true,
+      "proteus_evidence": false
+    },
+    {
+      "id": "F14",
+      "title": "EEGMamba: An EEG foundation model with Mamba",
+      "year": 2025,
+      "venue": "Neural Networks 192, 107816",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0893608025006963",
+      "doi": "10.1016/j.neunet.2025.107816",
+      "verification": "Publisher article indexed content verifies title/authors, journal volume, article number, December 2025 issue and abstract; direct open returns HTTP 403. Publisher confirms bidirectional Mamba and masked patch reconstruction; 16724 h/five pretraining datasets, six downstream tasks/datasets.",
+      "evidence_scope": "Direct scalp EEG BCI tasks; bidirectional encoder does not imply causal processing across future target windows.",
+      "supplementary_primary_urls": [
+        "https://github.com/wjq-learning/EEGMamba"
+      ],
+      "review_body_words": 169,
+      "review_body_paragraphs": 2,
+      "publication_status": "peer-reviewed published",
+      "direct_scalp_eeg_evidence": true,
+      "proteus_evidence": false
+    },
+    {
+      "id": "F15",
+      "title": "Are EEG Foundation Models Worth It? Comparative Evaluation with Traditional Decoders in Diverse BCI Tasks",
+      "year": 2026,
+      "venue": "ICLR 2026",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/f0f39b7686634fc81ca0112566b2c05f-Abstract-Conference.html",
+      "doi": null,
+      "verification": "Official ICLR 2026 conference proceedings verified; ST-EEGFormer explicitly introduced as ViT+raw-signal MAE on >8M segments; six protocols. Not counted as merely a review.",
+      "evidence_scope": "Direct scalp EEG comparison; data-scarce settings and frozen linear probing often fail to beat compact/classical decoders; benchmark protocols differ from causal PROTEUS.",
+      "supplementary_primary_urls": [
+        "https://openreview.net/pdf?id=5Xwm8e6vbh"
+      ],
+      "review_body_words": 170,
+      "review_body_paragraphs": 2,
+      "publication_status": "peer-reviewed published",
+      "direct_scalp_eeg_evidence": true,
+      "proteus_evidence": false
+    },
+    {
+      "id": "F16",
+      "title": "CodeBrain: Bridging Decoupled Tokenizer and Multi-Scale Architecture for EEG Foundation Model",
+      "year": 2026,
+      "venue": "ICLR 2026",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/86d1ab582afb247ccaa84bec4a7e24f7-Abstract-Conference.html",
+      "doi": null,
+      "verification": "Official ICLR 2026 proceedings and 49-page paper verified; TFDual-Tokenizer separate time/frequency codebooks; EEGSSM predicts discrete tokens for masked patches; eight tasks/ten datasets. Exact accepted title uses singular Model.",
+      "evidence_scope": "Direct scalp EEG with cohort/channel shifts; token interpretability is representational association, not validated causal source localization.",
+      "supplementary_primary_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2026/file/86d1ab582afb247ccaa84bec4a7e24f7-Paper-Conference.pdf"
+      ],
+      "review_body_words": 182,
+      "review_body_paragraphs": 2,
+      "publication_status": "peer-reviewed published",
+      "direct_scalp_eeg_evidence": true,
+      "proteus_evidence": false
+    }
+  ]
+}

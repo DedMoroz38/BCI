@@ -1,0 +1,10 @@
+{
+  "tag": "pair08_P04_P10",
+  "name": "lag4_matched_lr50",
+  "cell": 0.48793376352827633,
+  "nll": 1.0234399995251868,
+  "brier": 0.6159042985607606,
+  "trees": 50,
+  "representation": "lag4",
+  "seconds": 58.76984120812267
+}

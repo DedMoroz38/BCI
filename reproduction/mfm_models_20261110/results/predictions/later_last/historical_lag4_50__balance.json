@@ -1,0 +1,8 @@
+{
+  "tag": "later_last",
+  "name": "historical_lag4_50__balance",
+  "cell": 0.6536229612812867,
+  "nll": 0.9239321873724995,
+  "brier": 0.5484963868163165,
+  "source": "saved existing probabilities; no parity gate"
+}

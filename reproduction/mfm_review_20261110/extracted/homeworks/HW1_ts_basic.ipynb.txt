@@ -1,0 +1,228 @@
+
+### CELL 0 markdown
+# Домашнее задание 1. Классические линейные модели ARIMA.
+В данном ноутбуке будут приведены примеры построения моделей из лекций 1 и 2, после чего предлагается воспроизвести процедуру настройки моделей на других временных рядах.
+
+### CELL 1 code
+!pip install -q arch pmdarima pandas_datareader
+
+### CELL 2 code
+import os
+import sys
+
+import numpy as np
+import pandas as pd
+import pandas_datareader.data as web
+
+import statsmodels.api as sm
+import statsmodels.tsa.api as smt
+import statsmodels.formula.api as smf
+
+import scipy.stats as scs
+from arch import arch_model
+
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+
+### CELL 3 markdown
+## Модель SARIMA
+- Seasonal ARIMA = SARIMA
+$$ \text{SARIMA}(p, d, q)(P, D, Q)_S $$
+    - Базовые компоненты
+        - p: autoregressive order
+        - d: differencing order
+        - q: moving average order
+    - Сезонные компоненты
+        - P: seasonal autoregressive order
+        - D: seasonal differencing order
+        - Q: seasonal moving average order
+        - S: длина сезона
+- Примеры моделей ARIMA и SARIMA
+    - ARIMA(2, 0, 1):
+$$ x_t = a_1 x_{t-1} + a_2 x_{t-2} + m_1 \epsilon_{t-1} + \epsilon_t $$
+    - SARIMA(0,0,0)(2, 0, 1)_7:
+$$ x_t = a_7 x_{t-7} + a_{14} x_{t-14} + m_y \epsilon_{t-7} + \epsilon_t $$
+
+- Сезонное дифференцирование
+    - Вычитание из текущего значения его значения, соответствующего прошлому сезону
+$$ \Delta x_t = x_t - x_{t-S} $$
+
+### CELL 4 markdown
+## Исследуемый временной ряд
+Сгенерируем искусственный временной ряд с трендом, сезонной компонентой и шумом.
+
+### CELL 5 code
+N = 700
+trend = np.linspace(0, 2, N)**3
+season = 1.5*np.sin(2*np.pi/(4*12) * np.arange(N))
+wn = np.random.normal(loc=0.0, scale=0.5, size=N)
+heteroskedastic = np.linspace(1, 2, N)
+ts = trend + heteroskedastic*season + wn
+
+### CELL 6 code
+fig, axs = plt.subplots(5, 1, figsize = (15,11))
+axs[0].plot(trend)
+axs[0].set_title('trend')
+axs[1].plot(season)
+axs[1].set_title('season')
+axs[2].plot(wn)
+axs[2].set_title('white noise')
+axs[3].plot(heteroskedastic)
+axs[3].set_title('heteroskedastic')
+axs[4].plot(ts)
+axs[4].set_title('Time series')
+plt.show()
+
+### CELL 7 markdown
+## Последовательность действия для построения ARIMA модели
+1. Строится график ряда, идентифицируются необычные значения.
+2. Если ряд сильно нестационарный подбирается порядок дифференцирования.
+  - Рекомендуется сначала выбрать поряд сезонного дифференцирования, потом обычного дифференцирования.
+
+4. Анализируются ACF/[PACF](http://www.machinelearning.ru/wiki/index.php?title=%D0%A7%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%B0%D0%B2%D1%82%D0%BE%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D0%B8%D1%8F
+), чтобы выбрать начальные приближения для параметров.
+  - p - последний значимый несезонный лаг (меньше сезонного периода) по [PACF](http://www.machinelearning.ru/wiki/index.php?title=%D0%A7%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%B0%D0%B2%D1%82%D0%BE%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D0%B8%D1%8F
+)
+  - q - последний значимый несезонный лаг (меньше сезонного периода) по ACF
+  - P - последний значимый сезонный лаг по [PACF](http://www.machinelearning.ru/wiki/index.php?title=%D0%A7%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%B0%D0%B2%D1%82%D0%BE%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BB%D1%8F%D1%86%D0%B8%D1%8F
+)
+  - Q - последний значимый сезонный лаг по ACF
+5. Обучаются модели-кандидаты, в окрестностях начального приближения, сравнивается их AIC/BIC.
+6. Остатки полученной модели исследуются на несмещённость, стационарность и неавтокоррелированность; если предположения невыполняются,исследуются модификациимодели.
+
+___
+"Лаг" - величина сдвига в ACF/PACF; значимость лага - выход значения за пределы доверительного интервала, центрированного в нуле (см. комментарий ниже)
+___
+
+### CELL 8 markdown
+При обучении моделей SARIMAX одновременное нахождение оптимальных значений (p, q, d, P, Q, D) является возможным (см. pmdarima.auto_arima), но даже в таком случае удобно определить начальные значения параметров на основе анализа автокорреляционной функции ряда.
+
+Конкретно, методы statsmodels.tsa.api.plot_acf и statsmodels.tsa.api.plot_pacf позволяют построить автокорреляционную (ACF) и частичную автокорреляционную (PACF) функции ряда, а также построить для их значений доверительные интервалы. Доверительные интервалы на этих графиках отображаются на фоне в виде сплошной области, симметричной относительно оси абсцисс.
+
+По графикам этих функций определяются последние моменты времени, когда их значения существенно отличаются от нуля (т.е. не попадают в доверительный интервал). Эти значения, делённые нацело на подобранное значение сезонного периода S, и равны P и Q для PACF и ACF соответственно.
+
+Далее осуществляется дифференцирование ряда (обычное и сезонное), порядки дифференцирования определяются вручную. Наконец, для нового преобразованного ряда вновь строим ACF и PACF и по самым последним их значениям, выходящим за пределы доверительного интервала, определяем q и p соответственно. Ниже приведен пример.
+
+### CELL 9 markdown
+## Графики автокорреляционной функции
+
+### CELL 10 markdown
+Нужно использовать ACF и PACF для проверки сезонности данных.
+Из графика выше видно, что временной ряд не является стационарным, поэтому, вероятно, следует исключить из него тренд.
+Удалить тренд можно либо с помощью вычитания тренда напрямую, либо использовать дифференцирование временного ряда.
+
+### CELL 11 code
+fig, axs = plt.subplots(3, 2, figsize = (11,11))
+axs[0, 0].remove()
+axs[0, 1].remove()
+
+gs = axs[0, 0].get_gridspec()
+axbig = fig.add_subplot(gs[0, :2])
+axbig.plot(ts)
+axbig.set_title('Time series')
+
+smt.graphics.plot_acf(ts, lags=150, ax=axs[1,0], alpha=0.05)
+smt.graphics.plot_pacf(ts, lags=150, ax=axs[2,0], alpha=0.05, method='ywm')
+
+smt.graphics.plot_acf(ts, lags=50, ax=axs[1,1], alpha=0.05)
+smt.graphics.plot_pacf(ts, lags=50, ax=axs[2,1], alpha=0.05, method='ywm')
+plt.show()
+
+### CELL 12 code
+# убираем тренд
+ts_diff = ts[1:] - ts[:-1]
+
+### CELL 13 code
+# убираем сезонность
+ts_diff = ts_diff[48:] - ts_diff[:-48]
+
+### CELL 14 code
+fig, axs = plt.subplots(3, 2, figsize = (11,11))
+axs[0, 0].remove()
+axs[0, 1].remove()
+
+gs = axs[0, 0].get_gridspec()
+axbig = fig.add_subplot(gs[0, :2])
+axbig.plot(ts_diff[:500])
+axbig.set_title('Time series')
+
+smt.graphics.plot_acf(ts_diff, lags=300, ax=axs[1,0], alpha=0.05)
+smt.graphics.plot_pacf(ts_diff, lags=300, ax=axs[2,0], alpha=0.05, method='ywm')
+
+smt.graphics.plot_acf(ts_diff, lags=50, ax=axs[1,1], alpha=0.05)
+smt.graphics.plot_pacf(ts_diff, lags=50, ax=axs[2,1], alpha=0.05, method='ywm')
+plt.show()
+
+### CELL 15 markdown
+Выводы:
+1. Последний значимый несезонный лаг PACF p = 5
+2. Последний значимый сезонный лаг PACF P = 1
+3. Последний значимый несезонный лаг ACF q = 1
+4. Последний значимый сезонный лаг ACF Q = 1
+
+### CELL 16 code
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+# order=(p, d, q),
+# seasonal_order=(P, D, Q, S)
+model = SARIMAX(ts, order=(6, 1, 1), seasonal_order=(1, 1, 1, 48))
+
+results = model.fit()
+results.summary()
+
+### CELL 17 markdown
+Можете попробовать подобрать оптимальные параметры с помощью встроенных методов или пройтись по сетке самостоятельно
+
+### CELL 18 code
+# import pmdarima as pm
+
+### CELL 19 code
+# model1 = pm.auto_arima(
+#     y = ts,
+#     seasonal=True,
+#     m=48,
+#     start_p = 1, max_p = 5,
+#     start_d = 1, max_d = 3,
+#     start_q = 1, max_q = 3,
+#     start_P = 1, max_P = 3,
+#     start_D = 1, max_D = 3,
+#     start_Q = 1, max_Q = 3,
+#     # trace=True,
+#     error_action='ignore',
+#     # suppress_warnings=True
+# )
+
+# print(model1.summary())
+
+### CELL 20 markdown
+# Задание
+На основе предложенного выше кода
+- Выбрать один из временных рядов из списка*
+- Построить и выбрать лучшую AR, ARMA, SARIMA модели  (25 баллов)
+    - Визуализировать ACF и PACF
+    - Выбрать параметры
+- К лучшей модели из предыдущих попробовать добавить GARCH  (15 баллов) 
+- Проанализировать результаты работы для каждой из моделей выше
+  - Графики остатков, проверить на нормальность, сделать выводы**  (40 баллов, 10 за каждую модель) 
+  - Оценить горизонт прогнозирования через отложенную выборку (~20%)  (20 баллов, 5 за каждую модель) )
+  
+  
+Итоговая оценка = round(сумма_баллов/10)
+
+\* или любой другой временной ряд, который вы захотите. Главное, чтобы он не был слишком простым
+
+\** текстовое описание: наличие тренднов, периодов, достаточности применненой модели и аномалиях, если таковые будут
+
+### CELL 21 markdown
+## Выбор временного ряда
+
+### CELL 22 code
+DATA_PATH = "https://raw.githubusercontent.com/intsystems/MathematicalForecastingMethods/main/data/AirPassengers.csv"
+# DATA_PATH = "https://raw.githubusercontent.com/intsystems/MathematicalForecastingMethods/main/data/Electric_Production.csv"
+# DATA_PATH = "https://raw.githubusercontent.com/intsystems/MathematicalForecastingMethods/main/data/accident_UK.csv"
+# DATA_PATH = "https://raw.githubusercontent.com/intsystems/MathematicalForecastingMethods/main/data/shampoo_sales.csv"
+# DATA_PATH = "https://raw.githubusercontent.com/intsystems/MathematicalForecastingMethods/main/data/monthly_beer_production_in_austr.csv"
+
+### CELL 23 code
+df = pd.read_csv(DATA_PATH)
+
+df.head()

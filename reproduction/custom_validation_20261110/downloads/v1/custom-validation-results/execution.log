@@ -1,0 +1,1595 @@
+RESULT pair00_P09_P07 lag4_matched_lr50 0.652398
+RESULT pair00_P09_P07 lag4_matched_lr50__balance 0.652309
+RESULT pair00_P09_P07 lag4_nuclear001_50 0.673232
+RESULT pair00_P09_P07 lag4_nuclear001_50__balance 0.657344
+RESULT pair00_P09_P07 lag4_nuclear005_50 0.686809
+RESULT pair00_P09_P07 lag4_nuclear005_50__balance 0.680709
+RESULT pair00_P09_P07 mssa8_mix25_lr50 0.652129
+RESULT pair00_P09_P07 mssa8_mix25_lr50__balance 0.657421
+RESULT pair01_P07_P05 lag4_matched_lr50 0.568089
+RESULT pair01_P07_P05 lag4_matched_lr50__balance 0.576142
+RESULT pair01_P07_P05 lag4_nuclear001_50 0.573297
+RESULT pair01_P07_P05 lag4_nuclear001_50__balance 0.570856
+RESULT pair01_P07_P05 lag4_nuclear005_50 0.562444
+RESULT pair01_P07_P05 lag4_nuclear005_50__balance 0.567641
+RESULT pair01_P07_P05 mssa8_mix25_lr50 0.562881
+RESULT pair01_P07_P05 mssa8_mix25_lr50__balance 0.581351
+RESULT pair02_P05_P08 lag4_matched_lr50 0.562248
+RESULT pair02_P05_P08 lag4_matched_lr50__balance 0.567792
+RESULT pair02_P05_P08 lag4_nuclear001_50 0.568067
+RESULT pair02_P05_P08 lag4_nuclear001_50__balance 0.581508
+RESULT pair02_P05_P08 lag4_nuclear005_50 0.542199
+RESULT pair02_P05_P08 lag4_nuclear005_50__balance 0.566403
+RESULT pair02_P05_P08 mssa8_mix25_lr50 0.562248
+RESULT pair02_P05_P08 mssa8_mix25_lr50__balance 0.567792
+RESULT pair03_P08_P06 lag4_matched_lr50 0.6674
+RESULT pair03_P08_P06 lag4_matched_lr50__balance 0.670705
+RESULT pair03_P08_P06 lag4_nuclear001_50 0.675907
+RESULT pair03_P08_P06 lag4_nuclear001_50__balance 0.681379
+RESULT pair03_P08_P06 lag4_nuclear005_50 0.678685
+RESULT pair03_P08_P06 lag4_nuclear005_50__balance 0.675907
+RESULT pair03_P08_P06 mssa8_mix25_lr50 0.670268
+RESULT pair03_P08_P06 mssa8_mix25_lr50__balance 0.67817
+RESULT pair04_P06_P02 lag4_matched_lr50 0.627386
+RESULT pair04_P06_P02 lag4_matched_lr50__balance 0.665233
+RESULT pair04_P06_P02 lag4_nuclear001_50 0.645951
+RESULT pair04_P06_P02 lag4_nuclear001_50__balance 0.670004
+RESULT pair04_P06_P02 lag4_nuclear005_50 0.656541
+RESULT pair04_P06_P02 lag4_nuclear005_50__balance 0.678248
+RESULT pair04_P06_P02 mssa8_mix25_lr50 0.637976
+RESULT pair04_P06_P02 mssa8_mix25_lr50__balance 0.665233
+RESULT pair05_P02_P03 lag4_matched_lr50 0.520721
+RESULT pair05_P02_P03 lag4_matched_lr50__balance 0.536867
+RESULT pair05_P02_P03 lag4_nuclear001_50 0.523068
+RESULT pair05_P02_P03 lag4_nuclear001_50__balance 0.55023
+RESULT pair05_P02_P03 lag4_nuclear005_50 0.534
+RESULT pair05_P02_P03 lag4_nuclear005_50__balance 0.566639
+RESULT pair05_P02_P03 mssa8_mix25_lr50 0.515429
+RESULT pair05_P02_P03 mssa8_mix25_lr50__balance 0.536867
+RESULT pair06_P03_P01 lag4_matched_lr50 0.511078
+RESULT pair06_P03_P01 lag4_matched_lr50__balance 0.482241
+RESULT pair06_P03_P01 lag4_nuclear001_50 0.505701
+RESULT pair06_P03_P01 lag4_nuclear001_50__balance 0.500812
+RESULT pair06_P03_P01 lag4_nuclear005_50 0.522088
+RESULT pair06_P03_P01 lag4_nuclear005_50__balance 0.527117
+RESULT pair06_P03_P01 mssa8_mix25_lr50 0.516286
+RESULT pair06_P03_P01 mssa8_mix25_lr50__balance 0.482073
+RESULT pair07_P01_P04 lag4_matched_lr50 0.52934
+RESULT pair07_P01_P04 lag4_matched_lr50__balance 0.521704
+RESULT pair07_P01_P04 lag4_nuclear001_50 0.534585
+RESULT pair07_P01_P04 lag4_nuclear001_50__balance 0.531116
+RESULT pair07_P01_P04 lag4_nuclear005_50 0.527946
+RESULT pair07_P01_P04 lag4_nuclear005_50__balance 0.52439
+RESULT pair07_P01_P04 mssa8_mix25_lr50 0.526823
+RESULT pair07_P01_P04 mssa8_mix25_lr50__balance 0.517843
+RESULT pair08_P04_P10 lag4_matched_lr50 0.487934
+RESULT pair08_P04_P10 lag4_matched_lr50__balance 0.522126
+RESULT pair08_P04_P10 lag4_nuclear001_50 0.487471
+RESULT pair08_P04_P10 lag4_nuclear001_50__balance 0.5223
+RESULT pair08_P04_P10 lag4_nuclear005_50 0.487798
+RESULT pair08_P04_P10 lag4_nuclear005_50__balance 0.515748
+RESULT pair08_P04_P10 mssa8_mix25_lr50 0.488921
+RESULT pair08_P04_P10 mssa8_mix25_lr50__balance 0.520388
+RESULT pair09_P10_P09 lag4_matched_lr50 0.500417
+RESULT pair09_P10_P09 lag4_matched_lr50__balance 0.51971
+RESULT pair09_P10_P09 lag4_nuclear001_50 0.49748
+RESULT pair09_P10_P09 lag4_nuclear001_50__balance 0.514135
+RESULT pair09_P10_P09 lag4_nuclear005_50 0.496828
+RESULT pair09_P10_P09 lag4_nuclear005_50__balance 0.517955
+RESULT pair09_P10_P09 mssa8_mix25_lr50 0.497812
+RESULT pair09_P10_P09 mssa8_mix25_lr50__balance 0.522372
+WINDOW CACHE (13, 20) ready
+WINDOW CACHE (4, 8) ready
+WINDOW CACHE (8, 13) ready
+WINDOW CACHE (4, 40) ready
+WINDOW CACHE (20, 30) ready
+SWAD EPOCH 1 1 1.1345
+SWAD EPOCH 0 1 1.1408
+SWAD EPOCH 1 2 0.9919
+SWAD EPOCH 0 2 0.9758
+SWAD EPOCH 1 3 0.8725
+SWAD EPOCH 0 3 0.8402
+SWAD EPOCH 1 4 0.7279
+SWAD EPOCH 0 4 0.7186
+SWAD EPOCH 1 5 0.6331
+SWAD EPOCH 0 5 0.6149
+SWAD EPOCH 1 6 0.5241
+SWAD EPOCH 0 6 0.4985
+SWAD EPOCH 1 7 0.4485
+SWAD EPOCH 0 7 0.4169
+SWAD EPOCH 1 8 0.4061
+SWAD EPOCH 0 8 0.3562
+SWAD EPOCH 1 9 0.3532
+SWAD EPOCH 1 1 1.1111
+SWAD EPOCH 0 1 1.0913
+SWAD EPOCH 1 2 0.9235
+SWAD EPOCH 0 2 0.9067
+SWAD EPOCH 1 3 0.7664
+SWAD EPOCH 0 3 0.7449
+SWAD EPOCH 1 4 0.6244
+SWAD EPOCH 0 4 0.6069
+SWAD EPOCH 1 5 0.5111
+SWAD EPOCH 0 5 0.5122
+FIT DONE pair00_P09_P07 swad_plain 0
+SWAD EPOCH 1 6 0.4456
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1482 valNLL 1.1123 seconds 1.2
+SWAD EPOCH 1 7 0.3839
+FIT DONE pair00_P09_P07 swad_plain 1
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0456 valNLL 1.0692 seconds 2.0
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.14 valNLL 1.1252 seconds 1.0
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.96 valNLL 1.0664 seconds 2.8
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0529 valNLL 1.0937 seconds 1.8
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8863 valNLL 1.0804 seconds 3.6
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9759 valNLL 1.0958 seconds 2.6
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.8038 valNLL 1.067 seconds 4.4
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.8922 valNLL 1.0912 seconds 3.4
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.7517 valNLL 1.0747 seconds 5.2
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.8157 valNLL 1.0866 seconds 4.2
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.6743 valNLL 1.0775 seconds 6.0
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.7445 valNLL 1.091 seconds 5.0
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.5923 valNLL 1.0903 seconds 6.9
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.7071 valNLL 1.0801 seconds 5.8
+EPOCH point_meanstd 0 point_meanstd 9 loss 0.5354 valNLL 1.0928 seconds 7.7
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.6213 valNLL 1.0678 seconds 6.6
+EPOCH point_meanstd 1 point_meanstd 9 loss 0.583 valNLL 1.085 seconds 7.3
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1335 valNLL - seconds 1.0
+EPOCH point_meanstd 1 point_meanstd 10 loss 0.504 valNLL 1.0787 seconds 8.2
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0208 valNLL - seconds 2.2
+EPOCH point_meanstd 1 point_meanstd 11 loss 0.454 valNLL 1.0952 seconds 9.0
+EPOCH point_meanstd 1 point_meanstd 12 loss 0.4261 valNLL 1.0907 seconds 9.8
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.9236 valNLL - seconds 3.4
+EPOCH point_meanstd 1 point_meanstd 13 loss 0.3923 valNLL 1.0904 seconds 10.6
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8402 valNLL - seconds 4.6
+EPOCH point_meanstd 1 point_meanstd 14 loss 0.3495 valNLL 1.0876 seconds 11.4
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.7433 valNLL - seconds 5.8
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1115 valNLL - seconds 1.0
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.65 valNLL - seconds 7.0
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0383 valNLL - seconds 2.2
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.5692 valNLL - seconds 8.2
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9381 valNLL - seconds 3.3
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.4903 valNLL - seconds 9.4
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.8179 valNLL - seconds 4.5
+EPOCH point_meanstd 0 point_meanstd 9 loss 0.4429 valNLL - seconds 10.6
+FIT DONE pair00_P09_P07 point_meanstd 0
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.7455 valNLL - seconds 5.7
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1467 valNLL 1.1163 seconds 0.9
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.6486 valNLL - seconds 6.8
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0483 valNLL 1.0705 seconds 1.8
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.5749 valNLL - seconds 8.0
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9678 valNLL 1.0692 seconds 2.6
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.9029 valNLL 1.0746 seconds 3.5
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.519 valNLL - seconds 9.2
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.8257 valNLL 1.0579 seconds 4.4
+EPOCH point_meanstd 1 point_meanstd 9 loss 0.4452 valNLL - seconds 10.3
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.7434 valNLL 1.0614 seconds 5.2
+EPOCH point_meanstd 1 point_meanstd 10 loss 0.4133 valNLL - seconds 11.5
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.6745 valNLL 1.0422 seconds 6.1
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.604 valNLL 1.0277 seconds 6.9
+EPOCH point_meanstd 1 point_meanstd 11 loss 0.3714 valNLL - seconds 12.7
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.5436 valNLL 1.0116 seconds 7.8
+EPOCH point_meanstd 1 point_meanstd 12 loss 0.3365 valNLL - seconds 13.9
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.4749 valNLL 0.9976 seconds 8.7
+EPOCH point_meanstd 1 point_meanstd 13 loss 0.307 valNLL - seconds 15.0
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.4249 valNLL 0.9956 seconds 9.6
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.3875 valNLL 0.9944 seconds 10.4
+EPOCH point_meanstd 1 point_meanstd 14 loss 0.298 valNLL - seconds 16.2
+FIT DONE pair00_P09_P07 point_meanstd 1
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.3369 valNLL 1.0024 seconds 11.3
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1435 valNLL 1.1269 seconds 0.9
+EPOCH early_and_filter 0 early_and_filter 14 loss 0.3012 valNLL 1.0132 seconds 12.2
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0423 valNLL 1.0924 seconds 1.7
+EPOCH early_and_filter 0 early_and_filter 15 loss 0.2783 valNLL 1.0298 seconds 13.1
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9847 valNLL 1.1135 seconds 2.6
+EPOCH early_and_filter 0 early_and_filter 16 loss 0.2582 valNLL 1.0411 seconds 13.9
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.9015 valNLL 1.0943 seconds 3.4
+EPOCH early_and_filter 0 early_and_filter 17 loss 0.2388 valNLL 1.0564 seconds 14.8
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.8335 valNLL 1.0898 seconds 4.3
+EPOCH early_and_filter 0 early_and_filter 18 loss 0.223 valNLL 1.0922 seconds 15.7
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.7727 valNLL 1.0852 seconds 5.2
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.7014 valNLL 1.0486 seconds 6.0
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1309 valNLL - seconds 1.3
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.6412 valNLL 1.0194 seconds 6.8
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0342 valNLL - seconds 2.5
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.5915 valNLL 1.0074 seconds 7.7
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.5243 valNLL 0.998 seconds 8.6
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9443 valNLL - seconds 3.8
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.4828 valNLL 0.9956 seconds 9.4
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.852 valNLL - seconds 5.0
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.4495 valNLL 0.9992 seconds 10.3
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.4099 valNLL 0.9992 seconds 11.1
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.7374 valNLL - seconds 6.3
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.37 valNLL 1.0147 seconds 12.0
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.6442 valNLL - seconds 7.6
+EPOCH early_and_filter 1 early_and_filter 15 loss 0.3451 valNLL 1.0174 seconds 12.9
+EPOCH early_and_filter 1 early_and_filter 16 loss 0.3167 valNLL 1.028 seconds 13.7
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.5577 valNLL - seconds 8.9
+EPOCH early_and_filter 1 early_and_filter 17 loss 0.307 valNLL 1.0433 seconds 14.6
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.4999 valNLL - seconds 10.2
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1145 valNLL - seconds 1.2
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.4517 valNLL - seconds 11.5
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.03 valNLL - seconds 2.5
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.4182 valNLL - seconds 12.8
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9451 valNLL - seconds 3.7
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.3962 valNLL - seconds 14.1
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.8431 valNLL - seconds 5.0
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.3652 valNLL - seconds 15.4
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.7428 valNLL - seconds 6.2
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.3572 valNLL - seconds 16.7
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.6442 valNLL - seconds 7.4
+EPOCH early_and_filter 0 early_and_filter 14 loss 0.3391 valNLL - seconds 18.0
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.5823 valNLL - seconds 8.7
+EPOCH early_and_filter 0 early_and_filter 15 loss 0.3341 valNLL - seconds 19.3
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.5135 valNLL - seconds 9.9
+EPOCH early_and_filter 0 early_and_filter 16 loss 0.3325 valNLL - seconds 20.6
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.4564 valNLL - seconds 11.2
+EPOCH early_and_filter 0 early_and_filter 17 loss 0.3295 valNLL - seconds 21.9
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.4372 valNLL - seconds 12.4
+EPOCH early_and_filter 0 early_and_filter 18 loss 0.301 valNLL - seconds 23.2
+FIT DONE pair00_P09_P07 early_and_filter 0
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.3825 valNLL - seconds 13.7
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.3611 valNLL - seconds 15.0
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.3594 valNLL - seconds 16.2
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.3281 valNLL - seconds 17.5
+EPOCH early_and_filter 1 early_and_filter 15 loss 0.3197 valNLL - seconds 18.8
+EPOCH early_and_filter 1 early_and_filter 16 loss 0.3076 valNLL - seconds 20.0
+EPOCH early_and_filter 1 early_and_filter 17 loss 0.2928 valNLL - seconds 21.3
+FIT DONE pair00_P09_P07 early_and_filter 1
+SWAD EPOCH 0 1 1.1133
+SWAD EPOCH 0 2 0.939
+SWAD EPOCH 0 3 0.7843
+SWAD EPOCH 0 4 0.6624
+SWAD EPOCH 0 5 0.5679
+SWAD EPOCH 0 6 0.4723
+SWAD EPOCH 0 7 0.3857
+SWAD EPOCH 0 1 1.1067
+SWAD EPOCH 0 2 0.9164
+SWAD EPOCH 0 3 0.7393
+FIT DONE pair01_P07_P05 swad_plain 0
+SWAD EPOCH 1 1 1.1198
+SWAD EPOCH 1 2 0.96
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1442 valNLL 1.1003 seconds 1.0
+SWAD EPOCH 1 3 0.7896
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0336 valNLL 1.0859 seconds 1.9
+SWAD EPOCH 1 4 0.6621
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.9476 valNLL 1.0805 seconds 2.7
+SWAD EPOCH 1 5 0.558
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8434 valNLL 1.0863 seconds 3.6
+SWAD EPOCH 1 6 0.4723
+SWAD EPOCH 1 7 0.3937
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.7512 valNLL 1.1033 seconds 4.6
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.6924 valNLL 1.1051 seconds 5.5
+SWAD EPOCH 1 1 1.1206
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.6096 valNLL 1.1252 seconds 6.4
+SWAD EPOCH 1 2 0.9343
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.5229 valNLL 1.1474 seconds 7.3
+SWAD EPOCH 1 3 0.7631
+EPOCH point_meanstd 0 point_meanstd 9 loss 0.462 valNLL 1.1666 seconds 8.2
+SWAD EPOCH 1 4 0.6119
+FIT DONE pair01_P07_P05 swad_plain 1
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1316 valNLL 1.1162 seconds 0.9
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1301 valNLL - seconds 1.1
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0438 valNLL 1.0978 seconds 1.8
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0184 valNLL - seconds 2.4
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.951 valNLL 1.1169 seconds 2.6
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.867 valNLL 1.1115 seconds 3.5
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.9123 valNLL - seconds 3.7
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.7636 valNLL 1.1329 seconds 4.4
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8262 valNLL - seconds 5.1
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.6718 valNLL 1.1527 seconds 5.3
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.6197 valNLL 1.1504 seconds 6.1
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.7211 valNLL - seconds 6.4
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.5402 valNLL 1.1554 seconds 7.0
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.6212 valNLL - seconds 7.7
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1264 valNLL - seconds 1.1
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.5524 valNLL - seconds 9.0
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0464 valNLL - seconds 2.3
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.4729 valNLL - seconds 10.4
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9424 valNLL - seconds 3.6
+EPOCH point_meanstd 0 point_meanstd 9 loss 0.4205 valNLL - seconds 11.7
+FIT DONE pair01_P07_P05 point_meanstd 0
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.8209 valNLL - seconds 4.8
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1424 valNLL 1.1041 seconds 1.0
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.7546 valNLL - seconds 6.1
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0331 valNLL 1.0902 seconds 2.0
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.6531 valNLL - seconds 7.3
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9435 valNLL 1.0882 seconds 2.9
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.8785 valNLL 1.0817 seconds 3.8
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.5673 valNLL - seconds 8.6
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.774 valNLL 1.0917 seconds 4.9
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.5086 valNLL - seconds 9.9
+FIT DONE pair01_P07_P05 point_meanstd 1
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.6992 valNLL 1.0688 seconds 5.8
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1354 valNLL 1.1169 seconds 1.0
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.6225 valNLL 1.0632 seconds 6.7
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0338 valNLL 1.0931 seconds 1.9
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.5603 valNLL 1.0562 seconds 7.7
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9692 valNLL 1.1231 seconds 2.7
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.5018 valNLL 1.0525 seconds 8.6
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.8686 valNLL 1.1006 seconds 3.6
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.448 valNLL 1.0632 seconds 9.7
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.7838 valNLL 1.1092 seconds 4.6
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.3999 valNLL 1.0659 seconds 10.6
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.7078 valNLL 1.1064 seconds 5.5
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.3643 valNLL 1.063 seconds 11.6
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.6372 valNLL 1.0761 seconds 6.4
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.331 valNLL 1.0825 seconds 12.5
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.5701 valNLL 1.0637 seconds 7.3
+EPOCH early_and_filter 0 early_and_filter 14 loss 0.294 valNLL 1.1043 seconds 13.5
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.5168 valNLL 1.0619 seconds 8.2
+EPOCH early_and_filter 0 early_and_filter 15 loss 0.2671 valNLL 1.1332 seconds 14.5
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.4612 valNLL 1.0643 seconds 9.2
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.4178 valNLL 1.0707 seconds 10.1
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1273 valNLL - seconds 1.4
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.3877 valNLL 1.0792 seconds 11.0
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.3573 valNLL 1.0744 seconds 11.9
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0243 valNLL - seconds 2.8
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.3164 valNLL 1.097 seconds 12.8
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9271 valNLL - seconds 4.2
+EPOCH early_and_filter 1 early_and_filter 15 loss 0.2812 valNLL 1.1215 seconds 13.8
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.8284 valNLL - seconds 5.6
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1252 valNLL - seconds 1.3
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.7102 valNLL - seconds 7.0
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0318 valNLL - seconds 2.6
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.6159 valNLL - seconds 8.5
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9468 valNLL - seconds 3.9
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.5199 valNLL - seconds 9.9
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.8335 valNLL - seconds 5.3
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.4679 valNLL - seconds 11.3
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.7345 valNLL - seconds 6.6
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.6402 valNLL - seconds 7.9
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.4147 valNLL - seconds 12.8
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.5584 valNLL - seconds 9.2
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.3759 valNLL - seconds 14.2
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.4936 valNLL - seconds 10.6
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.3431 valNLL - seconds 15.6
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.4312 valNLL - seconds 11.9
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.3183 valNLL - seconds 17.1
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.3942 valNLL - seconds 13.2
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.2983 valNLL - seconds 18.5
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.3435 valNLL - seconds 14.6
+EPOCH early_and_filter 0 early_and_filter 14 loss 0.2641 valNLL - seconds 19.9
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.3188 valNLL - seconds 15.9
+EPOCH early_and_filter 0 early_and_filter 15 loss 0.2624 valNLL - seconds 21.4
+FIT DONE pair01_P07_P05 early_and_filter 0
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.302 valNLL - seconds 17.2
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.2734 valNLL - seconds 18.6
+EPOCH early_and_filter 1 early_and_filter 15 loss 0.256 valNLL - seconds 19.9
+FIT DONE pair01_P07_P05 early_and_filter 1
+SWAD EPOCH 0 1 1.1221
+SWAD EPOCH 0 2 0.9737
+SWAD EPOCH 0 3 0.8413
+SWAD EPOCH 0 4 0.7115
+SWAD EPOCH 0 5 0.5996
+SWAD EPOCH 1 1 1.1285
+SWAD EPOCH 0 6 0.4898
+SWAD EPOCH 1 2 0.9775
+SWAD EPOCH 0 7 0.4228
+SWAD EPOCH 1 3 0.8211
+SWAD EPOCH 1 4 0.688
+SWAD EPOCH 0 1 1.1155
+SWAD EPOCH 1 5 0.5878
+SWAD EPOCH 1 6 0.491
+SWAD EPOCH 0 2 0.9503
+SWAD EPOCH 1 7 0.4166
+SWAD EPOCH 0 3 0.7815
+SWAD EPOCH 1 8 0.3642
+SWAD EPOCH 0 4 0.6306
+FIT DONE pair02_P05_P08 swad_plain 0
+SWAD EPOCH 1 1 1.1266
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1459 valNLL 1.1007 seconds 1.0
+SWAD EPOCH 1 2 0.9379
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0359 valNLL 1.0976 seconds 2.0
+SWAD EPOCH 1 3 0.7728
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.9639 valNLL 1.1101 seconds 2.9
+SWAD EPOCH 1 4 0.6252
+FIT DONE pair02_P05_P08 swad_plain 1
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8673 valNLL 1.1266 seconds 3.9
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1335 valNLL 1.1164 seconds 1.0
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.7867 valNLL 1.1346 seconds 4.9
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0417 valNLL 1.1032 seconds 1.9
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.7265 valNLL 1.1369 seconds 5.9
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.958 valNLL 1.1218 seconds 2.7
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.6442 valNLL 1.1364 seconds 6.8
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.8758 valNLL 1.1145 seconds 3.6
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.5537 valNLL 1.1554 seconds 7.8
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.777 valNLL 1.1357 seconds 4.6
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.6985 valNLL 1.1499 seconds 5.5
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1341 valNLL - seconds 1.2
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.6446 valNLL 1.1434 seconds 6.4
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.5693 valNLL 1.1504 seconds 7.3
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0322 valNLL - seconds 2.6
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1296 valNLL - seconds 1.1
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.941 valNLL - seconds 4.0
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0481 valNLL - seconds 2.4
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8612 valNLL - seconds 5.4
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9469 valNLL - seconds 3.7
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.7692 valNLL - seconds 6.9
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.8336 valNLL - seconds 5.0
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.6716 valNLL - seconds 8.3
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.7682 valNLL - seconds 6.4
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.6027 valNLL - seconds 9.7
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.667 valNLL - seconds 7.7
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.5083 valNLL - seconds 11.2
+FIT DONE pair02_P05_P08 point_meanstd 0
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.5835 valNLL - seconds 9.0
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1428 valNLL 1.1046 seconds 1.1
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.522 valNLL - seconds 10.3
+FIT DONE pair02_P05_P08 point_meanstd 1
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0408 valNLL 1.1022 seconds 2.1
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1375 valNLL 1.118 seconds 1.0
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9576 valNLL 1.1176 seconds 3.1
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0341 valNLL 1.1014 seconds 1.9
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.9063 valNLL 1.1151 seconds 4.1
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9715 valNLL 1.1355 seconds 2.9
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.8088 valNLL 1.1069 seconds 5.2
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.8847 valNLL 1.116 seconds 3.8
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.7335 valNLL 1.0971 seconds 6.3
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.8047 valNLL 1.1369 seconds 4.8
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.6614 valNLL 1.0742 seconds 7.3
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.7347 valNLL 1.1302 seconds 5.7
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.5939 valNLL 1.0684 seconds 8.3
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.6687 valNLL 1.0948 seconds 6.7
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.5346 valNLL 1.062 seconds 9.3
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.5955 valNLL 1.0814 seconds 7.6
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.4735 valNLL 1.062 seconds 10.4
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.5409 valNLL 1.0853 seconds 8.6
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.432 valNLL 1.0776 seconds 11.4
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.4855 valNLL 1.0923 seconds 9.6
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.3898 valNLL 1.0867 seconds 12.4
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.4405 valNLL 1.0936 seconds 10.5
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.3543 valNLL 1.1227 seconds 13.4
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.3948 valNLL 1.0992 seconds 11.5
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.3778 valNLL 1.1083 seconds 12.4
+EPOCH early_and_filter 0 early_and_filter 14 loss 0.3267 valNLL 1.1508 seconds 14.4
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.3279 valNLL 1.1393 seconds 13.4
+EPOCH early_and_filter 0 early_and_filter 15 loss 0.3046 valNLL 1.1887 seconds 15.5
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.126 valNLL - seconds 1.4
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1311 valNLL - seconds 1.4
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0325 valNLL - seconds 2.7
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0357 valNLL - seconds 2.8
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9477 valNLL - seconds 4.1
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9532 valNLL - seconds 4.2
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.8399 valNLL - seconds 5.5
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.8585 valNLL - seconds 5.7
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.7477 valNLL - seconds 6.8
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.7539 valNLL - seconds 7.1
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.6587 valNLL - seconds 8.2
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.6665 valNLL - seconds 8.5
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.5855 valNLL - seconds 9.6
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.5622 valNLL - seconds 9.9
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.5199 valNLL - seconds 11.0
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.5022 valNLL - seconds 11.3
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.4654 valNLL - seconds 12.4
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.435 valNLL - seconds 12.6
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.4207 valNLL - seconds 13.8
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.3924 valNLL - seconds 14.0
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.3791 valNLL - seconds 15.2
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.354 valNLL - seconds 15.4
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.3507 valNLL - seconds 16.5
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.3149 valNLL - seconds 16.8
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.3389 valNLL - seconds 17.9
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.2929 valNLL - seconds 18.2
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.3089 valNLL - seconds 19.4
+FIT DONE pair02_P05_P08 early_and_filter 1
+EPOCH early_and_filter 0 early_and_filter 14 loss 0.2554 valNLL - seconds 19.6
+EPOCH early_and_filter 0 early_and_filter 15 loss 0.2409 valNLL - seconds 21.0
+FIT DONE pair02_P05_P08 early_and_filter 0
+SWAD EPOCH 0 1 1.1231
+SWAD EPOCH 0 2 0.9732
+SWAD EPOCH 0 3 0.8288
+SWAD EPOCH 1 1 1.127
+SWAD EPOCH 0 4 0.7049
+SWAD EPOCH 1 2 0.9708
+SWAD EPOCH 0 5 0.5719
+SWAD EPOCH 1 3 0.8378
+SWAD EPOCH 0 6 0.486
+SWAD EPOCH 1 4 0.726
+SWAD EPOCH 0 7 0.4054
+SWAD EPOCH 1 5 0.5967
+SWAD EPOCH 1 6 0.4889
+SWAD EPOCH 0 1 1.0992
+SWAD EPOCH 1 7 0.424
+SWAD EPOCH 0 2 0.9263
+SWAD EPOCH 1 1 1.1027
+SWAD EPOCH 0 3 0.757
+SWAD EPOCH 1 2 0.9328
+SWAD EPOCH 0 4 0.6247
+FIT DONE pair03_P08_P06 swad_plain 0
+SWAD EPOCH 1 3 0.7727
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1439 valNLL 1.1067 seconds 1.0
+SWAD EPOCH 1 4 0.629
+FIT DONE pair03_P08_P06 swad_plain 1
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0373 valNLL 1.1015 seconds 1.9
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1364 valNLL 1.1183 seconds 1.0
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.9606 valNLL 1.1113 seconds 2.8
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0411 valNLL 1.1069 seconds 1.9
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.876 valNLL 1.1426 seconds 3.8
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9604 valNLL 1.1154 seconds 2.8
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.7937 valNLL 1.1387 seconds 4.8
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.8773 valNLL 1.1259 seconds 3.8
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.7301 valNLL 1.1562 seconds 5.7
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.7964 valNLL 1.1341 seconds 4.8
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.6527 valNLL 1.1541 seconds 6.7
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.7165 valNLL 1.1525 seconds 5.7
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.5669 valNLL 1.1848 seconds 7.6
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.6691 valNLL 1.1525 seconds 6.7
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1336 valNLL - seconds 1.1
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.5904 valNLL 1.1546 seconds 7.6
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0334 valNLL - seconds 2.5
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1266 valNLL - seconds 1.2
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.9416 valNLL - seconds 3.8
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0471 valNLL - seconds 2.5
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8583 valNLL - seconds 5.2
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9451 valNLL - seconds 3.9
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.7692 valNLL - seconds 6.6
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.8302 valNLL - seconds 5.3
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.674 valNLL - seconds 7.9
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.7583 valNLL - seconds 6.7
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.5923 valNLL - seconds 9.3
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.6578 valNLL - seconds 8.2
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.5079 valNLL - seconds 10.7
+FIT DONE pair03_P08_P06 point_meanstd 0
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.5767 valNLL - seconds 9.6
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1407 valNLL 1.1104 seconds 1.0
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.5152 valNLL - seconds 11.0
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0442 valNLL 1.1076 seconds 2.0
+FIT DONE pair03_P08_P06 point_meanstd 1
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9634 valNLL 1.1216 seconds 2.9
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1367 valNLL 1.1192 seconds 1.1
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.9016 valNLL 1.1392 seconds 3.9
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0299 valNLL 1.1088 seconds 2.1
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.8195 valNLL 1.1146 seconds 4.9
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9645 valNLL 1.1335 seconds 3.1
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.7362 valNLL 1.121 seconds 5.9
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.8837 valNLL 1.1374 seconds 4.1
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.6592 valNLL 1.1065 seconds 6.8
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.8087 valNLL 1.1423 seconds 5.2
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.5909 valNLL 1.1031 seconds 7.8
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.739 valNLL 1.1357 seconds 6.2
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.5266 valNLL 1.0974 seconds 8.8
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.6741 valNLL 1.1146 seconds 7.2
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.458 valNLL 1.0997 seconds 9.8
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.6021 valNLL 1.095 seconds 8.2
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.4176 valNLL 1.1232 seconds 10.8
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.54 valNLL 1.0983 seconds 9.2
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.3697 valNLL 1.1429 seconds 11.7
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.4791 valNLL 1.098 seconds 10.3
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.3347 valNLL 1.1911 seconds 12.7
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.428 valNLL 1.0946 seconds 11.3
+EPOCH early_and_filter 0 early_and_filter 14 loss 0.3053 valNLL 1.2408 seconds 13.7
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.3876 valNLL 1.1036 seconds 12.4
+EPOCH early_and_filter 0 early_and_filter 15 loss 0.2818 valNLL 1.2959 seconds 14.7
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.3425 valNLL 1.1049 seconds 13.4
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1307 valNLL - seconds 1.4
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.2955 valNLL 1.1328 seconds 14.4
+EPOCH early_and_filter 1 early_and_filter 15 loss 0.2805 valNLL 1.1713 seconds 15.5
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0379 valNLL - seconds 2.8
+EPOCH early_and_filter 1 early_and_filter 16 loss 0.2438 valNLL 1.2155 seconds 16.5
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9536 valNLL - seconds 4.2
+EPOCH early_and_filter 1 early_and_filter 17 loss 0.2413 valNLL 1.2855 seconds 17.5
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.8577 valNLL - seconds 5.6
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1252 valNLL - seconds 1.4
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.7551 valNLL - seconds 7.0
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0323 valNLL - seconds 2.9
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.6643 valNLL - seconds 8.3
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9484 valNLL - seconds 4.3
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.5685 valNLL - seconds 9.7
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.84 valNLL - seconds 5.8
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.5087 valNLL - seconds 11.1
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.7501 valNLL - seconds 7.2
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.4517 valNLL - seconds 12.5
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.6453 valNLL - seconds 8.6
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.4186 valNLL - seconds 13.9
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.5829 valNLL - seconds 10.0
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.3894 valNLL - seconds 15.3
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.5079 valNLL - seconds 11.4
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.3625 valNLL - seconds 16.7
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.4619 valNLL - seconds 12.9
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.3438 valNLL - seconds 18.1
+FIT DONE pair03_P08_P06 early_and_filter 0
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.4251 valNLL - seconds 14.3
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.3871 valNLL - seconds 15.7
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.3599 valNLL - seconds 17.1
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.3605 valNLL - seconds 18.5
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.3336 valNLL - seconds 19.9
+EPOCH early_and_filter 1 early_and_filter 15 loss 0.3151 valNLL - seconds 21.3
+EPOCH early_and_filter 1 early_and_filter 16 loss 0.3063 valNLL - seconds 22.7
+FIT DONE pair03_P08_P06 early_and_filter 1
+SWAD EPOCH 0 1 1.1237
+SWAD EPOCH 0 2 0.9536
+SWAD EPOCH 0 3 0.7829
+SWAD EPOCH 0 4 0.648
+SWAD EPOCH 0 5 0.5176
+SWAD EPOCH 0 6 0.4461
+SWAD EPOCH 0 7 0.3624
+SWAD EPOCH 0 1 1.1003
+SWAD EPOCH 0 2 0.9078
+SWAD EPOCH 0 3 0.7127
+FIT DONE pair04_P06_P02 swad_plain 0
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1311 valNLL 1.1304 seconds 1.0
+SWAD EPOCH 1 1 1.1201
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0265 valNLL 1.1261 seconds 2.0
+SWAD EPOCH 1 2 0.9681
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.9361 valNLL 1.1141 seconds 2.9
+SWAD EPOCH 1 3 0.8136
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8462 valNLL 1.1364 seconds 3.8
+SWAD EPOCH 1 4 0.6937
+SWAD EPOCH 1 5 0.5688
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.7446 valNLL 1.1416 seconds 4.9
+SWAD EPOCH 1 6 0.4743
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.6846 valNLL 1.1683 seconds 5.8
+SWAD EPOCH 1 7 0.4147
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.5995 valNLL 1.1569 seconds 6.7
+SWAD EPOCH 1 8 0.3583
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.5092 valNLL 1.1794 seconds 7.7
+SWAD EPOCH 1 1 1.1071
+EPOCH point_meanstd 0 point_meanstd 9 loss 0.4538 valNLL 1.1993 seconds 8.6
+SWAD EPOCH 1 2 0.9228
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1322 valNLL - seconds 1.2
+SWAD EPOCH 1 3 0.7434
+SWAD EPOCH 1 4 0.6103
+FIT DONE pair04_P06_P02 swad_plain 1
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0197 valNLL - seconds 2.5
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1362 valNLL 1.1143 seconds 1.0
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.9196 valNLL - seconds 3.9
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0367 valNLL 1.1069 seconds 1.9
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9593 valNLL 1.1203 seconds 2.9
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8185 valNLL - seconds 5.3
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.8844 valNLL 1.1325 seconds 3.8
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.714 valNLL - seconds 6.7
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.7897 valNLL 1.1585 seconds 4.8
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.6079 valNLL - seconds 8.1
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.697 valNLL 1.178 seconds 5.8
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.6366 valNLL 1.1934 seconds 6.7
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.5233 valNLL - seconds 9.5
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.5576 valNLL 1.1997 seconds 7.6
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.454 valNLL - seconds 10.8
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1252 valNLL - seconds 1.2
+EPOCH point_meanstd 0 point_meanstd 9 loss 0.4114 valNLL - seconds 12.2
+FIT DONE pair04_P06_P02 point_meanstd 0
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0486 valNLL - seconds 2.6
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.13 valNLL 1.1333 seconds 1.1
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9604 valNLL - seconds 4.0
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0415 valNLL 1.1293 seconds 2.0
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.962 valNLL 1.1185 seconds 3.0
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.8491 valNLL - seconds 5.4
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.878 valNLL 1.1416 seconds 3.9
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.7724 valNLL - seconds 6.8
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.7913 valNLL 1.1261 seconds 5.0
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.7247 valNLL 1.1275 seconds 6.0
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.6729 valNLL - seconds 8.2
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.6401 valNLL 1.096 seconds 6.9
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.596 valNLL - seconds 9.6
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.5674 valNLL 1.0988 seconds 7.9
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.5281 valNLL - seconds 11.0
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.5014 valNLL 1.1071 seconds 8.8
+FIT DONE pair04_P06_P02 point_meanstd 1
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.4538 valNLL 1.1029 seconds 9.9
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.141 valNLL 1.1145 seconds 1.1
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.3962 valNLL 1.1096 seconds 10.9
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0327 valNLL 1.1016 seconds 2.1
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.3607 valNLL 1.1527 seconds 11.8
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9646 valNLL 1.1171 seconds 3.1
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.3296 valNLL 1.1986 seconds 12.8
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.8834 valNLL 1.1176 seconds 4.1
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.8158 valNLL 1.1239 seconds 5.2
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.129 valNLL - seconds 1.4
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.7416 valNLL 1.1083 seconds 6.2
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0268 valNLL - seconds 2.8
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.6668 valNLL 1.0994 seconds 7.2
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9268 valNLL - seconds 4.2
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.6007 valNLL 1.0948 seconds 8.3
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.5469 valNLL 1.1051 seconds 9.3
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.8167 valNLL - seconds 5.6
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.4975 valNLL 1.1171 seconds 10.4
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.7176 valNLL - seconds 7.1
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.4516 valNLL 1.1267 seconds 11.4
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.4238 valNLL 1.1622 seconds 12.4
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.616 valNLL - seconds 8.5
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.3904 valNLL 1.1825 seconds 13.4
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.5304 valNLL - seconds 9.9
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.3735 valNLL 1.2125 seconds 14.4
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.4798 valNLL - seconds 11.3
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1304 valNLL - seconds 1.5
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.4252 valNLL - seconds 12.8
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0266 valNLL - seconds 2.9
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.3983 valNLL - seconds 14.2
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9488 valNLL - seconds 4.4
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.3655 valNLL - seconds 15.6
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.8433 valNLL - seconds 5.9
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.3461 valNLL - seconds 17.0
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.74 valNLL - seconds 7.3
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.3322 valNLL - seconds 18.4
+FIT DONE pair04_P06_P02 early_and_filter 0
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.6349 valNLL - seconds 8.8
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.5603 valNLL - seconds 10.2
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.4884 valNLL - seconds 11.6
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.4374 valNLL - seconds 13.0
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.3984 valNLL - seconds 14.5
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.3653 valNLL - seconds 15.9
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.3371 valNLL - seconds 17.3
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.3339 valNLL - seconds 18.7
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.3108 valNLL - seconds 20.1
+FIT DONE pair04_P06_P02 early_and_filter 1
+SWAD EPOCH 0 1 1.1278
+SWAD EPOCH 0 2 0.9536
+SWAD EPOCH 0 3 0.7782
+SWAD EPOCH 0 4 0.6315
+SWAD EPOCH 0 5 0.5164
+SWAD EPOCH 0 6 0.4176
+SWAD EPOCH 0 7 0.3418
+SWAD EPOCH 0 1 1.1022
+SWAD EPOCH 0 2 0.9013
+SWAD EPOCH 0 3 0.7007
+SWAD EPOCH 0 4 0.5769
+FIT DONE pair05_P02_P03 swad_plain 0
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1485 valNLL 1.1089 seconds 1.0
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0397 valNLL 1.1126 seconds 1.9
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.9526 valNLL 1.1047 seconds 2.9
+SWAD EPOCH 1 1 1.1227
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8639 valNLL 1.1012 seconds 3.8
+SWAD EPOCH 1 2 0.9497
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.7621 valNLL 1.1004 seconds 4.8
+SWAD EPOCH 1 3 0.7933
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.6884 valNLL 1.0865 seconds 5.7
+SWAD EPOCH 1 4 0.6486
+SWAD EPOCH 1 5 0.5307
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.6023 valNLL 1.0893 seconds 6.7
+SWAD EPOCH 1 6 0.4368
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.5103 valNLL 1.117 seconds 7.6
+SWAD EPOCH 1 7 0.3774
+EPOCH point_meanstd 0 point_meanstd 9 loss 0.438 valNLL 1.1407 seconds 8.6
+SWAD EPOCH 1 8 0.3192
+EPOCH point_meanstd 0 point_meanstd 10 loss 0.3754 valNLL 1.154 seconds 9.6
+SWAD EPOCH 1 1 1.1166
+EPOCH point_meanstd 0 point_meanstd 11 loss 0.3454 valNLL 1.1772 seconds 10.5
+SWAD EPOCH 1 2 0.9371
+EPOCH point_meanstd 0 point_meanstd 12 loss 0.2978 valNLL 1.2034 seconds 11.4
+SWAD EPOCH 1 3 0.7514
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1353 valNLL - seconds 1.2
+SWAD EPOCH 1 4 0.6067
+SWAD EPOCH 1 5 0.4885
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.028 valNLL - seconds 2.5
+SWAD EPOCH 1 6 0.4236
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.9211 valNLL - seconds 3.9
+SWAD EPOCH 1 7 0.3555
+FIT DONE pair05_P02_P03 swad_plain 1
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8184 valNLL - seconds 5.3
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1338 valNLL 1.1079 seconds 1.0
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.05 valNLL 1.1205 seconds 1.9
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.7195 valNLL - seconds 6.7
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9709 valNLL 1.1039 seconds 2.9
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.6077 valNLL - seconds 8.0
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.9123 valNLL 1.1116 seconds 3.8
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.5116 valNLL - seconds 9.4
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.8181 valNLL 1.1172 seconds 4.8
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.7244 valNLL 1.1222 seconds 5.8
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.446 valNLL - seconds 10.8
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.6667 valNLL 1.1307 seconds 6.7
+EPOCH point_meanstd 0 point_meanstd 9 loss 0.4027 valNLL - seconds 12.2
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.5878 valNLL 1.1355 seconds 7.6
+EPOCH point_meanstd 1 point_meanstd 9 loss 0.5334 valNLL 1.1491 seconds 8.6
+EPOCH point_meanstd 0 point_meanstd 10 loss 0.3486 valNLL - seconds 13.6
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1344 valNLL - seconds 1.2
+EPOCH point_meanstd 0 point_meanstd 11 loss 0.3205 valNLL - seconds 15.0
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0527 valNLL - seconds 2.6
+EPOCH point_meanstd 0 point_meanstd 12 loss 0.2905 valNLL - seconds 16.3
+FIT DONE pair05_P02_P03 point_meanstd 0
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9638 valNLL - seconds 4.0
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1473 valNLL 1.1137 seconds 1.1
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0406 valNLL 1.1162 seconds 2.0
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.858 valNLL - seconds 5.4
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9578 valNLL 1.1086 seconds 3.0
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.7849 valNLL - seconds 6.8
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.8885 valNLL 1.0892 seconds 3.9
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.793 valNLL 1.0768 seconds 5.0
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.6713 valNLL - seconds 8.2
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.7107 valNLL 1.0633 seconds 6.0
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.5878 valNLL - seconds 9.6
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.6189 valNLL 1.0327 seconds 6.9
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.5281 valNLL - seconds 11.0
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.5499 valNLL 1.0376 seconds 7.9
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.4845 valNLL 1.0289 seconds 8.9
+EPOCH point_meanstd 1 point_meanstd 9 loss 0.4643 valNLL - seconds 12.4
+FIT DONE pair05_P02_P03 point_meanstd 1
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.4265 valNLL 1.0172 seconds 9.9
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1356 valNLL 1.1073 seconds 1.1
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.3761 valNLL 1.0259 seconds 10.9
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0534 valNLL 1.1178 seconds 2.1
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.3353 valNLL 1.0418 seconds 11.9
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.3053 valNLL 1.0543 seconds 12.8
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9844 valNLL 1.0975 seconds 3.1
+EPOCH early_and_filter 0 early_and_filter 14 loss 0.2717 valNLL 1.0788 seconds 13.8
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.9091 valNLL 1.1003 seconds 4.1
+EPOCH early_and_filter 0 early_and_filter 15 loss 0.2474 valNLL 1.1001 seconds 14.8
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.8247 valNLL 1.0955 seconds 5.2
+EPOCH early_and_filter 0 early_and_filter 16 loss 0.2233 valNLL 1.1151 seconds 15.8
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.7596 valNLL 1.078 seconds 6.2
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.6728 valNLL 1.0775 seconds 7.2
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1341 valNLL - seconds 1.4
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.6031 valNLL 1.0752 seconds 8.2
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.042 valNLL - seconds 2.8
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.5398 valNLL 1.0615 seconds 9.2
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.4868 valNLL 1.0604 seconds 10.4
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9406 valNLL - seconds 4.2
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.4402 valNLL 1.0582 seconds 11.4
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.8244 valNLL - seconds 5.6
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.4006 valNLL 1.0656 seconds 12.4
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.3708 valNLL 1.0792 seconds 13.4
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.7213 valNLL - seconds 7.0
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.335 valNLL 1.0948 seconds 14.4
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.6128 valNLL - seconds 8.4
+EPOCH early_and_filter 1 early_and_filter 15 loss 0.3205 valNLL 1.1068 seconds 15.5
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.5157 valNLL - seconds 9.9
+EPOCH early_and_filter 1 early_and_filter 16 loss 0.2858 valNLL 1.1219 seconds 16.4
+EPOCH early_and_filter 1 early_and_filter 17 loss 0.2892 valNLL 1.1357 seconds 17.4
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.4601 valNLL - seconds 11.3
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.4009 valNLL - seconds 12.7
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1339 valNLL - seconds 1.4
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.3553 valNLL - seconds 14.1
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0481 valNLL - seconds 2.8
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.3252 valNLL - seconds 15.5
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9635 valNLL - seconds 4.3
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.2914 valNLL - seconds 16.9
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.8591 valNLL - seconds 5.7
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.2853 valNLL - seconds 18.3
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.7571 valNLL - seconds 7.1
+EPOCH early_and_filter 0 early_and_filter 14 loss 0.2521 valNLL - seconds 19.7
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.643 valNLL - seconds 8.5
+EPOCH early_and_filter 0 early_and_filter 15 loss 0.2427 valNLL - seconds 21.1
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.5565 valNLL - seconds 9.9
+EPOCH early_and_filter 0 early_and_filter 16 loss 0.2479 valNLL - seconds 22.6
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.4771 valNLL - seconds 11.3
+FIT DONE pair05_P02_P03 early_and_filter 0
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.4288 valNLL - seconds 12.7
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.393 valNLL - seconds 14.1
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.3647 valNLL - seconds 15.4
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.3345 valNLL - seconds 16.8
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.3277 valNLL - seconds 18.2
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.2985 valNLL - seconds 19.6
+EPOCH early_and_filter 1 early_and_filter 15 loss 0.2804 valNLL - seconds 21.0
+EPOCH early_and_filter 1 early_and_filter 16 loss 0.276 valNLL - seconds 22.4
+EPOCH early_and_filter 1 early_and_filter 17 loss 0.2747 valNLL - seconds 23.8
+FIT DONE pair05_P02_P03 early_and_filter 1
+SWAD EPOCH 0 1 1.1225
+SWAD EPOCH 0 2 0.9643
+SWAD EPOCH 0 3 0.7794
+SWAD EPOCH 0 4 0.6087
+SWAD EPOCH 0 5 0.5086
+SWAD EPOCH 0 6 0.4196
+SWAD EPOCH 0 7 0.3395
+SWAD EPOCH 0 1 1.0974
+SWAD EPOCH 0 2 0.9009
+SWAD EPOCH 0 3 0.703
+SWAD EPOCH 0 4 0.56
+FIT DONE pair06_P03_P01 swad_plain 0
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1491 valNLL 1.1066 seconds 1.0
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0352 valNLL 1.1081 seconds 2.0
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.9476 valNLL 1.1038 seconds 2.9
+SWAD EPOCH 1 1 1.133
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8554 valNLL 1.1072 seconds 3.9
+SWAD EPOCH 1 2 0.9813
+SWAD EPOCH 1 3 0.8034
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.751 valNLL 1.1071 seconds 4.9
+SWAD EPOCH 1 4 0.6753
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.6798 valNLL 1.1064 seconds 5.8
+SWAD EPOCH 1 5 0.5618
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.592 valNLL 1.1056 seconds 6.8
+SWAD EPOCH 1 6 0.4706
+SWAD EPOCH 1 7 0.3913
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.4995 valNLL 1.1333 seconds 7.7
+EPOCH point_meanstd 0 point_meanstd 9 loss 0.4239 valNLL 1.1665 seconds 8.7
+SWAD EPOCH 1 1 1.1264
+SWAD EPOCH 1 2 0.9501
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1359 valNLL - seconds 1.2
+SWAD EPOCH 1 3 0.7666
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0249 valNLL - seconds 2.5
+SWAD EPOCH 1 4 0.6277
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.9143 valNLL - seconds 3.9
+SWAD EPOCH 1 5 0.502
+FIT DONE pair06_P03_P01 swad_plain 1
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.134 valNLL 1.1089 seconds 1.0
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8145 valNLL - seconds 5.3
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.047 valNLL 1.1248 seconds 1.9
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.7098 valNLL - seconds 6.7
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9659 valNLL 1.1112 seconds 2.9
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.9076 valNLL 1.1236 seconds 3.8
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.6014 valNLL - seconds 8.1
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.8057 valNLL 1.1383 seconds 4.9
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.5003 valNLL - seconds 9.4
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.7099 valNLL 1.1397 seconds 5.8
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.4376 valNLL - seconds 10.8
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.6517 valNLL 1.1435 seconds 6.7
+EPOCH point_meanstd 0 point_meanstd 9 loss 0.3896 valNLL - seconds 12.2
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1388 valNLL - seconds 1.2
+FIT DONE pair06_P03_P01 point_meanstd 0
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1451 valNLL 1.112 seconds 1.1
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0499 valNLL - seconds 2.6
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0351 valNLL 1.1138 seconds 2.0
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9592 valNLL - seconds 3.9
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9527 valNLL 1.112 seconds 3.0
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.8804 valNLL 1.096 seconds 4.0
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.8454 valNLL - seconds 5.3
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.785 valNLL 1.0871 seconds 5.1
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.7627 valNLL - seconds 6.7
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.7055 valNLL 1.0818 seconds 6.0
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.6481 valNLL - seconds 8.1
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.6043 valNLL 1.0574 seconds 7.0
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.5225 valNLL 1.0594 seconds 7.9
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.5628 valNLL - seconds 9.5
+FIT DONE pair06_P03_P01 point_meanstd 1
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.4646 valNLL 1.0454 seconds 8.9
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1366 valNLL 1.1094 seconds 1.1
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.4074 valNLL 1.0444 seconds 10.0
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0507 valNLL 1.1279 seconds 2.1
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.3544 valNLL 1.0568 seconds 10.9
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9754 valNLL 1.1167 seconds 3.1
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.3142 valNLL 1.0651 seconds 11.9
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.8922 valNLL 1.1362 seconds 4.1
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.2836 valNLL 1.0758 seconds 12.9
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.8149 valNLL 1.1334 seconds 5.2
+EPOCH early_and_filter 0 early_and_filter 14 loss 0.2496 valNLL 1.0962 seconds 13.8
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.7503 valNLL 1.1138 seconds 6.2
+EPOCH early_and_filter 0 early_and_filter 15 loss 0.2248 valNLL 1.1258 seconds 14.9
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.6545 valNLL 1.1152 seconds 7.2
+EPOCH early_and_filter 0 early_and_filter 16 loss 0.2012 valNLL 1.1544 seconds 15.9
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1354 valNLL - seconds 1.4
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1398 valNLL - seconds 1.4
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0404 valNLL - seconds 2.8
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0461 valNLL - seconds 2.9
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9355 valNLL - seconds 4.2
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9521 valNLL - seconds 4.4
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.8227 valNLL - seconds 5.7
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.8478 valNLL - seconds 5.9
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.7054 valNLL - seconds 7.1
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.7428 valNLL - seconds 7.3
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.6037 valNLL - seconds 8.5
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.6267 valNLL - seconds 8.8
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.5044 valNLL - seconds 9.9
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.5498 valNLL - seconds 10.3
+FIT DONE pair06_P03_P01 early_and_filter 1
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.4451 valNLL - seconds 11.4
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.3973 valNLL - seconds 12.8
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.3502 valNLL - seconds 14.2
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.3194 valNLL - seconds 15.7
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.2953 valNLL - seconds 17.1
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.2932 valNLL - seconds 18.5
+EPOCH early_and_filter 0 early_and_filter 14 loss 0.2648 valNLL - seconds 20.0
+EPOCH early_and_filter 0 early_and_filter 15 loss 0.258 valNLL - seconds 21.4
+EPOCH early_and_filter 0 early_and_filter 16 loss 0.257 valNLL - seconds 22.9
+FIT DONE pair06_P03_P01 early_and_filter 0
+SWAD EPOCH 0 1 1.0904
+SWAD EPOCH 0 2 0.9196
+SWAD EPOCH 0 3 0.7425
+SWAD EPOCH 0 4 0.6214
+SWAD EPOCH 0 5 0.4764
+SWAD EPOCH 0 6 0.4
+SWAD EPOCH 0 7 0.3311
+SWAD EPOCH 0 1 1.0732
+SWAD EPOCH 0 2 0.8459
+SWAD EPOCH 0 3 0.6596
+SWAD EPOCH 0 4 0.5223
+FIT DONE pair07_P01_P04 swad_plain 0
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.134 valNLL 1.1021 seconds 0.8
+EPOCH point_meanstd 0 point_meanstd 2 loss 0.9896 valNLL 1.1026 seconds 1.5
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.8803 valNLL 1.0881 seconds 2.2
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8578 valNLL 1.1669 seconds 2.9
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.7467 valNLL 1.1353 seconds 3.7
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.6597 valNLL 1.1206 seconds 4.4
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.58 valNLL 1.161 seconds 5.1
+SWAD EPOCH 1 1 1.1086
+SWAD EPOCH 1 2 0.9131
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.5029 valNLL 1.1578 seconds 5.9
+SWAD EPOCH 1 3 0.7567
+EPOCH point_meanstd 0 point_meanstd 9 loss 0.4375 valNLL 1.165 seconds 6.6
+SWAD EPOCH 1 4 0.6222
+SWAD EPOCH 1 5 0.5169
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1368 valNLL - seconds 1.0
+SWAD EPOCH 1 6 0.4075
+SWAD EPOCH 1 7 0.3477
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0115 valNLL - seconds 2.2
+SWAD EPOCH 1 1 1.0995
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.9045 valNLL - seconds 3.3
+SWAD EPOCH 1 2 0.9
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.7933 valNLL - seconds 4.5
+SWAD EPOCH 1 3 0.7156
+SWAD EPOCH 1 4 0.5473
+FIT DONE pair07_P01_P04 swad_plain 1
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.6807 valNLL - seconds 5.7
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1299 valNLL 1.1263 seconds 0.8
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.5846 valNLL - seconds 6.9
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0261 valNLL 1.1073 seconds 1.5
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.916 valNLL 1.1317 seconds 2.2
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.5075 valNLL - seconds 8.0
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.8003 valNLL 1.172 seconds 2.9
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.4372 valNLL - seconds 9.2
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.7502 valNLL 1.2025 seconds 3.7
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.6801 valNLL 1.2059 seconds 4.5
+EPOCH point_meanstd 0 point_meanstd 9 loss 0.3859 valNLL - seconds 10.4
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.5726 valNLL 1.1959 seconds 5.2
+FIT DONE pair07_P01_P04 point_meanstd 0
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.5042 valNLL 1.1948 seconds 5.9
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1288 valNLL 1.1065 seconds 0.8
+EPOCH early_and_filter 0 early_and_filter 2 loss 0.9951 valNLL 1.1103 seconds 1.6
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1241 valNLL - seconds 1.0
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9218 valNLL 1.1085 seconds 2.4
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.8513 valNLL 1.1769 seconds 3.1
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0194 valNLL - seconds 2.1
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.772 valNLL 1.1373 seconds 4.0
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9035 valNLL - seconds 3.3
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.705 valNLL 1.1099 seconds 4.7
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.6262 valNLL 1.1128 seconds 5.5
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.8005 valNLL - seconds 4.5
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.6977 valNLL - seconds 5.6
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1355 valNLL - seconds 1.2
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.6108 valNLL - seconds 6.8
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0173 valNLL - seconds 2.4
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.5228 valNLL - seconds 8.0
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9137 valNLL - seconds 3.7
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.4611 valNLL - seconds 9.1
+FIT DONE pair07_P01_P04 point_meanstd 1
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.8126 valNLL - seconds 4.9
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1288 valNLL 1.1294 seconds 0.8
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.7103 valNLL - seconds 6.1
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0217 valNLL 1.1092 seconds 1.5
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9241 valNLL 1.1319 seconds 2.3
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.6227 valNLL - seconds 7.4
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.8497 valNLL 1.1691 seconds 3.0
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.7696 valNLL 1.1746 seconds 3.8
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.525 valNLL - seconds 8.6
+FIT DONE pair07_P01_P04 early_and_filter 0
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.6741 valNLL 1.1614 seconds 4.6
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.6181 valNLL 1.1181 seconds 5.3
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.5646 valNLL 1.0983 seconds 6.1
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.4962 valNLL 1.1205 seconds 6.8
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.4473 valNLL 1.1414 seconds 7.6
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.395 valNLL 1.137 seconds 8.4
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.3648 valNLL 1.1115 seconds 9.1
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.3125 valNLL 1.1045 seconds 9.9
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.2816 valNLL 1.1148 seconds 10.6
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1226 valNLL - seconds 1.2
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0171 valNLL - seconds 2.4
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9047 valNLL - seconds 3.6
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.8026 valNLL - seconds 4.8
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.691 valNLL - seconds 6.0
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.5899 valNLL - seconds 7.2
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.5001 valNLL - seconds 8.4
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.4424 valNLL - seconds 9.5
+SWAD EPOCH 0 1 1.118
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.3782 valNLL - seconds 10.8
+SWAD EPOCH 0 2 0.9396
+SWAD EPOCH 0 3 0.8028
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.3388 valNLL - seconds 12.0
+SWAD EPOCH 0 4 0.667
+SWAD EPOCH 0 5 0.5464
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.3 valNLL - seconds 13.2
+SWAD EPOCH 0 6 0.4454
+SWAD EPOCH 0 7 0.3633
+SWAD EPOCH 0 8 0.3269
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.2725 valNLL - seconds 14.4
+SWAD EPOCH 0 9 0.2594
+SWAD EPOCH 0 10 0.2251
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.257 valNLL - seconds 15.6
+SWAD EPOCH 0 11 0.1963
+SWAD EPOCH 0 12 0.1705
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.2268 valNLL - seconds 16.8
+FIT DONE pair07_P01_P04 early_and_filter 1
+SWAD EPOCH 0 13 0.153
+SWAD EPOCH 0 1 1.0986
+SWAD EPOCH 0 2 0.8882
+SWAD EPOCH 0 3 0.7223
+SWAD EPOCH 0 4 0.5703
+SWAD EPOCH 0 5 0.4735
+SWAD EPOCH 0 6 0.4194
+SWAD EPOCH 0 7 0.3229
+SWAD EPOCH 0 8 0.2819
+SWAD EPOCH 0 9 0.2524
+SWAD EPOCH 0 10 0.2168
+SWAD EPOCH 0 11 0.1968
+SWAD EPOCH 0 12 0.1588
+SWAD EPOCH 0 13 0.1478
+FIT DONE pair08_P04_P10 swad_plain 0
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1304 valNLL 1.0625 seconds 0.8
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0037 valNLL 1.0507 seconds 1.5
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.9021 valNLL 1.0303 seconds 2.2
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8705 valNLL 1.0079 seconds 2.9
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.8008 valNLL 0.9823 seconds 3.7
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.7161 valNLL 0.9504 seconds 4.4
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.6116 valNLL 0.9098 seconds 5.1
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.5415 valNLL 0.8724 seconds 5.8
+EPOCH point_meanstd 0 point_meanstd 9 loss 0.4878 valNLL 0.8466 seconds 6.5
+EPOCH point_meanstd 0 point_meanstd 10 loss 0.4462 valNLL 0.826 seconds 7.3
+SWAD EPOCH 1 1 1.1119
+EPOCH point_meanstd 0 point_meanstd 11 loss 0.3599 valNLL 0.8075 seconds 8.0
+SWAD EPOCH 1 2 0.956
+EPOCH point_meanstd 0 point_meanstd 12 loss 0.3225 valNLL 0.7934 seconds 8.7
+SWAD EPOCH 1 3 0.8109
+SWAD EPOCH 1 4 0.6654
+EPOCH point_meanstd 0 point_meanstd 13 loss 0.2874 valNLL 0.7799 seconds 9.5
+SWAD EPOCH 1 5 0.5515
+EPOCH point_meanstd 0 point_meanstd 14 loss 0.2592 valNLL 0.7753 seconds 10.2
+SWAD EPOCH 1 6 0.4501
+SWAD EPOCH 1 7 0.3769
+EPOCH point_meanstd 0 point_meanstd 15 loss 0.2216 valNLL 0.7755 seconds 11.0
+SWAD EPOCH 1 8 0.3142
+EPOCH point_meanstd 0 point_meanstd 16 loss 0.2133 valNLL 0.7804 seconds 11.7
+SWAD EPOCH 1 9 0.2712
+EPOCH point_meanstd 0 point_meanstd 17 loss 0.1937 valNLL 0.7873 seconds 12.4
+SWAD EPOCH 1 10 0.2321
+EPOCH point_meanstd 0 point_meanstd 18 loss 0.1689 valNLL 0.7937 seconds 13.1
+SWAD EPOCH 1 11 0.1945
+SWAD EPOCH 1 12 0.1648
+EPOCH point_meanstd 0 point_meanstd 19 loss 0.1536 valNLL 0.7976 seconds 13.9
+SWAD EPOCH 1 1 1.1141
+EPOCH point_meanstd 0 point_meanstd 20 loss 0.1307 valNLL 0.8033 seconds 14.7
+SWAD EPOCH 1 2 0.8961
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1274 valNLL - seconds 0.8
+SWAD EPOCH 1 3 0.7371
+SWAD EPOCH 1 4 0.6062
+EPOCH point_meanstd 0 point_meanstd 2 loss 0.9959 valNLL - seconds 1.7
+SWAD EPOCH 1 5 0.5051
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.9089 valNLL - seconds 2.7
+SWAD EPOCH 1 6 0.4143
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8175 valNLL - seconds 3.7
+SWAD EPOCH 1 7 0.3397
+SWAD EPOCH 1 8 0.312
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.7253 valNLL - seconds 4.6
+SWAD EPOCH 1 9 0.2492
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.6637 valNLL - seconds 5.6
+SWAD EPOCH 1 10 0.2211
+FIT DONE pair08_P04_P10 swad_plain 1
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.5737 valNLL - seconds 6.6
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1412 valNLL 1.1 seconds 0.8
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.4813 valNLL - seconds 7.5
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0404 valNLL 1.0759 seconds 1.5
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9693 valNLL 1.0626 seconds 2.2
+EPOCH point_meanstd 0 point_meanstd 9 loss 0.4093 valNLL - seconds 8.5
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.8378 valNLL 1.0346 seconds 2.9
+EPOCH point_meanstd 0 point_meanstd 10 loss 0.3493 valNLL - seconds 9.4
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.7967 valNLL 1.0095 seconds 3.6
+EPOCH point_meanstd 0 point_meanstd 11 loss 0.3199 valNLL - seconds 10.4
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.7287 valNLL 0.9814 seconds 4.3
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.626 valNLL 0.9455 seconds 5.0
+EPOCH point_meanstd 0 point_meanstd 12 loss 0.2762 valNLL - seconds 11.3
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.549 valNLL 0.9054 seconds 5.7
+EPOCH point_meanstd 0 point_meanstd 13 loss 0.2559 valNLL - seconds 12.3
+EPOCH point_meanstd 1 point_meanstd 9 loss 0.5045 valNLL 0.8724 seconds 6.4
+EPOCH point_meanstd 0 point_meanstd 14 loss 0.2035 valNLL - seconds 13.2
+EPOCH point_meanstd 1 point_meanstd 10 loss 0.4441 valNLL 0.8488 seconds 7.2
+EPOCH point_meanstd 1 point_meanstd 11 loss 0.4076 valNLL 0.8363 seconds 7.8
+EPOCH point_meanstd 0 point_meanstd 15 loss 0.1906 valNLL - seconds 14.2
+EPOCH point_meanstd 1 point_meanstd 12 loss 0.3537 valNLL 0.8305 seconds 8.5
+EPOCH point_meanstd 0 point_meanstd 16 loss 0.1719 valNLL - seconds 15.1
+EPOCH point_meanstd 1 point_meanstd 13 loss 0.2985 valNLL 0.8316 seconds 9.2
+EPOCH point_meanstd 1 point_meanstd 14 loss 0.2591 valNLL 0.8368 seconds 9.9
+EPOCH point_meanstd 0 point_meanstd 17 loss 0.1657 valNLL - seconds 16.1
+EPOCH point_meanstd 1 point_meanstd 15 loss 0.2521 valNLL 0.841 seconds 10.7
+EPOCH point_meanstd 0 point_meanstd 18 loss 0.1427 valNLL - seconds 17.0
+EPOCH point_meanstd 1 point_meanstd 16 loss 0.2134 valNLL 0.8461 seconds 11.4
+EPOCH point_meanstd 0 point_meanstd 19 loss 0.129 valNLL - seconds 17.9
+EPOCH point_meanstd 1 point_meanstd 17 loss 0.196 valNLL 0.852 seconds 12.1
+EPOCH point_meanstd 0 point_meanstd 20 loss 0.1341 valNLL - seconds 18.8
+EPOCH point_meanstd 1 point_meanstd 18 loss 0.1727 valNLL 0.8533 seconds 12.8
+FIT DONE pair08_P04_P10 point_meanstd 0
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1291 valNLL 1.0602 seconds 0.8
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1276 valNLL - seconds 0.8
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0314 valNLL 1.0456 seconds 1.5
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.017 valNLL - seconds 1.7
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9483 valNLL 1.017 seconds 2.2
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9061 valNLL - seconds 2.6
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.8708 valNLL 0.9962 seconds 2.9
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.8099 valNLL - seconds 3.5
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.8129 valNLL 0.9769 seconds 3.7
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.7271 valNLL 0.9556 seconds 4.4
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.7096 valNLL - seconds 4.4
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.6678 valNLL 0.9299 seconds 5.1
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.6093 valNLL - seconds 5.3
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.6039 valNLL 0.9062 seconds 5.8
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.5645 valNLL - seconds 6.3
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.5352 valNLL 0.8881 seconds 6.5
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.4776 valNLL - seconds 7.2
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.4877 valNLL 0.8794 seconds 7.3
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.4279 valNLL 0.8766 seconds 8.0
+EPOCH point_meanstd 1 point_meanstd 9 loss 0.4455 valNLL - seconds 8.1
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.3914 valNLL 0.8749 seconds 8.7
+EPOCH point_meanstd 1 point_meanstd 10 loss 0.3695 valNLL - seconds 9.0
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.3504 valNLL 0.8743 seconds 9.4
+EPOCH point_meanstd 1 point_meanstd 11 loss 0.3394 valNLL - seconds 9.9
+EPOCH early_and_filter 0 early_and_filter 14 loss 0.2914 valNLL 0.872 seconds 10.2
+EPOCH point_meanstd 1 point_meanstd 12 loss 0.3066 valNLL - seconds 10.9
+EPOCH early_and_filter 0 early_and_filter 15 loss 0.2904 valNLL 0.8727 seconds 10.9
+EPOCH early_and_filter 0 early_and_filter 16 loss 0.2432 valNLL 0.8784 seconds 11.6
+EPOCH point_meanstd 1 point_meanstd 13 loss 0.2631 valNLL - seconds 11.8
+EPOCH early_and_filter 0 early_and_filter 17 loss 0.235 valNLL 0.8908 seconds 12.3
+EPOCH point_meanstd 1 point_meanstd 14 loss 0.2582 valNLL - seconds 12.7
+EPOCH early_and_filter 0 early_and_filter 18 loss 0.2096 valNLL 0.9032 seconds 13.0
+EPOCH point_meanstd 1 point_meanstd 15 loss 0.2124 valNLL - seconds 13.6
+EPOCH early_and_filter 0 early_and_filter 19 loss 0.1912 valNLL 0.9107 seconds 13.7
+EPOCH early_and_filter 0 early_and_filter 20 loss 0.1772 valNLL 0.9142 seconds 14.5
+EPOCH point_meanstd 1 point_meanstd 16 loss 0.1752 valNLL - seconds 14.6
+EPOCH point_meanstd 1 point_meanstd 17 loss 0.1822 valNLL - seconds 15.5
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1249 valNLL - seconds 0.9
+EPOCH point_meanstd 1 point_meanstd 18 loss 0.1653 valNLL - seconds 16.4
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0057 valNLL - seconds 1.8
+FIT DONE pair08_P04_P10 point_meanstd 1
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9117 valNLL - seconds 2.7
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1426 valNLL 1.0995 seconds 0.8
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0205 valNLL 1.0756 seconds 1.5
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.8449 valNLL - seconds 3.6
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9819 valNLL 1.0611 seconds 2.2
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.7543 valNLL - seconds 4.5
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.8674 valNLL 1.0267 seconds 3.0
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.6841 valNLL - seconds 5.4
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.8096 valNLL 1.0027 seconds 3.8
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.5951 valNLL - seconds 6.4
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.7232 valNLL 0.9792 seconds 4.5
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.6633 valNLL 0.9561 seconds 5.2
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.5303 valNLL - seconds 7.3
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.5894 valNLL 0.9381 seconds 5.9
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.4588 valNLL - seconds 8.2
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.5343 valNLL 0.9258 seconds 6.7
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.4068 valNLL - seconds 9.1
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.469 valNLL 0.9155 seconds 7.5
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.3655 valNLL - seconds 10.0
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.4333 valNLL 0.9122 seconds 8.2
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.3757 valNLL 0.9136 seconds 8.9
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.3272 valNLL - seconds 10.9
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.3337 valNLL 0.9182 seconds 9.7
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.2827 valNLL - seconds 11.8
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.3005 valNLL 0.9269 seconds 10.4
+EPOCH early_and_filter 0 early_and_filter 14 loss 0.2496 valNLL - seconds 12.7
+EPOCH early_and_filter 1 early_and_filter 15 loss 0.27 valNLL 0.936 seconds 11.2
+EPOCH early_and_filter 0 early_and_filter 15 loss 0.2403 valNLL - seconds 13.6
+EPOCH early_and_filter 1 early_and_filter 16 loss 0.2422 valNLL 0.9539 seconds 11.9
+EPOCH early_and_filter 0 early_and_filter 16 loss 0.2073 valNLL - seconds 14.6
+EPOCH early_and_filter 1 early_and_filter 17 loss 0.2267 valNLL 0.9754 seconds 12.6
+EPOCH early_and_filter 0 early_and_filter 17 loss 0.1954 valNLL - seconds 15.5
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1256 valNLL - seconds 0.9
+EPOCH early_and_filter 0 early_and_filter 18 loss 0.1793 valNLL - seconds 16.4
+EPOCH early_and_filter 1 early_and_filter 2 loss 0.9936 valNLL - seconds 1.9
+EPOCH early_and_filter 0 early_and_filter 19 loss 0.1665 valNLL - seconds 17.3
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9138 valNLL - seconds 2.8
+EPOCH early_and_filter 0 early_and_filter 20 loss 0.1553 valNLL - seconds 18.2
+FIT DONE pair08_P04_P10 early_and_filter 0
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.8093 valNLL - seconds 3.8
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.7257 valNLL - seconds 4.8
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.6645 valNLL - seconds 5.7
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.5894 valNLL - seconds 6.7
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.522 valNLL - seconds 7.6
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.4792 valNLL - seconds 8.6
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.4189 valNLL - seconds 9.5
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.3719 valNLL - seconds 10.5
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.3375 valNLL - seconds 11.4
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.3056 valNLL - seconds 12.4
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.2924 valNLL - seconds 13.4
+EPOCH early_and_filter 1 early_and_filter 15 loss 0.2566 valNLL - seconds 14.3
+EPOCH early_and_filter 1 early_and_filter 16 loss 0.228 valNLL - seconds 15.3
+EPOCH early_and_filter 1 early_and_filter 17 loss 0.2209 valNLL - seconds 16.2
+FIT DONE pair08_P04_P10 early_and_filter 1
+SWAD EPOCH 0 1 1.1408
+SWAD EPOCH 0 2 0.9758
+SWAD EPOCH 0 3 0.8402
+SWAD EPOCH 0 4 0.7186
+SWAD EPOCH 0 5 0.6149
+SWAD EPOCH 0 6 0.4985
+SWAD EPOCH 0 7 0.4169
+SWAD EPOCH 0 8 0.3562
+SWAD EPOCH 0 9 0.3091
+SWAD EPOCH 0 10 0.2859
+SWAD EPOCH 0 11 0.2295
+SWAD EPOCH 0 12 0.1984
+SWAD EPOCH 0 13 0.1896
+SWAD EPOCH 0 14 0.1719
+SWAD EPOCH 0 1 1.1122
+SWAD EPOCH 0 2 0.9347
+SWAD EPOCH 0 3 0.7702
+SWAD EPOCH 1 1 1.1345
+SWAD EPOCH 0 4 0.6386
+SWAD EPOCH 1 2 0.9919
+SWAD EPOCH 0 5 0.5302
+SWAD EPOCH 1 3 0.8725
+SWAD EPOCH 1 4 0.7279
+SWAD EPOCH 0 6 0.4558
+SWAD EPOCH 1 5 0.6331
+SWAD EPOCH 0 7 0.4012
+SWAD EPOCH 1 6 0.5241
+SWAD EPOCH 0 8 0.3511
+SWAD EPOCH 1 7 0.4485
+SWAD EPOCH 0 9 0.2968
+SWAD EPOCH 1 8 0.4061
+SWAD EPOCH 0 10 0.2698
+SWAD EPOCH 1 9 0.3532
+SWAD EPOCH 1 10 0.2984
+SWAD EPOCH 0 11 0.246
+SWAD EPOCH 1 11 0.2707
+SWAD EPOCH 0 12 0.2143
+SWAD EPOCH 1 12 0.2236
+SWAD EPOCH 0 13 0.1954
+SWAD EPOCH 1 13 0.2042
+SWAD EPOCH 0 14 0.1854
+SWAD EPOCH 1 14 0.1896
+FIT DONE pair09_P10_P09 swad_plain 0
+SWAD EPOCH 1 1 1.1186
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1482 valNLL 1.0933 seconds 1.0
+SWAD EPOCH 1 2 0.943
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0456 valNLL 1.0743 seconds 2.0
+SWAD EPOCH 1 3 0.7707
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.96 valNLL 1.0447 seconds 2.9
+SWAD EPOCH 1 4 0.6599
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8863 valNLL 1.0133 seconds 3.9
+SWAD EPOCH 1 5 0.5433
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.8038 valNLL 0.9864 seconds 4.9
+SWAD EPOCH 1 6 0.4856
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.7517 valNLL 0.9473 seconds 5.9
+SWAD EPOCH 1 7 0.4082
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.6743 valNLL 0.8986 seconds 6.8
+SWAD EPOCH 1 8 0.367
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.5923 valNLL 0.863 seconds 7.8
+SWAD EPOCH 1 9 0.3022
+EPOCH point_meanstd 0 point_meanstd 9 loss 0.5354 valNLL 0.8309 seconds 8.8
+SWAD EPOCH 1 10 0.2631
+SWAD EPOCH 1 11 0.24
+EPOCH point_meanstd 0 point_meanstd 10 loss 0.4568 valNLL 0.7985 seconds 9.8
+SWAD EPOCH 1 12 0.2231
+EPOCH point_meanstd 0 point_meanstd 11 loss 0.4224 valNLL 0.7816 seconds 10.8
+SWAD EPOCH 1 13 0.2115
+EPOCH point_meanstd 0 point_meanstd 12 loss 0.3706 valNLL 0.767 seconds 11.8
+SWAD EPOCH 1 14 0.1877
+FIT DONE pair09_P10_P09 swad_plain 1
+EPOCH point_meanstd 0 point_meanstd 13 loss 0.3475 valNLL 0.7533 seconds 12.7
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.14 valNLL 1.0921 seconds 1.0
+EPOCH point_meanstd 0 point_meanstd 14 loss 0.2761 valNLL 0.7592 seconds 13.7
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0529 valNLL 1.0733 seconds 1.9
+EPOCH point_meanstd 0 point_meanstd 15 loss 0.2574 valNLL 0.7557 seconds 14.8
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9759 valNLL 1.0448 seconds 2.9
+EPOCH point_meanstd 0 point_meanstd 16 loss 0.234 valNLL 0.7493 seconds 15.7
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.8922 valNLL 1.0028 seconds 3.8
+EPOCH point_meanstd 0 point_meanstd 17 loss 0.2409 valNLL 0.7543 seconds 16.7
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.8157 valNLL 0.9549 seconds 4.8
+EPOCH point_meanstd 0 point_meanstd 18 loss 0.207 valNLL 0.7625 seconds 17.6
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.7445 valNLL 0.902 seconds 5.8
+EPOCH point_meanstd 0 point_meanstd 19 loss 0.1849 valNLL 0.7664 seconds 18.6
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.7071 valNLL 0.8514 seconds 6.7
+EPOCH point_meanstd 0 point_meanstd 20 loss 0.1836 valNLL 0.7711 seconds 19.6
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.6213 valNLL 0.8225 seconds 7.6
+EPOCH point_meanstd 0 point_meanstd 21 loss 0.159 valNLL 0.7791 seconds 20.6
+EPOCH point_meanstd 1 point_meanstd 9 loss 0.583 valNLL 0.7789 seconds 8.5
+EPOCH point_meanstd 0 point_meanstd 22 loss 0.1629 valNLL 0.7785 seconds 21.5
+EPOCH point_meanstd 1 point_meanstd 10 loss 0.504 valNLL 0.7585 seconds 9.5
+EPOCH point_meanstd 0 point_meanstd 1 loss 1.1377 valNLL - seconds 1.0
+EPOCH point_meanstd 1 point_meanstd 11 loss 0.454 valNLL 0.7321 seconds 10.5
+EPOCH point_meanstd 1 point_meanstd 12 loss 0.4261 valNLL 0.7211 seconds 11.4
+EPOCH point_meanstd 0 point_meanstd 2 loss 1.0211 valNLL - seconds 2.1
+EPOCH point_meanstd 1 point_meanstd 13 loss 0.3923 valNLL 0.7137 seconds 12.3
+EPOCH point_meanstd 0 point_meanstd 3 loss 0.9308 valNLL - seconds 3.3
+EPOCH point_meanstd 1 point_meanstd 14 loss 0.3495 valNLL 0.7084 seconds 13.3
+EPOCH point_meanstd 0 point_meanstd 4 loss 0.8181 valNLL - seconds 4.4
+EPOCH point_meanstd 1 point_meanstd 15 loss 0.3072 valNLL 0.6962 seconds 14.3
+EPOCH point_meanstd 0 point_meanstd 5 loss 0.7309 valNLL - seconds 5.5
+EPOCH point_meanstd 1 point_meanstd 16 loss 0.2562 valNLL 0.6944 seconds 15.2
+EPOCH point_meanstd 0 point_meanstd 6 loss 0.6063 valNLL - seconds 6.7
+EPOCH point_meanstd 1 point_meanstd 17 loss 0.2603 valNLL 0.6952 seconds 16.1
+EPOCH point_meanstd 1 point_meanstd 18 loss 0.2419 valNLL 0.703 seconds 17.1
+EPOCH point_meanstd 0 point_meanstd 7 loss 0.5483 valNLL - seconds 7.8
+EPOCH point_meanstd 1 point_meanstd 19 loss 0.2099 valNLL 0.7039 seconds 18.0
+EPOCH point_meanstd 0 point_meanstd 8 loss 0.4742 valNLL - seconds 9.0
+EPOCH point_meanstd 1 point_meanstd 20 loss 0.2047 valNLL 0.7111 seconds 19.1
+EPOCH point_meanstd 0 point_meanstd 9 loss 0.4378 valNLL - seconds 10.1
+EPOCH point_meanstd 1 point_meanstd 21 loss 0.1892 valNLL 0.7196 seconds 20.0
+EPOCH point_meanstd 0 point_meanstd 10 loss 0.3718 valNLL - seconds 11.2
+EPOCH point_meanstd 1 point_meanstd 22 loss 0.1645 valNLL 0.7145 seconds 20.9
+EPOCH point_meanstd 0 point_meanstd 11 loss 0.3536 valNLL - seconds 12.4
+EPOCH point_meanstd 1 point_meanstd 1 loss 1.1312 valNLL - seconds 1.0
+EPOCH point_meanstd 0 point_meanstd 12 loss 0.3028 valNLL - seconds 13.5
+EPOCH point_meanstd 1 point_meanstd 2 loss 1.0292 valNLL - seconds 2.1
+EPOCH point_meanstd 0 point_meanstd 13 loss 0.2685 valNLL - seconds 14.6
+EPOCH point_meanstd 1 point_meanstd 3 loss 0.9385 valNLL - seconds 3.3
+EPOCH point_meanstd 0 point_meanstd 14 loss 0.2356 valNLL - seconds 15.7
+EPOCH point_meanstd 1 point_meanstd 4 loss 0.8676 valNLL - seconds 4.4
+EPOCH point_meanstd 0 point_meanstd 15 loss 0.2311 valNLL - seconds 16.9
+EPOCH point_meanstd 1 point_meanstd 5 loss 0.7715 valNLL - seconds 5.6
+EPOCH point_meanstd 0 point_meanstd 16 loss 0.209 valNLL - seconds 18.0
+EPOCH point_meanstd 1 point_meanstd 6 loss 0.7034 valNLL - seconds 6.8
+EPOCH point_meanstd 0 point_meanstd 17 loss 0.2078 valNLL - seconds 19.1
+EPOCH point_meanstd 1 point_meanstd 7 loss 0.6153 valNLL - seconds 7.9
+EPOCH point_meanstd 0 point_meanstd 18 loss 0.1761 valNLL - seconds 20.2
+EPOCH point_meanstd 1 point_meanstd 8 loss 0.5608 valNLL - seconds 9.1
+EPOCH point_meanstd 0 point_meanstd 19 loss 0.1636 valNLL - seconds 21.3
+EPOCH point_meanstd 1 point_meanstd 9 loss 0.5064 valNLL - seconds 10.3
+EPOCH point_meanstd 0 point_meanstd 20 loss 0.1496 valNLL - seconds 22.4
+EPOCH point_meanstd 1 point_meanstd 10 loss 0.4482 valNLL - seconds 11.4
+EPOCH point_meanstd 0 point_meanstd 21 loss 0.1366 valNLL - seconds 23.6
+EPOCH point_meanstd 1 point_meanstd 11 loss 0.4141 valNLL - seconds 12.6
+EPOCH point_meanstd 0 point_meanstd 22 loss 0.1324 valNLL - seconds 24.7
+FIT DONE pair09_P10_P09 point_meanstd 0
+EPOCH point_meanstd 1 point_meanstd 12 loss 0.3523 valNLL - seconds 13.8
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1467 valNLL 1.0908 seconds 1.0
+EPOCH point_meanstd 1 point_meanstd 13 loss 0.3218 valNLL - seconds 14.9
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0483 valNLL 1.0669 seconds 1.9
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9678 valNLL 1.0347 seconds 2.9
+EPOCH point_meanstd 1 point_meanstd 14 loss 0.2938 valNLL - seconds 16.1
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.9029 valNLL 1.0054 seconds 3.8
+EPOCH point_meanstd 1 point_meanstd 15 loss 0.2688 valNLL - seconds 17.3
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.8257 valNLL 0.9875 seconds 4.8
+EPOCH point_meanstd 1 point_meanstd 16 loss 0.2364 valNLL - seconds 18.5
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.7434 valNLL 0.956 seconds 5.7
+EPOCH point_meanstd 1 point_meanstd 17 loss 0.2158 valNLL - seconds 19.6
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.6745 valNLL 0.9213 seconds 6.6
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.604 valNLL 0.8995 seconds 7.6
+EPOCH point_meanstd 1 point_meanstd 18 loss 0.2153 valNLL - seconds 20.8
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.5436 valNLL 0.8697 seconds 8.5
+EPOCH point_meanstd 1 point_meanstd 19 loss 0.1966 valNLL - seconds 22.0
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.4749 valNLL 0.8353 seconds 9.5
+EPOCH point_meanstd 1 point_meanstd 20 loss 0.1917 valNLL - seconds 23.2
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.4249 valNLL 0.8102 seconds 10.4
+EPOCH point_meanstd 1 point_meanstd 21 loss 0.1686 valNLL - seconds 24.4
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.3875 valNLL 0.808 seconds 11.3
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.3369 valNLL 0.7872 seconds 12.3
+EPOCH point_meanstd 1 point_meanstd 22 loss 0.1599 valNLL - seconds 25.5
+FIT DONE pair09_P10_P09 point_meanstd 1
+EPOCH early_and_filter 0 early_and_filter 14 loss 0.3012 valNLL 0.779 seconds 13.2
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1435 valNLL 1.0916 seconds 1.1
+EPOCH early_and_filter 0 early_and_filter 15 loss 0.2783 valNLL 0.7789 seconds 14.2
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0423 valNLL 1.0765 seconds 2.0
+EPOCH early_and_filter 0 early_and_filter 16 loss 0.2582 valNLL 0.7768 seconds 15.2
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9847 valNLL 1.047 seconds 3.0
+EPOCH early_and_filter 0 early_and_filter 17 loss 0.2388 valNLL 0.7852 seconds 16.1
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.9015 valNLL 1.0131 seconds 4.0
+EPOCH early_and_filter 0 early_and_filter 18 loss 0.223 valNLL 0.7959 seconds 17.0
+EPOCH early_and_filter 0 early_and_filter 19 loss 0.2026 valNLL 0.8019 seconds 18.0
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.8335 valNLL 0.9731 seconds 5.1
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.7727 valNLL 0.9367 seconds 6.0
+EPOCH early_and_filter 0 early_and_filter 20 loss 0.1938 valNLL 0.81 seconds 19.0
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.7014 valNLL 0.9037 seconds 7.0
+EPOCH early_and_filter 0 early_and_filter 21 loss 0.1848 valNLL 0.8169 seconds 19.9
+EPOCH early_and_filter 0 early_and_filter 22 loss 0.1697 valNLL 0.8096 seconds 20.9
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.6412 valNLL 0.8841 seconds 8.0
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.5915 valNLL 0.8541 seconds 9.0
+EPOCH early_and_filter 0 early_and_filter 1 loss 1.1359 valNLL - seconds 1.1
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.5243 valNLL 0.8386 seconds 10.1
+EPOCH early_and_filter 0 early_and_filter 2 loss 1.0152 valNLL - seconds 2.3
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.4828 valNLL 0.8403 seconds 11.0
+EPOCH early_and_filter 0 early_and_filter 3 loss 0.9302 valNLL - seconds 3.5
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.4495 valNLL 0.8437 seconds 12.0
+EPOCH early_and_filter 0 early_and_filter 4 loss 0.8388 valNLL - seconds 4.6
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.4099 valNLL 0.8618 seconds 13.0
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.37 valNLL 0.8777 seconds 14.0
+EPOCH early_and_filter 0 early_and_filter 5 loss 0.7559 valNLL - seconds 5.8
+EPOCH early_and_filter 1 early_and_filter 15 loss 0.3451 valNLL 0.8852 seconds 15.0
+EPOCH early_and_filter 0 early_and_filter 6 loss 0.6792 valNLL - seconds 7.0
+EPOCH early_and_filter 1 early_and_filter 16 loss 0.3167 valNLL 0.9045 seconds 16.0
+EPOCH early_and_filter 0 early_and_filter 7 loss 0.5798 valNLL - seconds 8.1
+EPOCH early_and_filter 0 early_and_filter 8 loss 0.5129 valNLL - seconds 9.3
+EPOCH early_and_filter 1 early_and_filter 1 loss 1.1316 valNLL - seconds 1.2
+EPOCH early_and_filter 0 early_and_filter 9 loss 0.45 valNLL - seconds 10.5
+EPOCH early_and_filter 1 early_and_filter 2 loss 1.0261 valNLL - seconds 2.4
+EPOCH early_and_filter 0 early_and_filter 10 loss 0.4068 valNLL - seconds 11.6
+EPOCH early_and_filter 1 early_and_filter 3 loss 0.9422 valNLL - seconds 3.6
+EPOCH early_and_filter 0 early_and_filter 11 loss 0.3581 valNLL - seconds 12.8
+EPOCH early_and_filter 1 early_and_filter 4 loss 0.8567 valNLL - seconds 4.8
+EPOCH early_and_filter 0 early_and_filter 12 loss 0.3274 valNLL - seconds 14.0
+EPOCH early_and_filter 1 early_and_filter 5 loss 0.78 valNLL - seconds 6.0
+EPOCH early_and_filter 0 early_and_filter 13 loss 0.2947 valNLL - seconds 15.2
+EPOCH early_and_filter 1 early_and_filter 6 loss 0.6965 valNLL - seconds 7.2
+EPOCH early_and_filter 0 early_and_filter 14 loss 0.2749 valNLL - seconds 16.3
+EPOCH early_and_filter 1 early_and_filter 7 loss 0.6309 valNLL - seconds 8.4
+EPOCH early_and_filter 0 early_and_filter 15 loss 0.2432 valNLL - seconds 17.5
+EPOCH early_and_filter 1 early_and_filter 8 loss 0.5478 valNLL - seconds 9.6
+EPOCH early_and_filter 0 early_and_filter 16 loss 0.2177 valNLL - seconds 18.7
+EPOCH early_and_filter 1 early_and_filter 9 loss 0.4921 valNLL - seconds 10.8
+EPOCH early_and_filter 0 early_and_filter 17 loss 0.203 valNLL - seconds 19.9
+EPOCH early_and_filter 1 early_and_filter 10 loss 0.4462 valNLL - seconds 12.1
+EPOCH early_and_filter 0 early_and_filter 18 loss 0.1879 valNLL - seconds 21.1
+EPOCH early_and_filter 1 early_and_filter 11 loss 0.3809 valNLL - seconds 13.3
+EPOCH early_and_filter 0 early_and_filter 19 loss 0.1662 valNLL - seconds 22.2
+EPOCH early_and_filter 1 early_and_filter 12 loss 0.3494 valNLL - seconds 14.5
+EPOCH early_and_filter 0 early_and_filter 20 loss 0.1527 valNLL - seconds 23.4
+EPOCH early_and_filter 1 early_and_filter 13 loss 0.3253 valNLL - seconds 15.7
+EPOCH early_and_filter 0 early_and_filter 21 loss 0.1508 valNLL - seconds 24.6
+EPOCH early_and_filter 1 early_and_filter 14 loss 0.2896 valNLL - seconds 16.9
+EPOCH early_and_filter 0 early_and_filter 22 loss 0.1455 valNLL - seconds 25.8
+FIT DONE pair09_P10_P09 early_and_filter 0
+EPOCH early_and_filter 1 early_and_filter 15 loss 0.2702 valNLL - seconds 18.1
+EPOCH early_and_filter 1 early_and_filter 16 loss 0.2485 valNLL - seconds 19.3
+FIT DONE pair09_P10_P09 early_and_filter 1
+RESULT pair00_P09_P07 swad_plain_mean2 0.582505
+RESULT pair00_P09_P07 swad_plain_mean2__balance 0.587169
+RESULT pair00_P09_P07 point_meanstd_mean2 0.567425
+RESULT pair00_P09_P07 point_meanstd_mean2__balance 0.564898
+RESULT pair00_P09_P07 early_and_filter_mean2 0.617408
+RESULT pair00_P09_P07 early_and_filter_mean2__balance 0.626495
+RESULT pair00_P09_P07 full_6272_recipe 0.741977
+RESULT pair00_P09_P07 full_6323_recipe 0.751951
+RESULT pair00_P09_P07 full_6458_fixed30_recipe 0.738571
+RESULT pair00_P09_P07 full_6451_gate_recipe 0.743618
+RESULT pair01_P07_P05 swad_plain_mean2 0.463967
+RESULT pair01_P07_P05 swad_plain_mean2__balance 0.490003
+RESULT pair01_P07_P05 point_meanstd_mean2 0.534341
+RESULT pair01_P07_P05 point_meanstd_mean2__balance 0.521063
+RESULT pair01_P07_P05 early_and_filter_mean2 0.583821
+RESULT pair01_P07_P05 early_and_filter_mean2__balance 0.60793
+RESULT pair01_P07_P05 full_6272_recipe 0.58204
+RESULT pair01_P07_P05 full_6323_recipe 0.597743
+RESULT pair01_P07_P05 full_6458_fixed30_recipe 0.64384
+RESULT pair01_P07_P05 full_6451_gate_recipe 0.626042
+RESULT pair02_P05_P08 swad_plain_mean2 0.582409
+RESULT pair02_P05_P08 swad_plain_mean2__balance 0.598964
+RESULT pair02_P05_P08 point_meanstd_mean2 0.598281
+RESULT pair02_P05_P08 point_meanstd_mean2__balance 0.598286
+RESULT pair02_P05_P08 early_and_filter_mean2 0.627022
+RESULT pair02_P05_P08 early_and_filter_mean2__balance 0.632314
+RESULT pair02_P05_P08 full_6272_recipe 0.573701
+RESULT pair02_P05_P08 full_6323_recipe 0.584543
+RESULT pair02_P05_P08 full_6458_fixed30_recipe 0.62108
+RESULT pair02_P05_P08 full_6451_gate_recipe 0.602683
+RESULT pair03_P08_P06 swad_plain_mean2 0.580612
+RESULT pair03_P08_P06 swad_plain_mean2__balance 0.623751
+RESULT pair03_P08_P06 point_meanstd_mean2 0.623152
+RESULT pair03_P08_P06 point_meanstd_mean2__balance 0.634
+RESULT pair03_P08_P06 early_and_filter_mean2 0.655432
+RESULT pair03_P08_P06 early_and_filter_mean2__balance 0.663155
+RESULT pair03_P08_P06 full_6272_recipe 0.748124
+RESULT pair03_P08_P06 full_6323_recipe 0.734845
+RESULT pair03_P08_P06 full_6458_fixed30_recipe 0.752901
+RESULT pair03_P08_P06 full_6451_gate_recipe 0.742484
+RESULT pair04_P06_P02 swad_plain_mean2 0.557784
+RESULT pair04_P06_P02 swad_plain_mean2__balance 0.587993
+RESULT pair04_P06_P02 point_meanstd_mean2 0.607538
+RESULT pair04_P06_P02 point_meanstd_mean2__balance 0.599378
+RESULT pair04_P06_P02 early_and_filter_mean2 0.640166
+RESULT pair04_P06_P02 early_and_filter_mean2__balance 0.626893
+RESULT pair04_P06_P02 full_6272_recipe 0.743963
+RESULT pair04_P06_P02 full_6323_recipe 0.752386
+RESULT pair04_P06_P02 full_6458_fixed30_recipe 0.771136
+RESULT pair04_P06_P02 full_6451_gate_recipe 0.765843
+RESULT pair05_P02_P03 swad_plain_mean2 0.50821
+RESULT pair05_P02_P03 swad_plain_mean2__balance 0.539651
+RESULT pair05_P02_P03 point_meanstd_mean2 0.611688
+RESULT pair05_P02_P03 point_meanstd_mean2__balance 0.60033
+RESULT pair05_P02_P03 early_and_filter_mean2 0.571427
+RESULT pair05_P02_P03 early_and_filter_mean2__balance 0.576798
+RESULT pair05_P02_P03 full_6272_recipe 0.530119
+RESULT pair05_P02_P03 full_6323_recipe 0.551557
+RESULT pair05_P02_P03 full_6458_fixed30_recipe 0.588441
+RESULT pair05_P02_P03 full_6451_gate_recipe 0.577767
+RESULT pair06_P03_P01 swad_plain_mean2 0.513575
+RESULT pair06_P03_P01 swad_plain_mean2__balance 0.506709
+RESULT pair06_P03_P01 point_meanstd_mean2 0.522693
+RESULT pair06_P03_P01 point_meanstd_mean2__balance 0.535461
+RESULT pair06_P03_P01 early_and_filter_mean2 0.56208
+RESULT pair06_P03_P01 early_and_filter_mean2__balance 0.551327
+RESULT pair06_P03_P01 full_6272_recipe 0.547855
+RESULT pair06_P03_P01 full_6323_recipe 0.547855
+RESULT pair06_P03_P01 full_6458_fixed30_recipe 0.57971
+RESULT pair06_P03_P01 full_6451_gate_recipe 0.57416
+RESULT pair07_P01_P04 swad_plain_mean2 0.460338
+RESULT pair07_P01_P04 swad_plain_mean2__balance 0.44862
+RESULT pair07_P01_P04 point_meanstd_mean2 0.46737
+RESULT pair07_P01_P04 point_meanstd_mean2__balance 0.451523
+RESULT pair07_P01_P04 early_and_filter_mean2 0.472393
+RESULT pair07_P01_P04 early_and_filter_mean2__balance 0.472698
+RESULT pair07_P01_P04 full_6272_recipe 0.574866
+RESULT pair07_P01_P04 full_6323_recipe 0.580113
+RESULT pair07_P01_P04 full_6458_fixed30_recipe 0.574516
+RESULT pair07_P01_P04 full_6451_gate_recipe 0.58137
+RESULT pair08_P04_P10 swad_plain_mean2 0.472893
+RESULT pair08_P04_P10 swad_plain_mean2__balance 0.48107
+RESULT pair08_P04_P10 point_meanstd_mean2 0.448215
+RESULT pair08_P04_P10 point_meanstd_mean2__balance 0.445507
+RESULT pair08_P04_P10 early_and_filter_mean2 0.465592
+RESULT pair08_P04_P10 early_and_filter_mean2__balance 0.49716
+RESULT pair08_P04_P10 full_6272_recipe 0.559644
+RESULT pair08_P04_P10 full_6323_recipe 0.562195
+RESULT pair08_P04_P10 full_6458_fixed30_recipe 0.557387
+RESULT pair08_P04_P10 full_6451_gate_recipe 0.56099
+RESULT pair09_P10_P09 swad_plain_mean2 0.483393
+RESULT pair09_P10_P09 swad_plain_mean2__balance 0.504666
+RESULT pair09_P10_P09 point_meanstd_mean2 0.481436
+RESULT pair09_P10_P09 point_meanstd_mean2__balance 0.485594
+RESULT pair09_P10_P09 early_and_filter_mean2 0.50827
+RESULT pair09_P10_P09 early_and_filter_mean2__balance 0.526922
+RESULT pair09_P10_P09 full_6272_recipe 0.544085
+RESULT pair09_P10_P09 full_6323_recipe 0.558416
+RESULT pair09_P10_P09 full_6458_fixed30_recipe 0.564217
+RESULT pair09_P10_P09 full_6451_gate_recipe 0.570949
+GPU VALIDATION COMPLETE

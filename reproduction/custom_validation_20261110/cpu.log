@@ -1,0 +1,281 @@
+TREES pair00_P09_P07 mssa8_mix25 5 5.5 seconds
+TREES pair00_P09_P07 lag4 5 6.7 seconds
+TREES pair00_P09_P07 mssa8_mix25 10 10.5 seconds
+TREES pair00_P09_P07 lag4 10 13.2 seconds
+TREES pair00_P09_P07 mssa8_mix25 15 14.8 seconds
+TREES pair00_P09_P07 lag4 15 18.9 seconds
+TREES pair00_P09_P07 mssa8_mix25 20 19.3 seconds
+TREES pair00_P09_P07 mssa8_mix25 25 23.5 seconds
+TREES pair00_P09_P07 lag4 20 24.5 seconds
+TREES pair00_P09_P07 mssa8_mix25 30 27.8 seconds
+TREES pair00_P09_P07 lag4 25 30.1 seconds
+TREES pair00_P09_P07 mssa8_mix25 35 32.1 seconds
+TREES pair00_P09_P07 lag4 30 35.6 seconds
+TREES pair00_P09_P07 mssa8_mix25 40 36.4 seconds
+TREES pair00_P09_P07 mssa8_mix25 45 40.6 seconds
+TREES pair00_P09_P07 lag4 35 41.3 seconds
+TREES pair00_P09_P07 mssa8_mix25 50 44.7 seconds
+RESULT pair00_P09_P07 mssa8_mix25_lr50 0.652129
+RESULT pair00_P09_P07 mssa8_mix25_lr50__balance 0.657421
+TREES pair00_P09_P07 lag4 40 47.2 seconds
+TREES pair01_P07_P05 lag4 5 6.0 seconds
+TREES pair00_P09_P07 lag4 45 53.3 seconds
+TREES pair01_P07_P05 lag4 10 12.3 seconds
+TREES pair00_P09_P07 lag4 50 59.5 seconds
+RESULT pair00_P09_P07 lag4_matched_lr50 0.652398
+RESULT pair00_P09_P07 lag4_matched_lr50__balance 0.652309
+RESULT pair00_P09_P07 lag4_nuclear001_50 0.673232
+RESULT pair00_P09_P07 lag4_nuclear001_50__balance 0.657344
+RESULT pair00_P09_P07 lag4_nuclear005_50 0.686809
+RESULT pair00_P09_P07 lag4_nuclear005_50__balance 0.680709
+TREES pair01_P07_P05 lag4 15 17.9 seconds
+TREES pair01_P07_P05 mssa8_mix25 5 4.6 seconds
+TREES pair01_P07_P05 lag4 20 23.4 seconds
+TREES pair01_P07_P05 mssa8_mix25 10 9.4 seconds
+TREES pair01_P07_P05 mssa8_mix25 15 13.6 seconds
+TREES pair01_P07_P05 lag4 25 28.8 seconds
+TREES pair01_P07_P05 mssa8_mix25 20 17.9 seconds
+TREES pair01_P07_P05 lag4 30 34.3 seconds
+TREES pair01_P07_P05 mssa8_mix25 25 22.1 seconds
+TREES pair01_P07_P05 lag4 35 39.9 seconds
+TREES pair01_P07_P05 mssa8_mix25 30 26.3 seconds
+TREES pair01_P07_P05 mssa8_mix25 35 30.9 seconds
+TREES pair01_P07_P05 lag4 40 46.0 seconds
+TREES pair01_P07_P05 mssa8_mix25 40 35.4 seconds
+TREES pair01_P07_P05 lag4 45 51.8 seconds
+TREES pair01_P07_P05 mssa8_mix25 45 39.9 seconds
+TREES pair01_P07_P05 lag4 50 57.3 seconds
+RESULT pair01_P07_P05 lag4_matched_lr50 0.568089
+RESULT pair01_P07_P05 lag4_matched_lr50__balance 0.576142
+RESULT pair01_P07_P05 lag4_nuclear001_50 0.573297
+RESULT pair01_P07_P05 lag4_nuclear001_50__balance 0.570856
+RESULT pair01_P07_P05 lag4_nuclear005_50 0.562444
+RESULT pair01_P07_P05 lag4_nuclear005_50__balance 0.567641
+TREES pair01_P07_P05 mssa8_mix25 50 44.1 seconds
+RESULT pair01_P07_P05 mssa8_mix25_lr50 0.562881
+RESULT pair01_P07_P05 mssa8_mix25_lr50__balance 0.581351
+TREES pair02_P05_P08 lag4 5 5.7 seconds
+TREES pair02_P05_P08 mssa8_mix25 5 4.5 seconds
+TREES pair02_P05_P08 mssa8_mix25 10 9.0 seconds
+TREES pair02_P05_P08 lag4 10 11.8 seconds
+TREES pair02_P05_P08 mssa8_mix25 15 13.3 seconds
+TREES pair02_P05_P08 lag4 15 17.5 seconds
+TREES pair02_P05_P08 mssa8_mix25 20 17.5 seconds
+TREES pair02_P05_P08 lag4 20 23.0 seconds
+TREES pair02_P05_P08 mssa8_mix25 25 21.7 seconds
+TREES pair02_P05_P08 mssa8_mix25 30 25.9 seconds
+TREES pair02_P05_P08 lag4 25 28.5 seconds
+TREES pair02_P05_P08 mssa8_mix25 35 30.3 seconds
+TREES pair02_P05_P08 lag4 30 34.5 seconds
+TREES pair02_P05_P08 mssa8_mix25 40 35.0 seconds
+TREES pair02_P05_P08 lag4 35 40.5 seconds
+TREES pair02_P05_P08 mssa8_mix25 45 39.3 seconds
+TREES pair02_P05_P08 mssa8_mix25 50 43.8 seconds
+RESULT pair02_P05_P08 mssa8_mix25_lr50 0.562248
+RESULT pair02_P05_P08 mssa8_mix25_lr50__balance 0.567792
+TREES pair02_P05_P08 lag4 40 46.7 seconds
+TREES pair03_P08_P06 lag4 5 6.7 seconds
+TREES pair02_P05_P08 lag4 45 53.4 seconds
+TREES pair03_P08_P06 lag4 10 12.7 seconds
+TREES pair02_P05_P08 lag4 50 59.5 seconds
+RESULT pair02_P05_P08 lag4_matched_lr50 0.562248
+RESULT pair02_P05_P08 lag4_matched_lr50__balance 0.567792
+RESULT pair02_P05_P08 lag4_nuclear001_50 0.568067
+RESULT pair02_P05_P08 lag4_nuclear001_50__balance 0.581508
+RESULT pair02_P05_P08 lag4_nuclear005_50 0.542199
+RESULT pair02_P05_P08 lag4_nuclear005_50__balance 0.566403
+TREES pair03_P08_P06 lag4 15 18.5 seconds
+TREES pair03_P08_P06 mssa8_mix25 5 5.1 seconds
+TREES pair03_P08_P06 mssa8_mix25 10 9.9 seconds
+TREES pair03_P08_P06 lag4 20 24.1 seconds
+TREES pair03_P08_P06 mssa8_mix25 15 14.3 seconds
+TREES pair03_P08_P06 lag4 25 29.8 seconds
+TREES pair03_P08_P06 mssa8_mix25 20 18.9 seconds
+TREES pair03_P08_P06 lag4 30 35.8 seconds
+TREES pair03_P08_P06 mssa8_mix25 25 23.3 seconds
+TREES pair03_P08_P06 lag4 35 41.7 seconds
+TREES pair03_P08_P06 mssa8_mix25 30 27.7 seconds
+TREES pair03_P08_P06 mssa8_mix25 35 32.1 seconds
+TREES pair03_P08_P06 lag4 40 47.3 seconds
+TREES pair03_P08_P06 mssa8_mix25 40 36.5 seconds
+TREES pair03_P08_P06 lag4 45 53.1 seconds
+TREES pair03_P08_P06 mssa8_mix25 45 40.9 seconds
+TREES pair03_P08_P06 lag4 50 58.8 seconds
+RESULT pair03_P08_P06 lag4_matched_lr50 0.6674
+RESULT pair03_P08_P06 lag4_matched_lr50__balance 0.670705
+RESULT pair03_P08_P06 lag4_nuclear001_50 0.675907
+RESULT pair03_P08_P06 lag4_nuclear001_50__balance 0.681379
+RESULT pair03_P08_P06 lag4_nuclear005_50 0.678685
+RESULT pair03_P08_P06 lag4_nuclear005_50__balance 0.675907
+TREES pair03_P08_P06 mssa8_mix25 50 45.3 seconds
+RESULT pair03_P08_P06 mssa8_mix25_lr50 0.670268
+RESULT pair03_P08_P06 mssa8_mix25_lr50__balance 0.67817
+TREES pair04_P06_P02 mssa8_mix25 5 4.7 seconds
+TREES pair04_P06_P02 lag4 5 5.9 seconds
+TREES pair04_P06_P02 mssa8_mix25 10 9.3 seconds
+TREES pair04_P06_P02 lag4 10 11.9 seconds
+TREES pair04_P06_P02 mssa8_mix25 15 13.7 seconds
+TREES pair04_P06_P02 lag4 15 17.9 seconds
+TREES pair04_P06_P02 mssa8_mix25 20 18.1 seconds
+TREES pair04_P06_P02 mssa8_mix25 25 22.5 seconds
+TREES pair04_P06_P02 lag4 20 23.7 seconds
+TREES pair04_P06_P02 mssa8_mix25 30 26.9 seconds
+TREES pair04_P06_P02 lag4 25 29.3 seconds
+TREES pair04_P06_P02 mssa8_mix25 35 31.4 seconds
+TREES pair04_P06_P02 lag4 30 36.0 seconds
+TREES pair04_P06_P02 mssa8_mix25 40 36.8 seconds
+TREES pair04_P06_P02 mssa8_mix25 45 42.0 seconds
+TREES pair04_P06_P02 lag4 35 42.8 seconds
+TREES pair04_P06_P02 mssa8_mix25 50 46.8 seconds
+RESULT pair04_P06_P02 mssa8_mix25_lr50 0.637976
+RESULT pair04_P06_P02 mssa8_mix25_lr50__balance 0.665233
+TREES pair04_P06_P02 lag4 40 49.1 seconds
+TREES pair05_P02_P03 lag4 5 5.9 seconds
+TREES pair04_P06_P02 lag4 45 55.1 seconds
+TREES pair05_P02_P03 lag4 10 11.6 seconds
+TREES pair04_P06_P02 lag4 50 60.7 seconds
+RESULT pair04_P06_P02 lag4_matched_lr50 0.627386
+RESULT pair04_P06_P02 lag4_matched_lr50__balance 0.665233
+RESULT pair04_P06_P02 lag4_nuclear001_50 0.645951
+RESULT pair04_P06_P02 lag4_nuclear001_50__balance 0.670004
+RESULT pair04_P06_P02 lag4_nuclear005_50 0.656541
+RESULT pair04_P06_P02 lag4_nuclear005_50__balance 0.678248
+TREES pair05_P02_P03 lag4 15 17.7 seconds
+TREES pair05_P02_P03 mssa8_mix25 5 4.9 seconds
+TREES pair05_P02_P03 mssa8_mix25 10 10.1 seconds
+TREES pair05_P02_P03 lag4 20 23.7 seconds
+TREES pair05_P02_P03 mssa8_mix25 15 15.2 seconds
+TREES pair05_P02_P03 lag4 25 30.5 seconds
+TREES pair05_P02_P03 mssa8_mix25 20 19.9 seconds
+TREES pair05_P02_P03 lag4 30 36.6 seconds
+TREES pair05_P02_P03 mssa8_mix25 25 24.5 seconds
+TREES pair05_P02_P03 lag4 35 42.4 seconds
+TREES pair05_P02_P03 mssa8_mix25 30 29.1 seconds
+TREES pair05_P02_P03 mssa8_mix25 35 33.6 seconds
+TREES pair05_P02_P03 lag4 40 48.4 seconds
+TREES pair05_P02_P03 mssa8_mix25 40 38.0 seconds
+TREES pair05_P02_P03 lag4 45 54.2 seconds
+TREES pair05_P02_P03 mssa8_mix25 45 42.5 seconds
+TREES pair05_P02_P03 lag4 50 59.9 seconds
+RESULT pair05_P02_P03 lag4_matched_lr50 0.520721
+RESULT pair05_P02_P03 lag4_matched_lr50__balance 0.536867
+RESULT pair05_P02_P03 lag4_nuclear001_50 0.523068
+RESULT pair05_P02_P03 lag4_nuclear001_50__balance 0.55023
+RESULT pair05_P02_P03 lag4_nuclear005_50 0.534
+RESULT pair05_P02_P03 lag4_nuclear005_50__balance 0.566639
+TREES pair05_P02_P03 mssa8_mix25 50 46.9 seconds
+RESULT pair05_P02_P03 mssa8_mix25_lr50 0.515429
+RESULT pair05_P02_P03 mssa8_mix25_lr50__balance 0.536867
+TREES pair06_P03_P01 mssa8_mix25 5 4.4 seconds
+TREES pair06_P03_P01 lag4 5 5.7 seconds
+TREES pair06_P03_P01 mssa8_mix25 10 8.9 seconds
+TREES pair06_P03_P01 lag4 10 11.7 seconds
+TREES pair06_P03_P01 mssa8_mix25 15 13.3 seconds
+TREES pair06_P03_P01 lag4 15 17.8 seconds
+TREES pair06_P03_P01 mssa8_mix25 20 17.8 seconds
+TREES pair06_P03_P01 mssa8_mix25 25 22.4 seconds
+TREES pair06_P03_P01 lag4 20 23.8 seconds
+TREES pair06_P03_P01 mssa8_mix25 30 26.8 seconds
+TREES pair06_P03_P01 lag4 25 29.5 seconds
+TREES pair06_P03_P01 mssa8_mix25 35 31.2 seconds
+TREES pair06_P03_P01 lag4 30 35.2 seconds
+TREES pair06_P03_P01 mssa8_mix25 40 35.7 seconds
+TREES pair06_P03_P01 mssa8_mix25 45 40.1 seconds
+TREES pair06_P03_P01 lag4 35 40.9 seconds
+TREES pair06_P03_P01 mssa8_mix25 50 44.5 seconds
+RESULT pair06_P03_P01 mssa8_mix25_lr50 0.516286
+RESULT pair06_P03_P01 mssa8_mix25_lr50__balance 0.482073
+TREES pair06_P03_P01 lag4 40 46.6 seconds
+TREES pair07_P01_P04 lag4 5 5.5 seconds
+TREES pair06_P03_P01 lag4 45 52.5 seconds
+TREES pair07_P01_P04 lag4 10 11.4 seconds
+TREES pair06_P03_P01 lag4 50 58.7 seconds
+RESULT pair06_P03_P01 lag4_matched_lr50 0.511078
+RESULT pair06_P03_P01 lag4_matched_lr50__balance 0.482241
+RESULT pair06_P03_P01 lag4_nuclear001_50 0.505701
+RESULT pair06_P03_P01 lag4_nuclear001_50__balance 0.500812
+RESULT pair06_P03_P01 lag4_nuclear005_50 0.522088
+RESULT pair06_P03_P01 lag4_nuclear005_50__balance 0.527117
+TREES pair07_P01_P04 lag4 15 17.3 seconds
+TREES pair07_P01_P04 mssa8_mix25 5 4.6 seconds
+TREES pair07_P01_P04 lag4 20 22.8 seconds
+TREES pair07_P01_P04 mssa8_mix25 10 9.4 seconds
+TREES pair07_P01_P04 mssa8_mix25 15 14.1 seconds
+TREES pair07_P01_P04 lag4 25 28.5 seconds
+TREES pair07_P01_P04 mssa8_mix25 20 18.9 seconds
+TREES pair07_P01_P04 lag4 30 34.1 seconds
+TREES pair07_P01_P04 mssa8_mix25 25 23.5 seconds
+TREES pair07_P01_P04 lag4 35 40.3 seconds
+TREES pair07_P01_P04 mssa8_mix25 30 28.4 seconds
+TREES pair07_P01_P04 lag4 40 46.3 seconds
+TREES pair07_P01_P04 mssa8_mix25 35 33.2 seconds
+TREES pair07_P01_P04 mssa8_mix25 40 38.0 seconds
+TREES pair07_P01_P04 lag4 45 52.3 seconds
+TREES pair07_P01_P04 mssa8_mix25 45 42.8 seconds
+TREES pair07_P01_P04 lag4 50 58.3 seconds
+RESULT pair07_P01_P04 lag4_matched_lr50 0.52934
+RESULT pair07_P01_P04 lag4_matched_lr50__balance 0.521704
+RESULT pair07_P01_P04 lag4_nuclear001_50 0.534585
+RESULT pair07_P01_P04 lag4_nuclear001_50__balance 0.531116
+RESULT pair07_P01_P04 lag4_nuclear005_50 0.527946
+RESULT pair07_P01_P04 lag4_nuclear005_50__balance 0.52439
+TREES pair07_P01_P04 mssa8_mix25 50 47.6 seconds
+RESULT pair07_P01_P04 mssa8_mix25_lr50 0.526823
+RESULT pair07_P01_P04 mssa8_mix25_lr50__balance 0.517843
+TREES pair08_P04_P10 lag4 5 6.0 seconds
+TREES pair08_P04_P10 mssa8_mix25 5 4.8 seconds
+TREES pair08_P04_P10 lag4 10 12.2 seconds
+TREES pair08_P04_P10 mssa8_mix25 10 10.1 seconds
+TREES pair08_P04_P10 lag4 15 18.1 seconds
+TREES pair08_P04_P10 mssa8_mix25 15 15.0 seconds
+TREES pair08_P04_P10 mssa8_mix25 20 19.9 seconds
+TREES pair08_P04_P10 lag4 20 23.8 seconds
+TREES pair08_P04_P10 mssa8_mix25 25 24.5 seconds
+TREES pair08_P04_P10 lag4 25 29.5 seconds
+TREES pair08_P04_P10 mssa8_mix25 30 29.2 seconds
+TREES pair08_P04_P10 lag4 30 35.1 seconds
+TREES pair08_P04_P10 mssa8_mix25 35 33.9 seconds
+TREES pair08_P04_P10 lag4 35 40.9 seconds
+TREES pair08_P04_P10 mssa8_mix25 40 38.6 seconds
+TREES pair08_P04_P10 mssa8_mix25 45 43.3 seconds
+TREES pair08_P04_P10 lag4 40 46.5 seconds
+TREES pair08_P04_P10 mssa8_mix25 50 48.0 seconds
+RESULT pair08_P04_P10 mssa8_mix25_lr50 0.488921
+RESULT pair08_P04_P10 mssa8_mix25_lr50__balance 0.520388
+TREES pair08_P04_P10 lag4 45 52.3 seconds
+TREES pair09_P10_P09 lag4 5 6.8 seconds
+TREES pair08_P04_P10 lag4 50 58.8 seconds
+RESULT pair08_P04_P10 lag4_matched_lr50 0.487934
+RESULT pair08_P04_P10 lag4_matched_lr50__balance 0.522126
+RESULT pair08_P04_P10 lag4_nuclear001_50 0.487471
+RESULT pair08_P04_P10 lag4_nuclear001_50__balance 0.5223
+RESULT pair08_P04_P10 lag4_nuclear005_50 0.487798
+RESULT pair08_P04_P10 lag4_nuclear005_50__balance 0.515748
+TREES pair09_P10_P09 mssa8_mix25 5 5.9 seconds
+TREES pair09_P10_P09 lag4 10 13.7 seconds
+TREES pair09_P10_P09 mssa8_mix25 10 12.0 seconds
+TREES pair09_P10_P09 lag4 15 20.4 seconds
+TREES pair09_P10_P09 mssa8_mix25 15 16.9 seconds
+TREES pair09_P10_P09 lag4 20 26.3 seconds
+TREES pair09_P10_P09 mssa8_mix25 20 21.7 seconds
+TREES pair09_P10_P09 lag4 25 32.2 seconds
+TREES pair09_P10_P09 mssa8_mix25 25 26.5 seconds
+TREES pair09_P10_P09 lag4 30 38.2 seconds
+TREES pair09_P10_P09 mssa8_mix25 30 31.1 seconds
+TREES pair09_P10_P09 mssa8_mix25 35 35.7 seconds
+TREES pair09_P10_P09 lag4 35 44.2 seconds
+TREES pair09_P10_P09 mssa8_mix25 40 40.4 seconds
+TREES pair09_P10_P09 lag4 40 50.0 seconds
+TREES pair09_P10_P09 mssa8_mix25 45 45.0 seconds
+TREES pair09_P10_P09 lag4 45 55.8 seconds
+TREES pair09_P10_P09 mssa8_mix25 50 49.6 seconds
+RESULT pair09_P10_P09 mssa8_mix25_lr50 0.497812
+RESULT pair09_P10_P09 mssa8_mix25_lr50__balance 0.522372
+TREES pair09_P10_P09 lag4 50 61.3 seconds
+RESULT pair09_P10_P09 lag4_matched_lr50 0.500417
+RESULT pair09_P10_P09 lag4_matched_lr50__balance 0.51971
+RESULT pair09_P10_P09 lag4_nuclear001_50 0.49748
+RESULT pair09_P10_P09 lag4_nuclear001_50__balance 0.514135
+RESULT pair09_P10_P09 lag4_nuclear005_50 0.496828
+RESULT pair09_P10_P09 lag4_nuclear005_50__balance 0.517955
+CPU COMPLETE 20 530.6

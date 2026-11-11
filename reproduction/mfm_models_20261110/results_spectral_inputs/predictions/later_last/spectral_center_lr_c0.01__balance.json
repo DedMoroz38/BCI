@@ -1,0 +1,19 @@
+{
+  "tag": "later_last",
+  "name": "spectral_center_lr_c0.01__balance",
+  "cell": 0.4174450223637842,
+  "nll": 1.6468923320977582,
+  "brier": 0.8485651522080276,
+  "config": {
+    "name": "spectral_center_lr_c0.01",
+    "kind": "lr",
+    "C": 0.01
+  },
+  "seconds": 2.436371000017971,
+  "features": 10619,
+  "train": {
+    "cell": 1.0,
+    "nll": 0.053071324623771926,
+    "brier": 0.006312234708156267
+  }
+}

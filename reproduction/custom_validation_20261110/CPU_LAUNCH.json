@@ -1,0 +1,9 @@
+{
+  "pid": 28753,
+  "command": [
+    "/Users/den1shh/Documents/diploma/reproduction/.venv/bin/python",
+    "-u",
+    "/Users/den1shh/Documents/diploma/reproduction/custom_validation_20261110/classical.py"
+  ],
+  "started": "2026-11-10T20:38:54.293825+00:00"
+}

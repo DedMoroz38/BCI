@@ -1,0 +1,170 @@
+{
+  "seconds": 424.3022308340296,
+  "jobs": [
+    {
+      "family": "spectral_source",
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_source",
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_source",
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_source",
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_source",
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_source",
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_source",
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_source",
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_source",
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_source",
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_source",
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_center",
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_center",
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_center",
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_center",
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_center",
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_center",
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_center",
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_center",
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_center",
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_center",
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_center",
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_relative",
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_relative",
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_relative",
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_relative",
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_relative",
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_relative",
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_relative",
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_relative",
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_relative",
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_relative",
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "family": "spectral_relative",
+      "tag": "later_last",
+      "status": "complete"
+    }
+  ]
+}

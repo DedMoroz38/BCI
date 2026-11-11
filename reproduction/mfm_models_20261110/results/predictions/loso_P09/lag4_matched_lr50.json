@@ -1,0 +1,10 @@
+{
+  "tag": "loso_P09",
+  "name": "lag4_matched_lr50",
+  "cell": 0.694683908045977,
+  "nll": 0.909957416249219,
+  "brier": 0.5386036379248614,
+  "trees": 50,
+  "representation": "lag4",
+  "seconds": 105.91958466591313
+}

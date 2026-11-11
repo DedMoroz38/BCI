@@ -1,0 +1,19 @@
+{
+  "tag": "loso_P07",
+  "name": "spectral_relative_pls4",
+  "cell": 0.38739919354838714,
+  "nll": 1.2312379773770588,
+  "brier": 0.7441591663231543,
+  "config": {
+    "name": "spectral_relative_pls4",
+    "kind": "pls",
+    "r": 4
+  },
+  "seconds": 0.3627287920098752,
+  "features": 4,
+  "train": {
+    "cell": 0.6181550947080865,
+    "nll": 0.8543182553765204,
+    "brier": 0.5024062788369935
+  }
+}

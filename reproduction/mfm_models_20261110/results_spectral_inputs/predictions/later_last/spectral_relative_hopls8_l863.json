@@ -1,0 +1,24 @@
+{
+  "tag": "later_last",
+  "name": "spectral_relative_hopls8_l863",
+  "cell": 0.38338091284901055,
+  "nll": 1.207866406715656,
+  "brier": 0.7093006130444965,
+  "config": {
+    "name": "spectral_relative_hopls8_l863",
+    "kind": "hopls",
+    "r": 8,
+    "ranks": [
+      8,
+      6,
+      3
+    ]
+  },
+  "seconds": 0.8490155830513686,
+  "features": 8,
+  "train": {
+    "cell": 0.5529057813723067,
+    "nll": 0.9461238422142146,
+    "brier": 0.5638713138129563
+  }
+}

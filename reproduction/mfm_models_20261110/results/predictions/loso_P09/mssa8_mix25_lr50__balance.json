@@ -1,0 +1,10 @@
+{
+  "tag": "loso_P09",
+  "name": "mssa8_mix25_lr50__balance",
+  "cell": 0.7160560344827586,
+  "nll": 0.9119513959421784,
+  "brier": 0.5395162482596993,
+  "trees": 50,
+  "representation": "mssa8_mix25",
+  "seconds": 50.90487387496978
+}

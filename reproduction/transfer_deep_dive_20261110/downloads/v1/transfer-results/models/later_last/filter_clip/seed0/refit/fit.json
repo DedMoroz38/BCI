@@ -1,0 +1,33 @@
+{
+  "best_epoch": 13,
+  "averaging_epochs": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "refit_epochs": 13,
+  "seconds": 17.07744538399993,
+  "parameters": 13731,
+  "config": {
+    "name": "filter_clip",
+    "family": "context",
+    "prior": 10,
+    "scope": "filter",
+    "clip": true
+  },
+  "seed": 0
+}

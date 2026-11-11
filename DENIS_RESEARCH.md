@@ -1,6 +1,6 @@
 # Denis: PROTEUS BCI research archive
 
-Snapshot of the research workspace on 9 November 2026. This branch adds the
+Snapshot of the research workspace on 11 November 2026. This branch adds the
 research under `reproduction/` and design notes under `docs/`; the existing
 upstream code is preserved. All material is code and reports: **no EEG input
 datasets, covariance caches, Python environments, fitted weights, prediction
@@ -24,6 +24,12 @@ JSON experiment receipts are retained as reports.
 | Causal transduction, 246 configurations | [transduction results](reproduction/transduction_research_20261109/RESULTS_RU.md) |
 | Latest winner-inspired research code and plan | [winner research](reproduction/winner_research_20261109/EXPERIMENT_PLAN.md), [status](reproduction/winner_research_20261109/RUN_STATUS.md) |
 | Literature review | [HTML review](reproduction/BCI_literature_review.html) |
+
+## Latest additions (11 November 2026)
+
+The archive now includes custom validation, MFM model experiments and review,
+transfer deep dive, the literature experiment wave, and the updated EEG BCI
+literature review under `reproduction/`. The same data exclusions apply.
 
 ## Metric interpretation
 

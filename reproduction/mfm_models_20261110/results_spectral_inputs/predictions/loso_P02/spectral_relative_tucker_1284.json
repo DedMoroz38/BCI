@@ -1,0 +1,23 @@
+{
+  "tag": "loso_P02",
+  "name": "spectral_relative_tucker_1284",
+  "cell": 0.48270609318996416,
+  "nll": 2.2209106879000324,
+  "brier": 0.8490288851517889,
+  "config": {
+    "name": "spectral_relative_tucker_1284",
+    "kind": "tucker",
+    "ranks": [
+      12,
+      8,
+      4
+    ]
+  },
+  "seconds": 0.38885129196569324,
+  "features": 384,
+  "train": {
+    "cell": 0.678314690155461,
+    "nll": 0.7750739266638422,
+    "brier": 0.4424173302368654
+  }
+}

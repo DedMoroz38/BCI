@@ -1,0 +1,10 @@
+{
+  "tag": "pair02_P05_P08",
+  "name": "mssa8_mix25_lr50",
+  "cell": 0.5622479838709677,
+  "nll": 0.9155733154699222,
+  "brier": 0.5466198658541591,
+  "trees": 50,
+  "representation": "mssa8_mix25",
+  "seconds": 43.81734458403662
+}

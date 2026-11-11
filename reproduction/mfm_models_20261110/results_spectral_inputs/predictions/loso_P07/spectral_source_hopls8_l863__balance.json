@@ -1,0 +1,24 @@
+{
+  "tag": "loso_P07",
+  "name": "spectral_source_hopls8_l863__balance",
+  "cell": 0.5964381720430108,
+  "nll": 0.9166466766853226,
+  "brier": 0.5559783287010331,
+  "config": {
+    "name": "spectral_source_hopls8_l863",
+    "kind": "hopls",
+    "r": 8,
+    "ranks": [
+      8,
+      6,
+      3
+    ]
+  },
+  "seconds": 1.2273147080559283,
+  "features": 8,
+  "train": {
+    "cell": 0.6183783755294994,
+    "nll": 0.8728183395140546,
+    "brier": 0.5128696445709354
+  }
+}

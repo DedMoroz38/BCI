@@ -1,0 +1,19 @@
+{
+  "tag": "later_last",
+  "name": "spectral_relative_lr_c0.1__balance",
+  "cell": 0.40386142360169874,
+  "nll": 2.213082802458959,
+  "brier": 0.9414332410552148,
+  "config": {
+    "name": "spectral_relative_lr_c0.1",
+    "kind": "lr",
+    "C": 0.1
+  },
+  "seconds": 2.3094725830014795,
+  "features": 10619,
+  "train": {
+    "cell": 1.0,
+    "nll": 0.009248812645360567,
+    "brier": 0.0002155745089081166
+  }
+}

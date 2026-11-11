@@ -1,0 +1,10 @@
+{
+  "tag": "later_last",
+  "name": "mssa16_mix50_lr50__balance",
+  "cell": 0.6559695114604982,
+  "nll": 0.9231764838282382,
+  "brier": 0.5479457285390434,
+  "trees": 50,
+  "representation": "mssa16_mix50",
+  "seconds": 46.04799949983135
+}

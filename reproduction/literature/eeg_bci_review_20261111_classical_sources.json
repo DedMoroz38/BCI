@@ -1,0 +1,254 @@
+[
+  {
+    "id": "C01",
+    "title": "Enhanced detection of artifacts in EEG data using higher-order statistics and independent component analysis",
+    "year": 2007,
+    "venue": "NeuroImage",
+    "url": "https://doi.org/10.1016/j.neuroimage.2006.11.004",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://pubmed.ncbi.nlm.nih.gov/17188898/",
+      "basis": "Publisher-provided abstract and indexed bibliographic record; author-hosted manuscript search result corroborates title, authors, journal and pages."
+    },
+    "evidence_scope": "Simulated artifacts added to actual background EEG; detection in channel versus ICA-component spaces; no muscle-artifact advantage and no direct PROTEUS accuracy evidence."
+  },
+  {
+    "id": "C02",
+    "title": "Real-Time Neuroimaging and Cognitive Monitoring Using Wearable Dry EEG",
+    "year": 2015,
+    "venue": "IEEE Transactions on Biomedical Engineering",
+    "url": "https://doi.org/10.1109/TBME.2015.2481482",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://pubmed.ncbi.nlm.nih.gov/26415149/",
+      "basis": "PubMed bibliographic record and primary full-text preprocessing section at https://pmc.ncbi.nlm.nih.gov/articles/PMC4710679/ verify ASR mechanism and integrated system scope."
+    },
+    "evidence_scope": "Wearable dry-electrode EEG real-time processing system with ASR; end-to-end classification effects cannot be isolated to ASR."
+  },
+  {
+    "id": "C03",
+    "title": "Autoreject: Automated artifact rejection for MEG and EEG data",
+    "year": 2017,
+    "venue": "NeuroImage",
+    "url": "https://doi.org/10.1016/j.neuroimage.2017.06.030",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://pubmed.ncbi.nlm.nih.gov/28645840/",
+      "basis": "Indexed title/year/venue/pages and primary full-text methods/validation at https://pmc.ncbi.nlm.nih.gov/articles/PMC7243972/; arXiv manuscript corroborates algorithm."
+    },
+    "evidence_scope": "Automated sensor-specific thresholds, interpolation and epoch rejection; several public MEG/EEG datasets, including evoked-response reconstruction; not a direct cross-person mental-task benchmark."
+  },
+  {
+    "id": "C04",
+    "title": "A new method for off-line removal of ocular artifact",
+    "year": 1983,
+    "venue": "Electroencephalography and Clinical Neurophysiology",
+    "url": "https://doi.org/10.1016/0013-4694(83)90135-9",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://pubmed.ncbi.nlm.nih.gov/6187540/",
+      "basis": "PubMed and publisher primary abstract at https://www.sciencedirect.com/science/article/pii/0013469483901359 verify title, authors, year, venue, volume/pages and EMCP mechanism."
+    },
+    "evidence_scope": "EOG-informed regression correction and ERP fidelity/reliability tests; needs ocular reference and original offline session estimator is not directly causal. PROTEUS prediction input is EEG41 only; EOG/EMG unavailable, so conventional EOG regression cannot be applied directly."
+  },
+  {
+    "id": "C05",
+    "title": "Spherical splines for scalp potential and current density mapping",
+    "year": 1989,
+    "venue": "Electroencephalography and Clinical Neurophysiology",
+    "url": "https://doi.org/10.1016/0013-4694(89)90180-6",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://pubmed.ncbi.nlm.nih.gov/2464490/",
+      "basis": "PubMed bibliographic record and primary abstract verify title/year/venue/DOI and mathematical interpolation/current-density contribution."
+    },
+    "evidence_scope": "Spherical-spline scalp interpolation and current-density approximation; no BCI classification or PROTEUS transfer result in this source."
+  },
+  {
+    "id": "C06",
+    "title": "Single-trial analysis and classification of ERP components—A tutorial",
+    "year": 2011,
+    "venue": "NeuroImage",
+    "url": "https://doi.org/10.1016/j.neuroimage.2010.06.048",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://pubmed.ncbi.nlm.nih.gov/20600976/",
+      "basis": "Indexed primary abstract and author manuscript https://doc.ml.tu-berlin.de/bbci/publications/BlaLemTreHauMue10.pdf verify shrinkage-LDA framework; journal issue year is 2011, online article 2010."
+    },
+    "evidence_scope": "Tutorial with methodological demonstrations of shrinkage covariance and ERP single-trial classification; does not establish mental-task cross-person performance."
+  },
+  {
+    "id": "C07",
+    "title": "Optimal spatial filtering of single trial EEG during imagined hand movement",
+    "year": 2000,
+    "venue": "IEEE Transactions on Rehabilitation Engineering",
+    "url": "https://doi.org/10.1109/86.895946",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://www.cs.hmc.edu/~keller/eeg/Ramoser.pdf",
+      "basis": "Primary journal PDF verified title, all authors, December 2000 volume 8(4), pages 441–446, CSP and three-subject left/right imagery experiment; PMID 11204034."
+    },
+    "evidence_scope": "Three participants, imagined left versus right hand movement; individual training, not new-person generalization. Journal accurately retained under its historical title."
+  },
+  {
+    "id": "C08",
+    "title": "Regularizing common spatial patterns to improve BCI designs: unified theory and new algorithms",
+    "year": 2011,
+    "venue": "IEEE Transactions on Biomedical Engineering",
+    "url": "https://doi.org/10.1109/TBME.2010.2082539",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://pubmed.ncbi.nlm.nih.gov/20889426/",
+      "basis": "PubMed record and primary manuscript https://personal.ntu.edu.sg/ctguan/Publications/2011_Fabien_IEEE_TBME.pdf confirm unified RCSP framework, four new algorithms and 17-subject comparison; journal issue year 2011."
+    },
+    "evidence_scope": "Comparison of 11 CSP/RCSP algorithms across competition EEG from 17 subjects; regularization benefits vary by method; no zero-calibration PROTEUS claim."
+  },
+  {
+    "id": "C09",
+    "title": "Filter Bank Common Spatial Pattern Algorithm on BCI Competition IV Datasets 2a and 2b",
+    "year": 2012,
+    "venue": "Frontiers in Neuroscience",
+    "url": "https://doi.org/10.3389/fnins.2012.00039",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2012.00039/full",
+      "basis": "Publisher primary full text opened; verifies 2012 volume 6 article 39, all five authors, filter bank/CSP/feature-selection/classification stages and competition datasets."
+    },
+    "evidence_scope": "Motor imagery BCI Competition IV 2a and 2b; two-class and multiclass constructions, not direct unseen-person PROTEUS validation. Venue exception retained because this is the dedicated established FBCSP paper."
+  },
+  {
+    "id": "C10",
+    "title": "Stationary common spatial patterns for brain–computer interfacing",
+    "year": 2012,
+    "venue": "Journal of Neural Engineering",
+    "url": "https://doi.org/10.1088/1741-2560/9/2/026013",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://doi.org/10.1088/1741-2560/9/2/026013",
+      "basis": "Publisher primary page verifies four authors, publication 20 February 2012, 9(2):026013 and regularization toward stationary subspaces; author manuscript https://iphome.hhi.de/samek/pdf/SamJNE12.pdf corroborates."
+    },
+    "evidence_scope": "Motor-imagery datasets and analyses of nonstationary feature effects; stationarity can help but is not a guarantee under between-person shift."
+  },
+  {
+    "id": "C11",
+    "title": "Spatio-spectral filters for improving the classification of single trial EEG",
+    "year": 2005,
+    "venue": "IEEE Transactions on Biomedical Engineering",
+    "url": "https://doi.org/10.1109/TBME.2005.851521",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://pubmed.ncbi.nlm.nih.gov/16189967/",
+      "basis": "PubMed primary abstract verifies all four authors, 2005 volume 52(9):1541–1548 and time-delay-embedding extension of CSP; author-hosted manuscript corroborates."
+    },
+    "evidence_scope": "Imagined limb movement recordings; information transfer per trial compared with standard CSP; not unseen-person evidence."
+  },
+  {
+    "id": "C12",
+    "title": "A novel method for reliable and fast extraction of neuronal EEG/MEG oscillations on the basis of spatio-spectral decomposition",
+    "year": 2011,
+    "venue": "NeuroImage",
+    "url": "https://doi.org/10.1016/j.neuroimage.2011.01.057",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://pubmed.ncbi.nlm.nih.gov/21276858/",
+      "basis": "PubMed primary abstract plus publisher text https://www.sciencedirect.com/science/article/pii/S1053811911000930 verify SSD spectral-contrast mechanism and 2011 volume 55(4):1528–1535."
+    },
+    "evidence_scope": "Simulations and real resting EEG oscillation extraction; class labels not used and stronger oscillation extraction is not itself proof of classification improvement."
+  },
+  {
+    "id": "C13",
+    "title": "SPoC: A novel framework for relating the amplitude of neuronal oscillations to behaviorally relevant parameters",
+    "year": 2014,
+    "venue": "NeuroImage",
+    "url": "https://doi.org/10.1016/j.neuroimage.2013.07.079",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://pubmed.ncbi.nlm.nih.gov/23954727/",
+      "basis": "PubMed primary abstract and primary PDF https://pure.mpg.de/rest/items/item_2434502_5/component/file_2621214/content verify seven authors, NeuroImage 86:111–122, continuous-target source-power comodulation; issue year 2014, online 2013."
+    },
+    "evidence_scope": "Realistic-head simulations and auditory steady-state EEG with sound-intensity target; regression method needs an appropriate continuous target, unavailable in the stated PROTEUS task."
+  },
+  {
+    "id": "C14",
+    "title": "Multiclass brain-computer interface classification by Riemannian geometry",
+    "year": 2012,
+    "venue": "IEEE Transactions on Biomedical Engineering",
+    "url": "https://doi.org/10.1109/TBME.2011.2172210",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://pubmed.ncbi.nlm.nih.gov/22010143/",
+      "basis": "Indexed primary abstract verifies 2012 volume 59(4):920–928 and tangent-space LDA alongside MDM; author publication list https://alexandre.barachant.org/papers/short.html corroborates. HAL manuscript indexed but direct opening denied by site protection."
+    },
+    "evidence_scope": "Multiclass motor-imagery covariance classification using MDM and TSLDA; grouped as one geometric family, with no claim of automatic cross-person invariance or full-target-session reference estimation."
+  },
+  {
+    "id": "C15",
+    "title": "Classification of covariance matrices using a Riemannian-based kernel for BCI applications",
+    "year": 2013,
+    "venue": "Neurocomputing",
+    "url": "https://doi.org/10.1016/j.neucom.2012.12.039",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://alexandre.barachant.org/papers/short.html",
+      "basis": "Author primary publication list confirms four authors, title, 2013 volume 112:172–178 and links publisher/HAL paper; publisher indexed result https://www.sciencedirect.com/science/article/pii/S0925231213001574 corroborates abstract. Direct publisher opening returned 403 and HAL download inaccessible; no full-text-open claim."
+    },
+    "evidence_scope": "Motor-imagery competition dataset, tangent-geometry kernel with SVM compared to alternative kernels; not inherently nonlinear relative to tangent features. Venue exception: Neurocomputing."
+  },
+  {
+    "id": "C16",
+    "title": "xDAWN algorithm to enhance evoked potentials: application to brain-computer interface",
+    "year": 2009,
+    "venue": "IEEE Transactions on Biomedical Engineering",
+    "url": "https://doi.org/10.1109/TBME.2009.2012869",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://pubmed.ncbi.nlm.nih.gov/19174332/",
+      "basis": "PubMed and primary PDF https://www.gipsa-lab.grenoble-inp.fr/~bertrand.rivet/references/Rivet2009a.pdf verify title, authors, 2009 volume 56(8):2035–2043 and three-subject P300 evaluation."
+    },
+    "evidence_scope": "P300 speller, three subjects, spatial enhancement plus Bayesian LDA; PROTEUS cue+1s windows may exclude relevant early event responses."
+  },
+  {
+    "id": "C17",
+    "title": "Frequency recognition based on canonical correlation analysis for SSVEP-based BCIs",
+    "year": 2007,
+    "venue": "IEEE Transactions on Biomedical Engineering",
+    "url": "https://doi.org/10.1109/TBME.2006.889197",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://pubmed.ncbi.nlm.nih.gov/17549911/",
+      "basis": "PubMed primary abstract verifies four authors, 2007 volume 54(6 Pt 2):1172–1176, sinusoidal CCA frequency recognition and FFT comparison; author-hosted PDF corroborates."
+    },
+    "evidence_scope": "Frequency-coded steady-state visual stimulation; no direct applicability to PROTEUS internal mental tasks without corresponding periodic stimuli."
+  },
+  {
+    "id": "C18",
+    "title": "Enhancing Detection of SSVEPs for a High-Speed Brain Speller Using Task-Related Component Analysis",
+    "year": 2018,
+    "venue": "IEEE Transactions on Biomedical Engineering",
+    "url": "https://doi.org/10.1109/TBME.2017.2694818",
+    "verification": {
+      "date": "2026-11-11",
+      "title_year_venue_verified": true,
+      "checked_url": "https://pubmed.ncbi.nlm.nih.gov/28436836/",
+      "basis": "Indexed PubMed primary abstract verifies six authors, 2018 volume 65(1):104–112 and reproducibility-based TRCA; issue year 2018, online 2017. PMC direct opening challenged by browser protection, so no full-text-open claim."
+    },
+    "evidence_scope": "Offline multiclass SSVEP comparison and online spelling with calibration and stimulus-locked reproducibility; no direct PROTEUS applicability, no transfer of reported ITR/accuracy."
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "tag": "later_last",
+  "name": "spectral_center_hopls8_l442",
+  "cell": 0.3788703182886058,
+  "nll": 1.2057306340096117,
+  "brier": 0.7210906394509351,
+  "config": {
+    "name": "spectral_center_hopls8_l442",
+    "kind": "hopls",
+    "r": 8,
+    "ranks": [
+      4,
+      4,
+      2
+    ]
+  },
+  "seconds": 1.2081594169139862,
+  "features": 8,
+  "train": {
+    "cell": 0.5533565136674494,
+    "nll": 0.9381891327328902,
+    "brier": 0.5583090842308905
+  }
+}

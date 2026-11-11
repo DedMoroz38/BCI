@@ -1,0 +1,19 @@
+{
+  "tag": "loso_P03",
+  "name": "spectral_relative_pls8",
+  "cell": 0.4551747311827957,
+  "nll": 1.729663067845666,
+  "brier": 0.7960937941495578,
+  "config": {
+    "name": "spectral_relative_pls8",
+    "kind": "pls",
+    "r": 8
+  },
+  "seconds": 0.5611328328959644,
+  "features": 8,
+  "train": {
+    "cell": 0.7895399505599564,
+    "nll": 0.5545706175147654,
+    "brier": 0.3037376387231141
+  }
+}

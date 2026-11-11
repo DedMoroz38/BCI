@@ -1,0 +1,10 @@
+{
+  "tag": "loso_P04",
+  "name": "mssa8_mix25_lr50",
+  "cell": 0.5429808841099163,
+  "nll": 0.9878672928064988,
+  "brier": 0.5941564115415048,
+  "trees": 50,
+  "representation": "mssa8_mix25",
+  "seconds": 55.722013666061684
+}

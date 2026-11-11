@@ -1,0 +1,17 @@
+{
+  "id": "den1shh/proteus-transfer-normalization-deep-dive",
+  "title": "PROTEUS Transfer Normalization Deep Dive",
+  "code_file": "transfer.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "den1shh/proteus-lag4-classifier-inputs"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

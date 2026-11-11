@@ -1,0 +1,10 @@
+{
+  "tag": "loso_P09",
+  "name": "lag4_nuclear005_50__balance",
+  "cell": 0.6894755747126438,
+  "nll": 0.9556369488740657,
+  "brier": 0.5689471809705371,
+  "trees": 50,
+  "representation": "lag4",
+  "seconds": 105.92493395810015
+}

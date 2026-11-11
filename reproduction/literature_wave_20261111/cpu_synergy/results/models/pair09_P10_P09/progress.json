@@ -1,0 +1,10 @@
+{
+  "trees": 50,
+  "planned": 50,
+  "seconds": 70.25195404188707,
+  "failed": {},
+  "completed_heads": {
+    "mssa8_mix25_nuclear001_50": 50,
+    "mssa8_mix25_nuclear005_50": 50
+  }
+}

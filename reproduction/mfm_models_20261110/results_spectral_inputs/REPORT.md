@@ -1,0 +1,75 @@
+# Standalone MFM models
+
+No CNN training or CNN fusion. Full-ensemble historical reference64.58% is not a standalone Lag4 baseline.
+
+Prediction records: 748; complete10-person configurations: 68.
+
+                                  name  oof_cell  mean_person   worst3  later_cell      nll
+           historical_lag4_50__balance  0.585314     0.604126 0.491481    0.653623 0.948938
+                    historical_lag4_50  0.574424     0.595434 0.477250    0.646373 0.953866
+   spectral_source_tucker_863__balance  0.512311     0.544341 0.445077    0.531018 1.130810
+  spectral_source_tucker_1284__balance  0.505718     0.529734 0.454158    0.518298 1.794973
+     spectral_source_lr_c0.01__balance  0.491789     0.519059 0.434068    0.480185 1.248881
+           spectral_source_tucker_1284  0.490085     0.512315 0.436357    0.492126 2.007471
+      spectral_source_lr_c0.1__balance  0.486715     0.513160 0.430434    0.479315 1.603705
+         spectral_source_pls8__balance  0.484143     0.511752 0.427060    0.505852 1.765525
+            spectral_source_tucker_863  0.483258     0.511133 0.437229    0.528663 1.280041
+              spectral_source_lr_c0.01  0.476085     0.501815 0.415922    0.475019 1.424165
+  spectral_source_hopls8_l442__balance  0.475244     0.502204 0.394312    0.498120 1.106538
+  spectral_source_hopls8_l863__balance  0.473756     0.502987 0.413785    0.476223 1.086365
+         spectral_source_pls4__balance  0.473386     0.499570 0.402086    0.442999 1.515544
+               spectral_source_lr_c0.1  0.472360     0.499821 0.416047    0.493674 1.836121
+                  spectral_source_pls8  0.471922     0.498934 0.412967    0.522190 2.107203
+ spectral_relative_tucker_863__balance  0.466145     0.485967 0.425848    0.469022 1.205147
+        spectral_source_pls16__balance  0.464182     0.485100 0.413921    0.458997 1.784797
+            spectral_center_tucker_863  0.462631     0.487693 0.415787    0.469521 1.198693
+   spectral_center_tucker_863__balance  0.462096     0.487363 0.409826    0.476267 1.169909
+                 spectral_source_pls16  0.451978     0.472451 0.395996    0.454258 1.964168
+   spectral_source_tucker_442__balance  0.449007     0.477399 0.384858    0.392590 1.090263
+  spectral_source_hopls4_l442__balance  0.448586     0.473640 0.378885    0.418122 1.066150
+           spectral_source_hopls8_l863  0.445903     0.477371 0.381204    0.453124 1.259487
+          spectral_relative_tucker_863  0.443041     0.461314 0.407198    0.451296 1.358151
+                  spectral_source_pls4  0.441963     0.471032 0.378183    0.431660 1.867087
+           spectral_center_tucker_1284  0.440722     0.465173 0.401977    0.427867 1.743433
+  spectral_center_tucker_1284__balance  0.439691     0.466140 0.396278    0.435574 1.695417
+spectral_relative_tucker_1284__balance  0.433401     0.453060 0.394165    0.436072 1.876280
+                  spectral_center_pls4  0.430132     0.442395 0.382426    0.401334 1.354086
+           spectral_source_hopls8_l442  0.430129     0.457398 0.355187    0.464605 1.346798
+       spectral_relative_pls4__balance  0.428807     0.443210 0.382816    0.392707 1.313039
+         spectral_relative_tucker_1284  0.428652     0.444263 0.397459    0.447668 2.109818
+         spectral_center_pls4__balance  0.427682     0.442320 0.367453    0.416561 1.315147
+           spectral_center_hopls4_l442  0.425575     0.452212 0.358009    0.367268 1.147980
+            spectral_center_tucker_442  0.424334     0.443330 0.372086    0.397372 1.166592
+                spectral_relative_pls4  0.423989     0.431280 0.366168    0.398182 1.442146
+                spectral_relative_pls8  0.423618     0.433545 0.373216    0.411302 1.979952
+  spectral_center_hopls4_l442__balance  0.423442     0.454792 0.363613    0.388087 1.129148
+         spectral_relative_hopls8_l863  0.422251     0.429828 0.357535    0.383381 1.218024
+                  spectral_center_pls8  0.421713     0.439100 0.392508    0.422245 2.051962
+       spectral_relative_pls8__balance  0.421132     0.428922 0.370713    0.411753 1.839070
+              spectral_center_lr_c0.01  0.418358     0.436814 0.366384    0.417774 1.746217
+         spectral_relative_hopls8_l442  0.417403     0.421610 0.359615    0.376524 1.232063
+               spectral_center_lr_c0.1  0.417196     0.435505 0.366792    0.420774 2.402254
+      spectral_center_lr_c0.1__balance  0.416794     0.433430 0.376257    0.422723 2.351426
+     spectral_center_lr_c0.01__balance  0.416506     0.437312 0.367379    0.417445 1.703767
+ spectral_relative_tucker_442__balance  0.416249     0.445860 0.359477    0.366481 1.125446
+   spectral_relative_lr_c0.01__balance  0.415329     0.427173 0.366352    0.411277 1.788390
+         spectral_center_pls8__balance  0.415159     0.433151 0.383546    0.422412 2.011551
+           spectral_source_hopls4_l442  0.415107     0.424629 0.359024    0.406056 1.144517
+          spectral_relative_tucker_442  0.414997     0.432446 0.365966    0.379204 1.167874
+            spectral_source_tucker_442  0.414879     0.428980 0.377076    0.416614 1.194063
+spectral_relative_hopls8_l442__balance  0.413685     0.424521 0.367965    0.375288 1.158040
+            spectral_relative_lr_c0.01  0.413401     0.421823 0.371612    0.414105 1.977680
+   spectral_center_tucker_442__balance  0.412283     0.435377 0.355653    0.414230 1.149385
+        spectral_center_pls16__balance  0.412188     0.426839 0.373518    0.406749 2.510640
+                 spectral_center_pls16  0.412176     0.423662 0.374336    0.398596 2.554056
+    spectral_relative_lr_c0.1__balance  0.411912     0.423181 0.377383    0.403861 2.538351
+           spectral_center_hopls8_l442  0.410233     0.427563 0.362886    0.378870 1.203469
+spectral_relative_hopls4_l442__balance  0.409737     0.427707 0.342669    0.394495 1.115799
+             spectral_relative_lr_c0.1  0.408974     0.418723 0.369334    0.406460 2.759887
+spectral_relative_hopls8_l863__balance  0.408432     0.423755 0.347900    0.360312 1.156100
+           spectral_center_hopls8_l863  0.408215     0.425158 0.363133    0.385269 1.238064
+  spectral_center_hopls8_l442__balance  0.407649     0.427940 0.365861    0.399146 1.185382
+               spectral_relative_pls16  0.407108     0.420520 0.381953    0.391726 2.925073
+      spectral_relative_pls16__balance  0.405909     0.419147 0.375699    0.398869 2.694608
+         spectral_relative_hopls4_l442  0.403645     0.406897 0.342204    0.373763 1.190827
+  spectral_center_hopls8_l863__balance  0.396065     0.415897 0.348599    0.417457 1.219278

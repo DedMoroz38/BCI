@@ -1,0 +1,10 @@
+{
+  "tag": "later_last",
+  "name": "lag4_rank16_50__balance",
+  "cell": 0.6589900812475528,
+  "nll": 0.9259412639379114,
+  "brier": 0.5497816657024208,
+  "trees": 50,
+  "representation": "lag4",
+  "seconds": 73.41537216701545
+}

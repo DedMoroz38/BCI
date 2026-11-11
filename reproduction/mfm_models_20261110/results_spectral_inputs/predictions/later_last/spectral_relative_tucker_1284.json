@@ -1,0 +1,23 @@
+{
+  "tag": "later_last",
+  "name": "spectral_relative_tucker_1284",
+  "cell": 0.44766841548447334,
+  "nll": 1.529778884755563,
+  "brier": 0.7933652691229612,
+  "config": {
+    "name": "spectral_relative_tucker_1284",
+    "kind": "tucker",
+    "ranks": [
+      12,
+      8,
+      4
+    ]
+  },
+  "seconds": 0.6198566660750657,
+  "features": 384,
+  "train": {
+    "cell": 0.7006769674638488,
+    "nll": 0.7082726286407942,
+    "brier": 0.40864651068962604
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "jobs": [
+    {
+      "fold": "pair00_P09_P07",
+      "kind": "mssa8_mix25",
+      "status": "complete"
+    },
+    {
+      "fold": "pair00_P09_P07",
+      "kind": "lag4",
+      "status": "complete"
+    },
+    {
+      "fold": "pair01_P07_P05",
+      "kind": "lag4",
+      "status": "complete"
+    },
+    {
+      "fold": "pair01_P07_P05",
+      "kind": "mssa8_mix25",
+      "status": "complete"
+    },
+    {
+      "fold": "pair02_P05_P08",
+      "kind": "mssa8_mix25",
+      "status": "complete"
+    },
+    {
+      "fold": "pair02_P05_P08",
+      "kind": "lag4",
+      "status": "complete"
+    },
+    {
+      "fold": "pair03_P08_P06",
+      "kind": "lag4",
+      "status": "complete"
+    },
+    {
+      "fold": "pair03_P08_P06",
+      "kind": "mssa8_mix25",
+      "status": "complete"
+    },
+    {
+      "fold": "pair04_P06_P02",
+      "kind": "mssa8_mix25",
+      "status": "complete"
+    },
+    {
+      "fold": "pair04_P06_P02",
+      "kind": "lag4",
+      "status": "complete"
+    },
+    {
+      "fold": "pair05_P02_P03",
+      "kind": "lag4",
+      "status": "complete"
+    },
+    {
+      "fold": "pair05_P02_P03",
+      "kind": "mssa8_mix25",
+      "status": "complete"
+    },
+    {
+      "fold": "pair06_P03_P01",
+      "kind": "mssa8_mix25",
+      "status": "complete"
+    },
+    {
+      "fold": "pair06_P03_P01",
+      "kind": "lag4",
+      "status": "complete"
+    },
+    {
+      "fold": "pair07_P01_P04",
+      "kind": "lag4",
+      "status": "complete"
+    },
+    {
+      "fold": "pair07_P01_P04",
+      "kind": "mssa8_mix25",
+      "status": "complete"
+    },
+    {
+      "fold": "pair08_P04_P10",
+      "kind": "mssa8_mix25",
+      "status": "complete"
+    },
+    {
+      "fold": "pair08_P04_P10",
+      "kind": "lag4",
+      "status": "complete"
+    },
+    {
+      "fold": "pair09_P10_P09",
+      "kind": "mssa8_mix25",
+      "status": "complete"
+    },
+    {
+      "fold": "pair09_P10_P09",
+      "kind": "lag4",
+      "status": "complete"
+    }
+  ],
+  "planned": 20,
+  "seconds": 530.2461252079811
+}

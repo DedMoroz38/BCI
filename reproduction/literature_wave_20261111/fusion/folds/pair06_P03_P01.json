@@ -1,0 +1,24 @@
+{
+  "tag": "pair06_P03_P01",
+  "seconds": 3.518683624919504,
+  "source_people": [
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P04",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P09",
+    "Dreyer2026Proteus/P10"
+  ],
+  "target_people": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P03"
+  ],
+  "variants": [
+    "full_nuclear001_recipe",
+    "full_nuclear005_recipe",
+    "full_mssa_nuclear001_recipe",
+    "full_mssa_nuclear005_recipe"
+  ]
+}

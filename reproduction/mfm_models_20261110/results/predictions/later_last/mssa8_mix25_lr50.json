@@ -1,0 +1,10 @@
+{
+  "tag": "later_last",
+  "name": "mssa8_mix25_lr50",
+  "cell": 0.6543586318936176,
+  "nll": 0.9217816844453792,
+  "brier": 0.5483930886482873,
+  "trees": 50,
+  "representation": "mssa8_mix25",
+  "seconds": 45.23411037493497
+}

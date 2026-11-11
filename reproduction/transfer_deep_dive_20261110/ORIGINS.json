@@ -1,0 +1,10 @@
+{
+  "source": "winner_research_20261109; current best63.2294%; frozen predictions reused",
+  "model_design": "14 causal normalization/multiscale adaptations; no pretrained weights",
+  "review": "literature/REVIEW_RU.md",
+  "selection": "Inner-person-held-out cell-NLL; SWAD.1",
+  "seeds": [
+    0,
+    1
+  ]
+}

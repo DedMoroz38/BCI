@@ -1,0 +1,17 @@
+{
+  "prediction_files": 50,
+  "complete_models": 5,
+  "folds": 10,
+  "person_repeat_rows": 100,
+  "finite_normalized_probabilities": true,
+  "metadata_aligned": true,
+  "equal_two_appearances": true,
+  "runtime": {
+    "status": "complete",
+    "folds": 10,
+    "variants": 5,
+    "workers": 1,
+    "blas_threads": 1,
+    "seconds": 59.69814341608435
+  }
+}

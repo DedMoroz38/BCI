@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-11",
+  "kernel": "den1shh/proteus-literature-causal-wave",
+  "version": 1,
+  "push_result": "Kernel version 1 successfully pushed",
+  "private": true,
+  "accelerator": "NvidiaTeslaT4",
+  "outer_selection_refit_jobs": 80,
+  "policies": ["spectral_shape025", "spectral_shape050", "covariance025", "covariance050"],
+  "seeds": [0, 1],
+  "folds": 10,
+  "soft_training_minutes": 110,
+  "parent_watchdog_minutes": 115,
+  "summarization_seconds": 290,
+  "competition_submission": false,
+  "background_poller": false
+}

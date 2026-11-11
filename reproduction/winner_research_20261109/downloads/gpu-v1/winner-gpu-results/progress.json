@@ -1,0 +1,798 @@
+{
+  "completed": 132,
+  "planned": 132,
+  "jobs": [
+    {
+      "tag": "loso_P01",
+      "config": "latent_mean_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P01",
+      "config": "latent_mean_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P02",
+      "config": "latent_mean_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P02",
+      "config": "latent_mean_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P03",
+      "config": "latent_mean_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P03",
+      "config": "latent_mean_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P04",
+      "config": "latent_mean_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P05",
+      "config": "latent_mean_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P04",
+      "config": "latent_mean_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P05",
+      "config": "latent_mean_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P06",
+      "config": "latent_mean_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P07",
+      "config": "latent_mean_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P06",
+      "config": "latent_mean_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P07",
+      "config": "latent_mean_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P08",
+      "config": "latent_mean_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P09",
+      "config": "latent_mean_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P08",
+      "config": "latent_mean_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P09",
+      "config": "latent_mean_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P10",
+      "config": "latent_mean_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P10",
+      "config": "latent_mean_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "later_last",
+      "config": "latent_mean_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "later_last",
+      "config": "latent_mean_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P01",
+      "config": "latent_meanstd_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P01",
+      "config": "latent_meanstd_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P02",
+      "config": "latent_meanstd_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P02",
+      "config": "latent_meanstd_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P03",
+      "config": "latent_meanstd_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P03",
+      "config": "latent_meanstd_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P04",
+      "config": "latent_meanstd_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P04",
+      "config": "latent_meanstd_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P05",
+      "config": "latent_meanstd_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P05",
+      "config": "latent_meanstd_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P06",
+      "config": "latent_meanstd_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P06",
+      "config": "latent_meanstd_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P07",
+      "config": "latent_meanstd_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P08",
+      "config": "latent_meanstd_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P07",
+      "config": "latent_meanstd_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P08",
+      "config": "latent_meanstd_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P09",
+      "config": "latent_meanstd_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P09",
+      "config": "latent_meanstd_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P10",
+      "config": "latent_meanstd_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P10",
+      "config": "latent_meanstd_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "later_last",
+      "config": "latent_meanstd_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "later_last",
+      "config": "latent_meanstd_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P01",
+      "config": "latent_deepset_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P01",
+      "config": "latent_deepset_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P02",
+      "config": "latent_deepset_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P02",
+      "config": "latent_deepset_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P03",
+      "config": "latent_deepset_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P03",
+      "config": "latent_deepset_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P04",
+      "config": "latent_deepset_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P04",
+      "config": "latent_deepset_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P05",
+      "config": "latent_deepset_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P05",
+      "config": "latent_deepset_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P06",
+      "config": "latent_deepset_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P07",
+      "config": "latent_deepset_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P06",
+      "config": "latent_deepset_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P07",
+      "config": "latent_deepset_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P08",
+      "config": "latent_deepset_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P08",
+      "config": "latent_deepset_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P09",
+      "config": "latent_deepset_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P09",
+      "config": "latent_deepset_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P10",
+      "config": "latent_deepset_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P10",
+      "config": "latent_deepset_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "later_last",
+      "config": "latent_deepset_p10",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "later_last",
+      "config": "latent_deepset_p10",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P01",
+      "config": "latent_deepset_p40",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P01",
+      "config": "latent_deepset_p40",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P02",
+      "config": "latent_deepset_p40",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P02",
+      "config": "latent_deepset_p40",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P03",
+      "config": "latent_deepset_p40",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P03",
+      "config": "latent_deepset_p40",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P04",
+      "config": "latent_deepset_p40",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P04",
+      "config": "latent_deepset_p40",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P05",
+      "config": "latent_deepset_p40",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P05",
+      "config": "latent_deepset_p40",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P06",
+      "config": "latent_deepset_p40",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P06",
+      "config": "latent_deepset_p40",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P07",
+      "config": "latent_deepset_p40",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P07",
+      "config": "latent_deepset_p40",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P08",
+      "config": "latent_deepset_p40",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P08",
+      "config": "latent_deepset_p40",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P09",
+      "config": "latent_deepset_p40",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P09",
+      "config": "latent_deepset_p40",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P10",
+      "config": "latent_deepset_p40",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "later_last",
+      "config": "latent_deepset_p40",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P10",
+      "config": "latent_deepset_p40",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "later_last",
+      "config": "latent_deepset_p40",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P01",
+      "config": "tsmnet_causal_le",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P01",
+      "config": "tsmnet_causal_le",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P02",
+      "config": "tsmnet_causal_le",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P02",
+      "config": "tsmnet_causal_le",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P03",
+      "config": "tsmnet_causal_le",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P03",
+      "config": "tsmnet_causal_le",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P04",
+      "config": "tsmnet_causal_le",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P04",
+      "config": "tsmnet_causal_le",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P05",
+      "config": "tsmnet_causal_le",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P05",
+      "config": "tsmnet_causal_le",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P06",
+      "config": "tsmnet_causal_le",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P06",
+      "config": "tsmnet_causal_le",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P07",
+      "config": "tsmnet_causal_le",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P08",
+      "config": "tsmnet_causal_le",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P07",
+      "config": "tsmnet_causal_le",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P09",
+      "config": "tsmnet_causal_le",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P08",
+      "config": "tsmnet_causal_le",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P09",
+      "config": "tsmnet_causal_le",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P10",
+      "config": "tsmnet_causal_le",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P10",
+      "config": "tsmnet_causal_le",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "later_last",
+      "config": "tsmnet_causal_le",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "later_last",
+      "config": "tsmnet_causal_le",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P01",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P01",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P02",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P02",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P03",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P03",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P04",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P04",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P05",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P05",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P06",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P06",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P07",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P07",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P08",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P08",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P09",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P10",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P09",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "loso_P10",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 1,
+      "status": "complete"
+    },
+    {
+      "tag": "later_last",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 0,
+      "status": "complete"
+    },
+    {
+      "tag": "later_last",
+      "config": "tsmnet_causal_le_lag4",
+      "seed": 1,
+      "status": "complete"
+    }
+  ]
+}

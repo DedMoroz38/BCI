@@ -1,0 +1,327 @@
+
+### CELL 0 markdown
+# Домашнее задание 1 по тензорным методам
+
+### CELL 1 code
+import numpy as np
+from functools import reduce
+import matplotlib.pyplot as plt
+import copy
+import math
+import scipy.linalg
+import scipy.signal
+import operator
+import sympy
+import itertools
+
+LETTERS = "ijklmnoprst"
+
+def prod(iterable):
+  return reduce(operator.mul, iterable, 1)
+
+def without(list_, idx):
+  return list_[:idx] + list_[idx+1:]
+
+### CELL 2 markdown
+В данном ДЗ допускается использование циклов **только** по размерности массивов (и по итерациям, где они есть). 
+
+### CELL 3 markdown
+# 1. Реализация ALS алгоритма для канонического тензорного разложения
+
+В этой части задачи мы реализуем ALS алгоритм, который является популярным выбором в приложениях благодаря своей простоте и возможности адаптировать алгоритм к тензорам, имеющим дополнительную структуру (например, разреженность).
+
+С помощью ```np.einsum``` напишите функцию, вычисляющую полный тензор $A$ по его каноническому разложению. Пользуйтесь ей при отладке дальнейшего кода.
+
+### CELL 4 markdown
+## 1.1 Вспомогательные функции
+
+### CELL 5 code
+def full(X):
+  '''
+  Input:
+    X: X = (U1, U2, U3) - tuple of CP factors (numpy arrays)
+
+  Output:
+    A: 3d full tensor, constructed from its CP representation
+  '''
+  raise NotImplementedError()
+
+### CELL 6 code
+U, V, W = np.ones((4, 2)), np.ones((5, 2)), np.ones((6, 2))
+assert np.linalg.norm(full((U, V, W)) - 2 * np.ones((4, 5, 6))) == 0
+
+### CELL 7 markdown
+Напишем теперь несколько вспомогательных функций
+
+Используя ```np.einsum``` напишите функцию ```mttkrp``` (Matricized tensor times Khatri-Rao product), вычисляющую 
+$$
+  A_{(p)} (U^{(d)} \odot \dots \odot U^{(p+1)} \odot U^{(p-1)} \odot \dots \odot U^{(1)})
+$$
+для $d=3$ и $p=1,2,3$. Используйте ```np.einsum``` только один раз, заранее подготовив строку для правила суммирования.
+
+### CELL 8 code
+def mttkrp(A, X, p):
+  '''
+  Input:
+    A: 3D tensor
+    X: a tuple of 2 numpy arrays: (U1, U2, U3), excluding the p-th matrix
+    p: 0, 1 or 2
+
+  Output:
+    Up: 2D numpy array
+  '''
+  
+  raise NotImplementedError()
+
+### CELL 9 code
+U, V, W = np.ones((4, 2)), np.ones((5, 2)), np.ones((6, 2))
+A = np.ones((4, 5, 6))
+
+assert np.linalg.norm(mttkrp(A, (V, W), 0) - 5*6*U) == 0
+assert np.linalg.norm(mttkrp(A, (U, W), 1) - 4*6*V) == 0
+assert np.linalg.norm(mttkrp(A, (U, V), 2) - 4*5*W) == 0
+
+### CELL 10 markdown
+Используя Фробениусово скалярное произведение напишите функцию для вычисления ошибки $\|A - [[I;U^{(1)}, U^{(2)}, U^{(3)}]]\|_F$, считая, что $\|A\|_F$ и $M = A_{(3)} (U^{(2)} \odot U^{(1)})$ заданы.
+
+### CELL 11 code
+def err_nrm(nrm_A, M, X):
+  '''
+  Input:
+    nrm_A: Frobenius norm of A. 
+    M: mttkrp with A and matrices U1, U2
+    X: a tuple of 3 numpy arrays: (U1, U2, U3)
+
+  Output:
+    err: Frobenius norm of the error
+  '''
+  
+  raise NotImplementedError()
+
+### CELL 12 code
+U = np.random.randn(10, 3)
+V = np.random.randn(10, 3)
+W = np.random.randn(10, 3)
+
+A = np.random.random((10, 10, 10))
+M = mttkrp(A, (U, V), 2)
+nrm_A = np.linalg.norm(A)
+
+assert abs(err_nrm(nrm_A, M, (U, V, W)) - np.linalg.norm(A - full((U, V, W)))) < 1e-7
+
+### CELL 13 markdown
+## 1.2 ALS алгоритм
+
+### CELL 14 markdown
+ Реализуйте функцию для ALS алгоритма, вычисляющую приближение заданного ранга к тензору $A$. После каждой внутренней итерации нормируйте столбцы соответствующей матрицы $U^{(k)}$. Также на выходе функции необходимо предоставить два списка из ошибок на каждой итерации: с ошибками
+$$
+\mathtt{err\_1} = \left\|A - [[I;U_k,V_k,W_k]]\right\|_F/\|A\|_F
+$$ (необходимо вычислять перед последней нормализацией) и 
+$$
+\mathtt{err\_2} = \frac{\sqrt{\|U_k - U_{k-1}\|_F^2 + \|V_k - V_{k-1}\|_F^2 + \|W_k - W_{k-1}\|_F^2}}{\sqrt{\|U_k\|_F^2 + \|V_k\|_F^2 + \|W_k \|_F^2}}.
+$$
+При написании функции используйте реализованные выше функции ```mttkrp``` и ```err_nrm```.
+
+Заметьте, на выход функции один из факторов нужно подать ненормализованным (подобно тому, как вычисляется `err_1`).
+
+### CELL 15 code
+def als_multilinear(A, rank, tol, X0, maxiter=1000):
+  '''
+  Input:
+    A: 3D numpy array 
+    rank: approximation rank
+    tol: stopping tolerance level for err_2
+    X0: initial guess (U0, V0, W0) for the iterative process
+    maxiter: maximum number of iterations
+
+  Output:
+    X: tuple (U, V, W) - CP factors of the approximation
+    errs_1: list of errors err_1
+    errs_2: list of errors err_2
+  '''
+
+  raise NotImplementedError()
+
+### CELL 16 markdown
+Запустим полученный алгоритм на тензоре, возникаюшем при перемножении $2\times 2$ матриц. Запустите метод при значениях ```seed```, равных $0, 1$ и $3$. Прокомментируйте поведения сходимости в этих случаях.
+
+Сравните полученные результаты ```tensorly.decomposition.parafac```
+
+### CELL 17 code
+seed = 3
+np.random.seed(seed) #3 4
+
+A = np.zeros((4, 4, 4))
+A[:, :, 0] = [[1, 0, 0, 0],
+              [0, 0, 0, 0],
+              [0, 1, 0, 0],
+              [0, 0, 0, 0]]
+A[:, :, 1] = [[0, 0, 0, 0],
+              [1, 0, 0, 0],
+              [0, 0, 0, 0],
+              [0, 1, 0, 0]]
+A[:, :, 2] = [[0, 0, 1, 0],
+              [0, 0, 0, 0],
+              [0, 0, 0, 1],
+              [0, 0, 0, 0]]
+A[:, :, 3] = [[0, 0, 0, 0],
+              [0, 0, 1, 0],
+              [0, 0, 0, 0],
+              [0, 0, 0, 1]]
+rank = 7
+
+sz = A.shape
+U0 = np.random.randn(sz[0], rank)
+V0 = np.random.randn(sz[1], rank)
+W0 = np.random.randn(sz[2], rank)
+
+X, errs_1, errs_2 = als_multilinear(A, rank, 1e-14, (U0, V0, W0), maxiter=600)
+
+plt.semilogy(errs_1, label='errs_1')
+plt.semilogy(errs_2, label='errs_2')
+plt.legend();
+
+### CELL 18 markdown
+# 2. Применение CP разложения для обработки данных электроэнцефалограммы (ЭЭГ)
+
+В этой задаче мы запустим алгоритм на открытых [данных ЭЭГ](http://archive.ics.uci.edu/ml/datasets/EEG+Database), использующихся для изучения особенностей ЭЭГ при алкогольной зависимости. Датасет включает в себя измерения энцефалограммы на частоте 256 Гц с 64 электродов (число каналов), расположенных на голове 119 пациентов (76 с алкогольной зависимостью и 43 контрольных пациента) и записанные в течение 1 секунды после показа некоторого изображения. Данные обработаны и приведены к виду тензора с помощью открытого [кода](https://github.com/kharyuk/vbtd) из [статьи](https://link.springer.com/article/10.1134/S0965542521050146) и находятся в файле ```smni_eeg.npz```. Произведем их выгрузку. [Ссылка на данные](https://yadi.sk/d/LVf_R3MK0j7pAA).
+
+### CELL 19 code
+processed_filename = 'smni_eeg_processed.npz'
+df = np.load(processed_filename)
+data, labels = df['data'], df['labels']
+
+Nsubjects, Nchannels, Ntime, Nconditions = data.shape
+
+# For simplicity we will only use 1 condition out of 3 and take every second electrode
+data = data[:, ::2, :, 0]
+
+sample_frequency = 256 # Hz
+timepoints = 1000.0 * np.arange(Ntime) / sample_frequency # ms
+
+ind_alcohol = list(np.where(labels == 0)[0])[:10] #[:10] is to make tensor smaller
+ind_control = list(np.where(labels == 1)[0])[:10] #[:10] is to make tensor smaller
+
+fig, ax = plt.subplots(2, 1, figsize=(15, 4))
+
+ax[0].plot(timepoints, data[ind_alcohol[2], 4, :].T, color='k');
+ax[1].plot(timepoints, data[ind_control[2], 4, :].T, color='k');
+
+ax[1].set_xlabel('time, ms');
+ax[0].set_ylabel('voltage, mV');
+ax[1].set_ylabel('voltage, mV');
+ax[0].set_title('EEG signals on one of the electrodes (addicted to alcohol)');
+ax[1].set_title('EEG signals on one of the electrodes (control)');
+ax[0].set_ylim([-10, 10])
+ax[1].set_ylim([-10, 10])
+plt.tight_layout()
+
+### CELL 20 markdown
+Теперь подготовим данные. Для этого по временной координате возьмем оконное преобразование Фурье (short-time Fourier transform, STFT). STFT соответствует разбиению временного интервала на несколько пересекающихся сегментов и применению к каждому из них преобразования Фурье, что позволяет улавливать изменение частоты сигнала от времени. В итоге мода размера Ntime ращепится на 2 составляющие: число сегментов и частота в каждом из сегментов. Для избежания комплесных чисел и упрощения модели мы рассмотрим абсолютные значения тензора.
+
+### CELL 21 code
+axis = -1 # timepoints
+sample_rate = 256 # 256 Hz
+nperseg = 256 # number of points per segment
+
+f, t, A = scipy.signal.stft(data, fs=sample_rate, window='hann', 
+                            nperseg=nperseg, noverlap=None, nfft=None, 
+                            detrend=False, return_onesided=True, 
+                            boundary='zeros', padded=True, axis=axis)
+
+A = np.abs(A)
+
+sz = A[0, :, :, :].shape
+
+### CELL 22 markdown
+Напишем функцию ```normalize```, эквивалентно представляющую тензор $A = [[U, V, W]]$ в виде:
+$$
+  A = \sum_{\alpha=1}^R s_\alpha\, u_\alpha \circ v_\alpha \circ w_\alpha, \quad \|u_\alpha\|_2 = \|v_\alpha\|_2 = \|w_\alpha\|_2 = 1
+$$
+с отсортированными по убыванию значениями $s_\alpha$. Далее мы будем анализировать значения $s_\alpha$ -- величина вклада соответствующей компоненты ранга 1 в итоговую сумму.
+
+Напишите функцию ```normalize```.
+
+### CELL 23 code
+def normalize(X):
+  '''
+    Input:
+        X: (U, V, W) tuple
+    
+    Output:
+        s: array, containing norms of rank-1 terms in the descending order
+        (U, V, W): tuple with the respective canonical factors
+  '''
+  raise NotImplementedError()
+
+### CELL 24 markdown
+Запустим ALS метод для одного из пациентов для разных значений рангов (и для ускорения вычислений взяв в 2 раза меньше электродов). Объясните наблюдаемое поведение сходимости для все значений рангов. Предложите, что нужно изменить в коде для ALS, чтобы избежать наблюдаемых проблем со сходимостью при некоторых значениях рангов?
+
+### CELL 25 code
+np.random.seed(0)
+
+for rank in range(8, 60, 5):
+  U0 = np.random.randn(sz[0]//2, rank)
+  V0 = np.random.randn(sz[1], rank)
+  W0 = np.random.randn(sz[2], rank)
+  
+  X, errs_1, errs_2 = als_multilinear(A[0, ::2, :, :], rank, 1e-6, (U0, V0, W0), maxiter=20)
+
+  plt.semilogy(errs_1, label=rank)
+  plt.legend()
+
+### CELL 26 markdown
+### Классификация
+
+В качестве признаков для отличия двух классов попробуем использовать простейший вариант – $s_\alpha$ (вклады от компонент ранга 1). Интуитивно кажется, что можно ожидать пониженную активизацию центров активности мозга у людей с положительным диагнозом. Попробуем увидеть эту закономерности для некоторых из значений рангов.
+
+### CELL 27 code
+ranks = [2, 5, 10, 20, 40, 60]
+
+fig, ax = plt.subplots(len(ranks), 1, figsize=(10, 3*len(ranks)))
+
+np.random.seed(0)
+
+for j, rank in enumerate(ranks):
+
+  U0 = np.random.randn(sz[0], rank)
+  V0 = np.random.randn(sz[1], rank)
+  W0 = np.random.randn(sz[2], rank)
+
+  s_alc = np.zeros((rank, len(ind_alcohol)))
+  s_ctrl = np.zeros((rank, len(ind_control)))
+
+  j_alc = 0
+  j_ctrl = 0
+  for i in ind_alcohol + ind_control:
+    B = A[i, :, :, :]
+    X, errs_1, errs_2 = als_trilinear(B, rank, 1e-6, (U0, V0, W0), maxiter=100)
+    s, X = normalize(X)
+
+    if i in ind_alcohol:
+      s_alc[:, j_alc] = s
+      j_alc += 1
+    else:
+      s_ctrl[:, j_ctrl] = s
+      j_ctrl += 1
+
+  mean_alc = np.mean(s_alc, axis=-1)
+  std_alc = np.std(s_alc, axis=-1)
+  ax[j].plot(mean_alc, label='alc')
+  ax[j].fill_between(range(len(mean_alc)), mean_alc-std_alc, mean_alc+std_alc, alpha=.1)
+
+  mean_ctrl = np.mean(s_ctrl, axis=-1)
+  std_ctrl = np.std(s_ctrl, axis=-1)
+  ax[j].plot(mean_ctrl, label='control')
+  ax[j].fill_between(range(len(mean_ctrl)), mean_ctrl-std_ctrl, mean_ctrl+std_ctrl, alpha=.1)
+    
+  ax[j].set_title('rank = {}'.format(rank))
+
+  ax[j].legend()
+  
+plt.tight_layout()
+
+### CELL 28 markdown
+На практике, конечно, необходимо использовать более серьезные подходы, включающие дополнительные ограничения на факторы разложения, например, неотрицательность факторов, статистическую независимость компонент и т.д., а также анализировать значения в самих факторах. Подробнее с этим приложением можно ознакомиться, например, в статье [Tensor decomposition of EEG signals: A brief review, F. Cong et al., 2015](https://www.sciencedirect.com/science/article/pii/S0165027015001016)
+
+### CELL 29 code

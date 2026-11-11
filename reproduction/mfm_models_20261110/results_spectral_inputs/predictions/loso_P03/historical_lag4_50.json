@@ -1,0 +1,8 @@
+{
+  "tag": "loso_P03",
+  "name": "historical_lag4_50",
+  "cell": 0.5457325268817204,
+  "nll": 1.01196223095244,
+  "brier": 0.606758144251984,
+  "source": "saved existing probabilities; no parity gate"
+}

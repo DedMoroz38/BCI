@@ -1,0 +1,18 @@
+{
+  "pid": 64015,
+  "command": [
+    "/Users/den1shh/Documents/diploma/reproduction/.venv/bin/python",
+    "-u",
+    "/Users/den1shh/Documents/diploma/reproduction/mfm_models_20261110/run.py",
+    "--workers",
+    "1",
+    "--out",
+    "/Users/den1shh/Documents/diploma/reproduction/mfm_models_20261110/results_spectral_inputs",
+    "--families",
+    "spectral_source",
+    "spectral_center",
+    "spectral_relative"
+  ],
+  "log": "/Users/den1shh/Documents/diploma/reproduction/mfm_models_20261110/spectral_inputs.log",
+  "started": "2026-11-10T14:26:21.535273+00:00"
+}

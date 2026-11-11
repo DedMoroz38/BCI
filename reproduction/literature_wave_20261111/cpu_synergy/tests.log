@@ -1,0 +1,9 @@
+test_future_covariance_cannot_change_prefix (test_synergy.Causality.test_future_covariance_cannot_change_prefix) ... ok
+test_target_changes_do_not_alter_source_features_or_saved_state (test_synergy.Causality.test_target_changes_do_not_alter_source_features_or_saved_state) ... ok
+test_target_labels_never_enter_transform (test_synergy.Causality.test_target_labels_never_enter_transform) ... ok
+test_nuclear_fit_improves_full_penalized_objective (test_synergy.Objective.test_nuclear_fit_improves_full_penalized_objective) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.059s
+
+OK

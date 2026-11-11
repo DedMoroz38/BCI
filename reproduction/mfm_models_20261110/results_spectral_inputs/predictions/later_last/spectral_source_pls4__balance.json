@@ -1,0 +1,19 @@
+{
+  "tag": "later_last",
+  "name": "spectral_source_pls4__balance",
+  "cell": 0.4429987989819584,
+  "nll": 1.4142889106219503,
+  "brier": 0.7155862835909861,
+  "config": {
+    "name": "spectral_source_pls4",
+    "kind": "pls",
+    "r": 4
+  },
+  "seconds": 0.3339410829357803,
+  "features": 4,
+  "train": {
+    "cell": 0.7364893927924031,
+    "nll": 0.5313175388210245,
+    "brier": 0.33975098224519185
+  }
+}

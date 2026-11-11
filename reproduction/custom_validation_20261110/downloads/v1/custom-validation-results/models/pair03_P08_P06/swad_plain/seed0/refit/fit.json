@@ -1,0 +1,15 @@
+{
+  "best_epoch": 4,
+  "averaging_epochs": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    3,
+    3,
+    4
+  ],
+  "refit_epochs": 4,
+  "seconds": 4.221062753000069
+}

@@ -1,0 +1,13 @@
+{
+  "pid": 62819,
+  "command": [
+    "/Users/den1shh/Documents/diploma/reproduction/.venv/bin/python",
+    "-u",
+    "/Users/den1shh/Documents/diploma/reproduction/mfm_models_20261110/run.py",
+    "--workers",
+    "2"
+  ],
+  "log": "/Users/den1shh/Documents/diploma/reproduction/mfm_models_20261110/execution.log",
+  "started": "2026-11-10T14:23:47.752252+00:00",
+  "device": "local CPU; no Kaggle run"
+}

@@ -1,0 +1,19 @@
+{
+  "tag": "loso_P09",
+  "name": "spectral_source_pls4__balance",
+  "cell": 0.5301724137931034,
+  "nll": 1.3587765922032349,
+  "brier": 0.7257944261018178,
+  "config": {
+    "name": "spectral_source_pls4",
+    "kind": "pls",
+    "r": 4
+  },
+  "seconds": 0.27775699994526803,
+  "features": 4,
+  "train": {
+    "cell": 0.7869522901143,
+    "nll": 0.5106635941150663,
+    "brier": 0.29161428833081365
+  }
+}

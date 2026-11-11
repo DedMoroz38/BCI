@@ -1,0 +1,60 @@
+{
+  "tag": "pair00_P09_P07",
+  "model": "swad_plain",
+  "seed": 0,
+  "status": "complete",
+  "selection": {
+    "best_epoch": 2,
+    "averaging_epochs": [
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5
+    ],
+    "refit_epochs": 5,
+    "seconds": 11.16673033699999
+  },
+  "refit": {
+    "best_epoch": 5,
+    "averaging_epochs": [
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      5
+    ],
+    "refit_epochs": 5,
+    "seconds": 4.8433587820000525
+  },
+  "train_people": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P04",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06",
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ],
+  "test_people": [
+    "Dreyer2026Proteus/P07",
+    "Dreyer2026Proteus/P09"
+  ],
+  "inner_train_people": [
+    "Dreyer2026Proteus/P01",
+    "Dreyer2026Proteus/P02",
+    "Dreyer2026Proteus/P03",
+    "Dreyer2026Proteus/P04",
+    "Dreyer2026Proteus/P05",
+    "Dreyer2026Proteus/P06"
+  ],
+  "inner_val_people": [
+    "Dreyer2026Proteus/P08",
+    "Dreyer2026Proteus/P10"
+  ]
+}

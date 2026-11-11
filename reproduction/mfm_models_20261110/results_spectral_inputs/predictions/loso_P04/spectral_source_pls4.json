@@ -1,0 +1,19 @@
+{
+  "tag": "loso_P04",
+  "name": "spectral_source_pls4",
+  "cell": 0.3472334229390681,
+  "nll": 2.0804077551040945,
+  "brier": 0.9002009899646752,
+  "config": {
+    "name": "spectral_source_pls4",
+    "kind": "pls",
+    "r": 4
+  },
+  "seconds": 0.30694925016723573,
+  "features": 4,
+  "train": {
+    "cell": 0.8275304508664288,
+    "nll": 0.4471219368155339,
+    "brier": 0.2535258925190026
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "tag": "later_last",
+  "name": "lag4_pls8_50",
+  "cell": 0.6363866110960513,
+  "nll": 0.9172265529267833,
+  "brier": 0.5460306008475104,
+  "trees": 50,
+  "representation": "lag4",
+  "seconds": 73.41813429188915
+}

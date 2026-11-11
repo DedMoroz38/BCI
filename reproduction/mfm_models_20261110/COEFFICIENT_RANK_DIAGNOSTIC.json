@@ -1,0 +1,20 @@
+{
+  "scope": "P01/P05;50trees each;3class matrices each;rank tolerance1e-7",
+  "ranks": {
+    "base": {
+      "mean_rank": 40.0,
+      "min_rank": 40,
+      "max_rank": 40
+    },
+    "nuclear001": {
+      "mean_rank": 27.42,
+      "min_rank": 22,
+      "max_rank": 33
+    },
+    "nuclear005": {
+      "mean_rank": 11.156666666666666,
+      "min_rank": 7,
+      "max_rank": 15
+    }
+  }
+}

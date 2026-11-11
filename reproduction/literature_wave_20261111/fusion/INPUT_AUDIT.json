@@ -1,0 +1,44 @@
+{
+  "folds": 10,
+  "windows": 2655,
+  "source_people": 8,
+  "target_people": 2,
+  "metadata_aligned": true,
+  "window_identity_mapping": true,
+  "tta_bands": [
+    [
+      4,
+      8
+    ],
+    [
+      8,
+      13
+    ],
+    [
+      13,
+      20
+    ],
+    [
+      20,
+      30
+    ],
+    [
+      4,
+      40
+    ]
+  ],
+  "covariance_band_order": [
+    1,
+    2,
+    3,
+    4,
+    0
+  ],
+  "neural_logit_files": 60,
+  "forest_variants": [
+    "full_nuclear001_recipe",
+    "full_nuclear005_recipe",
+    "full_mssa_nuclear001_recipe",
+    "full_mssa_nuclear005_recipe"
+  ]
+}

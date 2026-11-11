@@ -1,0 +1,23 @@
+{
+  "tag": "loso_P03",
+  "name": "spectral_source_tucker_863__balance",
+  "cell": 0.47075492831541216,
+  "nll": 1.1455903212516572,
+  "brier": 0.6570647932662346,
+  "config": {
+    "name": "spectral_source_tucker_863",
+    "kind": "tucker",
+    "ranks": [
+      8,
+      6,
+      3
+    ]
+  },
+  "seconds": 0.4112043338827789,
+  "features": 144,
+  "train": {
+    "cell": 0.6532294485633163,
+    "nll": 0.7978324664894642,
+    "brier": 0.4650190738195383
+  }
+}

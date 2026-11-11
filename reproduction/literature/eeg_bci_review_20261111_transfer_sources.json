@@ -1,0 +1,123 @@
+[
+  {
+    "id": "T01",
+    "title": "Transfer Learning for Brain–Computer Interfaces: A Euclidean Space Data Alignment Approach",
+    "year": 2020,
+    "venue": "IEEE Transactions on Biomedical Engineering",
+    "url": "https://doi.org/10.1109/TBME.2019.2913914",
+    "verification": "author PDF + indexed publisher metadata",
+    "evidence_scope": "EEG BCI transfer",
+    "verified_on": "2026-11-11"
+  },
+  {
+    "id": "T02",
+    "title": "Riemannian Procrustes Analysis: Transfer Learning for Brain–Computer Interfaces",
+    "year": 2019,
+    "venue": "IEEE Transactions on Biomedical Engineering",
+    "url": "https://doi.org/10.1109/TBME.2018.2889705",
+    "verification": "article abstract/metadata and author implementation; rotation qualification checked against author thesis",
+    "evidence_scope": "EEG BCI transfer; labeled class landmarks not available in PROTEUS",
+    "verified_on": "2026-11-11"
+  },
+  {
+    "id": "T03",
+    "title": "Manifold Embedded Knowledge Transfer for Brain–Computer Interfaces",
+    "year": 2020,
+    "venue": "IEEE Transactions on Neural Systems and Rehabilitation Engineering",
+    "url": "https://doi.org/10.1109/TNSRE.2020.2985996",
+    "verification": "author full-text PDF + publisher indexed abstract; publisher direct access anti-bot",
+    "evidence_scope": "offline EEG UDA",
+    "verified_on": "2026-11-11"
+  },
+  {
+    "id": "T04",
+    "title": "SPD domain-specific batch normalization to crack interpretable unsupervised domain adaptation in EEG",
+    "year": 2022,
+    "venue": "NeurIPS main conference",
+    "url": "https://papers.neurips.cc/paper_files/paper/2022/hash/28ef7ee7cd3e03093acc39e1272411b7-Abstract-Conference.html",
+    "verification": "official proceedings abstract, PDF and author code",
+    "evidence_scope": "EEG BCI transfer",
+    "verified_on": "2026-11-11"
+  },
+  {
+    "id": "T05",
+    "title": "SPDIM: Source-Free Unsupervised Conditional and Label Shift Adaptation in EEG",
+    "year": 2025,
+    "venue": "ICLR conference",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/fc6cd575b8340be6ee70beaed9ca4015-Abstract-Conference.html",
+    "verification": "official full-text PDF; entire-target adaptation checked p7",
+    "evidence_scope": "EEG BCI and sleep",
+    "verified_on": "2026-11-11"
+  },
+  {
+    "id": "T06",
+    "title": "Deep Representation-Based Domain Adaptation for Nonstationary EEG Classification",
+    "year": 2021,
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+    "url": "https://doi.org/10.1109/TNNLS.2020.3010780",
+    "verification": "author full-text PDF; section on pseudolabels and target labels checked",
+    "evidence_scope": "EEG MI, supervised target and separate pseudolabel experiments",
+    "verified_on": "2026-11-11"
+  },
+  {
+    "id": "T07",
+    "title": "RUNet: A Zero-Calibration Framework for Cross-Domain EEG Decoding via Riemannian and Unsupervised Representation Learning",
+    "year": 2026,
+    "venue": "IEEE Transactions on Biomedical Engineering",
+    "url": "https://doi.org/10.1109/TBME.2026.3653024",
+    "verification": "publisher indexed abstract + PubMed metadata; full text inaccessible (anti-bot)",
+    "evidence_scope": "MI EEG; causal status not verified",
+    "verified_on": "2026-11-11"
+  },
+  {
+    "id": "T08",
+    "title": "Convolution Monge Mapping Normalization for learning on sleep data",
+    "year": 2023,
+    "venue": "NeurIPS main conference",
+    "url": "https://papers.neurips.cc/paper_files/paper/2023/hash/21718991f6acf19a42376b5c7a8668c5-Abstract-Conference.html",
+    "verification": "official proceedings abstract/full PDF + author code; title variation noted",
+    "evidence_scope": "sleep EEG; extrapolation to PROTEUS",
+    "verified_on": "2026-11-11"
+  },
+  {
+    "id": "T09",
+    "title": "PSDNorm: Temporal Normalization for Deep Learning in Sleep Staging",
+    "year": 2026,
+    "venue": "ICLR conference",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/44cd688095d790b7de1de45ae9ce0852-Abstract-Conference.html",
+    "verification": "official proceedings abstract and author method page",
+    "evidence_scope": "sleep EEG; extrapolation to PROTEUS",
+    "verified_on": "2026-11-11"
+  },
+  {
+    "id": "T10",
+    "title": "Tent: Fully Test-Time Adaptation by Entropy Minimization",
+    "year": 2021,
+    "venue": "ICLR conference",
+    "url": "https://openreview.net/pdf?id=uXl3bZLkr3c",
+    "verification": "official full-text PDF/indexed PDF; forum direct access anti-bot",
+    "evidence_scope": "general ML computer vision; EEG extrapolation",
+    "verified_on": "2026-11-11"
+  },
+  {
+    "id": "T11",
+    "title": "TTN: A Domain-Shift Aware Batch Normalization in Test-Time Adaptation",
+    "year": 2023,
+    "venue": "ICLR conference",
+    "url": "https://openreview.net/attachment?id=EQfeudmWLQ&name=pdf",
+    "verification": "official indexed PDF; forum anti-bot; author arXiv abstract",
+    "evidence_scope": "general ML computer vision; EEG extrapolation",
+    "verified_on": "2026-11-11"
+  },
+  {
+    "id": "T12",
+    "title": "SWAD: Domain Generalization by Seeking Flat Minima",
+    "year": 2021,
+    "venue": "NeurIPS conference",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/bcb41ccdc4363c6848a1d760f26c28a0-Abstract.html",
+    "verification": "official proceedings abstract/PDF/supplement and author implementation",
+    "evidence_scope": "general ML computer vision; EEG extrapolation",
+    "verified_on": "2026-11-11"
+  }
+]
+

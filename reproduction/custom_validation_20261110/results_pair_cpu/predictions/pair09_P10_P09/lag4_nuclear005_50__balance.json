@@ -1,0 +1,10 @@
+{
+  "tag": "pair09_P10_P09",
+  "name": "lag4_nuclear005_50__balance",
+  "cell": 0.5179546914937647,
+  "nll": 1.0366683698246115,
+  "brier": 0.625491997612261,
+  "trees": 50,
+  "representation": "lag4",
+  "seconds": 61.28997229109518
+}

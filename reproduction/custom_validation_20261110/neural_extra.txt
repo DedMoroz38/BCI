@@ -1,0 +1,67 @@
+def new_net(cfg,seed,device):
+    torch.manual_seed(seed)
+    if str(device).startswith('cuda'):torch.cuda.manual_seed_all(seed)
+    if cfg['recipe']=='swad':return Shallow().to(device)
+    if cfg['recipe']=='point':return ContextShallow('meanstd',prior=10,device=device)
+    return TransferNet(dict(name='early_and_filter',family='context',prior=10,scope='filter',early=True),device)
+
+@torch.no_grad()
+def predict(net,x,meta,hidden=False):
+    net.eval();z=np.empty((len(x),3));latent=None
+    for ids in streams(meta):
+        index=torch.as_tensor(ids,device=x.device)
+        h=net.latent(x[index]) if hasattr(net,'latent') else net.encode(x[index])
+        z[ids]=net.out(h).detach().cpu().numpy()
+        if hidden:
+            if latent is None:latent=np.empty((len(x),h.shape[1]),dtype='float32')
+            latent[ids]=h.detach().cpu().numpy()
+    return (z,latent) if hidden else z
+
+@torch.no_grad()
+def refresh_bn(net,x):
+    net.eval();net.norm.reset_running_stats();net.norm.train();seen=0
+    for batch in x.split(64):
+        net.norm.momentum=len(batch)/(seen+len(batch));net(batch);seen+=len(batch)
+    net.norm.momentum=.1;net.eval();return net
+
+def fit_plain(cfg,seed,x,meta,folder,device,deadline,val_x=None,val_meta=None,epochs=30,fixed_average=None):
+    folder=Path(folder);folder.mkdir(parents=True,exist_ok=True);selecting=val_meta is not None
+    net=new_net(cfg,seed,device);opt=torch.optim.AdamW(net.parameters(),lr=.001,weight_decay=.01)
+    schedule=torch.optim.lr_scheduler.CosineAnnealingLR(opt,T_max=100)
+    shuffle=torch.Generator().manual_seed(seed)
+    y=torch.as_tensor(meta['y'],dtype=torch.long,device=device)
+    weights=torch.as_tensor(class_weights(meta['y']),dtype=torch.float32,device=device)
+    best=float('inf');best_epoch=0;bad=0;history=[];snapshots={};valley=LossValley(3,6,.1);start=time.monotonic()
+    for epoch in range(1,epochs+1):
+        if time.monotonic()>deadline:raise TimeoutError('GPU time budget reached')
+        net.train();segment=StateAverage();total=0;seen=0
+        permutation=torch.randperm(len(y),generator=shuffle).to(device)
+        for idx in permutation.split(64):
+            z=net(x[idx]);loss=(F.cross_entropy(z,y[idx],reduction='none')*weights[idx]).mean()
+            if not torch.isfinite(loss):raise FloatingPointError('Nonfinite training loss')
+            opt.zero_grad();loss.backward();opt.step();segment.update(net.state_dict())
+            total+=float(loss.detach())*len(idx);seen+=len(idx)
+        schedule.step();snapshots[epoch]=segment.result()
+        monitored=deepcopy(net);monitored.load_state_dict(snapshots[epoch]);refresh_bn(monitored,x)
+        validation=metrics(monitored,val_x,val_meta) if selecting else None
+        training=metrics(monitored,x,meta) if selecting and (epoch==1 or epoch%5==0) else None
+        if selecting:
+            value=validation['cell_nll']
+            if value<best-1e-4:best=value;best_epoch=epoch;bad=0
+            else:bad+=1
+            valley.update(epoch,value)
+        history.append(dict(epoch=epoch,optimization_ce=total/seen,
+                            train_nll=training['cell_nll'] if training else None,train_ba=training['cell'] if training else None,
+                            val_nll=validation['cell_nll'] if validation else None,val_ba=validation['cell'] if validation else None))
+        with (folder/'curves.csv').open('w',newline='') as f:
+            writer=csv.DictWriter(f,fieldnames=list(history[-1]));writer.writeheader();writer.writerows(history)
+        print('SWAD EPOCH',seed,epoch,round(total/seen,4),flush=True)
+        del monitored
+        if selecting and bad>=6:break
+    selected=valley.final_epochs() if selecting else list(fixed_average or [epochs])
+    net.load_state_dict(mean_states([snapshots[e] for e in selected]));refresh_bn(net,x)
+    atomic_torch(clone_state(net.state_dict()),folder/'final.pt')
+    r=dict(best_epoch=best_epoch if selecting else epochs,averaging_epochs=selected,refit_epochs=max(selected),seconds=time.monotonic()-start)
+    write_json(folder/'fit.json',r)
+    if selecting:plot(folder,history,best_epoch)
+    return net,r

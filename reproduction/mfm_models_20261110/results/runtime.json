@@ -1,0 +1,225 @@
+{
+  "seconds": 1480.6566834170371,
+  "jobs": [
+    {
+      "family": "spectral",
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "family": "spectral",
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "family": "spectral",
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "family": "spectral",
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "family": "spectral",
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "family": "spectral",
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "family": "spectral",
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "family": "spectral",
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "family": "spectral",
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "family": "spectral",
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "family": "spectral",
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "family": "lag4",
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "family": "lag4",
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "family": "lag4",
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "family": "lag4",
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "family": "lag4",
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "family": "lag4",
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "family": "lag4",
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "family": "lag4",
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "family": "lag4",
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "family": "lag4",
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "family": "lag4",
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "family": "mssa8_mix25",
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "family": "mssa8_mix25",
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "family": "mssa8_mix25",
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "family": "mssa8_mix25",
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "family": "mssa8_mix25",
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "family": "mssa8_mix25",
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "family": "mssa8_mix25",
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "family": "mssa8_mix25",
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "family": "mssa8_mix25",
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "family": "mssa8_mix25",
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "family": "mssa8_mix25",
+      "tag": "later_last",
+      "status": "complete"
+    },
+    {
+      "family": "mssa16_mix50",
+      "tag": "loso_P01",
+      "status": "complete"
+    },
+    {
+      "family": "mssa16_mix50",
+      "tag": "loso_P02",
+      "status": "complete"
+    },
+    {
+      "family": "mssa16_mix50",
+      "tag": "loso_P04",
+      "status": "complete"
+    },
+    {
+      "family": "mssa16_mix50",
+      "tag": "loso_P03",
+      "status": "complete"
+    },
+    {
+      "family": "mssa16_mix50",
+      "tag": "loso_P05",
+      "status": "complete"
+    },
+    {
+      "family": "mssa16_mix50",
+      "tag": "loso_P06",
+      "status": "complete"
+    },
+    {
+      "family": "mssa16_mix50",
+      "tag": "loso_P07",
+      "status": "complete"
+    },
+    {
+      "family": "mssa16_mix50",
+      "tag": "loso_P08",
+      "status": "complete"
+    },
+    {
+      "family": "mssa16_mix50",
+      "tag": "loso_P10",
+      "status": "complete"
+    },
+    {
+      "family": "mssa16_mix50",
+      "tag": "loso_P09",
+      "status": "complete"
+    },
+    {
+      "family": "mssa16_mix50",
+      "tag": "later_last",
+      "status": "complete"
+    }
+  ]
+}

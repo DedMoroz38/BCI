@@ -1,0 +1,19 @@
+{
+  "tag": "loso_P10",
+  "name": "spectral_relative_lr_c0.01",
+  "cell": 0.4218721827811584,
+  "nll": 2.848922046811765,
+  "brier": 0.9235399909552122,
+  "config": {
+    "name": "spectral_relative_lr_c0.01",
+    "kind": "lr",
+    "C": 0.01
+  },
+  "seconds": 3.127007457893342,
+  "features": 10619,
+  "train": {
+    "cell": 1.0,
+    "nll": 0.06846988854171863,
+    "brier": 0.012014128754979734
+  }
+}

@@ -1,0 +1,2474 @@
+{
+  "sha": "0666f6e30a39827dc7b8cc37a4552a1ef07bc6c9",
+  "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/0666f6e30a39827dc7b8cc37a4552a1ef07bc6c9",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c79f93239bb7062a8d87ee9ed73438c8b85e95ee",
+      "size": 78,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/c79f93239bb7062a8d87ee9ed73438c8b85e95ee"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aff41f250f921577cf528600d7eced8f506f324",
+      "size": 9044,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/2aff41f250f921577cf528600d7eced8f506f324"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "86d31eb949883704fc6b938bb233d2c8994af292",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/86d31eb949883704fc6b938bb233d2c8994af292"
+    },
+    {
+      "path": "data/AirPassengers.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7014d8677ace1f585a96a71c531c6cd578241c1c",
+      "size": 1746,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/7014d8677ace1f585a96a71c531c6cd578241c1c"
+    },
+    {
+      "path": "data/Electric_Production.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ea2a5e114eea477e56891b823d7debca9fb17a2",
+      "size": 6920,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/4ea2a5e114eea477e56891b823d7debca9fb17a2"
+    },
+    {
+      "path": "data/accident_UK.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa4630dbf3d66246ff7163cd23cd75cc9ab43e9d",
+      "size": 21935,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/aa4630dbf3d66246ff7163cd23cd75cc9ab43e9d"
+    },
+    {
+      "path": "data/monthly_beer_production_in_austr.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0f487876bc9ea5be09df73fa6b382511f48df5d",
+      "size": 6426,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/a0f487876bc9ea5be09df73fa6b382511f48df5d"
+    },
+    {
+      "path": "data/shampoo_sales.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecf139c54097a641cd63559f2082c7b7f56c41f3",
+      "size": 484,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/ecf139c54097a641cd63559f2082c7b7f56c41f3"
+    },
+    {
+      "path": "data/smni_eeg.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "659a72c0fcaba08a078cbea887f905341fc8126a",
+      "size": 32920501,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/659a72c0fcaba08a078cbea887f905341fc8126a"
+    },
+    {
+      "path": "data/walk_example.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08d3ac9788cbab265a13ed3d780b63d101beee3c",
+      "size": 1581024,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/08d3ac9788cbab265a13ed3d780b63d101beee3c"
+    },
+    {
+      "path": "homeworks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "19fb90b17ec6da916107f54802e5a707456ed30c",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/19fb90b17ec6da916107f54802e5a707456ed30c"
+    },
+    {
+      "path": "homeworks/.ipynb_checkpoints",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d9039b66c51e0ee1502df8514ee3171858c35661",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/d9039b66c51e0ee1502df8514ee3171858c35661"
+    },
+    {
+      "path": "homeworks/.ipynb_checkpoints/HW2_ts_dynamical_forecasting-checkpoint.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91ce155e94fecd2e86952f9c5faee3f55cafee85",
+      "size": 441186,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/91ce155e94fecd2e86952f9c5faee3f55cafee85"
+    },
+    {
+      "path": "homeworks/HW1_ts_basic.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b85564de37411e9b2ed9e0f811a3c18835441024",
+      "size": 361739,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/b85564de37411e9b2ed9e0f811a3c18835441024"
+    },
+    {
+      "path": "homeworks/HW2_ts_dynamical_forecasting.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b94937fccb7cb1609eb236f8a89cd181fc8130f0",
+      "size": 927035,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/b94937fccb7cb1609eb236f8a89cd181fc8130f0"
+    },
+    {
+      "path": "homeworks/HW3_tenscomp_tensor_als.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1cacd6c139e46e5ccc980aa2b140a1762ba2f9b",
+      "size": 21188,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/a1cacd6c139e46e5ccc980aa2b140a1762ba2f9b"
+    },
+    {
+      "path": "lectures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bf5336f58900148559c5d669b7af74106f8aeb9c",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/bf5336f58900148559c5d669b7af74106f8aeb9c"
+    },
+    {
+      "path": "lectures/lecture_1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ae6eda18bcb01f3bd9dfa6514df3a4bba7a353c",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/8ae6eda18bcb01f3bd9dfa6514df3a4bba7a353c"
+    },
+    {
+      "path": "lectures/lecture_1/figs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "347fe04b59dc82eb924394da2d7b0ccc4bba6893",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/347fe04b59dc82eb924394da2d7b0ccc4bba6893"
+    },
+    {
+      "path": "lectures/lecture_1/figs/One-dimensional-Convolutional-Neural-Network-for-time-series.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d1b87e5e8dca1f14db7c0c7429581a5798df8a0",
+      "size": 38591,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/6d1b87e5e8dca1f14db7c0c7429581a5798df8a0"
+    },
+    {
+      "path": "lectures/lecture_1/figs/arima_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ba47a8fb05361ea82ee4e4afdbbc48fada5271a",
+      "size": 20382,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/5ba47a8fb05361ea82ee4e4afdbbc48fada5271a"
+    },
+    {
+      "path": "lectures/lecture_1/figs/arima_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "349fedd1c72d19df772f9914f6420f28b0176350",
+      "size": 292803,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/349fedd1c72d19df772f9914f6420f28b0176350"
+    },
+    {
+      "path": "lectures/lecture_1/figs/autocorr.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3783e9b99be66c1e4261b591c7d2f42377c459b5",
+      "size": 54046,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/3783e9b99be66c1e4261b591c7d2f42377c459b5"
+    },
+    {
+      "path": "lectures/lecture_1/figs/fourier.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6654bb7fa3ac57af5ddee834b46fbffc77a3cee3",
+      "size": 87691,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/6654bb7fa3ac57af5ddee834b46fbffc77a3cee3"
+    },
+    {
+      "path": "lectures/lecture_1/figs/init_diagram.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5c58946ab644458fed179b25b3f270cc705cce8",
+      "size": 27133,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/e5c58946ab644458fed179b25b3f270cc705cce8"
+    },
+    {
+      "path": "lectures/lecture_1/figs/kernel_reg.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4119c093929af9c11e9dce4bf762a506f5b9e24f",
+      "size": 50269,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/4119c093929af9c11e9dce4bf762a506f5b9e24f"
+    },
+    {
+      "path": "lectures/lecture_1/figs/lstm.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3b2171414c05d5af6860fab710cd9bd0506e4cf",
+      "size": 11387,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/a3b2171414c05d5af6860fab710cd9bd0506e4cf"
+    },
+    {
+      "path": "lectures/lecture_1/figs/neuralode.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52f926316948b2017d68a38fdef61cffe12e4ee9",
+      "size": 167034,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/52f926316948b2017d68a38fdef61cffe12e4ee9"
+    },
+    {
+      "path": "lectures/lecture_1/figs/ssa.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9e22cc8bd6e1ae360d80a9f714203e6f728bb20",
+      "size": 105807,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/f9e22cc8bd6e1ae360d80a9f714203e6f728bb20"
+    },
+    {
+      "path": "lectures/lecture_1/figs/ssm.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "757bc3d6fc2cf78aadba3d55af7c40fc2b93e4ba",
+      "size": 35446,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/757bc3d6fc2cf78aadba3d55af7c40fc2b93e4ba"
+    },
+    {
+      "path": "lectures/lecture_1/figs/takens.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b932f6ad63e303c13b90ccce0e9612ecbdafff4e",
+      "size": 273947,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/b932f6ad63e303c13b90ccce0e9612ecbdafff4e"
+    },
+    {
+      "path": "lectures/lecture_1/figs/tensor_train.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d5b48aadcbfaf78d6f7db45e5f930bccdcddb4e",
+      "size": 1245300,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/0d5b48aadcbfaf78d6f7db45e5f930bccdcddb4e"
+    },
+    {
+      "path": "lectures/lecture_1/figs/wavelet.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55ceab58ad7c643250622cb01dcaa0058dd2b3b2",
+      "size": 30072,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/55ceab58ad7c643250622cb01dcaa0058dd2b3b2"
+    },
+    {
+      "path": "lectures/lecture_1/lecture1.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ba5a21b76054f11bc72d56f87bc17c79e9e188a",
+      "size": 1828865,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/3ba5a21b76054f11bc72d56f87bc17c79e9e188a"
+    },
+    {
+      "path": "lectures/lecture_1/lecture1.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7906aa035f652a41e9f8b9ccc7183e84613b2739",
+      "size": 8303,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/7906aa035f652a41e9f8b9ccc7183e84613b2739"
+    },
+    {
+      "path": "lectures/lecture_10",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee95da2c86a1cad7e7e74086cba881e7fec47aa4",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/ee95da2c86a1cad7e7e74086cba881e7fec47aa4"
+    },
+    {
+      "path": "lectures/lecture_10/figs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c3510dd090ccaacbaaa25a82436d86c79b4139c",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/7c3510dd090ccaacbaaa25a82436d86c79b4139c"
+    },
+    {
+      "path": "lectures/lecture_10/figs/G_BB_example.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f88999f1cdacb76819909ee5cce55802eee6dfa9",
+      "size": 56536,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/f88999f1cdacb76819909ee5cce55802eee6dfa9"
+    },
+    {
+      "path": "lectures/lecture_10/figs/HOPLS.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd0caa867037fa0444b179ef4fe14734fd81e7e0",
+      "size": 99464,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/dd0caa867037fa0444b179ef4fe14734fd81e7e0"
+    },
+    {
+      "path": "lectures/lecture_10/figs/HOPLS_example.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d7a8a6a00b94afe38fb7e1af0429d3ed05c90ed",
+      "size": 74559,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/7d7a8a6a00b94afe38fb7e1af0429d3ed05c90ed"
+    },
+    {
+      "path": "lectures/lecture_10/figs/Tucker_decompositions.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb44b0e6223b7a86dd55eaa7819d711894c820fa",
+      "size": 41453,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/bb44b0e6223b7a86dd55eaa7819d711894c820fa"
+    },
+    {
+      "path": "lectures/lecture_10/figs/Tucker_decompositions_example.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b6f7fb60533d1dc7c463f891081875d949a6b37",
+      "size": 373827,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/8b6f7fb60533d1dc7c463f891081875d949a6b37"
+    },
+    {
+      "path": "lectures/lecture_10/figs/graph_repr_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf6e0e1bddda52b106c70b35a1a7fe8b526ad2fb",
+      "size": 151712,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/bf6e0e1bddda52b106c70b35a1a7fe8b526ad2fb"
+    },
+    {
+      "path": "lectures/lecture_10/figs/graph_repr_1_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d916ea3fdc643faff681721060d0a71abbc733d4",
+      "size": 98983,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/d916ea3fdc643faff681721060d0a71abbc733d4"
+    },
+    {
+      "path": "lectures/lecture_10/figs/graph_repr_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38852b5926793438f0ed617965dda9a48c0a82bd",
+      "size": 68991,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/38852b5926793438f0ed617965dda9a48c0a82bd"
+    },
+    {
+      "path": "lectures/lecture_10/figs/graph_repr_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82c377c3411cc62e34327157fde9c2967567a45d",
+      "size": 92851,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/82c377c3411cc62e34327157fde9c2967567a45d"
+    },
+    {
+      "path": "lectures/lecture_10/figs/graph_repr_4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0515352309a972d06c4896e4467e7c30bb6ba3e8",
+      "size": 31956,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/0515352309a972d06c4896e4467e7c30bb6ba3e8"
+    },
+    {
+      "path": "lectures/lecture_10/figs/graph_repr_4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72f41e8dce47d311df4ad4cde0041b91a805eb87",
+      "size": 22070,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/72f41e8dce47d311df4ad4cde0041b91a805eb87"
+    },
+    {
+      "path": "lectures/lecture_10/figs/notation_diff.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eec1053ee1781a5b09f36445d2345d6ee7c4010b",
+      "size": 154721,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/eec1053ee1781a5b09f36445d2345d6ee7c4010b"
+    },
+    {
+      "path": "lectures/lecture_10/figs/tensor_vector_matrix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d84f05f2ae94fb272431cd53ec09a071244a7741",
+      "size": 156689,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/d84f05f2ae94fb272431cd53ec09a071244a7741"
+    },
+    {
+      "path": "lectures/lecture_10/lecture10.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5381a2deb90c594137b4be0d11ddb2746f8fadc0",
+      "size": 13162,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/5381a2deb90c594137b4be0d11ddb2746f8fadc0"
+    },
+    {
+      "path": "lectures/lecture_11",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "62d1497d3fddce81e1f6faf4c83c699b30fff51d",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/62d1497d3fddce81e1f6faf4c83c699b30fff51d"
+    },
+    {
+      "path": "lectures/lecture_11/figs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e02587d9f7cf432af65864b6dbfbe3af7744099f",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/e02587d9f7cf432af65864b6dbfbe3af7744099f"
+    },
+    {
+      "path": "lectures/lecture_11/figs/_tensor_notation.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fded59dedc1eb6e7e9188747ee44a4dd29cbbfe5",
+      "size": 624110,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/fded59dedc1eb6e7e9188747ee44a4dd29cbbfe5"
+    },
+    {
+      "path": "lectures/lecture_11/figs/_tensor_operations.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dc5dcd7b923071e2b9771af9ba6619cdb97e089",
+      "size": 587032,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/9dc5dcd7b923071e2b9771af9ba6619cdb97e089"
+    },
+    {
+      "path": "lectures/lecture_11/figs/cp_decomp.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a730ee8ddffc548c1138e77ee3055a6ef6ad1b75",
+      "size": 36875,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/a730ee8ddffc548c1138e77ee3055a6ef6ad1b75"
+    },
+    {
+      "path": "lectures/lecture_11/figs/cp_decomp_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c057a9f5203205924caeff7e2991a8ed60a331d6",
+      "size": 35841,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/c057a9f5203205924caeff7e2991a8ed60a331d6"
+    },
+    {
+      "path": "lectures/lecture_11/figs/matricization.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bb262735ed9f09fb1e91f98850c627c0133b54e",
+      "size": 137295,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/3bb262735ed9f09fb1e91f98850c627c0133b54e"
+    },
+    {
+      "path": "lectures/lecture_11/figs/matricization_example.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "404dbacc42a9d73c03dcc640eaf72a553a9c7a2c",
+      "size": 108015,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/404dbacc42a9d73c03dcc640eaf72a553a9c7a2c"
+    },
+    {
+      "path": "lectures/lecture_11/figs/tensor_fibers.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afee86bdc2787af03ad2e52acb45e67b1e32ac56",
+      "size": 506346,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/afee86bdc2787af03ad2e52acb45e67b1e32ac56"
+    },
+    {
+      "path": "lectures/lecture_11/figs/tensor_fibers_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d897b09c7e20dea483f0e4295bb3cf3b0fac05d0",
+      "size": 229061,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/d897b09c7e20dea483f0e4295bb3cf3b0fac05d0"
+    },
+    {
+      "path": "lectures/lecture_11/figs/tensor_fibers_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72b96689c8c9e3d19ca5c536d3454323bd5f0a21",
+      "size": 270861,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/72b96689c8c9e3d19ca5c536d3454323bd5f0a21"
+    },
+    {
+      "path": "lectures/lecture_11/figs/tensor_notation.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39a99831adb25f3bc7f6c7c1a9e1803ac383da59",
+      "size": 262206,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/39a99831adb25f3bc7f6c7c1a9e1803ac383da59"
+    },
+    {
+      "path": "lectures/lecture_11/figs/tensor_operations.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "377f9129ebe119076697e57310268d43095651fd",
+      "size": 279201,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/377f9129ebe119076697e57310268d43095651fd"
+    },
+    {
+      "path": "lectures/lecture_11/lecture11.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c99736987aa38ccae0cd8aa632c23934067caaf1",
+      "size": 33121,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/c99736987aa38ccae0cd8aa632c23934067caaf1"
+    },
+    {
+      "path": "lectures/lecture_12",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b62a00073e199a0339e19426000b4ec6f08f1e11",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/b62a00073e199a0339e19426000b4ec6f08f1e11"
+    },
+    {
+      "path": "lectures/lecture_12/figs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc05d520d426b00a47d6ea7e7dcdaef18d221059",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/bc05d520d426b00a47d6ea7e7dcdaef18d221059"
+    },
+    {
+      "path": "lectures/lecture_12/figs/CP_Tuker.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a00d99594e36d208fbff9f79cd8397b78984409f",
+      "size": 152412,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/a00d99594e36d208fbff9f79cd8397b78984409f"
+    },
+    {
+      "path": "lectures/lecture_12/figs/HOSVD.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c49155e5b4eb2fc4e3173d71098bbd383c213252",
+      "size": 148848,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/c49155e5b4eb2fc4e3173d71098bbd383c213252"
+    },
+    {
+      "path": "lectures/lecture_12/figs/SVD.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9e4d9ae5ae1d9ad9727bb952fccef85fdb4eab0",
+      "size": 135375,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/c9e4d9ae5ae1d9ad9727bb952fccef85fdb4eab0"
+    },
+    {
+      "path": "lectures/lecture_12/lecture12.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7817453873f94a6206f3bab721d9e6197310e78e",
+      "size": 12121,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/7817453873f94a6206f3bab721d9e6197310e78e"
+    },
+    {
+      "path": "lectures/lecture_13",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df950fe25a7883ca15d221dfee7736a2b79890ac",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/df950fe25a7883ca15d221dfee7736a2b79890ac"
+    },
+    {
+      "path": "lectures/lecture_13/figs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "60702481050f1108d6f4a0fab441568d4d569458",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/60702481050f1108d6f4a0fab441568d4d569458"
+    },
+    {
+      "path": "lectures/lecture_13/figs/HOPLS.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93b4ceb32e7f73d557fdbb770d94a22aaaa9dbf4",
+      "size": 210251,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/93b4ceb32e7f73d557fdbb770d94a22aaaa9dbf4"
+    },
+    {
+      "path": "lectures/lecture_13/figs/PLS_2D.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2992623243f35833532b9a09004f5fff3245c459",
+      "size": 140775,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/2992623243f35833532b9a09004f5fff3245c459"
+    },
+    {
+      "path": "lectures/lecture_13/lecture13.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89f5fe6ad4f963661be8797d0277f63d82846274",
+      "size": 12518,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/89f5fe6ad4f963661be8797d0277f63d82846274"
+    },
+    {
+      "path": "lectures/lecture_14",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ecbb1104c2a623113ce92bbac8002a9657ea0d2a",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/ecbb1104c2a623113ce92bbac8002a9657ea0d2a"
+    },
+    {
+      "path": "lectures/lecture_14/figs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef41f10e96f66b0638e8f0587cdedeca307fe916",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/ef41f10e96f66b0638e8f0587cdedeca307fe916"
+    },
+    {
+      "path": "lectures/lecture_14/figs/group_time_series.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "548f17e8d26437adff855535a418dbb8b41ec8ed",
+      "size": 368168,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/548f17e8d26437adff855535a418dbb8b41ec8ed"
+    },
+    {
+      "path": "lectures/lecture_14/figs/mssa_example.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10d147085b51385131cd228608ecc1ca279ae94b",
+      "size": 111776,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/10d147085b51385131cd228608ecc1ca279ae94b"
+    },
+    {
+      "path": "lectures/lecture_14/figs/result_mssa.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b61f5ac494a715e86ab2dcf867977ce857b0e02",
+      "size": 159503,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/6b61f5ac494a715e86ab2dcf867977ce857b0e02"
+    },
+    {
+      "path": "lectures/lecture_14/figs/result_tssa.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b314bfcbc74bd4744abbceb16cbfd9c8ec7dfcf5",
+      "size": 409435,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/b314bfcbc74bd4744abbceb16cbfd9c8ec7dfcf5"
+    },
+    {
+      "path": "lectures/lecture_14/figs/tSSA.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "313d6e92d36419b3d7864196dfdda664292c4f77",
+      "size": 60663,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/313d6e92d36419b3d7864196dfdda664292c4f77"
+    },
+    {
+      "path": "lectures/lecture_14/figs/tensor_for_ssa.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "626deacaf13656379b6c591775c6c6c3ff3f9f9c",
+      "size": 70332,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/626deacaf13656379b6c591775c6c6c3ff3f9f9c"
+    },
+    {
+      "path": "lectures/lecture_14/lecture14.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1577c3cc415991d5783515d9a8cbb916127676c4",
+      "size": 12073,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/1577c3cc415991d5783515d9a8cbb916127676c4"
+    },
+    {
+      "path": "lectures/lecture_15",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35e6f0e4eccdb0c777c1fe762ffb29bd4be43ae2",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/35e6f0e4eccdb0c777c1fe762ffb29bd4be43ae2"
+    },
+    {
+      "path": "lectures/lecture_15/figs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49ad6d48cd56226f44dc5e1ebb93bb6b90512a51",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/49ad6d48cd56226f44dc5e1ebb93bb6b90512a51"
+    },
+    {
+      "path": "lectures/lecture_15/figs/HOSVD_Penrose.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb1c45a6d80dc643dce93191ac9344b08d6dc340",
+      "size": 26193,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/bb1c45a6d80dc643dce93191ac9344b08d6dc340"
+    },
+    {
+      "path": "lectures/lecture_15/figs/TT.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9fe5c8145894334a821b4bd59bba91e8ceb9929",
+      "size": 142447,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/e9fe5c8145894334a821b4bd59bba91e8ceb9929"
+    },
+    {
+      "path": "lectures/lecture_15/figs/TT_algo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38af7f218eba517e0b464bbb173d39f55a86ff1e",
+      "size": 153128,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/38af7f218eba517e0b464bbb173d39f55a86ff1e"
+    },
+    {
+      "path": "lectures/lecture_15/figs/TT_operation.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c0376acb5c65f5fbca4ecc5f47bb7b9fc61e899",
+      "size": 181806,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/9c0376acb5c65f5fbca4ecc5f47bb7b9fc61e899"
+    },
+    {
+      "path": "lectures/lecture_15/figs/graph_repr_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38852b5926793438f0ed617965dda9a48c0a82bd",
+      "size": 68991,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/38852b5926793438f0ed617965dda9a48c0a82bd"
+    },
+    {
+      "path": "lectures/lecture_15/lecture15.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d383e6d7f408597c037f8b7348c3cbd10f27bae",
+      "size": 10694,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/1d383e6d7f408597c037f8b7348c3cbd10f27bae"
+    },
+    {
+      "path": "lectures/lecture_2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7b61e7a1d063127e8f58bad186a46a76c9f46ea",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/a7b61e7a1d063127e8f58bad186a46a76c9f46ea"
+    },
+    {
+      "path": "lectures/lecture_2/fig",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a8186b85a7ab33a5e0673acd8468b2177d3e50c0",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/a8186b85a7ab33a5e0673acd8468b2177d3e50c0"
+    },
+    {
+      "path": "lectures/lecture_2/fig/4acf.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32858ea4e5b4191df17ce5a0762e4a23fbbcbea6",
+      "size": 475201,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/32858ea4e5b4191df17ce5a0762e4a23fbbcbea6"
+    },
+    {
+      "path": "lectures/lecture_2/fig/4acf_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09d481920a6ad93ac1bfd1b9b14bf9b73ef967cf",
+      "size": 186247,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/09d481920a6ad93ac1bfd1b9b14bf9b73ef967cf"
+    },
+    {
+      "path": "lectures/lecture_2/fig/4acf_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ce3efca5ce649ba1653e97d086d9aaffe92053c",
+      "size": 173883,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/9ce3efca5ce649ba1653e97d086d9aaffe92053c"
+    },
+    {
+      "path": "lectures/lecture_2/fig/acf.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74f94499aafd750bf72d3b6596148a0e9e381a12",
+      "size": 833355,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/74f94499aafd750bf72d3b6596148a0e9e381a12"
+    },
+    {
+      "path": "lectures/lecture_2/fig/noise.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f47720565bc63af81db420e7e9780ffdf8899842",
+      "size": 745245,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/f47720565bc63af81db420e7e9780ffdf8899842"
+    },
+    {
+      "path": "lectures/lecture_2/fig/sarimax_tsa.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a36b2f9f0f859a0db35b6bfdeb86efde2e8f4e3d",
+      "size": 191551,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/a36b2f9f0f859a0db35b6bfdeb86efde2e8f4e3d"
+    },
+    {
+      "path": "lectures/lecture_2/fig/ts_components.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dd9c283fa279b5f55390971c43afc7c4037ed63",
+      "size": 532289,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/0dd9c283fa279b5f55390971c43afc7c4037ed63"
+    },
+    {
+      "path": "lectures/lecture_2/fig/ts_components_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5e6e1130f1930542231615cac15468ba66456e0",
+      "size": 151009,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/f5e6e1130f1930542231615cac15468ba66456e0"
+    },
+    {
+      "path": "lectures/lecture_2/fig/ts_components_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a35ebdb0594cdb121daeed128f632446aa32f784",
+      "size": 129110,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/a35ebdb0594cdb121daeed128f632446aa32f784"
+    },
+    {
+      "path": "lectures/lecture_2/fig/ts_diff.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2582bbe084f644a323902867b7c2847ae3c06aca",
+      "size": 289582,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/2582bbe084f644a323902867b7c2847ae3c06aca"
+    },
+    {
+      "path": "lectures/lecture_2/fig/ts_stationary.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c433d6a5f84f76c670f32eb46b7169edcdd4c4c6",
+      "size": 674303,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/c433d6a5f84f76c670f32eb46b7169edcdd4c4c6"
+    },
+    {
+      "path": "lectures/lecture_2/lecture2.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83f70c31b221e9d3930c86ceb3d2440db6f87b4f",
+      "size": 2619808,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/83f70c31b221e9d3930c86ceb3d2440db6f87b4f"
+    },
+    {
+      "path": "lectures/lecture_2/lecture2.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b009e1d963cd438b14991d3154b87c4a83d33c8",
+      "size": 19824,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/5b009e1d963cd438b14991d3154b87c4a83d33c8"
+    },
+    {
+      "path": "lectures/lecture_3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9acdc699f368c56c651bad68919c6e93e50d4a5b",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/9acdc699f368c56c651bad68919c6e93e50d4a5b"
+    },
+    {
+      "path": "lectures/lecture_3/fig",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed7f4c8b9203dbffe096e00caef4d23fcbca4b45",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/ed7f4c8b9203dbffe096e00caef4d23fcbca4b45"
+    },
+    {
+      "path": "lectures/lecture_3/fig/2_autocorr.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7afa0e96f2f73ad39ea98e58c3b64bad5bffb2d",
+      "size": 102232,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/d7afa0e96f2f73ad39ea98e58c3b64bad5bffb2d"
+    },
+    {
+      "path": "lectures/lecture_3/fig/2_dts_init.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbda461d49594b5a53bc137644f1e130c991d8e6",
+      "size": 520685,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/cbda461d49594b5a53bc137644f1e130c991d8e6"
+    },
+    {
+      "path": "lectures/lecture_3/fig/2_pautocorr.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82bb3ec6d599768657dc0f2961d05a9dd3e4bc4c",
+      "size": 108222,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/82bb3ec6d599768657dc0f2961d05a9dd3e4bc4c"
+    },
+    {
+      "path": "lectures/lecture_3/fig/2_ts_init.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffa219188f0f7ce1bb196f12161ee16d8426e65e",
+      "size": 302002,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/ffa219188f0f7ce1bb196f12161ee16d8426e65e"
+    },
+    {
+      "path": "lectures/lecture_3/fig/arch_example.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e20c0016d9b9cf818c0593eecfee253eb3f1a67",
+      "size": 220160,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/8e20c0016d9b9cf818c0593eecfee253eb3f1a67"
+    },
+    {
+      "path": "lectures/lecture_3/fig/index_USA.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08efa9a28adf7f65ea48a3f9e8735a110f62c9e2",
+      "size": 381032,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/08efa9a28adf7f65ea48a3f9e8735a110f62c9e2"
+    },
+    {
+      "path": "lectures/lecture_3/fig/noise.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f47720565bc63af81db420e7e9780ffdf8899842",
+      "size": 745245,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/f47720565bc63af81db420e7e9780ffdf8899842"
+    },
+    {
+      "path": "lectures/lecture_3/fig/var_example.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06992b79db6a04b776b70c892ce269ee699a3702",
+      "size": 476110,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/06992b79db6a04b776b70c892ce269ee699a3702"
+    },
+    {
+      "path": "lectures/lecture_3/lecture3.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bda0c67f95d44a68dc1f05350080ed282547493b",
+      "size": 2553851,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/bda0c67f95d44a68dc1f05350080ed282547493b"
+    },
+    {
+      "path": "lectures/lecture_3/lecture3.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51ae4a237acc803eeffcbb61cfe53547483d5dd2",
+      "size": 17688,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/51ae4a237acc803eeffcbb61cfe53547483d5dd2"
+    },
+    {
+      "path": "lectures/lecture_4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35de831ac39494c446fcce2908058ab55cfff151",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/35de831ac39494c446fcce2908058ab55cfff151"
+    },
+    {
+      "path": "lectures/lecture_4/figs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd6d7500351003436fac6d6ed3ef999430ee0732",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/dd6d7500351003436fac6d6ed3ef999430ee0732"
+    },
+    {
+      "path": "lectures/lecture_4/figs/2d_case.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71b9f099abaedb7cdecd7e8591a913f6136b22ff",
+      "size": 43871,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/71b9f099abaedb7cdecd7e8591a913f6136b22ff"
+    },
+    {
+      "path": "lectures/lecture_4/figs/CCM-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b932f6ad63e303c13b90ccce0e9612ecbdafff4e",
+      "size": 273947,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/b932f6ad63e303c13b90ccce0e9612ecbdafff4e"
+    },
+    {
+      "path": "lectures/lecture_4/figs/CCM.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "757bc3d6fc2cf78aadba3d55af7c40fc2b93e4ba",
+      "size": 35446,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/757bc3d6fc2cf78aadba3d55af7c40fc2b93e4ba"
+    },
+    {
+      "path": "lectures/lecture_4/figs/DS-1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea7302b259154aaec020622d2513af29d166a1c1",
+      "size": 210598,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/ea7302b259154aaec020622d2513af29d166a1c1"
+    },
+    {
+      "path": "lectures/lecture_4/figs/example-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8c7011611bfa60b949525e70ab1b47121fc91d7",
+      "size": 85084,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/d8c7011611bfa60b949525e70ab1b47121fc91d7"
+    },
+    {
+      "path": "lectures/lecture_4/figs/example-2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f29b76febddc625cacf35b2e26fc82e3d6cdfc37",
+      "size": 643450,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/f29b76febddc625cacf35b2e26fc82e3d6cdfc37"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d897943202b4b909ac282f3542059649f03e0845",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/d897943202b4b909ac282f3542059649f03e0845"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-0.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eda8cfbf1a0ddf434cc2b9a35808a1c50296964c",
+      "size": 25435,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/eda8cfbf1a0ddf434cc2b9a35808a1c50296964c"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2f6e0592528c3db4393c6ebbae91b03c16795e8",
+      "size": 55407,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/c2f6e0592528c3db4393c6ebbae91b03c16795e8"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-10.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42940da0d45e6dc994d4061c096d18a066631174",
+      "size": 60998,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/42940da0d45e6dc994d4061c096d18a066631174"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-11.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9616d411444a643502c0b2b46155723c86810c4",
+      "size": 61287,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/e9616d411444a643502c0b2b46155723c86810c4"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-12.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "130633a1608164ddb46b38d3bcc511cee87e0b09",
+      "size": 62197,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/130633a1608164ddb46b38d3bcc511cee87e0b09"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-13.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8552bb009f0c1051368a19d9d78eecdffe5c35f0",
+      "size": 62533,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/8552bb009f0c1051368a19d9d78eecdffe5c35f0"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-14.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c88e13e662387fe7e662ee69e3353bf970610cc",
+      "size": 61973,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/8c88e13e662387fe7e662ee69e3353bf970610cc"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-15.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d5c156ee6bd74235e8197c169ca4963fa5c0d49",
+      "size": 62561,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/9d5c156ee6bd74235e8197c169ca4963fa5c0d49"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54935dad3ce8ade1b87ef0c177927de4400a4468",
+      "size": 62616,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/54935dad3ce8ade1b87ef0c177927de4400a4468"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-17.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89d833723517cf9a2bdc98e2c9a5c1756c3cabc4",
+      "size": 63054,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/89d833723517cf9a2bdc98e2c9a5c1756c3cabc4"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-18.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95fc6266cb75cd3c08db36c38d72e6d5e83d2281",
+      "size": 63999,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/95fc6266cb75cd3c08db36c38d72e6d5e83d2281"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-19.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "518ff6c6cb471e182ab4caac8beab0454c5c9388",
+      "size": 64186,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/518ff6c6cb471e182ab4caac8beab0454c5c9388"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a30e1cd7615b46a3746e74e930771df1adc0ecd",
+      "size": 55052,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/8a30e1cd7615b46a3746e74e930771df1adc0ecd"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-20.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ece9f70432e7a5750f597c0beef105178029bb3",
+      "size": 64866,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/3ece9f70432e7a5750f597c0beef105178029bb3"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-21.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a71000d9dc5f0d15575cbfb9f85fbf98e0d4fa56",
+      "size": 65095,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/a71000d9dc5f0d15575cbfb9f85fbf98e0d4fa56"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-22.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe6538756521b31844f16141ca1919a6822d536d",
+      "size": 65788,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/fe6538756521b31844f16141ca1919a6822d536d"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-23.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9166b55c51f33e5c47896668a99218f394045a5f",
+      "size": 66167,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/9166b55c51f33e5c47896668a99218f394045a5f"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-24.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2b0f4de9ba1c00a049388760ab84e5746b4ed18",
+      "size": 66701,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/b2b0f4de9ba1c00a049388760ab84e5746b4ed18"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-25.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35251afdbd6cc7c3e87a9355410481297091e65e",
+      "size": 66726,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/35251afdbd6cc7c3e87a9355410481297091e65e"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-26.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f990b81023b3545db8ea26d780acae8380346b97",
+      "size": 66549,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/f990b81023b3545db8ea26d780acae8380346b97"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-27.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50724959833ba813d69eec93fee9a68730598660",
+      "size": 66460,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/50724959833ba813d69eec93fee9a68730598660"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-28.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c425fd2aac51c21b56163485a7c5f941bb61a1e5",
+      "size": 67712,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/c425fd2aac51c21b56163485a7c5f941bb61a1e5"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-29.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8c43e560037192fc24b98083a759772c04ff10b",
+      "size": 66867,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/b8c43e560037192fc24b98083a759772c04ff10b"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d81a4623dd89e3f9b3b63ce7f43c5965b4d3e6ff",
+      "size": 55476,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/d81a4623dd89e3f9b3b63ce7f43c5965b4d3e6ff"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-30.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d3c3b24aa77b232f13c119f31180a60c9a9bed1",
+      "size": 68453,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/4d3c3b24aa77b232f13c119f31180a60c9a9bed1"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-31.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaeda1c547ce3964ea84a61b4334228fe59fc164",
+      "size": 68917,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/eaeda1c547ce3964ea84a61b4334228fe59fc164"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "587ed4e57f3559728449902050b74051d21c73bf",
+      "size": 69251,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/587ed4e57f3559728449902050b74051d21c73bf"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-33.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ce10b60d3c6bd5e09cc1acb861d3fe61e0b44c8",
+      "size": 69522,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/0ce10b60d3c6bd5e09cc1acb861d3fe61e0b44c8"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-34.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "061ba773f7103ccddcde646115e887436c224c18",
+      "size": 69890,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/061ba773f7103ccddcde646115e887436c224c18"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-35.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b15cd2e217042cf602d50ec7e081bec7d1de56e6",
+      "size": 70039,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/b15cd2e217042cf602d50ec7e081bec7d1de56e6"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-36.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80956512ac9efd5fa0faceb25160075d5411c95f",
+      "size": 70753,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/80956512ac9efd5fa0faceb25160075d5411c95f"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-37.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d40960087daa8a0ba3cb4a76510eb2db3432771",
+      "size": 71384,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/0d40960087daa8a0ba3cb4a76510eb2db3432771"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-38.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cf2bdae4bc2949b851cbeeac14df6e4b28c2124",
+      "size": 71083,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/1cf2bdae4bc2949b851cbeeac14df6e4b28c2124"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0159de042eef89d804c1d302f409901b0f93e7b6",
+      "size": 55429,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/0159de042eef89d804c1d302f409901b0f93e7b6"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "197eac00422ab6257cdabde5d24dfd637ff87b74",
+      "size": 56422,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/197eac00422ab6257cdabde5d24dfd637ff87b74"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-6.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62fc5234bb97846e5c149bc6e9209b836f9cfc06",
+      "size": 57113,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/62fc5234bb97846e5c149bc6e9209b836f9cfc06"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-7.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6446cfdeea0478c79af0934766f9a013004376a",
+      "size": 58448,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/f6446cfdeea0478c79af0934766f9a013004376a"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-8.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8baa5fe31e77d66657a4df399acff8406c02db2a",
+      "size": 58935,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/8baa5fe31e77d66657a4df399acff8406c02db2a"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_1/frame-9.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e785ab8ac9a7b25b2c9b4e837f532f0965a67fdb",
+      "size": 59185,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/e785ab8ac9a7b25b2c9b4e837f532f0965a67fdb"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "560012c9d0b9252c467ed1bc4383d8a8e1003837",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/560012c9d0b9252c467ed1bc4383d8a8e1003837"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-0.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee48d12db0a63fd24e2f90446441558bb4e40cc0",
+      "size": 40186,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/ee48d12db0a63fd24e2f90446441558bb4e40cc0"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "521ffb6477ba8fc74b4c7ee7b9ecd5b4ca4c56e8",
+      "size": 99460,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/521ffb6477ba8fc74b4c7ee7b9ecd5b4ca4c56e8"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-10.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "121efb835c45ba7dd49556aa8a750a4195d5a637",
+      "size": 107361,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/121efb835c45ba7dd49556aa8a750a4195d5a637"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-11.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9c57a44df0617a6097c0c989352342df8ffc901",
+      "size": 108249,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/b9c57a44df0617a6097c0c989352342df8ffc901"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-12.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3804ee3a17b9fa06105abfae8ba7a08b31780f0d",
+      "size": 110878,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/3804ee3a17b9fa06105abfae8ba7a08b31780f0d"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-13.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f62189606669905471dbd5b87f2757f054402d4c",
+      "size": 112289,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/f62189606669905471dbd5b87f2757f054402d4c"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-14.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f025f319cf44d97fecde6edcfe0aa5fcbe979117",
+      "size": 113124,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/f025f319cf44d97fecde6edcfe0aa5fcbe979117"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-15.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32ddedcc09e983eba1eb11127af6aed050c68696",
+      "size": 112525,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/32ddedcc09e983eba1eb11127af6aed050c68696"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9924a8b4f03cc21a6c9f67a74db20f1a1bd4a102",
+      "size": 111898,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/9924a8b4f03cc21a6c9f67a74db20f1a1bd4a102"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-17.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e4d2b4aab386e30a3061618ee53f6a6c3db641a",
+      "size": 112280,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/2e4d2b4aab386e30a3061618ee53f6a6c3db641a"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-18.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16d595b639e178cc3212be71365698f70ca09464",
+      "size": 110549,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/16d595b639e178cc3212be71365698f70ca09464"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-19.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "344cdd41580068837cb92e600f95b912b9b0d016",
+      "size": 112114,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/344cdd41580068837cb92e600f95b912b9b0d016"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22bf4ae2a3169d78035de157a819ddf1683aff16",
+      "size": 103466,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/22bf4ae2a3169d78035de157a819ddf1683aff16"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-20.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f403be27619ba71f53709e71ac8cf4c95e11172",
+      "size": 112556,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/6f403be27619ba71f53709e71ac8cf4c95e11172"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-21.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61bfb29d19badb1b78f2e3521f5c3163cf2af4ae",
+      "size": 113386,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/61bfb29d19badb1b78f2e3521f5c3163cf2af4ae"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-22.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c51f01a9288ec0c61b3586ccc8635e57dbd1976",
+      "size": 115082,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/3c51f01a9288ec0c61b3586ccc8635e57dbd1976"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-23.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3cb43d723ca7b2d8e12ac7419160c71c2e1ef48",
+      "size": 114895,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/b3cb43d723ca7b2d8e12ac7419160c71c2e1ef48"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-24.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c696e405c2a735f7f5abf2c569d7c991b6658cf",
+      "size": 112192,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/3c696e405c2a735f7f5abf2c569d7c991b6658cf"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-25.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "398cc08b85475fb6f6ae6274f733595eaf4a0fe5",
+      "size": 114869,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/398cc08b85475fb6f6ae6274f733595eaf4a0fe5"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-26.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccab060fd6158042c33947d12bb7acef202e4bcc",
+      "size": 114730,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/ccab060fd6158042c33947d12bb7acef202e4bcc"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-27.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bedb70eb0ddbc6e8a958b8bb96047ed26b3d36f",
+      "size": 115062,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/6bedb70eb0ddbc6e8a958b8bb96047ed26b3d36f"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-28.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54e2008f6f6950a446d114bfa00b71c60f948059",
+      "size": 115861,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/54e2008f6f6950a446d114bfa00b71c60f948059"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-29.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bf201972832082a2b453b40f7f4be5acd592052",
+      "size": 115656,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/6bf201972832082a2b453b40f7f4be5acd592052"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "211b0bb513076d128126aa790f5a493aebd275b8",
+      "size": 104188,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/211b0bb513076d128126aa790f5a493aebd275b8"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-30.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa1dd59b8821a0e6b50a42eb2bdc125f69802a8c",
+      "size": 111177,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/fa1dd59b8821a0e6b50a42eb2bdc125f69802a8c"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-31.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b0d1220c9d045df5b78ffa5337a59165ec478a4",
+      "size": 116305,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/7b0d1220c9d045df5b78ffa5337a59165ec478a4"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d37a8345138b0fb0cbe7457d33a7be6b8e389361",
+      "size": 116409,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/d37a8345138b0fb0cbe7457d33a7be6b8e389361"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-33.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "403845e055c80ba16e120c3c8d2eb7ba65967981",
+      "size": 116114,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/403845e055c80ba16e120c3c8d2eb7ba65967981"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-34.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "318a2ccf6d6d537e3573bcd86188a806d5ac7d1f",
+      "size": 113608,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/318a2ccf6d6d537e3573bcd86188a806d5ac7d1f"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-35.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc3cfce104e195c75aca34efcac22990b283edcf",
+      "size": 113594,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/fc3cfce104e195c75aca34efcac22990b283edcf"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-36.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64832e3066d11bbc23f61087159d15e5fb0b474a",
+      "size": 118451,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/64832e3066d11bbc23f61087159d15e5fb0b474a"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-37.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9409ccb41fc24816e962281335bf58481b1a516b",
+      "size": 117976,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/9409ccb41fc24816e962281335bf58481b1a516b"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-38.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d4142e2d791d5ac16d8268abf5d532f9a504e57",
+      "size": 115749,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/1d4142e2d791d5ac16d8268abf5d532f9a504e57"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-39.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03d59fb185456ad0d41a28b9434ec93861222cc1",
+      "size": 116323,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/03d59fb185456ad0d41a28b9434ec93861222cc1"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbbf5c149716ded4d48bf4b45a191ce85cbbd069",
+      "size": 104331,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/fbbf5c149716ded4d48bf4b45a191ce85cbbd069"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e32b19acd5ffb5169082319d8062dc6e80d4842",
+      "size": 103341,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/6e32b19acd5ffb5169082319d8062dc6e80d4842"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-6.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "739380a88acd3cd3400fe62d672cf93938176a9e",
+      "size": 105217,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/739380a88acd3cd3400fe62d672cf93938176a9e"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-7.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6548b400d9bbe2733ba9cc89b4e98fd2b84d0107",
+      "size": 105969,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/6548b400d9bbe2733ba9cc89b4e98fd2b84d0107"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-8.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aad97a5601c0ef8b9233a9e842995493ab07d023",
+      "size": 106088,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/aad97a5601c0ef8b9233a9e842995493ab07d023"
+    },
+    {
+      "path": "lectures/lecture_4/figs/gif_2/frame-9.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b827281deddb7aebe2fec574ced91feeef25a3ed",
+      "size": 107729,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/b827281deddb7aebe2fec574ced91feeef25a3ed"
+    },
+    {
+      "path": "lectures/lecture_4/figs/init_diagram.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5c58946ab644458fed179b25b3f270cc705cce8",
+      "size": 27133,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/e5c58946ab644458fed179b25b3f270cc705cce8"
+    },
+    {
+      "path": "lectures/lecture_4/figs/init_schema_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08ccc4278613b9e94edf639a3f647330a9693cc8",
+      "size": 1438155,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/08ccc4278613b9e94edf639a3f647330a9693cc8"
+    },
+    {
+      "path": "lectures/lecture_4/figs/nn_problem.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "980cc7831cec79282ad2855adb302a6fe52e3636",
+      "size": 42242,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/980cc7831cec79282ad2855adb302a6fe52e3636"
+    },
+    {
+      "path": "lectures/lecture_4/figs/tde_lorenz_tau_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "043f124d6b3cff227ad42af97073c1ee31c2a4d7",
+      "size": 22659,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/043f124d6b3cff227ad42af97073c1ee31c2a4d7"
+    },
+    {
+      "path": "lectures/lecture_4/figs/tde_lorenz_tau_10.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6db1981a8c00607e9664b129f7d1814be7eaba6",
+      "size": 37608,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/f6db1981a8c00607e9664b129f7d1814be7eaba6"
+    },
+    {
+      "path": "lectures/lecture_4/figs/tde_lorenz_tau_20.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cff1c092aae9c9ed37db0d2b9538074e28e0657f",
+      "size": 38214,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/cff1c092aae9c9ed37db0d2b9538074e28e0657f"
+    },
+    {
+      "path": "lectures/lecture_4/figs/tde_lorenz_tau_50.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "666310c65603b06c282e17b0c196dfe616e1bee8",
+      "size": 37739,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/666310c65603b06c282e17b0c196dfe616e1bee8"
+    },
+    {
+      "path": "lectures/lecture_4/lecture4.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09857a995d99e4cff0da1061d3f43d51fa36f618",
+      "size": 8488899,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/09857a995d99e4cff0da1061d3f43d51fa36f618"
+    },
+    {
+      "path": "lectures/lecture_4/lecture4.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "768a87650119955e6427ccc30fd7ca072f5b2304",
+      "size": 20969,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/768a87650119955e6427ccc30fd7ca072f5b2304"
+    },
+    {
+      "path": "lectures/lecture_5",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5fd6d00a9558cc3fb4ab424b5a952fa8452c74c0",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/5fd6d00a9558cc3fb4ab424b5a952fa8452c74c0"
+    },
+    {
+      "path": "lectures/lecture_5/figs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5fd2598efadd7b415c3247e6d2c33f98491c7018",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/5fd2598efadd7b415c3247e6d2c33f98491c7018"
+    },
+    {
+      "path": "lectures/lecture_5/figs/fourier_series_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c69b24041f6fb8936f37590bee67d07e02a9fa5",
+      "size": 847875,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/1c69b24041f6fb8936f37590bee67d07e02a9fa5"
+    },
+    {
+      "path": "lectures/lecture_5/lecture5.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ada9703fb339898958d4bbfc732ef26df8a3d67",
+      "size": 1162233,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/3ada9703fb339898958d4bbfc732ef26df8a3d67"
+    },
+    {
+      "path": "lectures/lecture_5/lecture_5.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c438488430825290075e201680fa6774ed1739b",
+      "size": 17400,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/7c438488430825290075e201680fa6774ed1739b"
+    },
+    {
+      "path": "lectures/lecture_7",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "942eac2fda10a1e0d9f9138ea9479cb1424af97f",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/942eac2fda10a1e0d9f9138ea9479cb1424af97f"
+    },
+    {
+      "path": "lectures/lecture_7/figs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a5191b3f0a8ba334450674941c712a9ed6b1d430",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/a5191b3f0a8ba334450674941c712a9ed6b1d430"
+    },
+    {
+      "path": "lectures/lecture_7/figs/DBA_1_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aea733694e1f8fdfaa779e43a3353add1a4b488",
+      "size": 686574,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/4aea733694e1f8fdfaa779e43a3353add1a4b488"
+    },
+    {
+      "path": "lectures/lecture_7/figs/DBA_3_4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "507f72c27275987547e041fdd2d760d50c08e5cc",
+      "size": 686890,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/507f72c27275987547e041fdd2d760d50c08e5cc"
+    },
+    {
+      "path": "lectures/lecture_7/figs/cluster_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2419ce75e8b2d69fe3375eb32cb9a1acd2c6e645",
+      "size": 1033685,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/2419ce75e8b2d69fe3375eb32cb9a1acd2c6e645"
+    },
+    {
+      "path": "lectures/lecture_7/figs/cluster_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccdf8f9574118199ef6d21da24a64dab22cad444",
+      "size": 1104854,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/ccdf8f9574118199ef6d21da24a64dab22cad444"
+    },
+    {
+      "path": "lectures/lecture_7/figs/dtw_transitions.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c79e405c2b4296527ce42f895790318c4cabc61",
+      "size": 566439,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/2c79e405c2b4296527ce42f895790318c4cabc61"
+    },
+    {
+      "path": "lectures/lecture_7/figs/dtw_vs_euc.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad8820e3554acd3323ff16eabef028229c8a31b",
+      "size": 241623,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/fad8820e3554acd3323ff16eabef028229c8a31b"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4dd5a010e7c3fcbd276a7c308fc6616cafff0e6",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/b4dd5a010e7c3fcbd276a7c308fc6616cafff0e6"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00010.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "969a054017bda64451c1a5fc7e3d025b5f8a7c20",
+      "size": 324821,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/969a054017bda64451c1a5fc7e3d025b5f8a7c20"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00011.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95e40d0c42d27c66ab0e6c702f5077028eff5830",
+      "size": 314441,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/95e40d0c42d27c66ab0e6c702f5077028eff5830"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00012.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "104991422f4cdb8a0c648e5dc8a468e4e31f2b4d",
+      "size": 314898,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/104991422f4cdb8a0c648e5dc8a468e4e31f2b4d"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00013.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e2d4d351880212aec2f490560083506c93dc6c6",
+      "size": 310624,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/9e2d4d351880212aec2f490560083506c93dc6c6"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00014.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27f2c0e2c7503a79ab3e82438c114a2a1ef6fa04",
+      "size": 309219,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/27f2c0e2c7503a79ab3e82438c114a2a1ef6fa04"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00015.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51e601709f608b0ef7b4e6225769eabd1d907762",
+      "size": 307172,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/51e601709f608b0ef7b4e6225769eabd1d907762"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00016.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f910093ba63568e805c359acf2cfea33c3777f96",
+      "size": 307465,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/f910093ba63568e805c359acf2cfea33c3777f96"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00017.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eb320504e7070e4841cd9d80d7881fc6d4deea6",
+      "size": 298827,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/3eb320504e7070e4841cd9d80d7881fc6d4deea6"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00018.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c46bc2d5d9fd58409ec8bdd0cfc2b50d2e879997",
+      "size": 299353,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/c46bc2d5d9fd58409ec8bdd0cfc2b50d2e879997"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00019.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bdb7f57a96d1f7c0ef244d7af1483c2641bc2b2",
+      "size": 298185,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/9bdb7f57a96d1f7c0ef244d7af1483c2641bc2b2"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00020.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88a505300e69a7a66090f996abb39d89725c4e3d",
+      "size": 296246,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/88a505300e69a7a66090f996abb39d89725c4e3d"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00021.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd3de1216bda431eca68beee92422da770efdd01",
+      "size": 291175,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/cd3de1216bda431eca68beee92422da770efdd01"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00022.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "977b76b8aa76de96d9f31b0282d047cfba41ec5f",
+      "size": 290670,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/977b76b8aa76de96d9f31b0282d047cfba41ec5f"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00023.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7322edd5bb012e8c0d996defdb1c7860514f6db5",
+      "size": 288036,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/7322edd5bb012e8c0d996defdb1c7860514f6db5"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00024.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "069165aca2734fc05968ad1d0d3b3ac1c8a1d5d7",
+      "size": 287112,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/069165aca2734fc05968ad1d0d3b3ac1c8a1d5d7"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00025.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2967f31bba1c15e6893352438ef522fb464c7307",
+      "size": 280970,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/2967f31bba1c15e6893352438ef522fb464c7307"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00026.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d771b589b111029a6c11a07db9a3252d228591a",
+      "size": 280961,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/4d771b589b111029a6c11a07db9a3252d228591a"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00027.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50889f7f47c691119271497dde17e24f41d3e3a6",
+      "size": 278503,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/50889f7f47c691119271497dde17e24f41d3e3a6"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00028.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1416ac8874baffaa657fb1bf1af6b282f373e85d",
+      "size": 277125,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/1416ac8874baffaa657fb1bf1af6b282f373e85d"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00029.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c854c4d7f28a89a423c188d8e185b9b39ac2e88",
+      "size": 274413,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/7c854c4d7f28a89a423c188d8e185b9b39ac2e88"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00030.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1562b3c0a6ffc6a89ecca30d925ee4f957202db9",
+      "size": 273589,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/1562b3c0a6ffc6a89ecca30d925ee4f957202db9"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00031.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e5f6757f8eb707eab33ff877c0825acb7d3cd22",
+      "size": 270541,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/4e5f6757f8eb707eab33ff877c0825acb7d3cd22"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00032.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc5b813e6104f2eac0fd165edeb221eded62a854",
+      "size": 268872,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/dc5b813e6104f2eac0fd165edeb221eded62a854"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00033.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f687d201951e804e9f0e8645bff743089d6ff2e5",
+      "size": 264522,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/f687d201951e804e9f0e8645bff743089d6ff2e5"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00034.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "034456aed2094d7a278d45ea7f0cd864baa10b68",
+      "size": 263534,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/034456aed2094d7a278d45ea7f0cd864baa10b68"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00035.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f467bebc038f10c655a922077c990d33534a301",
+      "size": 260962,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/9f467bebc038f10c655a922077c990d33534a301"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00036.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfe9bac401ff3078ee0b6bdca7e46e1bd64486cf",
+      "size": 256635,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/dfe9bac401ff3078ee0b6bdca7e46e1bd64486cf"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00037.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c0b1cf8af8e259a6f879f20a7095f3478410b35",
+      "size": 250316,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/5c0b1cf8af8e259a6f879f20a7095f3478410b35"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00038.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24d06cafd81ba271f14f3d85a0206eca04dcba46",
+      "size": 250348,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/24d06cafd81ba271f14f3d85a0206eca04dcba46"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00039.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71df16fea3f776cb4c1783ff67024abfae32fd3b",
+      "size": 241502,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/71df16fea3f776cb4c1783ff67024abfae32fd3b"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00040.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ace042f32887cf5d63aa5a3f646e1a636ccfe0a8",
+      "size": 239383,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/ace042f32887cf5d63aa5a3f646e1a636ccfe0a8"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00041.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd036748d10651e35cc69699dbf3a9a863ec4cf8",
+      "size": 234124,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/cd036748d10651e35cc69699dbf3a9a863ec4cf8"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00042.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "983a6ed4dcf6a889d75b269abf4b1fcf169fe306",
+      "size": 226370,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/983a6ed4dcf6a889d75b269abf4b1fcf169fe306"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00043.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b9a9c64912a2d8b30db4300409c49cf925d69ee",
+      "size": 218395,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/3b9a9c64912a2d8b30db4300409c49cf925d69ee"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00044.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8080c82a3317dbe3c93cae7a1e554c8eebb84901",
+      "size": 205360,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/8080c82a3317dbe3c93cae7a1e554c8eebb84901"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/00045.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fae43acc6dbabbe1875bcc32d1d36c9ba9eda5bc",
+      "size": 186435,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/fae43acc6dbabbe1875bcc32d1d36c9ba9eda5bc"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/0006.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "299f09413bce4749a7f483cbc41eddd805a94258",
+      "size": 379646,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/299f09413bce4749a7f483cbc41eddd805a94258"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/0007.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "703ca974d93e575dd27ee782767fea0f06c5b43c",
+      "size": 354829,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/703ca974d93e575dd27ee782767fea0f06c5b43c"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/0008.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e2f4fd97cece0cb2cb5966636eb85df59521f16",
+      "size": 344111,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/1e2f4fd97cece0cb2cb5966636eb85df59521f16"
+    },
+    {
+      "path": "lectures/lecture_7/figs/gif_1/0009.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef29f212df28b3be02abd7b5322c34908cfb5bd3",
+      "size": 326227,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/ef29f212df28b3be02abd7b5322c34908cfb5bd3"
+    },
+    {
+      "path": "lectures/lecture_7/figs/matrix_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28118dc7dfdfc4d707d20328dd331c38460a5bcc",
+      "size": 845219,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/28118dc7dfdfc4d707d20328dd331c38460a5bcc"
+    },
+    {
+      "path": "lectures/lecture_7/lecture7.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ca60379838be5738bccba8136d375dce93056d3",
+      "size": 21789,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/5ca60379838be5738bccba8136d375dce93056d3"
+    },
+    {
+      "path": "lectures/lecture_old4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f1384d7a009b377218447e48e23c304b11b18acc",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/f1384d7a009b377218447e48e23c304b11b18acc"
+    },
+    {
+      "path": "lectures/lecture_old4/figs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "858023693d401dda1601b56710105b21bf78dbf7",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/858023693d401dda1601b56710105b21bf78dbf7"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/CNN2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "539898080750409bc57585c2518805162f2dd9bc",
+      "size": 230886,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/539898080750409bc57585c2518805162f2dd9bc"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/CNNdilation.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0b155ca36b4aede912ac01509a06a9417f933ac",
+      "size": 151263,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/a0b155ca36b4aede912ac01509a06a9417f933ac"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/FC.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "376477c216c8e2a4674971e76c8c462fe87c68a1",
+      "size": 124627,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/376477c216c8e2a4674971e76c8c462fe87c68a1"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/FC2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0026656503cfc8b34eae60e28ca984248f2465b4",
+      "size": 146611,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/0026656503cfc8b34eae60e28ca984248f2465b4"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/GRU_LSTM.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cb01a20c450b987bd58beffadfefc85f8f77b3a",
+      "size": 199778,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/8cb01a20c450b987bd58beffadfefc85f8f77b3a"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/GRU_init.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63abfa9d1bdf4fa8f4a321f8baa3d7822062c546",
+      "size": 99482,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/63abfa9d1bdf4fa8f4a321f8baa3d7822062c546"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/GRU_main.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea80f7b1caf894c1c96b2f3808a9f1274554fa12",
+      "size": 194695,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/ea80f7b1caf894c1c96b2f3808a9f1274554fa12"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/LSTM.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0120476dbc850111d532974a5338fcc0c7b9e917",
+      "size": 337186,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/0120476dbc850111d532974a5338fcc0c7b9e917"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/LSTM2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca345ff24f500e97714a085bcf925fe80c5ded73",
+      "size": 467238,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/ca345ff24f500e97714a085bcf925fe80c5ded73"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/MLP_RNN.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f8476b4a01a53cbfeaf13c77213813dd8b44629",
+      "size": 138133,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/2f8476b4a01a53cbfeaf13c77213813dd8b44629"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/RNN.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79fe55358703db2a8c0b46b03c5518fc80ea9525",
+      "size": 202817,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/79fe55358703db2a8c0b46b03c5518fc80ea9525"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/RNN2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcb8d507989c35563539d1dc89e5fd9acdc32470",
+      "size": 229106,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/fcb8d507989c35563539d1dc89e5fd9acdc32470"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/RNN_simlp_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5989e6e407eecbef2d8e622086ac95e8200edb0",
+      "size": 140685,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/c5989e6e407eecbef2d8e622086ac95e8200edb0"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/RNN_simpl.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0210740df247e9405e93c72c4aa55e88316a560",
+      "size": 140183,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/a0210740df247e9405e93c72c4aa55e88316a560"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/RNN_stack.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c61e3bee90fe63627c8909267b25da425d46d9c1",
+      "size": 66857,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/c61e3bee90fe63627c8909267b25da425d46d9c1"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/Transformer.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "431333c9f69d68e6320096b9f174570f3a6df235",
+      "size": 342375,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/431333c9f69d68e6320096b9f174570f3a6df235"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/conv_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a2aa8c0491aff78819890eb5c180a7dec0d99e6",
+      "size": 57232,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/5a2aa8c0491aff78819890eb5c180a7dec0d99e6"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/conv_2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45a8667721250e7d4394d3f85046912320e2aa71",
+      "size": 48332,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/45a8667721250e7d4394d3f85046912320e2aa71"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/delaid_conv_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "590a8af63399af5daca275bfe68c6ebbf2916806",
+      "size": 31920,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/590a8af63399af5daca275bfe68c6ebbf2916806"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/ts_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48ef2ca134dd53a8f6aef3fdc0b0bf1634ab12b3",
+      "size": 10522,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/48ef2ca134dd53a8f6aef3fdc0b0bf1634ab12b3"
+    },
+    {
+      "path": "lectures/lecture_old4/figs/two_conv.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4dc7ce5496ea8b94f55c312cf9c39464d2911c1",
+      "size": 133614,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/b4dc7ce5496ea8b94f55c312cf9c39464d2911c1"
+    },
+    {
+      "path": "lectures/lecture_old4/lecture_old4.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc025e7ae19bf9556fc6cb896fa8e9d564a11f41",
+      "size": 4271,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/fc025e7ae19bf9556fc6cb896fa8e9d564a11f41"
+    },
+    {
+      "path": "lectures/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4398587f2c2eb6ad8b90bf68584dc47ecf78c31",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/f4398587f2c2eb6ad8b90bf68584dc47ecf78c31"
+    },
+    {
+      "path": "lectures/utils/newcommands.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9989a3aae8d26afa7e2e67f81521a55f64e589e4",
+      "size": 1714,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/9989a3aae8d26afa7e2e67f81521a55f64e589e4"
+    },
+    {
+      "path": "lectures/utils/preamble.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47f1254a754abbabae9b5c14bf4eb68a27babd06",
+      "size": 1368,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/47f1254a754abbabae9b5c14bf4eb68a27babd06"
+    },
+    {
+      "path": "lectures/utils/title.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "661c8bce2a844d32f594d5c5c26ee81b1eef405b",
+      "size": 287,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/661c8bce2a844d32f594d5c5c26ee81b1eef405b"
+    },
+    {
+      "path": "seminars",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cff098ffd4d4280a2042752b0d1d41149f96ba0e",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/cff098ffd4d4280a2042752b0d1d41149f96ba0e"
+    },
+    {
+      "path": "seminars/.ipynb_checkpoints",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0204be91839f3795b061e59e877068a5f06b8317",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/0204be91839f3795b061e59e877068a5f06b8317"
+    },
+    {
+      "path": "seminars/.ipynb_checkpoints/hw_tenscomp_tensor_als-checkpoint.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a4581e81d1415c521e36829f4aa4bfd32cea756",
+      "size": 20930,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/3a4581e81d1415c521e36829f4aa4bfd32cea756"
+    },
+    {
+      "path": "seminars/.ipynb_checkpoints/seminar12-checkpoint.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "564bdbcd38b7ebd772bc187cda263dfb965e7b71",
+      "size": 19775,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/564bdbcd38b7ebd772bc187cda263dfb965e7b71"
+    },
+    {
+      "path": "seminars/seminar1.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ad7e29be649e0fb3264ee79308b4bad44c8d051",
+      "size": 5696583,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/8ad7e29be649e0fb3264ee79308b4bad44c8d051"
+    },
+    {
+      "path": "seminars/seminar12.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df971339da5615ebbbb8f0d2845db7a86d4a9303",
+      "size": 26418,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/df971339da5615ebbbb8f0d2845db7a86d4a9303"
+    },
+    {
+      "path": "seminars/seminar8.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc5fb4afca76a97d14da70c728ccae54a8be3e21",
+      "size": 3297900,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/dc5fb4afca76a97d14da70c728ccae54a8be3e21"
+    },
+    {
+      "path": "sources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb72b931d4925c43dbe6f7b2adb8f1c31ef32909",
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/trees/bb72b931d4925c43dbe6f7b2adb8f1c31ef32909"
+    },
+    {
+      "path": "sources/Geometric Deep Learning.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "327d4c086a4649c2babee224ba740c52208929e8",
+      "size": 45092403,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/327d4c086a4649c2babee224ba740c52208929e8"
+    },
+    {
+      "path": "sources/Tensor Networks part 1.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5dc8ace6fa015ea8982d7b822edd20cae02b533",
+      "size": 6466890,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/b5dc8ace6fa015ea8982d7b822edd20cae02b533"
+    },
+    {
+      "path": "sources/Tensor Networks part 2.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18eb089772d9ad30703a7b75d3a84aa1687428c2",
+      "size": 5098221,
+      "url": "https://api.github.com/repos/intsystems/MathematicalForecastingMethods/git/blobs/18eb089772d9ad30703a7b75d3a84aa1687428c2"
+    }
+  ],
+  "truncated": false
+}

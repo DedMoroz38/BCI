@@ -1,0 +1,27 @@
+{
+  "best_epoch": 16,
+  "averaging_epochs": [
+    8,
+    9,
+    10,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "refit_epochs": 16,
+  "seconds": 23.112000061999993,
+  "parameters": 13731,
+  "config": {
+    "name": "early_and_filter",
+    "recipe": "early",
+    "family": "context",
+    "prior": 10,
+    "scope": "filter",
+    "early": true
+  },
+  "seed": 0
+}
